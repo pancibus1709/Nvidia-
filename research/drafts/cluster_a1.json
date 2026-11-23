@@ -71,10 +71,10 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
-              "ev_120106"
+              "ev_120111"
             ]
           }
         },
@@ -714,7 +714,7 @@
       ],
       "evidence": [
         "ev_120108",
-        "ev_120106"
+        "ev_120111"
       ]
     },
     {
@@ -1054,36 +1054,41 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "OpenAI 2026 funding round: Nvidia named for $30B",
-      "insight_template": "Nvidia committed to {counterparty}'s {dates.announced:year} round, yet neither company has disclosed how much Nvidia has actually paid in.",
+      "insight_template": "Nvidia committed {committed_total} to {counterparty}'s {dates.announced:year} round, yet neither company has disclosed how much Nvidia has actually paid in.",
       "definition": "On 2026-02-27 OpenAI announced $110B of new investment at a $730B pre-money valuation, including $30B from NVIDIA, under a Series C Preferred Stock Purchase Agreement dated the same day. OpenAI closed the round on 2026-03-31 with $122 billion of committed capital, anchored by Amazon, NVIDIA and SoftBank. Nvidia's own filings do not name the investment, its instrument, tranches or the amount paid.",
       "status": "definitive",
       "claim_basis": "company_announced",
       "amounts": {
         "headline": {
-          "value": null,
-          "as_of": null,
+          "value": 30000000000,
+          "as_of": "2026-02-27",
           "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": null,
-          "display_eligible": false,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
           "lower_bound": false,
-          "evidence": []
+          "evidence": [
+            "ev_120098"
+          ]
         },
         "committed_total": {
-          "value": null,
-          "as_of": null,
+          "value": 30000000000,
+          "as_of": "2026-03-31",
           "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": null,
-          "display_eligible": false,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
           "lower_bound": false,
-          "evidence": []
+          "evidence": [
+            "ev_120098"
+          ],
+          "note": "OpenAI names $30B from NVIDIA in the round it closed on 2026-03-31 with committed capital (ev_120015, ev_120017); Nvidia does not disclose it."
         },
         "funded": {
           "value": null,
@@ -1140,7 +1145,7 @@
         "wwr_reason": "Equity loss is capped at cost and moves with OpenAI's valuation and the AI demand cycle; the amount does not grow if OpenAI weakens.",
         "collateral": "None. Instrument: the round was documented as Series C preferred stock (ev_120032); Nvidia's own security is not stated.",
         "tenor": "Perpetual equity",
-        "notes": "Amount kept null on purpose: the only allowed source with the figure (OpenAI's release, ev_120098) writes it as $30B, which the grounding tool does not parse. Payment timing is unknown: SoftBank's parallel $30.0 billion was paid in three $10 billion tranches in April, July and October 2026 (ev_120103, ev_120104), but no source states Nvidia's schedule. Analysis: Nvidia's undisclosed equity commitments fell from $27 billion (April 2026) to $25 billion (July) and $20 billion (October), consistent with but not proof of tranche payments."
+        "notes": "Headline and committed rest on OpenAI's release only (tier 1, counterparty side); Nvidia has not named the deal. Funded is unknown. Payment timing is unknown: SoftBank's parallel $30.0 billion was paid in three $10 billion tranches in April, July and October 2026 (ev_120103, ev_120104), but no source states Nvidia's schedule. Analysis: Nvidia's undisclosed equity commitments fell from $27 billion (April 2026) to $25 billion (July) and $20 billion (October), consistent with but not proof of tranche payments."
       },
       "consequences": {
         "first_order": [
@@ -1260,15 +1265,15 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
-              "ev_120107"
+              "ev_120112"
             ],
             "note": "Microsoft's historical funding commitments, not its 2026 round amount"
           },
           "evidence": [
-            "ev_120107",
+            "ev_120112",
             "ev_120108",
             "ev_120017"
           ]
@@ -1294,10 +1299,10 @@
         "ev_120103",
         "ev_120104",
         "ev_120033",
-        "ev_120107",
+        "ev_120112",
         "ev_120108"
       ],
-      "notes": "Linked compute: OpenAI's release pairs the investment with 3 GW of dedicated inference capacity and 2 GW of training on Vera Rubin (ev_120105). Tier 2 (CNBC, citing the OpenAI release) says the investment is separate from the September 2025 letter of intent; needs quote. Headline, committed and funded left unknown, see credit notes."
+      "notes": "Linked compute: OpenAI's release pairs the investment with 3 GW of dedicated inference capacity and 2 GW of training on Vera Rubin (ev_120105). Tier 2 (CNBC, citing the OpenAI release) says the investment is separate from the September 2025 letter of intent; needs quote. Funded left unknown, see credit notes."
     },
     {
       "id": "rel_openai_gu_2026",
@@ -1309,7 +1314,7 @@
       ],
       "title": "Guaranties of OpenAI's PORTS-Pike leases from SB Energy, capped at $105 billion",
       "insight_template": "Nvidia guarantees {counterparty}'s rent at an Ohio campus up to {contingent_max}, so Nvidia must pay exactly when {counterparty} cannot.",
-      "definition": "On 2026-08-17 Nvidia entered into residual value guaranties with SB Energy, the lessor, covering about 4.25 GW of IT load leased for 20 years to an affiliate of OpenAI Group PBC at the PORTS-Pike campus in Ohio. Nvidia pays only if OpenAI's tenant defaults (insolvency or an uncured monetary default); each guaranty takes effect when its building is ready for service, the first expected in Nvidia's fiscal 2029, and the guaranteed amount declines as OpenAI pays rent. The aggregate cap is $105 billion; the guaranties end on OpenAI reaching a designated credit rating, at lease end, or after 20 years, and OpenAI must reimburse Nvidia. OpenAI's non-payment is the trigger, so the exposure is recorded against OpenAI; SB Energy is the beneficiary.",
+      "definition": "On 2026-08-17 Nvidia entered into residual value guaranties with SB Energy, the lessor, covering about 4.25 GW of IT load leased for 20 years to an affiliate of OpenAI Group PBC at the PORTS-Pike campus in Ohio. Nvidia pays only if OpenAI's tenant defaults (insolvency or an uncured monetary default); each guaranty takes effect when its building is ready for service, the first expected in Nvidia's fiscal 2029, and the guaranteed amount declines as OpenAI pays rent. The aggregate cap is $105 billion; the guaranties end on OpenAI reaching a designated credit rating, at lease end, or after 20 years, and OpenAI must reimburse Nvidia. The tenant is VELA I Holdings, LLC, whose parent OpenAI Global, LLC guarantees its obligations by joinder; OpenAI's non-payment is the trigger, so the exposure is recorded against OpenAI, and SB Energy's building subsidiaries are the beneficiaries.",
       "status": "definitive",
       "claim_basis": "filed",
       "amounts": {
@@ -1403,6 +1408,9 @@
         "counterparty_evidence": [
           "ev_120024",
           "ev_120022",
+          "ev_100001",
+          "ev_100008",
+          "ev_100009",
           "ev_40089",
           "ev_40090",
           "ev_40091",
@@ -1442,7 +1450,7 @@
       "credit": {
         "wwr": "specific",
         "wwr_reason": "Nvidia pays only when OpenAI cannot pay rent, so the exposure is drawn exactly as OpenAI's credit fails; SB Energy states OpenAI is not an investment-grade tenant.",
-        "collateral": "No security for Nvidia. On a trigger Nvidia may assume the tenancy, have the landlord re-let, or sell (ev_40096); recovery depends on reletting a campus purpose-built for Nvidia infrastructure. OpenAI's reimbursement and indemnity is an unsecured claim on the defaulted tenant (ev_30008, ev_120007).",
+        "collateral": "No security for Nvidia. The landlord must pursue the tenant parent concurrently (ev_100050) and Nvidia looks solely to the tenant and tenant parent for recoupment (ev_100003). On a trigger Nvidia may assume the tenancy, have the landlord re-let, or sell (ev_40096); recovery depends on reletting a campus purpose-built for Nvidia infrastructure. OpenAI's reimbursement and indemnity is an unsecured claim on the defaulted tenant (ev_30008, ev_120007).",
         "tenor": "Per building up to 20 years from lease commencement; leases commence in stages from 2028 to 2032, so the last guaranty can run into the early 2050s (analysis).",
         "notes": "Not effective yet: no building is ready for service; exposure builds building by building and then declines (ev_120009). The guaranties are limited to defined portions of lease and power payments (ev_120003). Nvidia's option on the remaining capacity is at its sole discretion and carries no stated amount."
       },
@@ -1616,9 +1624,23 @@
         "ev_40095",
         "ev_40096",
         "ev_40098",
-        "ev_40099"
+        "ev_40099",
+        "ev_100001",
+        "ev_100002",
+        "ev_100003",
+        "ev_100004",
+        "ev_100007",
+        "ev_100008",
+        "ev_100009",
+        "ev_100010",
+        "ev_100011",
+        "ev_100012",
+        "ev_100014",
+        "ev_100020",
+        "ev_100050",
+        "ev_100051"
       ],
-      "notes": "Coordinate with the vehicle cluster (SB Energy). Nvidia's separate $3.0 billion equity in SB Energy belongs to that cluster. Seniority recorded as guarantor. Dates: signed and filed 2026-08-17; effective left null because no guaranty is in force until the first building is ready for service, expected in fiscal 2029 (ev_120002, ev_30027); maturity left null because it differs per building (up to 20 years from each lease commencement). Tier 2 history: late July 2026 reports of talks on a backstop of up to $250 billion were cut to the signed $105 billion cap (needs quote, see R5 report)."
+      "notes": "Executed Building 1 guaranty and form: see research/reports/R5_cluster_de.md, Guaranty terms (ev_100001 to ev_100051): tenant VELA I Holdings, LLC (ev_100008), tenant parent OpenAI Global, LLC (ev_100009), letter agreement with OpenAI OpCo, LLC (ev_100010), guaranteed minimum value constant then declining (ev_100014), no covered project debt in place yet (ev_100020). Coordinate with the vehicle cluster (SB Energy). Nvidia's separate $3.0 billion equity in SB Energy belongs to that cluster. Seniority recorded as guarantor. Dates: signed and filed 2026-08-17; effective left null because no guaranty is in force until the first building is ready for service, expected in fiscal 2029 (ev_120002, ev_30027); maturity left null because it differs per building (up to 20 years from each lease commencement). Tier 2 history: late July 2026 reports of talks on a backstop of up to $250 billion were cut to the signed $105 billion cap (needs quote, see R5 report)."
     },
     {
       "id": "rel_anthropic_eqc_2025",
@@ -1827,7 +1849,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Anthropic IPO concurrent private placement: 120.5 million Class N shares for about $10.0 billion",
-      "insight_template": "Nvidia paid {funded} for {counterparty} shares at its listing price, so its largest lab stake now moves daily with the public market.",
+      "insight_template": "Nvidia paid {funded} for {counterparty} shares at its listing price, so the value of that stake now moves daily with the public market.",
       "definition": "Alongside Anthropic's IPO at $83.00 per share, Nvidia bought 120,481,927 shares of Class N common stock for about $10.0 billion in a private placement with Google, AMD, Broadcom, Micron, Microsoft and TSMC ($26.0 billion in total). The placement was contingent on the IPO and closed on 2026-11-20. The shares are restricted securities, not subject to underwriter lock-ups.",
       "status": "completed",
       "claim_basis": "filed",
