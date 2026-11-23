@@ -16,9 +16,11 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from . import edgar
-from .common import ROOT, doc_text
+from .common import ROOT, doc_text, html_to_text
 
-FORMS = ["10-K", "10-Q", "8-K", "S-1", "S-1/A", "F-1", "424B4", "424B5", "20-F", "6-K", "DEF 14A"]
+# Root forms: the search API matches amendments (S-1/A, 10-K/A ...) under their root form. Listing "S-1/A"
+# separately turns into an AND filter and silently drops almost every hit, so it is not listed.
+FORMS = ["10-K", "10-Q", "8-K", "S-1", "F-1", "424B4", "424B5", "20-F", "6-K", "DEF 14A"]
 QUERIES = {
     "Q1": [["NVIDIA", "backstop"]],
     "Q2": [["NVIDIA", "unused capacity"], ["NVIDIA", "unsold capacity"], ["NVIDIA", "residual capacity"]],
@@ -134,7 +136,8 @@ def run(only=None, start="2023-01-01", end=None, max_docs=None):
                         n_keep += 1
                         continue
                     try:
-                        text = doc_text(edgar.get(row["url"]))
+                        # read without caching; only documents that pass the window filter are kept on disk
+                        text = html_to_text(edgar.fetch_text(row["url"]))
                     except Exception as e:  # noqa: BLE001
                         n_err += 1
                         continue
@@ -142,6 +145,10 @@ def run(only=None, start="2023-01-01", end=None, max_docs=None):
                     if not win:
                         n_drop += 1
                         continue
+                    try:
+                        edgar.get(row["url"])
+                    except Exception:  # noqa: BLE001
+                        pass
                     rec = {"qid": qid, "query": q, **row, "names": row["names"][:2], "paragraph": win, "has_money": bool(MONEY.search(win))}
                     fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
                     fh.flush()
@@ -149,6 +156,9 @@ def run(only=None, start="2023-01-01", end=None, max_docs=None):
                     n_keep += 1
                 stats[q] = {"qid": qid, "hits": len(hits), "kept_within_50_words": n_keep, "dropped_outside_window": n_drop, "fetch_errors": n_err}
                 print(f"{qid} {q}: {len(hits)} hits, {n_keep} kept, {n_drop} outside window, {n_err} errors", flush=True)
+    global LOG
+    if only:
+        LOG = LOG.with_name("fulltext_log_" + "_".join(sorted(only)) + ".json")
     prev = json.loads(LOG.read_text()) if LOG.exists() else {"stats": {}, "log": []}
     prev["stats"].update(stats)
     prev["log"] += log

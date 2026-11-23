@@ -1,0 +1,121 @@
+
+2023-12-31  filed 2024-02-14  0001045810-24-000021  total $230,419,085
+   ARM HOLDINGS PLC                 042068205       1,960,784 sh  $     147,343,114
+   RECURSION PHARMACEUTICALS IN     75629V104       7,706,363 sh  $      75,984,739
+   SOUNDHOUND AI INC                836100107       1,730,883 sh  $       3,669,472
+   TUSIMPLE HLDGS INC               90089L108       3,465,372 sh  $       3,041,904
+   NANO X IMAGING LTD               M70700105          59,632 sh  $         379,856
+   EVENT {'kind': 'new_position', 'issuer': 'ARM HOLDINGS PLC', 'shares': 1960784.0, 'value': 147343114.0}
+   EVENT {'kind': 'new_position', 'issuer': 'NANO X IMAGING LTD', 'shares': 59632.0, 'value': 379856.0}
+   EVENT {'kind': 'new_position', 'issuer': 'RECURSION PHARMACEUTICALS IN', 'shares': 7706363.0, 'value': 75984739.0}
+   EVENT {'kind': 'new_position', 'issuer': 'SOUNDHOUND AI INC', 'shares': 1730883.0, 'value': 3669472.0}
+   EVENT {'kind': 'new_position', 'issuer': 'TUSIMPLE HLDGS INC', 'shares': 3465372.0, 'value': 3041904.0}
+
+2024-03-31  filed 2024-05-15  0001045810-24-000108  total $332,688,337
+   ARM HOLDINGS PLC                 042068205       1,960,784 sh  $     245,078,392
+   RECURSION PHARMACEUTICALS IN     75629V104       7,706,363 sh  $      76,832,439
+   SOUNDHOUND AI INC                836100107       1,730,883 sh  $      10,194,901
+   NANO X IMAGING LTD               M70700105          59,632 sh  $         582,605
+   EVENT {'kind': 'exit', 'issuer': 'TUSIMPLE HLDGS INC', 'from_shares': 3465372.0}
+
+2024-06-30  filed 2024-08-14  0001045810-24-000256  total $393,163,602
+   ARM HOLDINGS PLC                 042068205       1,960,784 sh  $     320,823,478
+   RECURSION PHARMACEUTICALS IN     75629V104       7,706,363 sh  $      57,797,723
+   SERVE ROBOTICS INC               81758H106       3,727,033 sh  $       7,267,714
+   SOUNDHOUND AI INC                836100107       1,730,883 sh  $       6,836,988
+   NANO X IMAGING LTD               M70700105          59,632 sh  $         437,699
+   EVENT {'kind': 'new_position', 'issuer': 'SERVE ROBOTICS INC', 'shares': 3727033.0, 'value': 7267714.0}
+
+2024-09-30  filed 2024-11-14  0001045810-24-000305  total $432,912,455
+   ARM HOLDINGS PLC                 042068205       1,960,784 sh  $     280,411,720
+   APPLIED DIGITAL CORP             038169207       7,716,050 sh  $      63,657,413
+   RECURSION PHARMACEUTICALS IN     75629V104       7,706,363 sh  $      50,784,932
+   SERVE ROBOTICS INC               81758H106       3,727,033 sh  $      29,629,912
+   SOUNDHOUND AI INC                836100107       1,730,883 sh  $       8,065,915
+   NANO X IMAGING LTD               M70700105          59,632 sh  $         362,563
+   EVENT {'kind': 'new_position', 'issuer': 'APPLIED DIGITAL CORP', 'shares': 7716050.0, 'value': 63657413.0}
+
+2024-12-31  filed 2025-02-14  0001045810-25-000013  total $304,524,721
+   ARM HOLDINGS PLC                 042068205       1,101,249 sh  $     135,850,077
+   APPLIED DIGITAL CORP             038169207       7,716,050 sh  $      58,950,622
+   RECURSION PHARMACEUTICALS IN     75629V104       7,706,363 sh  $      52,095,014
+   NEBIUS GROUP N.V.                N97284108       1,190,476 sh  $      32,976,185
+   WERIDE INC                       950915108       1,738,563 sh  $      24,652,823
+   EVENT {'kind': 'new_position', 'issuer': 'NEBIUS GROUP N.V.', 'shares': 1190476.0, 'value': 32976185.0}
+   EVENT {'kind': 'new_position', 'issuer': 'WERIDE INC', 'shares': 1738563.0, 'value': 24652823.0}
+   EVENT {'kind': 'exit', 'issuer': 'NANO X IMAGING LTD', 'from_shares': 59632.0}
+   EVENT {'kind': 'exit', 'issuer': 'SERVE ROBOTICS INC', 'from_shares': 3727033.0}
+   EVENT {'kind': 'exit', 'issuer': 'SOUNDHOUND AI INC', 'from_shares': 1730883.0}
+
+2025-03-31  filed 2025-05-15  0001045810-25-000102  total $1,147,142,107
+   COREWEAVE INC                    21873S108      24,182,460 sh  $     896,685,617
+   ARM HOLDINGS PLC                 042068205       1,101,249 sh  $     117,602,381
+   APPLIED DIGITAL CORP             038169207       7,716,050 sh  $      43,364,201
+   RECURSION PHARMACEUTICALS IN     75629V104       7,706,363 sh  $      40,766,660
+   NEBIUS GROUP N.V.                N97284108       1,190,476 sh  $      25,130,948
+   WERIDE INC                       950915108       1,738,563 sh  $      23,592,300
+   EVENT {'kind': 'new_position', 'issuer': 'COREWEAVE INC', 'shares': 24182460.0, 'value': 896685617.0}
+
+2025-06-30  filed 2025-08-14  0001045810-25-000199  total $4,333,080,800
+   COREWEAVE INC                    21873S108      24,277,573 sh  $   3,958,701,053
+   ARM HOLDINGS PLC                 042068205       1,101,249 sh  $     178,116,013
+   APPLIED DIGITAL CORP             038169207       7,716,050 sh  $      77,700,624
+   NEBIUS GROUP N.V.                N97284108       1,190,476 sh  $      65,869,037
+   RECURSION PHARMACEUTICALS IN     75629V104       7,706,363 sh  $      38,994,197
+   WERIDE INC                       950915108       1,738,563 sh  $      13,699,876
+
+2025-09-30  filed 2025-11-14  0001045810-25-000219  total $3,843,681,339
+   COREWEAVE INC                    21873S108      24,277,573 sh  $   3,322,385,865
+   APPLIED DIGITAL CORP             038169207       7,716,050 sh  $     177,006,187
+   ARM HOLDINGS PLC                 042068205       1,101,249 sh  $     155,815,721
+   NEBIUS GROUP N.V.                N97284108       1,190,476 sh  $     133,654,741
+   RECURSION PHARMACEUTICALS IN     75629V104       7,706,363 sh  $      37,607,051
+   WERIDE INC                       950915108       1,738,563 sh  $      17,211,774
+
+2025-12-31  filed 2026-02-17  0001045810-26-000011  total $13,104,819,528
+   INTEL CORP                       458140100     214,776,632 sh  $   7,925,257,721
+   SYNOPSYS INC                     871607107       4,821,717 sh  $   2,264,856,909
+   COREWEAVE INC                    21873S108      24,277,573 sh  $   1,738,517,003
+   NOKIA CORP                       654902204     166,389,351 sh  $   1,076,539,101
+   NEBIUS GROUP N.V.                N97284108       1,190,476 sh  $      99,648,794
+   EVENT {'kind': 'new_position', 'issuer': 'INTEL CORP', 'shares': 214776632.0, 'value': 7925257721.0}
+   EVENT {'kind': 'new_position', 'issuer': 'NOKIA CORP', 'shares': 166389351.0, 'value': 1076539101.0}
+   EVENT {'kind': 'new_position', 'issuer': 'SYNOPSYS INC', 'shares': 4821717.0, 'value': 2264856909.0}
+   EVENT {'kind': 'exit', 'issuer': 'APPLIED DIGITAL CORP', 'from_shares': 7716050.0}
+   EVENT {'kind': 'exit', 'issuer': 'ARM HOLDINGS PLC', 'from_shares': 1101249.0}
+   EVENT {'kind': 'exit', 'issuer': 'RECURSION PHARMACEUTICALS IN', 'from_shares': 7706363.0}
+   EVENT {'kind': 'exit', 'issuer': 'WERIDE INC', 'from_shares': 1738563.0}
+
+2026-03-31  filed 2026-05-15  0001045810-26-000042  total $18,374,354,150
+   INTEL CORP                       458140100     214,776,632 sh  $   9,478,092,770
+   COREWEAVE INC                    21873S108      47,213,353 sh  $   3,657,618,457
+   SYNOPSYS INC                     871607107       4,821,717 sh  $   1,911,714,356
+   COHERENT CORP                    19247G107       7,788,161 sh  $   1,855,217,832
+   NOKIA CORP                       654902204     166,389,351 sh  $   1,337,770,382
+   NEBIUS GROUP N.V.                N97284108       1,190,476 sh  $     123,523,790
+   GENERATE BIOMEDICINES INC        370920100         833,325 sh  $      10,416,563
+   EVENT {'kind': 'new_position', 'issuer': 'COHERENT CORP', 'shares': 7788161.0, 'value': 1855217832.0}
+   EVENT {'kind': 'position_changed', 'issuer': 'COREWEAVE INC', 'from_shares': 24277573.0, 'to_shares': 47213353.0}
+   EVENT {'kind': 'new_position', 'issuer': 'GENERATE BIOMEDICINES INC', 'shares': 833325.0, 'value': 10416563.0}
+
+2026-06-30  filed 2026-08-14  0001045810-26-000065  total $63,439,974,569
+   INTEL CORP                       458140100     214,776,632 sh  $  29,989,261,126
+   SPACE EXPLORATION TECHN CORP     84615Q103     122,764,805 sh  $  20,975,594,582
+   COREWEAVE INC                    21873S108      47,213,353 sh  $   4,699,617,158
+   COHERENT CORP                    19247G107       7,788,161 sh  $   3,072,195,870
+   NOKIA CORP                       654902204     166,389,351 sh  $   2,209,650,581
+   SYNOPSYS INC                     871607107       4,821,717 sh  $   2,150,823,302
+   NEBIUS GROUP N.V.                N97284108       1,190,476 sh  $     328,773,757
+   GENERATE BIOMEDICINES INC        370920100         833,325 sh  $      14,058,193
+   EVENT {'kind': 'new_position', 'issuer': 'SPACE EXPLORATION TECHN CORP', 'shares': 122764805.0, 'value': 20975594582.0}
+
+2026-09-30  filed 2026-11-16  0001045810-26-000084  total $48,330,717,074
+   SPACE EXPLORATION TECHN CORP     84615Q103     130,472,925 sh  $  19,683,145,466
+   INTEL CORP                       458140100     161,082,488 sh  $  19,366,947,532
+   COREWEAVE INC                    21873S108      47,213,353 sh  $   4,113,227,313
+   COHERENT CORP                    19247G107       7,788,161 sh  $   2,241,510,617
+   SYNOPSYS INC                     871607107       4,354,077 sh  $   1,893,762,250
+   NOKIA CORP                       654902204      72,859,751 sh  $     738,797,875
+   NEBIUS GROUP N.V.                N97284108       1,190,476 sh  $     280,809,479
+   GENERATE BIOMEDICINES INC        370920100         833,325 sh  $      12,516,542
+   EVENT {'kind': 'position_changed', 'issuer': 'NOKIA CORP', 'from_shares': 166389351.0, 'to_shares': 72859751.0}

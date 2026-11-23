@@ -4,3 +4,9 @@ __pycache__/
 research/cache/_api/
 research/cache/_tmp/
 .env
+# Cached sources are added selectively: only files cited by the register are committed (see pipeline/merge_evidence.py)
+research/cache/sec/
+research/cache/web/
+research/cache/news/
+research/evidence/*.log
+research/evidence/.lock

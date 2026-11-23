@@ -123,6 +123,26 @@ def get(url: str, max_age_hours: float | None = None, retries: int = 4) -> Path:
     raise last_err
 
 
+_mem: dict = {}
+
+
+def fetch_text(url: str) -> str:
+    """Fetch without writing to the cache (used by the full-text sweep to test a document before keeping it)."""
+    path = cache_path_for(url)
+    if path.exists():
+        return path.read_bytes().decode("utf-8", "replace")
+    if url in _mem:
+        return _mem[url]
+    _throttle()
+    r = requests.get(url, headers={"User-Agent": user_agent(), "Accept-Encoding": "gzip, deflate"}, timeout=90)
+    if r.status_code != 200:
+        raise RuntimeError(f"HTTP {r.status_code} for {url}")
+    if len(_mem) > 30:
+        _mem.clear()
+    _mem[url] = r.content.decode("utf-8", "replace")
+    return _mem[url]
+
+
 def meta_for(path) -> dict:
     p = Path(str(path) + ".meta.json")
     return json.loads(p.read_text()) if p.exists() else {}

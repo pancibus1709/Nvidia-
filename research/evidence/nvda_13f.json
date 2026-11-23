@@ -1,0 +1,943 @@
+[
+ {
+  "report_date": "2023-12-31",
+  "accession": "0001045810-24-000021",
+  "form": "13F-HR",
+  "filed": "2024-02-14",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000021/information_table.xml",
+  "cache_path": "research/cache/sec/1045810/000104581024000021/information_table.xml",
+  "total_value": 230419085.0,
+  "holdings": [
+   {
+    "issuer": "ARM HOLDINGS PLC",
+    "class": "SPONSORED ADR",
+    "cusip": "042068205",
+    "value": 147343114.0,
+    "shares": 1960784.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "RECURSION PHARMACEUTICALS IN",
+    "class": "CL A",
+    "cusip": "75629V104",
+    "value": 75984739.0,
+    "shares": 7706363.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "SOUNDHOUND AI INC",
+    "class": "CLASS A COM",
+    "cusip": "836100107",
+    "value": 3669472.0,
+    "shares": 1730883.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "TUSIMPLE HLDGS INC",
+    "class": "CL A",
+    "cusip": "90089L108",
+    "value": 3041904.0,
+    "shares": 3465372.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NANO X IMAGING LTD",
+    "class": "ORD SHS",
+    "cusip": "M70700105",
+    "value": 379856.0,
+    "shares": 59632.0,
+    "share_type": "SH",
+    "put_call": null
+   }
+  ],
+  "events": [
+   {
+    "kind": "new_position",
+    "issuer": "ARM HOLDINGS PLC",
+    "shares": 1960784.0,
+    "value": 147343114.0
+   },
+   {
+    "kind": "new_position",
+    "issuer": "NANO X IMAGING LTD",
+    "shares": 59632.0,
+    "value": 379856.0
+   },
+   {
+    "kind": "new_position",
+    "issuer": "RECURSION PHARMACEUTICALS IN",
+    "shares": 7706363.0,
+    "value": 75984739.0
+   },
+   {
+    "kind": "new_position",
+    "issuer": "SOUNDHOUND AI INC",
+    "shares": 1730883.0,
+    "value": 3669472.0
+   },
+   {
+    "kind": "new_position",
+    "issuer": "TUSIMPLE HLDGS INC",
+    "shares": 3465372.0,
+    "value": 3041904.0
+   }
+  ]
+ },
+ {
+  "report_date": "2024-03-31",
+  "accession": "0001045810-24-000108",
+  "form": "13F-HR",
+  "filed": "2024-05-15",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000108/information_table.xml",
+  "cache_path": "research/cache/sec/1045810/000104581024000108/information_table.xml",
+  "total_value": 332688337.0,
+  "holdings": [
+   {
+    "issuer": "ARM HOLDINGS PLC",
+    "class": "SPONSORED ADR",
+    "cusip": "042068205",
+    "value": 245078392.0,
+    "shares": 1960784.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "RECURSION PHARMACEUTICALS IN",
+    "class": "CL A",
+    "cusip": "75629V104",
+    "value": 76832439.0,
+    "shares": 7706363.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "SOUNDHOUND AI INC",
+    "class": "CLASS A COM",
+    "cusip": "836100107",
+    "value": 10194901.0,
+    "shares": 1730883.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NANO X IMAGING LTD",
+    "class": "ORD SHS",
+    "cusip": "M70700105",
+    "value": 582605.0,
+    "shares": 59632.0,
+    "share_type": "SH",
+    "put_call": null
+   }
+  ],
+  "events": [
+   {
+    "kind": "exit",
+    "issuer": "TUSIMPLE HLDGS INC",
+    "from_shares": 3465372.0
+   }
+  ]
+ },
+ {
+  "report_date": "2024-06-30",
+  "accession": "0001045810-24-000256",
+  "form": "13F-HR",
+  "filed": "2024-08-14",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000256/information_table.xml",
+  "cache_path": "research/cache/sec/1045810/000104581024000256/information_table.xml",
+  "total_value": 393163602.0,
+  "holdings": [
+   {
+    "issuer": "ARM HOLDINGS PLC",
+    "class": "SPONSORED ADR",
+    "cusip": "042068205",
+    "value": 320823478.0,
+    "shares": 1960784.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "RECURSION PHARMACEUTICALS IN",
+    "class": "CL A",
+    "cusip": "75629V104",
+    "value": 57797723.0,
+    "shares": 7706363.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "SERVE ROBOTICS INC",
+    "class": "COM",
+    "cusip": "81758H106",
+    "value": 7267714.0,
+    "shares": 3727033.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "SOUNDHOUND AI INC",
+    "class": "CLASS A COM",
+    "cusip": "836100107",
+    "value": 6836988.0,
+    "shares": 1730883.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NANO X IMAGING LTD",
+    "class": "ORD SHS",
+    "cusip": "M70700105",
+    "value": 437699.0,
+    "shares": 59632.0,
+    "share_type": "SH",
+    "put_call": null
+   }
+  ],
+  "events": [
+   {
+    "kind": "new_position",
+    "issuer": "SERVE ROBOTICS INC",
+    "shares": 3727033.0,
+    "value": 7267714.0
+   }
+  ]
+ },
+ {
+  "report_date": "2024-09-30",
+  "accession": "0001045810-24-000305",
+  "form": "13F-HR",
+  "filed": "2024-11-14",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000305/information_table.xml",
+  "cache_path": "research/cache/sec/1045810/000104581024000305/information_table.xml",
+  "total_value": 432912455.0,
+  "holdings": [
+   {
+    "issuer": "ARM HOLDINGS PLC",
+    "class": "SPONSORED ADR",
+    "cusip": "042068205",
+    "value": 280411720.0,
+    "shares": 1960784.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "APPLIED DIGITAL CORP",
+    "class": "COM NEW",
+    "cusip": "038169207",
+    "value": 63657413.0,
+    "shares": 7716050.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "RECURSION PHARMACEUTICALS IN",
+    "class": "CL A",
+    "cusip": "75629V104",
+    "value": 50784932.0,
+    "shares": 7706363.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "SERVE ROBOTICS INC",
+    "class": "COM",
+    "cusip": "81758H106",
+    "value": 29629912.0,
+    "shares": 3727033.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "SOUNDHOUND AI INC",
+    "class": "CLASS A COM",
+    "cusip": "836100107",
+    "value": 8065915.0,
+    "shares": 1730883.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NANO X IMAGING LTD",
+    "class": "ORD SHS",
+    "cusip": "M70700105",
+    "value": 362563.0,
+    "shares": 59632.0,
+    "share_type": "SH",
+    "put_call": null
+   }
+  ],
+  "events": [
+   {
+    "kind": "new_position",
+    "issuer": "APPLIED DIGITAL CORP",
+    "shares": 7716050.0,
+    "value": 63657413.0
+   }
+  ]
+ },
+ {
+  "report_date": "2024-12-31",
+  "accession": "0001045810-25-000013",
+  "form": "13F-HR",
+  "filed": "2025-02-14",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000013/information_table.xml",
+  "cache_path": "research/cache/sec/1045810/000104581025000013/information_table.xml",
+  "total_value": 304524721.0,
+  "holdings": [
+   {
+    "issuer": "ARM HOLDINGS PLC",
+    "class": "SPONSORED ADS",
+    "cusip": "042068205",
+    "value": 135850077.0,
+    "shares": 1101249.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "APPLIED DIGITAL CORP",
+    "class": "COM NEW",
+    "cusip": "038169207",
+    "value": 58950622.0,
+    "shares": 7716050.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "RECURSION PHARMACEUTICALS IN",
+    "class": "CL A",
+    "cusip": "75629V104",
+    "value": 52095014.0,
+    "shares": 7706363.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NEBIUS GROUP N.V.",
+    "class": "SHS CLASS A",
+    "cusip": "N97284108",
+    "value": 32976185.0,
+    "shares": 1190476.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "WERIDE INC",
+    "class": "SPONSORED ADS",
+    "cusip": "950915108",
+    "value": 24652823.0,
+    "shares": 1738563.0,
+    "share_type": "SH",
+    "put_call": null
+   }
+  ],
+  "events": [
+   {
+    "kind": "new_position",
+    "issuer": "NEBIUS GROUP N.V.",
+    "shares": 1190476.0,
+    "value": 32976185.0
+   },
+   {
+    "kind": "new_position",
+    "issuer": "WERIDE INC",
+    "shares": 1738563.0,
+    "value": 24652823.0
+   },
+   {
+    "kind": "exit",
+    "issuer": "NANO X IMAGING LTD",
+    "from_shares": 59632.0
+   },
+   {
+    "kind": "exit",
+    "issuer": "SERVE ROBOTICS INC",
+    "from_shares": 3727033.0
+   },
+   {
+    "kind": "exit",
+    "issuer": "SOUNDHOUND AI INC",
+    "from_shares": 1730883.0
+   }
+  ]
+ },
+ {
+  "report_date": "2025-03-31",
+  "accession": "0001045810-25-000102",
+  "form": "13F-HR",
+  "filed": "2025-05-15",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000102/information_table.xml",
+  "cache_path": "research/cache/sec/1045810/000104581025000102/information_table.xml",
+  "total_value": 1147142107.0,
+  "holdings": [
+   {
+    "issuer": "COREWEAVE INC",
+    "class": "COM CL A",
+    "cusip": "21873S108",
+    "value": 896685617.0,
+    "shares": 24182460.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "ARM HOLDINGS PLC",
+    "class": "SPONSORED ADS",
+    "cusip": "042068205",
+    "value": 117602381.0,
+    "shares": 1101249.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "APPLIED DIGITAL CORP",
+    "class": "COM NEW",
+    "cusip": "038169207",
+    "value": 43364201.0,
+    "shares": 7716050.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "RECURSION PHARMACEUTICALS IN",
+    "class": "CL A",
+    "cusip": "75629V104",
+    "value": 40766660.0,
+    "shares": 7706363.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NEBIUS GROUP N.V.",
+    "class": "SHS CLASS A",
+    "cusip": "N97284108",
+    "value": 25130948.0,
+    "shares": 1190476.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "WERIDE INC",
+    "class": "SPONSORED ADS",
+    "cusip": "950915108",
+    "value": 23592300.0,
+    "shares": 1738563.0,
+    "share_type": "SH",
+    "put_call": null
+   }
+  ],
+  "events": [
+   {
+    "kind": "new_position",
+    "issuer": "COREWEAVE INC",
+    "shares": 24182460.0,
+    "value": 896685617.0
+   }
+  ]
+ },
+ {
+  "report_date": "2025-06-30",
+  "accession": "0001045810-25-000199",
+  "form": "13F-HR",
+  "filed": "2025-08-14",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000199/information_table.xml",
+  "cache_path": "research/cache/sec/1045810/000104581025000199/information_table.xml",
+  "total_value": 4333080800.0,
+  "holdings": [
+   {
+    "issuer": "COREWEAVE INC",
+    "class": "COM CL A",
+    "cusip": "21873S108",
+    "value": 3958701053.0,
+    "shares": 24277573.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "ARM HOLDINGS PLC",
+    "class": "SPONSORED ADS",
+    "cusip": "042068205",
+    "value": 178116013.0,
+    "shares": 1101249.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "APPLIED DIGITAL CORP",
+    "class": "COM NEW",
+    "cusip": "038169207",
+    "value": 77700624.0,
+    "shares": 7716050.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NEBIUS GROUP N.V.",
+    "class": "SHS CLASS A",
+    "cusip": "N97284108",
+    "value": 65869037.0,
+    "shares": 1190476.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "RECURSION PHARMACEUTICALS IN",
+    "class": "CL A",
+    "cusip": "75629V104",
+    "value": 38994197.0,
+    "shares": 7706363.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "WERIDE INC",
+    "class": "SPONSORED ADS",
+    "cusip": "950915108",
+    "value": 13699876.0,
+    "shares": 1738563.0,
+    "share_type": "SH",
+    "put_call": null
+   }
+  ],
+  "events": []
+ },
+ {
+  "report_date": "2025-09-30",
+  "accession": "0001045810-25-000219",
+  "form": "13F-HR",
+  "filed": "2025-11-14",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000219/information_table.xml",
+  "cache_path": "research/cache/sec/1045810/000104581025000219/information_table.xml",
+  "total_value": 3843681339.0,
+  "holdings": [
+   {
+    "issuer": "COREWEAVE INC",
+    "class": "COM CL A",
+    "cusip": "21873S108",
+    "value": 3322385865.0,
+    "shares": 24277573.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "APPLIED DIGITAL CORP",
+    "class": "COM NEW",
+    "cusip": "038169207",
+    "value": 177006187.0,
+    "shares": 7716050.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "ARM HOLDINGS PLC",
+    "class": "SPONSORED ADS",
+    "cusip": "042068205",
+    "value": 155815721.0,
+    "shares": 1101249.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NEBIUS GROUP N.V.",
+    "class": "SHS CLASS A",
+    "cusip": "N97284108",
+    "value": 133654741.0,
+    "shares": 1190476.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "RECURSION PHARMACEUTICALS IN",
+    "class": "CL A",
+    "cusip": "75629V104",
+    "value": 37607051.0,
+    "shares": 7706363.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "WERIDE INC",
+    "class": "SPONSORED ADS",
+    "cusip": "950915108",
+    "value": 17211774.0,
+    "shares": 1738563.0,
+    "share_type": "SH",
+    "put_call": null
+   }
+  ],
+  "events": []
+ },
+ {
+  "report_date": "2025-12-31",
+  "accession": "0001045810-26-000011",
+  "form": "13F-HR",
+  "filed": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000011/information_table.xml",
+  "cache_path": "research/cache/sec/1045810/000104581026000011/information_table.xml",
+  "total_value": 13104819528.0,
+  "holdings": [
+   {
+    "issuer": "INTEL CORP",
+    "class": "COM",
+    "cusip": "458140100",
+    "value": 7925257721.0,
+    "shares": 214776632.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "SYNOPSYS INC",
+    "class": "COM",
+    "cusip": "871607107",
+    "value": 2264856909.0,
+    "shares": 4821717.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "COREWEAVE INC",
+    "class": "COM CL A",
+    "cusip": "21873S108",
+    "value": 1738517003.0,
+    "shares": 24277573.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NOKIA CORP",
+    "class": "SPONSORED ADR",
+    "cusip": "654902204",
+    "value": 1076539101.0,
+    "shares": 166389351.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NEBIUS GROUP N.V.",
+    "class": "SHS CLASS A",
+    "cusip": "N97284108",
+    "value": 99648794.0,
+    "shares": 1190476.0,
+    "share_type": "SH",
+    "put_call": null
+   }
+  ],
+  "events": [
+   {
+    "kind": "new_position",
+    "issuer": "INTEL CORP",
+    "shares": 214776632.0,
+    "value": 7925257721.0
+   },
+   {
+    "kind": "new_position",
+    "issuer": "NOKIA CORP",
+    "shares": 166389351.0,
+    "value": 1076539101.0
+   },
+   {
+    "kind": "new_position",
+    "issuer": "SYNOPSYS INC",
+    "shares": 4821717.0,
+    "value": 2264856909.0
+   },
+   {
+    "kind": "exit",
+    "issuer": "APPLIED DIGITAL CORP",
+    "from_shares": 7716050.0
+   },
+   {
+    "kind": "exit",
+    "issuer": "ARM HOLDINGS PLC",
+    "from_shares": 1101249.0
+   },
+   {
+    "kind": "exit",
+    "issuer": "RECURSION PHARMACEUTICALS IN",
+    "from_shares": 7706363.0
+   },
+   {
+    "kind": "exit",
+    "issuer": "WERIDE INC",
+    "from_shares": 1738563.0
+   }
+  ]
+ },
+ {
+  "report_date": "2026-03-31",
+  "accession": "0001045810-26-000042",
+  "form": "13F-HR",
+  "filed": "2026-05-15",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000042/information_table.xml",
+  "cache_path": "research/cache/sec/1045810/000104581026000042/information_table.xml",
+  "total_value": 18374354150.0,
+  "holdings": [
+   {
+    "issuer": "INTEL CORP",
+    "class": "COM",
+    "cusip": "458140100",
+    "value": 9478092770.0,
+    "shares": 214776632.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "COREWEAVE INC",
+    "class": "COM CL A",
+    "cusip": "21873S108",
+    "value": 3657618457.0,
+    "shares": 47213353.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "SYNOPSYS INC",
+    "class": "COM",
+    "cusip": "871607107",
+    "value": 1911714356.0,
+    "shares": 4821717.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "COHERENT CORP",
+    "class": "COM",
+    "cusip": "19247G107",
+    "value": 1855217832.0,
+    "shares": 7788161.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NOKIA CORP",
+    "class": "SPONSORED ADR",
+    "cusip": "654902204",
+    "value": 1337770382.0,
+    "shares": 166389351.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NEBIUS GROUP N.V.",
+    "class": "SHS CLASS A",
+    "cusip": "N97284108",
+    "value": 123523790.0,
+    "shares": 1190476.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "GENERATE BIOMEDICINES INC",
+    "class": "COM SHS",
+    "cusip": "370920100",
+    "value": 10416563.0,
+    "shares": 833325.0,
+    "share_type": "SH",
+    "put_call": null
+   }
+  ],
+  "events": [
+   {
+    "kind": "new_position",
+    "issuer": "COHERENT CORP",
+    "shares": 7788161.0,
+    "value": 1855217832.0
+   },
+   {
+    "kind": "position_changed",
+    "issuer": "COREWEAVE INC",
+    "from_shares": 24277573.0,
+    "to_shares": 47213353.0
+   },
+   {
+    "kind": "new_position",
+    "issuer": "GENERATE BIOMEDICINES INC",
+    "shares": 833325.0,
+    "value": 10416563.0
+   }
+  ]
+ },
+ {
+  "report_date": "2026-06-30",
+  "accession": "0001045810-26-000065",
+  "form": "13F-HR",
+  "filed": "2026-08-14",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000065/information_table.xml",
+  "cache_path": "research/cache/sec/1045810/000104581026000065/information_table.xml",
+  "total_value": 63439974569.0,
+  "holdings": [
+   {
+    "issuer": "INTEL CORP",
+    "class": "COM",
+    "cusip": "458140100",
+    "value": 29989261126.0,
+    "shares": 214776632.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "SPACE EXPLORATION TECHN CORP",
+    "class": "CLASS A COM STK",
+    "cusip": "84615Q103",
+    "value": 20975594582.0,
+    "shares": 122764805.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "COREWEAVE INC",
+    "class": "COM CL A",
+    "cusip": "21873S108",
+    "value": 4699617158.0,
+    "shares": 47213353.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "COHERENT CORP",
+    "class": "COM",
+    "cusip": "19247G107",
+    "value": 3072195870.0,
+    "shares": 7788161.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NOKIA CORP",
+    "class": "SPONSORED ADR",
+    "cusip": "654902204",
+    "value": 2209650581.0,
+    "shares": 166389351.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "SYNOPSYS INC",
+    "class": "COM",
+    "cusip": "871607107",
+    "value": 2150823302.0,
+    "shares": 4821717.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NEBIUS GROUP N.V.",
+    "class": "SHS CLASS A",
+    "cusip": "N97284108",
+    "value": 328773757.0,
+    "shares": 1190476.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "GENERATE BIOMEDICINES INC",
+    "class": "COM SHS",
+    "cusip": "370920100",
+    "value": 14058193.0,
+    "shares": 833325.0,
+    "share_type": "SH",
+    "put_call": null
+   }
+  ],
+  "events": [
+   {
+    "kind": "new_position",
+    "issuer": "SPACE EXPLORATION TECHN CORP",
+    "shares": 122764805.0,
+    "value": 20975594582.0
+   }
+  ]
+ },
+ {
+  "report_date": "2026-09-30",
+  "accession": "0001045810-26-000084",
+  "form": "13F-HR",
+  "filed": "2026-11-16",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000084/information_table.xml",
+  "cache_path": "research/cache/sec/1045810/000104581026000084/information_table.xml",
+  "total_value": 48330717074.0,
+  "holdings": [
+   {
+    "issuer": "SPACE EXPLORATION TECHN CORP",
+    "class": "CLASS A COM STK",
+    "cusip": "84615Q103",
+    "value": 19683145466.0,
+    "shares": 130472925.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "INTEL CORP",
+    "class": "COM",
+    "cusip": "458140100",
+    "value": 19366947532.0,
+    "shares": 161082488.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "COREWEAVE INC",
+    "class": "COM CL A",
+    "cusip": "21873S108",
+    "value": 4113227313.0,
+    "shares": 47213353.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "COHERENT CORP",
+    "class": "COM",
+    "cusip": "19247G107",
+    "value": 2241510617.0,
+    "shares": 7788161.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "SYNOPSYS INC",
+    "class": "COM",
+    "cusip": "871607107",
+    "value": 1893762250.0,
+    "shares": 4354077.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NOKIA CORP",
+    "class": "SPONSORED ADR",
+    "cusip": "654902204",
+    "value": 738797875.0,
+    "shares": 72859751.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "NEBIUS GROUP N.V.",
+    "class": "SHS CLASS A",
+    "cusip": "N97284108",
+    "value": 280809479.0,
+    "shares": 1190476.0,
+    "share_type": "SH",
+    "put_call": null
+   },
+   {
+    "issuer": "GENERATE BIOMEDICINES INC",
+    "class": "COM SHS",
+    "cusip": "370920100",
+    "value": 12516542.0,
+    "shares": 833325.0,
+    "share_type": "SH",
+    "put_call": null
+   }
+  ],
+  "events": [
+   {
+    "kind": "position_changed",
+    "issuer": "NOKIA CORP",
+    "from_shares": 166389351.0,
+    "to_shares": 72859751.0
+   }
+  ]
+ }
+]
