@@ -308,7 +308,7 @@ None needed for this task.
 
 ## Open questions
 
-1. How the $99B of "equity investments" in the Jul 2026 MD&A (ev_10043) reconciles with the balance sheet: non-marketable $51.2B + current marketable equity $42.8B + locked $5.0B is about $99.0B (analysis). Does it include warrants ($824M fair value)?
+1. How the $99B of "equity investments" in the Jul 2026 MD&A (ev_10043) reconciles with the balance sheet: non-marketable $51.2B + current marketable equity $42.8B + locked $5.0B is about $98.9B (analysis). Does it include warrants ($824M fair value)?
 2. What the $25B of Jul 2026 equity investment commitments contains, and how much of the Apr 2026 $27B was funded in Q2 (net additions were $13.1B). Look for named items such as OpenAI and Anthropic in R3 and R4.
 3. Who the "infrastructure financiers" (equity method VIEs, $3.3B carrying, $4.7B max loss) are, and whether they are the financing platforms in the Aug 2026 MOUs.
 4. Who the AI cloud counterparties are in the $36B AI cloud agreements, and whether they overlap with the land, power and shell guarantee partners and with investees. Counterparty filings (R2) should name them.

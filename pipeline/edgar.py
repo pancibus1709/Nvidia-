@@ -210,7 +210,14 @@ def fulltext_search(query: str, forms=None, start=None, end=None, offset: int = 
         params.update({"dateRange": "custom", "startdt": start or "2001-01-01", "enddt": end or datetime.now().strftime("%Y-%m-%d")})
     if offset:
         params["from"] = offset
-    return get_json("https://efts.sec.gov/LATEST/search-index?" + urlencode(params), max_age_hours)
+    url = "https://efts.sec.gov/LATEST/search-index?" + urlencode(params)
+    for attempt in range(4):
+        res = get_json(url, max_age_hours if attempt == 0 else 0)
+        if "hits" in res:
+            return res
+        time.sleep(3 * (attempt + 1))   # the search API sometimes returns an error body with HTTP 200
+    cache_path_for(url).unlink(missing_ok=True)
+    raise RuntimeError(f"full-text search returned no hits object for {query!r}: {str(res)[:200]}")
 
 
 def hit_to_row(hit: dict) -> dict:
