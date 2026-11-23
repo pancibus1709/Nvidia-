@@ -406,6 +406,21 @@
             "more than",
             "up to"
           ]
+        },
+        "floor": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "floor_as_of": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "floor_note": {
+          "type": "string"
         }
       }
     }

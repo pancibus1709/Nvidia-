@@ -114,3 +114,12 @@ maturity}, `seniority`, `reconciliation`, `credit`, `consequences`, `projects` [
 - No "ev_" ids and no bracketed citations inside insight, definition or consequence text.
 - `amounts.<field>.qualifier`: "nearly", "about", "more than" or "up to", when the source states the figure that way. It is shown before the number.
 - `credit.tenor_bucket`: "Under 2 years", "2 to 5 years", "5 to 10 years", "Over 10 years" or "Equity or no stated maturity", when a source states the term.
+
+## Additions after critic round 3 (explicit fields; nothing is classified by searching text)
+
+- `compute_commitments[].kind`: "contract" or "lease". `compute_commitments[].soft_amount`: the USD part of the amount that the
+  source states as "up to", cancellable or terminable (0 if none).
+- `amounts.funded.components[].paid_on`: the date that piece of cash was paid ("YYYY-MM-DD"), when a source states it; null if not.
+  A single-payment funded amount with no components uses `amounts.funded.as_of` as its payment date only if `paid_on_is_as_of` is true... do not rely on that: give it one component with `paid_on`.
+- `amounts.funded.floor`, `floor_as_of`, `floor_note`: a sourced lower bound when the value itself is not disclosed. Never display eligible, never in a total; `floor_note` says what it rests on and is labeled analysis.
+- `holding.instrument`: "common", "preferred", "warrant", "convertible note", for positions in listed companies.

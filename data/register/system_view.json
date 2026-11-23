@@ -45,13 +45,6 @@
       "note": "Named column is the cost of the few private stakes whose cost a source states."
     },
     {
-      "line": "Public equity, fair value",
-      "nvidia": 48888000000.0,
-      "named": 48330717074,
-      "aggregate": "publicly_held_equity_securities",
-      "note": "Named column is the value in Nvidia's holdings report of 30 September 2026; the dates differ."
-    },
-    {
       "line": "Guarantees, maximum",
       "nvidia": 118000000000.0,
       "named": 105860340000.0,
@@ -96,9 +89,9 @@
     {
       "line": "Equity purchases, nine months to 25 October 2026",
       "nvidia": 58100000000.0,
-      "named": 11202399346.78,
+      "named": 0.0,
       "aggregate": null,
-      "note": "Named column is the dated, costed equity purchases in this register inside the period; the rest of Nvidia's purchases are not attributed."
+      "note": "Named column is equity cost in this register with a sourced payment date inside the period, 0% of Nvidia's figure; a further $31.3 billion of funded cost in the register has no sourced payment date. The rest of Nvidia's purchases are not attributed."
     }
   ],
   "positions_by_value": [
@@ -163,30 +156,38 @@
     {
       "relationship": "rel_anthropic_eq_2026",
       "name": "Anthropic",
-      "value": null,
-      "as_of": null,
-      "cost_known": true
+      "cost": 10000000000.0,
+      "reason": "bought after 30 September 2026"
     },
     {
       "relationship": "rel_nebius_eq_2026",
       "name": "Nebius",
-      "value": null,
-      "as_of": null,
-      "cost_known": true
+      "cost": 2000000000.0,
+      "reason": "warrant or preferred stock, not in the holdings report"
     },
     {
       "relationship": "rel_marvell_eq_2026",
       "name": "Marvell",
-      "value": null,
-      "as_of": null,
-      "cost_known": true
+      "cost": 2000000000.0,
+      "reason": "warrant or preferred stock, not in the holdings report"
     },
     {
       "relationship": "rel_lumentum_eq_2026",
       "name": "Lumentum",
-      "value": null,
-      "as_of": null,
-      "cost_known": true
+      "cost": 2000000000.0,
+      "reason": "warrant or preferred stock, not in the holdings report"
+    },
+    {
+      "relationship": "rel_corning_eq_2026",
+      "name": "Corning",
+      "cost": 500000000.0,
+      "reason": "warrant or preferred stock, not in the holdings report"
+    },
+    {
+      "relationship": "rel_iambic_eq_2023",
+      "name": "Iambic",
+      "cost": 25000000.0,
+      "reason": "warrant or preferred stock, not in the holdings report"
     }
   ],
   "source_mix": {
@@ -973,8 +974,8 @@
             "counterparty": "ent_google",
             "description": "Google CSP hosting agreement, minimum spend April 2026 to July 2033 regardless of usage, with a true-up.",
             "amount": 121300000000.0,
-            "soft": false,
-            "lease": false,
+            "kind": "unclassified",
+            "soft_amount": 0.0,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120045"
@@ -984,8 +985,8 @@
             "counterparty": "ent_amazon",
             "description": "Amazon agreement, minimum spend May 2026 to April 2036 regardless of usage.",
             "amount": 110000000000.0,
-            "soft": false,
-            "lease": false,
+            "kind": "unclassified",
+            "soft_amount": 0.0,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120046"
@@ -995,8 +996,8 @@
             "counterparty": "ent_microsoft",
             "description": "Microsoft agreement of November 2025 as amended to November 2026: at least $47.2 billion and up to $49.2 billion, November 2026 to June 2033 (minimum shown). Grew from the $30 billion Azure commitment announced in November 2025 (ev_120065).",
             "amount": 47200000000.0,
-            "soft": true,
-            "lease": false,
+            "kind": "unclassified",
+            "soft_amount": 0.0,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120044"
@@ -1006,8 +1007,8 @@
             "counterparty": "ent_spacex",
             "description": "SpaceXAI arrangements for NVIDIA GPU compute, up to this amount into 2029, about $3.1 billion a month at full delivery; cancellable on 90 days notice after initial periods ending January and March 2027 (ev_120048).",
             "amount": 120500000000.0,
-            "soft": true,
-            "lease": false,
+            "kind": "unclassified",
+            "soft_amount": 0.0,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120047"
@@ -1017,8 +1018,8 @@
             "counterparty": "ent_nscale",
             "description": "Nscale GPU services agreements for NVIDIA GPU compute into 2033; fees accrue only on delivery; Nscale must obtain financing (ev_40030).",
             "amount": 44600000000.0,
-            "soft": false,
-            "lease": false,
+            "kind": "unclassified",
+            "soft_amount": 0.0,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120049",
@@ -1029,8 +1030,8 @@
             "counterparty": "ent_lambda",
             "description": "Lambda agreements for NVIDIA GPU compute into 2034; the August 2026 agreement (about $34.9 billion of the total) is currently terminable because Lambda did not secure the facility lease.",
             "amount": 41300000000.0,
-            "soft": true,
-            "lease": true,
+            "kind": "unclassified",
+            "soft_amount": 0.0,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120050"
@@ -1040,8 +1041,8 @@
             "counterparty": "ent_broadcom",
             "description": "Five-year Broadcom master equipment leases (finance leases), rent excluding interest.",
             "amount": 161200000000.0,
-            "soft": false,
-            "lease": true,
+            "kind": "unclassified",
+            "soft_amount": 0.0,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120051"
@@ -1332,8 +1333,8 @@
             "counterparty": "ent_microsoft",
             "description": "Incremental Azure services contracted under the October 2025 restructured Microsoft agreement (Microsoft 10-Q; same figure in OpenAI release ev_120102).",
             "amount": 250000000000.0,
-            "soft": false,
-            "lease": true,
+            "kind": "unclassified",
+            "soft_amount": 0.0,
             "as_of": "2025-10-28",
             "evidence": [
               "ev_120111"
@@ -1343,8 +1344,8 @@
             "counterparty": "ent_amazon",
             "description": "AWS compute agreement announced 2025-11-03, with continued growth over seven years.",
             "amount": 38000000000.0,
-            "soft": false,
-            "lease": false,
+            "kind": "unclassified",
+            "soft_amount": 0.0,
             "as_of": "2025-11-03",
             "evidence": [
               "ev_120028"
@@ -1354,8 +1355,8 @@
             "counterparty": "ent_coreweave",
             "description": "CoreWeave master services agreement of March 2025, up to about this amount through October 2030 (CoreWeave 10-K).",
             "amount": 11900000000.0,
-            "soft": true,
-            "lease": false,
+            "kind": "unclassified",
+            "soft_amount": 0.0,
             "as_of": "2026-03-02",
             "evidence": [
               "ev_20199"
@@ -1365,8 +1366,8 @@
             "counterparty": "ent_coreweave",
             "description": "CoreWeave order form of September 2025, up to about this amount through 31 May 2031 (CoreWeave 10-Q for Q3 2026).",
             "amount": 6500000000.0,
-            "soft": true,
-            "lease": false,
+            "kind": "unclassified",
+            "soft_amount": 0.0,
             "as_of": "2026-11-12",
             "evidence": [
               "ev_20102"
@@ -1534,8 +1535,8 @@
             "counterparty": "ent_valor",
             "description": "Three equipment leases of computing equipment from Valor, guaranteed by SpaceX; aggregate cash payments over the lease lives (424B4). Recorded as failed sale-leaseback debt.",
             "amount": 20206000000.0,
-            "soft": false,
-            "lease": true,
+            "kind": "unclassified",
+            "soft_amount": 0.0,
             "as_of": "2026-06-12",
             "evidence": [
               "ev_120075",
@@ -1547,8 +1548,8 @@
             "counterparty": "ent_apollo",
             "description": "Binding commitment letter of 2026-10-24 for a master finance lease of GPU pods from an Apollo-managed lessor; aggregate principal payments; subject to closing conditions; schedules commence in the first half of 2027.",
             "amount": 40000000000.0,
-            "soft": false,
-            "lease": true,
+            "kind": "unclassified",
+            "soft_amount": 0.0,
             "as_of": "2026-10-26",
             "evidence": [
               "ev_120094"

@@ -276,3 +276,30 @@ def test_non_usd_amount_without_fx_shows_in_own_currency_and_stays_out_of_totals
     a["display_eligible"] = True
     assert fmt.amount_text(a) == "£250 million"
     assert checks.elig_value(a) is None
+
+
+def test_lab_commitments_are_classified_by_field_never_by_wording(reg, helpers):
+    lab = reg.ent["ent_examplelab"]
+    lab["compute_commitments"] = [
+        {"counterparty": "ent_example", "description": "Cloud services contract; early release terms apply", "kind": "contract", "soft_amount": 0, "amount": helpers.amt(250e6, ["ev_2"])},
+        {"counterparty": "ent_example", "description": "Equipment arrangement", "kind": "lease", "soft_amount": 0, "amount": helpers.amt(250e6, ["ev_2"])},
+    ]
+    r = helpers.rel("rel_examplelab_eq_2025", to="ent_examplelab", type_primary="EQ", status="completed", evidence=["ev_2"], funded=helpers.amt(250e6, ["ev_2"]),
+                    committed_total=helpers.amt(250e6, ["ev_2"]), contingent_max=helpers.amt(na=True))
+    reg.relationships.append(r); reg.index(); checks.set_eligibility(reg)
+    s = scenarios.s2(reg, {"lab": "ent_examplelab"})
+    kinds = [x["kind"] for x in s["at_risk_backlog"]]
+    assert kinds == ["contract", "lease"]          # "release" in a description does not make a lease
+    assert all(x["soft_amount"] == 0 for x in s["at_risk_backlog"])
+    del lab["compute_commitments"][0]["kind"]
+    assert scenarios.s2(reg, {"lab": "ent_examplelab"})["at_risk_backlog"][0]["kind"] == "unclassified"
+
+
+def test_money_style_check(reg):
+    c = reg.rel["rel_example_bk_2025"]["consequences"]["first_order"][0]
+    c["text"] = "If Example sells less, Nvidia pays up to $6.3B."
+    assert checks.check_money_style(reg)
+    c["text"] = "If Example sells less, Nvidia pays up to $6.3 billion."
+    assert not checks.check_money_style(reg)
+    c["text"] = "If Example sells less, Nvidia pays USD 30 million."
+    assert checks.check_money_style(reg)

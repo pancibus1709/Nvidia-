@@ -32,6 +32,11 @@ def equity_at_risk(r: dict):
     return (v, "funded_remaining") if v else (None, None)
 
 
+def floor_text(a: dict) -> str:
+    from .fmt import date_long
+    return f"At least {money(a['floor'])} by {date_long(a.get('floor_as_of'))} (analysis: {a.get('floor_note', '').replace('Analysis: ', '')})"
+
+
 def utilization(contracted_share, merchant_share, d, p, e):
     u = contracted_share + merchant_share * (1 + d) * (1 + e * p)
     return max(0.0, min(1.0, u))
@@ -103,7 +108,9 @@ def s2(reg: Register, overrides=None) -> dict:
                 v, basis = equity_at_risk(r)
                 if v is None:
                     c = elig_value(r["amounts"].get("committed_total"))
-                    nc.append({"relationship": r["id"], "title": r["title"], "reason": (f"Equity loss not computable: {money(c)} committed, paid amount not disclosed." if c else "No confirmed value for this stake.")})
+                    fa = r["amounts"].get("funded") or {}
+                    floor = f" {floor_text(fa)}" if fa.get("floor") else ""
+                    nc.append({"relationship": r["id"], "title": r["title"], "reason": (f"Equity loss not computable: {money(c)} committed, paid amount not disclosed.{floor}" if c else "No confirmed value for this stake.")})
                 else:
                     eq_losses.append({"relationship": r["id"], "basis": basis, "value": v, "loss": v * p["h2"]})
             if r["type_primary"] in ("GU", "RV") and elig_value(r["amounts"].get("contingent_max")):
@@ -118,10 +125,9 @@ def s2(reg: Register, overrides=None) -> dict:
             if v is None:
                 nc.append({"entity": cc["counterparty"], "reason": f"Commitment amount not confirmed: {cc['description']}"})
             else:
-                low = cc["description"].lower()
+                # explicit fields only: nothing is classified by searching the description
                 at_risk.append({"counterparty": cc["counterparty"], "description": cc["description"], "amount": v,
-                                "soft": any(w in low for w in ("up to", "cancel", "terminable", "terminat")),
-                                "lease": "lease" in low,
+                                "kind": cc.get("kind") or "unclassified", "soft_amount": min(v, cc.get("soft_amount") or 0.0),
                                 "as_of": cc["amount"].get("as_of"), "evidence": cc["amount"].get("evidence", [])})
     loss = sum(x["loss"] for x in eq_losses)
     ead = sum(x["value"] for x in eq_losses)

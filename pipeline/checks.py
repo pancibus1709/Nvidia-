@@ -692,6 +692,57 @@ def check_text_citations(reg):
     return out
 
 
+_MONEY_STYLE = re.compile(r"\d\s?(?:bn|mn|[mMB])\b|\bUSD\s?\d|\$\d[\d.,]*\s?[kKmMbB]\b")
+
+
+def check_money_style(reg):
+    """One money style on screen: "$43.8 billion", "$33 million". Fails on "$1.5B", "USD 30", "480m"."""
+    out = []
+    for r in reg.relationships:
+        texts = [("definition", r["definition"]), ("title", r["title"])]
+        texts += [("consequence", c["text"]) for c in r["consequences"]["first_order"] + r["consequences"]["second_order"]]
+        for where, t in texts:
+            m = _MONEY_STYLE.search(t)
+            if m:
+                out.append(f"copy: {r['id']}.{where}: money written as '{t[max(0, m.start() - 12): m.end() + 4]}'; use the form $1.5 billion")
+    return out
+
+
+def check_report_totals(reg):
+    """Hand-written reports must not print a system total that differs from the generated system view."""
+    out = []
+    if reg.dir != REGISTER or not (REGISTER / "system_view.json").exists():
+        return out
+    t = load_json(REGISTER / "system_view.json")["totals"]
+    want = {"Gross exposure": fmt.money(t["gross"]), "Contingent maximum": fmt.money(t["contingent_max"]), "Cash paid": fmt.money(t["funded_cash"])}
+    short = lambda x: x.replace(" billion", "B").replace(" million", "M")
+    for rep in ("R7_aggregates.md", "R9.md"):
+        f = ROOT / "research" / "reports" / rep
+        if not f.exists():
+            continue
+        for line in f.read_text(encoding="utf-8").splitlines():
+            if "superseded" in line.lower() or line.startswith(">"):
+                continue
+            for label, val in want.items():
+                m = re.search(re.escape(label) + r"[^|\n]{0,60}?[|:]\s*(?:at least\s*)?(\$[\d.,]+\s?(?:billion|million|B|M))", line)
+                if m and short(m.group(1).replace(" ", " ")).replace(" ", "") != short(val).replace(" ", ""):
+                    out.append(f"report totals: {rep}: '{label}' printed as {m.group(1)}, system view says {val}")
+    return out
+
+
+def check_lead_grades(reg):
+    out = []
+    f = ROOT / "research" / "drafts" / "lead_credit.json"
+    if reg.dir != REGISTER or not f.exists():
+        return out
+    for e in load_json(f).get("entities", []):
+        g = (e.get("credit") or {}).get("grade")
+        have = ((reg.ent.get(e["id"]) or {}).get("credit") or {}).get("grade")
+        if g and g != have:
+            out.append(f"grades: {e['id']}: credit review says {g}, register says {have}")
+    return out
+
+
 def check_no_ids_in_copy(reg):
     out = []
     for r in reg.relationships:
@@ -703,7 +754,7 @@ def check_no_ids_in_copy(reg):
     return out
 
 
-CHECKS = [check_text_citations, check_no_ids_in_copy, check_schema, check_evidence_resolution, check_grounding, check_display_rule, check_independence, check_allowlist,
+CHECKS = [check_text_citations, check_no_ids_in_copy, check_money_style, check_report_totals, check_lead_grades, check_schema, check_evidence_resolution, check_grounding, check_display_rule, check_independence, check_allowlist,
           check_amount_order, check_insights, check_quotes, check_reconciliation, check_consequences]
 
 

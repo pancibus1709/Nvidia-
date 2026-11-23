@@ -238,7 +238,7 @@ def build():
         if j > 2:
             c.number_format = '$#,##0.000;$(#,##0.000);"0"'
     sv = load_json(REGISTER / "system_view.json", {})
-    brow = tot + 13
+    brow = tot + 15
     summ.cell(row=brow - 1, column=1, value="Bridge to Nvidia's own disclosures at 25 October 2026 (USD millions; analysis)").font = BOLD
     for j, lab in enumerate(["Line", "Nvidia reports", "Named and sized in this register", "Note"], 1):
         c = summ.cell(row=brow, column=j, value=lab)
@@ -246,7 +246,7 @@ def build():
     for i, b in enumerate(sv.get("bridge", []), brow + 1):
         summ.cell(row=i, column=1, value=b["line"]).font = BLACK
         for j, k in ((2, "nvidia"), (3, "named")):
-            c = summ.cell(row=i, column=j, value=(b[k] / 1e6 if b[k] is not None else "Not disclosed"))
+            c = summ.cell(row=i, column=j, value=(b[k] / 1e6 if b[k] is not None else (b.get("named_text") or "") if k == "named" else "Not disclosed"))
             c.font, c.number_format = BLUE, MONEY
         summ.cell(row=i, column=4, value=b["note"]).font = BLACK
     notes = [
@@ -257,6 +257,7 @@ def build():
         f"{t['lower_bound_count']} of {t['count']} relationships are lower bounds because at least one component is not disclosed or not confirmed.",
         "Tabs: one per exposure type, then Context, Unattributed (remainders of Nvidia's disclosed aggregates, excluded from totals), Reconciliation, Nvidia financials, Sources, Seeds.",
         "Every amount has its as-of date and source beside it. Hover the amount for the verbatim quote. The source cell opens the document at the passage.",
+        (sv.get("source_mix", {}).get("note", "") + f" {sv.get('source_mix', {}).get('one_sided_relationships', '')} of {sv.get('source_mix', {}).get('relationships', '')} relationships are disclosed by one side only."),
     ]
     for i, n in enumerate(notes):
         c = summ.cell(row=tot + 5 + i, column=1, value=n)

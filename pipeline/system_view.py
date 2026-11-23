@@ -5,6 +5,7 @@ Only display-eligible amounts are used. Unattributed remainders and context reco
 """
 from __future__ import annotations
 
+import re
 from collections import defaultdict
 from datetime import date
 
@@ -78,10 +79,20 @@ def build(reg: Register, today: date | None = None) -> dict:
         return None, None
 
     P_START, P_END = "2026-01-26", "2026-10-25"   # Nvidia's fiscal 2027 first nine months
-    eq_in_period = sum(elig_value(r["amounts"]["funded"]) or 0 for r in core
-                       if r["type_primary"] in ("EQ", "EQ-SPV") and (r["amounts"]["funded"].get("as_of") or "") >= P_START and (r["amounts"]["funded"].get("as_of") or "9") <= P_END)
+    eq_in_period = eq_undated = 0.0
+    for r in core:
+        fa = r["amounts"]["funded"]
+        if r["type_primary"] not in ("EQ", "EQ-SPV") or elig_value(fa) is None or fa.get("not_applicable"):
+            continue
+        for comp in fa.get("components") or []:          # a payment counts only by its own sourced payment date
+            d = comp.get("paid_on")
+            if not d:
+                eq_undated += comp["value"]
+            elif P_START <= d <= P_END:
+                eq_in_period += comp["value"]
+        if not fa.get("components"):
+            eq_undated += fa["value"]
     rows = [("Private stakes, carrying value", "non_marketable_equity_securities", "Named column is the cost of the few private stakes whose cost a source states."),
-            ("Public equity, fair value", "publicly_held_equity_securities", "Named column is the value in Nvidia's holdings report of 30 September 2026; the dates differ."),
             ("Guarantees, maximum", "guarantees_maximum_gross_exposure", ""),
             ("Neocloud agreements, maximum", "neocloud_agreements", "Partners are known (SharonAI, Firmus and others) but no partner's share is disclosed."),
             ("Cloud service agreements", "cloud_service_agreements", "IREN and Nscale state contract values at signing of $4.6 billion; the balance still owed is not disclosed."),
@@ -92,14 +103,35 @@ def build(reg: Register, today: date | None = None) -> dict:
     for line, agg, note in rows:
         tot, nm = from_remainder(agg)
         bridge.append({"line": line, "nvidia": tot, "named": nm, "aggregate": agg, "note": note})
-    bridge.append({"line": "Equity purchases, nine months to 25 October 2026", "nvidia": f("equity_purchases_9m"), "named": eq_in_period, "aggregate": None,
-                   "note": "Named column is the dated, costed equity purchases in this register inside the period; the rest of Nvidia's purchases are not attributed."})
+    for r in reg.relationships:                           # rows a remainder record supplies itself (like for like only)
+        for br in r.get("bridge_rows") or []:
+            bridge.insert(1, {"line": br["line"], "nvidia": br.get("nvidia"), "named": br.get("named"), "aggregate": r.get("aggregate_of"),
+                              "named_text": None if br.get("named") is not None else "not comparable",
+                              "note": br.get("note", "") + (f" Named column is {br['named_basis']}." if br.get("named_basis") else "")})
+    paid = f("equity_purchases_9m")
+    share = f", {eq_in_period / paid:.0%} of Nvidia's figure" if paid else ""
+    undated = f"; a further {fmt.money(eq_undated)} of funded cost in the register has no sourced payment date" if eq_undated else ""
+    bridge.append({"line": "Equity purchases, nine months to 25 October 2026", "nvidia": paid, "named": eq_in_period, "aggregate": None,
+                   "note": f"Named column is equity cost in this register with a sourced payment date inside the period{share}{undated}. The rest of Nvidia's purchases are not attributed."})
     positions = sorted(({"relationship": r["id"], "name": reg.ent[r["to"]]["short_name"], "value": elig_value(r["amounts"]["market_value"]),
                          "as_of": r["amounts"]["market_value"].get("as_of"), "cost_known": elig_value(r["amounts"].get("funded")) is not None}
                         for r in core if r["amounts"].get("market_value") and elig_value(r["amounts"]["market_value"])), key=lambda x: -x["value"])
-    unvalued = [{"relationship": r["id"], "name": reg.ent[r["to"]]["short_name"], "value": None, "as_of": None, "cost_known": True}
-                for r in core if reg.ent[r["to"]].get("public") and r["type_primary"] == "EQ" and r["status"] in ("completed", "definitive")
-                and (elig_value(r["amounts"].get("funded")) or 0) >= 1e9 and not (r["amounts"].get("market_value") and elig_value(r["amounts"]["market_value"]))]
+    def label(r):
+        inst = (r.get("holding") or {}).get("instrument")
+        return reg.ent[r["to"]]["short_name"] + (f" ({inst})" if inst else "")
+
+    unvalued = []
+    for r in core:
+        cost = elig_value(r["amounts"].get("funded"))
+        mv = r["amounts"].get("market_value")
+        if not (reg.ent[r["to"]].get("public") and r["type_primary"] in ("EQ", "EQ-SPV") and cost and r["status"] != "terminated") or (mv and elig_value(mv)):
+            continue
+        eff = r["dates"].get("effective") or ""
+        unvalued.append({"relationship": r["id"], "name": label(r), "cost": cost,
+                         "reason": "bought after 30 September 2026" if eff > "2026-09-30" else "warrant or preferred stock, not in the holdings report"})
+    unvalued.sort(key=lambda x: -x["cost"])
+    for p in positions:
+        p["name"] = label(reg.rel[p["relationship"]])
     tiers = defaultdict(int)
     for e in reg.evidence:
         tiers[e["tier"]] += 1
@@ -148,6 +180,8 @@ def main():
     t, c = sv["totals"], sv["totals"]["counts"]
     sm = sv["source_mix"]
     hg = t["headline_groups"]
+    qualified = [r["id"] for r in reg.relationships if not r.get("aggregate_of") and (r["amounts"].get("headline") or {}).get("qualifier") and (r["amounts"]["headline"].get("display_eligible"))]
+    strip_ids = lambda x: re.sub(r"\s*\((?:ev_\d+(?:,\s*)?)+\)", "", x or "").strip()
     unpaid = [r for r in reg.relationships if not r.get("aggregate_of") and independent_gross(r)["committed_unfunded"]]
     unpaid_note = (" (" + "; ".join(f"{reg.ent[r['to']]['short_name']}, as of {r['amounts']['committed_total'].get('as_of')}" for r in unpaid) + "; a later closing would move this to funded)") if unpaid else ""
     md = ["# R9 system view", "",
@@ -161,18 +195,19 @@ def main():
           f"- Contingent maximum: {fmt.money(t['contingent_max'])} across {c['contingent_max']}, of which signed but not yet in force: {fmt.money(t['contingent_not_in_force'])}; in force today: {fmt.money(t['contingent_in_force'])}",
           f"- Gross exposure: at least {fmt.money(t['gross'])}",
           f"- Headline announced (never added to exposure): {fmt.money(t['headline'])} across {c['headline']}, in three unlike groups: guaranty and backstop figures {fmt.money(hg['guaranty_backstop'])}; announced but not binding or not followed by a disclosed agreement {fmt.money(hg['not_binding'])}; other announced amounts (equity, rentals, prepayments, options Nvidia holds) {fmt.money(hg['other'])}"
-          + ("; excludes " + ", ".join(f"{x['currency']} {x['value'] / 1e9:g} billion ({x['relationship']})" for x in t["headline_not_converted"]) + ", not converted" if t["headline_not_converted"] else ""), ""]
+          + ("; excludes " + ", ".join(f"{x['currency']} {x['value'] / 1e9:g} billion ({reg.ent[reg.rel[x['relationship']]['to']]['short_name']})" for x in t["headline_not_converted"]) + ", not converted" if t["headline_not_converted"] else "")
+          + (f" ({len(qualified)} figure" + ("s are" if len(qualified) > 1 else " is") + " stated by the source with a qualifier such as 'nearly')" if qualified else ""), ""]
     md += [f"Totals are struck at {sv['as_of']}. The bridge below compares against Nvidia's figures at 25 October 2026, so purchases after that date (for example Anthropic's November placement) are in the totals but in no Nvidia figure yet.", "",
            "## Bridge to Nvidia's own disclosures", "", "What Nvidia reports in total, beside what this register can name and size. Named figures come from the unattributed remainder records. Label: analysis.", "",
            "| Line | Nvidia reports | Named and sized in this register | Note |", "|---|---|---|---|"]
     for b in sv["bridge"]:
-        md.append(f"| {b['line']} | {m(b['nvidia'])} | {'' if b['named'] is None else fmt.money(b['named'])} | {b['note']} |")
+        md.append(f"| {b['line']} | {m(b['nvidia'])} | {b.get('named_text') or ('' if b['named'] is None else fmt.money(b['named']))} | {b['note']} |")
     md += ["", "## Largest positions by value at 30 September 2026 (Nvidia's holdings report)", "", "A position whose cost is not disclosed adds nothing to gross exposure above, so it is shown here. Values are refreshed from market data before publication.", "",
            "| Counterparty | Value | As of | Cost disclosed |", "|---|---|---|---|"]
     for p in sv["positions_by_value"]:
         md.append(f"| {p['name']} | {fmt.money(p['value'])} | {p['as_of']} | {'Yes' if p['cost_known'] else 'No'} |")
     for p in sv["positions_not_yet_valued"]:
-        md.append(f"| {p['name']} | not yet valued | listed or bought after 30 September 2026 | Yes |")
+        md.append(f"| {p['name']} | not valued (cost {fmt.money(p['cost'])}) | {p['reason']} | Yes |")
     md.append("")
     md.append(table("By exposure type", sv["by_type"], lambda k: f"{k} {TYPE_NAMES[k]}"))
     md.append(table("By cluster", sv["by_cluster"]))
@@ -181,10 +216,13 @@ def main():
     top = sv["top_concentrations"][0]
     md += [f"{top['name']}, {fmt.pct(top['share_of_gross'])} of gross exposure, publishes no balance sheet and cannot be graded.", ""]
     md.append(table("By tenor", sv["by_tenor"]))
+    mixed = [r for r in reg.relationships if (r.get("credit") or {}).get("tenor_bucket") and r["type_primary"] in ("EQ", "EQ-SPV") and independent_gross(r)["funded"]]
+    for r in mixed:
+        md += [f"{reg.ent[r['to']]['short_name']} is placed by its conditional amount ({r['credit']['tenor_bucket'].lower()}); its funded {fmt.money(independent_gross(r)['funded'])} is equity with no maturity.", ""]
     md.append(table("By wrong-way risk", sv["by_wwr"]))
     md.append(table("By reconciliation result", sv["by_reconciliation"]))
-    lower_bound_notes = {r["to"]: "; see the analysis note on the record for a lower bound" for r in reg.relationships
-                         if "at least" in ((r["amounts"].get("funded") or {}).get("note") or "")}
+    lower_bound_notes = {r["to"]: "; " + scenarios.floor_text(r["amounts"]["funded"])[0].lower() + scenarios.floor_text(r["amounts"]["funded"])[1:]
+                         for r in reg.relationships if (r["amounts"].get("funded") or {}).get("floor")}
     loops = load_loops()
     md += ["### Top five concentrations by gross exposure", "", "| Counterparty | Gross | Share of gross | Funded and still held | Relationships |", "|---|---|---|---|---|"]
     for x in sv["top_concentrations"]:
@@ -211,14 +249,17 @@ def main():
             lines.append(f"- Guaranty this lab's default would trigger: {fmt.money(x['cap'])} cap" + ("" if x["in_force"] else f", not yet in force ({x['effective_note']})" if x["effective_note"] else ", not yet in force"))
         for x in s2["lapsed_commitments"]:
             lines.append(f"- Other Nvidia commitment to this lab: {x['title']}" + (f" (headline {fmt.money(x['headline'])}, not counted as exposure)" if x["headline"] else ""))
-        contracts = [x for x in s2["at_risk_backlog"] if not x["lease"]]
-        leases = [x for x in s2["at_risk_backlog"] if x["lease"]]
+        contracts = [x for x in s2["at_risk_backlog"] if x["kind"] == "contract"]
+        leases = [x for x in s2["at_risk_backlog"] if x["kind"] == "lease"]
+        other = [x for x in s2["at_risk_backlog"] if x["kind"] not in ("contract", "lease")]
         if contracts:
-            soft = sum(x["amount"] for x in contracts if x["soft"])
+            soft = sum(x["soft_amount"] for x in contracts)
             lines.append(f"- Counterparty contracts that depend on this lab: up to {fmt.money(sum(x['amount'] for x in contracts))} across {len(contracts)}"
                          + (f" (includes {fmt.money(soft)} stated as up to, cancellable or terminable)" if soft else ""))
         if leases:
-            lines.append(f"- Lease obligations of this lab: {fmt.money(sum(x['amount'] for x in leases))} across {len(leases)} lessors")
+            lines.append(f"- Lease obligations of this lab: {fmt.money(sum(x['amount'] for x in leases))} across {len(leases)} " + ("lessor" if len(leases) == 1 else "lessors"))
+        if other:
+            lines.append(f"- Commitments not yet classified as contract or lease: {fmt.money(sum(x['amount'] for x in other))} across {len(other)}")
         md += lines + [""]
     if quiet:
         md += ["### S2 Lab funding gap: other labs", "- Not computable (no confirmed value for Nvidia's stake and no sourced commitments): " + ", ".join(quiet), ""]
