@@ -901,9 +901,9 @@
       },
       "seniority": "guarantor",
       "reconciliation": {
-        "result": "reconciled",
-        "nvidia_side": "Nvidia's 10-Q for the quarter ended 2025-10-26 reports one facility lease guarantee, maximum gross exposure $860 million, given in exchange for warrants, with $470 million placed in escrow by the partner (ev_10159, ev_50074, ev_10160). Nvidia does not name the partner. Matching amount, escrow, warrant consideration and quarter identify it as Nscale (analysis). The guarantee is now one of the land, power and shell guarantees totalling $3.5 billion (ev_10123).",
-        "counterparty_side": "Nscale's S-1/A of 2026-11-12 states Nvidia agreed to guarantee up to $860,340,000 of its obligations under the Ward County lease for the first five years, against a $470.0 million escrow and Series B warrants (ev_40003, ev_40046, ev_40004, ev_40006, ev_40007).",
+        "result": "partial",
+        "nvidia_side": "Nvidia's 10-Q for the quarter ended 2025-10-26 reports one facility lease guarantee, maximum gross exposure $860 million, given in exchange for warrants, with $470 million placed in escrow by the partner (ev_10159, ev_50074, ev_10160). Nvidia does not name the partner. Matching amount, escrow, warrant consideration and quarter identify it as Nscale (analysis). The guarantee is now one of the land, power and shell guarantees totalling $3.5 billion (ev_10123). Nvidia never names Nscale, the landlord or the site.",
+        "counterparty_side": "Nscale's S-1/A of 2026-11-12 states Nvidia agreed to guarantee up to $860,340,000 of its obligations under the Ward County lease for the first five years, against a $470.0 million escrow and Series B warrants (ev_40003, ev_40046, ev_40004, ev_40006, ev_40007). The landlord Ionic Digital's S-1/A states Nscale provided a guarantee from NVIDIA Corporation for the lease (ev_170012), a third party confirmation of existence but not Nvidia's side.",
         "nvidia_evidence": [
           "ev_10159",
           "ev_10160",
@@ -915,7 +915,8 @@
           "ev_40046",
           "ev_40004",
           "ev_40006",
-          "ev_40007"
+          "ev_40007",
+          "ev_170012"
         ],
         "differences": [
           {
@@ -945,6 +946,16 @@
               "ev_10160",
               "ev_10161",
               "ev_40004"
+            ]
+          },
+          {
+            "field": "guarantor's own disclosure",
+            "nvidia_value": "Nvidia does not state the beneficiary, landlord, site or lease; the link to Nscale rests on matching amount, escrow, warrants and quarter (analysis)",
+            "counterparty_value": "Nscale and its landlord Ionic Digital both name NVIDIA Corporation as guarantor of the Ward County lease",
+            "evidence": [
+              "ev_10159",
+              "ev_40003",
+              "ev_170012"
             ]
           }
         ]
@@ -1037,6 +1048,20 @@
               "ev_10115"
             ],
             "lens": "signaling"
+          },
+          {
+            "trigger": "Nscale stops paying rent to Ionic Digital",
+            "mechanism": "Nvidia's guarantee covers the first five lease years of the Nscale lease Ionic Digital relies on",
+            "affected": [
+              "ent_ionic_digital"
+            ],
+            "direction": "negative",
+            "text": "Ionic Digital, the Ward County landlord, has about $1.95 billion of contracted rent over the initial term, and Nvidia's guarantee covers the first five lease years, so Ionic's financing of the site looks to Nvidia's credit before Nscale's (analysis).",
+            "lens": "lender_reliance",
+            "evidence": [
+              "ev_170021",
+              "ev_170013"
+            ]
           }
         ]
       },
@@ -1106,7 +1131,9 @@
         "ev_40045",
         "ev_40046",
         "ev_50045",
-        "ev_50074"
+        "ev_50074",
+        "ev_170021",
+        "ev_170013"
       ],
       "notes": "Seed B8 modified: the Nvidia link to Nscale includes this guarantee, which Nvidia's filings show only anonymously. Nvidia's later land, power and shell guarantee total of $3.5bn (ev_10123) includes this guarantee and others not named."
     },
@@ -2955,7 +2982,7 @@
       "title": "Nvidia shares in Applied Digital from the 2024 private placement (exited)",
       "insight_template": "Nvidia bought {counterparty} shares in a private placement in {dates.announced:year} and sold them by the end of the following year, so no exposure remains.",
       "definition": "In September 2024 Applied Digital sold shares in a $160 million private placement at $3.24 per share to institutional and accredited investors, Nvidia and Related Companies. Nvidia held 7,716,050 shares, registered for resale. Nvidia's 13F reported them from 30 September 2024 to 30 September 2025; they are absent from the 13F for 31 December 2025.",
-      "status": "completed",
+      "status": "terminated",
       "claim_basis": "filed",
       "amounts": {
         "headline": {
@@ -3091,7 +3118,7 @@
         "ev_50013",
         "ev_80026"
       ],
-      "notes": "Seed B9 confirmed for Applied Digital. Exit quarter: between 2025-09-30 and 2025-12-31 (fourth calendar quarter 2025, Nvidia fiscal Q4 FY2026), inferred from the 13F lists. Sale price not disclosed."
+      "notes": "Seed B9 confirmed for Applied Digital. Exit quarter: between 2025-09-30 and 2025-12-31 (fourth calendar quarter 2025, Nvidia fiscal Q4 FY2026), inferred from the 13F lists. Sale price not disclosed. Status set to terminated (R9 review): the position was exited, matching the other exited 13F positions."
     }
   ],
   "projects": [

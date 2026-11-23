@@ -461,8 +461,8 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia equity in SB Energy (prepaid forward and IPO private placement)",
-      "insight_template": "Nvidia has paid {funded} toward {counterparty} shares and owes more at the listing, while it also guarantees leases on the same campus.",
-      "definition": "Nvidia prepaid $1.5 billion to SB Energy's parent on 17 August 2026 under a prepaid forward contract that settles into non voting Class N shares at 90% of the IPO price. It also signed a share purchase agreement to buy another $1.5 billion of Class N shares at the IPO price, conditional on the IPO closing by 15 May 2027. Nvidia's own release mentioned only $1.5 billion.",
+      "insight_template": "Nvidia paid {funded} for {counterparty} shares and would owe {contingent_max} more only if the listing closes in time, beside its lease guarantee.",
+      "definition": "Nvidia prepaid $1.5 billion to SB Energy's parent on 17 August 2026 under a prepaid forward contract that settles into non voting Class N shares at 90% of the IPO price; this is the committed and funded amount. It also signed a share purchase agreement to buy another $1.5 billion of Class N shares at the IPO price, which lapses unless an IPO with at least $1.5 billion of primary proceeds closes by 15 May 2027, so that part is recorded as contingent. Nvidia's own release mentioned only $1.5 billion.",
       "status": "definitive",
       "claim_basis": "filed",
       "amounts": {
@@ -482,7 +482,7 @@
           ]
         },
         "committed_total": {
-          "value": 3000000000,
+          "value": 1500000000,
           "as_of": "2026-11-19",
           "fiscal_period": null,
           "original_currency": "USD",
@@ -493,8 +493,9 @@
           "display_eligible": true,
           "lower_bound": false,
           "evidence": [
-            "ev_40086"
-          ]
+            "ev_40087"
+          ],
+          "note": "The prepaid forward already funded on 17 August 2026. The second $1.5 billion lapses unless the IPO closes in time, so it sits in contingent_max."
         },
         "funded": {
           "value": 1500000000,
@@ -512,7 +513,7 @@
           ]
         },
         "contingent_max": {
-          "value": 0,
+          "value": 1500000000,
           "as_of": "2026-11-19",
           "fiscal_period": null,
           "original_currency": "USD",
@@ -520,10 +521,13 @@
           "fx_rate": null,
           "fx_date": null,
           "last_verified": "2026-11-23",
-          "display_eligible": false,
+          "display_eligible": true,
           "lower_bound": false,
-          "evidence": [],
-          "not_applicable": true
+          "evidence": [
+            "ev_40088"
+          ],
+          "trigger": "SB Energy completes an IPO generating at least $1.5 billion of primary gross proceeds (ev_100052); the share purchase agreement terminates automatically on 15 May 2027 if the private placement has not closed (ev_100023)",
+          "note": "Concurrent private placement of Class N shares at the IPO price under the share purchase agreement dated 17 August 2026."
         }
       },
       "holding": {
@@ -703,7 +707,7 @@
       },
       "aggregate_of": null,
       "significance": {},
-      "notes": "Instrument dates: prepaid forward contract and share purchase agreement both dated 17 August 2026 (S-1/A No. 3 exhibits 10.26 and 10.27). S-1/A No. 3 of 19 November 2026 supersedes the S-1 of 1 September 2026 and amendments of 4 and 21 September 2026. No 424B4 yet. Nvidia's percentage ownership after the IPO is left blank in the S-1/A. The guaranty itself is recorded from the OpenAI side as rel_openai_gu_2026; it is not duplicated here.",
+      "notes": "Instrument dates: prepaid forward contract and share purchase agreement both dated 17 August 2026 (S-1/A No. 3 exhibits 10.26 and 10.27). S-1/A No. 3 of 19 November 2026 supersedes the S-1 of 1 September 2026 and amendments of 4 and 21 September 2026. No 424B4 yet. Nvidia's percentage ownership after the IPO is left blank in the S-1/A. The guaranty itself is recorded from the OpenAI side as rel_openai_gu_2026; it is not duplicated here. Amounts (R9 review): committed_total is the $1.5 billion prepaid forward already funded (ev_40087); the second $1.5 billion is contingent on the IPO closing by 15 May 2027 (ev_40088, ev_100052, ev_100023) and sits in contingent_max; the headline stays at the $3.0 billion total (ev_40086).",
       "version": 1,
       "evidence": [
         "ev_40086",
@@ -824,20 +828,24 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "A platform finances a project with Nvidia residual value support and the assets lose value",
-            "mechanism": "Nvidia pays the shortfall up to its share of the opportunity",
+            "trigger": "A project financed by a platform with Nvidia residual value support loses value",
+            "mechanism": "Nvidia pays the shortfall on up to its share of the opportunity under the Financing platforms memorandums",
             "affected": [
               "ent_nvidia",
               "ent_ai_financing_platforms"
             ],
             "direction": "negative",
-            "text": "If Financing platforms projects with Nvidia support lose value, Nvidia covers up to a quarter of each opportunity."
+            "text": "If a project financed by one of the six platforms with Nvidia residual value support loses value, Nvidia would cover the shortfall on up to a quarter of that opportunity, but no support is in place until final agreements are signed.",
+            "evidence": [
+              "ev_30013",
+              "ev_30015"
+            ]
           }
         ],
         "second_order": [
           {
             "trigger": "Capital providers size platform debt against Nvidia support",
-            "mechanism": "Lenders rely on Nvidia to absorb first losses on asset value",
+            "mechanism": "Lenders in the Financing platforms could price loans on Nvidia's support once final agreements exist",
             "affected": [
               "ent_apollo",
               "ent_blackrock",
@@ -847,18 +855,25 @@
               "ent_kkr"
             ],
             "direction": "negative",
-            "text": "Lenders in the Financing platforms would price loans on Nvidia's support, so a decision by Nvidia not to provide it would raise their cost of capital.",
-            "lens": "lender_reliance"
+            "text": "Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR could price platform loans on Nvidia's residual value support, but the partnerships still await final agreements, so no lender can rely on it yet.",
+            "lens": "lender_reliance",
+            "evidence": [
+              "ev_30013",
+              "ev_30015"
+            ]
           },
           {
             "trigger": "Nvidia supports values of GPU heavy projects",
-            "mechanism": "Support props up the collateral value of Nvidia systems used in other financings",
+            "mechanism": "Support under the Financing platforms would prop up the collateral value of Nvidia systems used in other financings",
             "affected": [
               "ent_ai_financing_platforms"
             ],
             "direction": "mixed",
-            "text": "Residual value support from Nvidia on Financing platforms projects would hold up GPU collateral values that other lenders also rely on.",
-            "lens": "collateral_loop"
+            "text": "If Nvidia gives residual value support on projects of the six platforms, it would hold up GPU collateral values that other lenders also rely on (analysis).",
+            "lens": "collateral_loop",
+            "evidence": [
+              "ev_30013"
+            ]
           }
         ]
       },
@@ -1008,8 +1023,8 @@
       },
       "seniority": "lp_interest",
       "reconciliation": {
-        "result": "reconciled",
-        "nvidia_side": "Nvidia's 10 August 2026 release quotes KKR calling Nvidia a founding investor in Helix (ev_30017). Nvidia filings give no amount.",
+        "result": "partial",
+        "nvidia_side": "Nvidia states nothing about Helix in its own words: its 10 August 2026 release only quotes a KKR executive calling Nvidia a founding investor in Helix (ev_30017). Nvidia filings give no amount.",
         "counterparty_side": "KKR's launch release names Nvidia a founding investor that will participate in returns (ev_100030, ev_100031); total commitments over $10 billion (ev_100054). Vistra's 10-Q describes the vehicle as a KKR managed open ended fund (ev_100032). Neither side gives Nvidia's amount.",
         "nvidia_evidence": [
           "ev_30017"
@@ -1020,7 +1035,18 @@
           "ev_100054",
           "ev_100032"
         ],
-        "differences": []
+        "differences": [
+          {
+            "field": "Nvidia's own statement",
+            "nvidia_value": "No Nvidia statement of the Helix investment; only a KKR executive's quote inside Nvidia's release, no amount or terms",
+            "counterparty_value": "KKR names Nvidia a founding investor that will participate in returns; total commitments over $10 billion",
+            "evidence": [
+              "ev_30017",
+              "ev_100030",
+              "ev_100031"
+            ]
+          }
+        ]
       },
       "credit": {
         "wwr": "general",
@@ -1055,15 +1081,19 @@
             "lens": "revenue_quality"
           },
           {
-            "trigger": "Nvidia joins as founding investor",
-            "mechanism": "Other investors such as Vistra and later Samsung join a vehicle with Nvidia as strategic partner",
+            "trigger": "Other founding investors commit to Helix",
+            "mechanism": "Vistra and KIA committed to Helix beside Nvidia; no source says Nvidia drew them",
             "affected": [
               "ent_vistra",
               "ent_kia"
             ],
-            "direction": "positive",
-            "text": "Nvidia's name on Helix helps KKR raise capital; if Nvidia stepped back, Helix fundraising could slow.",
-            "lens": "signaling"
+            "direction": "mixed",
+            "text": "Vistra, with up to $1 billion, and KIA committed to Helix as founding investors beside Nvidia; whether Nvidia's role drew them is not stated.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_100055",
+              "ev_100030"
+            ]
           }
         ]
       },
@@ -1235,26 +1265,29 @@
         ],
         "second_order": [
           {
-            "trigger": "The fund backs NAVER's Korean AI factory with up to $9 billion",
-            "mechanism": "Nvidia is both limited partner and NAVER investor in the same project chain",
+            "trigger": "A Brookfield vehicle backs NAVER's Korean AI factory with up to $9 billion",
+            "mechanism": "Analysis: Nvidia may be both limited partner and NAVER investor in the same project chain, if the Brookfield AI Infrastructure Fund holds the NAVER vehicle",
             "affected": [
               "ent_brookfield",
               "ent_nvidia"
             ],
             "direction": "mixed",
-            "text": "The Brookfield AI Infrastructure Fund program finances NAVER's Nvidia based AI factory, so a failure there would hit Nvidia through the fund and through NAVER.",
+            "text": "If the Brookfield vehicle financing NAVER's AI factory sits inside the Brookfield AI Infrastructure Fund, which no source on file confirms (analysis), a failure there would hit Nvidia through the fund and through NAVER.",
             "lens": "contagion"
           },
           {
-            "trigger": "Nvidia is named as strategic limited partner",
-            "mechanism": "Brookfield uses Nvidia's name to raise third party capital",
+            "trigger": "Brookfield raises third party capital for the fund",
+            "mechanism": "Brookfield names Nvidia as a strategic limited partner of the Brookfield AI Infrastructure Fund",
             "affected": [
               "ent_brookfield",
               "ent_kia"
             ],
-            "direction": "positive",
-            "text": "Brookfield cites Nvidia as a strategic partner of the Brookfield AI Infrastructure Fund, which helps it raise toward its $10 billion target.",
-            "lens": "signaling"
+            "direction": "mixed",
+            "text": "Brookfield names Nvidia as a strategic limited partner of the Brookfield AI Infrastructure Fund, alongside KIA; Nvidia's commitment is not disclosed.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_100038"
+            ]
           }
         ]
       },
@@ -1427,15 +1460,19 @@
         ],
         "second_order": [
           {
-            "trigger": "Meta expands Vera Rubin, Spectrum-X and BlueField-4 deployment",
-            "mechanism": "Nvidia equity money goes to a customer announcing larger Nvidia purchases the same day",
+            "trigger": "Nvidia buys Meta shares under its indication",
+            "mechanism": "Nvidia cash would reach Meta in the offering in which Meta announced wider Nvidia deployment",
             "affected": [
               "ent_meta",
               "ent_nvidia"
             ],
             "direction": "mixed",
-            "text": "Nvidia's $3 billion arrives as Meta announces more Nvidia deployment, so some Meta purchases are matched by Nvidia cash into Meta.",
-            "lens": "revenue_quality"
+            "text": "If Nvidia buys under its non-binding indication, its cash would reach Meta in the offering in which Meta announced wider Nvidia deployment; no purchase is confirmed.",
+            "lens": "revenue_quality",
+            "evidence": [
+              "ev_100041",
+              "ev_30077"
+            ]
           },
           {
             "trigger": "Three chip suppliers act as cornerstone investors",

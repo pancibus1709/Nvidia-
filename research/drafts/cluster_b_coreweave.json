@@ -781,20 +781,17 @@
         "second_order": [
           {
             "lens": "signaling",
-            "trigger": "Nvidia sells CoreWeave shares or stops adding capital",
-            "mechanism": "Nvidia's $2 billion purchase at $87.20 came alongside a framework to use its financial strength for CoreWeave sites, which CoreWeave's lenders and convertible buyers can read as support",
+            "trigger": "Nvidia sells CoreWeave shares",
+            "mechanism": "Galaxy Digital's noteholders were told about Nvidia's CoreWeave stake and capacity order",
             "affected": [
-              "ent_coreweave",
-              "ent_mufg",
-              "ent_jpmorgan",
-              "ent_morgan_stanley"
+              "ent_galaxy_digital",
+              "ent_coreweave"
             ],
             "direction": "negative",
-            "text": "Investors priced CoreWeave's later convertible and secured debt with Nvidia as a 10% holder, so an Nvidia exit would likely raise CoreWeave's cost of capital (analysis).",
+            "text": "Galaxy Digital's investor presentation for notes on its Helios campus leased to CoreWeave cites Nvidia's stake of about 11.5% and its capacity order, so an Nvidia sale would remove a support those noteholders were told about.",
             "evidence": [
-              "ev_20013",
-              "ev_70001",
-              "ev_20150"
+              "ev_170016",
+              "ev_170017"
             ]
           },
           {
@@ -1027,7 +1024,9 @@
         "ev_70026",
         "ev_70027",
         "ev_70028",
-        "ev_70030"
+        "ev_70030",
+        "ev_170016",
+        "ev_170017"
       ]
     },
     {
@@ -1091,7 +1090,7 @@
             "ev_20001"
           ],
           "trigger": "CoreWeave does not sell reserved capacity to its customers; Nvidia buys the residual unsold capacity through 2032-04-13, if CoreWeave meets delivery and availability of service requirements",
-          "note": "The 8-K calls $6.3bn the initial value, not a maximum. Whether it is a ceiling, a minimum or an estimate is not disclosed; treated here as the contingent amount."
+          "note": "The 8-K calls $6.3bn the initial value, not a maximum. A landlord's noteholder presentation (Galaxy Digital, ev_170016) describes the order as up to $6.3Bn of residual cloud capacity, which supports reading it as a ceiling but is a third party's description. Whether it is a ceiling, a minimum or an estimate is not disclosed by Nvidia or CoreWeave; treated here as the contingent amount, not a proven ceiling."
         }
       },
       "dates": {
@@ -1250,6 +1249,20 @@
             "evidence": [
               "ev_20001",
               "ev_20150"
+            ]
+          },
+          {
+            "trigger": "CoreWeave enters an insolvency proceeding not dismissed within 90 days",
+            "mechanism": "A landlord's noteholders were shown the CoreWeave order as residual purchase support, but the order can end on insolvency",
+            "affected": [
+              "ent_galaxy_digital"
+            ],
+            "direction": "negative",
+            "text": "A landlord's noteholders were shown the CoreWeave order as up to $6.3 billion of residual purchases, while the order ends after a 90 day insolvency, so those noteholders rely on support that stops when CoreWeave fails.",
+            "lens": "lender_reliance",
+            "evidence": [
+              "ev_170016",
+              "ev_20006"
             ]
           }
         ]

@@ -1805,7 +1805,7 @@
     "id": "ent_naver",
     "name": "NAVER Corporation",
     "short_name": "NAVER",
-    "cluster": "other",
+    "cluster": "hyperscaler",
     "depth": 1,
     "public": true,
     "ticker": "035420.KS",

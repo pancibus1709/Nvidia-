@@ -564,13 +564,19 @@
           },
           {
             "lens": "signaling",
-            "trigger": "Nvidia is named as a Lambda investor",
-            "mechanism": "The Nvidia name supports Lambda's access to investment-grade rated GPU debt",
+            "trigger": "Lambda's offtakers change or Nvidia's role is clarified",
+            "mechanism": "Lambda's rated loans rest on funded GPUs and investment-grade offtaker contracts, not on Nvidia's equity",
             "affected": [
               "ent_lambda"
             ],
-            "direction": "positive",
-            "text": "Nvidia's presence on Lambda's cap table is part of the profile that let Lambda price GPU debt at investment-grade ratings."
+            "direction": "mixed",
+            "text": "Lambda's rated GPU loans rest on the GPUs they fund and on investment-grade offtakers' contracts; whether Nvidia is one of those Lambda offtakers is reported but unconfirmed.",
+            "evidence": [
+              "ev_110003",
+              "ev_110005",
+              "ev_110006",
+              "ev_110007"
+            ]
           }
         ]
       },
@@ -702,7 +708,8 @@
         "ev_110011",
         "ev_110012",
         "ev_110013",
-        "ev_110014"
+        "ev_110014",
+        "ev_110005"
       ],
       "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
     },
@@ -804,48 +811,37 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Crusoe fails to lease or finance planned campus capacity",
-            "mechanism": "Crusoe's private valuation falls, and Nvidia's Crusoe stake with it",
-            "affected": [
-              "ent_crusoe",
-              "ent_nvidia"
-            ],
-            "direction": "negative",
-            "text": "If Crusoe cannot fill or finance new campus capacity, its valuation falls and Nvidia's Crusoe stake is written down."
-          },
-          {
-            "trigger": "Crusoe proceeds with its reported IPO",
-            "mechanism": "A listing puts a market price on Nvidia's Crusoe stake",
-            "affected": [
-              "ent_nvidia"
-            ],
-            "direction": "mixed",
-            "text": "A Crusoe listing would move Nvidia's stake from an undisclosed carrying value to a quoted price that moves daily."
-          }
-        ],
-        "second_order": [
-          {
-            "lens": "revenue_quality",
-            "trigger": "Crusoe spends new equity and debt on GPU clusters",
-            "mechanism": "Part of Crusoe's capital, including a facility tied by its terms to NVIDIA GPUs, returns to Nvidia as hardware sales",
+            "trigger": "Crusoe's value falls after it added secured debt",
+            "mechanism": "The Series D equity ranks behind the Brookfield and Upper90 facilities Crusoe added in 2025",
             "affected": [
               "ent_nvidia",
               "ent_crusoe"
             ],
-            "direction": "mixed",
-            "text": "Crusoe's Upper90 facility is used exclusively for NVIDIA GPUs, so some Crusoe capital raised alongside Nvidia returns to Nvidia as chip revenue."
-          },
+            "direction": "negative",
+            "text": "Nvidia's Crusoe Series D stake dates from December 2024, before Crusoe added its Brookfield and Upper90 credit facilities, so that equity now ranks behind those lenders.",
+            "evidence": [
+              "ev_110016",
+              "ev_110024",
+              "ev_110025"
+            ]
+          }
+        ],
+        "second_order": [
           {
-            "lens": "lender_reliance",
             "trigger": "Crusoe's equity cushion shrinks",
-            "mechanism": "Brookfield, Upper90 and the Abilene joint venture partners rely on Crusoe's equity base",
+            "mechanism": "Brookfield and Upper90 lent to Crusoe against an equity base that includes the Series D",
             "affected": [
               "ent_brookfield",
-              "ent_upper90",
-              "ent_blue_owl"
+              "ent_upper90"
             ],
             "direction": "negative",
-            "text": "Lenders and joint venture partners of Crusoe rely on its equity rounds, which Nvidia joins, to absorb first losses on GPU and campus assets."
+            "text": "Brookfield and Upper90 lent to Crusoe in 2025 against an equity base that includes the Series D Nvidia joined, so Crusoe losses fall on that equity before those lenders.",
+            "lens": "lender_reliance",
+            "evidence": [
+              "ev_110016",
+              "ev_110024",
+              "ev_110025"
+            ]
           }
         ]
       },
@@ -1067,48 +1063,35 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Crusoe fails to lease or finance planned campus capacity",
-            "mechanism": "Crusoe's private valuation falls, and Nvidia's Crusoe stake with it",
-            "affected": [
-              "ent_crusoe",
-              "ent_nvidia"
-            ],
-            "direction": "negative",
-            "text": "If Crusoe cannot fill or finance new campus capacity, its valuation falls and Nvidia's Crusoe stake is written down."
-          },
-          {
-            "trigger": "Crusoe proceeds with its reported IPO",
-            "mechanism": "A listing puts a market price on Nvidia's Crusoe stake",
-            "affected": [
-              "ent_nvidia"
-            ],
-            "direction": "mixed",
-            "text": "A Crusoe listing would move Nvidia's stake from an undisclosed carrying value to a quoted price that moves daily."
-          }
-        ],
-        "second_order": [
-          {
-            "lens": "revenue_quality",
-            "trigger": "Crusoe spends new equity and debt on GPU clusters",
-            "mechanism": "Part of Crusoe's capital, including a facility tied by its terms to NVIDIA GPUs, returns to Nvidia as hardware sales",
+            "trigger": "Crusoe's Series E final close differs from the initial closing",
+            "mechanism": "Nvidia joined the initial closing of an anticipated round",
             "affected": [
               "ent_nvidia",
               "ent_crusoe"
             ],
             "direction": "mixed",
-            "text": "Crusoe's Upper90 facility is used exclusively for NVIDIA GPUs, so some Crusoe capital raised alongside Nvidia returns to Nvidia as chip revenue."
-          },
+            "text": "Nvidia joined only the initial closing of Crusoe's anticipated Series E, so the final round size and Nvidia's share of it are not confirmed.",
+            "evidence": [
+              "ev_110017",
+              "ev_110018"
+            ]
+          }
+        ],
+        "second_order": [
           {
-            "lens": "lender_reliance",
-            "trigger": "Crusoe's equity cushion shrinks",
-            "mechanism": "Brookfield, Upper90 and the Abilene joint venture partners rely on Crusoe's equity base",
+            "trigger": "Crusoe's value falls",
+            "mechanism": "Valor Equity Partners and Mubadala Capital co-led the same Crusoe round",
             "affected": [
-              "ent_brookfield",
-              "ent_upper90",
-              "ent_blue_owl"
+              "ent_valor",
+              "ent_crusoe"
             ],
             "direction": "negative",
-            "text": "Lenders and joint venture partners of Crusoe rely on its equity rounds, which Nvidia joins, to absorb first losses on GPU and campus assets."
+            "text": "Valor Equity Partners and Mubadala Capital co-led the Crusoe Series E that Nvidia joined, so a fall in Crusoe's value would hit those leads alongside Nvidia.",
+            "lens": "contagion",
+            "evidence": [
+              "ev_110017",
+              "ev_110018"
+            ]
           }
         ]
       },
@@ -1595,48 +1578,34 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Firmus cannot raise the capital for its unbuilt contracted sites",
-            "mechanism": "Firmus's valuation falls below the private round prices at which Nvidia invested",
+            "trigger": "Firmus's unbuilt sites lose value",
+            "mechanism": "Nvidia's first Firmus equity on file was a small part of a placement led by Ellerston Capital as cornerstone",
             "affected": [
-              "ent_firmus",
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_firmus"
             ],
             "direction": "negative",
-            "text": "If Firmus cannot fund its unbuilt sites after the withdrawn IPO, Nvidia's Firmus stake loses value against its private round prices."
-          },
-          {
-            "trigger": "Nvidia adds new equity after the IPO withdrawal",
-            "mechanism": "Nvidia's Firmus exposure rises while Firmus's market access is weakest",
-            "affected": [
-              "ent_nvidia"
-            ],
-            "direction": "negative",
-            "text": "Reported talks for Nvidia to back Firmus after the failed IPO would raise Nvidia's exposure when Firmus depends most on it."
+            "text": "Nvidia joined the A$330m Firmus placement of September 2025 beside cornerstone Ellerston Capital with no amount stated, so this stake rides on the same unbuilt Firmus sites as its later rounds.",
+            "evidence": [
+              "ev_110062"
+            ]
           }
         ],
         "second_order": [
           {
-            "lens": "contagion",
-            "trigger": "Firmus delays Batam or Malaysia sites",
-            "mechanism": "OpenAI and other Firmus customers lose contracted capacity",
+            "trigger": "Firmus spends the placement on its Tasmania facility",
+            "mechanism": "The Firmus release describes a facility with 36,000 NVIDIA GPUs",
             "affected": [
-              "ent_openai",
-              "ent_firmus"
-            ],
-            "direction": "negative",
-            "text": "If Firmus delays sites, OpenAI and other Firmus customers lose contracted capacity they had planned around."
-          },
-          {
-            "lens": "signaling",
-            "trigger": "Nvidia participates in each Firmus round",
-            "mechanism": "Nvidia's presence supports Firmus's private valuations and its Blackstone debt terms",
-            "affected": [
-              "ent_blackstone",
-              "ent_coatue",
+              "ent_nvidia",
               "ent_firmus"
             ],
             "direction": "mixed",
-            "text": "Coatue and Blackstone invested alongside Nvidia in Firmus, so an Nvidia step back would weaken the case for their Firmus funding."
+            "text": "The release announcing the Firmus placement describes a facility with 36,000 NVIDIA GPUs, so part of the capital Nvidia joined is likely to return as Nvidia hardware sales (analysis).",
+            "lens": "revenue_quality",
+            "evidence": [
+              "ev_110062",
+              "ev_110028"
+            ]
           }
         ]
       },
@@ -1707,7 +1676,7 @@
       "title": "Nvidia participation in the Firmus USD505 million round",
       "insight_template": "Nvidia owns equity in {counterparty}, which withdrew its IPO while most contracted capacity is still unbuilt, so the stake depends on private funding.",
       "definition": "Firmus announced that it expected to secure a further USD505 million strategic equity investment led by Coatue, with NVIDIA participating subject to certain closing conditions. Nikkei Asia reported the raise as including a further infusion from Nvidia. Nvidia's amount is not disclosed.",
-      "status": "completed",
+      "status": "definitive",
       "claim_basis": "company_announced",
       "amounts": {
         "headline": {
@@ -1796,48 +1765,34 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Firmus cannot raise the capital for its unbuilt contracted sites",
-            "mechanism": "Firmus's valuation falls below the private round prices at which Nvidia invested",
+            "trigger": "The closing conditions on Nvidia's participation are not met",
+            "mechanism": "Nvidia's participation in the round led by Coatue was subject to closing conditions",
             "affected": [
-              "ent_firmus",
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_firmus"
             ],
-            "direction": "negative",
-            "text": "If Firmus cannot fund its unbuilt sites after the withdrawn IPO, Nvidia's Firmus stake loses value against its private round prices."
-          },
-          {
-            "trigger": "Nvidia adds new equity after the IPO withdrawal",
-            "mechanism": "Nvidia's Firmus exposure rises while Firmus's market access is weakest",
-            "affected": [
-              "ent_nvidia"
-            ],
-            "direction": "negative",
-            "text": "Reported talks for Nvidia to back Firmus after the failed IPO would raise Nvidia's exposure when Firmus depends most on it."
+            "direction": "mixed",
+            "text": "Nvidia's participation in the Firmus round led by Coatue was subject to closing conditions and no source confirms it closed, so this Firmus stake may not exist.",
+            "evidence": [
+              "ev_110030"
+            ]
           }
         ],
         "second_order": [
           {
-            "lens": "contagion",
-            "trigger": "Firmus delays Batam or Malaysia sites",
-            "mechanism": "OpenAI and other Firmus customers lose contracted capacity",
+            "trigger": "Firmus later prices below this round",
+            "mechanism": "Coatue led the Firmus round at a USD5.5 billion post-money valuation beside Nvidia",
             "affected": [
-              "ent_openai",
-              "ent_firmus"
-            ],
-            "direction": "negative",
-            "text": "If Firmus delays sites, OpenAI and other Firmus customers lose contracted capacity they had planned around."
-          },
-          {
-            "lens": "signaling",
-            "trigger": "Nvidia participates in each Firmus round",
-            "mechanism": "Nvidia's presence supports Firmus's private valuations and its Blackstone debt terms",
-            "affected": [
-              "ent_blackstone",
               "ent_coatue",
               "ent_firmus"
             ],
-            "direction": "mixed",
-            "text": "Coatue and Blackstone invested alongside Nvidia in Firmus, so an Nvidia step back would weaken the case for their Firmus funding."
+            "direction": "negative",
+            "text": "Coatue led the Firmus round at a USD5.5 billion post-money valuation beside Nvidia, so a lower later Firmus price would mark down Coatue and Nvidia together.",
+            "lens": "contagion",
+            "evidence": [
+              "ev_110031",
+              "ev_110029"
+            ]
           }
         ]
       },
@@ -1915,7 +1870,7 @@
         "ev_110031",
         "ev_110063"
       ],
-      "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
+      "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23. Status set to definitive (R9 review): Nvidia's participation was subject to certain closing conditions (ev_110030) and no source confirms closing; the August 2026 release's 'follow-on participation from Coatue and NVIDIA' (ev_110033) refers to the later round and does not show this round closed."
     },
     {
       "id": "rel_firmus_eq_2026b",
@@ -2025,13 +1980,17 @@
             "text": "If Firmus cannot fund its unbuilt sites after the withdrawn IPO, Nvidia's Firmus stake loses value against its private round prices."
           },
           {
-            "trigger": "Nvidia adds new equity after the IPO withdrawal",
-            "mechanism": "Nvidia's Firmus exposure rises while Firmus's market access is weakest",
+            "trigger": "Reported, unconfirmed: Nvidia adds new equity after the IPO withdrawal",
+            "mechanism": "Nvidia's Firmus exposure would rise while Firmus's market access is weakest",
             "affected": [
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_firmus"
             ],
             "direction": "negative",
-            "text": "Reported talks for Nvidia to back Firmus after the failed IPO would raise Nvidia's exposure when Firmus depends most on it."
+            "text": "If reported but unconfirmed talks for Nvidia to back Firmus after the withdrawn IPO lead to new equity, Nvidia's exposure would rise when Firmus depends most on it.",
+            "evidence": [
+              "ev_110048"
+            ]
           }
         ],
         "second_order": [
@@ -2047,16 +2006,21 @@
             "text": "If Firmus delays sites, OpenAI and other Firmus customers lose contracted capacity they had planned around."
           },
           {
-            "lens": "signaling",
-            "trigger": "Nvidia participates in each Firmus round",
-            "mechanism": "Nvidia's presence supports Firmus's private valuations and its Blackstone debt terms",
+            "trigger": "Firmus suffers a loss",
+            "mechanism": "Coatue and Blackstone hold Firmus equity and debt beside Nvidia's equity and Batam credit support",
             "affected": [
               "ent_blackstone",
               "ent_coatue",
               "ent_firmus"
             ],
-            "direction": "mixed",
-            "text": "Coatue and Blackstone invested alongside Nvidia in Firmus, so an Nvidia step back would weaken the case for their Firmus funding."
+            "direction": "negative",
+            "text": "Coatue and Blackstone hold Firmus equity and a $10 billion Firmus debt facility beside Nvidia's equity and Batam credit support, so a Firmus loss would fall on all three.",
+            "lens": "lender_reliance",
+            "evidence": [
+              "ev_110035",
+              "ev_110033",
+              "ev_110037"
+            ]
           }
         ]
       },
@@ -2135,7 +2099,8 @@
         "ev_110035",
         "ev_110050",
         "ev_110048",
-        "ev_110049"
+        "ev_110049",
+        "ev_110037"
       ],
       "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
     },
@@ -2299,14 +2264,18 @@
           },
           {
             "lens": "lender_reliance",
-            "trigger": "Lenders finance Batam GPUs",
-            "mechanism": "Lenders size Batam debt against capacity that Nvidia supports",
+            "trigger": "A lender finances Firmus's Batam GPUs",
+            "mechanism": "No Batam lender is identified; Blackstone's Firmus facility may or may not fund Batam",
             "affected": [
               "ent_firmus",
               "ent_blackstone"
             ],
             "direction": "negative",
-            "text": "Lenders to Firmus's Batam campus can rely on Nvidia's credit support, so any change in Nvidia's support would reprice that debt."
+            "text": "No lender to Firmus's Batam campus is identified; if Blackstone's $10 billion Firmus facility funds Batam, its lenders would sit beside Nvidia credit support whose size and trigger are undisclosed.",
+            "evidence": [
+              "ev_110035",
+              "ev_110037"
+            ]
           },
           {
             "lens": "contagion",
@@ -2468,36 +2437,33 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Together AI's inference demand slows",
-            "mechanism": "Together AI's valuation falls, reducing Nvidia's stake value",
+            "trigger": "Together AI loses value",
+            "mechanism": "Nvidia's first Together AI stake came in a Series A led by Kleiner Perkins, amount not stated",
             "affected": [
-              "ent_together_ai",
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_together_ai"
             ],
             "direction": "negative",
-            "text": "If demand for Together AI's open model inference slows, Nvidia's Together AI stake loses value."
-          },
-          {
-            "trigger": "Together AI expands capacity",
-            "mechanism": "Together AI buys or rents more Nvidia GPU capacity",
-            "affected": [
-              "ent_nvidia"
-            ],
-            "direction": "positive",
-            "text": "Growth at Together AI adds demand for Nvidia GPUs that Together AI rents from IREN, Crusoe and others."
+            "text": "Nvidia's first Together AI stake came in a $102.5M Series A led by Kleiner Perkins with no amount stated, so it is small unless sized and rides on the same Together AI demand as later rounds.",
+            "evidence": [
+              "ev_110053",
+              "ev_110064"
+            ]
           }
         ],
         "second_order": [
           {
-            "lens": "contagion",
-            "trigger": "Together AI cuts its capacity commitments",
-            "mechanism": "IREN and Crusoe lose a named GPU cloud customer",
+            "trigger": "Together AI weakens",
+            "mechanism": "No lender, customer or co-investor of Together AI is shown to rely on this round",
             "affected": [
-              "ent_iren",
-              "ent_crusoe"
+              "ent_together_ai"
             ],
-            "direction": "negative",
-            "text": "Together AI is a named customer of IREN and of Crusoe, so a Together AI pullback would cut revenue at other Nvidia backed clouds."
+            "direction": "mixed",
+            "text": "No lender, customer or co-investor of Together AI is shown to rely on the Series A Nvidia joined, so this round adds no sourced second order effect beyond the later Together AI rounds.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_110053"
+            ]
           }
         ]
       },
@@ -2612,36 +2578,34 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Together AI's inference demand slows",
-            "mechanism": "Together AI's valuation falls, reducing Nvidia's stake value",
+            "trigger": "Together AI prices below its Series B",
+            "mechanism": "Nvidia added to its stake in a Series B led by General Catalyst, amount not stated",
             "affected": [
-              "ent_together_ai",
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_together_ai"
             ],
             "direction": "negative",
-            "text": "If demand for Together AI's open model inference slows, Nvidia's Together AI stake loses value."
-          },
-          {
-            "trigger": "Together AI expands capacity",
-            "mechanism": "Together AI buys or rents more Nvidia GPU capacity",
-            "affected": [
-              "ent_nvidia"
-            ],
-            "direction": "positive",
-            "text": "Growth at Together AI adds demand for Nvidia GPUs that Together AI rents from IREN, Crusoe and others."
+            "text": "Nvidia added to its Together AI stake in a $305 million Series B led by General Catalyst with no amount stated, so a lower Together AI price would mark this round down too.",
+            "evidence": [
+              "ev_110054",
+              "ev_110055"
+            ]
           }
         ],
         "second_order": [
           {
-            "lens": "contagion",
-            "trigger": "Together AI cuts its capacity commitments",
-            "mechanism": "IREN and Crusoe lose a named GPU cloud customer",
+            "trigger": "Together AI spends the Series B on GPUs",
+            "mechanism": "Together AI said the round funds a large deployment of NVIDIA Blackwell GPUs",
             "affected": [
-              "ent_iren",
-              "ent_crusoe"
+              "ent_nvidia",
+              "ent_together_ai"
             ],
-            "direction": "negative",
-            "text": "Together AI is a named customer of IREN and of Crusoe, so a Together AI pullback would cut revenue at other Nvidia backed clouds."
+            "direction": "mixed",
+            "text": "Together AI said its Series B funds a deployment of NVIDIA Blackwell GPUs, so part of the round Nvidia joined returns to Nvidia as hardware demand (analysis).",
+            "lens": "revenue_quality",
+            "evidence": [
+              "ev_110054"
+            ]
           }
         ]
       },
@@ -2783,25 +2747,30 @@
           },
           {
             "trigger": "Together AI expands capacity",
-            "mechanism": "Together AI buys or rents more Nvidia GPU capacity",
+            "mechanism": "Together AI rents more Nvidia GPU capacity from IREN and other clouds",
             "affected": [
               "ent_nvidia"
             ],
             "direction": "positive",
-            "text": "Growth at Together AI adds demand for Nvidia GPUs that Together AI rents from IREN, Crusoe and others."
+            "text": "Growth at Together AI adds demand for Nvidia GPUs that Together AI rents from IREN and others.",
+            "evidence": [
+              "ev_40120"
+            ]
           }
         ],
         "second_order": [
           {
-            "lens": "contagion",
             "trigger": "Together AI cuts its capacity commitments",
-            "mechanism": "IREN and Crusoe lose a named GPU cloud customer",
+            "mechanism": "IREN loses part of a group of July 2026 contracts that includes Together AI",
             "affected": [
-              "ent_iren",
-              "ent_crusoe"
+              "ent_iren"
             ],
             "direction": "negative",
-            "text": "Together AI is a named customer of IREN and of Crusoe, so a Together AI pullback would cut revenue at other Nvidia backed clouds."
+            "text": "Together AI is one of three IREN customers whose July 2026 contracts total about $2.8 billion, so a Together AI pullback would cut revenue at IREN, another Nvidia backed cloud.",
+            "lens": "contagion",
+            "evidence": [
+              "ev_40120"
+            ]
           }
         ]
       },

@@ -1177,15 +1177,18 @@
         "second_order": [
           {
             "trigger": "Nvidia stops investing in OpenAI's future rounds",
-            "mechanism": "Co-investors lose the signal of the main supplier backing OpenAI",
+            "mechanism": "SoftBank funded its OpenAI follow-on beside Nvidia's commitment",
             "affected": [
               "ent_softbank",
-              "ent_amazon",
               "ent_openai"
             ],
             "direction": "negative",
-            "text": "SoftBank borrowed to fund its OpenAI tranches, so a pause by Nvidia in OpenAI's next round would raise the cost of capital for OpenAI and its co-investors.",
-            "lens": "signaling"
+            "text": "SoftBank paid its USD 30.0 billion in three tranches beside Nvidia's OpenAI commitment, so a pause by Nvidia in OpenAI's next round would be read first by the same co-investors.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_120103",
+              "ev_120104"
+            ]
           },
           {
             "trigger": "OpenAI fails to meet its compute contracts",
@@ -1767,13 +1770,18 @@
           },
           {
             "trigger": "Anthropic shifts compute away from Nvidia GPUs",
-            "mechanism": "The equity was paired with Anthropic adopting Nvidia architecture up to one gigawatt",
+            "mechanism": "Anthropic's largest disclosed compute commitments are with Google, Amazon and Broadcom equipment leases",
             "affected": [
               "ent_nvidia",
               "ent_anthropic"
             ],
             "direction": "negative",
-            "text": "Anthropic trains on Trainium, TPUs and AMD as well, so the investment does not lock in Anthropic's purchases of Nvidia-based compute."
+            "text": "Anthropic's largest compute commitments are about $121.3 billion with Google, at least $110.0 billion with Amazon and about $161.2 billion of Broadcom equipment leases, so the Nvidia investment does not tie most of Anthropic's spending to Nvidia hardware.",
+            "evidence": [
+              "ev_120045",
+              "ev_120046",
+              "ev_120051"
+            ]
           }
         ],
         "second_order": [
@@ -1839,7 +1847,10 @@
         "ev_120066",
         "ev_120067",
         "ev_120068",
-        "ev_120044"
+        "ev_120044",
+        "ev_120045",
+        "ev_120046",
+        "ev_120051"
       ],
       "notes": "Series G: $30 billion at $380 billion post-money, led by GIC and Coatue (ev_120067, ev_120068). Seniority: Series G was redeemable convertible preferred before the IPO conversion (analysis from the 424B4)."
     },

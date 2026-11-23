@@ -1084,7 +1084,8 @@
     "kind": "holding_change",
     "summary": "Nvidia's 13F showed 161,082,488 Intel shares, down from 214,776,632 a quarter earlier.",
     "evidence": [
-      "ev_50021"
+      "ev_50021",
+      "ev_160006"
     ]
   },
   {
@@ -1094,7 +1095,8 @@
     "kind": "holding_change",
     "summary": "Nvidia's 13F showed 72,859,751 Nokia ADS, down from 166,389,351.",
     "evidence": [
-      "ev_50025"
+      "ev_50025",
+      "ev_160008"
     ]
   },
   {
@@ -1104,7 +1106,8 @@
     "kind": "holding_change",
     "summary": "Nvidia's 13F showed 4,354,077 Synopsys shares, down from 4,821,717.",
     "evidence": [
-      "ev_50023"
+      "ev_50023",
+      "ev_160010"
     ]
   },
   {

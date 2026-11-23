@@ -3,20 +3,20 @@
   "label": "analysis",
   "totals": {
     "funded": 32264399346.78,
-    "committed_unfunded": 43000000000.0,
-    "contingent_max": 112160340000.0,
-    "headline": 308092739346.78,
-    "gross": 187424739346.78,
+    "committed_unfunded": 37700000000.0,
+    "contingent_max": 113660340000.0,
+    "headline": 307092739346.78,
+    "gross": 183624739346.78,
     "count": 81,
-    "lower_bound_count": 49,
+    "lower_bound_count": 51,
     "counts": {
       "funded": 16,
-      "committed_unfunded": 9,
-      "contingent_max": 3,
-      "headline": 31
+      "committed_unfunded": 6,
+      "contingent_max": 4,
+      "headline": 30
     }
   },
-  "headline_binding_share": 0.6083387091307604,
+  "headline_binding_share": 0.5979455578707916,
   "by_type": {
     "GU": {
       "count": 2,
@@ -30,8 +30,8 @@
     "EQ": {
       "count": 56,
       "funded": 31264399346.78,
-      "committed_unfunded": 32500000000.0,
-      "contingent_max": 0.0,
+      "committed_unfunded": 31000000000.0,
+      "contingent_max": 1500000000.0,
       "gross": 63764399346.78,
       "headline": 68852399346.78,
       "lower_bound": 38
@@ -43,15 +43,6 @@
       "contingent_max": 6300000000.0,
       "gross": 6300000000.0,
       "headline": 11180000000.0,
-      "lower_bound": 3
-    },
-    "PP": {
-      "count": 6,
-      "funded": 0.0,
-      "committed_unfunded": 4900000000.0,
-      "contingent_max": 0.0,
-      "gross": 4900000000.0,
-      "headline": 5100000000.0,
       "lower_bound": 3
     },
     "LB": {
@@ -71,6 +62,15 @@
       "gross": 2000000000.0,
       "headline": 2000000000.0,
       "lower_bound": 0
+    },
+    "PP": {
+      "count": 6,
+      "funded": 0.0,
+      "committed_unfunded": 1100000000.0,
+      "contingent_max": 0.0,
+      "gross": 1100000000.0,
+      "headline": 4100000000.0,
+      "lower_bound": 5
     },
     "EQ-C": {
       "count": 7,
@@ -110,15 +110,6 @@
       "headline": 255000000000.0,
       "lower_bound": 10
     },
-    "semis_supply": {
-      "count": 14,
-      "funded": 14500000000.0,
-      "committed_unfunded": 4900000000.0,
-      "contingent_max": 0.0,
-      "gross": 19400000000.0,
-      "headline": 19600000000.0,
-      "lower_bound": 4
-    },
     "neocloud": {
       "count": 24,
       "funded": 6177399346.78,
@@ -128,22 +119,31 @@
       "headline": 25917739346.78,
       "lower_bound": 18
     },
+    "semis_supply": {
+      "count": 14,
+      "funded": 14500000000.0,
+      "committed_unfunded": 1100000000.0,
+      "contingent_max": 0.0,
+      "gross": 15600000000.0,
+      "headline": 18600000000.0,
+      "lower_bound": 6
+    },
     "vehicle": {
       "count": 4,
       "funded": 1500000000.0,
-      "committed_unfunded": 1500000000.0,
-      "contingent_max": 0.0,
+      "committed_unfunded": 0.0,
+      "contingent_max": 1500000000.0,
       "gross": 3000000000.0,
       "headline": 3000000000.0,
       "lower_bound": 2
     },
-    "other": {
-      "count": 1,
+    "hyperscaler": {
+      "count": 2,
       "funded": 0.0,
       "committed_unfunded": 1000000000.0,
       "contingent_max": 0.0,
       "gross": 1000000000.0,
-      "headline": 1000000000.0,
+      "headline": 4000000000.0,
       "lower_bound": 0
     },
     "portfolio": {
@@ -154,44 +154,35 @@
       "gross": 87000000.0,
       "headline": 575000000.0,
       "lower_bound": 15
-    },
-    "hyperscaler": {
-      "count": 1,
-      "funded": 0.0,
-      "committed_unfunded": 0.0,
-      "contingent_max": 0.0,
-      "gross": 0.0,
-      "headline": 3000000000.0,
-      "lower_bound": 0
     }
   },
   "by_status": {
     "definitive": {
-      "count": 23,
+      "count": 24,
       "funded": 2500000000.0,
-      "committed_unfunded": 43000000000.0,
-      "contingent_max": 112160340000.0,
-      "gross": 157660340000.0,
-      "headline": 174840340000.0,
-      "lower_bound": 13
+      "committed_unfunded": 37700000000.0,
+      "contingent_max": 113660340000.0,
+      "gross": 153860340000.0,
+      "headline": 173840340000.0,
+      "lower_bound": 16
     },
     "completed": {
-      "count": 43,
+      "count": 41,
       "funded": 29702399346.78,
       "committed_unfunded": 0.0,
       "contingent_max": 0.0,
       "gross": 29702399346.78,
       "headline": 29702399346.78,
-      "lower_bound": 31
+      "lower_bound": 29
     },
     "terminated": {
-      "count": 6,
+      "count": 7,
       "funded": 62000000.0,
       "committed_unfunded": 0.0,
       "contingent_max": 0.0,
       "gross": 62000000.0,
       "headline": 50000000.0,
-      "lower_bound": 4
+      "lower_bound": 5
     },
     "restructured": {
       "count": 3,
@@ -216,11 +207,11 @@
     "Insufficient information": {
       "count": 67,
       "funded": 21087000000.0,
-      "committed_unfunded": 37400000000.0,
-      "contingent_max": 105000000000.0,
-      "gross": 163487000000.0,
-      "headline": 277175000000.0,
-      "lower_bound": 42
+      "committed_unfunded": 32100000000.0,
+      "contingent_max": 106500000000.0,
+      "gross": 159687000000.0,
+      "headline": 276175000000.0,
+      "lower_bound": 44
     },
     "Weak": {
       "count": 3,
@@ -272,11 +263,11 @@
     "No stated maturity": {
       "count": 76,
       "funded": 30764399346.78,
-      "committed_unfunded": 41000000000.0,
-      "contingent_max": 105860340000.0,
-      "gross": 177624739346.78,
+      "committed_unfunded": 36700000000.0,
+      "contingent_max": 107360340000.0,
+      "gross": 174824739346.78,
       "headline": 296192739346.78,
-      "lower_bound": 47
+      "lower_bound": 48
     },
     "5 to 10 years": {
       "count": 1,
@@ -299,11 +290,11 @@
     "2 to 5 years": {
       "count": 3,
       "funded": 500000000.0,
-      "committed_unfunded": 1000000000.0,
+      "committed_unfunded": 0.0,
       "contingent_max": 0.0,
-      "gross": 1500000000.0,
-      "headline": 3600000000.0,
-      "lower_bound": 1
+      "gross": 500000000.0,
+      "headline": 2600000000.0,
+      "lower_bound": 2
     }
   },
   "by_wwr": {
@@ -319,11 +310,11 @@
     "general": {
       "count": 65,
       "funded": 31202399346.78,
-      "committed_unfunded": 43000000000.0,
-      "contingent_max": 0.0,
-      "gross": 74202399346.78,
-      "headline": 187002399346.78,
-      "lower_bound": 39
+      "committed_unfunded": 37700000000.0,
+      "contingent_max": 1500000000.0,
+      "gross": 70402399346.78,
+      "headline": 186002399346.78,
+      "lower_bound": 41
     },
     "none": {
       "count": 10,
@@ -337,31 +328,31 @@
   },
   "by_reconciliation": {
     "partial": {
-      "count": 7,
+      "count": 9,
       "funded": 2000000000.0,
-      "committed_unfunded": 4300000000.0,
-      "contingent_max": 105000000000.0,
-      "gross": 111300000000.0,
-      "headline": 121500000000.0,
-      "lower_bound": 3
+      "committed_unfunded": 0.0,
+      "contingent_max": 107360340000.0,
+      "gross": 109360340000.0,
+      "headline": 122360340000.0,
+      "lower_bound": 6
     },
     "one_sided": {
       "count": 54,
       "funded": 12202399346.78,
-      "committed_unfunded": 37700000000.0,
+      "committed_unfunded": 36700000000.0,
       "contingent_max": 6300000000.0,
-      "gross": 56202399346.78,
-      "headline": 61582399346.78,
-      "lower_bound": 39
+      "gross": 55202399346.78,
+      "headline": 60582399346.78,
+      "lower_bound": 40
     },
     "reconciled": {
-      "count": 19,
+      "count": 17,
       "funded": 18062000000.0,
       "committed_unfunded": 1000000000.0,
-      "contingent_max": 860340000.0,
-      "gross": 19922340000.0,
-      "headline": 122010340000.0,
-      "lower_bound": 7
+      "contingent_max": 0.0,
+      "gross": 19062000000.0,
+      "headline": 121150000000.0,
+      "lower_bound": 5
     },
     "contradicted": {
       "count": 1,
@@ -384,7 +375,7 @@
       "gross": 135000000000.0,
       "headline": 235000000000.0,
       "lower_bound": 0,
-      "share_of_gross": 0.7202891169570638
+      "share_of_gross": 0.7351950531297913
     },
     {
       "entity": "ent_anthropic",
@@ -396,7 +387,7 @@
       "gross": 10000000000.0,
       "headline": 20000000000.0,
       "lower_bound": 1,
-      "share_of_gross": 0.053354749404226944
+      "share_of_gross": 0.054458892824428985
     },
     {
       "entity": "ent_coreweave",
@@ -408,7 +399,7 @@
       "gross": 8300000000.0,
       "headline": 8300000000.0,
       "lower_bound": 2,
-      "share_of_gross": 0.044284442005508365
+      "share_of_gross": 0.04520088104427606
     },
     {
       "entity": "ent_nscale",
@@ -420,7 +411,7 @@
       "gross": 5237739346.78,
       "headline": 5237739346.78,
       "lower_bound": 1,
-      "share_of_gross": 0.02794582702921062
+      "share_of_gross": 0.02852414857285867
     },
     {
       "entity": "ent_intel",
@@ -432,7 +423,7 @@
       "gross": 5000000000.0,
       "headline": 5000000000.0,
       "lower_bound": 0,
-      "share_of_gross": 0.026677374702113472
+      "share_of_gross": 0.027229446412214493
     }
   ],
   "scenarios": {

@@ -423,7 +423,7 @@
       "id": "ent_naver",
       "name": "NAVER Corporation",
       "short_name": "NAVER",
-      "cluster": "other",
+      "cluster": "hyperscaler",
       "depth": 1,
       "public": true,
       "ticker": "035420.KS",
@@ -1321,14 +1321,18 @@
         ],
         "second_order": [
           {
-            "trigger": "Investors read Nvidia's backing as validation",
-            "mechanism": "SSI's later rounds price off Nvidia's entry",
+            "trigger": "Other investors assess SSI's funding",
+            "mechanism": "Nvidia calls its SSI investment substantial but discloses no amount",
             "affected": [
               "ent_ssi"
             ],
-            "direction": "positive",
-            "text": "Nvidia's stated 'rare access' to SSI research signals quality to other SSI investors, lowering SSI's cost of capital while Nvidia stays involved.",
-            "lens": "signaling"
+            "direction": "mixed",
+            "text": "Nvidia calls its SSI stake substantial but gives no amount, so no one outside can tell how much of SSI's funding rests on Nvidia.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_30059",
+              "ev_30060"
+            ]
           },
           {
             "trigger": "Nvidia counts SSI compute purchases in data center revenue",
@@ -1622,24 +1626,18 @@
         ],
         "second_order": [
           {
-            "trigger": "Reflection fails to pay its compute providers",
-            "mechanism": "Providers lose a large tenant",
+            "trigger": "Other investors assess Reflection's funding",
+            "mechanism": "Reflection names Nvidia among investors in its raise without Nvidia's share",
             "affected": [
               "ent_reflection"
             ],
-            "direction": "negative",
-            "text": "Clouds that signed multi year capacity deals with Reflection would lose revenue if Reflection's funding, partly from Nvidia, runs short.",
-            "lens": "contagion"
-          },
-          {
-            "trigger": "Nvidia leads the round",
-            "mechanism": "Other investors price off Nvidia's entry",
-            "affected": [
-              "ent_reflection"
-            ],
-            "direction": "positive",
-            "text": "Reported Nvidia leadership of the Reflection round lowers Reflection's cost of capital, and a later Nvidia retreat would raise it.",
-            "lens": "signaling"
+            "direction": "mixed",
+            "text": "Reflection names Nvidia among investors in a $2 billion raise without Nvidia's share, so Nvidia's weight in Reflection's funding is unknown.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_90029",
+              "ev_90030"
+            ]
           }
         ]
       },
@@ -1943,25 +1941,32 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Sakana AI raises at a lower valuation",
-            "mechanism": "Nvidia marks down a small stake",
+            "trigger": "Sakana AI raises again or its value changes",
+            "mechanism": "Sakana AI names NVIDIA among Series A participants but gives no amount",
             "affected": [
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_sakana"
             ],
             "direction": "negative",
-            "text": "A down round at Sakana AI would reduce the value of Nvidia's small undisclosed stake."
+            "text": "Sakana AI names NVIDIA among Series A participants without an amount, so a lower Sakana AI price reaches Nvidia only inside the unattributed non-marketable equity line.",
+            "evidence": [
+              "ev_90044"
+            ]
           }
         ],
         "second_order": [
           {
-            "trigger": "Japanese banks and corporates invest beside Nvidia",
-            "mechanism": "Nvidia's name supports Sakana AI fundraising in Japan",
+            "trigger": "Nvidia stops taking part in Sakana AI rounds",
+            "mechanism": "No source shows other Sakana AI investors relying on Nvidia's participation",
             "affected": [
               "ent_sakana"
             ],
-            "direction": "positive",
-            "text": "Nvidia's participation helped Sakana AI attract Japanese banks and industrial investors, and an Nvidia exit would weaken that signal.",
-            "lens": "signaling"
+            "direction": "mixed",
+            "text": "Sakana AI names NVIDIA among Series A participants, but no source on file says Nvidia drew other Sakana AI investors, so any signaling effect is unknown.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_90044"
+            ]
           }
         ]
       },
@@ -2197,26 +2202,32 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Nvidia and Motif Technologies sign terms",
-            "mechanism": "A plan becomes an equity stake",
+            "trigger": "Nvidia and Motif Technologies sign investment terms",
+            "mechanism": "Only a plan exists; Nvidia states no amount, instrument or condition for Motif Technologies",
             "affected": [
               "ent_nvidia",
               "ent_motif"
             ],
             "direction": "mixed",
-            "text": "If the planned investment in Motif Technologies closes, Nvidia gains a stake whose value depends on Korean AI demand."
+            "text": "Nvidia has announced only a plan to invest in Motif Technologies, with no amount or terms, so nothing is owed until terms are signed.",
+            "evidence": [
+              "ev_30070"
+            ]
           }
         ],
         "second_order": [
           {
-            "trigger": "The plan lapses quietly",
-            "mechanism": "Motif Technologies loses the signal of Nvidia backing",
+            "trigger": "Motif Technologies raises from other investors before Nvidia signs terms",
+            "mechanism": "Nvidia's plan gives Motif Technologies's other investors no amount or timing to rely on",
             "affected": [
               "ent_motif"
             ],
             "direction": "negative",
-            "text": "Korean investors who backed Motif Technologies after the Nvidia announcement would face a weaker signal if the plan does not close.",
-            "lens": "signaling"
+            "text": "Other investors in Motif Technologies cannot count on Nvidia money until terms are signed, because Nvidia has stated no amount or timing.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_30070"
+            ]
           }
         ]
       },
@@ -2326,26 +2337,32 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Nvidia and RLWRLD sign terms",
-            "mechanism": "A plan becomes an equity stake",
+            "trigger": "Nvidia and RLWRLD sign investment terms",
+            "mechanism": "Only a plan exists; Nvidia states no amount, instrument or condition for RLWRLD",
             "affected": [
               "ent_nvidia",
               "ent_rlwrld"
             ],
             "direction": "mixed",
-            "text": "If the planned investment in RLWRLD closes, Nvidia gains a stake whose value depends on Korean AI demand."
+            "text": "Nvidia has announced only a plan to invest in RLWRLD, with no amount or terms, so nothing is owed until terms are signed.",
+            "evidence": [
+              "ev_30070"
+            ]
           }
         ],
         "second_order": [
           {
-            "trigger": "The plan lapses quietly",
-            "mechanism": "RLWRLD loses the signal of Nvidia backing",
+            "trigger": "RLWRLD raises from other investors before Nvidia signs terms",
+            "mechanism": "Nvidia's plan gives RLWRLD's other investors no amount or timing to rely on",
             "affected": [
               "ent_rlwrld"
             ],
             "direction": "negative",
-            "text": "Korean investors who backed RLWRLD after the Nvidia announcement would face a weaker signal if the plan does not close.",
-            "lens": "signaling"
+            "text": "Other investors in RLWRLD cannot count on Nvidia money until terms are signed, because Nvidia has stated no amount or timing.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_30070"
+            ]
           }
         ]
       },
@@ -2455,26 +2472,32 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Nvidia and Upstage sign terms",
-            "mechanism": "A plan becomes an equity stake",
+            "trigger": "Nvidia and Upstage sign investment terms",
+            "mechanism": "Only a plan exists; Nvidia states no amount, instrument or condition for Upstage",
             "affected": [
               "ent_nvidia",
               "ent_upstage"
             ],
             "direction": "mixed",
-            "text": "If the planned investment in Upstage closes, Nvidia gains a stake whose value depends on Korean AI demand."
+            "text": "Nvidia has announced only a plan to invest in Upstage, with no amount or terms, so nothing is owed until terms are signed.",
+            "evidence": [
+              "ev_30070"
+            ]
           }
         ],
         "second_order": [
           {
-            "trigger": "The plan lapses quietly",
-            "mechanism": "Upstage loses the signal of Nvidia backing",
+            "trigger": "Upstage raises from other investors before Nvidia signs terms",
+            "mechanism": "Nvidia's plan gives Upstage's other investors no amount or timing to rely on",
             "affected": [
               "ent_upstage"
             ],
             "direction": "negative",
-            "text": "Korean investors who backed Upstage after the Nvidia announcement would face a weaker signal if the plan does not close.",
-            "lens": "signaling"
+            "text": "Other investors in Upstage cannot count on Nvidia money until terms are signed, because Nvidia has stated no amount or timing.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_30070"
+            ]
           }
         ]
       },
@@ -2495,8 +2518,8 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia $1 billion equity investment in NAVER (private placement)",
-      "insight_template": "Nvidia agreed to buy {headline} of new {counterparty} shares, conditional on GPU financing, so the stake rides on an AI factory using its chips.",
-      "definition": "On 24 July 2026 Nvidia said it plans to invest $1 billion in NAVER, subject to customary closing conditions and NAVER finalizing at least $9 billion of committed financing for the GAK Sejong AI factory. On 27 October 2026 NAVER said a $9 billion agreement with Brookfield met that precondition and that it plans promptly to issue new shares to Nvidia. Closing had not been announced as of 23 November 2026.",
+      "insight_template": "Nvidia signed to buy {committed_total} of new {counterparty} shares with closing still pending, so the stake rides on an AI factory using its chips.",
+      "definition": "On 24 July 2026 Nvidia said it plans to invest $1 billion in NAVER, subject to customary closing conditions and NAVER finalizing at least $9 billion of committed financing for the GAK Sejong AI factory; NAVER says it signed a strategic investment agreement worth $1 billion with Nvidia that day. On 27 October 2026 NAVER said a $9 billion agreement with Brookfield met that precondition and that it plans promptly to issue new shares to Nvidia. Closing had not been announced as of 23 November 2026.",
       "status": "definitive",
       "claim_basis": "company_announced",
       "amounts": {
@@ -2528,10 +2551,11 @@
           "display_eligible": true,
           "lower_bound": false,
           "evidence": [
+            "ev_180001",
             "ev_30072",
             "ev_90072"
           ],
-          "note": "Treated as committed from 27 October 2026, when NAVER announced the financing precondition met (ev_90068); still subject to customary closing."
+          "note": "Committed: NAVER says it signed a strategic investment agreement worth $1 billion with NVIDIA on 24 July 2026 (ev_180001), and the financing precondition was met on 27 October 2026 (ev_90068); closing (issue of the new shares) still pending."
         },
         "funded": {
           "value": null,
@@ -2572,14 +2596,15 @@
       "reconciliation": {
         "result": "reconciled",
         "nvidia_side": "Nvidia release: 'NVIDIA plans to invest $1 billion into NAVER Corp.' subject to closing conditions and NAVER finalizing at least $9 billion of committed financing (ev_30072, ev_30075).",
-        "counterparty_side": "NAVER: private placement of new shares worth approximately $1 billion (ev_90072); precondition met on 27 October 2026 (ev_90068, ev_90069).",
+        "counterparty_side": "NAVER: private placement of new shares worth approximately $1 billion (ev_90072); precondition met on 27 October 2026 (ev_90068, ev_90069). NAVER says it signed a strategic investment agreement worth $1 billion with NVIDIA on 24 July 2026 (ev_180001).",
         "nvidia_evidence": [
           "ev_30072",
           "ev_30075"
         ],
         "counterparty_evidence": [
           "ev_90072",
-          "ev_90068"
+          "ev_90068",
+          "ev_180001"
         ],
         "differences": []
       },
@@ -2675,9 +2700,10 @@
         "ev_90069",
         "ev_90070",
         "ev_90071",
-        "ev_90072"
+        "ev_90072",
+        "ev_180001"
       ],
-      "notes": "Seed status: brief described this as conditional. Precondition met per NAVER (ev_90068), so recorded as definitive with committed_total and funded unknown until closing. Previously listed by R3 as loi_or_framework (c_r3_015)."
+      "notes": "Status kept definitive after the R9 review: NAVER states it 'signed a strategic investment agreement worth $1 billion with NVIDIA' on 24 July 2026 (ev_180001), and on 27 October 2026 that the precondition was met and it plans to promptly complete a paid-in capital increase through a third-party allotment to NVIDIA (ev_90068). No board resolution or closing has been found as of 2026-11-23, so funded stays unknown until closing. Previously listed by R3 as loi_or_framework (c_r3_015)."
     },
     {
       "id": "rel_uk_ai_startup_program_eqc_2025",
@@ -3330,14 +3356,18 @@
         ],
         "second_order": [
           {
-            "trigger": "Wayve's Series D investors priced the round with the Nvidia letter public",
-            "mechanism": "Nvidia's stated interest supported the round",
+            "trigger": "Wayve announced Nvidia's letter of intent before raising its Series D",
+            "mechanism": "Wayve's later investors saw the letter of intent, but whether it converted into Series D shares is not disclosed",
             "affected": [
               "ent_wayve"
             ],
-            "direction": "positive",
-            "text": "Wayve announced Nvidia's letter five months before closing its Series D, which helped set the terms other Wayve investors accepted.",
-            "lens": "signaling"
+            "direction": "mixed",
+            "text": "Wayve announced Nvidia's letter of intent before its Series D, and whether the letter converted into Series D shares is not disclosed.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_90036",
+              "ev_90040"
+            ]
           }
         ]
       },
@@ -3447,13 +3477,18 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Skild AI raises at a lower valuation",
-            "mechanism": "NVentures marks down its stake",
+            "trigger": "Skild AI raises at a lower valuation than its Series C",
+            "mechanism": "NVentures joined a Series C led by SoftBank with no disclosed amount",
             "affected": [
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_skild_ai"
             ],
             "direction": "negative",
-            "text": "A lower valuation at Skild AI would cut the value of Nvidia's undisclosed Skild AI stake."
+            "text": "NVentures joined the Skild AI Series C led by SoftBank without a disclosed amount, so a lower Skild AI price reaches Nvidia only inside the unattributed non-marketable equity line.",
+            "evidence": [
+              "ev_90061",
+              "ev_90062"
+            ]
           }
         ],
         "second_order": [
@@ -3604,13 +3639,18 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Black Forest Labs loses ground to larger labs",
-            "mechanism": "Stake loses value",
+            "trigger": "Black Forest Labs loses value",
+            "mechanism": "Nvidia is one of several existing investors in a small Series B, amount not stated",
             "affected": [
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_black_forest_labs"
             ],
             "direction": "negative",
-            "text": "If Black Forest Labs loses customers to larger labs, Nvidia's small stake in it falls in value."
+            "text": "Nvidia is one of the existing Black Forest Labs investors in a $300M Series B with no amount stated, so the stake is immaterial to Nvidia unless sized.",
+            "evidence": [
+              "ev_90063",
+              "ev_90064"
+            ]
           }
         ],
         "second_order": [
@@ -3731,13 +3771,17 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Scale AI loses large lab customers",
-            "mechanism": "Lower Scale AI valuation",
+            "trigger": "Scale AI loses value",
+            "mechanism": "Scale AI lists NVIDIA among existing Series F investors, amount not stated",
             "affected": [
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_scale_ai"
             ],
             "direction": "negative",
-            "text": "If Scale AI loses data labeling work from large labs, Nvidia's undisclosed Scale AI stake loses value."
+            "text": "Scale AI lists NVIDIA among existing investors in its Series F without an amount, so the Scale AI stake is immaterial to Nvidia unless sized.",
+            "evidence": [
+              "ev_90047"
+            ]
           }
         ],
         "second_order": [
@@ -3987,13 +4031,18 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Databricks' valuation falls",
-            "mechanism": "Lower value of a small early stake",
+            "trigger": "Databricks prices below its Series I valuation",
+            "mechanism": "Nvidia's Series I stake has no disclosed size and sits inside an aggregate",
             "affected": [
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_databricks"
             ],
             "direction": "negative",
-            "text": "A fall in Databricks' valuation would reduce the value of Nvidia's undisclosed Databricks stake, bought at $43 billion."
+            "text": "Nvidia's Databricks stake was bought in a Series I at a $43B valuation with no disclosed size, so a lower Databricks price reaches Nvidia only inside the unattributed non-marketable equity line.",
+            "evidence": [
+              "ev_90050",
+              "ev_90051"
+            ]
           }
         ],
         "second_order": [
@@ -4133,13 +4182,18 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "CFS's SPARC milestones slip",
-            "mechanism": "Lower CFS valuation",
+            "trigger": "CFS loses value",
+            "mechanism": "NVentures is one of many CFS Series B2 investors, amount not stated",
             "affected": [
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_commonwealth_fusion"
             ],
             "direction": "negative",
-            "text": "Delays at CFS's SPARC machine would cut the value of NVentures' CFS stake."
+            "text": "NVentures is one of many investors in the $863 million CFS Series B2 with no amount stated, so the CFS stake is immaterial to Nvidia unless sized.",
+            "evidence": [
+              "ev_90052",
+              "ev_90053"
+            ]
           }
         ],
         "second_order": [
@@ -4279,13 +4333,18 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "PsiQuantum misses its fault tolerant targets",
-            "mechanism": "Lower PsiQuantum valuation",
+            "trigger": "PsiQuantum prices below its Series E",
+            "mechanism": "NVentures entered PsiQuantum as a new Series E investor with no amount stated",
             "affected": [
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_psiquantum"
             ],
             "direction": "negative",
-            "text": "If PsiQuantum misses its fault tolerant quantum milestones, NVentures' PsiQuantum stake loses value."
+            "text": "NVentures entered PsiQuantum as a new investor in its $1 billion Series E with no amount stated, so a lower PsiQuantum price reaches Nvidia only inside the unattributed non-marketable equity line.",
+            "evidence": [
+              "ev_90054",
+              "ev_90060"
+            ]
           }
         ],
         "second_order": [
@@ -4425,13 +4484,14 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Quantinuum's share price falls",
-            "mechanism": "NVentures stake loses value",
+            "trigger": "Nvidia's Quantinuum holding cannot be confirmed after the IPO",
+            "mechanism": "Quantinuum is listed but does not appear in Nvidia's 13F",
             "affected": [
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_quantinuum"
             ],
-            "direction": "negative",
-            "text": "As a listed company, Quantinuum's share price moves daily, so NVentures' Quantinuum stake can lose value quickly."
+            "direction": "mixed",
+            "text": "Quantinuum is listed but absent from Nvidia's 13F for 2026-06-30 and 2026-09-30, so whether Nvidia still holds the stake is unknown and no market value can be shown."
           }
         ],
         "second_order": [
@@ -4571,13 +4631,18 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "TerraPower's Natrium plant is delayed",
-            "mechanism": "Lower TerraPower valuation",
+            "trigger": "TerraPower loses value",
+            "mechanism": "NVentures is one of several investors in TerraPower's fundraise, amount not stated",
             "affected": [
-              "ent_nvidia"
+              "ent_nvidia",
+              "ent_terrapower"
             ],
             "direction": "negative",
-            "text": "Delays to TerraPower's Natrium plant would reduce the value of NVentures' TerraPower stake."
+            "text": "NVentures took part in TerraPower's $650 million fundraise with no amount stated, so the TerraPower stake is immaterial to Nvidia unless sized.",
+            "evidence": [
+              "ev_90057",
+              "ev_90058"
+            ]
           }
         ],
         "second_order": [
@@ -4891,14 +4956,18 @@
         ],
         "second_order": [
           {
-            "trigger": "Nvidia's 13F disclosed the SoundHound stake",
-            "mechanism": "Market read the holding as an endorsement",
+            "trigger": "Nvidia exited SoundHound by 2024-12-31",
+            "mechanism": "No remaining SoundHound position or other tie is on file",
             "affected": [
               "ent_soundhound"
             ],
             "direction": "mixed",
-            "text": "Disclosure of Nvidia's SoundHound stake drew market attention to SoundHound, and the exit removed that signal.",
-            "lens": "signaling"
+            "text": "Nvidia held SoundHound shares from 2023-12-31 to 2024-09-30 and has no remaining tie, so the SoundHound record is history only.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_50005",
+              "ev_50006"
+            ]
           }
         ]
       },
@@ -5002,7 +5071,6 @@
         "nvidia_side": "Nvidia 13F-HR lists the position from 2023-12-31 (ev_50007) to 2023-12-31 (ev_50007).",
         "counterparty_side": "No disclosure found as of 2026-11-23. TuSimple filings reviewed do not describe the Nvidia investment.",
         "nvidia_evidence": [
-          "ev_50007",
           "ev_50007"
         ],
         "counterparty_evidence": [],

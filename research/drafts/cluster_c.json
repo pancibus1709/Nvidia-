@@ -2267,44 +2267,38 @@
       "type_primary": "PP",
       "types_secondary": [],
       "title": "Customer deposit with Corning linked to the Nvidia warrants",
-      "insight_template": "A {committed_total} deposit with {counterparty} is repaid only through product deliveries, so a supply failure leaves the prepaying customer exposed.",
-      "definition": "In the second quarter of 2026 Corning recorded a $1.0 billion customer deposit under a long-term supply agreement running through 31 December 2029, offset by part of a warrant issued to the same customer. Corning's only warrants issued that quarter were those sold to Nvidia on 6 May 2026, so the customer is Nvidia by that link (analysis). Deposits are applied against the customer's receivables as products are delivered.",
+      "insight_template": "{counterparty} holds a customer deposit that may be Nvidia's, but {counterparty} does not name the customer, so Nvidia's exposure is unconfirmed.",
+      "definition": "In the second quarter of 2026 Corning recorded a customer deposit under a long-term supply agreement running through 31 December 2029, offset by part of a warrant issued to the same customer. Corning's only warrants issued that quarter were those sold to Nvidia on 6 May 2026, so the customer may be Nvidia by that link (analysis). Corning does not name the customer, so no amount is attributed to Nvidia. Deposits are applied against the customer's receivables as products are delivered.",
       "status": "definitive",
       "claim_basis": "filed",
       "amounts": {
         "headline": {
-          "value": 1000000000,
-          "as_of": "2026-09-30",
+          "value": null,
+          "as_of": null,
           "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": "2026-11-23",
-          "display_eligible": true,
+          "last_verified": null,
+          "display_eligible": false,
           "lower_bound": false,
-          "evidence": [
-            "ev_60094"
-          ],
-          "note": "Attribution to Nvidia is analysis: Corning does not name the customer.",
-          "label": "analysis"
+          "evidence": [],
+          "note": "Unknown: Corning does not name the depositing customer; attribution to Nvidia is analysis (see notes)."
         },
         "committed_total": {
-          "value": 1000000000,
-          "as_of": "2026-09-30",
+          "value": null,
+          "as_of": null,
           "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": "2026-11-23",
-          "display_eligible": true,
+          "last_verified": null,
+          "display_eligible": false,
           "lower_bound": false,
-          "evidence": [
-            "ev_60094"
-          ],
-          "note": "Recorded as a contract liability in Q2 2026; whether all cash was received is not stated.",
-          "label": "analysis"
+          "evidence": [],
+          "note": "Unknown: Corning does not name the depositing customer; attribution to Nvidia is analysis (see notes)."
         },
         "funded": {
           "value": null,
@@ -2368,13 +2362,13 @@
         "first_order": [
           {
             "trigger": "Corning cannot deliver from its new plants on time",
-            "mechanism": "The deposit is applied more slowly against receivables",
+            "mechanism": "The deposit is applied more slowly against receivables; attribution of the Corning deposit to Nvidia is analysis",
             "affected": [
               "ent_nvidia",
               "ent_corning"
             ],
             "direction": "negative",
-            "text": "If Corning's new plants are late, the deposit stays on its balance sheet longer and Nvidia carries an unsecured claim on Corning."
+            "text": "If Corning's new plants are late, the deposit stays on Corning's balance sheet longer and, if the unnamed customer is Nvidia as the warrant link suggests, Nvidia carries an unsecured claim on Corning."
           }
         ],
         "second_order": [
@@ -2396,7 +2390,7 @@
       "aggregate_of": null,
       "significance": {},
       "version": 1,
-      "notes": "New candidate from R5. Analysis link: ev_60096 (warrant to the customer) plus ev_60102 (warrants issued May 6, 2026) plus ev_60088 (May 6 warrants sold to Nvidia).",
+      "notes": "Analysis: Corning's September 2026 10-Q reports a $1.0 billion customer deposit under a long-term supply agreement through 2029-12-31 (ev_60094, ev_60095), partly offset by a warrant issued to the same customer (ev_60096). Corning's only warrants issued that quarter were issued on May 6, 2026 (ev_60102) and sold to Nvidia (ev_60088), which suggests the customer is Nvidia. Corning does not name it, so the deposit is not entered as headline or committed_total until a source names Nvidia. New candidate from R5.",
       "evidence": [
         "ev_60088",
         "ev_60094",
@@ -2415,7 +2409,7 @@
       "types_secondary": [],
       "title": "Nvidia advance payments to Amkor",
       "insight_template": "Nvidia's agreements with {counterparty} total close to {headline} including prepayments for packaging capacity, repaid only by future packaging work.",
-      "definition": "Nvidia says it supports Amkor's expansion through multiyear agreements announced in July and October 2026, totaling nearly $3 billion and including prepayments. Amkor's 10-Qs report two advance payment agreements with an unnamed customer in the same months, under which it expects about $1.5 billion and $1.3 billion in 2027. Some advances are backed by standby letters of credit issued by Amkor.",
+      "definition": "Nvidia says it supports Amkor's expansion through multiyear agreements announced in July and October 2026, totaling nearly $3 billion and including prepayments. Amkor's 10-Qs report two advance payment agreements with an unnamed customer in the same months; that this customer is Nvidia is analysis. Some advances are backed by standby letters of credit issued by Amkor.",
       "status": "definitive",
       "claim_basis": "filed",
       "amounts": {
@@ -2433,38 +2427,21 @@
           "evidence": [
             "ev_30065"
           ],
-          "note": "Nvidia says nearly $3 billion."
+          "note": "Nvidia says the agreements total nearly $3 billion (ev_30065); recorded as a round headline, the verb is 'nearly'."
         },
         "committed_total": {
-          "value": 2800000000,
-          "as_of": "2026-10-27",
+          "value": null,
+          "as_of": null,
           "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": "2026-11-23",
-          "display_eligible": true,
+          "last_verified": null,
+          "display_eligible": false,
           "lower_bound": false,
           "evidence": [],
-          "note": "Sum of two advance payment agreements with an unnamed customer; attribution to Nvidia is analysis from matching months.",
-          "label": "analysis",
-          "components": [
-            {
-              "value": 1500000000,
-              "evidence": [
-                "ev_60111"
-              ],
-              "note": "July 2026 agreement, about $1.5B expected in 2027"
-            },
-            {
-              "value": 1300000000,
-              "evidence": [
-                "ev_60105"
-              ],
-              "note": "October 2026 agreement, about $1.3B expected in 2027"
-            }
-          ]
+          "note": "Unknown: Amkor's advance payment agreements do not name the customer, so no committed amount is attributed to Nvidia. See notes (analysis)."
         },
         "funded": {
           "value": null,
@@ -2580,7 +2557,7 @@
       "aggregate_of": null,
       "significance": {},
       "version": 1,
-      "notes": "",
+      "notes": "Analysis: Amkor's 10-Qs report advance payment agreements with an unnamed customer signed in July 2026, under which Amkor expects about $1.5 billion in 2027 (ev_60111), and in October 2026, about $1.3 billion in 2027 (ev_60105). The months match the agreements Nvidia announced (ev_30065), which suggests the customer is Nvidia, but Amkor does not name it, so the sum of about $2.8 billion is not entered as committed_total until a source names Nvidia.",
       "evidence": [
         "ev_30065",
         "ev_30066",
@@ -3156,7 +3133,8 @@
       "kind": "holding_change",
       "summary": "Nvidia's 13F showed 161,082,488 Intel shares, down from 214,776,632 a quarter earlier.",
       "evidence": [
-        "ev_50021"
+        "ev_50021",
+        "ev_160006"
       ]
     },
     {
@@ -3187,7 +3165,8 @@
       "kind": "holding_change",
       "summary": "Nvidia's 13F showed 72,859,751 Nokia ADS, down from 166,389,351.",
       "evidence": [
-        "ev_50025"
+        "ev_50025",
+        "ev_160008"
       ]
     },
     {
@@ -3208,7 +3187,8 @@
       "kind": "holding_change",
       "summary": "Nvidia's 13F showed 4,354,077 Synopsys shares, down from 4,821,717.",
       "evidence": [
-        "ev_50023"
+        "ev_50023",
+        "ev_160010"
       ]
     },
     {
