@@ -1,5 +1,59 @@
 [
   {
+    "id": "ev_10015",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "NVIDIA Form 10-Q for the quarter ended July 26, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm#:~:text=Publicly-held%20equity%20securities%20%281%29%20%283%29%20Level%202%2010%2C806",
+    "accession": "0001045810-26-000075",
+    "section": "Note 5 - Cash Equivalents and Marketable Securities",
+    "published": "2026-08-26",
+    "retrieved": "2026-11-23T02:17:31Z",
+    "quote": "Publicly-held equity securities (1) (3) Level 2 10,806",
+    "locator": "21631",
+    "unit_scale_locator": 21293,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1045810/000104581026000075/nvda-20260726.htm",
+    "content_hash": "019de432ae1391baa331bf0fcea43d8eae5dbb665636c330b97563d4396a2404",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "publicly-held equity Level 2 (warrants, convertible preferred) fair value at 2026-07-26"
+    ],
+    "grounded_value": 10806000000.0
+  },
+  {
+    "id": "ev_10026",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "NVIDIA Form 10-Q for the quarter ended July 26, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm#:~:text=Public%20company%20warrants%20%24%204%2C800%20%24%20%E2%80%94",
+    "accession": "0001045810-26-000075",
+    "section": "Note 8 - Derivative Financial Instruments",
+    "published": "2026-08-26",
+    "retrieved": "2026-11-23T02:17:31Z",
+    "quote": "Public company warrants $ 4,800 $ —",
+    "locator": "34198",
+    "unit_scale_locator": 33962,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1045810/000104581026000075/nvda-20260726.htm",
+    "content_hash": "019de432ae1391baa331bf0fcea43d8eae5dbb665636c330b97563d4396a2404",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "notional of public company warrants at 2026-07-26"
+    ],
+    "grounded_value": 4800000000.0
+  },
+  {
     "id": "ev_10029",
     "tier": "1",
     "kind": "sec_filing",
@@ -79,6 +133,33 @@
       "equity investment commitments at 2026-07-26 (rem.2027 18, 2028 3, 2029 2, 2030 2)"
     ],
     "grounded_value": 25000000000.0
+  },
+  {
+    "id": "ev_10035",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "NVIDIA Form 10-Q for the quarter ended July 26, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm#:~:text=Our%20commitments%2C%20which%20are%20typically%20six%20years%20in",
+    "accession": "0001045810-26-000075",
+    "section": "Item 2 - MD&A",
+    "published": "2026-08-26",
+    "retrieved": "2026-11-23T02:17:31Z",
+    "quote": "Our commitments, which are typically six years in duration, totaled $36 billion",
+    "locator": "74257",
+    "unit_scale_locator": null,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1045810/000104581026000075/nvda-20260726.htm",
+    "content_hash": "019de432ae1391baa331bf0fcea43d8eae5dbb665636c330b97563d4396a2404",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "AI cloud agreements (cloud service commitments to AI clouds, unused-capacity style) at 2026-07-26"
+    ],
+    "grounded_value": 36000000000.0
   },
   {
     "id": "ev_10036",
@@ -324,6 +405,33 @@
     "grounded_value": 3500000000.0
   },
   {
+    "id": "ev_10120",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "NVIDIA Form 10-K for the fiscal year ended January 25, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm#:~:text=%247%20billion%2C%20%246%20billion%2C%20%245%20billion%2C%20%245%20billion%2C",
+    "accession": "0001045810-26-000021",
+    "section": "Note 12 - Commitments and Contingencies",
+    "published": "2026-02-25",
+    "retrieved": "2026-11-23T02:17:32Z",
+    "quote": "$7 billion, $6 billion, $5 billion, $5 billion, $2 billion, and $2 billion",
+    "locator": "299570",
+    "unit_scale_locator": null,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1045810/000104581026000021/nvda-20260125.htm",
+    "content_hash": "768b3c2a59d80ded54e27e895c2f76113dbc2e9c0b591aa5140d10238c613d1b",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "cloud schedule FY2027 7, FY2028 6, FY2029 5, FY2030 5, FY2031 2, FY2032+ 2"
+    ],
+    "grounded_value": 7000000000.0
+  },
+  {
     "id": "ev_10123",
     "tier": "1",
     "kind": "sec_filing",
@@ -376,6 +484,33 @@
       "OpenAI investment not yet definitive at 10-K date"
     ],
     "grounded_value": null
+  },
+  {
+    "id": "ev_10136",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "NVIDIA Form 10-K for the fiscal year ended January 25, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm#:~:text=Total%20revenue%20%24%20215%2C938%20%24%20130%2C497%20%24%2060%2C922",
+    "accession": "0001045810-26-000021",
+    "section": "Note 16 - Segment Information",
+    "published": "2026-02-25",
+    "retrieved": "2026-11-23T02:17:32Z",
+    "quote": "Total revenue $ 215,938 $ 130,497 $ 60,922",
+    "locator": "324146",
+    "unit_scale_locator": 323986,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1045810/000104581026000021/nvda-20260125.htm",
+    "content_hash": "768b3c2a59d80ded54e27e895c2f76113dbc2e9c0b591aa5140d10238c613d1b",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "revenue FY2026"
+    ],
+    "grounded_value": 215938000000.0
   },
   {
     "id": "ev_10147",
@@ -619,6 +754,33 @@
       "guarantee mitigant: partner capacity sale agreement"
     ],
     "grounded_value": null
+  },
+  {
+    "id": "ev_10173",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "NVIDIA Form 10-Q for the quarter ended July 27, 2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm#:~:text=The%20fair%20value%20of%20the%20investment%20as%20of",
+    "accession": "0001045810-25-000209",
+    "section": "Note 5 - Cash Equivalents and Marketable Securities",
+    "published": "2025-08-27",
+    "retrieved": "2026-11-23T02:17:34Z",
+    "quote": "The fair value of the investment as of July 27, 2025 was $2.8 billion",
+    "locator": "24094",
+    "unit_scale_locator": null,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1045810/000104581025000209/nvda-20250727.htm",
+    "content_hash": "9f4c6c623e820851c93527445f896bd3e2d47b04e312e088a9dc7fe517f71e20",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "fair value of the one investment reclassified in FY2026 Q1 (named CoreWeave in Q1 10-Q) at 2025-07-27"
+    ],
+    "grounded_value": 2800000000.0
   },
   {
     "id": "ev_10185",
@@ -1242,6 +1404,33 @@
     "grounded_value": 11.5
   },
   {
+    "id": "ev_20021",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "NVIDIA Schedule 13G/A (Amendment 1) on CoreWeave Class A, event date 2026-01-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000104581026000008/primary_doc.xml",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000104581026000008/primary_doc.xml#:~:text=Rule%2013d-1%28c%29%20NVIDIA%20Corporation",
+    "accession": "0001045810-26-000008",
+    "section": "Cover page rows 5-11",
+    "published": "2026-01-26",
+    "retrieved": "2026-11-23T02:22:47Z",
+    "quote": "Rule 13d-1(c) NVIDIA Corporation",
+    "locator": "197",
+    "unit_scale_locator": null,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000104581026000008/primary_doc.xml",
+    "content_hash": "8d8aa78e9ea9fc30f9a0d16c66683092a9184114330611e76e27cf2bf9356be4",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "13G/A filed under Rule 13d-1(c) passive investor certification"
+    ],
+    "grounded_value": null
+  },
+  {
     "id": "ev_20022",
     "tier": "1",
     "kind": "sec_filing",
@@ -1539,6 +1728,33 @@
     "grounded_value": 62.0
   },
   {
+    "id": "ev_20036",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave IPO final prospectus (424B4) filed 2025-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525067651/d899798d424b4.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525067651/d899798d424b4.htm#:~:text=approximately%2077%25%20of%20our%20revenue%20from%20our%20top",
+    "accession": "0001193125-25-067651",
+    "section": "Risk Factors",
+    "published": "2025-03-31",
+    "retrieved": "2026-11-23T02:20:55Z",
+    "quote": "approximately 77% of our revenue from our top two customers",
+    "locator": "58686",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000119312525067651/d899798d424b4.htm",
+    "content_hash": "6e3e67fc5d70f6edb8f69e1c1a130b7ebf3a7f9bbd55b79ac7ef1ac13b5bfed8",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "2024: top two customers 77% of revenue"
+    ],
+    "grounded_value": 77.0
+  },
+  {
     "id": "ev_20038",
     "tier": "1",
     "kind": "sec_filing",
@@ -1591,6 +1807,33 @@
       "ATM program up to 35,000,000 Class A shares (Equity Distribution Agreement 2026-09-17)"
     ],
     "grounded_value": 35000000.0
+  },
+  {
+    "id": "ev_20040",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave prospectus supplement (424B5) for at-the-market equity program, 2026-09-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000162828026062362/coreweave-424b5.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000162828026062362/coreweave-424b5.htm#:~:text=Class%20A%20common%20stock%20outstanding%20as%20of%20July",
+    "accession": "0001628280-26-062362",
+    "section": "The Offering",
+    "published": "2026-09-17",
+    "retrieved": "2026-11-23T02:21:01Z",
+    "quote": "Class A common stock outstanding as of July 31, 2026 is 458,871,690",
+    "locator": "29436",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000162828026062362/coreweave-424b5.htm",
+    "content_hash": "42ec593d6daa3d0ecb218caf09b3f3bf9888b9e674b0ca41f3379b77a639979f",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Class A shares outstanding 458,871,690 at 2026-07-31 (denominator for NVIDIA %)"
+    ],
+    "grounded_value": 458871690.0
   },
   {
     "id": "ev_20045",
@@ -1890,6 +2133,33 @@
     "grounded_value": 195000000.0
   },
   {
+    "id": "ev_20062",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=Total%20recourse%20debt%2C%20net%20of%20unamortized%20discount%20and",
+    "accession": "0001769628-26-000465",
+    "section": "Note 10 - Debt",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "Total recourse debt, net of unamortized discount and issuance costs 41,600",
+    "locator": "76919",
+    "unit_scale_locator": 75901,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Total recourse debt net 41,600m at 2026-09-30"
+    ],
+    "grounded_value": 41600000000.0
+  },
+  {
     "id": "ev_20064",
     "tier": "1",
     "kind": "sec_filing",
@@ -1915,6 +2185,33 @@
       "DDTL 4.0 (non-recourse) outstanding 4,583m; Mar 2032; 7%"
     ],
     "grounded_value": 4583000000.0
+  },
+  {
+    "id": "ev_20066",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=Total%20non-recourse%20debt%2C%20net%20of%20unamortized%20discount%20and",
+    "accession": "0001769628-26-000465",
+    "section": "Note 10 - Debt",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "Total non-recourse debt, net of unamortized discount and issuance costs $ 5,273",
+    "locator": "77286",
+    "unit_scale_locator": 75901,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Total non-recourse debt net 5,273m"
+    ],
+    "grounded_value": 5273000000.0
   },
   {
     "id": "ev_20068",
@@ -2484,6 +2781,60 @@
     "grounded_value": null
   },
   {
+    "id": "ev_20095",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=the%20Company%20had%20%24132.3%20billion%20of%20unsatisfied%20RPO",
+    "accession": "0001769628-26-000465",
+    "section": "Note 2 - Revenue: Remaining Performance Obligations",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "the Company had $132.3 billion of unsatisfied RPO",
+    "locator": "41664",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "RPO 132.3bn at 2026-09-30"
+    ],
+    "grounded_value": 132300000000.0
+  },
+  {
+    "id": "ev_20096",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=of%20which%2036%25%20was%20expected%20to%20be%20recognized",
+    "accession": "0001769628-26-000465",
+    "section": "Note 2 - Revenue: Remaining Performance Obligations",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "of which 36% was expected to be recognized over the initial 24 months",
+    "locator": "41715",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "36% of RPO expected within 24 months to 2028-09-30"
+    ],
+    "grounded_value": 36.0
+  },
+  {
     "id": "ev_20097",
     "tier": "1",
     "kind": "sec_filing",
@@ -2509,6 +2860,60 @@
       "RPO variable consideration includes committed capacity the Company has the right to resell"
     ],
     "grounded_value": null
+  },
+  {
+    "id": "ev_20098",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=as%20contracts%20became%20cancellable%20during%20the%20quarter",
+    "accession": "0001769628-26-000465",
+    "section": "Note 2 - Revenue: Contract Balances",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "as contracts became cancellable during the quarter",
+    "locator": "40439",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Reason: contracts became cancellable during Q3 2026"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_20099",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=Customer%20A%2024%25%2067%25%2033%25%2070%25%20Customer%20B",
+    "accession": "0001769628-26-000465",
+    "section": "Note 1 - Significant Customers",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "Customer A 24% 67% 33% 70% Customer B 30%",
+    "locator": "39145",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Q3 2026 Customer A 24% / Customer B 30% of revenue"
+    ],
+    "grounded_value": 30.0
   },
   {
     "id": "ev_20100",
@@ -2619,6 +3024,114 @@
     "grounded_value": 21000000000.0
   },
   {
+    "id": "ev_20104",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=Cash%20and%20cash%20equivalents%20%24%204%2C122%20%24%203%2C127",
+    "accession": "0001769628-26-000465",
+    "section": "Condensed Consolidated Balance Sheets",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "Cash and cash equivalents $ 4,122 $ 3,127",
+    "locator": "11362",
+    "unit_scale_locator": 11255,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Cash and cash equivalents 4,122m at 2026-09-30"
+    ],
+    "grounded_value": 4122000000.0
+  },
+  {
+    "id": "ev_20105",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=Restricted%20cash%20and%20cash%20equivalents%2C%20current%201%2C405%20819",
+    "accession": "0001769628-26-000465",
+    "section": "Condensed Consolidated Balance Sheets",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "Restricted cash and cash equivalents, current 1,405 819",
+    "locator": "11404",
+    "unit_scale_locator": 11255,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Restricted cash current 1,405m"
+    ],
+    "grounded_value": 1405000000.0
+  },
+  {
+    "id": "ev_20106",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=Restricted%20cash%20and%20cash%20equivalents%2C%20non-current%20877%20184",
+    "accession": "0001769628-26-000465",
+    "section": "Condensed Consolidated Balance Sheets",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "Restricted cash and cash equivalents, non-current 877 184",
+    "locator": "11609",
+    "unit_scale_locator": 11255,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Restricted cash non-current 877m"
+    ],
+    "grounded_value": 877000000.0
+  },
+  {
+    "id": "ev_20108",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=Availability%20under%20existing%20facilities%281%29%205%2C653%203%2C701",
+    "accession": "0001769628-26-000465",
+    "section": "MD&A - Liquidity and Capital Resources",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "Availability under existing facilities(1) 5,653 3,701",
+    "locator": "155505",
+    "unit_scale_locator": 155384,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Availability under existing facilities 5,653m at 2026-09-30"
+    ],
+    "grounded_value": 5653000000.0
+  },
+  {
     "id": "ev_20109",
     "tier": "1",
     "kind": "sec_filing",
@@ -2646,6 +3159,60 @@
     "grounded_value": 9837000000.0
   },
   {
+    "id": "ev_20110",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=our%20accumulated%20deficit%20of%20%244.7%20billion%20as%20of",
+    "accession": "0001769628-26-000465",
+    "section": "MD&A - Liquidity and Capital Resources",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "our accumulated deficit of $4.7 billion as of September 30, 2026",
+    "locator": "155782",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Accumulated deficit 4.7bn"
+    ],
+    "grounded_value": 4700000000.0
+  },
+  {
+    "id": "ev_20113",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=other%20contractual%20commitments%20of%20approximately%20%244%20billion",
+    "accession": "0001769628-26-000465",
+    "section": "MD&A - Contractual Obligations",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "other contractual commitments of approximately $4 billion",
+    "locator": "160683",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Other contractual purchase commitments ~4bn"
+    ],
+    "grounded_value": 4000000000.0
+  },
+  {
     "id": "ev_20114",
     "tier": "1",
     "kind": "sec_filing",
@@ -2671,6 +3238,33 @@
       "NVIDIA private placement ~23m shares at 87.20, 2.0bn gross (10-Q restatement of 8-K)"
     ],
     "grounded_value": 2000000000.0
+  },
+  {
+    "id": "ev_20118",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=%241.9%20billion%20of%20the%20deferred%20revenue%20balance%20from",
+    "accession": "0001769628-26-000465",
+    "section": "Note 2 - Revenue: Contract Balances",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "$1.9 billion of the deferred revenue balance from the beginning",
+    "locator": "40248",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "1.9bn deferred revenue reclassified to customer liabilities as contracts became cancellable"
+    ],
+    "grounded_value": 1900000000.0
   },
   {
     "id": "ev_20119",
@@ -2804,6 +3398,114 @@
     "pasted_by_reviewer": false,
     "supports": [
       "All GPUs in CoreWeave infrastructure are NVIDIA GPUs"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_20128",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-K for the year ended December 31, 2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm#:~:text=our%20current%20customers%20have%20contractually%20specified%20our%20use",
+    "accession": "0001769628-26-000104",
+    "section": "Risk Factors - supplier",
+    "published": "2026-03-02",
+    "retrieved": "2026-11-23T02:21:02Z",
+    "quote": "our current customers have contractually specified our use of NVIDIA GPUs",
+    "locator": "66531",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000104/crwv-20251231.htm",
+    "content_hash": "323cd248c7558d32c64bf58e455031630092a1c7d0b2d259b651950bd61da6ca",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Customers contractually specify NVIDIA GPUs"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_20129",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-K for the year ended December 31, 2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm#:~:text=three%20suppliers%20accounted%20for%2023%25%2C%2020%25%2C%20and%2017%25",
+    "accession": "0001769628-26-000104",
+    "section": "Risk Factors - supplier",
+    "published": "2026-03-02",
+    "retrieved": "2026-11-23T02:21:02Z",
+    "quote": "three suppliers accounted for 23%, 20%, and 17% of total purchases",
+    "locator": "62544",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000104/crwv-20251231.htm",
+    "content_hash": "323cd248c7558d32c64bf58e455031630092a1c7d0b2d259b651950bd61da6ca",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "FY2025 three suppliers 23%, 20%, 17% of purchases"
+    ],
+    "grounded_value": 17.0
+  },
+  {
+    "id": "ev_20130",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-K for the year ended December 31, 2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm#:~:text=computing%20equipment%20utilized%20in%20data%20centers%20from%20five",
+    "accession": "0001769628-26-000104",
+    "section": "Note 1 - Property and Equipment",
+    "published": "2026-03-02",
+    "retrieved": "2026-11-23T02:21:02Z",
+    "quote": "computing equipment utilized in data centers from five to six years",
+    "locator": "426344",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000104/crwv-20251231.htm",
+    "content_hash": "323cd248c7558d32c64bf58e455031630092a1c7d0b2d259b651950bd61da6ca",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Computing equipment useful life changed from five to six years (2023)"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_20132",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-K for the year ended December 31, 2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm#:~:text=these%20material%20weaknesses%20continued%20to%20exist%20as%20of",
+    "accession": "0001769628-26-000104",
+    "section": "Item 9A Controls and Procedures",
+    "published": "2026-03-02",
+    "retrieved": "2026-11-23T02:21:02Z",
+    "quote": "these material weaknesses continued to exist as of December 31, 2025",
+    "locator": "244292",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000104/crwv-20251231.htm",
+    "content_hash": "323cd248c7558d32c64bf58e455031630092a1c7d0b2d259b651950bd61da6ca",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Material weaknesses continued to exist at 2025-12-31"
     ],
     "grounded_value": null
   },
@@ -3132,6 +3834,33 @@
     "grounded_value": null
   },
   {
+    "id": "ev_20148",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=not%20effective%20at%20the%20reasonable%20assurance%20level%20as",
+    "accession": "0001769628-26-000465",
+    "section": "Item 4 Controls and Procedures",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "not effective at the reasonable assurance level as of September 30, 2026",
+    "locator": "172790",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Disclosure controls not effective at 2026-09-30 due to material weaknesses"
+    ],
+    "grounded_value": null
+  },
+  {
     "id": "ev_20149",
     "tier": "1",
     "kind": "sec_filing",
@@ -3290,6 +4019,33 @@
     "pasted_by_reviewer": false,
     "supports": [
       "Qualified Customer test: borrower certification of capability to perform (no rating floor)"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_20159",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "DDTL 5.5 Credit Agreement dated 2026-08-07 (8-K Ex. 10.1)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/ex101creditagreement.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/ex101creditagreement.htm#:~:text=have%20a%20tenor%20equal%20to%2C%20or%20longer%20than%2C",
+    "accession": "0001769628-26-000357",
+    "section": "Article I Definitions - Eligibility Criteria",
+    "published": "2026-08-10",
+    "retrieved": "2026-11-23T02:26:56Z",
+    "quote": "have a tenor equal to, or longer than, six (6) months",
+    "locator": "73980",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000357/ex101creditagreement.htm",
+    "content_hash": "c50438e062e656380429fc824b86e2ef45ac43981ca26d76f3180c9f20b22f23",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Replacement customer contracts must have tenor of at least six months"
     ],
     "grounded_value": null
   },
@@ -3749,6 +4505,33 @@
     "pasted_by_reviewer": false,
     "supports": [
       "DDTL 5.0 backs contracts with two large non-investment grade customers"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_20183",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave convertible notes investor presentation (8-K Ex. 99.2), 2026-09-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv2026convertpresentat.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv2026convertpresentat.htm#:~:text=First%20AI%20cloud%20provider%20to%20bring%20up%20and",
+    "accession": "0001769628-26-000429",
+    "section": "Exhibit 99.2 - Business Update",
+    "published": "2026-09-17",
+    "retrieved": "2026-11-23T02:28:34Z",
+    "quote": "First AI cloud provider to bring up and validate NVIDIA's Vera Rubin NVL72",
+    "locator": "14000",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000429/crwv2026convertpresentat.htm",
+    "content_hash": "c344af80a113b53cd723b494a9752ce223adb75a4be71ba89117dd5381f13b91",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "First to validate NVIDIA Vera Rubin NVL72"
     ],
     "grounded_value": null
   },
@@ -5099,6 +5882,33 @@
     "pasted_by_reviewer": false,
     "supports": [
       "SB Energy guarantees cover nine buildings, effective building by building, first expected fiscal 2029"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_30028",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "CFO Commentary on Second Quarter Fiscal 2027 Results (Ex. 99.2 to 8-K filed 2026-08-26)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm#:~:text=Each%20generation%20of%20NVIDIA%20infrastructure%20deployed%20at%20PORTS-Pike",
+    "accession": "0001045810-26-000073",
+    "section": "Guarantees",
+    "published": "2026-08-26",
+    "retrieved": "2026-11-23T02:23:04Z",
+    "quote": "Each generation of NVIDIA infrastructure deployed at PORTS-Pike could represent approximately",
+    "locator": "8039",
+    "unit_scale_locator": null,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1045810/000104581026000073/q2fy27cfocommentary.htm",
+    "content_hash": "cabd6ee5bbfd3c69c3f3920bf1855b9bb7fce7d9fd71fdcd8e438db38ed982e6",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "NVIDIA links PORTS-Pike to expected NVIDIA revenue ($150B to $200B per generation per CFO commentary)"
     ],
     "grounded_value": null
   },
@@ -6858,6 +7668,60 @@
     "grounded_value": 24000000000.0
   },
   {
+    "id": "ev_40018",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nscale plc",
+    "title": "Nscale plc Form S-1/A filed November 12, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm#:~:text=the%20aggregate%20amount%20of%20these%20commitments%20was%20%243.5",
+    "accession": "0001193125-26-458722",
+    "section": "MD&A - Commitments - Data Center Build",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:16:23Z",
+    "quote": "the aggregate amount of these commitments was $3.5 billion across our sites",
+    "locator": "574184",
+    "unit_scale_locator": null,
+    "parent_company": "Nscale plc",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "content_hash": "cffaccd2d615ca8851f66a49c125103b772693e0b1236b3b6cc7ebc3c9fb5013",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nscale: Data center construction commitments June 30, 2026"
+    ],
+    "grounded_value": 3500000000.0
+  },
+  {
+    "id": "ev_40019",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nscale plc",
+    "title": "Nscale plc Form S-1/A filed November 12, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm#:~:text=The%20aggregate%20undiscounted%20payments%20for%20leases%20which%20have",
+    "accession": "0001193125-26-458722",
+    "section": "MD&A - Commitments - Colocation",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:16:23Z",
+    "quote": "The aggregate undiscounted payments for leases which have not yet commenced was $1.4 billion",
+    "locator": "573754",
+    "unit_scale_locator": null,
+    "parent_company": "Nscale plc",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "content_hash": "cffaccd2d615ca8851f66a49c125103b772693e0b1236b3b6cc7ebc3c9fb5013",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nscale: Leases not yet commenced June 30, 2026"
+    ],
+    "grounded_value": 1400000000.0
+  },
+  {
     "id": "ev_40021",
     "tier": "1",
     "kind": "sec_filing",
@@ -6910,6 +7774,60 @@
       "Nscale: Estimated total debt Sept 30, 2026"
     ],
     "grounded_value": 5516300000.0
+  },
+  {
+    "id": "ev_40023",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nscale plc",
+    "title": "Nscale plc Form S-1/A filed November 12, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm#:~:text=the%20carrying%20value%20of%20our%20total%20debt%20was",
+    "accession": "0001193125-26-458722",
+    "section": "Risk Factors - indebtedness",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:16:23Z",
+    "quote": "the carrying value of our total debt was $137.4 million",
+    "locator": "385170",
+    "unit_scale_locator": null,
+    "parent_company": "Nscale plc",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "content_hash": "cffaccd2d615ca8851f66a49c125103b772693e0b1236b3b6cc7ebc3c9fb5013",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nscale: Total debt carrying value June 30, 2026"
+    ],
+    "grounded_value": 137400000.0
+  },
+  {
+    "id": "ev_40024",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nscale plc",
+    "title": "Nscale plc Form S-1/A filed November 12, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm#:~:text=were%20%2456.4%20billion%20as%20of%20June%2030%2C%202026",
+    "accession": "0001193125-26-458722",
+    "section": "Note 2 Revenue - Remaining Performance Obligations (interim)",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:16:23Z",
+    "quote": "were $56.4 billion as of June 30, 2026",
+    "locator": "1165225",
+    "unit_scale_locator": null,
+    "parent_company": "Nscale plc",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "content_hash": "cffaccd2d615ca8851f66a49c125103b772693e0b1236b3b6cc7ebc3c9fb5013",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nscale: RPO June 30, 2026 incl. $7.1bn significant financing component, over 7 years"
+    ],
+    "grounded_value": 56400000000.0
   },
   {
     "id": "ev_40025",
@@ -7126,6 +8044,33 @@
       "Nscale: Monarch GPU and compute capex estimate $21-22bn"
     ],
     "grounded_value": 21000000000.0
+  },
+  {
+    "id": "ev_40033",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nscale plc",
+    "title": "Nscale plc Form S-1/A filed November 12, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm#:~:text=the%20receipt%20of%20upfront%20prepayments%20of%20%242.3%20billion",
+    "accession": "0001193125-26-458722",
+    "section": "MD&A - Cash Flows - Operating Activities",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:16:23Z",
+    "quote": "the receipt of upfront prepayments of $2.3 billion provided by our customers",
+    "locator": "555636",
+    "unit_scale_locator": null,
+    "parent_company": "Nscale plc",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "content_hash": "cffaccd2d615ca8851f66a49c125103b772693e0b1236b3b6cc7ebc3c9fb5013",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nscale: Customer prepayments received H1 2026"
+    ],
+    "grounded_value": 2300000000.0
   },
   {
     "id": "ev_40034",
@@ -7504,6 +8449,33 @@
       "Nscale: RCF May 2026 upsized to $900m, SOFR+1.75%, 3 years + 2x1yr extensions"
     ],
     "grounded_value": 900000000.0
+  },
+  {
+    "id": "ev_40048",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nscale plc",
+    "title": "Nscale plc Form S-1/A filed November 12, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm#:~:text=we%20identified%20deficiencies%20that%20we%20concluded%20represented%20material",
+    "accession": "0001193125-26-458722",
+    "section": "Risk Factors - Financial and Accounting Matters",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:16:23Z",
+    "quote": "we identified deficiencies that we concluded represented material weaknesses",
+    "locator": "381254",
+    "unit_scale_locator": null,
+    "parent_company": "Nscale plc",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "content_hash": "cffaccd2d615ca8851f66a49c125103b772693e0b1236b3b6cc7ebc3c9fb5013",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nscale: Material weaknesses identified FY2024/FY2025"
+    ],
+    "grounded_value": null
   },
   {
     "id": "ev_40049",
@@ -7938,6 +8910,60 @@
     "grounded_value": 751800000.0
   },
   {
+    "id": "ev_40065",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nebius Group N.V.",
+    "title": "Nebius Group N.V. 6-K Ex.99.2 unaudited condensed consolidated financial statements Q3 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm#:~:text=maintain%20a%20debt%20service%20coverage%20ratio%20of%20at",
+    "accession": "0001104659-26-126238",
+    "section": "Note 12 Debt",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:23:46Z",
+    "quote": "maintain a debt service coverage ratio of at least 1.15:1.00",
+    "locator": "111654",
+    "unit_scale_locator": null,
+    "parent_company": "Nebius Group N.V.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1513845/000110465926126238/nbis-ex99d2.htm",
+    "content_hash": "3c9af0ced06149676f32a37f1171640971134903e92f5a81bc4654505da293e6",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nebius: Term loan DSCR covenant 1.15x plus minimum liquidity"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_40066",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nebius Group N.V.",
+    "title": "Nebius Group N.V. 6-K Ex.99.2 unaudited condensed consolidated financial statements Q3 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm#:~:text=Notes%20due%20June%202029%20June%202029%202.00%25%207.06%25",
+    "accession": "0001104659-26-126238",
+    "section": "Note 12 Debt",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:23:46Z",
+    "quote": "Notes due June 2029 June 2029 2.00% 7.06% 105.0",
+    "locator": "94773",
+    "unit_scale_locator": 16153,
+    "parent_company": "Nebius Group N.V.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1513845/000110465926126238/nbis-ex99d2.htm",
+    "content_hash": "3c9af0ced06149676f32a37f1171640971134903e92f5a81bc4654505da293e6",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nebius: Convertible notes due June 2029 principal $105.0m"
+    ],
+    "grounded_value": 105000000.0
+  },
+  {
     "id": "ev_40067",
     "tier": "1",
     "kind": "sec_filing",
@@ -8073,6 +9099,33 @@
     "grounded_value": 7425600000.0
   },
   {
+    "id": "ev_40075",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nebius Group N.V.",
+    "title": "Nebius Group N.V. 6-K Ex.99.2 unaudited condensed consolidated financial statements Q3 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm#:~:text=the%20amount%20of%20unsatisfied%20RPO%20was%20%2438.7%20billion",
+    "accession": "0001104659-26-126238",
+    "section": "Note - Revenue - Remaining performance obligations",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:23:46Z",
+    "quote": "the amount of unsatisfied RPO was $38.7 billion",
+    "locator": "63196",
+    "unit_scale_locator": null,
+    "parent_company": "Nebius Group N.V.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1513845/000110465926126238/nbis-ex99d2.htm",
+    "content_hash": "3c9af0ced06149676f32a37f1171640971134903e92f5a81bc4654505da293e6",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nebius: RPO Sept 30, 2026, 40% within 24 months"
+    ],
+    "grounded_value": 38700000000.0
+  },
+  {
     "id": "ev_40076",
     "tier": "1",
     "kind": "sec_filing",
@@ -8123,6 +9176,33 @@
     "pasted_by_reviewer": false,
     "supports": [
       "Nebius: Customer E 33% Q3 2026, 21% 9M 2026"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_40078",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nebius Group N.V.",
+    "title": "Nebius Group N.V. 6-K Ex.99.2 unaudited condensed consolidated financial statements Q3 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm#:~:text=Customer%20D%20accounted%20for%2075%25%20and%20Customer%20E",
+    "accession": "0001104659-26-126238",
+    "section": "Note 2 - Significant Customers",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:23:46Z",
+    "quote": "Customer D accounted for 75% and Customer E accounted for 10%",
+    "locator": "54630",
+    "unit_scale_locator": null,
+    "parent_company": "Nebius Group N.V.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1513845/000110465926126238/nbis-ex99d2.htm",
+    "content_hash": "3c9af0ced06149676f32a37f1171640971134903e92f5a81bc4654505da293e6",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nebius: AR concentration Sept 30, 2026"
     ],
     "grounded_value": null
   },
@@ -8179,6 +9259,33 @@
       "Nebius: Meta unsold-capacity purchase order (Meta as backstop, not NVIDIA), up to $15bn"
     ],
     "grounded_value": 15000000000.0
+  },
+  {
+    "id": "ev_40083",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nebius Group N.V.",
+    "title": "Nebius Group N.V. 6-K Ex.99.2 unaudited condensed consolidated financial statements Q3 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm#:~:text=%24287.1%20in%202027%2C%20%24287.4%20in%202028%2C%20%24285.7%20in",
+    "accession": "0001104659-26-126238",
+    "section": "Note 11 Commitments and Contingencies",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:23:46Z",
+    "quote": "$287.1 in 2027, $287.4 in 2028, $285.7 in 2029",
+    "locator": "91038",
+    "unit_scale_locator": 16153,
+    "parent_company": "Nebius Group N.V.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1513845/000110465926126238/nbis-ex99d2.htm",
+    "content_hash": "3c9af0ced06149676f32a37f1171640971134903e92f5a81bc4654505da293e6",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nebius: Energy/power and co-location fixed commitments: 2027 $287.1m"
+    ],
+    "grounded_value": 287100000.0
   },
   {
     "id": "ev_40084",
@@ -8613,6 +9720,33 @@
     "grounded_value": 4600000000.0
   },
   {
+    "id": "ev_40101",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "SB Energy, Inc.",
+    "title": "SB Energy, Inc. Form S-1/A (Amendment No. 3) filed November 19, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026075026/sbenergy-sx1a3.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026075026/sbenergy-sx1a3.htm#:~:text=of%20which%20approximately%20%241.2%20billion%20was%20classified%20as",
+    "accession": "0001628280-26-075026",
+    "section": "Risk Factors - substantial indebtedness",
+    "published": "2026-11-19",
+    "retrieved": "2026-11-23T02:16:18Z",
+    "quote": "of which approximately $1.2 billion was classified as current",
+    "locator": "103249",
+    "unit_scale_locator": null,
+    "parent_company": "SB Energy, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2133037/000162828026075026/sbenergy-sx1a3.htm",
+    "content_hash": "f4e6b3e336452a0cc79e09361fec4694b68c4cf384edd6c550e83ac9c6ceb58c",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "SB Energy: Current debt $1.2bn at Sept 30, 2026"
+    ],
+    "grounded_value": 1200000000.0
+  },
+  {
     "id": "ev_40103",
     "tier": "1",
     "kind": "sec_filing",
@@ -8692,6 +9826,33 @@
       "SB Energy: New Credit Facility with Citibank (expected at IPO): $1.875bn RCF + $1.125bn LC facility, 3.5-year maturity"
     ],
     "grounded_value": 3000000000.0
+  },
+  {
+    "id": "ev_40107",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "SB Energy, Inc.",
+    "title": "SB Energy, Inc. Form S-1/A (Amendment No. 3) filed November 19, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026075026/sbenergy-sx1a3.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026075026/sbenergy-sx1a3.htm#:~:text=We%20have%20identified%20a%20material%20weakness%20in%20internal",
+    "accession": "0001628280-26-075026",
+    "section": "Risk Factors summary",
+    "published": "2026-11-19",
+    "retrieved": "2026-11-23T02:16:18Z",
+    "quote": "We have identified a material weakness in internal control over financial reporting",
+    "locator": "116461",
+    "unit_scale_locator": null,
+    "parent_company": "SB Energy, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2133037/000162828026075026/sbenergy-sx1a3.htm",
+    "content_hash": "f4e6b3e336452a0cc79e09361fec4694b68c4cf384edd6c550e83ac9c6ceb58c",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "SB Energy: Material weakness identified"
+    ],
+    "grounded_value": null
   },
   {
     "id": "ev_40108",
@@ -9099,6 +10260,60 @@
     "grounded_value": 3522000000.0
   },
   {
+    "id": "ev_40123",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "IREN Limited",
+    "title": "IREN Limited Form 10-Q for quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm#:~:text=the%20Group%20had%20capital%20commitments%20of%20%2418%2C947%20million",
+    "accession": "0001878848-26-000066",
+    "section": "Note 2 - Liquidity",
+    "published": "2026-11-05",
+    "retrieved": "2026-11-23T02:25:47Z",
+    "quote": "the Group had capital commitments of $18,947 million",
+    "locator": "35043",
+    "unit_scale_locator": null,
+    "parent_company": "IREN Limited",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1878848/000187884826000066/iren-20260930.htm",
+    "content_hash": "1dac53442c06dc0a7eeec2517528fc4ec6b274907463429273178908acb81acc",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "IREN: Capital commitments Sept 30, 2026 (AI hardware and infrastructure)"
+    ],
+    "grounded_value": 18947000000.0
+  },
+  {
+    "id": "ev_40124",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "IREN Limited",
+    "title": "IREN Limited Form 10-Q for quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm#:~:text=were%20%246%2C347%20million%20as%20of%20September%2030%2C%202026",
+    "accession": "0001878848-26-000066",
+    "section": "Note 4 Revenue - RPO",
+    "published": "2026-11-05",
+    "retrieved": "2026-11-23T02:25:47Z",
+    "quote": "were $6,347 million as of September 30, 2026",
+    "locator": "50659",
+    "unit_scale_locator": null,
+    "parent_company": "IREN Limited",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1878848/000187884826000066/iren-20260930.htm",
+    "content_hash": "1dac53442c06dc0a7eeec2517528fc4ec6b274907463429273178908acb81acc",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "IREN: RPO Sept 30, 2026; $1,529m within 12 months"
+    ],
+    "grounded_value": 6347000000.0
+  },
+  {
     "id": "ev_40125",
     "tier": "1",
     "kind": "sec_filing",
@@ -9286,6 +10501,60 @@
       "IREN: GPU Financing 1.0 May 2026 ~$3.6bn (DDTL $1.5bn SOFR+2.25% + $2.1bn USPP), CSC Delaware collateral agent, Microsoft contract"
     ],
     "grounded_value": 3600000000.0
+  },
+  {
+    "id": "ev_40132",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "IREN Limited",
+    "title": "IREN Limited Form 10-Q for quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm#:~:text=Total%20principal%20of%20debt%2010%2C041%207%2C706",
+    "accession": "0001878848-26-000066",
+    "section": "Note 19 Debt",
+    "published": "2026-11-05",
+    "retrieved": "2026-11-23T02:25:47Z",
+    "quote": "Total principal of debt 10,041 7,706",
+    "locator": "77090",
+    "unit_scale_locator": null,
+    "parent_company": "IREN Limited",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1878848/000187884826000066/iren-20260930.htm",
+    "content_hash": "1dac53442c06dc0a7eeec2517528fc4ec6b274907463429273178908acb81acc",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "IREN: Total debt principal $10,041m Sept 30, 2026 [table figure in USD millions; --value omitted because tool does not parse 'in USD millions' header]"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_40134",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "IREN Limited",
+    "title": "IREN Limited Form 10-Q for quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm#:~:text=Remainder%20of%20Financial%20Year%202027%20%24%20723%20Financial",
+    "accession": "0001878848-26-000066",
+    "section": "Note 19 Debt",
+    "published": "2026-11-05",
+    "retrieved": "2026-11-23T02:25:47Z",
+    "quote": "Remainder of Financial Year 2027 $ 723 Financial Year 2028 1,059",
+    "locator": "77420",
+    "unit_scale_locator": null,
+    "parent_company": "IREN Limited",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1878848/000187884826000066/iren-20260930.htm",
+    "content_hash": "1dac53442c06dc0a7eeec2517528fc4ec6b274907463429273178908acb81acc",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "IREN: Principal due remainder FY2027 $723m, FY2028 $1,059m [table figure in USD millions; --value omitted because tool does not parse 'in USD millions' header]"
+    ],
+    "grounded_value": null
   },
   {
     "id": "ev_40136",
@@ -9637,6 +10906,33 @@
       "SharonAI: $356m GPU SPV facility Sept 28, 2026, 42-month bullet, 7.25-9.95% fixed, GLAS agent, supports Global Technology Customer contract"
     ],
     "grounded_value": 356000000.0
+  },
+  {
+    "id": "ev_40153",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "SharonAI Holdings Inc.",
+    "title": "SharonAI Holdings Inc. Form 10-Q for quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226052382/form10-q.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226052382/form10-q.htm#:~:text=Management%20has%20determined%20that%20the%20following%20material%20weakness",
+    "accession": "0001493152-26-052382",
+    "section": "Item 4 Controls and Procedures",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-23T02:30:53Z",
+    "quote": "Management has determined that the following material weakness existed",
+    "locator": "150722",
+    "unit_scale_locator": null,
+    "parent_company": "SharonAI Holdings Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2068385/000149315226052382/form10-q.htm",
+    "content_hash": "5c3103844cd9be31a628d3c0305e1ba3fc9b2a32ffba5fb2f3f29c64a166f6ee",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "SharonAI material weakness Sept 30, 2026"
+    ],
+    "grounded_value": null
   },
   {
     "id": "ev_40155",
@@ -11718,6 +13014,33 @@
     "grounded_value": 15000000000.0
   },
   {
+    "id": "ev_60020",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Intel Corporation",
+    "title": "Intel Corporation Form 10-Q for the quarter ended September 26, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm#:~:text=no%20outstanding%20borrowings%20on%20the%20revolving%20credit%20facilities",
+    "accession": "0000050863-26-000191",
+    "section": "MD&A - Liquidity and Capital Resources",
+    "published": "2026-10-30",
+    "retrieved": "2026-11-23T02:35:39Z",
+    "quote": "no outstanding borrowings on the revolving credit facilities",
+    "locator": "156808",
+    "unit_scale_locator": null,
+    "parent_company": "Intel Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/50863/000005086326000191/intc-20260926.htm",
+    "content_hash": "fac629e30c0688c8cc425da9814d840adc34fd18cafdcd79e70ae70fc40e9f95",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Intel revolvers undrawn at 2026-09-26"
+    ],
+    "grounded_value": null
+  },
+  {
     "id": "ev_60023",
     "tier": "1",
     "kind": "sec_filing",
@@ -11878,6 +13201,60 @@
       "Nokia: subscription price USD 6.01"
     ],
     "grounded_value": 6.01
+  },
+  {
+    "id": "ev_60030",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nokia Corporation",
+    "title": "Nokia Corporation Annual Report on Form 20-F for 2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/924613/000162828026015034/nok-20251231.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/924613/000162828026015034/nok-20251231.htm#:~:text=proceeds%20from%20issuance%20of%20shares%20to%20NVIDIA%20of",
+    "accession": "0001628280-26-015034",
+    "section": "Operating and financial review - cash flow",
+    "published": "2026-03-05",
+    "retrieved": "2026-11-23T02:37:02Z",
+    "quote": "proceeds from issuance of shares to NVIDIA of EUR 859 million",
+    "locator": "300807",
+    "unit_scale_locator": null,
+    "parent_company": "Nokia Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/924613/000162828026015034/nok-20251231.htm",
+    "content_hash": "ae9951edf529ea846c40a25f1607549da2b8c9f8d2ef066867a28213ac96512f",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nokia: cash proceeds EUR 859 million (EUR, not converted)"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_60032",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nokia Corporation",
+    "title": "Nokia Corporation Annual Report on Form 20-F for 2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/924613/000162828026015034/nok-20251231.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/924613/000162828026015034/nok-20251231.htm#:~:text=Nokia%E2%80%99s%20total%20cash%20and%20interest-bearing%20financial%20investments%281%29%20equaled",
+    "accession": "0001628280-26-015034",
+    "section": "Operating and financial review - liquidity",
+    "published": "2026-03-05",
+    "retrieved": "2026-11-23T02:37:02Z",
+    "quote": "Nokia’s total cash and interest-bearing financial investments(1) equaled EUR 6 791 million",
+    "locator": "301037",
+    "unit_scale_locator": null,
+    "parent_company": "Nokia Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/924613/000162828026015034/nok-20251231.htm",
+    "content_hash": "ae9951edf529ea846c40a25f1607549da2b8c9f8d2ef066867a28213ac96512f",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nokia: cash and interest-bearing investments EUR 6,791m at 2025-12-31 (EUR)"
+    ],
+    "grounded_value": null
   },
   {
     "id": "ev_60033",
@@ -12256,6 +13633,33 @@
       "Synopsys 10-Q: net proceeds .0B"
     ],
     "grounded_value": 2000000000.0
+  },
+  {
+    "id": "ev_60048",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Synopsys, Inc.",
+    "title": "Synopsys, Inc. Form 10-Q for the quarter ended July 31, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm#:~:text=repayment%20of%20the%20remaining%20%243.5%20billion%20of%20the",
+    "accession": "0000883241-26-000025",
+    "section": "MD&A - Financing activities",
+    "published": "2026-08-26",
+    "retrieved": "2026-11-23T02:38:30Z",
+    "quote": "repayment of the remaining $3.5 billion of the Term Loans",
+    "locator": "147476",
+    "unit_scale_locator": null,
+    "parent_company": "Synopsys, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/883241/000088324126000025/snps-20260731.htm",
+    "content_hash": "05343e8a1edb673cd4a7b0f90c36a2fd602ac77e3ea6fdf8bb194a0bf3116b03",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Synopsys repaid remaining term loans, NVIDIA proceeds partially offset"
+    ],
+    "grounded_value": 3500000000.0
   },
   {
     "id": "ev_60049",
@@ -13122,6 +14526,60 @@
     "grounded_value": null
   },
   {
+    "id": "ev_60083",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Coherent Corp.",
+    "title": "Coherent Corp. Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000023/iivi-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000023/iivi-20260930.htm#:~:text=Cash%20and%20cash%20equivalents%20%24%201%2C552%2C929%20%24%201%2C162%2C018",
+    "accession": "0000820318-26-000023",
+    "section": "Condensed Consolidated Balance Sheets (in /bin/bash00)",
+    "published": "2026-11-04",
+    "retrieved": "2026-11-23T02:23:06Z",
+    "quote": "Cash and cash equivalents $ 1,552,929 $ 1,162,018",
+    "locator": "4399",
+    "unit_scale_locator": null,
+    "parent_company": "Coherent Corp.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/820318/000082031826000023/iivi-20260930.htm",
+    "content_hash": "fc6c9acbab258a7f059b4ba3a48a1a6644513b8093320e5ba9a1c7f726e6ed80",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Coherent cash 2026-09-30 in thousands: about .55B (text)"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_60084",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Coherent Corp.",
+    "title": "Coherent Corp. Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000023/iivi-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000023/iivi-20260930.htm#:~:text=Total%20debt%204%2C000%2C598%203%2C222%2C224",
+    "accession": "0000820318-26-000023",
+    "section": "Note - Debt (in /bin/bash00)",
+    "published": "2026-11-04",
+    "retrieved": "2026-11-23T02:23:06Z",
+    "quote": "Total debt 4,000,598 3,222,224",
+    "locator": "25262",
+    "unit_scale_locator": null,
+    "parent_company": "Coherent Corp.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/820318/000082031826000023/iivi-20260930.htm",
+    "content_hash": "fc6c9acbab258a7f059b4ba3a48a1a6644513b8093320e5ba9a1c7f726e6ed80",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Coherent total debt 2026-09-30 in thousands: about .0B (text)"
+    ],
+    "grounded_value": null
+  },
+  {
     "id": "ev_60085",
     "tier": "1",
     "kind": "sec_filing",
@@ -13851,6 +15309,33 @@
     "grounded_value": null
   },
   {
+    "id": "ev_60113",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "NVIDIA Q3 FY2027 results press release (Exhibit 99.1 to Form 8-K filed November 17, 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm#:~:text=Proceeds%20from%20sales%20of%20equity%20securities%202%2C253%202",
+    "accession": "0001045810-26-000088",
+    "section": "Condensed Consolidated Statements of Cash Flows",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-23T02:23:02Z",
+    "quote": "Proceeds from sales of equity securities 2,253 2 9,493 72",
+    "locator": "20528",
+    "unit_scale_locator": 19373,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1045810/000104581026000088/q3fy27pr.htm",
+    "content_hash": "0d2dc19435f313628f512b29efd88327df8bd2a1671941d973a9295fdcc4f93c",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "NVIDIA: proceeds from equity sales Q3 FY27 ,253M (issuers not named)"
+    ],
+    "grounded_value": 2253000000.0
+  },
+  {
     "id": "ev_70001",
     "tier": "1",
     "kind": "sec_filing",
@@ -13903,6 +15388,33 @@
       "2033 convertible notes mature 2033-04-01"
     ],
     "grounded_value": null
+  },
+  {
+    "id": "ev_70004",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Indenture for 2.875% Convertible Senior Notes due 2033 (Ex. 4.1 to 8-K filed 2026-09-22)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/ex41-indenture.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/ex41-indenture.htm#:~:text=in%20an%20aggregate%20amount%20of%20the%20greater%20of",
+    "accession": "0001769628-26-000432",
+    "section": "Exhibit_4.1_Indenture",
+    "published": "2026-09-22",
+    "retrieved": "2026-11-23T02:36:20Z",
+    "quote": "in an aggregate amount of the greater of (x) $200 million",
+    "locator": "124761",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000432/ex41-indenture.htm",
+    "content_hash": "1c7f2fe22574f237610c63101be36e5a0ea92b697948a742f673124a8b3da994",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "2033 notes cross-acceleration threshold greater of 200m and 5% LTM EBITDA"
+    ],
+    "grounded_value": 200000000.0
   },
   {
     "id": "ev_70006",
@@ -14418,6 +15930,33 @@
     "grounded_value": 2982000000.0
   },
   {
+    "id": "ev_70029",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=Purchases%20of%20property%20and%20equipment%2C%20including%20capitalized%20internal-use",
+    "accession": "0001769628-26-000465",
+    "section": "Part I Item 1 Condensed Consolidated Statements of Cash Flows",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "Purchases of property and equipment, including capitalized internal-use software $ (23,558)",
+    "locator": "22106",
+    "unit_scale_locator": 21157,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Capex 9M 2026 23,558m"
+    ],
+    "grounded_value": 23558000000.0
+  },
+  {
     "id": "ev_70030",
     "tier": "1",
     "kind": "sec_filing",
@@ -14470,6 +16009,33 @@
       "IREN: total debt principal $10,041m at 2026-09-30 (replaces ev_40132, which had no machine-checked value)"
     ],
     "grounded_value": 10041000000.0
+  },
+  {
+    "id": "ev_80002",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "IREN Limited",
+    "title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm#:~:text=Less%3A%20debt%2C%20current%20%28950%29%20%28169%29",
+    "accession": "0001878848-26-000066",
+    "section": "Note 19. Debt",
+    "published": "2026-11-05",
+    "retrieved": "2026-11-23T02:25:47Z",
+    "quote": "Less: debt, current (950) (169)",
+    "locator": "77230",
+    "unit_scale_locator": 76338,
+    "parent_company": "IREN Limited",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1878848/000187884826000066/iren-20260930.htm",
+    "content_hash": "1dac53442c06dc0a7eeec2517528fc4ec6b274907463429273178908acb81acc",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "IREN: current debt $950m at 2026-09-30 (replaces ev_40133)"
+    ],
+    "grounded_value": 950000000.0
   },
   {
     "id": "ev_80003",
@@ -14526,6 +16092,33 @@
     "grounded_value": 1059000000.0
   },
   {
+    "id": "ev_80005",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "IREN Limited",
+    "title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm#:~:text=2033%20%28Dec%29%20Convertible%20Notes%20December%201%2C%202033%201.18%25",
+    "accession": "0001878848-26-000066",
+    "section": "Note 19. Debt",
+    "published": "2026-11-05",
+    "retrieved": "2026-11-23T02:25:47Z",
+    "quote": "2033 (Dec) Convertible Notes December 1, 2033 1.18% 3,000",
+    "locator": "76716",
+    "unit_scale_locator": 76338,
+    "parent_company": "IREN Limited",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1878848/000187884826000066/iren-20260930.htm",
+    "content_hash": "1dac53442c06dc0a7eeec2517528fc4ec6b274907463429273178908acb81acc",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "IREN: December 2033 convertible notes principal $3,000m (replaces ev_40135)"
+    ],
+    "grounded_value": 3000000000.0
+  },
+  {
     "id": "ev_80006",
     "tier": "1",
     "kind": "sec_filing",
@@ -14580,6 +16173,33 @@
     "grounded_value": 20059.0
   },
   {
+    "id": "ev_80008",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "SharonAI Holdings Inc.",
+    "title": "SharonAI Holdings Inc. Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226052382/form10-q.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226052382/form10-q.htm#:~:text=the%20Company%20had%20aggregate%20commitments%20of%20%245%2C300%2C000%20thousand",
+    "accession": "0001493152-26-052382",
+    "section": "Note 1. Going Concern",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-23T02:30:53Z",
+    "quote": "the Company had aggregate commitments of $5,300,000 thousand as at September 30, 2026",
+    "locator": "24043",
+    "unit_scale_locator": null,
+    "parent_company": "SharonAI Holdings Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2068385/000149315226052382/form10-q.htm",
+    "content_hash": "5c3103844cd9be31a628d3c0305e1ba3fc9b2a32ffba5fb2f3f29c64a166f6ee",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "SharonAI: aggregate commitments $5.3bn at 2026-09-30 (timing not split by year)"
+    ],
+    "grounded_value": 5300000000.0
+  },
+  {
     "id": "ev_80009",
     "tier": "1",
     "kind": "sec_filing",
@@ -14632,6 +16252,60 @@
       "SharonAI: commitments require additional financing"
     ],
     "grounded_value": null
+  },
+  {
+    "id": "ev_80012",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "SharonAI Holdings Inc.",
+    "title": "SharonAI Holdings Inc. Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226052382/form10-q.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226052382/form10-q.htm#:~:text=%24350%2C000%20thousand%20aggregate%20principal%20amount%20of%206.00%25%20Convertible",
+    "accession": "0001493152-26-052382",
+    "section": "Note 13. Convertible Notes",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-23T02:30:53Z",
+    "quote": "$350,000 thousand aggregate principal amount of 6.00% Convertible Senior Notes due May 1, 2031",
+    "locator": "49793",
+    "unit_scale_locator": null,
+    "parent_company": "SharonAI Holdings Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2068385/000149315226052382/form10-q.htm",
+    "content_hash": "5c3103844cd9be31a628d3c0305e1ba3fc9b2a32ffba5fb2f3f29c64a166f6ee",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "SharonAI: May 2026 convertible notes $350m principal, 6.00%, due 2031-05-01"
+    ],
+    "grounded_value": 350000000.0
+  },
+  {
+    "id": "ev_80013",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "SharonAI Holdings Inc.",
+    "title": "SharonAI Holdings Inc. Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226052382/form10-q.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226052382/form10-q.htm#:~:text=%24700%2C000%20thousand%20aggregate%20principal%20amount%20of%204.75%25%20Convertible",
+    "accession": "0001493152-26-052382",
+    "section": "Note 13. Convertible Notes",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-23T02:30:53Z",
+    "quote": "$700,000 thousand aggregate principal amount of 4.75% Convertible Senior Notes due June 15, 2032",
+    "locator": "56309",
+    "unit_scale_locator": null,
+    "parent_company": "SharonAI Holdings Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2068385/000149315226052382/form10-q.htm",
+    "content_hash": "5c3103844cd9be31a628d3c0305e1ba3fc9b2a32ffba5fb2f3f29c64a166f6ee",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "SharonAI: June 2026 convertible notes $700m principal, 4.75%, due 2032-06-15"
+    ],
+    "grounded_value": 700000000.0
   },
   {
     "id": "ev_80014",
@@ -14850,6 +16524,33 @@
     "grounded_value": null
   },
   {
+    "id": "ev_80022",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nscale plc",
+    "title": "Nscale plc Form S-1/A filed November 12, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm#:~:text=Technology%20equipment%205-6%20years",
+    "accession": "0001193125-26-458722",
+    "section": "Note 2 Summary of Significant Accounting Policies - Property and equipment",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:16:23Z",
+    "quote": "Technology equipment 5-6 years",
+    "locator": "1030615",
+    "unit_scale_locator": null,
+    "parent_company": "Nscale plc",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "content_hash": "cffaccd2d615ca8851f66a49c125103b772693e0b1236b3b6cc7ebc3c9fb5013",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nscale: technology equipment (GPUs and related infrastructure) depreciated over 5 to 6 years"
+    ],
+    "grounded_value": null
+  },
+  {
     "id": "ev_80023",
     "tier": "1",
     "kind": "sec_filing",
@@ -14873,6 +16574,33 @@
     "pasted_by_reviewer": false,
     "supports": [
       "Nscale: Series C Completion on 2026-03-27 (date NVIDIA Series C-3 and C-4 preferred were issued)"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_80024",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Nebius Group N.V.",
+    "title": "Nebius Group N.V. Form 20-F for the fiscal year ended December 31, 2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm#:~:text=Our%20main%20assets%2C%20GPUs%2C%20are%20currently%20depreciated%20over",
+    "accession": "0001104659-26-052948",
+    "section": "Item 5 Critical Accounting Estimates - Useful lives",
+    "published": "2026-04-30",
+    "retrieved": "2026-11-23T02:23:17Z",
+    "quote": "Our main assets, GPUs, are currently depreciated over four years.",
+    "locator": "224805",
+    "unit_scale_locator": null,
+    "parent_company": "Nebius Group N.V.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1513845/000110465926052948/nbis-20251231x20f.htm",
+    "content_hash": "46dcc77d8fca26dd74c29d4c7a3ef16eaec5eeb6ec6a53977f1577d3feb83695",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nebius: GPUs depreciated over four years; servers and network equipment extended from four to five years from 2026"
     ],
     "grounded_value": null
   },
@@ -22140,6 +23868,33 @@
     "grounded_value": 5000000000.0
   },
   {
+    "id": "ev_120084",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Space Exploration Technologies Corp.",
+    "title": "Space Exploration Technologies Corp. Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm#:~:text=SpaceX%20issued%20senior%20unsecured%20notes%20in%20an%20aggregate",
+    "accession": "0001628280-26-066880",
+    "section": "Note 9 - Debt",
+    "published": "2026-10-22",
+    "retrieved": "2026-11-23T02:35:58Z",
+    "quote": "SpaceX issued senior unsecured notes in an aggregate principal amount of $25,000 million",
+    "locator": "46620",
+    "unit_scale_locator": null,
+    "parent_company": "Space Exploration Technologies Corp.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1181412/000162828026066880/spcx-20260930.htm",
+    "content_hash": "a5c8bd21882d0f84e0ad2162f41cf4472406614e3f30fcf094ef0dd81264bc0e",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "SpaceX senior unsecured notes 25,000m June 2026"
+    ],
+    "grounded_value": 25000000000.0
+  },
+  {
     "id": "ev_120085",
     "tier": "1",
     "kind": "sec_filing",
@@ -22518,6 +24273,33 @@
     "grounded_value": null
   },
   {
+    "id": "ev_120100",
+    "tier": "1",
+    "kind": "company_release",
+    "publisher": "OpenAI",
+    "title": "OpenAI raises $122 billion to accelerate the next phase of AI (OpenAI, March 31, 2026)",
+    "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+    "source_link": "https://openai.com/index/accelerating-the-next-phase-ai/#:~:text=We%20are%20now%20generating%20%242B%20in%20revenue%20per",
+    "accession": null,
+    "section": "Company announcement",
+    "published": "2026-03-31",
+    "retrieved": "2026-11-23T02:37:49Z",
+    "quote": "We are now generating $2B in revenue per month.",
+    "locator": "1636",
+    "unit_scale_locator": null,
+    "parent_company": "OpenAI",
+    "cites_publisher": [],
+    "cache_path": "research/cache/web/openai.com/baca61f09ad04247_index_accelerating-the-next-phase-ai_.html",
+    "content_hash": "d6081d3725c80af5dc7a1ec1b9b9ee3950180ec450d8a5e1d1a8e590dea280b4",
+    "sourcing": "named",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "OpenAI revenue 2B per month (March 2026; B suffix)"
+    ],
+    "grounded_value": null
+  },
+  {
     "id": "ev_120101",
     "tier": "1",
     "kind": "company_release",
@@ -22541,6 +24323,33 @@
     "pasted_by_reviewer": false,
     "supports": [
       "Training fleet and most inference run on Nvidia GPUs"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_120102",
+    "tier": "1",
+    "kind": "company_release",
+    "publisher": "OpenAI",
+    "title": "The next chapter of the Microsoft–OpenAI partnership (OpenAI, October 28, 2025)",
+    "url": "https://openai.com/index/next-chapter-of-microsoft-openai-partnership/",
+    "source_link": "https://openai.com/index/next-chapter-of-microsoft-openai-partnership/#:~:text=OpenAI%20has%20contracted%20to%20purchase%20an%20incremental%20%24250B",
+    "accession": null,
+    "section": "Company announcement",
+    "published": "2025-10-28",
+    "retrieved": "2026-11-23T02:39:45Z",
+    "quote": "OpenAI has contracted to purchase an incremental $250B of Azure services",
+    "locator": "3245",
+    "unit_scale_locator": null,
+    "parent_company": "OpenAI",
+    "cites_publisher": [],
+    "cache_path": "research/cache/web/openai.com/9c09e5d8eddeb5c3_index_next-chapter-of-microsoft-openai-partnership_.html",
+    "content_hash": "cc038aaeb43d0d57f931ea4f537994e878c52f32e3e212db152c08640134cd0e",
+    "sourcing": "named",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "OpenAI incremental 250B Azure commitment (B suffix)"
     ],
     "grounded_value": null
   },
@@ -22842,6 +24651,60 @@
     "grounded_value": 24423000000.0
   },
   {
+    "id": "ev_130004",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "NVIDIA Supplemental Financial Information for the Quarter Ended October 25, 2026, Exhibit 99.3 to Form 8-K filed November 17, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/supplementalfinancialinfor.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/supplementalfinancialinfor.htm#:~:text=Net%20cash%20provided%20by%20operating%20activities%2048%2C253%2023%2C750",
+    "accession": "0001045810-26-000088",
+    "section": "Exhibit 99.3 - Condensed Consolidated Statements of Cash Flows",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-23T02:23:02Z",
+    "quote": "Net cash provided by operating activities 48,253 23,750 122,675 66,530",
+    "locator": "3924",
+    "unit_scale_locator": 2958,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1045810/000104581026000088/supplementalfinancialinfor.htm",
+    "content_hash": "305e058eb607777128cc5315ab32ed597f2d0f5b742d194da55e714750fa2550",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nvidia cash from operations $122,675M, nine months to 2026-10-25"
+    ],
+    "grounded_value": 122675000000.0
+  },
+  {
+    "id": "ev_130006",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "NVIDIA Supplemental Financial Information for the Quarter Ended October 25, 2026, Exhibit 99.3 to Form 8-K filed November 17, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/supplementalfinancialinfor.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/supplementalfinancialinfor.htm#:~:text=Purchases%20related%20to%20property%20and%20equipment%20and%20intangible",
+    "accession": "0001045810-26-000088",
+    "section": "Exhibit 99.3 - Condensed Consolidated Statements of Cash Flows",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-23T02:23:02Z",
+    "quote": "Purchases related to property and equipment and intangible assets (4,422) (1,637) (8,856) (4,758)",
+    "locator": "4300",
+    "unit_scale_locator": 2958,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1045810/000104581026000088/supplementalfinancialinfor.htm",
+    "content_hash": "305e058eb607777128cc5315ab32ed597f2d0f5b742d194da55e714750fa2550",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nvidia capital expenditure $8,856M, nine months to 2026-10-25"
+    ],
+    "grounded_value": 8856000000.0
+  },
+  {
     "id": "ev_130008",
     "tier": "1",
     "kind": "sec_filing",
@@ -22867,6 +24730,33 @@
       "Nvidia revenue $293,681M, nine months to 2026-10-25"
     ],
     "grounded_value": 293681000000.0
+  },
+  {
+    "id": "ev_130009",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "NVIDIA Supplemental Financial Information for the Quarter Ended October 25, 2026, Exhibit 99.3 to Form 8-K filed November 17, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/supplementalfinancialinfor.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/supplementalfinancialinfor.htm#:~:text=Revenue%20%24%20115%2C844%20%24%2057%2C006%20%24%20293%2C681%20%24",
+    "accession": "0001045810-26-000088",
+    "section": "Exhibit 99.3 - Condensed Consolidated Statements of Income",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-23T02:23:02Z",
+    "quote": "Revenue $ 115,844 $ 57,006 $ 293,681 $ 147,811",
+    "locator": "814",
+    "unit_scale_locator": 661,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1045810/000104581026000088/supplementalfinancialinfor.htm",
+    "content_hash": "305e058eb607777128cc5315ab32ed597f2d0f5b742d194da55e714750fa2550",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nvidia revenue $147,811M, nine months to 2025-10-26"
+    ],
+    "grounded_value": 147811000000.0
   },
   {
     "id": "ev_130010",
@@ -23056,6 +24946,60 @@
       "Nvidia free cash flow $34,902M, three months ended 2026-01-25 (FY2026 Q4)"
     ],
     "grounded_value": 34902000000.0
+  },
+  {
+    "id": "ev_130017",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026, Exhibit 99.1 to Form 8-K filed February 25, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm#:~:text=GAAP%20net%20cash%20provided%20by%20operating%20activities%20%24",
+    "accession": "0001045810-26-000019",
+    "section": "Exhibit 99.1 - Reconciliation of GAAP to Non-GAAP Financial Measures",
+    "published": "2026-02-25",
+    "retrieved": "2026-11-23T02:23:07Z",
+    "quote": "GAAP net cash provided by operating activities $ 36,190 $ 23,750",
+    "locator": "23605",
+    "unit_scale_locator": 21569,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1045810/000104581026000019/q4fy26pr.htm",
+    "content_hash": "bda97fa3cb46b2f97a97eec6591fadce1b0d75498b0356f005e6ea2fa0e727ab",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nvidia operating cash flow $36,190M, FY2026 Q4"
+    ],
+    "grounded_value": 36190000000.0
+  },
+  {
+    "id": "ev_130018",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "NVIDIA Corporation",
+    "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026, Exhibit 99.1 to Form 8-K filed February 25, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm#:~:text=Purchases%20related%20to%20property%20and%20equipment%20and%20intangible",
+    "accession": "0001045810-26-000019",
+    "section": "Exhibit 99.1 - Reconciliation of GAAP to Non-GAAP Financial Measures",
+    "published": "2026-02-25",
+    "retrieved": "2026-11-23T02:23:07Z",
+    "quote": "Purchases related to property and equipment and intangible assets (1,284) (1,637)",
+    "locator": "23698",
+    "unit_scale_locator": 21569,
+    "parent_company": "NVIDIA Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1045810/000104581026000019/q4fy26pr.htm",
+    "content_hash": "bda97fa3cb46b2f97a97eec6591fadce1b0d75498b0356f005e6ea2fa0e727ab",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Nvidia capital expenditure $1,284M, FY2026 Q4"
+    ],
+    "grounded_value": 1284000000.0
   },
   {
     "id": "ev_130019",

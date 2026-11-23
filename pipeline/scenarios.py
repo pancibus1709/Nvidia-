@@ -20,11 +20,15 @@ def params(name: str, overrides: dict | None = None) -> dict:
 
 def equity_at_risk(r: dict):
     """Value of an equity stake for haircut purposes: market value if eligible, else carrying value, else funded cost."""
-    for k in ("market_value", "carrying_value", "funded"):
+    if r["status"] == "terminated":
+        return None, None
+    for k in ("market_value", "carrying_value"):
         v = elig_value(r["amounts"].get(k)) if r["amounts"].get(k) else None
         if v:
             return v, k
-    return None, None
+    from .checks import funded_remaining
+    v = funded_remaining(r)
+    return (v, "funded_remaining") if v else (None, None)
 
 
 def utilization(contracted_share, merchant_share, d, p, e):
@@ -88,7 +92,7 @@ def s2(reg: Register, overrides=None) -> dict:
     lab_ids = labs(reg)
     lab = p.get("lab") or (lab_ids[0] if lab_ids else None)
     p["lab"] = lab
-    eq_losses, lapsed, at_risk, nc, affected = [], [], [], [], set()
+    eq_losses, lapsed, at_risk, nc, affected, guaranties = [], [], [], [], set(), []
     if lab:
         affected.add(lab)
         for r in reg.relationships:
@@ -97,9 +101,13 @@ def s2(reg: Register, overrides=None) -> dict:
             if r["type_primary"] in EQUITY_TYPES:
                 v, basis = equity_at_risk(r)
                 if v is None:
-                    nc.append({"relationship": r["id"], "reason": "No confirmed value for this stake."})
+                    c = elig_value(r["amounts"].get("committed_total"))
+                    nc.append({"relationship": r["id"], "reason": (f"Equity loss not computable: {c:,.0f} committed, paid amount not disclosed." if c else "No confirmed value for this stake.")})
                 else:
                     eq_losses.append({"relationship": r["id"], "basis": basis, "value": v, "loss": v * p["h2"]})
+            if r["type_primary"] in ("GU", "RV") and elig_value(r["amounts"].get("contingent_max")):
+                cm = r["amounts"]["contingent_max"]
+                guaranties.append({"relationship": r["id"], "cap": cm["value"], "in_force": cm.get("in_force", True), "effective_note": cm.get("effective_note", "")})
             if r["type_primary"] == "EQ-C":
                 h = elig_value(r["amounts"].get("headline"))
                 lapsed.append({"relationship": r["id"], "headline": h, "status": r["status"]})
@@ -113,7 +121,7 @@ def s2(reg: Register, overrides=None) -> dict:
                                 "as_of": cc["amount"].get("as_of"), "evidence": cc["amount"].get("evidence", [])})
     loss = sum(x["loss"] for x in eq_losses)
     ead = sum(x["value"] for x in eq_losses)
-    return {"id": "S2", "name": "Lab funding gap", "parameters": p, "labs": lab_ids, "equity_losses": eq_losses, "lapsed_commitments": lapsed,
+    return {"id": "S2", "name": "Lab funding gap", "parameters": p, "labs": lab_ids, "equity_losses": eq_losses, "lapsed_commitments": lapsed, "guaranties_triggered_by_lab_default": guaranties,
             "at_risk_backlog": at_risk, "at_risk_backlog_total": sum(x["amount"] for x in at_risk),
             "affected": sorted(affected), "not_computable": nc, **_shares(reg, ead, loss), "label": "analysis"}
 

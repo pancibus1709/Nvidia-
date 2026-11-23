@@ -1,0 +1,310 @@
+{
+ "stats": {
+  "\"NVIDIA\" \"concentration\" \"supplier\"": {
+   "qid": "Q11",
+   "hits": 1945,
+   "kept_within_50_words": 173,
+   "dropped_outside_window": 1659,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"license\" \"non-exclusive\"": {
+   "qid": "Q12",
+   "hits": 1172,
+   "kept_within_50_words": 16,
+   "dropped_outside_window": 1120,
+   "fetch_errors": 0
+  }
+ },
+ "log": [
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 855,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-01-01",
+    "2024-12-12"
+   ],
+   "total": 855,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-01-01",
+    "2023-12-22"
+   ],
+   "total": 855,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-01-01",
+    "2023-06-27"
+   ],
+   "total": 855,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-01-01",
+    "2023-03-30"
+   ],
+   "total": 855,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-01-01",
+    "2023-02-14"
+   ],
+   "total": 855,
+   "fetched": 500,
+   "action": "overflow at minimum window: capped"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-02-15",
+    "2023-03-30"
+   ],
+   "total": 32,
+   "fetched": 32,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-03-31",
+    "2023-06-27"
+   ],
+   "total": 43,
+   "fetched": 43,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-06-28",
+    "2023-12-22"
+   ],
+   "total": 43,
+   "fetched": 43,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-12-23",
+    "2024-12-12"
+   ],
+   "total": 169,
+   "fetched": 200,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2024-12-13",
+    "2026-11-23"
+   ],
+   "total": 555,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2024-12-13",
+    "2025-12-03"
+   ],
+   "total": 555,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2024-12-13",
+    "2025-06-08"
+   ],
+   "total": 555,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2024-12-13",
+    "2025-03-11"
+   ],
+   "total": 555,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2024-12-13",
+    "2025-01-26"
+   ],
+   "total": 555,
+   "fetched": 500,
+   "action": "overflow at minimum window: capped"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2025-01-27",
+    "2025-03-11"
+   ],
+   "total": 54,
+   "fetched": 54,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2025-03-12",
+    "2025-06-08"
+   ],
+   "total": 89,
+   "fetched": 89,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2025-06-09",
+    "2025-12-03"
+   ],
+   "total": 84,
+   "fetched": 84,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2025-12-04",
+    "2026-11-23"
+   ],
+   "total": 315,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 520,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-01-01",
+    "2024-12-12"
+   ],
+   "total": 520,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-01-01",
+    "2023-12-22"
+   ],
+   "total": 520,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-01-01",
+    "2023-06-27"
+   ],
+   "total": 520,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-01-01",
+    "2023-03-30"
+   ],
+   "total": 520,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-01-01",
+    "2023-02-14"
+   ],
+   "total": 520,
+   "fetched": 500,
+   "action": "overflow at minimum window: capped"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-02-15",
+    "2023-03-30"
+   ],
+   "total": 15,
+   "fetched": 15,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-03-31",
+    "2023-06-27"
+   ],
+   "total": 25,
+   "fetched": 25,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-06-28",
+    "2023-12-22"
+   ],
+   "total": 32,
+   "fetched": 32,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-12-23",
+    "2024-12-12"
+   ],
+   "total": 122,
+   "fetched": 200,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2024-12-13",
+    "2026-11-23"
+   ],
+   "total": 321,
+   "fetched": 400,
+   "action": "ok"
+  }
+ ],
+ "window": [
+  "2023-01-01",
+  "2026-11-23"
+ ]
+}

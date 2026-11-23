@@ -595,6 +595,12 @@
           "items": {
             "type": "string"
           }
+        },
+        "in_force": {
+          "type": "boolean"
+        },
+        "effective_note": {
+          "type": "string"
         }
       }
     }

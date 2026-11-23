@@ -2,299 +2,533 @@
   "as_of": "2026-11-23",
   "label": "analysis",
   "totals": {
-    "funded": 32264399346.78,
-    "committed_unfunded": 37700000000.0,
+    "funded": 32202399346.78,
+    "funded_cash": 32264399346.78,
+    "committed_unfunded": 1000000000.0,
+    "committed_split_unknown": 36700000000.0,
     "contingent_max": 113660340000.0,
+    "contingent_in_force": 113660340000.0,
+    "contingent_not_in_force": 0.0,
     "headline": 307092739346.78,
-    "gross": 183624739346.78,
+    "gross": 183562739346.78,
     "count": 81,
     "lower_bound_count": 51,
     "counts": {
-      "funded": 16,
-      "committed_unfunded": 6,
+      "funded": 14,
+      "funded_cash": 16,
+      "committed_unfunded": 1,
+      "committed_split_unknown": 5,
       "contingent_max": 4,
+      "contingent_in_force": 4,
+      "contingent_not_in_force": 0,
       "headline": 30
-    }
+    },
+    "headline_groups": {
+      "guaranty_backstop": 117040340000.0,
+      "not_binding": 103500000000.0,
+      "other": 86552399346.78
+    },
+    "headline_not_converted": [
+      {
+        "relationship": "rel_uk_ai_startup_program_eqc_2025",
+        "currency": "GBP",
+        "value": 2000000000
+      }
+    ]
   },
-  "headline_binding_share": 0.5979455578707916,
+  "bridge": [
+    {
+      "line": "Private stakes, carrying value",
+      "nvidia": null,
+      "named": null,
+      "key": "non_marketable_equity_carrying_value",
+      "note": "The register sizes private stakes at cost only where a source states the cost; see the unattributed remainder."
+    },
+    {
+      "line": "Public equity, fair value",
+      "nvidia": null,
+      "named": 48330717074.0,
+      "key": "marketable_equity_fair_value",
+      "note": "Named column is the value in Nvidia's holdings report of 30 September 2026."
+    },
+    {
+      "line": "Guarantees, maximum",
+      "nvidia": 118000000000.0,
+      "named": 105860340000.0,
+      "key": "total_guarantees_max",
+      "note": ""
+    },
+    {
+      "line": "Neocloud agreements, maximum",
+      "nvidia": null,
+      "named": 6300000000.0,
+      "key": "neocloud_agreements_max",
+      "note": "No counterparty states its share of this maximum."
+    },
+    {
+      "line": "Cloud service agreements",
+      "nvidia": null,
+      "named": 4600000000.0,
+      "key": "cloud_service_agreements",
+      "note": "Named column is contract value at signing, not the balance still owed."
+    },
+    {
+      "line": "Unfunded equity commitments",
+      "nvidia": null,
+      "named": 1000000000.0,
+      "key": "unfunded_equity_commitments",
+      "note": "Named column counts only amounts confirmed not yet paid."
+    },
+    {
+      "line": "Equity purchases, nine months",
+      "nvidia": null,
+      "named": null,
+      "key": "equity_purchases_9m",
+      "note": "Cash Nvidia paid for equity securities in the period."
+    },
+    {
+      "line": "Data center leases signed, not commenced",
+      "nvidia": null,
+      "named": null,
+      "key": "data_center_leases_not_commenced",
+      "note": "Nvidia says it may assign some of these leases to third parties."
+    }
+  ],
+  "positions_by_value": [
+    {
+      "relationship": "rel_spacex_eq_2026",
+      "name": "SpaceX",
+      "value": 19683145466.0,
+      "as_of": "2026-09-30",
+      "cost_known": false
+    },
+    {
+      "relationship": "rel_intel_eq_2025",
+      "name": "Intel",
+      "value": 19366947532.0,
+      "as_of": "2026-09-30",
+      "cost_known": true
+    },
+    {
+      "relationship": "rel_coreweave_eq_2025",
+      "name": "CoreWeave",
+      "value": 4113227313.0,
+      "as_of": "2026-09-30",
+      "cost_known": true
+    },
+    {
+      "relationship": "rel_coherent_eq_2026",
+      "name": "Coherent",
+      "value": 2241510617.0,
+      "as_of": "2026-09-30",
+      "cost_known": true
+    },
+    {
+      "relationship": "rel_synopsys_eq_2025",
+      "name": "Synopsys",
+      "value": 1893762250.0,
+      "as_of": "2026-09-30",
+      "cost_known": true
+    },
+    {
+      "relationship": "rel_nokia_eq_2025",
+      "name": "Nokia",
+      "value": 738797875.0,
+      "as_of": "2026-09-30",
+      "cost_known": true
+    },
+    {
+      "relationship": "rel_nebius_eq_2024",
+      "name": "Nebius",
+      "value": 280809479.0,
+      "as_of": "2026-09-30",
+      "cost_known": false
+    },
+    {
+      "relationship": "rel_generate_biomedicines_eq_2026",
+      "name": "Generate Biomedicines",
+      "value": 12516542.0,
+      "as_of": "2026-09-30",
+      "cost_known": false
+    }
+  ],
+  "source_mix": {
+    "evidence_by_tier": {
+      "1": 951,
+      "2": 6
+    },
+    "one_sided_relationships": 54,
+    "relationships": 81,
+    "note": "Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown."
+  },
   "by_type": {
     "GU": {
       "count": 2,
       "funded": 0.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 105860340000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 105860340000.0,
       "headline": 105860340000.0,
-      "lower_bound": 1
+      "lower_bound": 1,
+      "funded_known": 1
     },
     "EQ": {
       "count": 56,
-      "funded": 31264399346.78,
-      "committed_unfunded": 31000000000.0,
+      "funded": 31202399346.78,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 31000000000.0,
       "contingent_max": 1500000000.0,
-      "gross": 63764399346.78,
+      "contingent_not_in_force": 0.0,
+      "gross": 63702399346.78,
       "headline": 68852399346.78,
-      "lower_bound": 38
+      "lower_bound": 38,
+      "funded_known": 16
     },
     "BK": {
       "count": 3,
       "funded": 0.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 6300000000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 6300000000.0,
       "headline": 11180000000.0,
-      "lower_bound": 3
+      "lower_bound": 3,
+      "funded_known": 1
     },
     "LB": {
       "count": 3,
       "funded": 0.0,
-      "committed_unfunded": 4600000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 4600000000.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 4600000000.0,
       "headline": 4600000000.0,
-      "lower_bound": 1
+      "lower_bound": 1,
+      "funded_known": 0
     },
     "FC": {
       "count": 1,
       "funded": 1000000000.0,
       "committed_unfunded": 1000000000.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 2000000000.0,
       "headline": 2000000000.0,
-      "lower_bound": 0
+      "lower_bound": 0,
+      "funded_known": 1
     },
     "PP": {
       "count": 6,
       "funded": 0.0,
-      "committed_unfunded": 1100000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 1100000000.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 1100000000.0,
       "headline": 4100000000.0,
-      "lower_bound": 5
+      "lower_bound": 5,
+      "funded_known": 0
     },
     "EQ-C": {
       "count": 7,
       "funded": 0.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 0.0,
       "headline": 110500000000.0,
-      "lower_bound": 1
+      "lower_bound": 1,
+      "funded_known": 6
     },
     "RV": {
       "count": 1,
       "funded": 0.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 0.0,
       "headline": 0.0,
-      "lower_bound": 0
+      "lower_bound": 0,
+      "funded_known": 1
     },
     "LP": {
       "count": 2,
       "funded": 0.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 0.0,
       "headline": 0.0,
-      "lower_bound": 2
+      "lower_bound": 2,
+      "funded_known": 0
     }
   },
   "by_cluster": {
     "ai_lab": {
       "count": 16,
       "funded": 10000000000.0,
-      "committed_unfunded": 30000000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 30000000000.0,
       "contingent_max": 105000000000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 145000000000.0,
       "headline": 255000000000.0,
-      "lower_bound": 10
+      "lower_bound": 10,
+      "funded_known": 5
     },
     "neocloud": {
       "count": 24,
       "funded": 6177399346.78,
-      "committed_unfunded": 5600000000.0,
+      "committed_unfunded": 1000000000.0,
+      "committed_split_unknown": 4600000000.0,
       "contingent_max": 7160340000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 18937739346.78,
       "headline": 25917739346.78,
-      "lower_bound": 18
+      "lower_bound": 18,
+      "funded_known": 5
     },
     "semis_supply": {
       "count": 14,
       "funded": 14500000000.0,
-      "committed_unfunded": 1100000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 1100000000.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 15600000000.0,
       "headline": 18600000000.0,
-      "lower_bound": 6
+      "lower_bound": 6,
+      "funded_known": 7
     },
     "vehicle": {
       "count": 4,
       "funded": 1500000000.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 1500000000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 3000000000.0,
       "headline": 3000000000.0,
-      "lower_bound": 2
+      "lower_bound": 2,
+      "funded_known": 2
     },
     "hyperscaler": {
       "count": 2,
       "funded": 0.0,
-      "committed_unfunded": 1000000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 1000000000.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 1000000000.0,
       "headline": 4000000000.0,
-      "lower_bound": 0
+      "lower_bound": 0,
+      "funded_known": 1
     },
     "portfolio": {
       "count": 21,
-      "funded": 87000000.0,
+      "funded": 25000000.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
-      "gross": 87000000.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 25000000.0,
       "headline": 575000000.0,
-      "lower_bound": 15
+      "lower_bound": 15,
+      "funded_known": 6
     }
   },
   "by_status": {
     "definitive": {
       "count": 24,
       "funded": 2500000000.0,
-      "committed_unfunded": 37700000000.0,
+      "committed_unfunded": 1000000000.0,
+      "committed_split_unknown": 36700000000.0,
       "contingent_max": 113660340000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 153860340000.0,
       "headline": 173840340000.0,
-      "lower_bound": 16
+      "lower_bound": 16,
+      "funded_known": 4
     },
     "completed": {
       "count": 41,
       "funded": 29702399346.78,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 29702399346.78,
       "headline": 29702399346.78,
-      "lower_bound": 29
-    },
-    "terminated": {
-      "count": 7,
-      "funded": 62000000.0,
-      "committed_unfunded": 0.0,
-      "contingent_max": 0.0,
-      "gross": 62000000.0,
-      "headline": 50000000.0,
-      "lower_bound": 5
+      "lower_bound": 29,
+      "funded_known": 12
     },
     "restructured": {
       "count": 3,
       "funded": 0.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 0.0,
       "headline": 100500000000.0,
-      "lower_bound": 1
+      "lower_bound": 1,
+      "funded_known": 2
     },
     "loi_or_framework": {
       "count": 6,
       "funded": 0.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 0.0,
       "headline": 3000000000.0,
-      "lower_bound": 0
+      "lower_bound": 0,
+      "funded_known": 6
+    },
+    "terminated": {
+      "count": 7,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 0.0,
+      "headline": 50000000.0,
+      "lower_bound": 5,
+      "funded_known": 2
     }
   },
   "by_grade": {
     "Insufficient information": {
       "count": 67,
-      "funded": 21087000000.0,
-      "committed_unfunded": 32100000000.0,
+      "funded": 21025000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 32100000000.0,
       "contingent_max": 106500000000.0,
-      "gross": 159687000000.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 159625000000.0,
       "headline": 276175000000.0,
-      "lower_bound": 44
+      "lower_bound": 44,
+      "funded_known": 21
     },
     "Weak": {
       "count": 3,
       "funded": 2000000000.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 6300000000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 8300000000.0,
       "headline": 8300000000.0,
-      "lower_bound": 2
+      "lower_bound": 2,
+      "funded_known": 1
     },
     "Adequate": {
       "count": 3,
       "funded": 7000000000.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 7000000000.0,
       "headline": 7000000000.0,
-      "lower_bound": 1
+      "lower_bound": 1,
+      "funded_known": 2
     },
     "Distressed": {
       "count": 5,
       "funded": 2177399346.7799997,
-      "committed_unfunded": 2200000000.0,
+      "committed_unfunded": 1000000000.0,
+      "committed_split_unknown": 1200000000.0,
       "contingent_max": 860340000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 5237739346.78,
       "headline": 10117739346.779999,
-      "lower_bound": 2
+      "lower_bound": 2,
+      "funded_known": 2
     },
     "Watch": {
       "count": 2,
       "funded": 0.0,
-      "committed_unfunded": 3400000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 3400000000.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 3400000000.0,
       "headline": 5500000000.0,
-      "lower_bound": 1
+      "lower_bound": 1,
+      "funded_known": 0
     },
     "Strong": {
       "count": 1,
       "funded": 0.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 0.0,
       "headline": 0.0,
-      "lower_bound": 1
+      "lower_bound": 1,
+      "funded_known": 0
     }
   },
   "by_tenor": {
     "No stated maturity": {
       "count": 76,
-      "funded": 30764399346.78,
-      "committed_unfunded": 36700000000.0,
+      "funded": 30702399346.78,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 36700000000.0,
       "contingent_max": 107360340000.0,
-      "gross": 174824739346.78,
+      "contingent_not_in_force": 0.0,
+      "gross": 174762739346.78,
       "headline": 296192739346.78,
-      "lower_bound": 48
+      "lower_bound": 48,
+      "funded_known": 24
     },
     "5 to 10 years": {
       "count": 1,
       "funded": 0.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 6300000000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 6300000000.0,
       "headline": 6300000000.0,
-      "lower_bound": 1
+      "lower_bound": 1,
+      "funded_known": 0
     },
     "Under 2 years": {
       "count": 1,
       "funded": 1000000000.0,
       "committed_unfunded": 1000000000.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 2000000000.0,
       "headline": 2000000000.0,
-      "lower_bound": 0
+      "lower_bound": 0,
+      "funded_known": 1
     },
     "2 to 5 years": {
       "count": 3,
       "funded": 500000000.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 500000000.0,
       "headline": 2600000000.0,
-      "lower_bound": 2
+      "lower_bound": 2,
+      "funded_known": 1
     }
   },
   "by_wwr": {
@@ -302,28 +536,37 @@
       "count": 6,
       "funded": 0.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 112160340000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 112160340000.0,
       "headline": 117040340000.0,
-      "lower_bound": 4
+      "lower_bound": 4,
+      "funded_known": 3
     },
     "general": {
       "count": 65,
       "funded": 31202399346.78,
-      "committed_unfunded": 37700000000.0,
+      "committed_unfunded": 1000000000.0,
+      "committed_split_unknown": 36700000000.0,
       "contingent_max": 1500000000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 70402399346.78,
       "headline": 186002399346.78,
-      "lower_bound": 41
+      "lower_bound": 41,
+      "funded_known": 19
     },
     "none": {
       "count": 10,
-      "funded": 1062000000.0,
+      "funded": 1000000000.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
-      "gross": 1062000000.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 1000000000.0,
       "headline": 4050000000.0,
-      "lower_bound": 6
+      "lower_bound": 6,
+      "funded_known": 4
     }
   },
   "by_reconciliation": {
@@ -331,37 +574,49 @@
       "count": 9,
       "funded": 2000000000.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 107360340000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 109360340000.0,
       "headline": 122360340000.0,
-      "lower_bound": 6
+      "lower_bound": 6,
+      "funded_known": 4
     },
     "one_sided": {
       "count": 54,
       "funded": 12202399346.78,
-      "committed_unfunded": 36700000000.0,
+      "committed_unfunded": 1000000000.0,
+      "committed_split_unknown": 35700000000.0,
       "contingent_max": 6300000000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 55202399346.78,
       "headline": 60582399346.78,
-      "lower_bound": 40
+      "lower_bound": 40,
+      "funded_known": 10
     },
     "reconciled": {
       "count": 17,
-      "funded": 18062000000.0,
-      "committed_unfunded": 1000000000.0,
+      "funded": 18000000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 1000000000.0,
       "contingent_max": 0.0,
-      "gross": 19062000000.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 19000000000.0,
       "headline": 121150000000.0,
-      "lower_bound": 5
+      "lower_bound": 5,
+      "funded_known": 11
     },
     "contradicted": {
       "count": 1,
       "funded": 0.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 0.0,
       "headline": 3000000000.0,
-      "lower_bound": 0
+      "lower_bound": 0,
+      "funded_known": 1
     }
   },
   "top_concentrations": [
@@ -370,12 +625,15 @@
       "name": "OpenAI",
       "count": 3,
       "funded": 0.0,
-      "committed_unfunded": 30000000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 30000000000.0,
       "contingent_max": 105000000000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 135000000000.0,
       "headline": 235000000000.0,
       "lower_bound": 0,
-      "share_of_gross": 0.7351950531297913
+      "funded_known": 2,
+      "share_of_gross": 0.7354433720067935
     },
     {
       "entity": "ent_anthropic",
@@ -383,11 +641,14 @@
       "count": 2,
       "funded": 10000000000.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 10000000000.0,
       "headline": 20000000000.0,
       "lower_bound": 1,
-      "share_of_gross": 0.054458892824428985
+      "funded_known": 1,
+      "share_of_gross": 0.05447728681531804
     },
     {
       "entity": "ent_coreweave",
@@ -395,23 +656,29 @@
       "count": 3,
       "funded": 2000000000.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 6300000000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 8300000000.0,
       "headline": 8300000000.0,
       "lower_bound": 2,
-      "share_of_gross": 0.04520088104427606
+      "funded_known": 1,
+      "share_of_gross": 0.04521614805671397
     },
     {
       "entity": "ent_nscale",
       "name": "Nscale",
       "count": 4,
       "funded": 2177399346.7799997,
-      "committed_unfunded": 2200000000.0,
+      "committed_unfunded": 1000000000.0,
+      "committed_split_unknown": 1200000000.0,
       "contingent_max": 860340000.0,
+      "contingent_not_in_force": 0.0,
       "gross": 5237739346.78,
       "headline": 5237739346.78,
       "lower_bound": 1,
-      "share_of_gross": 0.02852414857285867
+      "funded_known": 2,
+      "share_of_gross": 0.02853378286584106
     },
     {
       "entity": "ent_intel",
@@ -419,11 +686,14 @@
       "count": 1,
       "funded": 5000000000.0,
       "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
       "gross": 5000000000.0,
       "headline": 5000000000.0,
       "lower_bound": 0,
-      "share_of_gross": 0.027229446412214493
+      "funded_known": 1,
+      "share_of_gross": 0.02723864340765902
     }
   ],
   "scenarios": {
@@ -534,7 +804,7 @@
         },
         {
           "relationship": "rel_nscale_eq_2025",
-          "basis": "funded",
+          "basis": "funded_remaining",
           "value": 1177399346.78,
           "loss": 588699673.39
         },
@@ -546,7 +816,7 @@
         },
         {
           "relationship": "rel_nebius_eq_2026",
-          "basis": "funded",
+          "basis": "funded_remaining",
           "value": 2000000000.0,
           "loss": 1000000000.0
         }
@@ -659,7 +929,7 @@
         "equity_losses": [
           {
             "relationship": "rel_anthropic_eq_2026",
-            "basis": "funded",
+            "basis": "funded_remaining",
             "value": 10000000000.0,
             "loss": 5000000000.0
           }
@@ -671,6 +941,7 @@
             "status": "definitive"
           }
         ],
+        "guaranties_triggered_by_lab_default": [],
         "at_risk_backlog": [
           {
             "counterparty": "ent_google",
@@ -780,6 +1051,7 @@
         ],
         "equity_losses": [],
         "lapsed_commitments": [],
+        "guaranties_triggered_by_lab_default": [],
         "at_risk_backlog": [],
         "at_risk_backlog_total": 0,
         "affected": [
@@ -822,6 +1094,7 @@
         ],
         "equity_losses": [],
         "lapsed_commitments": [],
+        "guaranties_triggered_by_lab_default": [],
         "at_risk_backlog": [],
         "at_risk_backlog_total": 0,
         "affected": [
@@ -864,6 +1137,7 @@
         ],
         "equity_losses": [],
         "lapsed_commitments": [],
+        "guaranties_triggered_by_lab_default": [],
         "at_risk_backlog": [],
         "at_risk_backlog_total": 0,
         "affected": [
@@ -906,6 +1180,7 @@
         ],
         "equity_losses": [],
         "lapsed_commitments": [],
+        "guaranties_triggered_by_lab_default": [],
         "at_risk_backlog": [],
         "at_risk_backlog_total": 0,
         "affected": [
@@ -954,6 +1229,7 @@
             "status": "loi_or_framework"
           }
         ],
+        "guaranties_triggered_by_lab_default": [],
         "at_risk_backlog": [],
         "at_risk_backlog_total": 0,
         "affected": [
@@ -995,6 +1271,14 @@
             "relationship": "rel_openai_eqc_2025",
             "headline": 100000000000.0,
             "status": "restructured"
+          }
+        ],
+        "guaranties_triggered_by_lab_default": [
+          {
+            "relationship": "rel_openai_gu_2026",
+            "cap": 105000000000,
+            "in_force": true,
+            "effective_note": ""
           }
         ],
         "at_risk_backlog": [
@@ -1048,7 +1332,7 @@
         "not_computable": [
           {
             "relationship": "rel_openai_eq_2026",
-            "reason": "No confirmed value for this stake."
+            "reason": "Equity loss not computable: 30,000,000,000 committed, paid amount not disclosed."
           },
           {
             "entity": "ent_sb_energy",
@@ -1094,6 +1378,7 @@
         ],
         "equity_losses": [],
         "lapsed_commitments": [],
+        "guaranties_triggered_by_lab_default": [],
         "at_risk_backlog": [],
         "at_risk_backlog_total": 0,
         "affected": [
@@ -1136,6 +1421,7 @@
         ],
         "equity_losses": [],
         "lapsed_commitments": [],
+        "guaranties_triggered_by_lab_default": [],
         "at_risk_backlog": [],
         "at_risk_backlog_total": 0,
         "affected": [
@@ -1185,6 +1471,7 @@
           }
         ],
         "lapsed_commitments": [],
+        "guaranties_triggered_by_lab_default": [],
         "at_risk_backlog": [
           {
             "counterparty": "ent_valor",
@@ -1245,6 +1532,7 @@
         ],
         "equity_losses": [],
         "lapsed_commitments": [],
+        "guaranties_triggered_by_lab_default": [],
         "at_risk_backlog": [],
         "at_risk_backlog_total": 0,
         "affected": [
@@ -1292,6 +1580,7 @@
         ],
         "equity_losses": [],
         "lapsed_commitments": [],
+        "guaranties_triggered_by_lab_default": [],
         "at_risk_backlog": [],
         "at_risk_backlog_total": 0,
         "affected": [
@@ -1345,6 +1634,7 @@
             "status": "loi_or_framework"
           }
         ],
+        "guaranties_triggered_by_lab_default": [],
         "at_risk_backlog": [],
         "at_risk_backlog_total": 0,
         "affected": [

@@ -27,7 +27,7 @@ def money(v, currency="$") -> str:
         s, unit = a / 1e3, "thousand"
     else:
         return f"{'-' if v < 0 else ''}{currency}{a:,.0f}"
-    txt = f"{s:.2f}" if s < 10 else f"{s:.1f}" if s < 100 else f"{s:.0f}"
+    txt = f"{s:.2f}" if s < 10 else f"{s:.1f}"
     txt = txt.rstrip("0").rstrip(".") if "." in txt else txt
     return f"{'-' if v < 0 else ''}{currency}{txt} {unit}"
 

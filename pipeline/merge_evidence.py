@@ -26,7 +26,7 @@ def main():
         for row in coll:
             used |= set(_ev_ids(row))
     import re
-    for extra in ("loops.json", "central_bank.json"):
+    for extra in ("loops.json", "central_bank.json", "relationships.json", "entities.json", "projects.json", "events.json", "nvidia_financials.json"):
         f = REGISTER / extra
         if f.exists():
             used |= set(re.findall(r"ev_\d+", f.read_text()))

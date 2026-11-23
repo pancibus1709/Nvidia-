@@ -72,12 +72,14 @@ def type_tab(wb, code, rels, reg):
     for _, lab in AMOUNTS:
         labels += [lab, "As of", "Source"]
         widths += [16, 11, 18]
-    labels += ["Committed, not yet paid", "Gross exposure", "Lower bound?", "Reconciliation", "Wrong-way risk", "Last verified"]
-    widths += [16, 16, 12, 14, 14, 12]
+    labels += ["Share of purchase still held", "Funded and still held (cost)", "Committed, confirmed not yet paid", "Committed, paid portion not disclosed", "Gross exposure",
+               "Lower bound?", "Contingent in force?", "Reconciliation", "Wrong-way risk", "Last verified"]
+    widths += [14, 16, 16, 16, 16, 12, 12, 14, 14, 12]
     header(ws, 4, labels, widths)
     first = 5
     col = {k: 8 + 3 * i for i, (k, _) in enumerate(AMOUNTS)}   # value columns
-    c_unf, c_gross = 8 + 3 * len(AMOUNTS), 9 + 3 * len(AMOUNTS)
+    base = 8 + 3 * len(AMOUNTS)
+    c_share, c_held, c_unf, c_split, c_gross = base, base + 1, base + 2, base + 3, base + 4
     row = first
     for r in sorted(rels, key=lambda r: -((r.get("derived") or {}).get("gross_exposure") or 0)):
         ent = reg.ent[r["to"]]
@@ -87,14 +89,21 @@ def type_tab(wb, code, rels, reg):
         for k, _ in AMOUNTS:
             put_amount(ws, row, col[k], r["amounts"].get(k), reg)
         f, c, g = L(col["funded"]), L(col["committed_total"]), L(col["contingent_max"])
-        complete = "TRUE" if r["status"] == "completed" else "FALSE"
-        ws.cell(row=row, column=c_unf, value=(
-            f'=IF(AND(ISNUMBER({c}{row}),ISNUMBER({f}{row})),MAX(0,{c}{row}-{f}{row}),IF(ISNUMBER({c}{row}),{c}{row},0))'))
-        ws.cell(row=row, column=c_gross, value=f'=IF(ISNUMBER({f}{row}),{f}{row},0)+{L(c_unf)}{row}+IF(ISNUMBER({g}{row}),{g}{row},0)')
-        for cc in (c_unf, c_gross):
+        h = r.get("holding") or {}
+        share = 0.0 if r["status"] == "terminated" else (min(1.0, h["shares"] / h["shares_acquired"]) if h.get("shares") is not None and h.get("shares_acquired") else 1.0)
+        sc = ws.cell(row=row, column=c_share, value=share)
+        sc.number_format, sc.font = "0.0%", BLUE
+        closed = "TRUE" if (r["status"] in ("completed", "terminated") or r["amounts"]["committed_total"].get("not_applicable")) else "FALSE"
+        ws.cell(row=row, column=c_held, value=f'=IF(ISNUMBER({f}{row}),{f}{row}*{L(c_share)}{row},0)')
+        ws.cell(row=row, column=c_unf, value=f'=IF(AND(ISNUMBER({c}{row}),ISNUMBER({f}{row})),MAX(0,{c}{row}-{f}{row}),0)')
+        ws.cell(row=row, column=c_split, value=f'=IF(AND(ISNUMBER({c}{row}),NOT(ISNUMBER({f}{row}))),{c}{row},0)')
+        ws.cell(row=row, column=c_gross, value=f'={L(c_held)}{row}+{L(c_unf)}{row}+{L(c_split)}{row}+IF(ISNUMBER({g}{row}),{g}{row},0)')
+        for cc in (c_held, c_unf, c_split, c_gross):
             ws.cell(row=row, column=cc).number_format, ws.cell(row=row, column=cc).font = MONEY, BLACK
         d = r.get("derived") or {}
-        tail = ["Yes" if d.get("gross_lower_bound") else "No", r["reconciliation"]["result"], r["credit"]["wwr"],
+        cm = r["amounts"]["contingent_max"]
+        tail = ["Yes" if d.get("gross_lower_bound") else "No", ("" if not cm.get("value") else "Yes" if cm.get("in_force", True) else "No: " + cm.get("effective_note", "")),
+                r["reconciliation"]["result"], r["credit"]["wwr"],
                 max([a.get("last_verified") or "" for a in r["amounts"].values() if isinstance(a, dict)] or [""])]
         for i, v in enumerate(tail):
             ws.cell(row=row, column=c_gross + 1 + i, value=v).font = BLUE
@@ -102,11 +111,11 @@ def type_tab(wb, code, rels, reg):
     last = row - 1
     total = row + 1
     ws.cell(row=total, column=1, value="Total (confirmed amounts only)").font = BOLD
-    for cc in [col[k] for k, _ in AMOUNTS] + [c_unf, c_gross]:
+    for cc in [col[k] for k, _ in AMOUNTS] + [c_held, c_unf, c_split, c_gross]:
         c = ws.cell(row=total, column=cc, value=f"=SUM({L(cc)}{first}:{L(cc)}{last})" if last >= first else 0)
         c.number_format, c.font, c.border = MONEY, BOLD, Border(top=THIN, bottom=DOUBLE)
     ws.freeze_panes = "C5"
-    return {"sheet": code, "total_row": total, "cols": {**{k: L(v) for k, v in col.items()}, "committed_unfunded": L(c_unf), "gross": L(c_gross)}, "count": len(rels)}
+    return {"sheet": code, "total_row": total, "cols": {**{k: L(v) for k, v in col.items()}, "funded_held": L(c_held), "committed_unfunded": L(c_unf), "committed_split_unknown": L(c_split), "gross": L(c_gross)}, "count": len(rels)}
 
 
 def build():
@@ -191,38 +200,43 @@ def build():
     t = independent_totals(reg)
     summ["A1"].value, summ["A1"].font = "Is Nvidia the Central Bank of AI?  Exposure evidence pack", TITLE
     summ["A2"].value = f"Prepared {date.today().isoformat()} by Resolute Business Development. USD millions. Confirmed amounts only: a figure counts only if a primary source or two independent named publications contain it. Not investment advice."
-    header(summ, 4, ["Exposure type", "Relationships", "Funded", "Committed, not yet paid", "Contingent maximum", "Gross exposure", "Headline announced (never added)"], [38, 14, 16, 22, 20, 16, 30])
+    cols = [("funded_held", "Funded and still held (cost)", "funded"), ("committed_unfunded", "Committed, confirmed not yet paid", "committed_unfunded"),
+            ("committed_split_unknown", "Committed, paid portion not disclosed", "committed_split_unknown"), ("contingent_max", "Contingent maximum", "contingent_max"),
+            ("gross", "Gross exposure", "gross"), ("headline", "Headline announced (never added)", "headline")]
+    header(summ, 4, ["Exposure type", "Relationships"] + [c[1] for c in cols], [38, 14, 18, 18, 18, 18, 16, 20])
     row = 5
     for ref in refs:
         summ.cell(row=row, column=1, value=f"{ref['sheet']}  {TYPE_NAMES[ref['sheet']]}").font = BLACK
         summ.cell(row=row, column=2, value=ref["count"]).font = BLUE
-        for j, k in enumerate(("funded", "committed_unfunded", "contingent_max", "gross", "headline"), 3):
+        for j, (k, _, _) in enumerate(cols, 3):
             c = summ.cell(row=row, column=j, value=f"='{ref['sheet']}'!{ref['cols'][k]}{ref['total_row']}")
             c.number_format, c.font = MONEY, GREEN
         row += 1
     tot = row
+    ncol = 2 + len(cols)
     summ.cell(row=tot, column=1, value="Total").font = BOLD
-    for j in range(2, 8):
+    for j in range(2, ncol + 1):
         c = summ.cell(row=tot, column=j, value=f"=SUM({L(j)}5:{L(j)}{tot - 1})")
         c.font, c.border = BOLD, Border(top=THIN, bottom=DOUBLE)
         if j > 2:
             c.number_format = MONEY
     summ.cell(row=tot + 2, column=1, value="Register totals (independent recomputation)").font = BOLD
-    for j, k in enumerate(("count", "funded", "committed_unfunded", "contingent_max", "gross", "headline"), 2):
+    for j, k in enumerate(["count"] + [c[2] for c in cols], 2):
         c = summ.cell(row=tot + 2, column=j, value=t[k] if k == "count" else t[k] / 1e6)
         c.font = BLUE
         if j > 2:
             c.number_format = MONEY
     summ.cell(row=tot + 3, column=1, value="Difference (must be zero)").font = BOLD
-    for j in range(2, 8):
+    for j in range(2, ncol + 1):
         c = summ.cell(row=tot + 3, column=j, value=f"=ROUND({L(j)}{tot}-{L(j)}{tot + 2},3)")
         c.font = BLACK
         if j > 2:
             c.number_format = '$#,##0.000;$(#,##0.000);"0"'
     notes = [
         "How to read this pack",
-        "Funded = cash paid. Committed, not yet paid = binding amount less what is funded; where the paid portion is not disclosed the whole committed total counts here once.",
-        "Contingent maximum = the most Nvidia could be required to pay under a guarantee or backstop. Gross = the three added together. Headline is what was announced and is never added.",
+        "Funded and still held = cash paid, scaled to the share of the purchase Nvidia still reports holding. Committed, confirmed not yet paid = binding amount less what is funded, both sourced.",
+        "Committed, paid portion not disclosed = binding amounts where no source says how much has been paid; counted once and never called unpaid.",
+        "Contingent maximum = the most Nvidia could be required to pay under a guarantee or backstop; the type tabs say whether each is in force yet. Gross = the four added together. Headline is what was announced and is never added.",
         f"{t['lower_bound_count']} of {t['count']} relationships are lower bounds because at least one component is not disclosed or not confirmed.",
         "Tabs: one per exposure type, then Context, Unattributed (remainders of Nvidia's disclosed aggregates, excluded from totals), Reconciliation, Nvidia financials, Sources, Seeds.",
         "Every amount has its as-of date and source beside it. Hover the amount for the verbatim quote. The source cell opens the document at the passage.",

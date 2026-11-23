@@ -146,6 +146,183 @@
   ],
   "note": "MD&A figure from the Q2 FY2027 10-Q. No equivalent MD&A total was given at 2026-10-25; this is the one item in this file not at the 2026-10-25 balance sheet date. Analysis: at 2026-10-25 the balance sheet lines sum to 114,416M (non-marketable securities 65,528M plus marketable equity 44,219M plus locked public equity in other assets 4,669M), which is not an MD&A figure."
  },
+ "equity_purchases_9m": {
+  "value": 58100000000.0,
+  "as_of": "2026-10-25",
+  "fiscal_period": "FY2027 nine months to 2026-10-25",
+  "original_currency": "USD",
+  "original_value": null,
+  "fx_rate": null,
+  "fx_date": null,
+  "last_verified": "2026-11-23",
+  "display_eligible": false,
+  "lower_bound": false,
+  "evidence": [
+   "ev_190001"
+  ],
+  "note": "Purchases of equity securities in the cash flow statement, nine months ended 2026-10-25 (three months: 15,696M). Cash paid for marketable and non-marketable equity together, before any sales. Exhibit 99.3 to the 8-K of 2026-11-17."
+ },
+ "non_marketable_net_additions_9m": {
+  "value": 46436000000.0,
+  "as_of": "2026-10-25",
+  "fiscal_period": "FY2027 nine months to 2026-10-25",
+  "original_currency": "USD",
+  "original_value": null,
+  "fx_rate": null,
+  "fx_date": null,
+  "last_verified": "2026-11-23",
+  "display_eligible": false,
+  "lower_bound": false,
+  "evidence": [
+   "ev_190002"
+  ],
+  "note": "Net additions to non-marketable equity securities in the roll forward of privately held securities, nine months ended 2026-10-25 (three months: 15,431M). Carrying value rose from 22,251M to 61,650M over the period after unrealized gains of 8,308M, reclassifications of (13,349)M (stakes that became public) and impairments and unrealized losses of (1,996)M. Exhibit 99.3."
+ },
+ "equity_sale_proceeds_9m": {
+  "value": 9493000000.0,
+  "as_of": "2026-10-25",
+  "fiscal_period": "FY2027 nine months to 2026-10-25",
+  "original_currency": "USD",
+  "original_value": null,
+  "fx_rate": null,
+  "fx_date": null,
+  "last_verified": "2026-11-23",
+  "display_eligible": false,
+  "lower_bound": false,
+  "evidence": [
+   "ev_190003"
+  ],
+  "note": "Proceeds from sales of equity securities, nine months ended 2026-10-25 (three months: 2,253M, ev_60113). Exhibit 99.3."
+ },
+ "non_marketable_equity_carrying_value": {
+  "value": 61650000000.0,
+  "as_of": "2026-10-25",
+  "fiscal_period": "FY2027 Q3",
+  "original_currency": "USD",
+  "original_value": null,
+  "fx_rate": null,
+  "fx_date": null,
+  "last_verified": "2026-11-23",
+  "display_eligible": false,
+  "lower_bound": false,
+  "evidence": [
+   "ev_130010"
+  ],
+  "note": "Carrying value of privately held (non-marketable) equity securities at 2026-10-25, end of the roll forward in Exhibit 99.3. The balance sheet line 'Non-marketable securities' is 65,528M (ev_130015), which is broader than the privately held equity roll forward."
+ },
+ "marketable_equity_fair_value": {
+  "value": 48888000000.0,
+  "as_of": "2026-10-25",
+  "fiscal_period": "FY2027 Q3",
+  "original_currency": "USD",
+  "original_value": null,
+  "fx_rate": null,
+  "fx_date": null,
+  "last_verified": "2026-11-23",
+  "display_eligible": false,
+  "lower_bound": false,
+  "evidence": [
+   "ev_130011",
+   "ev_130012"
+  ],
+  "components": [
+   {
+    "value": 38372000000.0,
+    "evidence": [
+     "ev_130011"
+    ],
+    "note": "Publicly held equity securities, Level 1"
+   },
+   {
+    "value": 10516000000.0,
+    "evidence": [
+     "ev_130012"
+    ],
+    "note": "Publicly held equity securities, Level 2"
+   }
+  ],
+  "note": "Publicly held equity securities at fair value, Level 1 38,372M plus Level 2 10,516M (unregistered warrants, convertible preferred and restricted shares), at 2026-10-25. The balance sheet line 'Marketable equity securities' is 44,219M (ev_130014); the other 4,669M is reported in other assets (analysis from the fair value table columns). Excludes 3,471M of debt securities convertible into public equity (ev_50098), which sit in marketable debt securities."
+ },
+ "unfunded_equity_commitments": {
+  "value": 20000000000.0,
+  "as_of": "2026-10-25",
+  "fiscal_period": "FY2027 Q3",
+  "original_currency": "USD",
+  "original_value": null,
+  "fx_rate": null,
+  "fx_date": null,
+  "last_verified": "2026-11-23",
+  "display_eligible": false,
+  "lower_bound": false,
+  "evidence": [
+   "ev_120011"
+  ],
+  "note": "Equity investments row of Nvidia's future commitments table at 2026-10-25: 5B remainder of FY2027, 11B FY2028, 2B FY2029, 2B FY2030. Nvidia says these are subject to certain contingencies and focused on frontier labs, infrastructure financiers and other private companies (ev_120010). Exhibit 99.2."
+ },
+ "neocloud_agreements_max": {
+  "value": 32000000000.0,
+  "as_of": "2026-10-25",
+  "fiscal_period": "FY2027 Q3",
+  "original_currency": "USD",
+  "original_value": null,
+  "fx_rate": null,
+  "fx_date": null,
+  "last_verified": "2026-11-23",
+  "display_eligible": false,
+  "lower_bound": false,
+  "evidence": [
+   "ev_50080"
+  ],
+  "note": "Neocloud agreements (formerly AI cloud agreements), maximum future additional commitment at 2026-10-25, by fiscal year 0, 6, 7, 6, 5, 8. Nvidia's commitments take effect only if the neoclouds secure financing (ev_50081). Was 36B at 2026-07-26. Exhibit 99.2."
+ },
+ "cloud_service_agreements": {
+  "value": 28000000000.0,
+  "as_of": "2026-10-25",
+  "fiscal_period": "FY2027 Q3",
+  "original_currency": "USD",
+  "original_value": null,
+  "fx_rate": null,
+  "fx_date": null,
+  "last_verified": "2026-11-23",
+  "display_eligible": false,
+  "lower_bound": false,
+  "evidence": [
+   "ev_130013"
+  ],
+  "note": "Multi-year cloud service agreements, remaining commitment at 2026-10-25 (29B at 2026-07-26, ev_10030). Exhibit 99.2."
+ },
+ "data_center_leases_not_commenced": {
+  "value": 74000000000.0,
+  "as_of": "2026-10-25",
+  "fiscal_period": "FY2027 Q3",
+  "original_currency": "USD",
+  "original_value": null,
+  "fx_rate": null,
+  "fx_date": null,
+  "last_verified": "2026-11-23",
+  "display_eligible": false,
+  "lower_bound": false,
+  "evidence": [
+   "ev_190004"
+  ],
+  "note": "Data center leases not commenced at 2026-10-25, by fiscal year 0, 1, 2, 4, 4, 63. Terms up to twenty years, commencing between Q4 FY2027 and FY2033 (ev_190006, ev_190007); Nvidia may assign some of these leases to third parties (ev_190005). At 2026-07-26 the 10-Q split this into 25B (ev_10031) and a separate 20B 'for third party' line that Nvidia expected to reassign (ev_10037, ev_190008); the October disclosure gives one line and no split. Exhibit 99.2."
+ },
+ "supply_commitments": {
+  "value": 390000000000.0,
+  "as_of": "2026-10-25",
+  "fiscal_period": "FY2027 Q3",
+  "original_currency": "USD",
+  "original_value": null,
+  "fx_rate": null,
+  "fx_date": null,
+  "last_verified": "2026-11-23",
+  "display_eligible": false,
+  "lower_bound": false,
+  "evidence": [
+   "ev_130023"
+  ],
+  "note": "Supply and capacity commitments at 2026-10-25, by fiscal year 69, 203, 92, 10, 8, 8. Exhibit 99.2."
+ },
  "as_of": "2026-10-25",
  "fiscal_period": "FY2027 Q3 (quarter ended 2026-10-25)",
  "source_note": "Balance sheet date 2026-10-25 for every amount except total_equity_investments (2026-07-26, the latest MD&A total). Sources: 8-K filed 2026-11-17, Exhibit 99.3 supplemental financial information and Exhibit 99.2 CFO commentary (unaudited), plus the FY2026 Form 10-K for annual figures. The Q3 FY2027 Form 10-Q had not been filed by 2026-11-23; the 2026-07-26 Form 10-Q is the newest full set of notes."

@@ -225,15 +225,49 @@ def test_staleness_rule():
     assert not checks.is_stale(a, done, cfg, date(2025, 6, 1)) and checks.is_stale(a, done, cfg, date(2026, 2, 1))
 
 
-def test_committed_with_undisclosed_paid_portion_counts_once(reg, helpers):
+def test_committed_with_undisclosed_paid_portion_counts_once_and_is_never_called_unpaid(reg, helpers):
     r = helpers.rel("rel_example_eq_2026", type_primary="EQ", evidence=["ev_2"], committed_total=helpers.amt(250e6, ["ev_2"]),
                     headline=helpers.amt(250e6, ["ev_2"]), contingent_max=helpers.amt(na=True))
     before = checks.independent_totals(reg)
     reg.relationships.append(r); reg.index(); measure.run(reg)
     after = checks.independent_totals(reg)
-    assert r["derived"]["committed_unfunded"] == 250e6 and r["derived"]["funded_split_unknown"] is True
-    assert r["derived"]["gross_exposure"] == 250e6 and r["derived"]["gross_missing"] == []
-    assert after["gross"] == before["gross"] + 250e6 and after["funded"] == before["funded"]
+    d = r["derived"]
+    assert d["committed_unfunded"] is None and d["committed_split_unknown"] == 250e6 and d["funded_split_unknown"] is True
+    assert d["gross_exposure"] == 250e6 and d["gross_lower_bound"] is False
+    assert after["gross"] == before["gross"] + 250e6
+    assert after["committed_unfunded"] == before["committed_unfunded"] and after["funded"] == before["funded"]
+    assert after["committed_split_unknown"] == before["committed_split_unknown"] + 250e6
+
+
+def test_cost_counts_only_for_shares_still_held(reg):
+    r = reg.rel["rel_example_eq_2025"]
+    r["holding"] = {"shares": 75, "shares_acquired": 100}
+    measure.run(reg)
+    assert r["derived"]["funded_remaining"] == 0.75 * 250e6 and r["derived"]["funded_cash"] == 250e6
+    assert r["derived"]["gross_exposure"] == 0.75 * 250e6
+    r["status"] = "terminated"
+    measure.run(reg)
+    assert r["derived"]["gross_exposure"] == 0 and checks.independent_totals(reg)["funded"] == 0
+
+
+def test_guaranty_not_yet_in_force_is_reported_apart(reg):
+    reg.rel["rel_example_bk_2025"]["amounts"]["contingent_max"]["in_force"] = False
+    t = checks.independent_totals(reg)
+    assert t["contingent_not_in_force"] == 6.3e9 and t["contingent_in_force"] == 0 and t["contingent_max"] == 6.3e9
+
+
+def test_headline_is_grouped_by_what_it_is(reg):
+    t = checks.independent_totals(reg)
+    assert t["headline_groups"]["guaranty_backstop"] == 6.3e9 and t["headline_groups"]["other"] == 250e6
+    assert abs(sum(t["headline_groups"].values()) - t["headline"]) < 1
+
+
+def test_evidence_id_cited_in_text_must_exist(reg, tmp_path):
+    reg.rel["rel_example_bk_2025"]["notes"] = "See ev_999 for the figure."
+    reg.save()
+    assert any("ev_999" in p for p in checks.check_text_citations(reg))
+    reg.rel["rel_example_bk_2025"]["consequences"]["first_order"][0]["text"] = "If Example sells less (ev_1), Nvidia pays."
+    assert checks.check_no_ids_in_copy(reg)
 
 
 def test_non_usd_amount_without_fx_shows_in_own_currency_and_stays_out_of_totals(reg, helpers):

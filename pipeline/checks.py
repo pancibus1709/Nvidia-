@@ -238,29 +238,64 @@ def elig_value(a):
     return float(a["value"])
 
 
+GUARANTY_TYPES = ("GU", "BK", "RV")
+NOT_BINDING = ("loi_or_framework", "restructured", "reported_unconfirmed")
+
+
+def funded_remaining(r: dict):
+    """Cost that relates to shares still held (analysis). Exited positions count nothing; reduced holdings pro rata."""
+    funded = elig_value(r["amounts"].get("funded"))
+    if funded is None:
+        return None
+    if r["status"] == "terminated":
+        return 0.0
+    h = r.get("holding") or {}
+    if h.get("shares") is not None and h.get("shares_acquired"):
+        return funded * min(1.0, h["shares"] / h["shares_acquired"])
+    return funded
+
+
 def independent_gross(r: dict) -> dict:
-    """Recompute committed_unfunded and gross from eligible amounts only. Deliberately separate from measure.py."""
+    """Recompute the exposure parts from eligible amounts only. Deliberately separate from measure.py.
+
+    funded            cost of what is still held
+    committed_unfunded  binding and confirmed not yet paid (committed total less funded, both known)
+    committed_split_unknown  binding, but the paid portion is not disclosed: counted once, never called unpaid
+    contingent_max    the most Nvidia could be required to pay
+    """
     am = r["amounts"]
-    funded, committed, cont = elig_value(am.get("funded")), elig_value(am.get("committed_total")), elig_value(am.get("contingent_max"))
-    if committed is not None and funded is not None and not am["committed_total"].get("not_applicable"):
-        unfunded = max(0.0, committed - funded)
-    elif r["status"] == "completed" and funded is not None:
+    funded_cash, committed, cont = elig_value(am.get("funded")), elig_value(am.get("committed_total")), elig_value(am.get("contingent_max"))
+    c_na = bool(am["committed_total"].get("not_applicable"))
+    funded = funded_remaining(r)
+    unfunded = split_unknown = None
+    if committed is not None and not c_na and funded_cash is not None:
+        unfunded = max(0.0, committed - funded_cash)
+    elif funded_cash is not None and (r["status"] in ("completed", "terminated") or c_na):
         unfunded = 0.0
-    elif am["committed_total"].get("not_applicable") and funded is not None:
-        unfunded = 0.0
-    elif committed is not None and funded is None and not am["committed_total"].get("not_applicable"):
-        unfunded = committed   # paid portion not disclosed: the committed total counts once, as not yet confirmed paid
-    else:
-        unfunded = None
-    split_unknown = unfunded is not None and funded is None
+    elif committed is not None and not c_na and funded_cash is None:
+        split_unknown = committed
     parts = {"funded": funded, "committed_unfunded": unfunded, "contingent_max": cont}
-    return {**parts, "gross": sum(v for v in parts.values() if v is not None),
-            "missing": [k for k, v in parts.items() if v is None and not (k == "funded" and split_unknown)]}
+    missing = [k for k, v in parts.items() if v is None]
+    in_force = bool(cont) and am["contingent_max"].get("in_force", True)
+    return {**parts, "funded_cash": funded_cash, "committed_split_unknown": split_unknown,
+            "contingent_in_force": cont if in_force else 0.0, "contingent_not_in_force": (cont or 0.0) if not in_force else 0.0,
+            "gross": sum(v for v in parts.values() if v is not None) + (split_unknown or 0.0),
+            "missing": missing, "lower_bound": bool([k for k in missing if not (split_unknown is not None and k in ("funded", "committed_unfunded"))])}
+
+
+def headline_group(r: dict) -> str:
+    if r["status"] in NOT_BINDING:
+        return "not_binding"
+    if r["type_primary"] in GUARANTY_TYPES:
+        return "guaranty_backstop"
+    return "other"
 
 
 def independent_totals(reg: Register, rel_filter=None) -> dict:
-    t = {"funded": 0.0, "committed_unfunded": 0.0, "contingent_max": 0.0, "headline": 0.0, "gross": 0.0,
-         "count": 0, "lower_bound_count": 0, "counts": {"funded": 0, "committed_unfunded": 0, "contingent_max": 0, "headline": 0}}
+    keys = ("funded", "funded_cash", "committed_unfunded", "committed_split_unknown", "contingent_max", "contingent_in_force", "contingent_not_in_force")
+    t = {k: 0.0 for k in keys}
+    t.update({"headline": 0.0, "gross": 0.0, "count": 0, "lower_bound_count": 0, "counts": {k: 0 for k in keys + ("headline",)},
+              "headline_groups": {"guaranty_backstop": 0.0, "not_binding": 0.0, "other": 0.0}, "headline_not_converted": []})
     for r in reg.relationships:
         if r.get("aggregate_of") or r["type_primary"] == "CX":
             continue
@@ -268,17 +303,21 @@ def independent_totals(reg: Register, rel_filter=None) -> dict:
             continue
         g = independent_gross(r)
         t["count"] += 1
-        for k in GROSS_FIELDS:
+        for k in keys:
             if g[k]:
                 t[k] += g[k]
                 t["counts"][k] += 1
         t["gross"] += g["gross"]
-        if g["missing"]:
+        if g["lower_bound"]:
             t["lower_bound_count"] += 1
-        h = elig_value(r["amounts"].get("headline"))
-        if h and not r["amounts"]["headline"].get("not_applicable"):
+        ha = r["amounts"].get("headline") or {}
+        h = elig_value(ha)
+        if h and not ha.get("not_applicable"):
             t["headline"] += h
             t["counts"]["headline"] += 1
+            t["headline_groups"][headline_group(r)] += h
+        elif native_only(ha) and ha.get("display_eligible"):
+            t["headline_not_converted"].append({"relationship": r["id"], "currency": ha["original_currency"], "value": ha["original_value"]})
     return t
 
 
@@ -602,19 +641,19 @@ def check_published(reg, published_dir):
     pub_rels = load_json(pd / "relationships.json")
     ind = independent_totals(reg)
     t = summary["totals"]
-    for k in ("funded", "committed_unfunded", "contingent_max", "headline", "gross"):
+    for k in ("funded", "committed_unfunded", "committed_split_unknown", "contingent_max", "headline", "gross"):
         if abs(t[k] - ind[k]) > 1.0:
             out.append(f"arithmetic: published total {k} = {t[k]:,.0f}, independent recomputation = {ind[k]:,.0f}")
     if t.get("count") != ind["count"]:
         out.append(f"arithmetic: published relationship count {t.get('count')} differs from {ind['count']}")
-    if abs(t["gross"] - (t["funded"] + t["committed_unfunded"] + t["contingent_max"])) > 1.0:
-        out.append("headline leakage: gross is not the sum of funded, committed not yet paid and contingent")
+    if abs(t["gross"] - (t["funded"] + t["committed_unfunded"] + t["committed_split_unknown"] + t["contingent_max"])) > 1.0:
+        out.append("headline leakage: gross is not the sum of funded, committed not yet paid, committed with paid portion undisclosed, and contingent")
     # headline leakage test: totals recomputed with every headline set to zero must be unchanged
     reg2 = copy.deepcopy(reg)
     for r in reg2.relationships:
         r["amounts"]["headline"]["value"] = None
     ind2 = independent_totals(reg2)
-    for k in ("funded", "committed_unfunded", "contingent_max", "gross"):
+    for k in ("funded", "committed_unfunded", "committed_split_unknown", "contingent_max", "gross"):
         if abs(ind2[k] - t[k]) > 1.0:
             out.append(f"headline leakage: total {k} changes when headline amounts are removed")
     agg_ids = {r["id"] for r in reg.relationships if r.get("aggregate_of")}
@@ -632,7 +671,32 @@ def check_published(reg, published_dir):
     return out
 
 
-CHECKS = [check_schema, check_evidence_resolution, check_grounding, check_display_rule, check_independence, check_allowlist,
+def check_text_citations(reg):
+    """Every evidence id written anywhere in the register (notes, reconciliation text, loops, verdict) must exist."""
+    out = []
+    files = ["relationships.json", "entities.json", "projects.json", "events.json", "loops.json", "central_bank.json", "nvidia_financials.json"]
+    for name in files:
+        f = reg.dir / name
+        if not f.exists():
+            continue
+        for i in sorted(set(re.findall(r"ev_\d+", f.read_text(encoding="utf-8")))):
+            if i not in reg.ev:
+                out.append(f"citations: {name}: {i} is cited in text but is not in the evidence store")
+    return out
+
+
+def check_no_ids_in_copy(reg):
+    out = []
+    for r in reg.relationships:
+        texts = [("insight_template", r["insight_template"]), ("definition", r["definition"]), ("title", r["title"])]
+        texts += [("consequence", c["text"]) for c in r["consequences"]["first_order"] + r["consequences"]["second_order"]]
+        for where, t in texts:
+            if re.search(r"ev_\d+", t):
+                out.append(f"copy: {r['id']}.{where}: an evidence id appears in on-screen text")
+    return out
+
+
+CHECKS = [check_text_citations, check_no_ids_in_copy, check_schema, check_evidence_resolution, check_grounding, check_display_rule, check_independence, check_allowlist,
           check_amount_order, check_insights, check_quotes, check_reconciliation, check_consequences]
 
 

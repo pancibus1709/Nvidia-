@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from datetime import date
 
-from .checks import Register, elig_value, set_eligibility
+from .checks import Register, elig_value, independent_gross, set_eligibility
 from .common import CONFIG, load_json
 
 
@@ -17,33 +17,11 @@ def _ref(path, a):
     return {"field": path, "value": a.get("value"), "as_of": a.get("as_of"), "evidence": a.get("evidence", [])}
 
 
-def committed_unfunded(r: dict):
-    am = r["amounts"]
-    funded, committed = elig_value(am.get("funded")), elig_value(am.get("committed_total"))
-    na = am["committed_total"].get("not_applicable")
-    if committed is not None and funded is not None and not na:
-        return max(0.0, committed - funded)
-    if funded is not None and (r["status"] == "completed" or na):
-        return 0.0
-    if committed is not None and funded is None and not na:
-        # Paid portion not disclosed. Funded plus unfunded equals the committed total whatever the split,
-        # so the whole committed total counts once, here, and the record is flagged.
-        return committed
-    return None
-
-
-def funded_split_unknown(r: dict) -> bool:
-    am = r["amounts"]
-    return (elig_value(am.get("committed_total")) is not None and not am["committed_total"].get("not_applicable")
-            and elig_value(am.get("funded")) is None)
-
-
 def gross(r: dict):
-    parts = {"funded": elig_value(r["amounts"].get("funded")), "committed_unfunded": committed_unfunded(r),
-             "contingent_max": elig_value(r["amounts"].get("contingent_max"))}
-    split_unknown = funded_split_unknown(r)
-    missing = [k for k, v in parts.items() if v is None and not (k == "funded" and split_unknown)]
-    return sum(v for v in parts.values() if v is not None), missing, parts
+    """(gross, missing components, parts). The arithmetic lives in checks.independent_gross so there is one definition;
+    checks.check_published recomputes it again from the published file."""
+    g = independent_gross(r)
+    return g["gross"], g["missing"], g
 
 
 def remaining_years(r: dict, today: date) -> float | None:
@@ -118,15 +96,19 @@ def run(reg: Register, today: date | None = None) -> Register:
         am = r["amounts"]
         g, missing, parts = gross(r)
         cu = parts["committed_unfunded"]
+        csu = parts["committed_split_unknown"]
         cont = parts["contingent_max"]
         funded = parts["funded"]
-        d = {"label": "analysis", "committed_unfunded": cu, "gross_exposure": g if (g or not missing) else None,
-             "gross_missing": missing, "gross_lower_bound": bool(missing),
-             "funded_split_unknown": funded_split_unknown(r)}
-        if g == 0 and missing:
+        known_any = any(v is not None for v in (funded, cu, csu, cont))
+        d = {"label": "analysis", "funded_remaining": funded, "funded_cash": parts["funded_cash"], "committed_unfunded": cu,
+             "committed_split_unknown": csu, "funded_split_unknown": csu is not None,
+             "contingent_in_force": bool(cont) and am["contingent_max"].get("in_force", True),
+             "gross_exposure": g if (g or (known_any and not parts["lower_bound"])) else None,
+             "gross_missing": missing, "gross_lower_bound": parts["lower_bound"]}
+        if g == 0 and parts["lower_bound"]:
             d["gross_exposure"] = None
         rate = (draw["base"].get(r["type_primary"]) or {}).get("rate")
-        base_known = (funded or 0) + (cu or 0)
+        base_known = (funded or 0) + (cu or 0) + (csu or 0)
         if cont:
             d["ead_base"] = base_known + cont * rate if rate is not None else None
             d["ead_base_note"] = (draw["base"].get(r["type_primary"]) or {}).get("basis", "Not estimated.")
@@ -141,7 +123,7 @@ def run(reg: Register, today: date | None = None) -> Register:
 
         mi = r.get("measure_inputs") or {}
         spend, raised, paid, debt = (elig_value(mi.get(k)) for k in ("counterparty_nvidia_spend", "counterparty_equity_raised", "nvidia_paid", "covered_project_debt"))
-        nv_in = (funded or 0) + (cu or 0) if (funded is not None or cu is not None) else None
+        nv_in = (parts["funded_cash"] or 0) + (cu or 0) + (csu or 0) if (parts["funded_cash"] is not None or cu is not None or csu is not None) else None
         d["circularity_ratio"] = {"value": None, "window": mi.get("window"), "inputs": []}
         if spend and nv_in:
             d["circularity_ratio"] = {"value": nv_in / spend, "window": mi.get("window"),
@@ -152,16 +134,17 @@ def run(reg: Register, today: date | None = None) -> Register:
         else:
             d["round_trip"]["nvidia_paid"] = d["round_trip"]["counterparty_nvidia_spend"] = None
         d["share_of_counterparty_capital"] = {"value": None, "inputs": []}
-        if funded and raised and r["type_primary"] in ("EQ", "EQ-SPV", "EQ-C"):
-            d["share_of_counterparty_capital"] = {"value": funded / raised, "inputs": [_ref("funded", am["funded"]), _ref("counterparty_equity_raised", mi["counterparty_equity_raised"])]}
+        if parts["funded_cash"] and raised and r["type_primary"] in ("EQ", "EQ-SPV", "EQ-C"):
+            d["share_of_counterparty_capital"] = {"value": parts["funded_cash"] / raised, "inputs": [_ref("funded", am["funded"]), _ref("counterparty_equity_raised", mi["counterparty_equity_raised"])]}
         d["share_of_nvda_equity"] = {"value": None, "inputs": []}
         if equity and d["gross_exposure"] is not None:
             d["share_of_nvda_equity"] = {"value": d["gross_exposure"] / equity, "inputs": [{"field": "gross_exposure", "value": d["gross_exposure"]}, _ref("nvidia_financials.shareholders_equity", fin["shareholders_equity"])]}
         d["share_of_nvda_fcf"] = {"value": None, "inputs": []}
         annual = elig_value(am.get("annual_obligation")) if am.get("annual_obligation") else None
         annual_src = "sourced"
-        if not annual and cu and remaining_years(r, today):
-            annual, annual_src = cu / remaining_years(r, today), "derived: committed not yet paid divided by remaining years"
+        owed = cu or csu
+        if not annual and owed and r["type_primary"] in ("LB", "BK", "GU") and remaining_years(r, today):
+            annual, annual_src = owed / remaining_years(r, today), "derived: committed amount divided by remaining years of the service term"
         d["annual_obligation"] = {"value": annual, "basis": annual_src if annual else None}
         if annual and fcf:
             d["share_of_nvda_fcf"] = {"value": annual / fcf, "inputs": [{"field": "annual_obligation", "value": annual, "basis": annual_src}, _ref("nvidia_financials.fcf_ttm", fin["fcf_ttm"])]}

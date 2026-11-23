@@ -102,3 +102,13 @@ maturity}, `seniority`, `reconciliation`, `credit`, `consequences`, `projects` [
 ## Events (timeline)
 
 `{"id": "evt_<slug>", "date": "YYYY-MM-DD", "relationship": "rel_..", "kind": "announcement|signing|filing|closing|amendment|drawdown|restructuring|termination|holding_change", "summary": "<one sentence>", "evidence": ["ev_.."]}`
+
+## Additions after the Gate R critic review (23 November 2026)
+
+- `amounts.contingent_max.in_force` (boolean, default true) and `effective_note` (text): set `in_force` false when a signed
+  guaranty or backstop cannot yet be called (for example it takes effect only when a building is ready), and say when it starts.
+- `holding.shares_acquired`: the number of shares the funded amount bought, when a source states it. With `holding.shares`
+  (the current count) the pipeline works out how much of the cost relates to shares still held.
+- Evidence ids belong in `evidence` lists. If a note or reconciliation text mentions an id, that id must exist in
+  research/evidence/*.jsonl; the checks now fail on any id that does not resolve.
+- No "ev_" ids and no bracketed citations inside insight, definition or consequence text.
