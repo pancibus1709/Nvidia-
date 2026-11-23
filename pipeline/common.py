@@ -161,7 +161,7 @@ def classify_domain(url: str, al: dict | None = None) -> dict:
 _SCALE_WORDS = {"thousand": 1e3, "million": 1e6, "billion": 1e9, "trillion": 1e12,
                 "thousands": 1e3, "millions": 1e6, "billions": 1e9, "bn": 1e9, "mn": 1e6, "m": 1e6, "b": 1e9}
 _NUM = re.compile(r"(?<![\w.])\(?\$?\s?(\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?)\)?\s?(trillion|billion|million|thousand|bn|mn)?(?![\w])", re.I)
-_TABLE_SCALE = re.compile(r"in\s+(thousands|millions|billions)", re.I)
+_TABLE_SCALE = re.compile(r"(?:in\s+(?:USD\s+|US\$\s*|\$\s*|U\.S\. dollars in\s+)?|\$\s*|USD\s+|US\$\s*)(thousands|millions|billions)", re.I)
 
 
 def numbers_in(text: str) -> list[tuple[float, float | None]]:
