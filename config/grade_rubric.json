@@ -1,0 +1,9 @@
+{
+  "_note": "Internal starting thresholds from spec/05 section 5. Take the weakest sourced column, adjust by at most one step with a written reason. Fewer than two sourced columns = Insufficient information.",
+  "order": ["Strong", "Adequate", "Watch", "Weak", "Distressed"],
+  "liquidity_months": {"Strong": [24, null], "Adequate": [12, 24], "Watch": [6, 12], "Weak": [0, 6]},
+  "maturities_24m_to_liquidity": {"Strong": [0, 0.5], "Adequate": [0.5, 1.0], "Watch": [1.0, 1.5], "Weak": [1.5, null]},
+  "top_customer_share": {"Strong": [0, 0.25], "Adequate": [0.25, 0.5], "Watch": [0.5, 0.7], "Weak": [0.7, 1.0]},
+  "public_rating": {"Strong": "investment_grade", "Adequate": "BB", "Watch": "B", "Weak": "CCC", "Distressed": "CC_or_below"},
+  "min_columns_sourced": 2
+}

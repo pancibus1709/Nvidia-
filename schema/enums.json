@@ -1,0 +1,18 @@
+{
+  "cluster": ["nvidia", "ai_lab", "neocloud", "hyperscaler", "semis_supply", "sovereign_project", "portfolio", "vehicle", "lender", "other"],
+  "type": ["EQ", "EQ-SPV", "EQ-C", "BK", "LB", "GU", "RV", "FC", "LP", "PP", "LI", "CX"],
+  "status": ["definitive", "loi_or_framework", "reported_unconfirmed", "restructured", "terminated", "completed"],
+  "claim_basis": ["filed", "company_announced", "reported_corroborated", "reported_single_source"],
+  "label": ["fact", "analysis"],
+  "reconciliation": ["reconciled", "partial", "one_sided", "contradicted"],
+  "seniority": ["common_equity", "preferred_equity", "warrants", "spv_equity", "lp_interest", "senior_secured_creditor", "unsecured_creditor", "guarantor", "contingent_buyer", "lessee", "prepaying_buyer", "licensee", "none"],
+  "grade": ["Strong", "Adequate", "Watch", "Weak", "Distressed", "Insufficient information"],
+  "wwr": ["specific", "general", "none"],
+  "lens": ["revenue_quality", "lender_reliance", "collateral_loop", "contagion", "signaling"],
+  "direction": ["negative", "positive", "mixed"],
+  "evidence_kind": ["sec_filing", "company_release", "earnings_call", "regulator", "rating_agency", "lien_registry", "news", "market_data"],
+  "sourcing": ["filing", "named", "documents_seen", "anonymous"],
+  "change_type": ["added", "amount_changed", "status_changed", "reconciliation_changed", "dates_changed", "evidence_added", "market_value", "link_repair", "reverified", "corrected", "removed_from_display"],
+  "project_role": ["covered", "context"],
+  "event_kind": ["announcement", "signing", "filing", "closing", "amendment", "drawdown", "restructuring", "termination", "holding_change"]
+}

@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "evidence",
+  "type": "object",
+  "required": [
+    "id",
+    "tier",
+    "kind",
+    "publisher",
+    "title",
+    "url",
+    "published",
+    "retrieved",
+    "quote",
+    "locator",
+    "cache_path",
+    "content_hash",
+    "sourcing",
+    "paywalled",
+    "supports"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ev_\\d+$"
+    },
+    "tier": {
+      "enum": [
+        "1",
+        "2",
+        "market"
+      ]
+    },
+    "kind": {
+      "$enum": "evidence_kind"
+    },
+    "publisher": {
+      "type": "string",
+      "minLength": 2
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "accession": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "section": {
+      "type": "string"
+    },
+    "published": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}"
+    },
+    "retrieved": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "string",
+      "minLength": 3
+    },
+    "locator": {
+      "type": "string"
+    },
+    "unit_scale_locator": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "parent_company": {
+      "type": "string"
+    },
+    "cites_publisher": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cache_path": {
+      "type": "string"
+    },
+    "content_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "sourcing": {
+      "$enum": "sourcing"
+    },
+    "paywalled": {
+      "type": "boolean"
+    },
+    "pasted_by_reviewer": {
+      "type": "boolean"
+    },
+    "supports": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "grounded_value": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "source_link": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "amount": {
+      "type": "object",
+      "required": [
+        "value",
+        "as_of",
+        "last_verified",
+        "display_eligible",
+        "evidence"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "as_of": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "fiscal_period": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "original_currency": {
+          "type": "string"
+        },
+        "original_value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "fx_rate": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "fx_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "fx_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "last_verified": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "display_eligible": {
+          "type": "boolean"
+        },
+        "lower_bound": {
+          "type": "boolean"
+        },
+        "not_applicable": {
+          "type": "boolean"
+        },
+        "note": {
+          "type": "string"
+        },
+        "trigger": {
+          "type": "string"
+        },
+        "price_source": {
+          "type": "string"
+        },
+        "price_timestamp": {
+          "type": "string"
+        },
+        "label": {
+          "$enum": "label"
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "value",
+              "evidence"
+            ],
+            "properties": {
+              "value": {
+                "type": "number"
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

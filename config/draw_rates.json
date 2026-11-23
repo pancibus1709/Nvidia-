@@ -1,0 +1,14 @@
+{
+  "_note": "Label: analysis. Base case draw rates per exposure type. null = not estimated, per spec/05: the base case comes from the counterparty's disclosed utilization where available, otherwise it is not estimated. Max case is always 1.0.",
+  "label": "analysis",
+  "base": {
+    "BK": {"rate": null, "basis": "Not estimated. No counterparty discloses utilization against a contracted floor."},
+    "GU": {"rate": null, "basis": "Not estimated. Draw depends on default of the guaranteed party."},
+    "RV": {"rate": null, "basis": "Not estimated."},
+    "LP": {"rate": 1.0, "basis": "Unfunded fund commitments are callable in full by the manager."},
+    "EQ-C": {"rate": null, "basis": "Not estimated. Draw depends on milestones stated in each agreement."},
+    "FC": {"rate": null, "basis": "Not estimated."},
+    "LB": {"rate": 1.0, "basis": "Rent under a signed capacity agreement is payable in full over the term."}
+  },
+  "max": 1.0
+}

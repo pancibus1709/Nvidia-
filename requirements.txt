@@ -1,0 +1,6 @@
+requests
+jsonschema
+lxml
+beautifulsoup4
+openpyxl
+pytest

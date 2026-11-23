@@ -1,0 +1,10 @@
+{
+  "_note": "Days before an amount must be re-verified, per spec/11.",
+  "large_threshold_usd": 1000000000,
+  "large_days": 30,
+  "unsettled_statuses": ["loi_or_framework", "reported_unconfirmed", "restructured"],
+  "unsettled_days": 30,
+  "definitive_days": 90,
+  "closed_statuses": ["completed", "terminated"],
+  "closed_days": 365
+}

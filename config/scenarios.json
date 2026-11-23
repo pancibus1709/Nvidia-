@@ -1,0 +1,27 @@
+{
+  "_note": "Parameters for S1 to S3 (spec/05 section 7). Every default is labeled illustrative until anchored to a cited, dated observed move from an allowed source. Sliders on the Stress view edit these values.",
+  "S1": {
+    "name": "Demand pause",
+    "parameters": {
+      "d": {"value": -0.3, "min": -0.8, "max": 0.0, "step": 0.05, "label": "Merchant demand shock", "basis": "illustrative"},
+      "p": {"value": -0.2, "min": -0.6, "max": 0.0, "step": 0.05, "label": "Rental price change", "basis": "illustrative"},
+      "e": {"value": -0.5, "min": -2.0, "max": 0.0, "step": 0.1, "label": "Price elasticity of demand", "basis": "illustrative"},
+      "quarters": {"value": 4, "min": 1, "max": 12, "step": 1, "label": "Duration in quarters", "basis": "illustrative"},
+      "h1": {"value": 0.5, "min": 0.0, "max": 1.0, "step": 0.05, "label": "Neocloud equity haircut", "basis": "illustrative"}
+    }
+  },
+  "S2": {
+    "name": "Lab funding gap",
+    "parameters": {
+      "lab": {"value": null, "label": "Which lab", "basis": "user choice"},
+      "months": {"value": 12, "min": 3, "max": 36, "step": 3, "label": "Months of delay", "basis": "illustrative"},
+      "h2": {"value": 0.5, "min": 0.0, "max": 1.0, "step": 0.05, "label": "Lab equity haircut", "basis": "illustrative"}
+    }
+  },
+  "S3": {
+    "name": "Collateral repricing",
+    "parameters": {
+      "v": {"value": -0.4, "min": -0.9, "max": 0.0, "step": 0.05, "label": "Prior generation GPU value change", "basis": "illustrative"}
+    }
+  }
+}

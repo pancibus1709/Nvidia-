@@ -1,0 +1,602 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "relationship",
+  "type": "object",
+  "required": [
+    "id",
+    "from",
+    "to",
+    "type_primary",
+    "types_secondary",
+    "title",
+    "insight_template",
+    "definition",
+    "status",
+    "claim_basis",
+    "amounts",
+    "dates",
+    "seniority",
+    "reconciliation",
+    "credit",
+    "consequences",
+    "evidence",
+    "version"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^rel_[a-z0-9_]+$"
+    },
+    "from": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "type_primary": {
+      "$enum": "type"
+    },
+    "types_secondary": {
+      "type": "array",
+      "items": {
+        "$enum": "type"
+      }
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "insight_template": {
+      "type": "string",
+      "minLength": 10
+    },
+    "definition": {
+      "type": "string",
+      "minLength": 30
+    },
+    "status": {
+      "$enum": "status"
+    },
+    "claim_basis": {
+      "$enum": "claim_basis"
+    },
+    "inclusion_reason": {
+      "type": "string"
+    },
+    "amounts": {
+      "type": "object",
+      "required": [
+        "headline",
+        "committed_total",
+        "funded",
+        "contingent_max"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "headline": {
+          "$ref": "#/$defs/amount"
+        },
+        "committed_total": {
+          "$ref": "#/$defs/amount"
+        },
+        "funded": {
+          "$ref": "#/$defs/amount"
+        },
+        "contingent_max": {
+          "$ref": "#/$defs/amount"
+        },
+        "annual_obligation": {
+          "$ref": "#/$defs/amount"
+        },
+        "market_value": {
+          "$ref": "#/$defs/amount"
+        },
+        "carrying_value": {
+          "$ref": "#/$defs/amount"
+        }
+      }
+    },
+    "holding": {
+      "type": "object",
+      "properties": {
+        "shares": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "as_of": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ticker": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "dates": {
+      "type": "object",
+      "required": [
+        "announced",
+        "signed",
+        "filed",
+        "effective",
+        "maturity"
+      ],
+      "properties": {
+        "announced": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$"
+        },
+        "signed": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$"
+        },
+        "filed": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$"
+        },
+        "effective": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$"
+        },
+        "maturity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "seniority": {
+      "$enum": "seniority"
+    },
+    "reconciliation": {
+      "type": "object",
+      "required": [
+        "result",
+        "nvidia_side",
+        "counterparty_side",
+        "differences"
+      ],
+      "properties": {
+        "result": {
+          "$enum": "reconciliation"
+        },
+        "nvidia_side": {
+          "type": "string"
+        },
+        "counterparty_side": {
+          "type": "string"
+        },
+        "nvidia_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "counterparty_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "differences": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "field",
+              "nvidia_value",
+              "counterparty_value",
+              "evidence"
+            ]
+          }
+        }
+      }
+    },
+    "measure_inputs": {
+      "type": "object",
+      "properties": {
+        "counterparty_nvidia_spend": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/amount"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "counterparty_equity_raised": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/amount"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "nvidia_paid": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/amount"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "covered_project_debt": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/amount"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "window": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "stress_inputs": {
+      "type": "object"
+    },
+    "derived": {
+      "type": "object"
+    },
+    "credit": {
+      "type": "object",
+      "required": [
+        "wwr",
+        "wwr_reason"
+      ],
+      "properties": {
+        "wwr": {
+          "$enum": "wwr"
+        },
+        "wwr_reason": {
+          "type": "string",
+          "minLength": 10
+        },
+        "collateral": {
+          "type": "string"
+        },
+        "tenor": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "consequences": {
+      "type": "object",
+      "required": [
+        "first_order",
+        "second_order"
+      ],
+      "properties": {
+        "first_order": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "trigger",
+              "mechanism",
+              "affected",
+              "direction",
+              "text"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "trigger": {
+                "type": "string",
+                "minLength": 5
+              },
+              "mechanism": {
+                "type": "string",
+                "minLength": 5
+              },
+              "affected": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              },
+              "direction": {
+                "$enum": "direction"
+              },
+              "text": {
+                "type": "string",
+                "minLength": 20
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "second_order": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "trigger",
+              "mechanism",
+              "affected",
+              "direction",
+              "text",
+              "lens"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "trigger": {
+                "type": "string",
+                "minLength": 5
+              },
+              "mechanism": {
+                "type": "string",
+                "minLength": 5
+              },
+              "affected": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              },
+              "direction": {
+                "$enum": "direction"
+              },
+              "text": {
+                "type": "string",
+                "minLength": 20
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "lens": {
+                "$enum": "lens"
+              }
+            }
+          }
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "depth2_links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "entity",
+          "role",
+          "description",
+          "evidence"
+        ],
+        "properties": {
+          "entity": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "amount": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/amount"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "aggregate_of": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "significance": {
+      "type": "object"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "amount": {
+      "type": "object",
+      "required": [
+        "value",
+        "as_of",
+        "last_verified",
+        "display_eligible",
+        "evidence"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "as_of": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "fiscal_period": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "original_currency": {
+          "type": "string"
+        },
+        "original_value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "fx_rate": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "fx_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "fx_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "last_verified": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "display_eligible": {
+          "type": "boolean"
+        },
+        "lower_bound": {
+          "type": "boolean"
+        },
+        "not_applicable": {
+          "type": "boolean"
+        },
+        "note": {
+          "type": "string"
+        },
+        "trigger": {
+          "type": "string"
+        },
+        "price_source": {
+          "type": "string"
+        },
+        "price_timestamp": {
+          "type": "string"
+        },
+        "label": {
+          "$enum": "label"
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "value",
+              "evidence"
+            ],
+            "properties": {
+              "value": {
+                "type": "number"
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

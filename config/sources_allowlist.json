@@ -1,0 +1,30 @@
+{
+  "_note": "Enforced by pipeline/checks.py. A citation from a domain not listed here fails the build. Company domains are tier 1 only for releases about that company. Add a company domain here when its entity is added to the register.",
+  "tier1": {
+    "sec": ["sec.gov", "data.sec.gov", "efts.sec.gov"],
+    "regulators_courts": ["ftc.gov", "justice.gov", "bis.gov", "bis.doc.gov", "commerce.gov", "treasury.gov", "federalregister.gov", "courtlistener.com", "uscourts.gov", "gov.uk", "europa.eu"],
+    "lien_registries": ["find-and-update.company-information.service.gov.uk", "icis.corp.delaware.gov", "bizfileonline.sos.ca.gov"],
+    "rating_agencies": ["moodys.com", "ratings.moodys.com", "spglobal.com", "fitchratings.com"],
+    "company_domains": {
+      "ent_nvidia": ["nvidia.com", "nvidianews.nvidia.com", "investor.nvidia.com", "blogs.nvidia.com"]
+    }
+  },
+  "tier2": {
+    "bloomberg.com": {"publisher": "Bloomberg", "parent_company": "Bloomberg L.P."},
+    "reuters.com": {"publisher": "Reuters", "parent_company": "Thomson Reuters"},
+    "wsj.com": {"publisher": "The Wall Street Journal", "parent_company": "Dow Jones"},
+    "barrons.com": {"publisher": "Barron's", "parent_company": "Dow Jones"},
+    "ft.com": {"publisher": "Financial Times", "parent_company": "Nikkei"},
+    "asia.nikkei.com": {"publisher": "Nikkei Asia", "parent_company": "Nikkei"},
+    "theinformation.com": {"publisher": "The Information", "parent_company": "The Information"},
+    "cnbc.com": {"publisher": "CNBC", "parent_company": "Versant"},
+    "economist.com": {"publisher": "The Economist", "parent_company": "The Economist Group"},
+    "axios.com": {"publisher": "Axios", "parent_company": "Cox Enterprises"}
+  },
+  "market_data": {
+    "finance.yahoo.com": {"publisher": "Yahoo Finance", "supports_only": "market_value"},
+    "query1.finance.yahoo.com": {"publisher": "Yahoo Finance", "supports_only": "market_value"},
+    "query2.finance.yahoo.com": {"publisher": "Yahoo Finance", "supports_only": "market_value"}
+  },
+  "excluded": ["substack.com", "medium.com", "seekingalpha.com", "fool.com", "zacks.com", "investorplace.com", "benzinga.com", "wikipedia.org", "reddit.com", "x.com", "twitter.com", "youtube.com", "prnewswire.com", "businesswire.com", "globenewswire.com"]
+}

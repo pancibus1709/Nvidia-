@@ -1,0 +1,5 @@
+{
+  "_note": "Label: analysis. score = sum(weight x component), each component 0 to 1. A missing component scores the neutral value and is listed.",
+  "weights": {"gross_percentile": 40, "contingent_share": 25, "circularity_percentile": 15, "counterparty_weakness": 10, "lender_reliance": 10},
+  "missing_component_score": 0.5
+}
