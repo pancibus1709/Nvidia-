@@ -288,7 +288,7 @@
           "evidence": [
             "ev_80001"
           ],
-          "note": "Total principal at 2026-09-30 per Note 19 of the 10-Q filed 2026-11-05 (recourse $8,061m, non-recourse $1,980m: ev_80037). Supersedes ev_40132, which carried no machine-checked value, and the FY2026 10-K debt note ($7,706m at 2026-06-30)."
+          "note": "Total principal at 2026-09-30 per Note 19 of the 10-Q filed 2026-11-05 (recourse $8,061m, non-recourse $1,980m: ev_80039). Supersedes ev_40132, which carried no machine-checked value, and the FY2026 10-K debt note ($7,706m at 2026-06-30)."
         },
         "maturities_24m": {
           "value": 1782000000,
@@ -1974,7 +1974,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia pre-funded warrant over 21.1 million Nebius shares",
-      "insight_template": "Nvidia paid {funded} for a pre-funded warrant in {counterparty}, a cloud that relies on Nvidia for its GPUs, so the money can return as chip sales.",
+      "insight_template": "Nvidia paid {funded} for a warrant in {counterparty}, which relies on Nvidia for its GPUs, so the money can return as chip sales.",
       "definition": "Under a securities purchase agreement of 11 March 2026 Nebius sold Nvidia a pre-funded warrant over 21,065,936 Class A shares for gross proceeds of $2.0 billion. The exercise price is $0.0001 per share, so the warrant carries the full economics of the shares. Nvidia agreed not to sell for six months, to 11 September 2026.",
       "status": "completed",
       "claim_basis": "filed",
@@ -3351,10 +3351,10 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
-              "ev_80037"
+              "ev_80039"
             ],
             "note": "Non-recourse principal at 2026-09-30: DDTL $409m plus USPP notes $1,571m."
           },
@@ -3363,7 +3363,7 @@
           "covenant_ltv": null,
           "evidence": [
             "ev_40131",
-            "ev_80037",
+            "ev_80039",
             "ev_40129",
             "ev_40130"
           ]
