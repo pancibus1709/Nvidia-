@@ -9,9 +9,9 @@ Built by Resolute Business Development. Not investment advice.
 | Phase | State |
 |---|---|
 | R0 research tooling and checks | Done |
-| R1 to R9 research | Waiting for the SEC contact string |
-| Gate R | Needs Thomas's approval before any app code |
-| B, U, Q | Not started |
+| R1 to R9 research | Done: 92 records, 1,094 citations, three critic rounds |
+| Gate R | Waiting for Thomas's approval. See `research/GATE_R_SUMMARY.md` |
+| B, U, Q | Not started. No application code is written before approval |
 
 ## Layout
 
@@ -20,8 +20,11 @@ Built by Resolute Business Development. Not investment advice.
 ## Commands
 
 ```
-make test     fixture tests
-make check    every automated check on the register
+make test                         tests
+make check                        every automated check on the register
+python3 -m pipeline.build_register   assemble the register from research drafts
+python3 -m pipeline.system_view      totals, bridge, concentrations, scenarios
+python3 -m pipeline.datapack         Excel evidence pack
 ```
 
 SEC requests need the environment variable `SEC_USER_AGENT` (a name and an email). It is never stored in this repository.
