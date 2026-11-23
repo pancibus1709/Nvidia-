@@ -1133,7 +1133,7 @@
       "type_primary": "LP",
       "types_secondary": [],
       "title": "Nvidia strategic limited partner in the Brookfield AI Infrastructure Fund",
-      "insight_template": "Nvidia is a limited partner in the {counterparty}, which buys data centers and power for AI, so its returns track the same demand as its sales.",
+      "insight_template": "Nvidia is a limited partner in the {counterparty}, so its returns depend on the same AI demand that drives its sales.",
       "definition": "Brookfield launched a $100 billion AI infrastructure program on 19 November 2025 with Nvidia and the Kuwait Investment Authority, anchored by the Brookfield AI Infrastructure Fund, which targets $10 billion of equity and had $5 billion of commitments at launch, including from Nvidia. Brookfield calls Nvidia a strategic limited partner. Nvidia's commitment is not disclosed in any filing.",
       "status": "definitive",
       "claim_basis": "filed",
