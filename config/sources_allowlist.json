@@ -1,30 +1,249 @@
 {
   "_note": "Enforced by pipeline/checks.py. A citation from a domain not listed here fails the build. Company domains are tier 1 only for releases about that company. Add a company domain here when its entity is added to the register.",
   "tier1": {
-    "sec": ["sec.gov", "data.sec.gov", "efts.sec.gov"],
-    "regulators_courts": ["ftc.gov", "justice.gov", "bis.gov", "bis.doc.gov", "commerce.gov", "treasury.gov", "federalregister.gov", "courtlistener.com", "uscourts.gov", "gov.uk", "europa.eu"],
-    "lien_registries": ["find-and-update.company-information.service.gov.uk", "icis.corp.delaware.gov", "bizfileonline.sos.ca.gov"],
-    "rating_agencies": ["moodys.com", "ratings.moodys.com", "spglobal.com", "fitchratings.com"],
+    "sec": [
+      "sec.gov",
+      "data.sec.gov",
+      "efts.sec.gov"
+    ],
+    "regulators_courts": [
+      "ftc.gov",
+      "justice.gov",
+      "bis.gov",
+      "bis.doc.gov",
+      "commerce.gov",
+      "treasury.gov",
+      "federalregister.gov",
+      "courtlistener.com",
+      "uscourts.gov",
+      "gov.uk",
+      "europa.eu"
+    ],
+    "lien_registries": [
+      "find-and-update.company-information.service.gov.uk",
+      "icis.corp.delaware.gov",
+      "bizfileonline.sos.ca.gov"
+    ],
+    "rating_agencies": [
+      "moodys.com",
+      "ratings.moodys.com",
+      "spglobal.com",
+      "fitchratings.com"
+    ],
     "company_domains": {
-      "ent_nvidia": ["nvidia.com", "nvidianews.nvidia.com", "investor.nvidia.com", "blogs.nvidia.com"]
+      "ent_nvidia": [
+        "nvidia.com",
+        "nvidianews.nvidia.com",
+        "investor.nvidia.com",
+        "blogs.nvidia.com"
+      ],
+      "ent_openai": [
+        "openai.com"
+      ],
+      "ent_anthropic": [
+        "anthropic.com"
+      ],
+      "ent_sb_energy": [
+        "sbenergy.com"
+      ],
+      "ent_iren": [
+        "iren.com"
+      ],
+      "ent_nebius": [
+        "nebius.com"
+      ],
+      "ent_coreweave": [
+        "coreweave.com"
+      ],
+      "ent_naver": [
+        "navercorp.com"
+      ],
+      "ent_amkor": [
+        "amkor.com"
+      ],
+      "ent_kyec": [
+        "kyec.com.tw"
+      ],
+      "ent_ibiden": [
+        "ibiden.com"
+      ],
+      "ent_spil": [
+        "spil.com.tw"
+      ],
+      "ent_lumentum": [
+        "lumentum.com"
+      ],
+      "ent_coherent": [
+        "coherent.com"
+      ],
+      "ent_marvell": [
+        "marvell.com"
+      ],
+      "ent_huggingface": [
+        "huggingface.co"
+      ],
+      "ent_ssi": [
+        "ssi.inc"
+      ],
+      "ent_thinking_machines": [
+        "thinkingmachines.ai"
+      ],
+      "ent_kkr": [
+        "kkr.com"
+      ],
+      "ent_brookfield": [
+        "brookfield.com"
+      ],
+      "ent_intel": [
+        "intel.com",
+        "intc.com"
+      ],
+      "ent_nokia": [
+        "nokia.com"
+      ],
+      "ent_synopsys": [
+        "synopsys.com"
+      ],
+      "ent_microsoft": [
+        "microsoft.com"
+      ],
+      "ent_meta": [
+        "meta.com",
+        "atmeta.com",
+        "fb.com"
+      ],
+      "ent_oracle": [
+        "oracle.com"
+      ],
+      "ent_xai": [
+        "x.ai"
+      ],
+      "ent_spacex": [
+        "spacex.com"
+      ],
+      "ent_mistral": [
+        "mistral.ai"
+      ],
+      "ent_softbank": [
+        "softbank.jp",
+        "group.softbank"
+      ],
+      "ent_arm": [
+        "arm.com"
+      ],
+      "ent_groq": [
+        "groq.com"
+      ],
+      "ent_crusoe": [
+        "crusoe.ai"
+      ],
+      "ent_lambda": [
+        "lambda.ai",
+        "lambdalabs.com"
+      ],
+      "ent_nscale": [
+        "nscale.com"
+      ],
+      "ent_corning": [
+        "corning.com"
+      ],
+      "ent_tsmc": [
+        "tsmc.com"
+      ],
+      "ent_blackstone": [
+        "blackstone.com"
+      ],
+      "ent_apollo": [
+        "apollo.com"
+      ],
+      "ent_blackrock": [
+        "blackrock.com"
+      ],
+      "ent_goldman_sachs": [
+        "goldmansachs.com"
+      ],
+      "ent_unimicron": [
+        "unimicron.com"
+      ],
+      "ent_reflection": [
+        "reflection.ai"
+      ],
+      "ent_poolside": [
+        "poolside.ai"
+      ]
     }
   },
   "tier2": {
-    "bloomberg.com": {"publisher": "Bloomberg", "parent_company": "Bloomberg L.P."},
-    "reuters.com": {"publisher": "Reuters", "parent_company": "Thomson Reuters"},
-    "wsj.com": {"publisher": "The Wall Street Journal", "parent_company": "Dow Jones"},
-    "barrons.com": {"publisher": "Barron's", "parent_company": "Dow Jones"},
-    "ft.com": {"publisher": "Financial Times", "parent_company": "Nikkei"},
-    "asia.nikkei.com": {"publisher": "Nikkei Asia", "parent_company": "Nikkei"},
-    "theinformation.com": {"publisher": "The Information", "parent_company": "The Information"},
-    "cnbc.com": {"publisher": "CNBC", "parent_company": "Versant"},
-    "economist.com": {"publisher": "The Economist", "parent_company": "The Economist Group"},
-    "axios.com": {"publisher": "Axios", "parent_company": "Cox Enterprises"}
+    "bloomberg.com": {
+      "publisher": "Bloomberg",
+      "parent_company": "Bloomberg L.P."
+    },
+    "reuters.com": {
+      "publisher": "Reuters",
+      "parent_company": "Thomson Reuters"
+    },
+    "wsj.com": {
+      "publisher": "The Wall Street Journal",
+      "parent_company": "Dow Jones"
+    },
+    "barrons.com": {
+      "publisher": "Barron's",
+      "parent_company": "Dow Jones"
+    },
+    "ft.com": {
+      "publisher": "Financial Times",
+      "parent_company": "Nikkei"
+    },
+    "asia.nikkei.com": {
+      "publisher": "Nikkei Asia",
+      "parent_company": "Nikkei"
+    },
+    "theinformation.com": {
+      "publisher": "The Information",
+      "parent_company": "The Information"
+    },
+    "cnbc.com": {
+      "publisher": "CNBC",
+      "parent_company": "Versant"
+    },
+    "economist.com": {
+      "publisher": "The Economist",
+      "parent_company": "The Economist Group"
+    },
+    "axios.com": {
+      "publisher": "Axios",
+      "parent_company": "Cox Enterprises"
+    }
   },
   "market_data": {
-    "finance.yahoo.com": {"publisher": "Yahoo Finance", "supports_only": "market_value"},
-    "query1.finance.yahoo.com": {"publisher": "Yahoo Finance", "supports_only": "market_value"},
-    "query2.finance.yahoo.com": {"publisher": "Yahoo Finance", "supports_only": "market_value"}
+    "finance.yahoo.com": {
+      "publisher": "Yahoo Finance",
+      "supports_only": "market_value"
+    },
+    "query1.finance.yahoo.com": {
+      "publisher": "Yahoo Finance",
+      "supports_only": "market_value"
+    },
+    "query2.finance.yahoo.com": {
+      "publisher": "Yahoo Finance",
+      "supports_only": "market_value"
+    }
   },
-  "excluded": ["substack.com", "medium.com", "seekingalpha.com", "fool.com", "zacks.com", "investorplace.com", "benzinga.com", "wikipedia.org", "reddit.com", "x.com", "twitter.com", "youtube.com", "prnewswire.com", "businesswire.com", "globenewswire.com"]
+  "excluded": [
+    "substack.com",
+    "medium.com",
+    "seekingalpha.com",
+    "fool.com",
+    "zacks.com",
+    "investorplace.com",
+    "benzinga.com",
+    "wikipedia.org",
+    "reddit.com",
+    "x.com",
+    "twitter.com",
+    "youtube.com",
+    "prnewswire.com",
+    "businesswire.com",
+    "globenewswire.com"
+  ]
 }

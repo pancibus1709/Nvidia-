@@ -1,0 +1,1515 @@
+{
+ "entity": {
+  "name": "CoreWeave, Inc.",
+  "ticker": "CRWV",
+  "cik": "0001769628",
+  "state": "Delaware",
+  "as_of": "2026-09-30",
+  "revenue_q3_2026": {
+   "value": 3661000000,
+   "evidence": [
+    "ev_20115"
+   ]
+  },
+  "revenue_9m_2026": {
+   "value": 8314000000,
+   "evidence": [
+    "ev_20116"
+   ]
+  },
+  "revenue_fy2025": {
+   "value": 5100000000,
+   "evidence": [
+    "ev_20124"
+   ]
+  },
+  "property_and_equipment_net": {
+   "value": 56778000000,
+   "evidence": [
+    "ev_20107"
+   ]
+  },
+  "accumulated_deficit": {
+   "value": 4700000000,
+   "evidence": [
+    "ev_20110"
+   ]
+  },
+  "class_a_shares_outstanding_2026_07_31": {
+   "value": 458871690,
+   "evidence": [
+    "ev_20040"
+   ]
+  },
+  "active_power_mw_2025_12_31": {
+   "value": 850,
+   "evidence": [
+    "ev_20120"
+   ]
+  },
+  "data_centers_2025_12_31": 43,
+  "active_power_gw_q2_2026": {
+   "value": 1.5,
+   "evidence": [
+    "ev_20186"
+   ]
+  },
+  "active_data_centers_q2_2026": {
+   "value": 51,
+   "evidence": [
+    "ev_20185"
+   ]
+  },
+  "contracted_power_gw": [
+   {
+    "value": 3.1,
+    "evidence": [
+     "ev_20121"
+    ],
+    "as_of": "2025-12-31"
+   },
+   {
+    "value": 3.7,
+    "evidence": [
+     "ev_20042"
+    ],
+    "as_of": "2026-06-30"
+   },
+   {
+    "value": 4.2,
+    "evidence": [
+     "ev_20041"
+    ],
+    "as_of": "2026-08-11"
+   }
+  ],
+  "gpu_depreciation_life_years": {
+   "value": 6,
+   "evidence": [
+    "ev_20130"
+   ],
+   "note": "computing equipment changed from five to six years effective 2023-01-01"
+  },
+  "all_gpus_nvidia": {
+   "value": true,
+   "evidence": [
+    "ev_20127",
+    "ev_20128"
+   ]
+  },
+  "material_weakness": {
+   "value": true,
+   "evidence": [
+    "ev_20132",
+    "ev_20148"
+   ],
+   "note": "ITGC/accounting material weaknesses un-remediated at 2025-12-31; disclosure controls not effective at 2026-09-30"
+  },
+  "going_concern": {
+   "value": false,
+   "evidence": [
+    "ev_20119"
+   ],
+   "note": "management states liquidity sufficient for one year; no going-concern language found"
+  },
+  "covenant_compliance": {
+   "value": true,
+   "evidence": [
+    "ev_20074"
+   ],
+   "as_of": "2026-09-30"
+  },
+  "litigation": {
+   "description": "Securities class action Masaitis v. CoreWeave (D.N.J., filed 2026-01-12) and derivative actions",
+   "evidence": [
+    "ev_20198"
+   ]
+  },
+  "ratings": [
+   {
+    "instrument": "DDTL 4.0 Facility",
+    "agency": "Moody's / DBRS",
+    "rating": "A3 / A (low)",
+    "date": "2026-03-31",
+    "evidence": [
+     "ev_20169"
+    ]
+   },
+   {
+    "instrument": "DDTL 5.0 Facility",
+    "agency": "Moody's / Fitch",
+    "rating": "Ba2 / BB+",
+    "date": "2026-05-18",
+    "evidence": [
+     "ev_20177"
+    ]
+   },
+   {
+    "instrument": "DDTL 5.5 Facility",
+    "agency": "Moody's / Fitch",
+    "rating": "Ba2 / BB+",
+    "date": "2026-08-10",
+    "evidence": [
+     "ev_20155"
+    ]
+   },
+   {
+    "instrument": "CoreWeave, Inc. corporate / senior notes",
+    "agency": null,
+    "rating": null,
+    "date": null,
+    "evidence": [],
+    "note": "not found in SEC filings read"
+   }
+  ]
+ },
+ "nvidia_shareholding": [
+  {
+   "as_of": "2025-03 (pre-IPO, 424B4 table as of 2025-03-15)",
+   "shares": {
+    "value": 17932460,
+    "evidence": [
+     "ev_20030"
+    ]
+   },
+   "percent_class_a": {
+    "value": 5.96,
+    "evidence": [
+     "ev_20031"
+    ]
+   },
+   "class": "Class A common",
+   "source": "424B4 2025-03-31"
+  },
+  {
+   "as_of": "post-IPO pro forma (424B4)",
+   "shares": {
+    "value": 17932460,
+    "evidence": [
+     "ev_20030"
+    ]
+   },
+   "percent_class_a": {
+    "value": 5.18,
+    "evidence": [
+     "ev_20032"
+    ]
+   },
+   "class": "Class A common",
+   "note": "table excludes any NVIDIA purchase in the IPO"
+  },
+  {
+   "as_of": "2025-03-31",
+   "shares": {
+    "value": 24182460,
+    "evidence": [
+     "ev_20017"
+    ]
+   },
+   "percent_class_a": {
+    "value": 7.0,
+    "evidence": [
+     "ev_20018"
+    ]
+   },
+   "class": "Class A common",
+   "source": "NVIDIA Schedule 13G filed 2025-05-15 (Rule 13d-1(d))"
+  },
+  {
+   "as_of": "2026-01-23",
+   "transaction": "private placement purchase",
+   "shares_purchased": {
+    "value": 22935780,
+    "evidence": [
+     "ev_20008"
+    ]
+   },
+   "price_per_share": {
+    "value": 87.2,
+    "evidence": [
+     "ev_20009"
+    ]
+   },
+   "aggregate": {
+    "value": 2000000000,
+    "evidence": [
+     "ev_20010",
+     "ev_20014",
+     "ev_20114",
+     "ev_20145"
+    ]
+   },
+   "type_guess": "EQ"
+  },
+  {
+   "as_of": "2026-01-23",
+   "shares": {
+    "value": 47213353,
+    "evidence": [
+     "ev_20019"
+    ]
+   },
+   "percent_class_a": {
+    "value": 11.5,
+    "evidence": [
+     "ev_20020"
+    ]
+   },
+   "class": "Class A common",
+   "source": "NVIDIA Schedule 13G/A No.1 filed 2026-01-26 (Rule 13d-1(c), passive)",
+   "evidence_extra": [
+    "ev_20021"
+   ]
+  },
+  {
+   "as_of": "2026-04-15 (proxy table base; holdings per 13G/A of 2026-01-23)",
+   "shares": {
+    "value": 47213353,
+    "evidence": [
+     "ev_20022"
+    ]
+   },
+   "percent_class_a": {
+    "value": 10.66,
+    "evidence": [
+     "ev_20023"
+    ]
+   },
+   "percent_total_voting_power": {
+    "value": 3.27,
+    "evidence": [
+     "ev_20024"
+    ]
+   },
+   "source": "DEF 14A 2026-04-22"
+  },
+  {
+   "analysis": true,
+   "note": "IPO purchase inferred, not stated by CoreWeave: 24,182,460 - 17,932,460 = 6,250,000 shares; at the $40.00 IPO price = $250,000,000. 13G/A total 47,213,353 exceeds 24,182,460 + 22,935,780 = 47,118,240 by 95,113 shares (unexplained). At 458,871,690 Class A shares (2026-07-31, ev_20040) 47,213,353 = 10.29% (analysis, assumes no change since 2026-01-23).",
+   "evidence": [
+    "ev_20017",
+    "ev_20030",
+    "ev_20019",
+    "ev_20008",
+    "ev_20040"
+   ]
+  }
+ ],
+ "nvidia_agreements": [
+  {
+   "date": "2025-09-09",
+   "description": "Order form under NVIDIA MSA (dated 2023-04-10): NVIDIA obligated to purchase residual unsold CoreWeave cloud capacity",
+   "type_guess": "BK",
+   "order_value": {
+    "value": 6300000000,
+    "evidence": [
+     "ev_20001"
+    ]
+   },
+   "end_date": "2032-04-13",
+   "wording": "which has an initial value of $6.3 billion, that establishes an arrangement with respect to the sale by the Company of reserved cloud computing capacity to its customers and provides NVIDIA access to any residual unsold cloud computing capacity. ... NVIDIA is obligated to purchase the residual unsold capacity through April 13, 2032, subject to any termination described below and satisfaction of delivery and availability of service requirements.",
+   "residual_unsold_obligation": true,
+   "interaction_with_other_customers": "CoreWeave sells reserved capacity to its own customers first; NVIDIA buys what is not utilized (ev_20001, ev_20004). Analysis: RPO variable-consideration language on 'committed cloud computing capacity that the Company has the right to resell' (ev_20097) is consistent with this structure but CoreWeave does not tie it to NVIDIA.",
+   "in_rpo": null,
+   "in_rpo_note": "not stated in any 10-Q/10-K read",
+   "termination": "either party on 30 days' notice of breach, or if the other party is in an insolvency proceeding not dismissed within 90 days; on termination customer released of payment for post-termination services (ev_20006, ev_20015)",
+   "conditions": "delivery and availability of service requirements (ev_20005)",
+   "evidence": [
+    "ev_20001",
+    "ev_20002",
+    "ev_20003",
+    "ev_20004",
+    "ev_20005",
+    "ev_20006",
+    "ev_20007",
+    "ev_20015",
+    "ev_20016",
+    "ev_20190",
+    "ev_20146"
+   ]
+  },
+  {
+   "date": "2023-04-10",
+   "description": "Master Services Agreement: CoreWeave provides infrastructure and platform services to NVIDIA through order forms (capacity rental)",
+   "type_guess": "LB",
+   "order_value": {
+    "value": null,
+    "evidence": []
+   },
+   "payments": [
+    {
+     "value": 320000000,
+     "evidence": [
+      "ev_20033"
+     ],
+     "period": "cumulative to 2024-12-31"
+    },
+    {
+     "value": 326300000,
+     "evidence": [
+      "ev_20025"
+     ],
+     "period": "FY2025"
+    },
+    {
+     "value": 59600000,
+     "evidence": [
+      "ev_20026"
+     ],
+     "period": "Q1 2026"
+    }
+   ],
+   "end_date": "until all order forms expire or terminate",
+   "wording": "we provide NVIDIA with our infrastructure and platform services through fulfillment of order forms submitted to us by NVIDIA",
+   "revenue_share_note": "analysis: FY2025 payments $326.3m / revenue $5.1bn = ~6.4% (payments, not recognized revenue)",
+   "evidence": [
+    "ev_20029",
+    "ev_20033",
+    "ev_20025",
+    "ev_20026",
+    "ev_20016",
+    "ev_20028"
+   ]
+  },
+  {
+   "date": "2026-01-23",
+   "description": "Securities Purchase Agreement: NVIDIA bought 22,935,780 Class A shares at $87.20 for $2.0bn cash",
+   "type_guess": "EQ",
+   "order_value": {
+    "value": 2000000000,
+    "evidence": [
+     "ev_20010",
+     "ev_20014"
+    ]
+   },
+   "end_date": null,
+   "wording": "completed the issuance and sale of 22,935,780 shares ... at a price of $87.20 per share for an aggregate purchase price of $2 billion in cash",
+   "evidence": [
+    "ev_20008",
+    "ev_20009",
+    "ev_20010",
+    "ev_20014",
+    "ev_20114",
+    "ev_20145"
+   ]
+  },
+  {
+   "date": "2026-01-23",
+   "description": "Collaboration framework: accelerate CoreWeave buildout of >5 GW of AI factories by 2030; 'leverage NVIDIA's financial strength' for land, power and shell. Headline only, no amount, subject to future agreements/order forms",
+   "type_guess": "BK",
+   "order_value": {
+    "value": null,
+    "evidence": []
+   },
+   "end_date": "2030 (target)",
+   "wording": "Leverage NVIDIA's financial strength to accelerate CoreWeave's procurement of land, power and shell",
+   "status": "framework / intent (headline only)",
+   "evidence": [
+    "ev_20011",
+    "ev_20012",
+    "ev_20013"
+   ]
+  }
+ ],
+ "nvidia_supplier": {
+  "all_gpus_nvidia": [
+   "ev_20127"
+  ],
+  "customers_specify_nvidia": [
+   "ev_20128"
+  ],
+  "share_of_purchases_fy2025": {
+   "value": 17,
+   "evidence": [
+    "ev_20027",
+    "ev_20129"
+   ]
+  },
+  "nvidia_financing_to_coreweave": null,
+  "note": "No NVIDIA-provided financing, allocation or payment terms found in filings read. OEM financing ($7.4bn) counterparties not named."
+ },
+ "debt_facilities": [
+  {
+   "facility": "DDTL 1.0 (CCAC II)",
+   "committed": {
+    "value": 2300000000,
+    "evidence": [
+     "ev_20133"
+    ]
+   },
+   "drawn": {
+    "value": 1139000000,
+    "evidence": [
+     "ev_20045"
+    ]
+   },
+   "rate": "effective 15%",
+   "maturity": "2028-03-28",
+   "collateral": "equity and substantially all assets of borrower SPV (GPU servers, customer contracts)",
+   "lenders": [
+    "Blackstone",
+    "Magnetar (per IPO prospectus)"
+   ],
+   "covenants": "restricted cash; negative covenants",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20045",
+    "ev_20133",
+    "ev_20143",
+    "ev_20147",
+    "ev_20138"
+   ]
+  },
+  {
+   "facility": "DDTL 2.0 (CCAC IV)",
+   "committed": {
+    "value": 7600000000,
+    "evidence": [
+     "ev_20134"
+    ]
+   },
+   "drawn": {
+    "value": 2796000000,
+    "evidence": [
+     "ev_20046"
+    ]
+   },
+   "rate": "effective 11%",
+   "maturity": "Aug 2030 (5 yrs after each draw)",
+   "collateral": "SPV equity and assets; sized on depreciable cost of GPU servers",
+   "lenders": [
+    "Blackstone",
+    "Magnetar (lead)"
+   ],
+   "covenants": "restricted cash based on drawn amounts",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20046",
+    "ev_20134",
+    "ev_20147",
+    "ev_20144",
+    "ev_20038"
+   ]
+  },
+  {
+   "facility": "DDTL 2.1 (tranche of DDTL 2.0)",
+   "committed": {
+    "value": 3000000000,
+    "evidence": [
+     "ev_20135"
+    ]
+   },
+   "drawn": {
+    "value": 2494000000,
+    "evidence": [
+     "ev_20047"
+    ]
+   },
+   "rate": "SOFR + 4.25%",
+   "maturity": "Mar 2031",
+   "collateral": "as DDTL 2.0",
+   "lenders": [],
+   "covenants": "as DDTL 2.0",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20047",
+    "ev_20135",
+    "ev_20140"
+   ]
+  },
+  {
+   "facility": "DDTL 3.0 (CCAC V / CCAC VII)",
+   "committed": {
+    "value": 2600000000,
+    "evidence": [
+     "ev_20136"
+    ]
+   },
+   "drawn": {
+    "value": 2323000000,
+    "evidence": [
+     "ev_20048"
+    ]
+   },
+   "rate": "SOFR + 4.00%",
+   "maturity": "Aug 2030",
+   "collateral": "SPV assets; backed by OpenAI MSA of 2025-03-07, order form 'Phoenix 1'",
+   "lenders": [
+    "MUFG Bank (admin agent)",
+    "U.S. Bank Trust (collateral agent)"
+   ],
+   "covenants": "DSCR (first test postponed to 2027-10-31), contract realization ratio, minimum liquidity ($100m Mar-May 2026 after amendment); unlimited equity cures before 2026-10-28",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20048",
+    "ev_20136",
+    "ev_20141",
+    "ev_20205",
+    "ev_20201",
+    "ev_20202",
+    "ev_20203",
+    "ev_20204",
+    "ev_20207",
+    "ev_20208",
+    "ev_20209",
+    "ev_20211"
+   ]
+  },
+  {
+   "facility": "DDTL 4.0 (CCAC VIII, non-recourse)",
+   "committed": {
+    "value": 8500000000,
+    "evidence": [
+     "ev_20075"
+    ]
+   },
+   "drawn": {
+    "value": 4583000000,
+    "evidence": [
+     "ev_20064"
+    ]
+   },
+   "rate": "SOFR + 2.25% floating; ~5.9% fixed tranche",
+   "maturity": "2032-03-31",
+   "collateral": "CCAC VIII equity and substantially all assets ($5.2bn non-current); single customer contract with a 'leading AI enterprise' (unnamed)",
+   "lenders": [
+    "MUFG Bank (admin agent)",
+    "Morgan Stanley Asset Funding (co-lead)"
+   ],
+   "covenants": "DSCR >= 1.15x; 3-month forward restricted cash; 95% hedging; parent guarantee limited to bad acts",
+   "rating": "A3 (Moody's) / A (low) (DBRS)",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20064",
+    "ev_20075",
+    "ev_20076",
+    "ev_20077",
+    "ev_20078",
+    "ev_20079",
+    "ev_20080",
+    "ev_20164",
+    "ev_20165",
+    "ev_20166",
+    "ev_20167",
+    "ev_20168",
+    "ev_20169",
+    "ev_20170",
+    "ev_20171",
+    "ev_20172"
+   ]
+  },
+  {
+   "facility": "DDTL 5.0 (CoreWeave Financing DDTL V)",
+   "committed": {
+    "value": 3100000000,
+    "evidence": [
+     "ev_20081"
+    ]
+   },
+   "drawn": {
+    "value": 2749000000,
+    "evidence": [
+     "ev_20049"
+    ]
+   },
+   "rate": "SOFR + 4.50%",
+   "maturity": "2031-11-15",
+   "collateral": "borrower equity and assets; contracts with two large non-investment-grade customers",
+   "lenders": [
+    "Morgan Stanley Senior Funding (admin agent)",
+    "MUFG (co-lead)"
+   ],
+   "covenants": "DSCR >= 1.35x; cross-default; material contract EoD",
+   "rating": "Ba2 / BB+",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20049",
+    "ev_20081",
+    "ev_20082",
+    "ev_20085",
+    "ev_20174",
+    "ev_20175",
+    "ev_20176",
+    "ev_20177",
+    "ev_20178"
+   ]
+  },
+  {
+   "facility": "DDTL 5.5 (CoreWeave Financing DDTL V-V)",
+   "committed": {
+    "value": 2600000000,
+    "evidence": [
+     "ev_20083"
+    ]
+   },
+   "drawn": {
+    "value": 1555000000,
+    "evidence": [
+     "ev_20050"
+    ]
+   },
+   "rate": "Term SOFR + 5.50%",
+   "maturity": "2031-09-01",
+   "collateral": "borrower equity and assets; five initial customer MSAs (names redacted), contracts avg ~3 years",
+   "lenders": [
+    "JPMorgan Chase (admin agent)",
+    "MUFG (joint lead)",
+    "bookrunners: Citigroup, Credit Agricole, Deutsche Bank, Goldman Sachs, Morgan Stanley, PNC, Societe Generale, SMBC, TD, U.S. Bank, Wells Fargo"
+   ],
+   "covenants": "DSCR >= 1.35x; excess cash sweep to $1.3bn; prepayment on customer contract events; cross-default > $35m; Qualified Customer = borrower-certified capability (no rating floor); NVIDIA not named",
+   "rating": "Ba2 / BB+",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20050",
+    "ev_20083",
+    "ev_20084",
+    "ev_20094",
+    "ev_20149",
+    "ev_20150",
+    "ev_20151",
+    "ev_20152",
+    "ev_20153",
+    "ev_20154",
+    "ev_20155",
+    "ev_20156",
+    "ev_20158",
+    "ev_20159",
+    "ev_20160",
+    "ev_20161",
+    "ev_20162",
+    "ev_20163"
+   ]
+  },
+  {
+   "facility": "Revolving Credit Facility",
+   "committed": {
+    "value": 2500000000,
+    "evidence": [
+     "ev_20137"
+    ]
+   },
+   "drawn": {
+    "value": 1200000000,
+    "evidence": [
+     "ev_20059"
+    ]
+   },
+   "rate": "effective 7%",
+   "maturity": "Nov 2029",
+   "collateral": "pledges of certain assets",
+   "lenders": [],
+   "covenants": "amended Nov 2025; LCs $546m reduce availability; undrawn remaining $754m",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20059",
+    "ev_20137",
+    "ev_20088",
+    "ev_20089"
+   ]
+  },
+  {
+   "facility": "2030 Senior Notes 9.25%",
+   "committed": {
+    "value": 2000000000,
+    "evidence": [
+     "ev_20051"
+    ]
+   },
+   "drawn": {
+    "value": 2000000000,
+    "evidence": [
+     "ev_20051"
+    ]
+   },
+   "rate": "9.25%",
+   "maturity": "2030-06-01",
+   "collateral": "unsecured; subsidiary guarantees",
+   "lenders": [
+    "144A holders"
+   ],
+   "covenants": "high-yield incurrence covenants; 101% change of control",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20051",
+    "ev_20142",
+    "ev_20093",
+    "ev_20179"
+   ]
+  },
+  {
+   "facility": "2031 9.00% Senior Notes",
+   "committed": {
+    "value": 1750000000,
+    "evidence": [
+     "ev_20052"
+    ]
+   },
+   "drawn": {
+    "value": 1750000000,
+    "evidence": [
+     "ev_20052"
+    ]
+   },
+   "rate": "9.00%",
+   "maturity": "2031-02-01",
+   "collateral": "unsecured",
+   "lenders": [],
+   "covenants": "indenture",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20052",
+    "ev_20093"
+   ]
+  },
+  {
+   "facility": "2031 9.75% Senior Notes",
+   "committed": {
+    "value": 2750000000,
+    "evidence": [
+     "ev_20053"
+    ]
+   },
+   "drawn": {
+    "value": 2750000000,
+    "evidence": [
+     "ev_20053"
+    ]
+   },
+   "rate": "9.75%",
+   "maturity": "2031-10-01",
+   "collateral": "unsecured; subsidiary guarantees",
+   "lenders": [],
+   "covenants": "indenture; 101% change of control put",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20053",
+    "ev_20180",
+    "ev_20179",
+    "ev_20181"
+   ]
+  },
+  {
+   "facility": "2032 9.625% Senior Notes",
+   "committed": {
+    "value": 1250000000,
+    "evidence": [
+     "ev_20054"
+    ]
+   },
+   "drawn": {
+    "value": 1250000000,
+    "evidence": [
+     "ev_20054"
+    ]
+   },
+   "rate": "9.625%",
+   "maturity": "2032-07-15",
+   "collateral": "unsecured",
+   "lenders": [],
+   "covenants": "indenture",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20054"
+   ]
+  },
+  {
+   "facility": "2032 EUR Senior Notes 8.50% (EUR 2.0bn)",
+   "committed": {
+    "value": 2272000000,
+    "evidence": [
+     "ev_20055"
+    ]
+   },
+   "drawn": {
+    "value": 2272000000,
+    "evidence": [
+     "ev_20055"
+    ]
+   },
+   "rate": "8.50% (hedged via cross-currency swaps)",
+   "maturity": "2032-07-15",
+   "collateral": "unsecured",
+   "lenders": [],
+   "covenants": "indenture",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20055"
+   ]
+  },
+  {
+   "facility": "2031 Convertible Senior Notes 1.75%",
+   "committed": {
+    "value": 2588000000,
+    "evidence": [
+     "ev_20056"
+    ]
+   },
+   "drawn": {
+    "value": 2588000000,
+    "evidence": [
+     "ev_20056"
+    ]
+   },
+   "rate": "1.75%",
+   "maturity": "2031-12-01",
+   "collateral": "unsecured",
+   "lenders": [],
+   "covenants": "indenture",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20056"
+   ]
+  },
+  {
+   "facility": "2032 Convertible Senior Notes 1.75%",
+   "committed": {
+    "value": 4000000000,
+    "evidence": [
+     "ev_20057"
+    ]
+   },
+   "drawn": {
+    "value": 4000000000,
+    "evidence": [
+     "ev_20057"
+    ]
+   },
+   "rate": "1.75%; conversion ~$119.60",
+   "maturity": "2032-10-01",
+   "collateral": "unsecured",
+   "lenders": [],
+   "covenants": "indenture",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20057",
+    "ev_20091"
+   ]
+  },
+  {
+   "facility": "2033 Convertible Senior Notes 2.875%",
+   "committed": {
+    "value": 4200000000,
+    "evidence": [
+     "ev_20058"
+    ]
+   },
+   "drawn": {
+    "value": 4200000000,
+    "evidence": [
+     "ev_20058"
+    ]
+   },
+   "rate": "2.875%; conversion ~$97.85",
+   "maturity": "2033-04-01",
+   "collateral": "unsecured; subsidiary guarantees",
+   "lenders": [],
+   "covenants": "indenture",
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20058",
+    "ev_20092"
+   ]
+  },
+  {
+   "facility": "OEM and Software License Financing (recourse)",
+   "committed": {
+    "value": null,
+    "evidence": []
+   },
+   "drawn": {
+    "value": 6891000000,
+    "evidence": [
+     "ev_20060"
+    ]
+   },
+   "rate": "~10%",
+   "maturity": "Dec 2026 - Jul 2030",
+   "collateral": "equipment financed",
+   "lenders": [
+    "OEMs not named"
+   ],
+   "covenants": null,
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20060",
+    "ev_20090"
+   ]
+  },
+  {
+   "facility": "OEM Financing (non-recourse)",
+   "committed": {
+    "value": null,
+    "evidence": []
+   },
+   "drawn": {
+    "value": 770000000,
+    "evidence": [
+     "ev_20065"
+    ]
+   },
+   "rate": "~9%",
+   "maturity": "Oct 2026 - Aug 2028",
+   "collateral": "subsidiary assets",
+   "lenders": [],
+   "covenants": null,
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20065"
+   ]
+  },
+  {
+   "facility": "Magnetar Loan (MagAI Capacity Agreement)",
+   "committed": {
+    "value": null,
+    "evidence": []
+   },
+   "drawn": {
+    "value": 195000000,
+    "evidence": [
+     "ev_20061"
+    ]
+   },
+   "rate": "~12%",
+   "maturity": "Jan 2029",
+   "collateral": null,
+   "lenders": [
+    "Magnetar / MagAI Ventures"
+   ],
+   "covenants": null,
+   "as_of": "2026-09-30",
+   "evidence": [
+    "ev_20061"
+   ]
+  }
+ ],
+ "debt_totals": {
+  "as_of": "2026-09-30",
+  "recourse_net": {
+   "value": 41600000000,
+   "evidence": [
+    "ev_20062"
+   ]
+  },
+  "recourse_current": {
+   "value": 9183000000,
+   "evidence": [
+    "ev_20063"
+   ]
+  },
+  "non_recourse_net": {
+   "value": 5273000000,
+   "evidence": [
+    "ev_20066"
+   ]
+  },
+  "non_recourse_current": {
+   "value": 1389000000,
+   "evidence": [
+    "ev_20067"
+   ]
+  },
+  "total_principal": {
+   "value": 47505000000,
+   "evidence": [
+    "ev_20071"
+   ]
+  },
+  "principal_due": {
+   "rest_of_2026": {
+    "value": 2433000000,
+    "evidence": [
+     "ev_20068"
+    ]
+   },
+   "2027": {
+    "value": 10974000000,
+    "evidence": [
+     "ev_20069"
+    ]
+   },
+   "2028": {
+    "value": 5479000000,
+    "evidence": [
+     "ev_20070"
+    ]
+   }
+  },
+  "interest_expense_q3_2026": {
+   "value": 769000000,
+   "evidence": [
+    "ev_20073"
+   ]
+  },
+  "interest_expense_9m_2026": {
+   "value": 1754000000,
+   "evidence": [
+    "ev_20072"
+   ]
+  },
+  "spv_collateral_noncurrent": {
+   "value": 22200000000,
+   "evidence": [
+    "ev_20086"
+   ]
+  },
+  "analysis": "Debt due within 24 months (Oct 2026-Sep 2028), approx: 2,433 + 10,974 + 0.75 x 5,479 = ~$17.5bn (pro-rated, analysis). Current portion (12 months) = 9,183 + 1,389 = $10.6bn. Ratio 24m maturities / (cash + marketable + undrawn = $9.84bn) = ~1.78x (analysis)."
+ },
+ "liquidity": {
+  "as_of": "2026-09-30",
+  "cash": {
+   "value": 4122000000,
+   "evidence": [
+    "ev_20104"
+   ]
+  },
+  "restricted_cash_current": {
+   "value": 1405000000,
+   "evidence": [
+    "ev_20105"
+   ]
+  },
+  "restricted_cash_noncurrent": {
+   "value": 877000000,
+   "evidence": [
+    "ev_20106"
+   ]
+  },
+  "undrawn_committed": {
+   "value": 5653000000,
+   "evidence": [
+    "ev_20108"
+   ]
+  },
+  "total_liquidity_company_defined": {
+   "value": 9837000000,
+   "evidence": [
+    "ev_20109"
+   ]
+  },
+  "operating_cash_flow_9m": {
+   "value": 5638000000,
+   "evidence": [
+    "ev_20112"
+   ]
+  },
+  "investing_cash_outflow_9m": {
+   "value": 24710000000,
+   "evidence": [
+    "ev_20111"
+   ]
+  },
+  "other_purchase_commitments": {
+   "value": 4000000000,
+   "evidence": [
+    "ev_20113"
+   ]
+  },
+  "leases_not_yet_commenced_undiscounted": {
+   "value": 47400000000,
+   "evidence": [
+    "ev_20196"
+   ]
+  },
+  "operating_lease_liabilities_2025_12_31": {
+   "value": 8200000000,
+   "evidence": [
+    "ev_20139"
+   ]
+  },
+  "equity_atm_program_shares": {
+   "value": 35000000,
+   "evidence": [
+    "ev_20039"
+   ]
+  },
+  "deferred_revenue": {
+   "value": 10000000000,
+   "evidence": [
+    "ev_20117"
+   ]
+  },
+  "deferred_revenue_reclassified_cancellable": {
+   "value": 1900000000,
+   "evidence": [
+    "ev_20118",
+    "ev_20098"
+   ]
+  },
+  "analysis": "Next-12-month capex commitment total is not disclosed. Annualizing 9M investing outflow ($24.7bn -> ~$33bn/yr) against $9.84bn liquidity gives ~3.6 months of cover before operating cash flow and new financing (analysis, crude)."
+ },
+ "customer_concentration": {
+  "q3_2026": {
+   "top_customer": {
+    "value": 30,
+    "evidence": [
+     "ev_20099",
+     "ev_20101"
+    ]
+   },
+   "second_customer": {
+    "value": 24,
+    "evidence": [
+     "ev_20101"
+    ]
+   },
+   "note": "names not given; top two = ~54% (analysis); no other customer >=10%"
+  },
+  "9m_2026": {
+   "customer_a": {
+    "value": 33,
+    "evidence": [
+     "ev_20100"
+    ]
+   }
+  },
+  "fy2025": {
+   "top_customer_microsoft": {
+    "value": 67,
+    "evidence": [
+     "ev_20125"
+    ]
+   }
+  },
+  "fy2024": {
+   "top_customer_microsoft": {
+    "value": 62,
+    "evidence": [
+     "ev_20035"
+    ]
+   },
+   "top_two": {
+    "value": 77,
+    "evidence": [
+     "ev_20036"
+    ]
+   }
+  },
+  "nvidia_share_of_revenue": {
+   "value": null,
+   "evidence": [],
+   "note": "not disclosed; FY2025 NVIDIA payments $326.3m (ev_20025) vs revenue $5.1bn (ev_20124) = ~6.4% (analysis)"
+  },
+  "named_contracts": [
+   {
+    "customer": "OpenAI",
+    "amount": {
+     "value": 11900000000,
+     "evidence": [
+      "ev_20199"
+     ]
+    },
+    "term": "through Oct 2030",
+    "date": "2025-03 MSA"
+   },
+   {
+    "customer": "OpenAI",
+    "amount": {
+     "value": 6500000000,
+     "evidence": [
+      "ev_20102"
+     ]
+    },
+    "term": "through 2031-05-31",
+    "date": "2025-09 order form"
+   },
+   {
+    "customer": "Meta",
+    "amount": {
+     "value": 21000000000,
+     "evidence": [
+      "ev_20103"
+     ]
+    },
+    "term": "through 2032-12-20 (incl. option to 2032-04-10)",
+    "date": "2026-03 order form",
+    "supersedes": "Meta up to $14.2bn through Dec 2031 (ev_20126)"
+   },
+   {
+    "customer": "Microsoft",
+    "amount": {
+     "value": null,
+     "evidence": []
+    },
+    "term": null,
+    "date": "MSA 2023-02-22",
+    "evidence": [
+     "ev_20200"
+    ]
+   }
+  ]
+ },
+ "rpo": {
+  "rpo_2026_09_30": {
+   "value": 132300000000,
+   "evidence": [
+    "ev_20095"
+   ]
+  },
+  "pct_within_24_months": {
+   "value": 36,
+   "evidence": [
+    "ev_20096"
+   ]
+  },
+  "rpo_2025_12_31": {
+   "value": 60700000000,
+   "evidence": [
+    "ev_20122"
+   ]
+  },
+  "revenue_backlog_non_gaap_q2_2026": {
+   "value": 104200000000,
+   "evidence": [
+    "ev_20184",
+    "ev_20182"
+   ],
+   "note": "stated as $104.2B; excludes >$25bn added early Q3 (ev_20043)"
+  },
+  "weighted_avg_contract_duration_years": {
+   "value": 5,
+   "evidence": [
+    "ev_20123"
+   ]
+  },
+  "variable_consideration_resell": {
+   "evidence": [
+    "ev_20097"
+   ]
+  },
+  "largest_contributors": "not disclosed by name; Meta ($21.0bn) and OpenAI ($11.9bn + $6.5bn) are named commitments",
+  "nvidia_6_3bn_in_rpo": null
+ },
+ "sites": [
+  {
+   "name": "Kenilworth, New Jersey campus (unconsolidated JV)",
+   "location": "Kenilworth, NJ",
+   "mw_contracted": null,
+   "mw_active": null,
+   "developer": "third-party infrastructure developer (85%); CoreWeave 15%",
+   "evidence": [
+    "ev_20197",
+    "ev_20212"
+   ]
+  },
+  {
+   "name": "Unnamed single leased site",
+   "mw_undelivered": {
+    "value": 453,
+    "evidence": [
+     "ev_20191"
+    ]
+   },
+   "delivery": "phases 2026 and 2028"
+  },
+  {
+   "name": "Other unnamed leased sites",
+   "mw_undelivered": {
+    "value": 354,
+    "evidence": [
+     "ev_20192"
+    ]
+   },
+   "delivery": "2026-2028"
+  },
+  {
+   "name": "DCSP data center (provider unnamed)",
+   "mw_contracted": {
+    "value": 78,
+    "evidence": [
+     "ev_20195"
+    ]
+   },
+   "financing": "CoreWeave lends up to $305m at 13% to the DCSP; 14-yr financing obligation"
+  },
+  {
+   "name": "Core Scientific sites (multiple)",
+   "mw": {
+    "value": 500,
+    "evidence": [
+     "ev_20188"
+    ]
+   },
+   "as_of": "2024-10",
+   "note": "merger terminated 2025-10-30 (ev_20187); sites not named in CoreWeave filings read"
+  },
+  {
+   "name": "OpenAI 'Phoenix 1' order form deployment (DDTL 3.0 collateral)",
+   "evidence": [
+    "ev_20207",
+    "ev_20208"
+   ],
+   "note": "order-form name, location not stated"
+  },
+  {
+   "name": "Portfolio totals",
+   "active_power": [
+    {
+     "value": 850,
+     "evidence": [
+      "ev_20120"
+     ],
+     "unit": "MW",
+     "as_of": "2025-12-31"
+    },
+    {
+     "value": 1.5,
+     "evidence": [
+      "ev_20186"
+     ],
+     "unit": "GW",
+     "as_of": "2026-08-11"
+    }
+   ],
+   "contracted": [
+    {
+     "value": 4.2,
+     "evidence": [
+      "ev_20041"
+     ],
+     "unit": "GW",
+     "as_of": "2026-08-11"
+    }
+   ],
+   "gpus": {
+    "value": 250000,
+    "evidence": [
+     "ev_20189"
+    ],
+    "as_of": "2024-12-31"
+   }
+  }
+ ],
+ "depth2": [
+  {
+   "name": "Blackstone",
+   "role": "lender",
+   "description": "Led DDTL 2.0 ($7.6bn) with Magnetar; lender under DDTL 1.0 per IPO prospectus",
+   "evidence": [
+    "ev_20147"
+   ]
+  },
+  {
+   "name": "Magnetar Financial",
+   "role": "lender / shareholder",
+   "description": "Co-led DDTL 2.0; Magnetar Loan $195m outstanding; >5% holder",
+   "evidence": [
+    "ev_20147",
+    "ev_20061"
+   ]
+  },
+  {
+   "name": "MUFG Bank",
+   "role": "lender / agent",
+   "description": "Admin agent DDTL 3.0 and DDTL 4.0; joint lead DDTL 5.0 and 5.5",
+   "evidence": [
+    "ev_20205",
+    "ev_20077",
+    "ev_20154"
+   ]
+  },
+  {
+   "name": "Morgan Stanley",
+   "role": "lender / agent",
+   "description": "Admin agent DDTL 5.0; co-lead arranger DDTL 4.0",
+   "evidence": [
+    "ev_20082",
+    "ev_20168"
+   ]
+  },
+  {
+   "name": "JPMorgan Chase",
+   "role": "lender / agent",
+   "description": "Admin agent and joint lead DDTL 5.5",
+   "evidence": [
+    "ev_20084",
+    "ev_20154"
+   ]
+  },
+  {
+   "name": "U.S. Bank Trust Company",
+   "role": "collateral agent",
+   "description": "Collateral agent DDTL 3.0, 4.0, 5.0, 5.5",
+   "evidence": [
+    "ev_20205"
+   ]
+  },
+  {
+   "name": "DDTL 5.5 bookrunners",
+   "role": "lenders",
+   "description": "Citigroup, Credit Agricole, Deutsche Bank, Goldman Sachs, Morgan Stanley, PNC, Societe Generale, SMBC, TD, U.S. Bank, Wells Fargo",
+   "evidence": [
+    "ev_20161"
+   ]
+  },
+  {
+   "name": "OpenAI",
+   "role": "offtaker backing debt",
+   "description": "March 2025 MSA order form 'Phoenix 1' is the Master Services Agreement backing DDTL 3.0; commitments $11.9bn + $6.5bn",
+   "evidence": [
+    "ev_20207",
+    "ev_20208",
+    "ev_20199",
+    "ev_20102"
+   ]
+  },
+  {
+   "name": "Meta",
+   "role": "offtaker",
+   "description": "Committed up to ~$21.0bn (March 2026 order form)",
+   "evidence": [
+    "ev_20103"
+   ]
+  },
+  {
+   "name": "Microsoft",
+   "role": "offtaker",
+   "description": "Top customer 62% (2024), 67% (2025)",
+   "evidence": [
+    "ev_20035",
+    "ev_20125"
+   ]
+  },
+  {
+   "name": "Unnamed 'leading AI enterprise'",
+   "role": "offtaker backing DDTL 4.0",
+   "description": "Single customer contract supporting investment-grade rated DDTL 4.0",
+   "evidence": [
+    "ev_20164",
+    "ev_20172"
+   ]
+  },
+  {
+   "name": "Two large non-investment-grade customers (unnamed)",
+   "role": "offtakers backing DDTL 5.0",
+   "description": "",
+   "evidence": [
+    "ev_20178"
+   ]
+  },
+  {
+   "name": "Core Scientific",
+   "role": "landlord / hosting provider",
+   "description": "~500 MW hosting for CoreWeave (Oct 2024); merger terminated 2025-10-30",
+   "evidence": [
+    "ev_20188",
+    "ev_20187"
+   ]
+  },
+  {
+   "name": "Kenilworth JV developer (unnamed)",
+   "role": "developer / JV partner",
+   "description": "85% owner of NJ campus JV",
+   "evidence": [
+    "ev_20197"
+   ]
+  },
+  {
+   "name": "Dell Marketing",
+   "role": "OEM supplier",
+   "description": "GPU server serial number documentation alongside NVIDIA in DDTL 3.0",
+   "evidence": [
+    "ev_20210"
+   ]
+  }
+ ]
+}

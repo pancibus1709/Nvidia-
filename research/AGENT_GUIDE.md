@@ -84,3 +84,21 @@ id and date, for example `$6.3 billion (ev_20007, 8-K filed 2025-09-15)`. Finish
 "Needs quote" (paywalled), "Domains to add", "Open questions".
 Your final reply to the lead is a summary of under 250 words: files written, counts, the three most
 important findings, anything that blocked you. The detail lives in the files.
+
+## Update (lead, 23 November 2026): company domains
+
+Many company domains are now in `config/sources_allowlist.json` under `tier1.company_domains`, keyed by entity id
+(`ent_<lowercase short name>`). You MAY add a missing company's own corporate domain there yourself (one entry per
+entity, the company's official website only, never a news, wire, data or aggregator site) and must list each addition
+in your report under "Domains added". This is the one exception to the "do not edit config" rule.
+
+## Update: what earlier sequences found (read before starting)
+
+- `research/reports/R1_aggregates.md` and `research/drafts/r1_aggregates.json`: Nvidia's disclosed aggregates by period.
+- `research/reports/R3_nvidia_announcements.md` and `research/drafts/r3_announcements.json`: Nvidia's own announcements.
+- `research/reports/R1_named.md` (may still be in progress): named relationships in Nvidia filings, 13F history.
+- `research/evidence/nvda_13f.txt`: Nvidia's 13F holdings by quarter.
+- `research/evidence/fulltext_hits.jsonl` (in progress): other filers' paragraphs mentioning NVIDIA near deal words
+  (`grep -i "<company>" research/evidence/fulltext_hits.jsonl | head`).
+Evidence ids created by other researchers (ev_1xxxx from R1, ev_3xxxx from R3) can be reused in your records:
+look them up with `grep '"id": "ev_30010"' research/evidence/*.jsonl`. Do not re-create evidence that exists.

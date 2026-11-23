@@ -1,0 +1,1581 @@
+{
+ "generated": "2026-11-23",
+ "namespace": "neo",
+ "companies": [
+  {
+   "name": "Nscale plc",
+   "cik": "0002110365",
+   "ticker": "NSCL (proposed)",
+   "country": "United Kingdom",
+   "relationship_found": true,
+   "source_documents": [
+    "S-1/A filed 2026-11-12 (accession 0001193125-26-458722); no 424B4 yet"
+   ],
+   "nvidia_shareholding": [
+    {
+     "instrument": "Series B Non-Default warrants",
+     "shares": {
+      "value": 9476700,
+      "evidence": "ev_40005"
+     },
+     "aggregate_value": {
+      "value": 60000000,
+      "evidence": "ev_40006"
+     },
+     "exercise_price": "$0.000167 (note) / $0.01 (RPT section) per share",
+     "date": "2025-10-14",
+     "notes": "Consideration for NVIDIA lease guarantee; exercisable from 2026-08-01; NVIDIA >5% holder after Series B (ev_40014)",
+     "evidence": [
+      "ev_40005",
+      "ev_40006",
+      "ev_40014"
+     ]
+    },
+    {
+     "instrument": "Series B Default warrants (A, B, C)",
+     "fair_value_at_issue": {
+      "value": 11300000,
+      "evidence": "ev_40007"
+     },
+     "trigger": "Relevant Default Event under Ward County lease guaranteed by NVIDIA; survive IPO, settle in Non-Voting Shares",
+     "evidence": [
+      "ev_40007"
+     ]
+    },
+    {
+     "instrument": "Pre-Series C SAFE converted to 16,346,160 Series C-3 preferred",
+     "price_paid": {
+      "value": 300000000,
+      "evidence": "ev_40008"
+     },
+     "date": "2026-03 (Series C Completion)",
+     "evidence": [
+      "ev_40008"
+     ]
+    },
+    {
+     "instrument": "Series C-4 preferred",
+     "shares": {
+      "value": 23410920,
+      "evidence": "ev_40010"
+     },
+     "price_paid": {
+      "value": 477399382.46,
+      "evidence": "ev_40009"
+     },
+     "price_per_share": "$20.39 Series C Subscription Price",
+     "date": "2026-03-27",
+     "evidence": [
+      "ev_40009",
+      "ev_40010"
+     ]
+    },
+    {
+     "instrument": "Unsecured Convertible Loan Notes (convert to Non-Voting Shares at IPO)",
+     "principal": {
+      "value": 1000000000,
+      "evidence": "ev_40011"
+     },
+     "date": "2026-09-15",
+     "evidence": [
+      "ev_40011",
+      "ev_40013"
+     ]
+    },
+    {
+     "instrument": "NVIDIA Sale: further CLNs or Non-Voting Shares",
+     "principal": {
+      "value": 1000000000,
+      "evidence": "ev_40012"
+     },
+     "date": "closing on or around 2026-11-16 (status after S-1/A not confirmed)",
+     "evidence": [
+      "ev_40012"
+     ]
+    }
+   ],
+   "nvidia_agreements": [
+    {
+     "date": "2025-07",
+     "description": "NVIDIA master cloud services agreement (NVIDIA MSA): NVIDIA buys reserved GPU cluster capacity in Iceland, UK, Norway",
+     "type_guess": "LB",
+     "value": {
+      "value": 1200000000,
+      "evidence": "ev_40001"
+     },
+     "end_date": "initial terms 12 to 48 months from service start (not stated as dates)",
+     "wording": "we provide reserved GPU cluster capacity with initial service terms ranging from 12 to 48 months, for an aggregate amount of $1.2 billion",
+     "evidence": [
+      "ev_40001",
+      "ev_40002"
+     ]
+    },
+    {
+     "date": "2025-09-16",
+     "description": "Stargate UK announced with NVIDIA, Microsoft, OpenAI; OpenAI withdrew April 2026",
+     "type_guess": "CX",
+     "value": null,
+     "end_date": null,
+     "wording": "UK AI infrastructure commitment in partnership with NVIDIA, Microsoft, and Open AI",
+     "evidence": []
+    }
+   ],
+   "nvidia_credit_support": [
+    {
+     "date": "2025-10-14",
+     "type": "GU",
+     "description": "NVIDIA Guarantee of Lease Agreement for Nscale net lease of a facility in Ward County, Texas; first five years of lease",
+     "max_amount": {
+      "value": 860340000,
+      "evidence": "ev_40003"
+     },
+     "max_amount_note": {
+      "value": 860300000,
+      "evidence": "ev_40046"
+     },
+     "recourse_to_nvidia": {
+      "escrow": {
+       "value": 470000000,
+       "evidence": "ev_40004"
+      },
+      "indemnity": "Indemnity and Undertaking Agreement from Nscale to NVIDIA"
+     },
+     "compensation": "Non-Default warrants ($60m) + Default warrants ($11.3m FV)",
+     "evidence": [
+      "ev_40003",
+      "ev_40046",
+      "ev_40004",
+      "ev_40006",
+      "ev_40007"
+     ]
+    }
+   ],
+   "nvidia_hardware_commitments": [
+    {
+     "description": "Technology equipment purchase commitments (GPUs etc. via OEMs, not NVIDIA direct)",
+     "amount": {
+      "value": 24000000000,
+      "evidence": "ev_40017"
+     },
+     "as_of": "2026-06-30",
+     "evidence": [
+      "ev_40017"
+     ]
+    },
+    {
+     "description": "Supplier concentration: three OEM suppliers 53%/37%/10% of related purchases H1 2026; NVIDIA is primary GPU manufacturer",
+     "evidence": [
+      "ev_40016",
+      "ev_40015"
+     ]
+    }
+   ],
+   "debt_facilities": [
+    {
+     "facility": "Ward County GPU Facility (DDTL)",
+     "committed": {
+      "value": 1850000000,
+      "evidence": "ev_40035"
+     },
+     "drawn": null,
+     "rate": "Term SOFR+2.375% floating / swap+2.375% fixed",
+     "maturity": "2033-02",
+     "collateral": "project-level, contracted cash flows",
+     "lenders": [
+      "JPMorgan Chase Bank",
+      "Goldman Sachs Bank USA",
+      "U.S. Bank Trust Company (agent)"
+     ],
+     "covenants": "not extracted",
+     "as_of": "2026-08",
+     "rating": "investment grade, stable (ev_40050)",
+     "evidence": [
+      "ev_40035",
+      "ev_40036",
+      "ev_40050"
+     ]
+    },
+    {
+     "facility": "North Carolina GPU Facility (DDTL)",
+     "committed": {
+      "value": 1200000000,
+      "evidence": "ev_40034"
+     },
+     "drawn": null,
+     "rate": "Term SOFR+2.375%",
+     "maturity": "2031-12",
+     "collateral": "project-level",
+     "lenders": [
+      "Goldman Sachs Bank USA",
+      "JPMorgan Chase Bank",
+      "U.S. Bank Trust Company (agent)"
+     ],
+     "covenants": "not extracted",
+     "as_of": "2026-08",
+     "evidence": [
+      "ev_40034"
+     ]
+    },
+    {
+     "facility": "GPU Financing Facility (senior secured DDTL)",
+     "committed": {
+      "value": 1400000000,
+      "evidence": "ev_40041"
+     },
+     "drawn": null,
+     "rate": "SOFR+5.00% (+0.25% step-up)",
+     "maturity": "per agreement",
+     "collateral": "substantially all assets of borrower and certain subsidiaries",
+     "lenders": [
+      "Goldman Sachs affiliate (lead arranger)",
+      "ABN AMRO affiliate",
+      "GLAS (agent)"
+     ],
+     "covenants": "financial covenants, debt/lien/distribution restrictions",
+     "as_of": "2026-02",
+     "evidence": [
+      "ev_40041"
+     ]
+    },
+    {
+     "facility": "Revolving Credit Facility",
+     "committed": {
+      "value": 900000000,
+      "evidence": "ev_40047"
+     },
+     "drawn": null,
+     "rate": "SOFR+1.75%",
+     "maturity": "3 years from effective date + 2x1yr",
+     "collateral": "GLAS collateral agent",
+     "lenders": [
+      "JPMorgan (agent)",
+      "Goldman Sachs",
+      "Morgan Stanley MUFG",
+      "RBC",
+      "BofA",
+      "Deutsche Bank",
+      "Credit Agricole",
+      "Mizuho",
+      "SMBC",
+      "TD",
+      "KeyBanc"
+     ],
+     "covenants": "not extracted",
+     "as_of": "2026-06-30",
+     "evidence": [
+      "ev_40047"
+     ]
+    },
+    {
+     "facility": "Dell Financial Services equipment lease financing",
+     "committed": {
+      "value": 2540000000,
+      "evidence": "ev_40040"
+     },
+     "drawn": null,
+     "rate": "financing charges ~$34.8m",
+     "maturity": "initial terms 3-4 months from Aug/Sep 2026 (within 24 months)",
+     "collateral": "Products and proceeds; Nscale Global Holdings guaranty",
+     "lenders": [
+      "Dell Financial Services"
+     ],
+     "covenants": null,
+     "as_of": "2026-09-04",
+     "evidence": [
+      "ev_40040"
+     ]
+    },
+    {
+     "facility": "Kvandal South DC Term Loan",
+     "committed": {
+      "value": 725000000,
+      "evidence": "ev_40038"
+     },
+     "drawn": null,
+     "rate": "SOFR+3.00-3.75%",
+     "maturity": "6 years after construction completion",
+     "collateral": "project",
+     "lenders": [
+      "ABN AMRO",
+      "DNB (agent)",
+      "Nordea",
+      "Export Finance Norway",
+      "SEB"
+     ],
+     "covenants": null,
+     "as_of": "2026-07",
+     "evidence": [
+      "ev_40038"
+     ]
+    },
+    {
+     "facility": "Kvandal South DC VAT Facility",
+     "committed": {
+      "value": 65000000,
+      "evidence": "ev_40039"
+     },
+     "drawn": null,
+     "rate": "SOFR+2.00%",
+     "maturity": "completion long-stop date",
+     "collateral": "project",
+     "lenders": [
+      "as above"
+     ],
+     "covenants": null,
+     "as_of": "2026-07",
+     "evidence": [
+      "ev_40039"
+     ]
+    },
+    {
+     "facility": "Macquarie Iceland Facility",
+     "committed": {
+      "value": 331900000,
+      "evidence": "ev_40037"
+     },
+     "drawn": null,
+     "rate": "SOFR+5.50% plus MOIC make-whole",
+     "maturity": "46 months from first utilisation",
+     "collateral": "GPU assets",
+     "lenders": [
+      "Macquarie Bank Limited"
+     ],
+     "covenants": null,
+     "as_of": "2026-07",
+     "evidence": [
+      "ev_40037"
+     ]
+    },
+    {
+     "facility": "Macquarie Senior Facility (Glomfjord)",
+     "committed": {
+      "value": 105000000,
+      "evidence": "ev_40042"
+     },
+     "drawn": "fully drawn ($70.1m Aug 2025 + $34.9m Jan 2026)",
+     "rate": null,
+     "maturity": null,
+     "collateral": "GPU cluster equipment",
+     "lenders": [
+      "Macquarie"
+     ],
+     "covenants": null,
+     "as_of": "2026-01-30",
+     "evidence": [
+      "ev_40042"
+     ]
+    },
+    {
+     "facility": "Series A Convertible Notes",
+     "committed": {
+      "value": 160000000,
+      "evidence": "ev_40043"
+     },
+     "drawn": null,
+     "rate": "12% PIK",
+     "maturity": "2029-11-18",
+     "collateral": "secured subordinated",
+     "lenders": [],
+     "covenants": null,
+     "as_of": "2024-11-18",
+     "evidence": [
+      "ev_40043"
+     ]
+    },
+    {
+     "facility": "Convertible Loan Notes (incl. NVIDIA Sale)",
+     "committed": {
+      "value": 3360000000,
+      "evidence": "ev_40013"
+     },
+     "drawn": null,
+     "rate": null,
+     "maturity": "convert at IPO",
+     "collateral": "unsecured",
+     "lenders": [
+      "several investors incl. NVIDIA"
+     ],
+     "covenants": null,
+     "as_of": "2026-09",
+     "evidence": [
+      "ev_40013"
+     ]
+    }
+   ],
+   "debt_totals": {
+    "total_debt_2026_06_30": {
+     "value": 137400000,
+     "evidence": "ev_40023"
+    },
+    "total_debt_2026_09_30_estimated": {
+     "value": 5516300000,
+     "evidence": "ev_40022"
+    }
+   },
+   "liquidity": {
+    "cash_2026_06_30": {
+     "value": 1500000000,
+     "evidence": "ev_40020"
+    },
+    "cash_2026_09_30_estimated": {
+     "value": 3575900000,
+     "evidence": "ev_40021"
+    },
+    "customer_prepayments_H1_2026": {
+     "value": 2300000000,
+     "evidence": "ev_40033"
+    },
+    "technology_purchase_commitments": {
+     "value": 24000000000,
+     "evidence": "ev_40017"
+    },
+    "data_center_build_commitments": {
+     "value": 3500000000,
+     "evidence": "ev_40018"
+    },
+    "leases_not_commenced": {
+     "value": 1400000000,
+     "evidence": "ev_40019"
+    },
+    "going_concern": "substantial doubt initially raised, management concluded alleviated (ev_40045); additional financing required for 2027 obligations (ev_40049)",
+    "evidence": [
+     "ev_40020",
+     "ev_40021",
+     "ev_40045",
+     "ev_40049"
+    ]
+   },
+   "customer_concentration": {
+    "top1_H1_2026": "52% (ev_40025)",
+    "top1_FY2025": "73% (ev_40026)",
+    "top3": null,
+    "rpo_2026_06_30": {
+     "value": 56400000000,
+     "evidence": "ev_40024"
+    }
+   },
+   "contracts": [
+    {
+     "counterparty": "Microsoft",
+     "description": "statements of work Sept 2025-Apr 2026, through Dec 2033",
+     "value": {
+      "value": 43800000000,
+      "evidence": "ev_40027"
+     },
+     "wording": "up to approximately",
+     "notes": "one $3.22bn SOW terminated (ev_40028)"
+    },
+    {
+     "counterparty": "Anthropic",
+     "description": "GPU Services Agreements Aug 25, 2026, Monarch Compute Campus, Vera Rubin NVL72",
+     "value": {
+      "value": 44600000000,
+      "evidence": "ev_40029"
+     },
+     "wording": "up to approximately",
+     "notes": "no binding financing yet (ev_40030)"
+    },
+    {
+     "counterparty": "NVIDIA",
+     "description": "NVIDIA MSA",
+     "value": {
+      "value": 1200000000,
+      "evidence": "ev_40001"
+     }
+    }
+   ],
+   "sites": [
+    {
+     "site": "Ward County, Texas (leased, NVIDIA-guaranteed lease)",
+     "financing": "Ward County GPU Facility $1.85bn; DFS schedules",
+     "nvidia_link": "GU lease guarantee",
+     "evidence": [
+      "ev_40003",
+      "ev_40035"
+     ]
+    },
+    {
+     "site": "North Carolina",
+     "financing": "NC GPU Facility $1.2bn; DFS schedules",
+     "evidence": [
+      "ev_40034"
+     ]
+    },
+    {
+     "site": "Monarch Compute Campus, Mason County, West Virginia (owned)",
+     "anchor": "Anthropic",
+     "capex": "DC $10-10.5bn (ev_40031), GPUs $21-22bn (ev_40032)",
+     "financing": "none committed",
+     "evidence": [
+      "ev_40031",
+      "ev_40032",
+      "ev_40030"
+     ]
+    },
+    {
+     "site": "Kvandal South, Norway",
+     "financing": "Kvandal South DC Facility $790m",
+     "evidence": [
+      "ev_40038",
+      "ev_40039"
+     ]
+    },
+    {
+     "site": "Iceland",
+     "financing": "Macquarie Iceland Facility $331.9m",
+     "nvidia_link": "NVIDIA MSA capacity (Iceland/UK/Norway)",
+     "evidence": [
+      "ev_40037",
+      "ev_40001"
+     ]
+    },
+    {
+     "site": "Glomfjord, Norway",
+     "financing": "Macquarie Senior Facility $105m",
+     "evidence": [
+      "ev_40042"
+     ]
+    },
+    {
+     "site": "Portfolio",
+     "mw_active_and_contracted": "~1.37 GW (ev_40044)",
+     "evidence": [
+      "ev_40044"
+     ]
+    }
+   ],
+   "depth2": [
+    "Microsoft (offtaker)",
+    "Anthropic (offtaker)",
+    "Aker ASA (shareholder, JV partner)",
+    "Sandton Capital (shareholder, former lender)",
+    "Macquarie (lender)",
+    "JPMorgan, Goldman Sachs (lenders/arrangers)",
+    "U.S. Bank Trust (agent)",
+    "Dell Financial Services (equipment lessor)",
+    "DNB, ABN AMRO, Nordea, SEB, Export Finance Norway (lenders)",
+    "Ward County landlord (unnamed)",
+    "Anyscale (acquisition)"
+   ],
+   "credit_signals": {
+    "ratings": "project facilities investment grade, agency not named (ev_40050)",
+    "going_concern": "ev_40045",
+    "material_weakness": "ev_40048"
+   }
+  },
+  {
+   "name": "Nebius Group N.V.",
+   "cik": "0001513845",
+   "ticker": "NBIS",
+   "country": "Netherlands",
+   "relationship_found": true,
+   "source_documents": [
+    "6-K Q3 2026 filed 2026-11-12 (0001104659-26-126238)",
+    "20-F FY2025 filed 2026-04-30",
+    "NVIDIA Schedule 13G filed 2026-07-20",
+    "6-K 2026-03-11 press release"
+   ],
+   "nvidia_shareholding": [
+    {
+     "instrument": "Class A ordinary shares (open market / earlier)",
+     "shares": 1190476,
+     "shares_evidence": "ev_40051 (included in 22,256,412 total); 13F summary research/evidence/nvda_13f.txt",
+     "evidence": [
+      "ev_40051"
+     ]
+    },
+    {
+     "instrument": "Pre-funded warrant for Class A shares",
+     "shares": {
+      "value": 21065936,
+      "evidence": "ev_40053"
+     },
+     "price_paid": {
+      "value": 2000000000,
+      "evidence": "ev_40055"
+     },
+     "exercise_price": "$0.0001 (ev_40056)",
+     "date": "2026-03-11",
+     "lockup": "6 months to 2026-09-11 (ev_40059, ev_40054)",
+     "notes": "20-F subsequent-events note says 21,065,396 (ev_40058), likely typo",
+     "evidence": [
+      "ev_40053",
+      "ev_40055",
+      "ev_40056",
+      "ev_40057",
+      "ev_40059"
+     ]
+    },
+    {
+     "instrument": "Total beneficial ownership (13G)",
+     "shares": {
+      "value": 22256412,
+      "evidence": "ev_40051"
+     },
+     "percent_of_class": "9.3% (ev_40052)",
+     "as_of": "2026-07-13",
+     "evidence": [
+      "ev_40051",
+      "ev_40052"
+     ]
+    }
+   ],
+   "nvidia_agreements": [
+    {
+     "date": "2026-03-11",
+     "description": "Strategic partnership: AI factory design, inference, early adoption of NVIDIA platforms; enables >5 GW NVIDIA systems by end-2030",
+     "type_guess": "CX",
+     "value": null,
+     "end_date": null,
+     "wording": "Enables Nebius to Deploy More Than 5 Gigawatts of NVIDIA Systems",
+     "evidence": [
+      "ev_40085",
+      "ev_40060"
+     ]
+    }
+   ],
+   "nvidia_credit_support": [],
+   "nvidia_hardware_commitments": [
+    {
+     "description": "Sole GPU supplier",
+     "evidence": [
+      "ev_40061"
+     ]
+    }
+   ],
+   "debt_facilities": [
+    {
+     "facility": "Convertible notes due June 2029 (2.00%)",
+     "committed": {
+      "value": 105000000,
+      "evidence": "ev_40066"
+     },
+     "drawn": {
+      "value": 105000000,
+      "evidence": "ev_40066"
+     },
+     "rate": "2.00%",
+     "maturity": "2029-06",
+     "collateral": "unsecured",
+     "lenders": [],
+     "covenants": null,
+     "as_of": "2026-09-30",
+     "evidence": [
+      "ev_40066"
+     ]
+    },
+    {
+     "facility": "Convertible notes due Feb 2030 (0.50%)",
+     "committed": {
+      "value": 3795000000,
+      "evidence": "ev_40067"
+     },
+     "drawn": {
+      "value": 3795000000,
+      "evidence": "ev_40067"
+     },
+     "rate": "0.50%",
+     "maturity": "2030-02",
+     "collateral": "unsecured",
+     "as_of": "2026-09-30",
+     "evidence": [
+      "ev_40067"
+     ]
+    },
+    {
+     "facility": "Convertible notes due Sept 2030 (1.00%)",
+     "committed": {
+      "value": 1818400000,
+      "evidence": "ev_40071"
+     },
+     "drawn": {
+      "value": 1818400000,
+      "evidence": "ev_40071"
+     },
+     "rate": "1.00%",
+     "maturity": "2030-09",
+     "collateral": "unsecured",
+     "as_of": "2026-09-30",
+     "evidence": [
+      "ev_40071"
+     ]
+    },
+    {
+     "facility": "Convertible notes due March 2031 (1.25%)",
+     "committed": {
+      "value": 3105000000,
+      "evidence": "ev_40069"
+     },
+     "drawn": {
+      "value": 3105000000,
+      "evidence": "ev_40069"
+     },
+     "rate": "1.25%",
+     "maturity": "2031-03",
+     "collateral": "unsecured",
+     "as_of": "2026-09-30",
+     "evidence": [
+      "ev_40069"
+     ]
+    },
+    {
+     "facility": "Convertible notes due March 2033 (2.63%)",
+     "committed": {
+      "value": 2100000000,
+      "evidence": "ev_40070"
+     },
+     "drawn": {
+      "value": 2100000000,
+      "evidence": "ev_40070"
+     },
+     "rate": "2.63%",
+     "maturity": "2033-03",
+     "collateral": "unsecured",
+     "as_of": "2026-09-30",
+     "evidence": [
+      "ev_40070"
+     ]
+    },
+    {
+     "facility": "Convertible notes due Feb 2034 (4.50%)",
+     "committed": {
+      "value": 2875000000,
+      "evidence": "ev_40068"
+     },
+     "drawn": {
+      "value": 2875000000,
+      "evidence": "ev_40068"
+     },
+     "rate": "4.50%",
+     "maturity": "2034-02",
+     "collateral": "unsecured",
+     "as_of": "2026-09-30",
+     "evidence": [
+      "ev_40068"
+     ]
+    },
+    {
+     "facility": "Term Loan Facility (senior secured)",
+     "committed": {
+      "value": 773300000,
+      "evidence": "ev_40063"
+     },
+     "drawn": {
+      "value": 751800000,
+      "evidence": "ev_40064"
+     },
+     "rate": "1M Term SOFR+2.50% (swapped ~3.9% SOFR)",
+     "maturity": "2030-10-31",
+     "collateral": "substantially all borrower assets; borrower shares",
+     "lenders": [
+      "MUFG Bank (agent)",
+      "various lenders"
+     ],
+     "covenants": "DSCR >= 1.15x; minimum liquidity",
+     "as_of": "2026-09-30",
+     "evidence": [
+      "ev_40063",
+      "ev_40064",
+      "ev_40065"
+     ]
+    },
+    {
+     "facility": "Citi Facility (senior secured, 364-day)",
+     "committed": {
+      "value": 3500000000,
+      "evidence": "ev_40072"
+     },
+     "drawn": null,
+     "rate": "Term SOFR+2.75% rising to 3.50%",
+     "maturity": "364 days from 2026-10-22 (within 24 months)",
+     "collateral": "senior secured (details not stated)",
+     "lenders": [
+      "Citi"
+     ],
+     "covenants": null,
+     "as_of": "2026-10-22",
+     "evidence": [
+      "ev_40072",
+      "ev_40073"
+     ]
+    }
+   ],
+   "debt_totals": {
+    "total_principal_2026_09_30": {
+     "value": 16478000000,
+     "evidence": "ev_40062"
+    }
+   },
+   "liquidity": {
+    "cash_2026_09_30": {
+     "value": 7425600000,
+     "evidence": "ev_40074"
+    },
+    "fixed_commitments_2027": {
+     "value": 287100000,
+     "evidence": "ev_40083"
+    }
+   },
+   "customer_concentration": {
+    "9M_2026": "Customer C 20%, D 21%, E 21% (ev_40076, ev_40077); top3 = 62% (analysis)",
+    "Q3_2026": "E 33%, D 22%, C 15% (ev_40076, ev_40077)",
+    "rpo_2026_09_30": {
+     "value": 38700000000,
+     "evidence": "ev_40075"
+    }
+   },
+   "contracts": [
+    {
+     "counterparty": "Microsoft",
+     "date": "2025-09",
+     "value": {
+      "value": 17400000000,
+      "evidence": "ev_40084"
+     },
+     "wording": "estimated to be up to about",
+     "term": "5 years, Vineland NJ, through 2031"
+    },
+    {
+     "counterparty": "Meta",
+     "date": "2026-03-13",
+     "value": {
+      "value": 27000000000,
+      "evidence": "ev_40079"
+     },
+     "wording": "up to approximately",
+     "notes": "$12bn dedicated orders (ev_40080) + up to $15bn unsold-capacity purchase (Meta backstop) (ev_40081)"
+    },
+    {
+     "counterparty": "Meta",
+     "date": "2025-11-01",
+     "value": {
+      "value": 2900000000,
+      "evidence": "ev_40082"
+     },
+     "term": "5 years"
+    }
+   ],
+   "sites": [
+    {
+     "site": "Vineland, New Jersey",
+     "anchor": "Microsoft",
+     "evidence": [
+      "ev_40084"
+     ]
+    },
+    {
+     "site": "Multiple (Vera Rubin deployments 2027)",
+     "anchor": "Meta",
+     "evidence": [
+      "ev_40080"
+     ]
+    }
+   ],
+   "depth2": [
+    "Microsoft (offtaker)",
+    "Meta (offtaker and unsold-capacity backstop)",
+    "MUFG (agent)",
+    "Citi (lender)",
+    "convertible noteholders (144A)"
+   ],
+   "credit_signals": {
+    "ratings": "none found in documents read",
+    "going_concern": "not found",
+    "material_weakness": "not checked in 20-F"
+   }
+  },
+  {
+   "name": "SB Energy, Inc.",
+   "cik": "0002133037",
+   "ticker": "SBE (proposed)",
+   "country": "United States",
+   "relationship_found": true,
+   "source_documents": [
+    "S-1/A Amendment No. 3 filed 2026-11-19 (0001628280-26-075026); no 424B4 yet"
+   ],
+   "nvidia_shareholding": [
+    {
+     "instrument": "Prepaid Forward Contract for Class N (non-voting) common stock at 90% of IPO price",
+     "price_paid": {
+      "value": 1500000000,
+      "evidence": "ev_40087"
+     },
+     "status": "funded 2026-08-17",
+     "evidence": [
+      "ev_40087"
+     ]
+    },
+    {
+     "instrument": "Concurrent Private Placement of Class N common stock at IPO price",
+     "price_paid": {
+      "value": 1500000000,
+      "evidence": "ev_40088"
+     },
+     "status": "committed, contingent on IPO",
+     "evidence": [
+      "ev_40088"
+     ]
+    },
+    {
+     "instrument": "Total",
+     "price_paid": {
+      "value": 3000000000,
+      "evidence": "ev_40086"
+     },
+     "percent": "blank in S-1/A",
+     "evidence": [
+      "ev_40086"
+     ]
+    }
+   ],
+   "nvidia_agreements": [],
+   "nvidia_credit_support": [
+    {
+     "date": "2026-08-17 (leases)",
+     "type": "RV",
+     "description": "NVIDIA residual value guaranties of OpenAI tenant's lease obligations, PORTS-Pike Technology Campus, initial nine buildings ~4.25 GW-IT; triggered by tenant insolvency or uncured monetary default; declining guaranteed minimum value over 20-year leases; NVIDIA may assume tenancy, re-let or sell",
+     "max_amount": {
+      "value": 105000000000,
+      "evidence": "ev_40090"
+     },
+     "option": "NVIDIA option (sole discretion) to guarantee remaining ~3.78 GW-IT (ev_40092)",
+     "compensation": "paid by OpenAI under separate agreement, amount not disclosed (ev_40094)",
+     "termination": "OpenAI rating upgrade or replacement guaranty (ev_40095)",
+     "evidence": [
+      "ev_40089",
+      "ev_40090",
+      "ev_40091",
+      "ev_40092",
+      "ev_40093",
+      "ev_40094",
+      "ev_40095",
+      "ev_40096"
+     ]
+    }
+   ],
+   "nvidia_hardware_commitments": [],
+   "debt_facilities": [
+    {
+     "facility": "Project-level debt (aggregate, non-recourse)",
+     "committed": null,
+     "drawn": {
+      "value": 4600000000,
+      "evidence": "ev_40100"
+     },
+     "current_portion": {
+      "value": 1200000000,
+      "evidence": "ev_40101"
+     },
+     "as_of": "2026-09-30",
+     "evidence": [
+      "ev_40100",
+      "ev_40101"
+     ]
+    },
+    {
+     "facility": "Intercompany notes from SBE Global",
+     "drawn": {
+      "value": 709500000,
+      "evidence": "ev_40102"
+     },
+     "as_of": "2026-09-30",
+     "notes": "to be repaid at IPO",
+     "evidence": [
+      "ev_40102"
+     ]
+    },
+    {
+     "facility": "New Credit Facility (expected at IPO): $1.875bn RCF + $1.125bn LC facility",
+     "committed": {
+      "value": 3000000000,
+      "evidence": "ev_40105"
+     },
+     "drawn": null,
+     "maturity": "3.5 years after closing",
+     "lenders": [
+      "Citibank (agent)"
+     ],
+     "covenants": "minimum liquidity; no dividends before 2029-01-01",
+     "evidence": [
+      "ev_40105"
+     ]
+    }
+   ],
+   "liquidity": {
+    "unrestricted_cash_2026_09_30": {
+     "value": 996700000,
+     "evidence": "ev_40103"
+    },
+    "undrawn_committed": {
+     "value": 1900000000,
+     "evidence": "ev_40104"
+    }
+   },
+   "customer_concentration": {
+    "notes": "DC revenue expected mainly from related-party leases with SoftBank and OpenAI; no % found",
+    "backlog": {
+     "value": 439000000000,
+     "evidence": "ev_40106"
+    }
+   },
+   "contracts": [
+    {
+     "counterparty": "OpenAI affiliate",
+     "description": "17 leases, PORTS-Pike Technology Campus, ~8.0 GW-IT, 20-year terms, commencing 2028-2032",
+     "value": null,
+     "evidence": [
+      "ev_40098",
+      "ev_40099"
+     ]
+    }
+   ],
+   "sites": [
+    {
+     "site": "PORTS-Pike Technology Campus, Ohio",
+     "mw": "~8.0 GW-IT under 17 leases; NVIDIA RVG on first 4.25 GW-IT",
+     "anchor": "OpenAI",
+     "contract_length": "20 years",
+     "expected_completion": "2028-2032",
+     "evidence": [
+      "ev_40098",
+      "ev_40099",
+      "ev_40089"
+     ]
+    }
+   ],
+   "depth2": [
+    "SoftBank (controlling shareholder, tenant at Cosmos)",
+    "OpenAI (strategic investor, warrants, tenant at Milam County and PORTS-Pike)",
+    "AEP Ohio (transmission)",
+    "Citibank (credit facility agent)"
+   ],
+   "credit_signals": {
+    "material_weakness": "ev_40107"
+   }
+  },
+  {
+   "name": "IREN Limited",
+   "cik": "0001878848",
+   "ticker": "IREN",
+   "country": "Australia",
+   "relationship_found": true,
+   "source_documents": [
+    "10-Q Q1 FY27 filed 2026-11-05",
+    "10-K FY2026 filed 2026-08-27",
+    "8-K 2026-05-26"
+   ],
+   "nvidia_shareholding": [
+    {
+     "instrument": "Investment Rights (options) over Ordinary shares, granted 2026-05-07 under securities purchase agreement tied to GPU supply",
+     "shares": {
+      "value": 30000000,
+      "evidence": "ev_40111"
+     },
+     "exercise_price": {
+      "value": 70,
+      "evidence": "ev_40112"
+     },
+     "headline": {
+      "value": 2100000000,
+      "evidence": "ev_40113"
+     },
+     "vesting": "tranches by volume of GPUs supplied by NVIDIA, up to 600,000 GPUs (ev_40114)",
+     "expiry": "2031-05-07",
+     "grant_date_fair_value": {
+      "value": 793400000,
+      "evidence": "ev_40115"
+     },
+     "notes": "NVIDIA has a right, not an obligation; fair value capitalised into GPU cost (ev_40116)",
+     "evidence": [
+      "ev_40111",
+      "ev_40112",
+      "ev_40113",
+      "ev_40114",
+      "ev_40115",
+      "ev_40116"
+     ]
+    }
+   ],
+   "nvidia_agreements": [
+    {
+     "date": "2026-05",
+     "description": "Five-year cloud services contract with NVIDIA for its internal AI and research workloads",
+     "type_guess": "LB",
+     "value": {
+      "value": 3400000000,
+      "evidence": "ev_40109"
+     },
+     "end_date": "5 years from service start (not dated)",
+     "wording": "five-year cloud services contract with NVIDIA to support its internal AI",
+     "evidence": [
+      "ev_40108",
+      "ev_40109",
+      "ev_40110"
+     ]
+    },
+    {
+     "date": "2026-05",
+     "description": "Strategic partnership: up to 5GW NVIDIA DSX-aligned infrastructure",
+     "type_guess": "CX",
+     "value": null,
+     "evidence": [
+      "ev_40117"
+     ]
+    }
+   ],
+   "nvidia_credit_support": [],
+   "nvidia_hardware_commitments": [
+    {
+     "description": "Dell GPU purchase for Childress to service $3.4bn managed services AI cloud contract (analysis: matches NVIDIA contract TCV)",
+     "amount": {
+      "value": 1600000000,
+      "evidence": "ev_40121"
+     },
+     "evidence": [
+      "ev_40121"
+     ]
+    },
+    {
+     "description": "Total capital commitments",
+     "amount": {
+      "value": 18947000000,
+      "evidence": "ev_40123"
+     },
+     "as_of": "2026-09-30",
+     "evidence": [
+      "ev_40123"
+     ]
+    }
+   ],
+   "debt_facilities": [
+    {
+     "facility": "GPU Financing 1.0 (DDTL $1.5bn SOFR+2.25% + USPP $2.1bn), Microsoft contract",
+     "committed": {
+      "value": 3600000000,
+      "evidence": "ev_40131"
+     },
+     "drawn": "DDTL $413m, USPP $1,575m (ev_40129)",
+     "undrawn": "DDTL $1,132m, USPP $525m (ev_40130)",
+     "maturity": "2031-12-31",
+     "collateral": "Financing SPV GPUs and contract; CSC Delaware Trust collateral agent",
+     "lenders": [
+      "commercial bank syndicate",
+      "USPP institutional investors"
+     ],
+     "as_of": "2026-09-30",
+     "evidence": [
+      "ev_40131",
+      "ev_40129",
+      "ev_40130"
+     ]
+    },
+    {
+     "facility": "GPU Financing 2.0 (Mackenzie Compute term loans and notes)",
+     "committed": {
+      "value": 2400000000,
+      "evidence": "ev_40126"
+     },
+     "drawn": {
+      "value": 947000000,
+      "evidence": "ev_40127"
+     },
+     "rate": "9.0% fixed",
+     "maturity": "30-month amortisation per tranche (2029-05-31)",
+     "collateral": "financed equipment; parent guarantee",
+     "as_of": "2026-09-30",
+     "evidence": [
+      "ev_40126",
+      "ev_40127"
+     ]
+    },
+    {
+     "facility": "GPU Financing 3.0 (CA Leasing equipment finance)",
+     "committed": {
+      "value": 363000000,
+      "evidence": "ev_40128"
+     },
+     "drawn": {
+      "value": 363000000,
+      "evidence": "ev_40128"
+     },
+     "rate": "9.51%",
+     "maturity": "36 monthly instalments from Sept 2026",
+     "collateral": "financed equipment; parent guarantee",
+     "as_of": "2026-09-30",
+     "evidence": [
+      "ev_40128"
+     ]
+    },
+    {
+     "facility": "Convertible notes (2029-2033), incl. Dec 2033 $3,000m",
+     "committed": null,
+     "drawn": "see ev_40135; table in USD millions",
+     "as_of": "2026-09-30",
+     "evidence": [
+      "ev_40135"
+     ]
+    }
+   ],
+   "debt_totals": {
+    "total_principal_2026_09_30": "$10,041m (ev_40132, table in USD millions, value not machine-grounded)",
+    "current": "$950m (ev_40133)",
+    "due_remainder_FY27_and_FY28": "$723m and $1,059m (ev_40134)"
+   },
+   "liquidity": {
+    "cash_2026_09_30": {
+     "value": 3522000000,
+     "evidence": "ev_40122"
+    },
+    "capital_commitments": {
+     "value": 18947000000,
+     "evidence": "ev_40123"
+    }
+   },
+   "customer_concentration": {
+    "Q1_FY27": "28% / 24% / 18%, top3 70% (ev_40125)",
+    "rpo_2026_09_30": {
+     "value": 6347000000,
+     "evidence": "ev_40124"
+    },
+    "notes": "Microsoft + NVIDIA contracts are substantial majority of contracted revenue (ev_40119)"
+   },
+   "contracts": [
+    {
+     "counterparty": "Microsoft",
+     "value": {
+      "value": 9700000000,
+      "evidence": "ev_40118"
+     },
+     "date": "2025-11"
+    },
+    {
+     "counterparty": "NVIDIA",
+     "value": {
+      "value": 3400000000,
+      "evidence": "ev_40109"
+     },
+     "date": "2026-05"
+    },
+    {
+     "counterparty": "Prometheus, Perplexity, Together AI",
+     "value": {
+      "value": 2800000000,
+      "evidence": "ev_40120"
+     },
+     "date": "2026-07"
+    }
+   ],
+   "sites": [
+    {
+     "site": "Childress, Texas (Horizon 1-4)",
+     "anchor": "Microsoft; NVIDIA contract GPUs (Dell purchase) deployed at Childress",
+     "financing": "GPU Financing 1.0 (Microsoft)",
+     "evidence": [
+      "ev_40118",
+      "ev_40121"
+     ]
+    }
+   ],
+   "depth2": [
+    "Microsoft (offtaker)",
+    "Dell (GPU supplier)",
+    "Prometheus, Perplexity, Together AI (customers)",
+    "CSC Delaware Trust (collateral agent)"
+   ],
+   "credit_signals": {}
+  },
+  {
+   "name": "SharonAI Holdings Inc.",
+   "cik": "0002068385",
+   "ticker": "SHAZ",
+   "country": "United States / Australia",
+   "relationship_found": true,
+   "source_documents": [
+    "10-Q filed 2026-11-16",
+    "8-K 2026-06-12",
+    "8-K 2026-10-01"
+   ],
+   "nvidia_shareholding": [],
+   "nvidia_agreements": [
+    {
+     "date": "2026-06-08",
+     "description": "Master Cloud Services Agreement and Order Form 1 with NVIDIA, six-year compute collaboration, five phases, minimum revenue provisions; NVIDIA has little or no use of capacity unless not sold to Third Parties; revenue share on third-party sales",
+     "type_guess": "BK",
+     "value": {
+      "value": 4880000000,
+      "evidence": "ev_40144"
+     },
+     "end_date": "six years",
+     "wording": "which has a contract value of up to $4.88 billion",
+     "notes": "10-Q: arrangement does not specify a fixed aggregate contractual value (ev_40146)",
+     "evidence": [
+      "ev_40143",
+      "ev_40144",
+      "ev_40145",
+      "ev_40146",
+      "ev_40148",
+      "ev_40149"
+     ]
+    }
+   ],
+   "nvidia_credit_support": [],
+   "nvidia_hardware_commitments": [
+    {
+     "description": "Hardware and infrastructure procurement in connection with NVIDIA agreement",
+     "amount": {
+      "value": 4000000000,
+      "evidence": "ev_40155"
+     },
+     "evidence": [
+      "ev_40147",
+      "ev_40155"
+     ]
+    }
+   ],
+   "debt_facilities": [
+    {
+     "facility": "Syndicated GPU SPV Facility (A $150m + B $206m)",
+     "committed": {
+      "value": 356000000,
+      "evidence": "ev_40152"
+     },
+     "drawn": null,
+     "rate": "7.25% rising to 9.95% (A); 9.95% (B)",
+     "maturity": "42 months from first utilisation, bullet",
+     "collateral": "all obligor assets, shares, accounts, project contracts; limited parent guarantee",
+     "lenders": [
+      "GLAS (agent)"
+     ],
+     "as_of": "2026-09-28",
+     "evidence": [
+      "ev_40152"
+     ]
+    }
+   ],
+   "liquidity": {
+    "cash_2026_09_30": {
+     "value": 1340000000,
+     "evidence": "ev_40150"
+    }
+   },
+   "customer_concentration": {},
+   "contracts": [
+    {
+     "counterparty": "New Zealand customer",
+     "value": {
+      "value": 1320000000,
+      "evidence": "ev_40151"
+     },
+     "date": "2026-07"
+    }
+   ],
+   "sites": [],
+   "depth2": [
+    "ESDS",
+    "Global Technology Customer",
+    "Global AI Lab Customer",
+    "NEXTDC"
+   ],
+   "credit_signals": {
+    "material_weakness": "ev_40153"
+   }
+  },
+  {
+   "name": "Applied Digital Corp.",
+   "cik": "0001144879",
+   "ticker": "APLD",
+   "country": "United States",
+   "relationship_found": true,
+   "nvidia_shareholding": [
+    {
+     "instrument": "common stock (Sept 2024 PIPE)",
+     "shares": {
+      "value": 7716050,
+      "evidence": "ev_40136"
+     },
+     "price_per_share": {
+      "value": 3.24,
+      "evidence": "ev_40137"
+     },
+     "date": "2024-09",
+     "status": "exited per NVIDIA 13F by 2025-12-31 (research/evidence/nvda_13f.txt)",
+     "evidence": [
+      "ev_40136",
+      "ev_40137",
+      "ev_40138"
+     ]
+    }
+   ],
+   "nvidia_agreements": [],
+   "nvidia_credit_support": [],
+   "nvidia_hardware_commitments": [],
+   "debt_facilities": [],
+   "liquidity": {},
+   "customer_concentration": {},
+   "contracts": [],
+   "sites": [],
+   "depth2": [
+    "Related Companies (PIPE co-investor)"
+   ],
+   "notes": "Latest 10-K (FY May 2026) and 10-Q (Aug 2026) contain no NVIDIA mention; historical equity only"
+  },
+  {
+   "name": "Bitdeer Technologies Group",
+   "cik": "0001899123",
+   "ticker": "BTDR",
+   "country": null,
+   "relationship_found": false,
+   "nvidia_relationship": "chip supplier only",
+   "evidence": [
+    "ev_40139",
+    "ev_40140"
+   ]
+  },
+  {
+   "name": "WhiteFiber, Inc.",
+   "cik": "0002042022",
+   "ticker": "WYFI",
+   "country": null,
+   "relationship_found": false,
+   "nvidia_relationship": "chip supplier only",
+   "evidence": [
+    "ev_40141"
+   ]
+  },
+  {
+   "name": "QumulusAI, Inc.",
+   "cik": "0002084026",
+   "ticker": "QMLS",
+   "country": null,
+   "relationship_found": false,
+   "nvidia_relationship": "chip supplier only",
+   "evidence": [
+    "ev_40142"
+   ]
+  },
+  {
+   "name": "ChronoScale Holdings Corp",
+   "cik": "0001549084",
+   "ticker": "CHRN",
+   "country": null,
+   "relationship_found": false,
+   "nvidia_relationship": "chip supplier only",
+   "evidence": [
+    "ev_40154"
+   ]
+  },
+  {
+   "name": "Bit Digital, Inc.",
+   "cik": "0001710350",
+   "ticker": "BTBT",
+   "relationship_found": false,
+   "nvidia_relationship": "none found beyond chip/product mentions in latest 10-K/10-Q/S-1",
+   "evidence": []
+  },
+  {
+   "name": "Cipher Digital Inc.",
+   "cik": "0001819989",
+   "ticker": "CIFR",
+   "relationship_found": false,
+   "nvidia_relationship": "none found beyond chip/product mentions in latest 10-K/10-Q/S-1",
+   "evidence": []
+  },
+  {
+   "name": "TeraWulf Inc.",
+   "cik": "0001083301",
+   "ticker": "WULF",
+   "relationship_found": false,
+   "nvidia_relationship": "none found beyond chip/product mentions in latest 10-K/10-Q/S-1",
+   "evidence": []
+  },
+  {
+   "name": "Core Scientific, Inc.",
+   "cik": "0001839341",
+   "ticker": "CORZ",
+   "relationship_found": false,
+   "nvidia_relationship": "none found beyond chip/product mentions in latest 10-K/10-Q/S-1",
+   "evidence": []
+  },
+  {
+   "name": "Galaxy Digital Inc.",
+   "cik": "0001859392",
+   "ticker": "GLXY",
+   "relationship_found": false,
+   "nvidia_relationship": "none found beyond chip/product mentions in latest 10-K/10-Q/S-1",
+   "evidence": []
+  },
+  {
+   "name": "Hut 8 Corp.",
+   "cik": "0001964789",
+   "ticker": "HUT",
+   "relationship_found": false,
+   "nvidia_relationship": "none found beyond chip/product mentions in latest 10-K/10-Q/S-1",
+   "evidence": []
+  },
+  {
+   "name": "DigitalOcean Holdings, Inc.",
+   "cik": "0001582961",
+   "ticker": "DOCN",
+   "relationship_found": false,
+   "nvidia_relationship": "none found beyond chip/product mentions in latest 10-K/10-Q/S-1",
+   "evidence": []
+  },
+  {
+   "name": "Exascale Labs Holdings Inc.",
+   "cik": "0002109869",
+   "ticker": "XLAB",
+   "relationship_found": false,
+   "nvidia_relationship": "none found beyond chip/product mentions in latest 10-K/10-Q/S-1",
+   "evidence": []
+  },
+  {
+   "name": "Lambda",
+   "cik": null,
+   "relationship_found": false,
+   "nvidia_relationship": "no SEC filings found; needs tier 2",
+   "evidence": []
+  },
+  {
+   "name": "Crusoe",
+   "cik": null,
+   "relationship_found": false,
+   "nvidia_relationship": "no SEC filings found; needs tier 2",
+   "evidence": []
+  },
+  {
+   "name": "Firmus",
+   "cik": null,
+   "relationship_found": false,
+   "nvidia_relationship": "no SEC filings found; needs tier 2",
+   "evidence": []
+  },
+  {
+   "name": "Fluidstack",
+   "cik": null,
+   "relationship_found": false,
+   "nvidia_relationship": "no SEC filings found; needs tier 2",
+   "evidence": []
+  },
+  {
+   "name": "Together AI",
+   "cik": null,
+   "relationship_found": false,
+   "nvidia_relationship": "no SEC filings found; needs tier 2",
+   "evidence": []
+  },
+  {
+   "name": "Vultr",
+   "cik": null,
+   "relationship_found": false,
+   "nvidia_relationship": "no SEC filings found; needs tier 2",
+   "evidence": []
+  },
+  {
+   "name": "Voltage Park",
+   "cik": null,
+   "relationship_found": false,
+   "nvidia_relationship": "no SEC filings found; needs tier 2",
+   "evidence": []
+  }
+ ]
+}
