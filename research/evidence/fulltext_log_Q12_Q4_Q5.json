@@ -1,0 +1,247 @@
+{
+ "stats": {
+  "\"NVIDIA\" \"subscription agreement\"": {
+   "qid": "Q4",
+   "hits": 400,
+   "kept_within_50_words": 16,
+   "dropped_outside_window": 384,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"securities purchase agreement\"": {
+   "qid": "Q4",
+   "hits": 400,
+   "kept_within_50_words": 100,
+   "dropped_outside_window": 300,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"investment agreement\"": {
+   "qid": "Q4",
+   "hits": 200,
+   "kept_within_50_words": 0,
+   "dropped_outside_window": 200,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"warrant\"": {
+   "qid": "Q5",
+   "hits": 1500,
+   "kept_within_50_words": 53,
+   "dropped_outside_window": 1439,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"license\" \"non-exclusive\"": {
+   "qid": "Q12",
+   "hits": 1172,
+   "kept_within_50_words": 16,
+   "dropped_outside_window": 1120,
+   "fetch_errors": 0
+  }
+ },
+ "log": [
+  {
+   "query": "\"NVIDIA\" \"subscription agreement\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 396,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"securities purchase agreement\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 394,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"investment agreement\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 135,
+   "fetched": 200,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"warrant\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 1303,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"warrant\"",
+   "window": [
+    "2023-01-01",
+    "2024-12-12"
+   ],
+   "total": 425,
+   "fetched": 500,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"warrant\"",
+   "window": [
+    "2024-12-13",
+    "2026-11-23"
+   ],
+   "total": 878,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"warrant\"",
+   "window": [
+    "2024-12-13",
+    "2025-12-03"
+   ],
+   "total": 353,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"warrant\"",
+   "window": [
+    "2025-12-04",
+    "2026-11-23"
+   ],
+   "total": 525,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"warrant\"",
+   "window": [
+    "2025-12-04",
+    "2026-05-30"
+   ],
+   "total": 243,
+   "fetched": 300,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"warrant\"",
+   "window": [
+    "2026-05-31",
+    "2026-11-23"
+   ],
+   "total": 282,
+   "fetched": 300,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 519,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-01-01",
+    "2024-12-12"
+   ],
+   "total": 519,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-01-01",
+    "2023-12-22"
+   ],
+   "total": 519,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-01-01",
+    "2023-06-27"
+   ],
+   "total": 519,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-01-01",
+    "2023-03-30"
+   ],
+   "total": 519,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-01-01",
+    "2023-02-14"
+   ],
+   "total": 519,
+   "fetched": 500,
+   "action": "overflow at minimum window: capped"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-02-15",
+    "2023-03-30"
+   ],
+   "total": 15,
+   "fetched": 15,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-03-31",
+    "2023-06-27"
+   ],
+   "total": 25,
+   "fetched": 25,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-06-28",
+    "2023-12-22"
+   ],
+   "total": 32,
+   "fetched": 32,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2023-12-23",
+    "2024-12-12"
+   ],
+   "total": 122,
+   "fetched": 200,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"license\" \"non-exclusive\"",
+   "window": [
+    "2024-12-13",
+    "2026-11-23"
+   ],
+   "total": 320,
+   "fetched": 400,
+   "action": "ok"
+  }
+ ],
+ "window": [
+  "2023-01-01",
+  "2026-11-23"
+ ]
+}

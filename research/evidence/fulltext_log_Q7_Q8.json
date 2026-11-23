@@ -1,0 +1,266 @@
+{
+ "stats": {
+  "\"NVIDIA\" \"lease\" \"GPU\"": {
+   "qid": "Q7",
+   "hits": 900,
+   "kept_within_50_words": 251,
+   "dropped_outside_window": 577,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"leaseback\"": {
+   "qid": "Q7",
+   "hits": 300,
+   "kept_within_50_words": 1,
+   "dropped_outside_window": 299,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"prepayment\"": {
+   "qid": "Q8",
+   "hits": 700,
+   "kept_within_50_words": 49,
+   "dropped_outside_window": 645,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"prepaid\"": {
+   "qid": "Q8",
+   "hits": 2000,
+   "kept_within_50_words": 23,
+   "dropped_outside_window": 1925,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"deposit\"": {
+   "qid": "Q8",
+   "hits": 1400,
+   "kept_within_50_words": 104,
+   "dropped_outside_window": 1269,
+   "fetch_errors": 0
+  }
+ },
+ "log": [
+  {
+   "query": "\"NVIDIA\" \"lease\" \"GPU\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 746,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"lease\" \"GPU\"",
+   "window": [
+    "2023-01-01",
+    "2024-12-12"
+   ],
+   "total": 213,
+   "fetched": 300,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"lease\" \"GPU\"",
+   "window": [
+    "2024-12-13",
+    "2026-11-23"
+   ],
+   "total": 533,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"lease\" \"GPU\"",
+   "window": [
+    "2024-12-13",
+    "2025-12-03"
+   ],
+   "total": 186,
+   "fetched": 200,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"lease\" \"GPU\"",
+   "window": [
+    "2025-12-04",
+    "2026-11-23"
+   ],
+   "total": 347,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"leaseback\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 286,
+   "fetched": 300,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"prepayment\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 590,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"prepayment\"",
+   "window": [
+    "2023-01-01",
+    "2024-12-12"
+   ],
+   "total": 215,
+   "fetched": 300,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"prepayment\"",
+   "window": [
+    "2024-12-13",
+    "2026-11-23"
+   ],
+   "total": 375,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"prepaid\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 1682,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"prepaid\"",
+   "window": [
+    "2023-01-01",
+    "2024-12-12"
+   ],
+   "total": 625,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"prepaid\"",
+   "window": [
+    "2023-01-01",
+    "2023-12-22"
+   ],
+   "total": 257,
+   "fetched": 300,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"prepaid\"",
+   "window": [
+    "2023-12-23",
+    "2024-12-12"
+   ],
+   "total": 368,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"prepaid\"",
+   "window": [
+    "2024-12-13",
+    "2026-11-23"
+   ],
+   "total": 1057,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"prepaid\"",
+   "window": [
+    "2024-12-13",
+    "2025-12-03"
+   ],
+   "total": 450,
+   "fetched": 500,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"prepaid\"",
+   "window": [
+    "2025-12-04",
+    "2026-11-23"
+   ],
+   "total": 607,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"prepaid\"",
+   "window": [
+    "2025-12-04",
+    "2026-05-30"
+   ],
+   "total": 305,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"prepaid\"",
+   "window": [
+    "2026-05-31",
+    "2026-11-23"
+   ],
+   "total": 302,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"deposit\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 1288,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"deposit\"",
+   "window": [
+    "2023-01-01",
+    "2024-12-12"
+   ],
+   "total": 450,
+   "fetched": 500,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"deposit\"",
+   "window": [
+    "2024-12-13",
+    "2026-11-23"
+   ],
+   "total": 838,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"deposit\"",
+   "window": [
+    "2024-12-13",
+    "2025-12-03"
+   ],
+   "total": 354,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"deposit\"",
+   "window": [
+    "2025-12-04",
+    "2026-11-23"
+   ],
+   "total": 484,
+   "fetched": 500,
+   "action": "ok"
+  }
+ ],
+ "window": [
+  "2023-01-01",
+  "2026-11-23"
+ ]
+}
