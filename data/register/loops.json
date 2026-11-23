@@ -132,10 +132,10 @@
         "from": "ent_openai",
         "to": "ent_coreweave",
         "kind": "compute_contract",
-        "description": "OpenAI master services agreement with CoreWeave, up to about this amount through October 2030",
+        "description": "OpenAI master services agreement with CoreWeave of March 2025, signed before the 2026 round, up to about this amount through October 2030",
         "relationship": null,
         "amount": 11900000000,
-        "amount_label": "up to (contract)",
+        "amount_label": "up to (contract signed March 2025, before the round)",
         "as_of": "2026-03-02",
         "evidence": [
           "ev_20199"
@@ -165,7 +165,7 @@
   {
     "id": "loop_anthropic_gpu_clouds",
     "title": "Anthropic: Nvidia stock purchase, then Nvidia GPU capacity from Nvidia-backed clouds",
-    "summary": "Nvidia buys Anthropic stock in the IPO placement, and Anthropic has agreed to spend on Nvidia GPU compute at SpaceX, Nscale and Lambda. All three buy Nvidia GPUs, and Nvidia also holds equity in SpaceX, Nscale and Lambda, so money leaves Nvidia once and can return through several paths.",
+    "summary": "Nvidia buys Anthropic stock in the IPO placement, and Anthropic has agreed to spend on Nvidia GPU compute at SpaceX, Nscale and Lambda. SpaceX and Nscale are Nvidia customers or buy Nvidia GPUs; Lambda's purchases are not on file. Nvidia also holds equity in SpaceX, Nscale and Lambda, so money leaves Nvidia once and can return through several paths.",
     "entities": [
       "ent_nvidia",
       "ent_anthropic",
@@ -342,7 +342,7 @@
   {
     "id": "loop_nscale",
     "title": "Nscale: shareholder, noteholder, lease guarantor and customer",
-    "summary": "Nvidia holds Nscale preferred shares and convertible notes, guarantees its Ward County lease and rents reserved GPU capacity from it. Nscale buys Nvidia GPUs through OEMs to build that capacity, so Nvidia's cash and credit come back as hardware demand.",
+    "summary": "Nvidia holds Nscale preferred shares and convertible notes, guarantees its Ward County lease and rents reserved GPU capacity from it. Nscale buys Nvidia GPUs through OEMs to build that capacity, so Nvidia's cash and credit can come back as hardware demand; no amount is disclosed.",
     "entities": [
       "ent_nvidia",
       "ent_nscale"
@@ -601,7 +601,7 @@
     ],
     "closed": true,
     "closing_leg_sourced": true,
-    "circularity_note": "Both sides are sourced only by SharonAI. Nvidia's committed amount and payments are not disclosed (headline only). The hardware commitment is about $4bn but the share paid to Nvidia is not stated, so the ratio is not computable. SharonAI's going-concern section (ev_80009) matters for the backstop.",
+    "circularity_note": "Both sides are sourced only by SharonAI. Nvidia's committed amount and payments are not disclosed (headline only). The hardware commitment is about $4bn but the share paid to Nvidia is not stated, so the ratio is not computable. SharonAI says it must keep access to additional financing (ev_80010).",
     "label": "analysis",
     "closing_leg_valued": false
   },
@@ -658,14 +658,14 @@
     ],
     "closed": true,
     "closing_leg_sourced": true,
-    "circularity_note": "No dollar amount on either side is disclosed. Needs Nvidia's investment amounts and Firmus's purchases from Nvidia. Firmus withdrew its IPO (single tier 2 source, ev_110048).",
+    "circularity_note": "No dollar amount on either side is disclosed. Needs Nvidia's investment amounts and Firmus's purchases from Nvidia. One news report, unconfirmed, says Firmus withdrew its listing application (ev_110048).",
     "label": "analysis",
     "closing_leg_valued": false
   },
   {
     "id": "loop_nebius",
     "title": "Nebius: Nvidia warrant money in, sole-supplier GPU purchases back",
-    "summary": "Nvidia paid for a pre-funded warrant over Nebius shares, and Nebius relies on Nvidia for all its GPU chips. The loop closes through hardware purchases, but no Nvidia rental, backstop or guarantee was found.",
+    "summary": "Nvidia paid for a pre-funded warrant over Nebius shares, and Nebius says it relies on Nvidia for the GPU chips it uses. The loop closes through hardware purchases, but no Nvidia rental, backstop or guarantee was found.",
     "entities": [
       "ent_nvidia",
       "ent_nebius"

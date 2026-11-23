@@ -1,6 +1,6 @@
 # R7: Unattributed remainders of Nvidia's disclosed aggregates
 
-**Computed on 23 November 2026, against the register as committed at 1c4f796 (data/register/relationships.json of 2026-11-23 13:02 UTC: 91 relationships, 81 counted after excluding the 7 aggregate records already in the register and 3 context records; 108 entities).** Revised after Gate R critic round 1 (findings 2, 7, 15, 16): see `research/gate_r/FIXES.md`, section "Critic round 1: aggregates, bridge and credit reads".
+**Computed on 23 November 2026. Section (2) and the seniority table in (4) were recomputed after Gate R critic round 2 against the register rebuilt after commit 141d92d (data/register/relationships.json: 92 records: 80 counted, 4 context, 8 remainders; 108 entities).** Revised after Gate R critic rounds 1 (findings 2, 7, 15, 16) and 2 (findings 1 and 10): see `research/gate_r/FIXES.md`.
 
 Namespaces `agg` (ev_130001 to ev_130024) and `fixc` (ev_190001 to ev_190009, `research/evidence/fixc.jsonl`). Files: `research/drafts/nvidia_financials.json`, `research/drafts/lead_aggregates.json` (8 records, 8 filing events).
 
@@ -154,7 +154,7 @@ Nvidia has signed long leases on its own credit for capacity it may pass to othe
 
 A share needs counterparty disclosures of Nvidia purchases by period. None of CoreWeave, Nebius, IREN, Nscale or the labs states one in a form that can be added up here.
 
-**(2) How much of the headline total is legally binding today?** Computed on 2026-11-23 from display-eligible amounts with `pipeline.checks.independent_totals` on the register at 1c4f796 (81 counted relationships; aggregates and CX excluded). Headline and binding amounts cover different sets of records, so no binding share is computed.
+**(2) How much of the headline total is legally binding today?** Computed on 2026-11-23 from display-eligible amounts with `pipeline.checks.independent_totals` on the register rebuilt after 141d92d (92 records: 80 counted, 4 context, 8 remainders; aggregates and CX excluded). The same figures are in `research/reports/R9_system_view.md`, Totals. Headline and binding amounts cover different sets of records, so no binding share is computed.
 
 | Measure | Amount |
 |---|---|
@@ -163,13 +163,13 @@ A share needs counterparty disclosures of Nvidia purchases by period. None of Co
 | of which announced, not binding or not followed by a disclosed agreement | $103.5B (OpenAI letter of intent $100B, Meta $3B, Wayve $0.5B) |
 | of which other announced amounts (equity, rentals, prepayments, IREN option) | $86.6B |
 | Committed total (binding, including funded; 20 relationships) | $70.0B |
-| Cash paid where stated (16 relationships) | $32.3B; cost of what is still held $32.2B |
+| Cash paid where stated (16 relationships) | $32.3 billion; cost of what is still held $30.2 billion (14 relationships) |
 | Committed, confirmed not yet paid | $1.0B (Nscale NVIDIA Sale) |
 | Committed, paid portion not disclosed (5 relationships) | $36.7B (OpenAI $30B, IREN $3.4B, Nscale rental $1.2B, KYEC $1.1B, NAVER $1B) |
-| Contingent maximum (4 relationships) | $113.7B, of which $105B is the PORTS-Pike guaranty cap, not callable before the first building is ready (expected fiscal 2029) |
-| Gross exposure (lower bound: 51 relationships have unknowns) | $183.6B |
+| Contingent maximum (3 relationships) | $107.4 billion, of which $105 billion is the PORTS-Pike cap, not in force before fiscal 2029, and $2.36 billion is in force (Nscale lease $0.86B, SB Energy placement $1.5B) |
+| Gross exposure (lower bound: 50 relationships have unknowns) | $175.3 billion |
 
-Caveats. The CoreWeave $6.3B in the contingent total is an initial order value, not a cap (critic finding 2; the cluster drafts are being corrected). Nvidia's own aggregates are larger than the named items in every line: see the bridge table above.
+Caveats. Nvidia's own aggregates are larger than the named items in every line: see the bridge table above.
 
 **(3) Announced, then shrunk, restructured or dropped**
 
@@ -185,22 +185,25 @@ Caveats. The CoreWeave $6.3B in the contingent total is an initial order value, 
 | Data center leases not commenced | $25B plus $20B "for third party" (Jul 2026) became one line of $74B (Oct 2026) | ev_10031, ev_10037, ev_190004 |
 | Anysphere (Cursor) | Acquired by SpaceX 2026-08-14; consideration to Nvidia unknown | rel_anysphere_eq_2025 |
 | Intel, Nokia, Synopsys | Stakes cut in Q3 2026 (13F) | ev_50021, ev_50025, ev_50023 |
-| Arm, Recursion, SoundHound, TuSimple, Nano-X, Serve, WeRide, Applied Digital | Exited | register status terminated or completed |
+| Arm, Recursion, SoundHound, Nano-X, Serve, WeRide, Applied Digital | Exited | register status terminated or completed |
+| TuSimple | Left the 13F on delisting; whether still held is not disclosed | rel_tusimple_eq_2023 |
 
-**(4) Where Nvidia sits in each counterparty's capital structure** (register `seniority`, aggregates and CX excluded)
+**(4) Where Nvidia sits in each counterparty's capital structure** (register `seniority`, aggregates and CX excluded; counted on 2026-11-23 with `python3 -c "import json,collections;R=json.load(open('data/register/relationships.json'));print(collections.Counter(r['seniority'] for r in R if not r.get('aggregate_of') and r['type_primary']!='CX'))"`)
 
 | Seniority | Count | Relationships |
 |---|---|---|
-| common_equity | 49 | Intel, SpaceX, CoreWeave, Coherent, Synopsys, Nokia, Nebius, SB Energy, NAVER, Anthropic (2026 placement), Mistral, SSI, Thinking Machines, Reflection, Cohere, Crusoe x3, Lambda, Firmus x3, Together AI x3, Meta (LOI) and others |
+| common_equity | 48 | Intel, SpaceX, CoreWeave, Coherent, Synopsys, Nokia, Nebius, SB Energy, NAVER, Anthropic (2026 placement), Mistral, SSI, Thinking Machines, Reflection, Cohere, Crusoe x3, Lambda, Firmus x3, Together AI x3 and others |
+| none | 7 | letters of intent and frameworks (OpenAI LOI, Wayve, Meta, Motif, RLWRLD, Upstage, UK programme) |
 | preferred_equity | 5 | OpenAI Series C, Anthropic (2025 agreement), Nscale, Marvell, Lumentum |
+| prepaying_buyer | 5 | Amkor, KYEC, IBIDEN, Unimicron, SPIL |
 | warrants | 3 | Nebius pre-funded warrant, IREN rights, Corning |
-| unsecured_creditor | 1 | Nscale convertible notes |
 | guarantor | 3 | OpenAI/SB Energy, Nscale lease, financing platforms (LOI) |
 | contingent_buyer | 3 | CoreWeave residual capacity, SharonAI, Firmus |
 | lessee | 3 | CoreWeave MSA, Nscale clusters, IREN |
-| prepaying_buyer | 6 | Amkor, KYEC, Corning, Ibiden, Unimicron, SPIL |
 | lp_interest | 2 | Helix, Brookfield BAIIF |
-| none | 6 | letters of intent and frameworks (OpenAI LOI, Wayve, Motif, RLWRLD, Upstage, UK programme); the CoreWeave land, power and shell framework is now a context record and not counted |
+| unsecured_creditor | 1 | Nscale convertible notes |
+
+Total 80. Meta moved to "none" (its seniority is none: a non-binding indication). The Corning customer deposit is a context record and is not counted; the CoreWeave land, power and shell framework is also a context record.
 
 Analysis: Nvidia is never a secured creditor. Where it lends or guarantees, it ranks as an unsecured creditor, or as a guarantor with only escrow for recourse (Nscale $470M).
 
@@ -237,5 +240,5 @@ None.
 1. Lead: `pipeline.checks draft` scans every register file for text citations but keeps only the draft's evidence, so it cannot pass for any draft; limit `check_text_citations` to the draft (or keep the full evidence store) in draft mode.
 2. When the Q3 FY2027 10-Q is filed: check whether Nvidia names any neocloud or power and systems partner, whether it gives a prepaid supply balance, and how SpaceX is classed (Level 1 or 2), which would explain the $10B gap between the 13F total and Level 1.
 3. OpenAI Series C funded amount: this one figure moves the private-stake remainder by up to $30B.
-4. Re-run R7 when the cluster drafts now being edited are merged (computed on the register at 1c4f796, 91 relationships).
+4. Sections (2) and (4) were re-run on the register rebuilt after 141d92d (92 records); re-run again if counted records change.
 5. How much of the $74B of leases not commenced is meant for third parties: ask at the 10-Q, which may restore the split.

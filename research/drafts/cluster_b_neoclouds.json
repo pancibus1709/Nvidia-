@@ -965,7 +965,8 @@
         "wwr_reason": "Nvidia pays only if Nscale defaults on the lease, so the exposure turns into a payment exactly when Nscale is weakest. The default warrants then give Nvidia more Nscale equity, which is worth least at that moment.",
         "collateral": "$470.0 million escrow held by Nscale as restricted cash as recourse for Nvidia during the guarantee period (ev_40004). Default warrants over Series B preferred shares exercisable on a Relevant Default Event, fair value $11.3 million at issue (ev_40007). Nvidia may also look to the warrant shares, but their value depends on Nscale.",
         "tenor": "First five years of the lease; lease commencement date not disclosed.",
-        "notes": "Consideration: Non-Default warrants over up to 9,476,700 Series B preferred shares with aggregate value $60.0 million, exercisable from 2026-08-01 (ev_40005, ev_40006). Nscale's Default warrant valuation inputs include a 13.6% credit spread and 77.7% lease payment recovery assumption (S-1/A fair value note; not recorded as evidence). Landlord not named."
+        "notes": "Consideration: Non-Default warrants over up to 9,476,700 Series B preferred shares with aggregate value $60.0 million, exercisable from 2026-08-01 (ev_40005, ev_40006). Nscale's Default warrant valuation inputs include a 13.6% credit spread and 77.7% lease payment recovery assumption (S-1/A fair value note; not recorded as evidence). Landlord not named.",
+        "tenor_bucket": "2 to 5 years"
       },
       "measure_inputs": {
         "counterparty_nvidia_spend": null,
@@ -2445,7 +2446,8 @@
         "wwr_reason": "Nvidia pays for capacity it receives; exposure does not grow if IREN weakens. Both depend on AI demand.",
         "collateral": "None. Nvidia receives compute capacity.",
         "tenor": "Five years from service start; start date not disclosed.",
-        "notes": "A Dell GPU purchase of about $1.6bn for Childress was made 'to service its previously announced $3.4 billion managed services AI cloud contract' (ev_40121); the matching value suggests this is the Nvidia contract (analysis)."
+        "notes": "A Dell GPU purchase of about $1.6bn for Childress was made 'to service its previously announced $3.4 billion managed services AI cloud contract' (ev_40121); the matching value suggests this is the Nvidia contract (analysis).",
+        "tenor_bucket": "2 to 5 years"
       },
       "measure_inputs": {
         "counterparty_nvidia_spend": null,
@@ -2834,7 +2836,8 @@
         "wwr_reason": "Nvidia's payments rest on capacity SharonAI cannot sell to others, so Nvidia's payments grow as SharonAI's sales weaken. SharonAI itself calls the structure credit support.",
         "collateral": "None disclosed for Nvidia. The $356m SPV facility is secured on assets supporting a different customer contract (ev_40152).",
         "tenor": "Six years; all phases end on the same date, which is not disclosed.",
-        "notes": "Internal difference on the SharonAI side: the 8-K states a contract value of up to $4.88bn (ev_40144) while the 10-Q says no fixed aggregate value is specified (ev_40146). The customer price per GPU hour declines over the six-year term. SharonAI committed to about $4bn of hardware and infrastructure in connection with the agreement (ev_40155), though the order form does not by itself fix a hardware amount (ev_80014). Nvidia earns product revenue on the GPUs and a share of cloud revenue (ev_80016). Either party may terminate on material breach or on insolvency or material adverse change events (8-K)."
+        "notes": "Internal difference on the SharonAI side: the 8-K states a contract value of up to $4.88bn (ev_40144) while the 10-Q says no fixed aggregate value is specified (ev_40146). The customer price per GPU hour declines over the six-year term. SharonAI committed to about $4bn of hardware and infrastructure in connection with the agreement (ev_40155), though the order form does not by itself fix a hardware amount (ev_80014). Nvidia earns product revenue on the GPUs and a share of cloud revenue (ev_80016). Either party may terminate on material breach or on insolvency or material adverse change events (8-K).",
+        "tenor_bucket": "5 to 10 years"
       },
       "measure_inputs": {
         "counterparty_nvidia_spend": null,

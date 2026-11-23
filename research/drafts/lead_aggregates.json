@@ -8,7 +8,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Unattributed non-marketable equity securities (private stakes), carrying value at 2026-10-25",
-      "insight_template": "Nvidia carries {funded} of private company stakes that no named deal explains, so most of its private portfolio cannot be checked against counterparties.",
+      "insight_template": "Up to {funded} of Nvidia's private stakes match no sized deal; OpenAI and other named stakes of unknown cost sit inside it.",
       "definition": "Nvidia's private company stakes, carried at cost less impairment and adjusted for observable price changes, totalled the disclosed amount at 2026-10-25. This record is what remains after subtracting the named private stakes whose amounts are disclosed. It is the part of Nvidia's private portfolio that no named relationship explains, and it is an upper bound because several named stakes, including OpenAI, have no disclosed funded amount.",
       "status": "definitive",
       "claim_basis": "filed",
@@ -134,7 +134,10 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Unattributed private stakes carried by Nvidia would be impaired in a down round, as the impairment recorded in the quarter to 2026-10-25 shows."
+            "text": "Private stakes Nvidia does not name are written down when their prices fall, as the $1.8 billion impairment in the quarter to 25 October 2026 shows.",
+            "evidence": [
+              "ev_50099"
+            ]
           }
         ],
         "second_order": [
@@ -145,8 +148,12 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Because the Unattributed private stakes are not named, readers cannot test whether this equity flows back to Nvidia as revenue.",
-            "lens": "revenue_quality"
+            "text": "Because Nvidia does not name these private investees, no reader can test whether the money returns to Nvidia as purchases of its systems.",
+            "lens": "revenue_quality",
+            "evidence": [
+              "ev_130010",
+              "ev_120010"
+            ]
           }
         ]
       },
@@ -165,7 +172,8 @@
         "ev_40009",
         "ev_40087",
         "ev_50099",
-        "ev_80030"
+        "ev_80030",
+        "ev_120010"
       ],
       "notes": "Named but not quantified (not subtracted): OpenAI Series C preferred (rel_openai_eq_2026; $30B committed in a round closed 2026-03-31, funded amount not disclosed); Anthropic Series G portion of the November 2025 agreement (rel_anthropic_eqc_2025, amount not disclosed); Mistral, Safe Superintelligence, Thinking Machines, Reflection, Cohere, Sakana, Point2, Figure, Wayve, Skild AI, Black Forest Labs, Scale AI, Anysphere, Databricks, Commonwealth Fusion, PsiQuantum, Quantinuum, TerraPower, Lambda, Crusoe (three rounds), Firmus (three), Together AI (three). Analysis: if the OpenAI $30B had been fully paid by 2026-10-25, the remainder would fall to about $29.0B. Excluded: Anthropic IPO placement (closed 2026-11-20, after the date, and a public stake); Nscale convertible notes (debt, not equity); equity method LP interests (Helix, Brookfield) which sit in the Non-marketable securities line of $65,528M (ev_130015) but outside the $61,650M equity table. SB Energy prepaid forward ($1.5B funded 2026-08-17, settles into non-voting Class N shares): its classification inside this line is analysis. Basis check after the critic review: every subtraction is a cost stated by a source for a private stake (Nscale Series B, SAFE and Series C-4 prices; SB Energy prepaid amount). Cost versus carrying value: the aggregate includes cumulative gross unrealized gains of $9.9B (ev_130021) and losses and impairments of $2.2B (ev_130022)."
     },
@@ -341,7 +349,13 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Unattributed public equity is small, so a fall in Nvidia's listed holdings is explained by the named stakes in Intel, SpaceX and CoreWeave."
+            "text": "Almost all of Nvidia's listed holdings are named stakes such as Intel, SpaceX and CoreWeave, so a fall in its public equity value can be traced to those names.",
+            "evidence": [
+              "ev_130011",
+              "ev_50021",
+              "ev_50031",
+              "ev_50019"
+            ]
           }
         ],
         "second_order": [
@@ -353,8 +367,11 @@
               "ent_coreweave"
             ],
             "direction": "negative",
-            "text": "Unattributed public stakes aside, the $21.0B under short-term lock-up means Nvidia's exits could move prices of the companies it backs.",
-            "lens": "signaling"
+            "text": "Nvidia held $21.0 billion of listed equity under short-term lock-up at 25 October 2026, so when those lock-ups end, sales by Nvidia could move the prices of companies it backs (analysis).",
+            "lens": "signaling",
+            "evidence": [
+              "ev_210002"
+            ]
           }
         ]
       },
@@ -375,7 +392,8 @@
         "ev_50027",
         "ev_50029",
         "ev_50031",
-        "ev_50098"
+        "ev_50098",
+        "ev_210002"
       ],
       "notes": "13F covers only US-listed 13(f) securities: it omits warrants, private-placement preferred, convertible debt and non-US listings, and its date (2026-09-30) differs from the balance sheet date (2026-10-25). Named but not quantified at fair value (inside Level 2 but carried in the register only at cost, so not subtracted): Marvell preferred ($2.0B cost, rel_marvell_eq_2026), Lumentum preferred ($2.0B cost, rel_lumentum_eq_2026), Corning warrants ($0.5B, rel_corning_eq_2026), Nebius pre-funded warrant ($2.0B, rel_nebius_eq_2026), IREN investment rights (rel_iren_eq_2026, no value). Analysis: the 13F common total ($48.3B) exceeds Level 1 ($38.4B) by about $10B, so some 13F positions are probably carried in Level 2 or were sold or repriced in October; if the Level 2 items were subtracted at cost the remainder would be negative. Excluded: debt convertible into a public company's equity, $3,471M (ev_50098), which sits in marketable debt securities. Anthropic (public from 2026-11-20) is after the date. Basis check after the critic review: every subtraction is a fair value stated in Nvidia's 13F, the same measure as the aggregate, at a date 25 days earlier."
     },
@@ -497,7 +515,11 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Unattributed guarantees mean a default by a partner Nvidia does not name would turn into an Nvidia payment without prior warning to readers."
+            "text": "A default by a partner Nvidia does not name would become an Nvidia payment with no prior warning to readers.",
+            "evidence": [
+              "ev_30025",
+              "ev_30026"
+            ]
           }
         ],
         "second_order": [
@@ -508,8 +530,12 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Lenders relying on the Unattributed power and systems credit support would reprice neocloud debt if Nvidia stopped offering it.",
-            "lens": "lender_reliance"
+            "text": "Nvidia discloses $9.5 billion of power and systems credit support and $3.5 billion of land, power and shell guarantees for neoclouds without naming who benefits, so lenders' reliance on them cannot be traced.",
+            "lens": "lender_reliance",
+            "evidence": [
+              "ev_30025",
+              "ev_30026"
+            ]
           }
         ]
       },
@@ -535,7 +561,7 @@
       "type_primary": "BK",
       "types_secondary": [],
       "title": "Unattributed neocloud (AI cloud) agreements: capacity Nvidia agreed to buy back at 2026-10-25",
-      "insight_template": "Nvidia stands behind up to {contingent_max} of neocloud capacity for unnamed partners, paying when they cannot find other customers.",
+      "insight_template": "Nvidia stands behind up to {contingent_max} of neocloud capacity; SharonAI and Firmus are known partners, but no partner's share is disclosed.",
       "definition": "Neoclouds buy Nvidia systems and Nvidia commits to rent the resulting capacity for about six years; the neocloud sells the capacity to others first and Nvidia uses or pays for what is left. The commitments take effect only if the neocloud finances the purchase and Nvidia accepts the capacity. No named agreement has a disclosed Nvidia maximum; SharonAI (headline up to $4.88 billion) and Firmus are named but not quantified, so the whole disclosed maximum is shown as unattributed.",
       "status": "definitive",
       "claim_basis": "filed",
@@ -628,7 +654,11 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Unattributed neocloud agreements mean a demand slowdown turns Nvidia's product revenue from these partners into rental expense."
+            "text": "If neoclouds cannot sell their capacity to others, Nvidia pays for what is left, so a demand slowdown turns sales to these partners into rental costs for Nvidia.",
+            "evidence": [
+              "ev_50078",
+              "ev_50080"
+            ]
           }
         ],
         "second_order": [
@@ -639,8 +669,11 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Lenders to Unattributed neoclouds rely on Nvidia's commitment to secure financing, which supports Nvidia's own reported product revenue.",
-            "lens": "revenue_quality"
+            "text": "The commitments take effect only once a neocloud secures financing, so they help neoclouds raise the money they use to buy Nvidia systems (analysis).",
+            "lens": "revenue_quality",
+            "evidence": [
+              "ev_50081"
+            ]
           }
         ]
       },
@@ -654,7 +687,8 @@
         "ev_40146",
         "ev_50079",
         "ev_50080",
-        "ev_50081"
+        "ev_50081",
+        "ev_50078"
       ],
       "notes": "Named but not quantified (not subtracted): SharonAI (rel_sharonai_bk_2026; order of 2026-06-08, six years, five phases, revenue share; 8-K headline 'up to $4.88 billion' (ev_40144) while its 10-Q of 2026-11-16 says the arrangement does not specify a fixed aggregate contractual value (ev_40146)); CoreWeave (rel_coreweave_bk_2025; residual capacity order with an initial value of $6.3B, classification between this line and cloud service agreements not stated); Firmus (rel_firmus_bk_2026; revenue sharing and credit support model, size not disclosed); IREN (rel_iren_lb_2026) and Nscale (rel_nscale_lb_2025), whose rentals may sit here or in cloud service agreements (analysis). Classification: Nvidia describes these as agreements where the neocloud buys Nvidia infrastructure, Nvidia commits to rent the capacity for about six years, the neocloud can sell to third parties first and Nvidia shares revenue; the category appeared in Q2 FY2027 and its schedule shows nothing payable in the rest of FY2027. Value before the critic review: $27.12B with SharonAI subtracted. The aggregate was $36B at 2026-07-26 (ev_50079)."
     },
@@ -756,7 +790,10 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Unattributed cloud service agreements leave Nvidia paying providers it does not name even if its own compute needs fall."
+            "text": "Nvidia owed $28 billion under cloud service agreements at 25 October 2026 and names only some providers, so it keeps paying even if its own compute needs fall.",
+            "evidence": [
+              "ev_130013"
+            ]
           }
         ],
         "second_order": [
@@ -767,8 +804,11 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Unattributed cloud rentals give unnamed providers contracted revenue that supports debt used to buy Nvidia systems.",
-            "lens": "revenue_quality"
+            "text": "Providers Nvidia rents from gain contracted revenue they can borrow against to buy Nvidia systems; which providers hold the unnamed part is not disclosed (analysis).",
+            "lens": "revenue_quality",
+            "evidence": [
+              "ev_130013"
+            ]
           }
         ]
       },
@@ -793,7 +833,7 @@
       "type_primary": "EQ-C",
       "types_secondary": [],
       "title": "Unattributed equity investment commitments (unfunded) at 2026-10-25",
-      "insight_template": "Nvidia has promised {committed_total} of future equity to companies it does not name, money that leaves as their funding needs rise.",
+      "insight_template": "Up to {committed_total} of Nvidia's unfunded equity commitments cannot be tied to a named deal; unpaid OpenAI and Anthropic amounts may sit inside it.",
       "definition": "Nvidia has committed to make equity investments in frontier labs, infrastructure financiers and other private companies, subject to contingencies, and discloses the unfunded total. This record subtracts named commitments signed before 2026-10-25 and not yet paid. What remains is committed money for investees Nvidia does not name, and it is an upper bound because the unfunded parts of the OpenAI and Anthropic commitments are not disclosed.",
       "status": "definitive",
       "claim_basis": "filed",
@@ -909,7 +949,10 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Unattributed equity commitments will draw Nvidia cash into companies readers cannot identify, most of it in fiscal 2028."
+            "text": "Nvidia's $20 billion of unfunded equity commitments at 25 October 2026 fall mostly in fiscal 2028, when the cash goes to investees not all of whom are named.",
+            "evidence": [
+              "ev_120011"
+            ]
           }
         ],
         "second_order": [
@@ -920,8 +963,11 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Unattributed equity commitments to frontier labs may come back as Nvidia revenue, which cannot be tested without names.",
-            "lens": "revenue_quality"
+            "text": "Nvidia says these commitments focus on frontier labs and infrastructure financiers; without names, whether the money returns as Nvidia revenue cannot be tested.",
+            "lens": "revenue_quality",
+            "evidence": [
+              "ev_120010"
+            ]
           }
         ]
       },
@@ -1042,7 +1088,10 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Unattributed supply commitments would leave Nvidia paying for components and capacity it cannot sell, as with past inventory charges."
+            "text": "Nvidia's supply and capacity commitments reached $390 billion at 25 October 2026, so a demand fall would leave it paying for components and capacity it cannot sell.",
+            "evidence": [
+              "ev_130023"
+            ]
           }
         ],
         "second_order": [
@@ -1053,8 +1102,12 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Suppliers behind the Unattributed commitments sized capacity on Nvidia orders, so a cut would spread to their lenders and staff.",
-            "lens": "contagion"
+            "text": "Named suppliers such as Amkor and KYEC are building capacity on Nvidia's advances, so a cut in Nvidia orders would leave unnamed suppliers with idle lines too (analysis).",
+            "lens": "contagion",
+            "evidence": [
+              "ev_30062",
+              "ev_30066"
+            ]
           }
         ]
       },
@@ -1069,7 +1122,8 @@
         "ev_10148",
         "ev_130023",
         "ev_30062",
-        "ev_60094"
+        "ev_60094",
+        "ev_30066"
       ],
       "notes": "Named but not quantified against this aggregate: Amkor (rel_amkor_pp_2026; Nvidia says multiyear agreements total nearly $3 billion including prepayments, committed amount not attributable because Amkor does not name the customer); KYEC capacity reservation advance ($1.1B per Nvidia's release, paid part not stated, rel_kyec_pp_2026); Corning customer deposit (rel_corning_pp_2026; Corning does not name the customer, committed amount unknown); Ibiden, Unimicron and SPIL (no amounts). Paid parts sit in prepaid assets, which Nvidia stopped breaking out after 2025-10-26 (last disclosed: long-term $1,536M, ev_10147; short-term $2.0B, ev_10148). The aggregate was $279B at 2026-07-26 (ev_10029)."
     },
@@ -1175,7 +1229,12 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "If Unattributed data center leases meant for others are not assigned, Nvidia pays rent for up to twenty years on space it may not need."
+            "text": "If Nvidia cannot assign data center leases meant for others, it bears the rent on terms of up to twenty years for space it may not need.",
+            "evidence": [
+              "ev_190005",
+              "ev_190006",
+              "ev_190009"
+            ]
           }
         ],
         "second_order": [
@@ -1186,8 +1245,12 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Landlords of the Unattributed leases can finance buildings on Nvidia's credit, so capacity reaches users that could not sign such leases themselves.",
-            "lens": "lender_reliance"
+            "text": "Landlords of leases Nvidia signs and plans to reassign can finance buildings on Nvidia's credit, so capacity reaches tenants that could not sign such leases alone (analysis).",
+            "lens": "lender_reliance",
+            "evidence": [
+              "ev_190008",
+              "ev_50130"
+            ]
           }
         ]
       },

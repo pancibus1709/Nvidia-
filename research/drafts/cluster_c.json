@@ -809,14 +809,18 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Intel misses its foundry and data center product milestones",
-            "mechanism": "The joint x86 and RTX products slip and Intel's share price falls",
+            "trigger": "Intel misses its foundry and joint product milestones",
+            "mechanism": "The joint NVLink products slip and Intel's share price falls",
             "affected": [
               "ent_nvidia",
               "ent_intel"
             ],
             "direction": "negative",
-            "text": "If Intel misses its product milestones, Nvidia loses value on its remaining Intel shares and its custom x86 CPU supply is delayed."
+            "text": "If Intel's custom data center and PC products with Nvidia NVLink are late, Nvidia loses value on its remaining Intel shares and the joint products slip.",
+            "evidence": [
+              "ev_50065",
+              "ev_50021"
+            ]
           },
           {
             "trigger": "Nvidia continues to sell Intel shares",
@@ -862,7 +866,10 @@
             ],
             "direction": "negative",
             "text": "If Intel ceases to own at least half of its foundry, the government warrant dilutes Intel holders, Nvidia included.",
-            "lens": "contagion"
+            "lens": "contagion",
+            "evidence": [
+              "ev_60013"
+            ]
           }
         ]
       },
@@ -948,7 +955,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia stake in Nokia",
-      "insight_template": "Nvidia paid {funded} for new {counterparty} shares tied to an AI radio partnership, then sold most of them within a year.",
+      "insight_template": "Nvidia paid {funded} for new {counterparty} shares tied to an AI radio partnership, and its latest holdings report shows a much smaller stake.",
       "definition": "Nokia's board issued 166,389,351 new shares to Nvidia in a directed issue at $6.01 per share, about $1.0 billion, announced on 28 October 2025 and completed on 13 November 2025 as American depositary shares. The issue gave Nvidia 2.90% of Nokia and is described by Nokia as an essential part of a partnership on AI-RAN and data center networking. Nvidia's 13F shows 72,859,751 shares at 30 September 2026.",
       "status": "completed",
       "claim_basis": "filed",
@@ -1113,19 +1120,28 @@
               "ent_nokia"
             ],
             "direction": "negative",
-            "text": "If operators do not buy Nokia's AI-RAN products, Nvidia's remaining Nokia shares lose value and a route for its accelerators into radio networks narrows."
+            "text": "If operators do not buy Nokia's AI-RAN products, Nvidia's remaining Nokia shares lose value and a route for its accelerators into radio networks narrows.",
+            "evidence": [
+              "ev_50142",
+              "ev_60039",
+              "ev_50025"
+            ]
           }
         ],
         "second_order": [
           {
-            "trigger": "Nvidia's 13F shows it sold over half its Nokia shares",
-            "mechanism": "Investors question the depth of the partnership that justified the directed issue",
+            "trigger": "Nvidia's 13F shows fewer than half of its original Nokia shares",
+            "mechanism": "Nokia holders can see the smaller Nvidia stake in each 13F",
             "affected": [
               "ent_nokia"
             ],
             "direction": "negative",
-            "text": "Nvidia's sale of most of its Nokia shares within a year weakens the signal Nokia used to justify issuing shares without pre-emptive rights.",
-            "lens": "signaling"
+            "text": "Nvidia's holdings reports show its Nokia shares falling from 166,389,351 to 72,859,751 within a year.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_50024",
+              "ev_50025"
+            ]
           }
         ]
       },
@@ -1312,7 +1328,10 @@
               "ent_synopsys"
             ],
             "direction": "negative",
-            "text": "If Synopsys's GPU-accelerated tools sell poorly, Nvidia's Synopsys shares lose value and fewer design workloads move to Nvidia GPUs."
+            "text": "If Synopsys's GPU-accelerated engineering tools sell poorly, Nvidia's Synopsys shares lose value and fewer design workloads move to Nvidia GPUs.",
+            "evidence": [
+              "ev_30039"
+            ]
           }
         ],
         "second_order": [
@@ -1324,8 +1343,12 @@
               "ent_nvidia"
             ],
             "direction": "mixed",
-            "text": "Any Nvidia hardware Synopsys buys to run its accelerated tools would partly recycle Nvidia's own money; no filing quantifies such purchases.",
-            "lens": "revenue_quality"
+            "text": "Any Nvidia hardware Synopsys buys to run its accelerated tools would partly recycle Nvidia's own money; no filing quantifies such purchases (analysis).",
+            "lens": "revenue_quality",
+            "evidence": [
+              "ev_30039",
+              "ev_60045"
+            ]
           }
         ]
       },
@@ -1492,14 +1515,18 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Marvell's custom XPU programs lose hyperscaler orders",
+            "trigger": "Marvell loses custom silicon orders",
             "mechanism": "Marvell's share price and the conversion value fall",
             "affected": [
               "ent_nvidia",
               "ent_marvell"
             ],
             "direction": "negative",
-            "text": "If Marvell loses custom XPU orders, Nvidia's preferred stake falls with Marvell's common stock because it has no liquidation preference."
+            "text": "If Marvell's business weakens, Nvidia's preferred stake falls with Marvell's common stock, because the preferred ranks pro rata with common in a liquidation.",
+            "evidence": [
+              "ev_60057",
+              "ev_60056"
+            ]
           }
         ],
         "second_order": [
@@ -1513,7 +1540,11 @@
             ],
             "direction": "mixed",
             "text": "Marvell also gave Google a warrant tied to custom TPU-related silicon, so Nvidia holds equity in a supplier to a rival accelerator program.",
-            "lens": "contagion"
+            "lens": "contagion",
+            "evidence": [
+              "ev_60062",
+              "ev_60063"
+            ]
           }
         ]
       },
@@ -1701,7 +1732,11 @@
               "ent_lumentum"
             ],
             "direction": "negative",
-            "text": "If Lumentum's new fab slips, Nvidia faces both a loss on its preferred and a delay in the laser capacity it paid to reserve."
+            "text": "If Lumentum's new fab slips, Nvidia faces both a loss on its preferred and a delay in the laser capacity it paid to reserve.",
+            "evidence": [
+              "ev_30046",
+              "ev_60070"
+            ]
           }
         ],
         "second_order": [
@@ -1713,12 +1748,12 @@
               "ent_nvidia"
             ],
             "direction": "mixed",
-            "text": "Nvidia is both a shareholder and a committed buyer of Lumentum; neither discloses the size of the purchase commitment, so the share of Lumentum revenue that Nvidia funds cannot be measured.",
+            "text": "Nvidia's preferred stock funds a new Lumentum fab and Nvidia has also agreed to buy from it; the purchase commitment is not sized, so the share of the fab's output Nvidia will take is unknown.",
             "lens": "revenue_quality",
             "evidence": [
               "ev_60070",
               "ev_30047",
-              "ev_60066"
+              "ev_30046"
             ]
           }
         ]
@@ -1902,7 +1937,11 @@
               "ent_coherent"
             ],
             "direction": "negative",
-            "text": "If transceiver prices fall, Nvidia loses value on its Coherent shares while the capacity it funded lowers its own optics costs."
+            "text": "If transceiver prices fall, Nvidia loses value on its Coherent shares while the capacity it funded lowers its own optics costs (analysis).",
+            "evidence": [
+              "ev_30048",
+              "ev_30049"
+            ]
           }
         ],
         "second_order": [
@@ -1914,11 +1953,12 @@
               "ent_nvidia"
             ],
             "direction": "mixed",
-            "text": "Nvidia is both a shareholder and a committed buyer of Coherent; neither discloses the size of the purchase commitment, so the share of Coherent revenue that Nvidia funds cannot be measured.",
+            "text": "Nvidia bought Coherent common stock in a placement and is a committed buyer of its optics; Coherent's largest customer was 20% of fiscal 2026 revenue and is not named, so Nvidia's share cannot be measured.",
             "lens": "revenue_quality",
             "evidence": [
               "ev_30049",
-              "ev_60077"
+              "ev_60077",
+              "ev_190088"
             ]
           }
         ]
@@ -1942,7 +1982,8 @@
         "ev_60079",
         "ev_60080",
         "ev_60081",
-        "ev_60082"
+        "ev_60082",
+        "ev_190088"
       ]
     },
     {
@@ -2067,7 +2108,11 @@
               "ent_arm"
             ],
             "direction": "positive",
-            "text": "Nvidia's exit from Arm removed a small listed stake and has no effect on its Arm architecture license."
+            "text": "Nvidia's 13F reports show its Arm holding cut from 1,960,784 to 1,101,249 shares before it left the 13F, so Nvidia no longer carries an Arm stake.",
+            "evidence": [
+              "ev_50001",
+              "ev_50002"
+            ]
           }
         ],
         "second_order": [
@@ -2079,8 +2124,11 @@
               "ent_nvidia"
             ],
             "direction": "mixed",
-            "text": "The Arm exit shows Nvidia sells listed partner stakes, which tempers any reading of its newer supplier stakes as permanent support.",
-            "lens": "signaling"
+            "text": "The Arm exit shows Nvidia sells listed partner stakes, which tempers any reading of its newer supplier stakes as permanent support (analysis).",
+            "lens": "signaling",
+            "evidence": [
+              "ev_50002"
+            ]
           }
         ]
       },
@@ -2265,7 +2313,11 @@
             ],
             "direction": "mixed",
             "text": "Corning treats part of the warrant as a price concession to a customer, so its reported revenue from that supply agreement is lower than gross billings.",
-            "lens": "revenue_quality"
+            "lens": "revenue_quality",
+            "evidence": [
+              "ev_60096",
+              "ev_60095"
+            ]
           }
         ]
       },
@@ -2302,7 +2354,7 @@
       ],
       "title": "Customer deposit with Corning linked to the Nvidia warrants",
       "insight_template": "{counterparty} holds a customer deposit that may be Nvidia's, but {counterparty} does not name the customer, so Nvidia's exposure is unconfirmed.",
-      "definition": "In the second quarter of 2026 Corning recorded a customer deposit under a long-term supply agreement running through 31 December 2029, offset by part of a warrant issued to the same customer. Corning's only warrants issued that quarter were those sold to Nvidia on 6 May 2026, so the customer may be Nvidia by that link (analysis). Corning does not name the customer, so no amount is attributed to Nvidia. Deposits are applied against the customer's receivables as products are delivered.",
+      "definition": "In the second quarter of 2026 Corning recorded a customer deposit under a long-term supply agreement running through 31 December 2029, offset by part of a warrant issued to the same customer. Corning's only warrants issued that quarter were those sold to Nvidia on 6 May 2026, so the customer may be Nvidia by that link (analysis). Corning does not name the depositor, so no amount is attributed to Nvidia. Deposits are applied against the customer's receivables as products are delivered.",
       "status": "definitive",
       "claim_basis": "filed",
       "amounts": {
@@ -2402,7 +2454,12 @@
               "ent_corning"
             ],
             "direction": "negative",
-            "text": "If Corning's new plants are late, the deposit stays on Corning's balance sheet longer and, if the unnamed customer is Nvidia as the warrant link suggests, Nvidia carries an unsecured claim on Corning."
+            "text": "If Corning's new plants are late, the deposit stays on Corning's balance sheet longer; Corning does not name the depositor, so whether Nvidia carries this claim is analysis.",
+            "evidence": [
+              "ev_60094",
+              "ev_60092",
+              "ev_60098"
+            ]
           }
         ],
         "second_order": [
@@ -2414,8 +2471,12 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "A Corning delivery shortfall would slow hyperscaler builds that need its fiber, delaying Nvidia system shipments as well as the deposit drawdown.",
-            "lens": "contagion"
+            "text": "A Corning delivery shortfall would slow data center builds that need its fiber, delaying the deposit drawdown and possibly Nvidia system shipments (analysis).",
+            "lens": "contagion",
+            "evidence": [
+              "ev_60092",
+              "ev_60099"
+            ]
           }
         ]
       },
@@ -2432,7 +2493,8 @@
         "ev_60096",
         "ev_60098",
         "ev_60099",
-        "ev_60102"
+        "ev_60102",
+        "ev_60092"
       ]
     },
     {
@@ -2442,7 +2504,7 @@
       "type_primary": "PP",
       "types_secondary": [],
       "title": "Nvidia multiyear agreements with Amkor, including prepayments",
-      "insight_template": "Nvidia's agreements with {counterparty} total close to {headline} including prepayments for packaging capacity, on terms that neither company has stated.",
+      "insight_template": "Nvidia's agreements with {counterparty} total {headline} including prepayments for packaging capacity, on terms that neither company has stated.",
       "definition": "Nvidia says it supports Amkor's expansion through multiyear agreements announced in July and October 2026, totaling nearly $3 billion and including prepayments. Amkor's 10-Qs report two advance payment agreements with an unnamed customer in the same months; that this customer is Nvidia is analysis. Some advances are backed by standby letters of credit issued by Amkor.",
       "status": "definitive",
       "claim_basis": "filed",
@@ -2461,7 +2523,8 @@
           "evidence": [
             "ev_30065"
           ],
-          "note": "Nvidia says the agreements total nearly $3 billion and include prepayments (ev_30065); the figure is slightly below $3 billion and covers all the agreements, not only prepayments. Dated to the Nvidia statement of 2026-11-17 because the July and October 2026 agreements are not separately valued by Nvidia. Should display as nearly $3 billion."
+          "note": "Nvidia says the agreements total nearly $3 billion and include prepayments (ev_30065); the figure is slightly below $3 billion and covers all the agreements, not only prepayments. Dated to the Nvidia statement of 2026-11-17 because the July and October 2026 agreements are not separately valued by Nvidia.",
+          "qualifier": "nearly"
         },
         "committed_total": {
           "value": null,
@@ -2570,19 +2633,29 @@
               "ent_amkor"
             ],
             "direction": "negative",
-            "text": "If Amkor's new packaging lines are late, Nvidia's advances to Amkor sit as unsecured claims and its packaging supply tightens."
+            "text": "If Amkor's new packaging lines are late, Nvidia's advances to Amkor are worked off later and its packaging supply tightens; Amkor backs some customer advances with standby letters of credit but does not name the customer.",
+            "evidence": [
+              "ev_30066",
+              "ev_60106",
+              "ev_60112"
+            ]
           }
         ],
         "second_order": [
           {
             "trigger": "Amkor relies on customer advances to fund capex",
-            "mechanism": "Amkor borrowed $1.15B of long-term debt in 2026 alongside the advances",
+            "mechanism": "Amkor's capacity build is partly funded by customer advances from an unnamed customer",
             "affected": [
               "ent_amkor"
             ],
             "direction": "mixed",
-            "text": "Amkor funds its expansion with both new debt and Nvidia's advances, so a cut in Nvidia orders would leave Amkor's lenders with more underused capacity.",
-            "lens": "lender_reliance"
+            "text": "Nvidia says its Amkor agreements include prepayments to scale capacity; Amkor does not name the customer, so how much of its expansion Nvidia funds is not disclosed.",
+            "lens": "lender_reliance",
+            "evidence": [
+              "ev_30066",
+              "ev_60104",
+              "ev_60110"
+            ]
           }
         ]
       },
@@ -2710,7 +2783,10 @@
               "ent_kyec"
             ],
             "direction": "negative",
-            "text": "If KYEC's US test sites slip past their target, Nvidia's advance to KYEC is tied up and its US test capacity falls short."
+            "text": "Nvidia's $1.1 billion advance pays for new KYEC testing facilities and equipment in the US, with high-volume production targeted for April 2027, so until then it is not backed by output.",
+            "evidence": [
+              "ev_30062"
+            ]
           }
         ],
         "second_order": [
@@ -2722,8 +2798,11 @@
               "ent_amkor"
             ],
             "direction": "negative",
-            "text": "A KYEC delay would hold back US-made Nvidia products that also depend on Amkor's Arizona packaging.",
-            "lens": "contagion"
+            "text": "A KYEC delay would hold back US testing of Nvidia products that Nvidia plans to double across the US, Taiwan and Singapore (analysis).",
+            "lens": "contagion",
+            "evidence": [
+              "ev_30062"
+            ]
           }
         ]
       },
@@ -2839,7 +2918,10 @@
               "ent_ibiden"
             ],
             "direction": "negative",
-            "text": "If IBIDEN's Ono Plant ramps late, Nvidia's substrate supply tightens and its advance to IBIDEN stays outstanding longer."
+            "text": "Nvidia describes its IBIDEN advance only as multibillion dollar; it funds a tripling of the Ono Plant with new capacity from early 2028, so the amount at risk until then cannot be sized.",
+            "evidence": [
+              "ev_30063"
+            ]
           }
         ],
         "second_order": [
@@ -2852,8 +2934,13 @@
               "ent_spil"
             ],
             "direction": "negative",
-            "text": "A substrate shortfall at IBIDEN would idle packaging lines that Nvidia also prepaid at Amkor and SPIL.",
-            "lens": "contagion"
+            "text": "A substrate shortfall at IBIDEN would idle packaging lines that Nvidia also prepaid at Amkor and SPIL (analysis).",
+            "lens": "contagion",
+            "evidence": [
+              "ev_30063",
+              "ev_30066",
+              "ev_30067"
+            ]
           }
         ]
       },
@@ -2863,7 +2950,9 @@
       "significance": {},
       "version": 1,
       "evidence": [
-        "ev_30063"
+        "ev_30063",
+        "ev_30066",
+        "ev_30067"
       ],
       "notes": "IBIDEN's capital investment notice (ibiden.com PDF) was fetched but its text could not be extracted; a search snippet says customers bear investment costs partly as advance payments, without naming Nvidia."
     },
@@ -2969,7 +3058,10 @@
               "ent_unimicron"
             ],
             "direction": "negative",
-            "text": "If Unimicron's Taiwan expansion slips, Nvidia's reserved substrate supply arrives late, and any advance paid stays outstanding."
+            "text": "Nvidia's Unimicron agreement reserves KF substrate capacity in Taiwan with no stated amount, and no source says whether Nvidia paid anything in advance, so any cash exposure is unknown.",
+            "evidence": [
+              "ev_30064"
+            ]
           }
         ],
         "second_order": [
@@ -2981,8 +3073,12 @@
               "ent_ibiden"
             ],
             "direction": "negative",
-            "text": "A Unimicron delay would raise Nvidia's reliance on IBIDEN, concentrating its substrate supply further.",
-            "lens": "contagion"
+            "text": "A Unimicron delay would raise Nvidia's reliance on IBIDEN, concentrating its substrate supply further (analysis).",
+            "lens": "contagion",
+            "evidence": [
+              "ev_30064",
+              "ev_30063"
+            ]
           }
         ]
       },
@@ -2992,7 +3088,8 @@
       "significance": {},
       "version": 1,
       "evidence": [
-        "ev_30064"
+        "ev_30064",
+        "ev_30063"
       ],
       "notes": "No amount and no statement that an advance is paid; recorded as PP because it is a capacity reservation."
     },
@@ -3098,7 +3195,10 @@
               "ent_spil"
             ],
             "direction": "negative",
-            "text": "If SPIL's dedicated lines are late, Nvidia's funding to SPIL is tied up and its advanced packaging supply tightens."
+            "text": "Nvidia's multibillion dollar funding for SPIL buys packaging lines dedicated to Nvidia by mid 2029, so the funding is worked off in output only once those lines run.",
+            "evidence": [
+              "ev_30067"
+            ]
           }
         ],
         "second_order": [
@@ -3111,7 +3211,11 @@
             ],
             "direction": "mixed",
             "text": "Nvidia now funds both SPIL and Amkor packaging capacity, so a demand fall would leave it with prepaid capacity at two assemblers at once.",
-            "lens": "contagion"
+            "lens": "contagion",
+            "evidence": [
+              "ev_30067",
+              "ev_30066"
+            ]
           }
         ]
       },
@@ -3121,7 +3225,8 @@
       "significance": {},
       "version": 1,
       "evidence": [
-        "ev_30067"
+        "ev_30067",
+        "ev_30066"
       ],
       "notes": "SPIL is a private subsidiary of ASE Technology Holding; ASE's 20-F (filed 2026-04-01) was searched and no Nvidia funding found."
     }

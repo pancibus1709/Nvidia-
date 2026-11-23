@@ -43,7 +43,7 @@
           ]
         },
         {
-          "text": "Intel's Nvidia stake came with a product deal, with no disclosed Intel purchase commitment.",
+          "text": "Intel's Nvidia stake came with a product deal but no disclosed purchase commitment.",
           "relationships": [
             "rel_intel_eq_2025"
           ],
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "text": "Nvidia says some customers outgrow what their credit can support, and it acted in response.",
+          "text": "Nvidia says some customers outgrow their credit, and it acted in response.",
           "relationships": [],
           "evidence": [
             "ev_200006",
@@ -177,7 +177,7 @@
       ]
     }
   ],
-  "where_the_analogy_breaks": "Nvidia cannot create money. Its guarantees reach a $118.0 billion maximum against $266.7 billion of shareholders' equity at 25 October 2026; the OpenAI guaranty alone is $105 billion, unsecured. Its support depends on the same AI demand.",
+  "where_the_analogy_breaks": "Nvidia cannot create money. Its guarantees reach a $118.0 billion maximum against $266.7 billion of shareholders' equity at 25 October 2026; the OpenAI guaranty alone is $105 billion, with only OpenAI's reimbursement promise in return. Its support depends on the same AI demand.",
   "where_the_analogy_breaks_evidence": [
     "ev_50044",
     "ev_130001",
@@ -189,6 +189,6 @@
     "rel_coreweave_bk_2025",
     "rel_nscale_gu_2025"
   ],
-  "overall": "Nvidia gives equity and credit support to its buyers from a finite balance sheet; whether it sets prices or rescues is not shown.",
+  "overall": "Nvidia gives equity and credit support to its buyers from a finite balance sheet; price setting and rescue are not shown.",
   "label": "analysis"
 }

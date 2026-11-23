@@ -225,7 +225,10 @@
               "ent_iambic"
             ],
             "direction": "mixed",
-            "text": "Iambic's collaboration to optimize its models on Nvidia hardware ties part of Nvidia's investment to future Nvidia platform use."
+            "text": "Iambic's collaboration to optimize its models on Nvidia hardware ties part of Nvidia's investment to future Nvidia platform use.",
+            "evidence": [
+              "ev_170005"
+            ]
           }
         ],
         "second_order": [
@@ -237,7 +240,11 @@
             ],
             "direction": "positive",
             "lens": "signaling",
-            "text": "Iambic lists Nvidia as an investor and partner in its IPO prospectus, so a later Nvidia sale would remove a visible backer of Iambic."
+            "text": "Iambic lists Nvidia as an investor and partner in its IPO prospectus, so a later Nvidia sale would remove a visible backer of Iambic.",
+            "evidence": [
+              "ev_170004",
+              "ev_170005"
+            ]
           }
         ]
       },

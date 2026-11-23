@@ -585,7 +585,8 @@
         "wwr_reason": "Equity value moves with AI data center demand. Correlation with the Nvidia residual value guaranty on the same campus is high: an OpenAI default would both trigger the guaranty and cut SB Energy's main future revenue (analysis).",
         "collateral": "None. Before the IPO Nvidia holds a contract claim on Energy Global and SB Energy under the prepaid forward; after settlement it holds non voting Class N common stock, structurally junior to all project debt.",
         "tenor": "Prepaid forward has no stated maturity and settles on an IPO, listing, financing, change of control or dissolution; share purchase agreement lapses 15 May 2027.",
-        "notes": "SB Energy records the prepaid forward as a liability at $1,666,667 thousand fair value at 30 Sept 2026 (ev_100053)."
+        "notes": "SB Energy records the prepaid forward as a liability at $1,666,667 thousand fair value at 30 Sept 2026 (ev_100053).",
+        "tenor_bucket": "Under 2 years"
       },
       "consequences": {
         "first_order": [
@@ -1092,7 +1093,11 @@
               "ent_helix"
             ],
             "direction": "negative",
-            "text": "If Helix data centers fail to lease, Nvidia's undisclosed stake loses value alongside Vistra and KIA."
+            "text": "If Helix data centers fail to lease, Nvidia's undisclosed stake loses value alongside Vistra and KIA.",
+            "evidence": [
+              "ev_100030",
+              "ev_100031"
+            ]
           }
         ],
         "second_order": [
@@ -1104,8 +1109,12 @@
               "ent_nvidia"
             ],
             "direction": "mixed",
-            "text": "Helix is set up to deploy Nvidia DSX designs, so Nvidia money in Helix supports demand for Nvidia systems.",
-            "lens": "revenue_quality"
+            "text": "Nvidia is a strategic partner supporting Nvidia DSX aligned infrastructure for Helix investments, so Nvidia money in Helix supports demand for Nvidia systems.",
+            "lens": "revenue_quality",
+            "evidence": [
+              "ev_210005",
+              "ev_100031"
+            ]
           },
           {
             "trigger": "Other founding investors commit to Helix",
@@ -1181,7 +1190,8 @@
         "ev_100032",
         "ev_100055",
         "ev_100033",
-        "ev_200009"
+        "ev_200009",
+        "ev_210005"
       ]
     },
     {
@@ -1300,7 +1310,11 @@
               "ent_brookfield_baiif"
             ],
             "direction": "negative",
-            "text": "If the Brookfield AI Infrastructure Fund's AI factories underperform, Nvidia loses on its stake and may still owe undrawn commitments."
+            "text": "If the Brookfield AI Infrastructure Fund's AI factories underperform, Nvidia loses on its stake and may still owe undrawn commitments.",
+            "evidence": [
+              "ev_100038",
+              "ev_100035"
+            ]
           }
         ],
         "second_order": [
@@ -1313,7 +1327,11 @@
             ],
             "direction": "mixed",
             "text": "If the Brookfield vehicle financing NAVER's AI factory sits inside the Brookfield AI Infrastructure Fund, which no source on file confirms (analysis), a failure there would hit Nvidia through the fund and through NAVER.",
-            "lens": "contagion"
+            "lens": "contagion",
+            "evidence": [
+              "ev_90070",
+              "ev_100038"
+            ]
           },
           {
             "trigger": "Brookfield raises third party capital for the fund",
@@ -1364,7 +1382,8 @@
         "ev_100036",
         "ev_100037",
         "ev_100038",
-        "ev_30073"
+        "ev_30073",
+        "ev_90070"
       ]
     },
     {
@@ -1526,8 +1545,12 @@
               "ent_broadcom"
             ],
             "direction": "positive",
-            "text": "Nvidia, AMD and Broadcom backing Meta's offering signals supplier support for Meta's spending plans.",
-            "lens": "signaling"
+            "text": "Nvidia, AMD and Broadcom indicated interest in Meta's offering as cornerstone investors, which signals supplier support for Meta's spending plans, though the indications do not bind them.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_100040",
+              "ev_100041"
+            ]
           }
         ]
       },

@@ -120,7 +120,11 @@
             "ent_openai"
           ],
           "direction": "mixed",
-          "text": "If OpenAI keeps deploying Nvidia systems without the letter of intent being signed into a contract, Nvidia gains the sales without the per gigawatt investment."
+          "text": "The letter of intent ties Nvidia's investment to each gigawatt OpenAI deploys; if OpenAI keeps deploying Nvidia systems without a signed agreement, Nvidia gains the sales without investing (analysis).",
+          "evidence": [
+            "ev_30021",
+            "ev_30092"
+          ]
         },
         {
           "trigger": "Nvidia and OpenAI sign a definitive agreement on the gigawatt structure",
@@ -130,7 +134,11 @@
             "ent_openai"
           ],
           "direction": "negative",
-          "text": "A signed version would turn the headline into a contingent commitment tied to OpenAI's own Nvidia purchases, which is vendor financing by another name."
+          "text": "If Nvidia and OpenAI signed the letter's terms, investment released progressively as each gigawatt is deployed would become a commitment tied to OpenAI's own purchases of Nvidia systems (analysis).",
+          "evidence": [
+            "ev_30021",
+            "ev_120020"
+          ]
         }
       ],
       "second_order": [
@@ -143,8 +151,12 @@
             "ent_sb_energy"
           ],
           "direction": "negative",
-          "text": "Lessors and clouds that counted on Nvidia money reaching OpenAI could find that the headline never funds, weakening the case for OpenAI's leases.",
-          "lens": "signaling"
+          "text": "OpenAI and Nvidia said only that they look forward to finalizing the details, so lessors and clouds serving OpenAI cannot count the letter's headline as funding for OpenAI (analysis).",
+          "lens": "signaling",
+          "evidence": [
+            "ev_120021",
+            "ev_30020"
+          ]
         }
       ]
     },
@@ -298,7 +310,8 @@
         "last_verified": null,
         "display_eligible": false,
         "lower_bound": false,
-        "evidence": []
+        "evidence": [],
+        "note": "Analysis: Nvidia's total unfunded equity commitments were $20 billion at 2026-10-25 (ev_120011). If the $30 billion OpenAI names is a binding commitment in that total, at least $10 billion had been paid by that date, and at least $13.5 billion after the $3.5 billion this register attributes to other investees. The exact amount is not disclosed."
       },
       "contingent_max": {
         "value": 0,
@@ -348,13 +361,16 @@
       "first_order": [
         {
           "trigger": "OpenAI's next financing prices below the $852 billion post-money of the 2026 round",
-          "mechanism": "Nvidia's carrying value of its OpenAI preferred stock would be marked down on an observable price",
+          "mechanism": "Nvidia's carrying value of its OpenAI preferred stock would be marked down on an observable price (analysis)",
           "affected": [
             "ent_nvidia",
             "ent_openai"
           ],
           "direction": "negative",
-          "text": "A down round at OpenAI would force Nvidia to impair its OpenAI stake through other income, because the measurement alternative uses observable transactions."
+          "text": "A lower OpenAI round price would lead Nvidia to mark down its OpenAI stake, as it already records impairments on private stakes it holds (analysis).",
+          "evidence": [
+            "ev_50099"
+          ]
         },
         {
           "trigger": "OpenAI spends round proceeds on Nvidia-based compute",
@@ -524,7 +540,8 @@
       "ev_120111",
       "ev_120028",
       "ev_20199",
-      "ev_20102"
+      "ev_20102",
+      "ev_50099"
     ],
     "notes": "Linked compute: OpenAI's release pairs the investment with 3 GW of dedicated inference capacity and 2 GW of training on Vera Rubin (ev_120105). Tier 2 (CNBC, citing the OpenAI release) says the investment is separate from the September 2025 letter of intent; needs quote. Funded left unknown, see credit notes.",
     "derived": {
@@ -743,7 +760,8 @@
       "wwr_reason": "Nvidia pays only when OpenAI cannot pay rent, so the exposure is drawn exactly as OpenAI's credit fails; SB Energy states OpenAI is not an investment-grade tenant.",
       "collateral": "No security for Nvidia. The landlord must pursue the tenant parent concurrently (ev_100050) and Nvidia looks solely to the tenant and tenant parent for recoupment (ev_100003). On a trigger Nvidia may assume the tenancy, have the landlord re-let, or sell (ev_40096); recovery depends on reletting a campus purpose-built for Nvidia infrastructure. OpenAI's reimbursement and indemnity is an unsecured claim on the defaulted tenant (ev_30008, ev_120007).",
       "tenor": "Over 10 years: up to 20 years per building from each lease commencement, leases commencing 2028 to 2032; no guaranty is in force before the first building is ready, expected in Nvidia's fiscal 2029.",
-      "notes": "Not effective yet: no building is ready for service; exposure builds building by building and then declines (ev_120009). The guaranties are limited to defined portions of lease and power payments (ev_120003). Nvidia's option on the remaining capacity is at its sole discretion and carries no stated amount."
+      "notes": "Not effective yet: no building is ready for service; exposure builds building by building and then declines (ev_120009). The guaranties are limited to defined portions of lease and power payments (ev_120003). Nvidia's option on the remaining capacity is at its sole discretion and carries no stated amount.",
+      "tenor_bucket": "Over 10 years"
     },
     "consequences": {
       "first_order": [
@@ -756,7 +774,12 @@
             "ent_sb_energy"
           ],
           "direction": "negative",
-          "text": "If OpenAI stops paying rent at PORTS-Pike, Nvidia owes SB Energy the guaranteed value and holds only an unsecured reimbursement claim on OpenAI."
+          "text": "If OpenAI's tenant becomes insolvent or misses rent at PORTS-Pike, Nvidia pays SB Energy the shortfall and can recover only from OpenAI's tenant entities under their reimbursement promise.",
+          "evidence": [
+            "ev_40091",
+            "ev_30008",
+            "ev_100003"
+          ]
         },
         {
           "trigger": "OpenAI reaches the designated credit rating",
@@ -779,7 +802,11 @@
             "ent_openai"
           ],
           "direction": "negative",
-          "text": "Because guaranties switch on building by building, a slowdown at OpenAI during construction raises Nvidia's exposure at the worst time."
+          "text": "Because each guaranty takes effect only when its building is complete, Nvidia's exposure to OpenAI keeps rising through construction even if OpenAI's finances weaken meanwhile (analysis).",
+          "evidence": [
+            "ev_100007",
+            "ev_120009"
+          ]
         }
       ],
       "second_order": [
@@ -807,8 +834,12 @@
             "ent_openai"
           ],
           "direction": "negative",
-          "text": "A default by OpenAI would leave Nvidia seeking a new tenant for gigawatts of Nvidia-only capacity, testing what that capacity is worth without OpenAI.",
-          "lens": "collateral_loop"
+          "text": "On an OpenAI default Nvidia may assume or re-let the lease, and the campus may host only Nvidia infrastructure, which tests what that capacity is worth without OpenAI.",
+          "lens": "collateral_loop",
+          "evidence": [
+            "ev_40096",
+            "ev_100004"
+          ]
         },
         {
           "trigger": "OpenAI's payment capacity falls",
@@ -1345,7 +1376,8 @@
         "lower_bound": false,
         "evidence": [
           "ev_120038"
-        ]
+        ],
+        "note": "Amount from the prospectus (ev_120038). The placement closed on 2026-11-20 (ev_120069), but the closing release gives only the aggregate for all seven buyers, so it cannot ground the Nvidia figure and is cited on the relationship instead."
       },
       "contingent_max": {
         "value": 0,
@@ -1428,7 +1460,11 @@
             "ent_anthropic"
           ],
           "direction": "negative",
-          "text": "Every move in Anthropic's stock now passes through Nvidia's income statement as a gain or loss on publicly held equity."
+          "text": "Nvidia records gains and losses on its listed holdings in other income, so every move in Anthropic's share price since its listing now reaches Nvidia's income statement.",
+          "evidence": [
+            "ev_10110",
+            "ev_120071"
+          ]
         },
         {
           "trigger": "Anthropic deploys IPO and placement proceeds into compute",
@@ -1473,7 +1509,10 @@
           ],
           "direction": "negative",
           "text": "Nvidia's Anthropic shares carry no underwriter lock-up, so a sale by Nvidia would signal reduced supplier support to Anthropic's other strategic holders.",
-          "lens": "signaling"
+          "lens": "signaling",
+          "evidence": [
+            "ev_210001"
+          ]
         }
       ]
     },
@@ -1634,7 +1673,9 @@
       "ev_120049",
       "ev_120050",
       "ev_40029",
-      "ev_40030"
+      "ev_40030",
+      "ev_10110",
+      "ev_210001"
     ],
     "notes": "Distinct from rel_anthropic_eqc_2025; see that record's notes.",
     "derived": {
@@ -1865,7 +1906,12 @@
             "ent_spacex"
           ],
           "direction": "negative",
-          "text": "SpaceX's AI segment carries heavy GPU spending, so weaker returns at SpaceXSI lower the value of Nvidia's SpaceX shares through other income."
+          "text": "SpaceX's AI segment carries billions of dollars of GPU lease payments to Valor, so weaker returns at SpaceXSI would lower the value of Nvidia's SpaceX shares through other income (analysis).",
+          "evidence": [
+            "ev_120075",
+            "ev_120087",
+            "ev_10110"
+          ]
         },
         {
           "trigger": "SpaceX buys Nvidia GPUs with Valor and Apollo lease financing",
@@ -1875,7 +1921,12 @@
             "ent_spacex"
           ],
           "direction": "mixed",
-          "text": "SpaceX finances Nvidia GPUs through Valor leases and a planned Apollo finance lease, so Nvidia's stake sits next to sales that depend on SpaceX's leasing capacity."
+          "text": "SpaceX finances AI hardware through Valor equipment leases and a planned Apollo-managed finance lease and is a Vera Rubin customer, so Nvidia's SpaceX stake sits beside sales that depend on SpaceX's leasing capacity.",
+          "evidence": [
+            "ev_120087",
+            "ev_120094",
+            "ev_120013"
+          ]
         }
       ],
       "second_order": [
@@ -1905,8 +1956,12 @@
             "ent_spacex"
           ],
           "direction": "negative",
-          "text": "Valor and the Apollo-managed lessor own GPUs leased to SpaceX, so a faster Nvidia product cycle cuts the collateral behind SpaceX's AI leases.",
-          "lens": "collateral_loop"
+          "text": "Valor and the Apollo-managed lessor own the AI hardware leased to SpaceX, so a faster Nvidia product cycle would cut the collateral value behind SpaceX's leases (analysis).",
+          "lens": "collateral_loop",
+          "evidence": [
+            "ev_120087",
+            "ev_120094"
+          ]
         }
       ]
     },
@@ -2073,7 +2128,8 @@
       "ev_120095",
       "ev_120047",
       "ev_120048",
-      "ev_200004"
+      "ev_200004",
+      "ev_10110"
     ],
     "notes": "Seed A3 (Nvidia up to $2 billion in an SPV that buys GPUs leased to xAI) is not confirmed: SpaceX discloses the Valor equipment leases but no allowed source quotable here places Nvidia money in the lessor. Recorded as context in depth2_links only.",
     "derived": {
@@ -2230,7 +2286,11 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "If Mistral prices its next round lower, Nvidia books a loss on a stake whose cost it has never disclosed."
+          "text": "If Mistral prices its next round lower, Nvidia would mark down a stake whose cost it has never disclosed (analysis).",
+          "evidence": [
+            "ev_90026",
+            "ev_50099"
+          ]
         },
         {
           "trigger": "Mistral Compute cannot fill its capacity",
@@ -2240,7 +2300,10 @@
             "ent_mistral"
           ],
           "direction": "negative",
-          "text": "If Mistral Compute cannot sell its capacity, Mistral orders fewer Nvidia systems at the same time its equity loses value."
+          "text": "Mistral Compute will offer Nvidia reference architectures, so if it cannot sell its capacity, Mistral would order fewer Nvidia systems as its equity loses value (analysis).",
+          "evidence": [
+            "ev_90067"
+          ]
         }
       ],
       "second_order": [
@@ -2261,14 +2324,18 @@
         },
         {
           "trigger": "Mistral Compute buys Nvidia hardware with round proceeds",
-          "mechanism": "Equity Nvidia helped raise returns to Nvidia as system revenue",
+          "mechanism": "Equity Nvidia helped raise could return to Nvidia as system revenue at Mistral Compute (analysis)",
           "affected": [
             "ent_nvidia",
             "ent_mistral"
           ],
           "direction": "mixed",
-          "text": "Part of the money Mistral raised with Nvidia's participation funds Mistral Compute, built on Nvidia reference designs, so some Nvidia revenue rests on its own capital.",
-          "lens": "revenue_quality"
+          "text": "If Mistral pays for Mistral Compute's Nvidia systems from rounds Nvidia joined, some Nvidia revenue would rest on Nvidia's own capital; no source states the use of proceeds (analysis).",
+          "lens": "revenue_quality",
+          "evidence": [
+            "ev_90067",
+            "ev_90026"
+          ]
         }
       ]
     },
@@ -2307,7 +2374,8 @@
       "ev_90026",
       "ev_90027",
       "ev_90028",
-      "ev_90067"
+      "ev_90067",
+      "ev_50099"
     ],
     "notes": "Round size is EUR 1.7 billion (ev_90027); not converted to USD because no FX rate from an allowed source is on file. Compute tie: 'As a premier NVIDIA partner, Mistral Compute will offer the latest NVIDIA reference architectures' (ev_90067, 2025-06-11). Mistral's Series D (EUR 3 billion, led by Samsung Electronics, cached) does not name NVIDIA. Earlier 2023 and 2024 Nvidia participation reported by Bloomberg (Dec 2023) is not quoted: needs quote.",
     "derived": {
@@ -2370,7 +2438,7 @@
     "type_primary": "EQ",
     "types_secondary": [],
     "title": "Nvidia equity investment in Safe Superintelligence",
-    "insight_template": "Nvidia made a substantial undisclosed investment in {counterparty} paired with Vera Rubin access, so the money likely returns as compute spending.",
+    "insight_template": "Nvidia calls its {counterparty} investment substantial and pairs it with Vera Rubin access, but states no amount, so the stake cannot be sized.",
     "definition": "On 27 July 2026 Nvidia and SSI announced a long term partnership and Nvidia said it had made an investment in SSI. The release pairs the investment with access to Nvidia's Vera Rubin platform to raise SSI's compute by an order of magnitude. No amount, price or share class is stated.",
     "status": "completed",
     "claim_basis": "company_announced",
@@ -2464,17 +2532,24 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "If SSI cannot raise again, Nvidia's substantial stake in SSI could be written down without any recovery."
+          "text": "If SSI cannot raise again, Nvidia's substantial stake in SSI could be written down without any recovery.",
+          "evidence": [
+            "ev_30059",
+            "ev_30060"
+          ]
         },
         {
           "trigger": "SSI draws its funding to buy compute",
-          "mechanism": "Investment cash returns to Nvidia as Vera Rubin system or cloud purchases",
+          "mechanism": "Investment cash may return to Nvidia as Vera Rubin system or cloud purchases (analysis)",
           "affected": [
             "ent_nvidia",
             "ent_ssi"
           ],
           "direction": "mixed",
-          "text": "SSI said Nvidia's money plus Vera Rubin access will scale its compute, so part of the investment likely returns to Nvidia as revenue."
+          "text": "Nvidia pairs its SSI investment with Vera Rubin access to raise SSI's compute, so part of the money may return to Nvidia as revenue (analysis).",
+          "evidence": [
+            "ev_30060"
+          ]
         }
       ],
       "second_order": [
@@ -2491,16 +2566,6 @@
             "ev_30059",
             "ev_30060"
           ]
-        },
-        {
-          "trigger": "Nvidia counts SSI compute purchases in data center revenue",
-          "mechanism": "Revenue partly funded by Nvidia equity",
-          "affected": [
-            "ent_nvidia"
-          ],
-          "direction": "negative",
-          "text": "Any SSI purchases of Vera Rubin capacity would be revenue Nvidia partly financed through its own SSI investment.",
-          "lens": "revenue_quality"
         }
       ]
     },
@@ -2688,7 +2753,11 @@
             "ent_thinking_machines"
           ],
           "direction": "negative",
-          "text": "If Thinking Machines cannot raise enough to pay for a gigawatt of Vera Rubin, Nvidia loses expected sales and the equity value together."
+          "text": "If Thinking Machines cannot raise enough to pay for a gigawatt of Vera Rubin, Nvidia loses expected sales and the equity value together.",
+          "evidence": [
+            "ev_30058",
+            "ev_30057"
+          ]
         },
         {
           "trigger": "Thinking Machines raises at a lower valuation",
@@ -2697,7 +2766,10 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "A down round at Thinking Machines would cut the value of a stake Nvidia calls significant but has not sized."
+          "text": "A down round at Thinking Machines would cut the value of a stake Nvidia calls significant but has not sized.",
+          "evidence": [
+            "ev_30057"
+          ]
         }
       ],
       "second_order": [
@@ -2709,7 +2781,11 @@
           ],
           "direction": "negative",
           "text": "Any cloud provider that builds Vera Rubin capacity for Thinking Machines relies on a tenant whose funding Nvidia partly supplies.",
-          "lens": "contagion"
+          "lens": "contagion",
+          "evidence": [
+            "ev_30058",
+            "ev_30057"
+          ]
         },
         {
           "trigger": "Thinking Machines spends investment proceeds on Nvidia systems",
@@ -2718,8 +2794,12 @@
             "ent_nvidia"
           ],
           "direction": "mixed",
-          "text": "Part of Nvidia's revenue from the Thinking Machines gigawatt would be paid with money Nvidia invested, which lowers the quality of that revenue.",
-          "lens": "revenue_quality"
+          "text": "Part of Nvidia's revenue from the Thinking Machines gigawatt would be paid with money Nvidia invested, which lowers the quality of that revenue (analysis).",
+          "lens": "revenue_quality",
+          "evidence": [
+            "ev_30057",
+            "ev_90046"
+          ]
         }
       ]
     },
@@ -2811,7 +2891,7 @@
     "type_primary": "EQ",
     "types_secondary": [],
     "title": "Nvidia equity in Reflection AI",
-    "insight_template": "Nvidia is a named investor in {counterparty}, which rents Nvidia GPUs from other clouds, so the stake depends on it paying those bills.",
+    "insight_template": "{counterparty} names Nvidia among the investors in its latest raise; Nvidia's share is not disclosed, so the stake cannot be sized.",
     "definition": "Reflection AI announced it had raised $2 billion and thanked investors including NVIDIA. Tier 2 outlets report that Nvidia led the round; Nvidia has not announced it and its portion is not disclosed in any allowed source on file.",
     "status": "completed",
     "claim_basis": "company_announced",
@@ -2891,7 +2971,7 @@
     },
     "credit": {
       "wwr": "general",
-      "wwr_reason": "Reflection's value depends on open model demand and on its ability to pay large third party compute contracts, both tied to the AI cycle.",
+      "wwr_reason": "Equity in an open model developer; loss is capped at an undisclosed cost and moves with the AI funding cycle.",
       "collateral": "None. Equity, last in line.",
       "tenor": "Open ended equity",
       "notes": ""
@@ -2899,23 +2979,18 @@
     "consequences": {
       "first_order": [
         {
-          "trigger": "Reflection cannot meet its compute contracts",
-          "mechanism": "Reflection raises again on worse terms or defaults on cloud payments",
+          "trigger": "Reflection raises again at a lower price",
+          "mechanism": "Reflection names Nvidia among investors without stating Nvidia's share",
           "affected": [
             "ent_nvidia",
             "ent_reflection"
           ],
           "direction": "negative",
-          "text": "If Reflection struggles to pay its cloud contracts, Nvidia's stake in Reflection falls in value with no protection."
-        },
-        {
-          "trigger": "Reflection grows Beam usage",
-          "mechanism": "Higher valuation for Reflection and more Nvidia GPU demand at its providers",
-          "affected": [
-            "ent_nvidia"
-          ],
-          "direction": "positive",
-          "text": "If Reflection's Beam models gain users, Nvidia benefits twice: a higher Reflection valuation and more GPU rental at Reflection's providers."
+          "text": "Reflection names Nvidia among investors in a $2 billion raise without stating Nvidia's share, so a lower Reflection price reaches Nvidia only inside its private holdings total.",
+          "evidence": [
+            "ev_90029",
+            "ev_90030"
+          ]
         }
       ],
       "second_order": [
@@ -2926,7 +3001,7 @@
             "ent_reflection"
           ],
           "direction": "mixed",
-          "text": "Reflection names Nvidia among investors in a $2 billion raise without Nvidia's share, so Nvidia's weight in Reflection's funding is unknown.",
+          "text": "Other Reflection investors see Nvidia named as a backer but cannot tell its weight in the round, so the value of that signal to Reflection cannot be measured.",
           "lens": "signaling",
           "evidence": [
             "ev_90029",
@@ -3040,7 +3115,7 @@
     "type_primary": "EQ",
     "types_secondary": [],
     "title": "Nvidia equity in Cohere (repeat participation, 2025 and Series E 2026)",
-    "insight_template": "Nvidia keeps adding to an undisclosed stake in {counterparty}, a sovereign AI vendor whose deployments use Nvidia hardware.",
+    "insight_template": "Nvidia has joined repeated {counterparty} rounds, the latest led by Schwarz Group, without stating an amount, so the stake cannot be sized.",
     "definition": "Nvidia is an existing Cohere investor. It took part in Cohere's $500 million round at a $6.8 billion valuation in August 2025 and is named among participants in the initial close of the Series E announced on 29 October 2026, which targets up to CAD 7 billion and is led by Schwarz Group. Nvidia's amounts are not disclosed.",
     "status": "completed",
     "claim_basis": "company_announced",
@@ -3129,22 +3204,17 @@
       "first_order": [
         {
           "trigger": "Cohere's Series E closes well below its CAD target",
-          "mechanism": "Lower valuation and slower spending on compute",
+          "mechanism": "Lower Cohere valuation on a smaller round",
           "affected": [
             "ent_nvidia",
             "ent_cohere"
           ],
           "direction": "negative",
-          "text": "If Cohere's Series E falls short of its target, the value of Nvidia's repeated Cohere investments falls and Cohere buys less compute."
-        },
-        {
-          "trigger": "Cohere's sovereign deployments grow",
-          "mechanism": "More Nvidia based systems sold into Cohere projects",
-          "affected": [
-            "ent_nvidia"
-          ],
-          "direction": "positive",
-          "text": "Growth in Cohere's sovereign deployments lifts both the Cohere stake and demand for the Nvidia hardware those deployments use."
+          "text": "If Cohere's Series E falls short of its target of up to CAD 7 billion, the value of Nvidia's repeated Cohere investments falls (analysis).",
+          "evidence": [
+            "ev_90034",
+            "ev_90035"
+          ]
         }
       ],
       "second_order": [
@@ -3156,7 +3226,10 @@
           ],
           "direction": "mixed",
           "text": "The Government of Canada and Schwarz Group invest in Cohere alongside Nvidia, so a Cohere setback would hit public and corporate investors at once.",
-          "lens": "contagion"
+          "lens": "contagion",
+          "evidence": [
+            "ev_90035"
+          ]
         }
       ]
     },
@@ -3284,7 +3357,7 @@
     "type_primary": "EQ",
     "types_secondary": [],
     "title": "Nvidia equity in Sakana AI (Series A participation)",
-    "insight_template": "Nvidia holds a small undisclosed stake in {counterparty}, so its exposure is limited to the cost of that stake.",
+    "insight_template": "{counterparty} names Nvidia among its Series A investors without an amount, so the stake cannot be sized.",
     "definition": "Sakana AI's Series A of about $200 million, announced on 4 September 2024, was led by NEA, Khosla Ventures and Lux Capital with participation from NVIDIA. Sakana's corporate page still lists NVIDIA as an investor. Nvidia's amount is not disclosed.",
     "status": "completed",
     "claim_basis": "company_announced",
@@ -3578,19 +3651,25 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "If Point2's interconnect fails to win designs, Nvidia's undisclosed Point2 stake loses its value."
+          "text": "Point2 builds radio frequency interconnects for AI factories, and Nvidia has not said what it paid, so if Point2's product is not adopted the loss cannot be sized.",
+          "evidence": [
+            "ev_30069"
+          ]
         }
       ],
       "second_order": [
         {
-          "trigger": "Nvidia adopts Point2 parts",
-          "mechanism": "Point2 becomes a supplier partly owned by its customer",
+          "trigger": "Point2 seeks customers for its interconnects",
+          "mechanism": "No Point2 supply agreement with Nvidia is disclosed",
           "affected": [
             "ent_point2"
           ],
           "direction": "mixed",
-          "text": "If Nvidia buys Point2 interconnects, Point2's revenue would depend on the same company that owns part of it.",
-          "lens": "revenue_quality"
+          "text": "Nvidia announced the Point2 investment without any supply agreement, so whether Point2 also sells to Nvidia, and depends on it, is not known.",
+          "lens": "revenue_quality",
+          "evidence": [
+            "ev_30069"
+          ]
         }
       ]
     },
@@ -4324,7 +4403,7 @@
     "type_primary": "EQ",
     "types_secondary": [],
     "title": "Nvidia $1 billion equity investment in NAVER (private placement)",
-    "insight_template": "Nvidia signed to buy {committed_total} of new {counterparty} shares with closing still pending, so the stake rides on an AI factory using its chips.",
+    "insight_template": "Nvidia signed to buy {committed_total} of new {counterparty} shares; no closing is disclosed, so the stake rides on an AI factory using its chips.",
     "definition": "On 24 July 2026 Nvidia said it plans to invest $1 billion in NAVER, subject to customary closing conditions and NAVER finalizing at least $9 billion of committed financing for the GAK Sejong AI factory; NAVER says it signed a strategic investment agreement worth $1 billion with Nvidia that day. On 27 October 2026 NAVER said a $9 billion agreement with Brookfield met that precondition and that it plans promptly to issue new shares to Nvidia. Closing had not been announced as of 23 November 2026.",
     "status": "definitive",
     "claim_basis": "company_announced",
@@ -4429,7 +4508,7 @@
       "wwr_reason": "NAVER is a diversified internet company, but the investment is tied to an Nvidia DSX AI factory whose economics move with AI demand; exposure does not grow with NAVER distress.",
       "collateral": "None. Newly issued common shares.",
       "tenor": "Open ended equity; closing pending",
-      "notes": "Not yet funded as of 2026-11-23."
+      "notes": "Unpaid at 2026-10-27, when NAVER said it would promptly complete the share issue (ev_90068); no closing disclosed as of 2026-11-23."
     },
     "consequences": {
       "first_order": [
@@ -4441,7 +4520,12 @@
             "ent_naver"
           ],
           "direction": "mixed",
-          "text": "When the NAVER placement closes, Nvidia's commitment becomes a funded stake in a company now building a large Nvidia based AI factory."
+          "text": "When the NAVER placement closes, Nvidia's commitment becomes a funded stake in a company whose financing precondition was an Nvidia DSX AI factory.",
+          "evidence": [
+            "ev_90068",
+            "ev_90069",
+            "ev_30075"
+          ]
         },
         {
           "trigger": "GAK Sejong capacity is underused",
@@ -4450,7 +4534,11 @@
             "ent_naver"
           ],
           "direction": "negative",
-          "text": "If the GAK Sejong AI factory is underused, NAVER still owes guaranteed fees to the Brookfield vehicle, which weighs on the NAVER shares Nvidia is buying."
+          "text": "If the GAK Sejong AI factory is underused, NAVER still owes guaranteed fees to the Brookfield vehicle, which weighs on the NAVER shares Nvidia is buying.",
+          "evidence": [
+            "ev_90070",
+            "ev_90071"
+          ]
         }
       ],
       "second_order": [
@@ -4471,13 +4559,18 @@
         },
         {
           "trigger": "The Brookfield vehicle buys Nvidia systems",
-          "mechanism": "Nvidia equity helps trigger financing that returns as hardware orders",
+          "mechanism": "Nvidia's equity was conditioned on NAVER securing project financing; the supplier of the vehicle's GPUs is not stated",
           "affected": [
             "ent_nvidia"
           ],
           "direction": "mixed",
-          "text": "Nvidia's NAVER investment was conditioned on financing that will buy GPUs, so some of Nvidia's NAVER related revenue rests on a deal it helped trigger.",
-          "lens": "revenue_quality"
+          "text": "Nvidia's NAVER investment was conditional on project financing for an Nvidia DSX AI factory; no source says the vehicle's GPUs are bought from Nvidia.",
+          "lens": "revenue_quality",
+          "evidence": [
+            "ev_90068",
+            "ev_30072",
+            "ev_30075"
+          ]
         }
       ]
     },
@@ -4611,7 +4704,7 @@
     "type_primary": "EQ-C",
     "types_secondary": [],
     "title": "Nvidia GBP 2 billion UK AI startup commitment",
-    "insight_template": "Nvidia announced a sterling headline for the {counterparty} with no named recipients, so none of it counts as exposure until deals close.",
+    "insight_template": "Nvidia announced an amount in pounds for the {counterparty} with no named recipients, so none of it counts as exposure until deals close.",
     "definition": "On 18 September 2025 Nvidia said it commits GBP 2 billion to catalyze the UK AI startup ecosystem, with Accel, Air Street Capital, Balderton, Hoxton Ventures and Phoenix Court joining. The release names no investees, instrument or timetable. Nvidia's Q3 FY2026 earnings release repeats an investment of GBP 2 billion in the UK market.",
     "status": "loi_or_framework",
     "claim_basis": "company_announced",
@@ -4707,13 +4800,17 @@
       "first_order": [
         {
           "trigger": "Nvidia deploys the UK startup program",
-          "mechanism": "Headline turns into many small UK equity stakes",
+          "mechanism": "The UK startup program headline turns into stakes only as deals are disclosed",
           "affected": [
             "ent_nvidia",
             "ent_uk_ai_startup_program"
           ],
           "direction": "mixed",
-          "text": "As the UK startup program is deployed, Nvidia's exposure becomes a book of small UK startup stakes that are individually immaterial."
+          "text": "Nvidia has named no recipients, instrument or timetable for the UK startup program, so any stakes it buys enter the register only as deals are disclosed.",
+          "evidence": [
+            "ev_30084",
+            "ev_140020"
+          ]
         }
       ],
       "second_order": [
@@ -4931,12 +5028,15 @@
         },
         {
           "trigger": "Figure's Helix models scale",
-          "mechanism": "Higher valuation and more Nvidia GPU rental",
+          "mechanism": "Higher Figure valuation and more use of Nscale capacity built on Nvidia Vera Rubin",
           "affected": [
             "ent_nvidia"
           ],
           "direction": "positive",
-          "text": "Progress at Figure lifts the stake and the Nvidia GPU capacity Figure rents."
+          "text": "Figure has committed to an initial $3.5 billion of compute from Nscale, so Figure's progress would lift both the stake and demand for Nvidia systems at Nscale.",
+          "evidence": [
+            "ev_90065"
+          ]
         }
       ],
       "second_order": [
@@ -4949,18 +5049,25 @@
           ],
           "direction": "negative",
           "text": "Nscale is both a Figure investor and its compute provider, so a Figure funding gap would hit an Nvidia linked neocloud.",
-          "lens": "contagion"
+          "lens": "contagion",
+          "evidence": [
+            "ev_90066",
+            "ev_90065"
+          ]
         },
         {
           "trigger": "Brookfield and Nvidia co-invest in Figure",
-          "mechanism": "Strategic investors set the price",
+          "mechanism": "Brookfield and Nvidia sit in the same Figure round; who set the price is not stated",
           "affected": [
             "ent_brookfield",
             "ent_figure"
           ],
           "direction": "mixed",
-          "text": "Brookfield and Nvidia invested in Figure in the same round, so a visible Nvidia exit would weigh on Figure's next valuation.",
-          "lens": "signaling"
+          "text": "Brookfield and Nvidia invested in the same Figure round; no source ties the round's price to Nvidia.",
+          "lens": "signaling",
+          "evidence": [
+            "ev_90042"
+          ]
         }
       ]
     },
@@ -5106,7 +5213,7 @@
     "type_primary": "EQ",
     "types_secondary": [],
     "title": "Nvidia equity in Wayve (Series C 2024 and Series D 2026)",
-    "insight_template": "Nvidia invested in {counterparty}, whose driving software runs on Nvidia DRIVE chips, so the stake and chip sales depend on the same company.",
+    "insight_template": "Nvidia entered {counterparty} in a round led by SoftBank and joined the following round; neither side states its amounts.",
     "definition": "Nvidia joined Wayve as a new investor in the $1.05 billion Series C led by SoftBank in May 2024 and participated again in the $1.2 billion Series D announced on 25 February 2026 at an $8.6 billion post-money valuation. Neither side states Nvidia's amounts.",
     "status": "completed",
     "claim_basis": "company_announced",
@@ -5194,23 +5301,18 @@
     "consequences": {
       "first_order": [
         {
-          "trigger": "Automakers delay Wayve deployments",
-          "mechanism": "Lower Wayve valuation and fewer DRIVE Thor units",
+          "trigger": "Wayve raises again at a lower valuation",
+          "mechanism": "Nvidia's undisclosed Wayve stakes are marked down",
           "affected": [
             "ent_nvidia",
             "ent_wayve"
           ],
           "direction": "negative",
-          "text": "If automakers delay the Wayve AI Driver, Nvidia loses value on its Wayve stake and sells fewer DRIVE platforms into those cars."
-        },
-        {
-          "trigger": "Wayve scales consumer and robotaxi deployments",
-          "mechanism": "Stake gains and more Nvidia automotive chips",
-          "affected": [
-            "ent_nvidia"
-          ],
-          "direction": "positive",
-          "text": "Wider Wayve deployments raise the stake's value and the number of Nvidia DRIVE chips Wayve's partners buy."
+          "text": "If Wayve's next round is priced lower, Nvidia loses value on stakes bought in two Wayve rounds whose amounts neither side states.",
+          "evidence": [
+            "ev_90038",
+            "ev_90040"
+          ]
         }
       ],
       "second_order": [
@@ -5224,7 +5326,12 @@
           ],
           "direction": "mixed",
           "text": "Wayve's rounds pair Nvidia with SoftBank, Microsoft and Uber, so a pullback by Nvidia would be read by the whole Wayve syndicate.",
-          "lens": "signaling"
+          "lens": "signaling",
+          "evidence": [
+            "ev_90039",
+            "ev_90040",
+            "ev_90038"
+          ]
         }
       ]
     },
@@ -5471,7 +5578,11 @@
             "ent_wayve"
           ],
           "direction": "mixed",
-          "text": "If the Wayve letter converted in full, Nvidia's Wayve stake grew by up to the headline amount, all of it plain equity."
+          "text": "Wayve says Nvidia joined its Series D after a letter to evaluate up to $500 million, but neither side says how much of that amount Nvidia invested.",
+          "evidence": [
+            "ev_90036",
+            "ev_140022"
+          ]
         }
       ],
       "second_order": [
@@ -5587,7 +5698,7 @@
     "type_primary": "EQ",
     "types_secondary": [],
     "title": "NVentures equity in Skild AI (Series C)",
-    "insight_template": "Nvidia's venture arm holds an undisclosed stake in {counterparty}, a robotics lab that trains on Nvidia simulation tools, so value and demand move together.",
+    "insight_template": "Nvidia's venture arm joined {counterparty}'s Series C led by SoftBank for an undisclosed amount, so the stake cannot be sized.",
     "definition": "Skild AI announced on 14 January 2026 that it raised $1.4 billion in a Series C led by SoftBank with participation from NVentures, valuing it at over $14 billion. NVentures' amount is not disclosed.",
     "status": "completed",
     "claim_basis": "company_announced",
@@ -5698,7 +5809,11 @@
           ],
           "direction": "mixed",
           "text": "SoftBank and Nvidia back both Skild AI and Wayve, so a robotics funding pullback would hit the same investors in several companies.",
-          "lens": "contagion"
+          "lens": "contagion",
+          "evidence": [
+            "ev_90061",
+            "ev_90039"
+          ]
         }
       ]
     },
@@ -5735,7 +5850,8 @@
     "version": 1,
     "evidence": [
       "ev_90061",
-      "ev_90062"
+      "ev_90062",
+      "ev_90039"
     ],
     "notes": "",
     "measure_inputs": {
@@ -5817,7 +5933,7 @@
     "type_primary": "EQ",
     "types_secondary": [],
     "title": "Nvidia equity in Black Forest Labs",
-    "insight_template": "Nvidia is an existing investor in {counterparty}, a small undisclosed stake whose loss would be limited to its cost.",
+    "insight_template": "{counterparty} lists Nvidia among its existing investors; no amount has been disclosed by either side.",
     "definition": "Black Forest Labs announced on 1 December 2025 a $300 million Series B at a $3.25 billion post-money valuation and named NVIDIA among existing partners deepening their investment. Nvidia's amount is not stated.",
     "status": "completed",
     "claim_basis": "company_announced",
@@ -5920,14 +6036,17 @@
       ],
       "second_order": [
         {
-          "trigger": "Nvidia features FLUX models on RTX PCs",
-          "mechanism": "Commercial tie supports the startup's distribution",
+          "trigger": "Nvidia does not join a later Black Forest Labs round",
+          "mechanism": "Existing Black Forest Labs partners see Nvidia step back",
           "affected": [
             "ent_black_forest_labs"
           ],
           "direction": "positive",
-          "text": "Nvidia promotes Black Forest Labs' FLUX models on its platforms, so the startup's distribution also depends on its investor.",
-          "lens": "signaling"
+          "text": "Black Forest Labs names Nvidia beside a16z, Northzone and Creandum as existing partners, so a pullback by Nvidia would be read by the same syndicate.",
+          "lens": "signaling",
+          "evidence": [
+            "ev_90063"
+          ]
         }
       ]
     },
@@ -6119,14 +6238,17 @@
       ],
       "second_order": [
         {
-          "trigger": "Scale AI's customers are the same labs that buy Nvidia systems",
-          "mechanism": "Shared customer base",
+          "trigger": "Scale AI loses value",
+          "mechanism": "Loss shared across the Scale AI syndicate led by Accel",
           "affected": [
             "ent_scale_ai"
           ],
           "direction": "mixed",
-          "text": "Scale AI sells to the same AI labs that buy Nvidia systems, so a lab spending cut would hit both Scale AI and Nvidia.",
-          "lens": "contagion"
+          "text": "Scale AI says nearly all its existing investors, Nvidia among them, joined a financing led by Accel, so a Scale AI setback would fall on a wide syndicate, not on Nvidia alone.",
+          "lens": "contagion",
+          "evidence": [
+            "ev_90047"
+          ]
         }
       ]
     },
@@ -6524,14 +6646,18 @@
       ],
       "second_order": [
         {
-          "trigger": "Databricks runs AI workloads on Nvidia GPUs in the cloud",
-          "mechanism": "Databricks demand supports hyperscaler GPU rental",
+          "trigger": "Databricks raises again",
+          "mechanism": "Databricks round prices are set by other leads, not by Nvidia",
           "affected": [
             "ent_databricks"
           ],
           "direction": "mixed",
-          "text": "Databricks customers run AI workloads on cloud GPUs, so Databricks growth supports demand at Nvidia's hyperscaler customers.",
-          "lens": "revenue_quality"
+          "text": "Databricks named Nvidia as a new strategic investor in a Series I led by T. Rowe Price, so the stake's price was set in a round Nvidia did not lead.",
+          "lens": "signaling",
+          "evidence": [
+            "ev_90050",
+            "ev_90051"
+          ]
         }
       ]
     },
@@ -6743,14 +6869,18 @@
       ],
       "second_order": [
         {
-          "trigger": "Data center power demand slows",
-          "mechanism": "CFS loses a key demand story",
+          "trigger": "CFS fails to reach commercial fusion power",
+          "mechanism": "CFS holds a large share of private fusion capital",
           "affected": [
             "ent_commonwealth_fusion"
           ],
           "direction": "negative",
-          "text": "CFS's power plant plans are partly sold on AI data center demand, so an AI slowdown would also hurt CFS fundraising.",
-          "lens": "contagion"
+          "text": "CFS says it has raised almost $3 billion, about a third of private fusion investment worldwide, so a CFS setback would weigh on fusion funding as a whole, not only on Nvidia.",
+          "lens": "contagion",
+          "evidence": [
+            "ev_90053",
+            "ev_90052"
+          ]
         }
       ]
     },
@@ -7176,19 +7306,26 @@
             "ent_quantinuum"
           ],
           "direction": "mixed",
-          "text": "Quantinuum is listed but does not appear in Nvidia's two most recent 13F reports, so whether Nvidia still holds the stake is unknown and no market value can be shown."
+          "text": "Quantinuum is listed but does not appear in Nvidia's two most recent 13F reports, so whether Nvidia still holds the stake is unknown and no market value can be shown.",
+          "evidence": [
+            "ev_90055",
+            "ev_50031"
+          ]
         }
       ],
       "second_order": [
         {
-          "trigger": "Quantinuum's hybrid quantum and GPU systems sell",
-          "mechanism": "Nvidia CUDA-Q adoption grows",
+          "trigger": "Quantinuum loses value",
+          "mechanism": "Quantinuum co-investors share the loss",
           "affected": [
             "ent_quantinuum"
           ],
           "direction": "positive",
-          "text": "Quantinuum's software is compatible with Nvidia CUDA-Q, so its success extends Nvidia's software reach.",
-          "lens": "signaling"
+          "text": "Quanta Computer and QED Investors joined the same Quantinuum round as NVentures, so a Quantinuum setback falls on them as well as on Nvidia.",
+          "lens": "contagion",
+          "evidence": [
+            "ev_90055"
+          ]
         }
       ]
     },
@@ -7215,7 +7352,8 @@
     "version": 1,
     "evidence": [
       "ev_90055",
-      "ev_90056"
+      "ev_90056",
+      "ev_50031"
     ],
     "notes": "Open question: Quantinuum (CIK 0002110105, ticker QNT) is listed but absent from Nvidia's 13F-HR for 2026-06-30 and 2026-09-30; the IPO prospectus (424B4, 2026-06-05) does not name NVIDIA as a holder. Either the stake is held outside the 13F filer, was sold, or is too small to list.",
     "measure_inputs": {
@@ -7400,14 +7538,17 @@
       ],
       "second_order": [
         {
-          "trigger": "AI data center power demand slows",
-          "mechanism": "TerraPower's demand case weakens",
+          "trigger": "TerraPower's reactor programme slips",
+          "mechanism": "TerraPower losses fall on founder, industrial and venture backers together",
           "affected": [
             "ent_terrapower"
           ],
           "direction": "negative",
-          "text": "TerraPower's fundraising leans on AI power demand, so an AI slowdown would hit TerraPower and Nvidia together.",
-          "lens": "contagion"
+          "text": "TerraPower's backers include its founder Bill Gates and HD Hyundai beside NVentures, so a TerraPower setback would fall on an industrial partner as well as on Nvidia.",
+          "lens": "contagion",
+          "evidence": [
+            "ev_90057"
+          ]
         }
       ]
     },
@@ -7628,13 +7769,17 @@
         },
         {
           "trigger": "Recursion trained models on DGX Cloud",
-          "mechanism": "Investment cash partly returned as Nvidia cloud revenue",
+          "mechanism": "Recursion's investment and its DGX Cloud training were announced together",
           "affected": [
             "ent_nvidia",
             "ent_recursion"
           ],
           "direction": "mixed",
-          "text": "Recursion agreed to train its models on Nvidia DGX Cloud, so part of Nvidia's Recursion investment likely came back as service revenue."
+          "text": "Recursion agreed to train models on Nvidia DGX Cloud in the same announcement as the investment.",
+          "evidence": [
+            "ev_90020",
+            "ev_90019"
+          ]
         }
       ],
       "second_order": [
@@ -7645,8 +7790,12 @@
             "ent_recursion"
           ],
           "direction": "negative",
-          "text": "Nvidia's exit from Recursion removed a visible strategic backer for Recursion's AI drug discovery story.",
-          "lens": "signaling"
+          "text": "Recursion no longer appears in Nvidia's 13F after the fourth quarter of 2025, so Recursion lost a named strategic shareholder; the effect on its funding is not measured.",
+          "lens": "signaling",
+          "evidence": [
+            "ev_90016",
+            "ev_50004"
+          ]
         }
       ]
     },
@@ -8295,7 +8444,11 @@
           ],
           "direction": "mixed",
           "text": "Nano-X lost a small strategic shareholder when Nvidia exited, with no other disclosed link.",
-          "lens": "signaling"
+          "lens": "signaling",
+          "evidence": [
+            "ev_50009",
+            "ev_90015"
+          ]
         }
       ]
     },
@@ -8510,7 +8663,11 @@
             "ent_serve_robotics"
           ],
           "direction": "mixed",
-          "text": "Serve Robotics names Nvidia as a single or limited source supplier, so its costs depended on its own shareholder."
+          "text": "Serve Robotics names Nvidia as a single or limited source supplier, so its costs depended on its own shareholder.",
+          "evidence": [
+            "ev_90023",
+            "ev_90022"
+          ]
         }
       ],
       "second_order": [
@@ -8754,8 +8911,12 @@
             "ent_weride"
           ],
           "direction": "mixed",
-          "text": "WeRide uses Nvidia DRIVE chips and GPU clusters, so Nvidia's exit leaves WeRide as a customer without a shareholder tie.",
-          "lens": "revenue_quality"
+          "text": "WeRide uses Nvidia cloud GPU clusters and DRIVE chips, so Nvidia's exit leaves WeRide as a customer without a shareholder tie.",
+          "lens": "revenue_quality",
+          "evidence": [
+            "ev_90025",
+            "ev_90016"
+          ]
         }
       ]
     },
@@ -8975,14 +9136,17 @@
       ],
       "second_order": [
         {
-          "trigger": "Generate Biomedicines trains protein models on GPUs",
-          "mechanism": "Small AI biotech customer for Nvidia hardware or cloud",
+          "trigger": "Nvidia sells its Generate Biomedicines shares",
+          "mechanism": "The 13F shows the change to Generate holders",
           "affected": [
             "ent_generate_biomedicines"
           ],
           "direction": "mixed",
-          "text": "Generate Biomedicines relies on GPU compute for its protein design models, so its funding health matters to a small slice of AI biotech demand.",
-          "lens": "contagion"
+          "text": "Nvidia's Generate Biomedicines holding appears in its quarterly 13F, so a sale would become public within about a quarter and be visible to Generate's other holders (analysis).",
+          "lens": "signaling",
+          "evidence": [
+            "ev_50029"
+          ]
         }
       ]
     },
@@ -10390,7 +10554,8 @@
       "ev_20146",
       "ev_20194",
       "ev_20205",
-      "ev_20210"
+      "ev_20210",
+      "ev_20127"
     ],
     "derived": {
       "label": "analysis",
@@ -10857,7 +11022,8 @@
       "wwr_reason": "Nvidia pays only if Nscale defaults on the lease, so the exposure turns into a payment exactly when Nscale is weakest. The default warrants then give Nvidia more Nscale equity, which is worth least at that moment.",
       "collateral": "$470.0 million escrow held by Nscale as restricted cash as recourse for Nvidia during the guarantee period (ev_40004). Default warrants over Series B preferred shares exercisable on a Relevant Default Event, fair value $11.3 million at issue (ev_40007). Nvidia may also look to the warrant shares, but their value depends on Nscale.",
       "tenor": "First five years of the lease; lease commencement date not disclosed.",
-      "notes": "Consideration: Non-Default warrants over up to 9,476,700 Series B preferred shares with aggregate value $60.0 million, exercisable from 2026-08-01 (ev_40005, ev_40006). Nscale's Default warrant valuation inputs include a 13.6% credit spread and 77.7% lease payment recovery assumption (S-1/A fair value note; not recorded as evidence). Landlord not named."
+      "notes": "Consideration: Non-Default warrants over up to 9,476,700 Series B preferred shares with aggregate value $60.0 million, exercisable from 2026-08-01 (ev_40005, ev_40006). Nscale's Default warrant valuation inputs include a 13.6% credit spread and 77.7% lease payment recovery assumption (S-1/A fair value note; not recorded as evidence). Landlord not named.",
+      "tenor_bucket": "2 to 5 years"
     },
     "measure_inputs": {
       "counterparty_nvidia_spend": null,
@@ -12805,7 +12971,8 @@
       "wwr_reason": "Nvidia pays for capacity it receives; exposure does not grow if IREN weakens. Both depend on AI demand.",
       "collateral": "None. Nvidia receives compute capacity.",
       "tenor": "Five years from service start; start date not disclosed.",
-      "notes": "A Dell GPU purchase of about $1.6bn for Childress was made 'to service its previously announced $3.4 billion managed services AI cloud contract' (ev_40121); the matching value suggests this is the Nvidia contract (analysis)."
+      "notes": "A Dell GPU purchase of about $1.6bn for Childress was made 'to service its previously announced $3.4 billion managed services AI cloud contract' (ev_40121); the matching value suggests this is the Nvidia contract (analysis).",
+      "tenor_bucket": "2 to 5 years"
     },
     "measure_inputs": {
       "counterparty_nvidia_spend": null,
@@ -13339,7 +13506,8 @@
       "wwr_reason": "Nvidia's payments rest on capacity SharonAI cannot sell to others, so Nvidia's payments grow as SharonAI's sales weaken. SharonAI itself calls the structure credit support.",
       "collateral": "None disclosed for Nvidia. The $356m SPV facility is secured on assets supporting a different customer contract (ev_40152).",
       "tenor": "Six years; all phases end on the same date, which is not disclosed.",
-      "notes": "Internal difference on the SharonAI side: the 8-K states a contract value of up to $4.88bn (ev_40144) while the 10-Q says no fixed aggregate value is specified (ev_40146). The customer price per GPU hour declines over the six-year term. SharonAI committed to about $4bn of hardware and infrastructure in connection with the agreement (ev_40155), though the order form does not by itself fix a hardware amount (ev_80014). Nvidia earns product revenue on the GPUs and a share of cloud revenue (ev_80016). Either party may terminate on material breach or on insolvency or material adverse change events (8-K)."
+      "notes": "Internal difference on the SharonAI side: the 8-K states a contract value of up to $4.88bn (ev_40144) while the 10-Q says no fixed aggregate value is specified (ev_40146). The customer price per GPU hour declines over the six-year term. SharonAI committed to about $4bn of hardware and infrastructure in connection with the agreement (ev_40155), though the order form does not by itself fix a hardware amount (ev_80014). Nvidia earns product revenue on the GPUs and a share of cloud revenue (ev_80016). Either party may terminate on material breach or on insolvency or material adverse change events (8-K).",
+      "tenor_bucket": "5 to 10 years"
     },
     "measure_inputs": {
       "counterparty_nvidia_spend": null,
@@ -13881,7 +14049,11 @@
             "ent_nvidia"
           ],
           "direction": "mixed",
-          "text": "A new Lambda round or listing would put a price on Nvidia's stake, which today is invisible inside Nvidia's non-marketable equity total."
+          "text": "A new Lambda round or listing would put a price on Nvidia's stake, which today is invisible inside Nvidia's non-marketable equity total.",
+          "evidence": [
+            "ev_110001",
+            "ev_130010"
+          ]
         }
       ],
       "second_order": [
@@ -14065,7 +14237,8 @@
       "ev_110012",
       "ev_110013",
       "ev_110014",
-      "ev_110005"
+      "ev_110005",
+      "ev_130010"
     ],
     "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23.",
     "derived": {
@@ -14864,16 +15037,25 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "If Crusoe cannot fill or finance new campus capacity, its valuation falls and Nvidia's Crusoe stake is written down."
+          "text": "If Crusoe cannot fill or finance new campus capacity, its valuation falls and Nvidia's Crusoe stake is written down.",
+          "evidence": [
+            "ev_110020",
+            "ev_110021",
+            "ev_110022"
+          ]
         },
         {
-          "trigger": "Crusoe proceeds with its reported IPO",
-          "mechanism": "A listing puts a market price on Nvidia's Crusoe stake",
+          "trigger": "Crusoe raises again",
+          "mechanism": "A new Crusoe round price resets the carrying value of Nvidia's stake",
           "affected": [
             "ent_nvidia"
           ],
           "direction": "mixed",
-          "text": "A Crusoe listing would move Nvidia's stake from an undisclosed carrying value to a quoted price that moves daily."
+          "text": "Crusoe's Series F priced it at $30.9 billion after the money, so Nvidia's Crusoe stake is carried against private round prices until another round sets a new one.",
+          "evidence": [
+            "ev_110021",
+            "ev_110020"
+          ]
         }
       ],
       "second_order": [
@@ -14902,7 +15084,12 @@
             "ent_blue_owl"
           ],
           "direction": "negative",
-          "text": "Lenders and joint venture partners of Crusoe rely on its equity rounds, which Nvidia joins, to absorb first losses on GPU and campus assets."
+          "text": "Brookfield and Upper90 lend to Crusoe, and the Upper90 facility is used only to buy Nvidia GPUs, so Crusoe's equity, which Nvidia holds, ranks behind lenders on those GPUs (analysis).",
+          "evidence": [
+            "ev_110024",
+            "ev_110025",
+            "ev_110026"
+          ]
         }
       ]
     },
@@ -15631,7 +15818,7 @@
     "type_primary": "EQ",
     "types_secondary": [],
     "title": "Nvidia follow-on in the Firmus USD2 billion round",
-    "insight_template": "Nvidia made a follow-on investment in {counterparty} for an undisclosed amount, ranking behind a large debt facility led by Blackstone.",
+    "insight_template": "{counterparty} names Nvidia as a follow-on participant in its latest round for an undisclosed amount, ranking behind a large debt facility led by Blackstone.",
     "definition": "Firmus announced full commitments for a USD2 billion strategic equity round in August 2026, with follow-on participation from Coatue and NVIDIA and new investment from Blackstone funds and Jane Street. Firmus says total new equity raised over the past year exceeds USD3 billion at a post-money valuation above USD10.5 billion. Nvidia's amount is not disclosed.",
     "status": "definitive",
     "claim_basis": "company_announced",
@@ -15729,19 +15916,24 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "If Firmus cannot fund its unbuilt sites, Nvidia's Firmus stake loses value against its private round prices."
+          "text": "If Firmus cannot fund its unbuilt sites, Nvidia's Firmus stake loses value against its private round prices.",
+          "evidence": [
+            "ev_110033",
+            "ev_110047"
+          ]
         },
         {
-          "trigger": "Reported, unconfirmed: Nvidia adds new equity after the IPO withdrawal",
-          "mechanism": "Nvidia's Firmus exposure would rise while Firmus's market access is weakest",
+          "trigger": "Reported, unconfirmed: Firmus withdrew its Australian listing application",
+          "mechanism": "Firmus would again depend on private investors such as Nvidia, Coatue and Blackstone",
           "affected": [
             "ent_nvidia",
             "ent_firmus"
           ],
           "direction": "negative",
-          "text": "One news report, unconfirmed, says Firmus withdrew its IPO; if talks for Nvidia to back Firmus afterwards lead to new equity, Nvidia's exposure would rise when Firmus depends most on it.",
+          "text": "One news report, unconfirmed, says Firmus withdrew its Australian listing application; if so, Firmus's next funding would again come from private investors such as Nvidia, Coatue and Blackstone.",
           "evidence": [
-            "ev_110048"
+            "ev_110048",
+            "ev_110033"
           ]
         }
       ],
@@ -15755,7 +15947,10 @@
             "ent_firmus"
           ],
           "direction": "negative",
-          "text": "If Firmus delays sites, OpenAI and other Firmus customers lose contracted capacity they had planned around."
+          "text": "If Firmus delays sites, OpenAI and other Firmus customers lose contracted capacity they had planned around.",
+          "evidence": [
+            "ev_110047"
+          ]
         },
         {
           "trigger": "Firmus suffers a loss",
@@ -15868,7 +16063,8 @@
       "ev_110050",
       "ev_110048",
       "ev_110049",
-      "ev_110037"
+      "ev_110037",
+      "ev_110047"
     ],
     "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23.",
     "derived": {
@@ -16059,16 +16255,25 @@
             "ent_firmus"
           ],
           "direction": "negative",
-          "text": "If Firmus cannot place Batam capacity with customers, Nvidia's credit support turns from a sales tool into a payment."
+          "text": "If Firmus cannot place Batam capacity with customers, Nvidia's credit support for the campus could become a payment; its terms are not disclosed.",
+          "evidence": [
+            "ev_110037",
+            "ev_110043",
+            "ev_50078"
+          ]
         },
         {
           "trigger": "Batam capacity is fully used",
-          "mechanism": "Nvidia earns a share of Firmus cloud revenue on top of chip sales",
+          "mechanism": "Nvidia earns a share of Firmus's Batam cloud revenue",
           "affected": [
             "ent_nvidia"
           ],
           "direction": "positive",
-          "text": "If Firmus fills Batam, Nvidia earns recurring revenue share on top of the chips it sold to Firmus."
+          "text": "If Firmus fills Batam, Nvidia earns a revenue share under the Batam model, which covers up to 170,000 Nvidia accelerators.",
+          "evidence": [
+            "ev_110037",
+            "ev_110040"
+          ]
         }
       ],
       "second_order": [
@@ -16080,7 +16285,11 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Chip revenue from Firmus's Batam campus rests partly on Nvidia's own credit support, so it is weaker evidence of end demand."
+          "text": "Nvidia chip sales into Firmus's Batam campus rest partly on Nvidia's own credit support, so they are weaker evidence of end demand (analysis).",
+          "evidence": [
+            "ev_110043",
+            "ev_110040"
+          ]
         },
         {
           "lens": "lender_reliance",
@@ -16099,7 +16308,7 @@
         },
         {
           "lens": "contagion",
-          "trigger": "Firmus fails after its withdrawn IPO",
+          "trigger": "Firmus fails",
           "mechanism": "Nvidia faces Batam support calls just as other Firmus funders retreat",
           "affected": [
             "ent_nvidia",
@@ -16107,7 +16316,11 @@
             "ent_firmus"
           ],
           "direction": "negative",
-          "text": "Nvidia is both an equity holder in Firmus and a credit supporter of its Batam campus, so a Firmus failure hits Nvidia twice."
+          "text": "Nvidia is both an equity holder in Firmus and a credit supporter of its Batam campus, so a Firmus failure hits Nvidia twice.",
+          "evidence": [
+            "ev_110033",
+            "ev_110037"
+          ]
         }
       ]
     },
@@ -16171,7 +16384,8 @@
       "ev_110045",
       "ev_110035",
       "ev_10036",
-      "ev_50078"
+      "ev_50078",
+      "ev_110033"
     ],
     "notes": "Firmus's expected US$25 to 30 billion is customer offtake to Firmus over six years, not Nvidia's exposure; it is not entered as an amount. DayOne is co-developer of the campus.",
     "derived": {
@@ -17068,14 +17282,18 @@
     "consequences": {
       "first_order": [
         {
-          "trigger": "Intel misses its foundry and data center product milestones",
-          "mechanism": "The joint x86 and RTX products slip and Intel's share price falls",
+          "trigger": "Intel misses its foundry and joint product milestones",
+          "mechanism": "The joint NVLink products slip and Intel's share price falls",
           "affected": [
             "ent_nvidia",
             "ent_intel"
           ],
           "direction": "negative",
-          "text": "If Intel misses its product milestones, Nvidia loses value on its remaining Intel shares and its custom x86 CPU supply is delayed."
+          "text": "If Intel's custom data center and PC products with Nvidia NVLink are late, Nvidia loses value on its remaining Intel shares and the joint products slip.",
+          "evidence": [
+            "ev_50065",
+            "ev_50021"
+          ]
         },
         {
           "trigger": "Nvidia continues to sell Intel shares",
@@ -17121,7 +17339,10 @@
           ],
           "direction": "negative",
           "text": "If Intel ceases to own at least half of its foundry, the government warrant dilutes Intel holders, Nvidia included.",
-          "lens": "contagion"
+          "lens": "contagion",
+          "evidence": [
+            "ev_60013"
+          ]
         }
       ]
     },
@@ -17282,7 +17503,7 @@
     "type_primary": "EQ",
     "types_secondary": [],
     "title": "Nvidia stake in Nokia",
-    "insight_template": "Nvidia paid {funded} for new {counterparty} shares tied to an AI radio partnership, then sold most of them within a year.",
+    "insight_template": "Nvidia paid {funded} for new {counterparty} shares tied to an AI radio partnership, and its latest holdings report shows a much smaller stake.",
     "definition": "Nokia's board issued 166,389,351 new shares to Nvidia in a directed issue at $6.01 per share, about $1.0 billion, announced on 28 October 2025 and completed on 13 November 2025 as American depositary shares. The issue gave Nvidia 2.90% of Nokia and is described by Nokia as an essential part of a partnership on AI-RAN and data center networking. Nvidia's 13F shows 72,859,751 shares at 30 September 2026.",
     "status": "completed",
     "claim_basis": "filed",
@@ -17447,19 +17668,28 @@
             "ent_nokia"
           ],
           "direction": "negative",
-          "text": "If operators do not buy Nokia's AI-RAN products, Nvidia's remaining Nokia shares lose value and a route for its accelerators into radio networks narrows."
+          "text": "If operators do not buy Nokia's AI-RAN products, Nvidia's remaining Nokia shares lose value and a route for its accelerators into radio networks narrows.",
+          "evidence": [
+            "ev_50142",
+            "ev_60039",
+            "ev_50025"
+          ]
         }
       ],
       "second_order": [
         {
-          "trigger": "Nvidia's 13F shows it sold over half its Nokia shares",
-          "mechanism": "Investors question the depth of the partnership that justified the directed issue",
+          "trigger": "Nvidia's 13F shows fewer than half of its original Nokia shares",
+          "mechanism": "Nokia holders can see the smaller Nvidia stake in each 13F",
           "affected": [
             "ent_nokia"
           ],
           "direction": "negative",
-          "text": "Nvidia's sale of most of its Nokia shares within a year weakens the signal Nokia used to justify issuing shares without pre-emptive rights.",
-          "lens": "signaling"
+          "text": "Nvidia's holdings reports show its Nokia shares falling from 166,389,351 to 72,859,751 within a year.",
+          "lens": "signaling",
+          "evidence": [
+            "ev_50024",
+            "ev_50025"
+          ]
         }
       ]
     },
@@ -17721,7 +17951,10 @@
             "ent_synopsys"
           ],
           "direction": "negative",
-          "text": "If Synopsys's GPU-accelerated tools sell poorly, Nvidia's Synopsys shares lose value and fewer design workloads move to Nvidia GPUs."
+          "text": "If Synopsys's GPU-accelerated engineering tools sell poorly, Nvidia's Synopsys shares lose value and fewer design workloads move to Nvidia GPUs.",
+          "evidence": [
+            "ev_30039"
+          ]
         }
       ],
       "second_order": [
@@ -17733,8 +17966,12 @@
             "ent_nvidia"
           ],
           "direction": "mixed",
-          "text": "Any Nvidia hardware Synopsys buys to run its accelerated tools would partly recycle Nvidia's own money; no filing quantifies such purchases.",
-          "lens": "revenue_quality"
+          "text": "Any Nvidia hardware Synopsys buys to run its accelerated tools would partly recycle Nvidia's own money; no filing quantifies such purchases (analysis).",
+          "lens": "revenue_quality",
+          "evidence": [
+            "ev_30039",
+            "ev_60045"
+          ]
         }
       ]
     },
@@ -17742,16 +17979,17 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 31.5,
+      "score": 36.5,
       "components": {
         "gross_percentile": 0.6,
         "contingent_share": 0.0,
         "circularity_percentile": null,
-        "counterparty_weakness": 0.0,
+        "counterparty_weakness": null,
         "lender_reliance": 0.0
       },
       "missing": [
-        "circularity_percentile"
+        "circularity_percentile",
+        "counterparty_weakness"
       ],
       "label": "analysis"
     },
@@ -17976,14 +18214,18 @@
     "consequences": {
       "first_order": [
         {
-          "trigger": "Marvell's custom XPU programs lose hyperscaler orders",
+          "trigger": "Marvell loses custom silicon orders",
           "mechanism": "Marvell's share price and the conversion value fall",
           "affected": [
             "ent_nvidia",
             "ent_marvell"
           ],
           "direction": "negative",
-          "text": "If Marvell loses custom XPU orders, Nvidia's preferred stake falls with Marvell's common stock because it has no liquidation preference."
+          "text": "If Marvell's business weakens, Nvidia's preferred stake falls with Marvell's common stock, because the preferred ranks pro rata with common in a liquidation.",
+          "evidence": [
+            "ev_60057",
+            "ev_60056"
+          ]
         }
       ],
       "second_order": [
@@ -17997,7 +18239,11 @@
           ],
           "direction": "mixed",
           "text": "Marvell also gave Google a warrant tied to custom TPU-related silicon, so Nvidia holds equity in a supplier to a rival accelerator program.",
-          "lens": "contagion"
+          "lens": "contagion",
+          "evidence": [
+            "ev_60062",
+            "ev_60063"
+          ]
         }
       ]
     },
@@ -18260,7 +18506,11 @@
             "ent_lumentum"
           ],
           "direction": "negative",
-          "text": "If Lumentum's new fab slips, Nvidia faces both a loss on its preferred and a delay in the laser capacity it paid to reserve."
+          "text": "If Lumentum's new fab slips, Nvidia faces both a loss on its preferred and a delay in the laser capacity it paid to reserve.",
+          "evidence": [
+            "ev_30046",
+            "ev_60070"
+          ]
         }
       ],
       "second_order": [
@@ -18272,12 +18522,12 @@
             "ent_nvidia"
           ],
           "direction": "mixed",
-          "text": "Nvidia is both a shareholder and a committed buyer of Lumentum; neither discloses the size of the purchase commitment, so the share of Lumentum revenue that Nvidia funds cannot be measured.",
+          "text": "Nvidia's preferred stock funds a new Lumentum fab and Nvidia has also agreed to buy from it; the purchase commitment is not sized, so the share of the fab's output Nvidia will take is unknown.",
           "lens": "revenue_quality",
           "evidence": [
             "ev_60070",
             "ev_30047",
-            "ev_60066"
+            "ev_30046"
           ]
         }
       ]
@@ -18536,7 +18786,11 @@
             "ent_coherent"
           ],
           "direction": "negative",
-          "text": "If transceiver prices fall, Nvidia loses value on its Coherent shares while the capacity it funded lowers its own optics costs."
+          "text": "If transceiver prices fall, Nvidia loses value on its Coherent shares while the capacity it funded lowers its own optics costs (analysis).",
+          "evidence": [
+            "ev_30048",
+            "ev_30049"
+          ]
         }
       ],
       "second_order": [
@@ -18548,11 +18802,12 @@
             "ent_nvidia"
           ],
           "direction": "mixed",
-          "text": "Nvidia is both a shareholder and a committed buyer of Coherent; neither discloses the size of the purchase commitment, so the share of Coherent revenue that Nvidia funds cannot be measured.",
+          "text": "Nvidia bought Coherent common stock in a placement and is a committed buyer of its optics; Coherent's largest customer was 20% of fiscal 2026 revenue and is not named, so Nvidia's share cannot be measured.",
           "lens": "revenue_quality",
           "evidence": [
             "ev_30049",
-            "ev_60077"
+            "ev_60077",
+            "ev_190088"
           ]
         }
       ]
@@ -18589,7 +18844,8 @@
       "ev_60079",
       "ev_60080",
       "ev_60081",
-      "ev_60082"
+      "ev_60082",
+      "ev_190088"
     ],
     "derived": {
       "label": "analysis",
@@ -18776,7 +19032,11 @@
             "ent_arm"
           ],
           "direction": "positive",
-          "text": "Nvidia's exit from Arm removed a small listed stake and has no effect on its Arm architecture license."
+          "text": "Nvidia's 13F reports show its Arm holding cut from 1,960,784 to 1,101,249 shares before it left the 13F, so Nvidia no longer carries an Arm stake.",
+          "evidence": [
+            "ev_50001",
+            "ev_50002"
+          ]
         }
       ],
       "second_order": [
@@ -18788,8 +19048,11 @@
             "ent_nvidia"
           ],
           "direction": "mixed",
-          "text": "The Arm exit shows Nvidia sells listed partner stakes, which tempers any reading of its newer supplier stakes as permanent support.",
-          "lens": "signaling"
+          "text": "The Arm exit shows Nvidia sells listed partner stakes, which tempers any reading of its newer supplier stakes as permanent support (analysis).",
+          "lens": "signaling",
+          "evidence": [
+            "ev_50002"
+          ]
         }
       ]
     },
@@ -19042,7 +19305,11 @@
           ],
           "direction": "mixed",
           "text": "Corning treats part of the warrant as a price concession to a customer, so its reported revenue from that supply agreement is lower than gross billings.",
-          "lens": "revenue_quality"
+          "lens": "revenue_quality",
+          "evidence": [
+            "ev_60096",
+            "ev_60095"
+          ]
         }
       ]
     },
@@ -19154,7 +19421,7 @@
     ],
     "title": "Customer deposit with Corning linked to the Nvidia warrants",
     "insight_template": "{counterparty} holds a customer deposit that may be Nvidia's, but {counterparty} does not name the customer, so Nvidia's exposure is unconfirmed.",
-    "definition": "In the second quarter of 2026 Corning recorded a customer deposit under a long-term supply agreement running through 31 December 2029, offset by part of a warrant issued to the same customer. Corning's only warrants issued that quarter were those sold to Nvidia on 6 May 2026, so the customer may be Nvidia by that link (analysis). Corning does not name the customer, so no amount is attributed to Nvidia. Deposits are applied against the customer's receivables as products are delivered.",
+    "definition": "In the second quarter of 2026 Corning recorded a customer deposit under a long-term supply agreement running through 31 December 2029, offset by part of a warrant issued to the same customer. Corning's only warrants issued that quarter were those sold to Nvidia on 6 May 2026, so the customer may be Nvidia by that link (analysis). Corning does not name the depositor, so no amount is attributed to Nvidia. Deposits are applied against the customer's receivables as products are delivered.",
     "status": "definitive",
     "claim_basis": "filed",
     "amounts": {
@@ -19254,7 +19521,12 @@
             "ent_corning"
           ],
           "direction": "negative",
-          "text": "If Corning's new plants are late, the deposit stays on Corning's balance sheet longer and, if the unnamed customer is Nvidia as the warrant link suggests, Nvidia carries an unsecured claim on Corning."
+          "text": "If Corning's new plants are late, the deposit stays on Corning's balance sheet longer; Corning does not name the depositor, so whether Nvidia carries this claim is analysis.",
+          "evidence": [
+            "ev_60094",
+            "ev_60092",
+            "ev_60098"
+          ]
         }
       ],
       "second_order": [
@@ -19266,8 +19538,12 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "A Corning delivery shortfall would slow hyperscaler builds that need its fiber, delaying Nvidia system shipments as well as the deposit drawdown.",
-          "lens": "contagion"
+          "text": "A Corning delivery shortfall would slow data center builds that need its fiber, delaying the deposit drawdown and possibly Nvidia system shipments (analysis).",
+          "lens": "contagion",
+          "evidence": [
+            "ev_60092",
+            "ev_60099"
+          ]
         }
       ]
     },
@@ -19288,7 +19564,8 @@
       "ev_60096",
       "ev_60098",
       "ev_60099",
-      "ev_60102"
+      "ev_60102",
+      "ev_60092"
     ],
     "derived": {
       "label": "analysis",
@@ -19350,7 +19627,7 @@
     "type_primary": "PP",
     "types_secondary": [],
     "title": "Nvidia multiyear agreements with Amkor, including prepayments",
-    "insight_template": "Nvidia's agreements with {counterparty} total close to {headline} including prepayments for packaging capacity, on terms that neither company has stated.",
+    "insight_template": "Nvidia's agreements with {counterparty} total {headline} including prepayments for packaging capacity, on terms that neither company has stated.",
     "definition": "Nvidia says it supports Amkor's expansion through multiyear agreements announced in July and October 2026, totaling nearly $3 billion and including prepayments. Amkor's 10-Qs report two advance payment agreements with an unnamed customer in the same months; that this customer is Nvidia is analysis. Some advances are backed by standby letters of credit issued by Amkor.",
     "status": "definitive",
     "claim_basis": "filed",
@@ -19369,7 +19646,8 @@
         "evidence": [
           "ev_30065"
         ],
-        "note": "Nvidia says the agreements total nearly $3 billion and include prepayments (ev_30065); the figure is slightly below $3 billion and covers all the agreements, not only prepayments. Dated to the Nvidia statement of 2026-11-17 because the July and October 2026 agreements are not separately valued by Nvidia. Should display as nearly $3 billion."
+        "note": "Nvidia says the agreements total nearly $3 billion and include prepayments (ev_30065); the figure is slightly below $3 billion and covers all the agreements, not only prepayments. Dated to the Nvidia statement of 2026-11-17 because the July and October 2026 agreements are not separately valued by Nvidia.",
+        "qualifier": "nearly"
       },
       "committed_total": {
         "value": null,
@@ -19478,19 +19756,29 @@
             "ent_amkor"
           ],
           "direction": "negative",
-          "text": "If Amkor's new packaging lines are late, Nvidia's advances to Amkor sit as unsecured claims and its packaging supply tightens."
+          "text": "If Amkor's new packaging lines are late, Nvidia's advances to Amkor are worked off later and its packaging supply tightens; Amkor backs some customer advances with standby letters of credit but does not name the customer.",
+          "evidence": [
+            "ev_30066",
+            "ev_60106",
+            "ev_60112"
+          ]
         }
       ],
       "second_order": [
         {
           "trigger": "Amkor relies on customer advances to fund capex",
-          "mechanism": "Amkor borrowed $1.15B of long-term debt in 2026 alongside the advances",
+          "mechanism": "Amkor's capacity build is partly funded by customer advances from an unnamed customer",
           "affected": [
             "ent_amkor"
           ],
           "direction": "mixed",
-          "text": "Amkor funds its expansion with both new debt and Nvidia's advances, so a cut in Nvidia orders would leave Amkor's lenders with more underused capacity.",
-          "lens": "lender_reliance"
+          "text": "Nvidia says its Amkor agreements include prepayments to scale capacity; Amkor does not name the customer, so how much of its expansion Nvidia funds is not disclosed.",
+          "lens": "lender_reliance",
+          "evidence": [
+            "ev_30066",
+            "ev_60104",
+            "ev_60110"
+          ]
         }
       ]
     },
@@ -19685,7 +19973,10 @@
             "ent_kyec"
           ],
           "direction": "negative",
-          "text": "If KYEC's US test sites slip past their target, Nvidia's advance to KYEC is tied up and its US test capacity falls short."
+          "text": "Nvidia's $1.1 billion advance pays for new KYEC testing facilities and equipment in the US, with high-volume production targeted for April 2027, so until then it is not backed by output.",
+          "evidence": [
+            "ev_30062"
+          ]
         }
       ],
       "second_order": [
@@ -19697,8 +19988,11 @@
             "ent_amkor"
           ],
           "direction": "negative",
-          "text": "A KYEC delay would hold back US-made Nvidia products that also depend on Amkor's Arizona packaging.",
-          "lens": "contagion"
+          "text": "A KYEC delay would hold back US testing of Nvidia products that Nvidia plans to double across the US, Taiwan and Singapore (analysis).",
+          "lens": "contagion",
+          "evidence": [
+            "ev_30062"
+          ]
         }
       ]
     },
@@ -19893,7 +20187,10 @@
             "ent_ibiden"
           ],
           "direction": "negative",
-          "text": "If IBIDEN's Ono Plant ramps late, Nvidia's substrate supply tightens and its advance to IBIDEN stays outstanding longer."
+          "text": "Nvidia describes its IBIDEN advance only as multibillion dollar; it funds a tripling of the Ono Plant with new capacity from early 2028, so the amount at risk until then cannot be sized.",
+          "evidence": [
+            "ev_30063"
+          ]
         }
       ],
       "second_order": [
@@ -19906,8 +20203,13 @@
             "ent_spil"
           ],
           "direction": "negative",
-          "text": "A substrate shortfall at IBIDEN would idle packaging lines that Nvidia also prepaid at Amkor and SPIL.",
-          "lens": "contagion"
+          "text": "A substrate shortfall at IBIDEN would idle packaging lines that Nvidia also prepaid at Amkor and SPIL (analysis).",
+          "lens": "contagion",
+          "evidence": [
+            "ev_30063",
+            "ev_30066",
+            "ev_30067"
+          ]
         }
       ]
     },
@@ -19933,7 +20235,9 @@
     },
     "version": 1,
     "evidence": [
-      "ev_30063"
+      "ev_30063",
+      "ev_30066",
+      "ev_30067"
     ],
     "notes": "IBIDEN's capital investment notice (ibiden.com PDF) was fetched but its text could not be extracted; a search snippet says customers bear investment costs partly as advance payments, without naming Nvidia.",
     "derived": {
@@ -20091,7 +20395,10 @@
             "ent_unimicron"
           ],
           "direction": "negative",
-          "text": "If Unimicron's Taiwan expansion slips, Nvidia's reserved substrate supply arrives late, and any advance paid stays outstanding."
+          "text": "Nvidia's Unimicron agreement reserves KF substrate capacity in Taiwan with no stated amount, and no source says whether Nvidia paid anything in advance, so any cash exposure is unknown.",
+          "evidence": [
+            "ev_30064"
+          ]
         }
       ],
       "second_order": [
@@ -20103,8 +20410,12 @@
             "ent_ibiden"
           ],
           "direction": "negative",
-          "text": "A Unimicron delay would raise Nvidia's reliance on IBIDEN, concentrating its substrate supply further.",
-          "lens": "contagion"
+          "text": "A Unimicron delay would raise Nvidia's reliance on IBIDEN, concentrating its substrate supply further (analysis).",
+          "lens": "contagion",
+          "evidence": [
+            "ev_30064",
+            "ev_30063"
+          ]
         }
       ]
     },
@@ -20130,7 +20441,8 @@
     },
     "version": 1,
     "evidence": [
-      "ev_30064"
+      "ev_30064",
+      "ev_30063"
     ],
     "notes": "No amount and no statement that an advance is paid; recorded as PP because it is a capacity reservation.",
     "derived": {
@@ -20288,7 +20600,10 @@
             "ent_spil"
           ],
           "direction": "negative",
-          "text": "If SPIL's dedicated lines are late, Nvidia's funding to SPIL is tied up and its advanced packaging supply tightens."
+          "text": "Nvidia's multibillion dollar funding for SPIL buys packaging lines dedicated to Nvidia by mid 2029, so the funding is worked off in output only once those lines run.",
+          "evidence": [
+            "ev_30067"
+          ]
         }
       ],
       "second_order": [
@@ -20301,7 +20616,11 @@
           ],
           "direction": "mixed",
           "text": "Nvidia now funds both SPIL and Amkor packaging capacity, so a demand fall would leave it with prepaid capacity at two assemblers at once.",
-          "lens": "contagion"
+          "lens": "contagion",
+          "evidence": [
+            "ev_30067",
+            "ev_30066"
+          ]
         }
       ]
     },
@@ -20327,7 +20646,8 @@
     },
     "version": 1,
     "evidence": [
-      "ev_30067"
+      "ev_30067",
+      "ev_30066"
     ],
     "notes": "SPIL is a private subsidiary of ASE Technology Holding; ASE's 20-F (filed 2026-04-01) was searched and no Nvidia funding found.",
     "derived": {
@@ -20514,7 +20834,8 @@
       "wwr_reason": "Equity value moves with AI data center demand. Correlation with the Nvidia residual value guaranty on the same campus is high: an OpenAI default would both trigger the guaranty and cut SB Energy's main future revenue (analysis).",
       "collateral": "None. Before the IPO Nvidia holds a contract claim on Energy Global and SB Energy under the prepaid forward; after settlement it holds non voting Class N common stock, structurally junior to all project debt.",
       "tenor": "Prepaid forward has no stated maturity and settles on an IPO, listing, financing, change of control or dissolution; share purchase agreement lapses 15 May 2027.",
-      "notes": "SB Energy records the prepaid forward as a liability at $1,666,667 thousand fair value at 30 Sept 2026 (ev_100053)."
+      "notes": "SB Energy records the prepaid forward as a liability at $1,666,667 thousand fair value at 30 Sept 2026 (ev_100053).",
+      "tenor_bucket": "Under 2 years"
     },
     "consequences": {
       "first_order": [
@@ -21174,7 +21495,11 @@
             "ent_helix"
           ],
           "direction": "negative",
-          "text": "If Helix data centers fail to lease, Nvidia's undisclosed stake loses value alongside Vistra and KIA."
+          "text": "If Helix data centers fail to lease, Nvidia's undisclosed stake loses value alongside Vistra and KIA.",
+          "evidence": [
+            "ev_100030",
+            "ev_100031"
+          ]
         }
       ],
       "second_order": [
@@ -21186,8 +21511,12 @@
             "ent_nvidia"
           ],
           "direction": "mixed",
-          "text": "Helix is set up to deploy Nvidia DSX designs, so Nvidia money in Helix supports demand for Nvidia systems.",
-          "lens": "revenue_quality"
+          "text": "Nvidia is a strategic partner supporting Nvidia DSX aligned infrastructure for Helix investments, so Nvidia money in Helix supports demand for Nvidia systems.",
+          "lens": "revenue_quality",
+          "evidence": [
+            "ev_210005",
+            "ev_100031"
+          ]
         },
         {
           "trigger": "Other founding investors commit to Helix",
@@ -21279,7 +21608,8 @@
       "ev_100032",
       "ev_100055",
       "ev_100033",
-      "ev_200009"
+      "ev_200009",
+      "ev_210005"
     ],
     "derived": {
       "label": "analysis",
@@ -21451,7 +21781,11 @@
             "ent_brookfield_baiif"
           ],
           "direction": "negative",
-          "text": "If the Brookfield AI Infrastructure Fund's AI factories underperform, Nvidia loses on its stake and may still owe undrawn commitments."
+          "text": "If the Brookfield AI Infrastructure Fund's AI factories underperform, Nvidia loses on its stake and may still owe undrawn commitments.",
+          "evidence": [
+            "ev_100038",
+            "ev_100035"
+          ]
         }
       ],
       "second_order": [
@@ -21464,7 +21798,11 @@
           ],
           "direction": "mixed",
           "text": "If the Brookfield vehicle financing NAVER's AI factory sits inside the Brookfield AI Infrastructure Fund, which no source on file confirms (analysis), a failure there would hit Nvidia through the fund and through NAVER.",
-          "lens": "contagion"
+          "lens": "contagion",
+          "evidence": [
+            "ev_90070",
+            "ev_100038"
+          ]
         },
         {
           "trigger": "Brookfield raises third party capital for the fund",
@@ -21531,7 +21869,8 @@
       "ev_100036",
       "ev_100037",
       "ev_100038",
-      "ev_30073"
+      "ev_30073",
+      "ev_90070"
     ],
     "derived": {
       "label": "analysis",
@@ -21746,8 +22085,12 @@
             "ent_broadcom"
           ],
           "direction": "positive",
-          "text": "Nvidia, AMD and Broadcom backing Meta's offering signals supplier support for Meta's spending plans.",
-          "lens": "signaling"
+          "text": "Nvidia, AMD and Broadcom indicated interest in Meta's offering as cornerstone investors, which signals supplier support for Meta's spending plans, though the indications do not bind them.",
+          "lens": "signaling",
+          "evidence": [
+            "ev_100040",
+            "ev_100041"
+          ]
         }
       ]
     },
@@ -22413,7 +22756,10 @@
             "ent_iambic"
           ],
           "direction": "mixed",
-          "text": "Iambic's collaboration to optimize its models on Nvidia hardware ties part of Nvidia's investment to future Nvidia platform use."
+          "text": "Iambic's collaboration to optimize its models on Nvidia hardware ties part of Nvidia's investment to future Nvidia platform use.",
+          "evidence": [
+            "ev_170005"
+          ]
         }
       ],
       "second_order": [
@@ -22425,7 +22771,11 @@
           ],
           "direction": "positive",
           "lens": "signaling",
-          "text": "Iambic lists Nvidia as an investor and partner in its IPO prospectus, so a later Nvidia sale would remove a visible backer of Iambic."
+          "text": "Iambic lists Nvidia as an investor and partner in its IPO prospectus, so a later Nvidia sale would remove a visible backer of Iambic.",
+          "evidence": [
+            "ev_170004",
+            "ev_170005"
+          ]
         }
       ]
     },
@@ -22576,7 +22926,7 @@
     "type_primary": "EQ",
     "types_secondary": [],
     "title": "Unattributed non-marketable equity securities (private stakes), carrying value at 2026-10-25",
-    "insight_template": "Nvidia carries {funded} of private company stakes that no named deal explains, so most of its private portfolio cannot be checked against counterparties.",
+    "insight_template": "Up to {funded} of Nvidia's private stakes match no sized deal; OpenAI and other named stakes of unknown cost sit inside it.",
     "definition": "Nvidia's private company stakes, carried at cost less impairment and adjusted for observable price changes, totalled the disclosed amount at 2026-10-25. This record is what remains after subtracting the named private stakes whose amounts are disclosed. It is the part of Nvidia's private portfolio that no named relationship explains, and it is an upper bound because several named stakes, including OpenAI, have no disclosed funded amount.",
     "status": "definitive",
     "claim_basis": "filed",
@@ -22702,7 +23052,10 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Unattributed private stakes carried by Nvidia would be impaired in a down round, as the impairment recorded in the quarter to 2026-10-25 shows."
+          "text": "Private stakes Nvidia does not name are written down when their prices fall, as the $1.8 billion impairment in the quarter to 25 October 2026 shows.",
+          "evidence": [
+            "ev_50099"
+          ]
         }
       ],
       "second_order": [
@@ -22713,8 +23066,12 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Because the Unattributed private stakes are not named, readers cannot test whether this equity flows back to Nvidia as revenue.",
-          "lens": "revenue_quality"
+          "text": "Because Nvidia does not name these private investees, no reader can test whether the money returns to Nvidia as purchases of its systems.",
+          "lens": "revenue_quality",
+          "evidence": [
+            "ev_130010",
+            "ev_120010"
+          ]
         }
       ]
     },
@@ -22737,7 +23094,8 @@
       "ev_40009",
       "ev_40087",
       "ev_50099",
-      "ev_80030"
+      "ev_80030",
+      "ev_120010"
     ],
     "notes": "Named but not quantified (not subtracted): OpenAI Series C preferred (rel_openai_eq_2026; $30B committed in a round closed 2026-03-31, funded amount not disclosed); Anthropic Series G portion of the November 2025 agreement (rel_anthropic_eqc_2025, amount not disclosed); Mistral, Safe Superintelligence, Thinking Machines, Reflection, Cohere, Sakana, Point2, Figure, Wayve, Skild AI, Black Forest Labs, Scale AI, Anysphere, Databricks, Commonwealth Fusion, PsiQuantum, Quantinuum, TerraPower, Lambda, Crusoe (three rounds), Firmus (three), Together AI (three). Analysis: if the OpenAI $30B had been fully paid by 2026-10-25, the remainder would fall to about $29.0B. Excluded: Anthropic IPO placement (closed 2026-11-20, after the date, and a public stake); Nscale convertible notes (debt, not equity); equity method LP interests (Helix, Brookfield) which sit in the Non-marketable securities line of $65,528M (ev_130015) but outside the $61,650M equity table. SB Energy prepaid forward ($1.5B funded 2026-08-17, settles into non-voting Class N shares): its classification inside this line is analysis. Basis check after the critic review: every subtraction is a cost stated by a source for a private stake (Nscale Series B, SAFE and Series C-4 prices; SB Energy prepaid amount). Cost versus carrying value: the aggregate includes cumulative gross unrealized gains of $9.9B (ev_130021) and losses and impairments of $2.2B (ev_130022).",
     "derived": {
@@ -22975,7 +23333,13 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Unattributed public equity is small, so a fall in Nvidia's listed holdings is explained by the named stakes in Intel, SpaceX and CoreWeave."
+          "text": "Almost all of Nvidia's listed holdings are named stakes such as Intel, SpaceX and CoreWeave, so a fall in its public equity value can be traced to those names.",
+          "evidence": [
+            "ev_130011",
+            "ev_50021",
+            "ev_50031",
+            "ev_50019"
+          ]
         }
       ],
       "second_order": [
@@ -22987,8 +23351,11 @@
             "ent_coreweave"
           ],
           "direction": "negative",
-          "text": "Unattributed public stakes aside, the $21.0B under short-term lock-up means Nvidia's exits could move prices of the companies it backs.",
-          "lens": "signaling"
+          "text": "Nvidia held $21.0 billion of listed equity under short-term lock-up at 25 October 2026, so when those lock-ups end, sales by Nvidia could move the prices of companies it backs (analysis).",
+          "lens": "signaling",
+          "evidence": [
+            "ev_210002"
+          ]
         }
       ]
     },
@@ -23013,7 +23380,8 @@
       "ev_50027",
       "ev_50029",
       "ev_50031",
-      "ev_50098"
+      "ev_50098",
+      "ev_210002"
     ],
     "notes": "13F covers only US-listed 13(f) securities: it omits warrants, private-placement preferred, convertible debt and non-US listings, and its date (2026-09-30) differs from the balance sheet date (2026-10-25). Named but not quantified at fair value (inside Level 2 but carried in the register only at cost, so not subtracted): Marvell preferred ($2.0B cost, rel_marvell_eq_2026), Lumentum preferred ($2.0B cost, rel_lumentum_eq_2026), Corning warrants ($0.5B, rel_corning_eq_2026), Nebius pre-funded warrant ($2.0B, rel_nebius_eq_2026), IREN investment rights (rel_iren_eq_2026, no value). Analysis: the 13F common total ($48.3B) exceeds Level 1 ($38.4B) by about $10B, so some 13F positions are probably carried in Level 2 or were sold or repriced in October; if the Level 2 items were subtracted at cost the remainder would be negative. Excluded: debt convertible into a public company's equity, $3,471M (ev_50098), which sits in marketable debt securities. Anthropic (public from 2026-11-20) is after the date. Basis check after the critic review: every subtraction is a fair value stated in Nvidia's 13F, the same measure as the aggregate, at a date 25 days earlier.",
     "derived": {
@@ -23197,7 +23565,11 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Unattributed guarantees mean a default by a partner Nvidia does not name would turn into an Nvidia payment without prior warning to readers."
+          "text": "A default by a partner Nvidia does not name would become an Nvidia payment with no prior warning to readers.",
+          "evidence": [
+            "ev_30025",
+            "ev_30026"
+          ]
         }
       ],
       "second_order": [
@@ -23208,8 +23580,12 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Lenders relying on the Unattributed power and systems credit support would reprice neocloud debt if Nvidia stopped offering it.",
-          "lens": "lender_reliance"
+          "text": "Nvidia discloses $9.5 billion of power and systems credit support and $3.5 billion of land, power and shell guarantees for neoclouds without naming who benefits, so lenders' reliance on them cannot be traced.",
+          "lens": "lender_reliance",
+          "evidence": [
+            "ev_30025",
+            "ev_30026"
+          ]
         }
       ]
     },
@@ -23302,7 +23678,7 @@
     "type_primary": "BK",
     "types_secondary": [],
     "title": "Unattributed neocloud (AI cloud) agreements: capacity Nvidia agreed to buy back at 2026-10-25",
-    "insight_template": "Nvidia stands behind up to {contingent_max} of neocloud capacity for unnamed partners, paying when they cannot find other customers.",
+    "insight_template": "Nvidia stands behind up to {contingent_max} of neocloud capacity; SharonAI and Firmus are known partners, but no partner's share is disclosed.",
     "definition": "Neoclouds buy Nvidia systems and Nvidia commits to rent the resulting capacity for about six years; the neocloud sells the capacity to others first and Nvidia uses or pays for what is left. The commitments take effect only if the neocloud finances the purchase and Nvidia accepts the capacity. No named agreement has a disclosed Nvidia maximum; SharonAI (headline up to $4.88 billion) and Firmus are named but not quantified, so the whole disclosed maximum is shown as unattributed.",
     "status": "definitive",
     "claim_basis": "filed",
@@ -23395,7 +23771,11 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Unattributed neocloud agreements mean a demand slowdown turns Nvidia's product revenue from these partners into rental expense."
+          "text": "If neoclouds cannot sell their capacity to others, Nvidia pays for what is left, so a demand slowdown turns sales to these partners into rental costs for Nvidia.",
+          "evidence": [
+            "ev_50078",
+            "ev_50080"
+          ]
         }
       ],
       "second_order": [
@@ -23406,8 +23786,11 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Lenders to Unattributed neoclouds rely on Nvidia's commitment to secure financing, which supports Nvidia's own reported product revenue.",
-          "lens": "revenue_quality"
+          "text": "The commitments take effect only once a neocloud secures financing, so they help neoclouds raise the money they use to buy Nvidia systems (analysis).",
+          "lens": "revenue_quality",
+          "evidence": [
+            "ev_50081"
+          ]
         }
       ]
     },
@@ -23425,7 +23808,8 @@
       "ev_40146",
       "ev_50079",
       "ev_50080",
-      "ev_50081"
+      "ev_50081",
+      "ev_50078"
     ],
     "notes": "Named but not quantified (not subtracted): SharonAI (rel_sharonai_bk_2026; order of 2026-06-08, six years, five phases, revenue share; 8-K headline 'up to $4.88 billion' (ev_40144) while its 10-Q of 2026-11-16 says the arrangement does not specify a fixed aggregate contractual value (ev_40146)); CoreWeave (rel_coreweave_bk_2025; residual capacity order with an initial value of $6.3B, classification between this line and cloud service agreements not stated); Firmus (rel_firmus_bk_2026; revenue sharing and credit support model, size not disclosed); IREN (rel_iren_lb_2026) and Nscale (rel_nscale_lb_2025), whose rentals may sit here or in cloud service agreements (analysis). Classification: Nvidia describes these as agreements where the neocloud buys Nvidia infrastructure, Nvidia commits to rent the capacity for about six years, the neocloud can sell to third parties first and Nvidia shares revenue; the category appeared in Q2 FY2027 and its schedule shows nothing payable in the rest of FY2027. Value before the critic review: $27.12B with SharonAI subtracted. The aggregate was $36B at 2026-07-26 (ev_50079).",
     "derived": {
@@ -23590,7 +23974,10 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Unattributed cloud service agreements leave Nvidia paying providers it does not name even if its own compute needs fall."
+          "text": "Nvidia owed $28 billion under cloud service agreements at 25 October 2026 and names only some providers, so it keeps paying even if its own compute needs fall.",
+          "evidence": [
+            "ev_130013"
+          ]
         }
       ],
       "second_order": [
@@ -23601,8 +23988,11 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Unattributed cloud rentals give unnamed providers contracted revenue that supports debt used to buy Nvidia systems.",
-          "lens": "revenue_quality"
+          "text": "Providers Nvidia rents from gain contracted revenue they can borrow against to buy Nvidia systems; which providers hold the unnamed part is not disclosed (analysis).",
+          "lens": "revenue_quality",
+          "evidence": [
+            "ev_130013"
+          ]
         }
       ]
     },
@@ -23693,7 +24083,7 @@
     "type_primary": "EQ-C",
     "types_secondary": [],
     "title": "Unattributed equity investment commitments (unfunded) at 2026-10-25",
-    "insight_template": "Nvidia has promised {committed_total} of future equity to companies it does not name, money that leaves as their funding needs rise.",
+    "insight_template": "Up to {committed_total} of Nvidia's unfunded equity commitments cannot be tied to a named deal; unpaid OpenAI and Anthropic amounts may sit inside it.",
     "definition": "Nvidia has committed to make equity investments in frontier labs, infrastructure financiers and other private companies, subject to contingencies, and discloses the unfunded total. This record subtracts named commitments signed before 2026-10-25 and not yet paid. What remains is committed money for investees Nvidia does not name, and it is an upper bound because the unfunded parts of the OpenAI and Anthropic commitments are not disclosed.",
     "status": "definitive",
     "claim_basis": "filed",
@@ -23809,7 +24199,10 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Unattributed equity commitments will draw Nvidia cash into companies readers cannot identify, most of it in fiscal 2028."
+          "text": "Nvidia's $20 billion of unfunded equity commitments at 25 October 2026 fall mostly in fiscal 2028, when the cash goes to investees not all of whom are named.",
+          "evidence": [
+            "ev_120011"
+          ]
         }
       ],
       "second_order": [
@@ -23820,8 +24213,11 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Unattributed equity commitments to frontier labs may come back as Nvidia revenue, which cannot be tested without names.",
-          "lens": "revenue_quality"
+          "text": "Nvidia says these commitments focus on frontier labs and infrastructure financiers; without names, whether the money returns as Nvidia revenue cannot be tested.",
+          "lens": "revenue_quality",
+          "evidence": [
+            "ev_120010"
+          ]
         }
       ]
     },
@@ -24008,7 +24404,10 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Unattributed supply commitments would leave Nvidia paying for components and capacity it cannot sell, as with past inventory charges."
+          "text": "Nvidia's supply and capacity commitments reached $390 billion at 25 October 2026, so a demand fall would leave it paying for components and capacity it cannot sell.",
+          "evidence": [
+            "ev_130023"
+          ]
         }
       ],
       "second_order": [
@@ -24019,8 +24418,12 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Suppliers behind the Unattributed commitments sized capacity on Nvidia orders, so a cut would spread to their lenders and staff.",
-          "lens": "contagion"
+          "text": "Named suppliers such as Amkor and KYEC are building capacity on Nvidia's advances, so a cut in Nvidia orders would leave unnamed suppliers with idle lines too (analysis).",
+          "lens": "contagion",
+          "evidence": [
+            "ev_30062",
+            "ev_30066"
+          ]
         }
       ]
     },
@@ -24039,7 +24442,8 @@
       "ev_10148",
       "ev_130023",
       "ev_30062",
-      "ev_60094"
+      "ev_60094",
+      "ev_30066"
     ],
     "notes": "Named but not quantified against this aggregate: Amkor (rel_amkor_pp_2026; Nvidia says multiyear agreements total nearly $3 billion including prepayments, committed amount not attributable because Amkor does not name the customer); KYEC capacity reservation advance ($1.1B per Nvidia's release, paid part not stated, rel_kyec_pp_2026); Corning customer deposit (rel_corning_pp_2026; Corning does not name the customer, committed amount unknown); Ibiden, Unimicron and SPIL (no amounts). Paid parts sit in prepaid assets, which Nvidia stopped breaking out after 2025-10-26 (last disclosed: long-term $1,536M, ev_10147; short-term $2.0B, ev_10148). The aggregate was $279B at 2026-07-26 (ev_10029).",
     "derived": {
@@ -24207,7 +24611,12 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "If Unattributed data center leases meant for others are not assigned, Nvidia pays rent for up to twenty years on space it may not need."
+          "text": "If Nvidia cannot assign data center leases meant for others, it bears the rent on terms of up to twenty years for space it may not need.",
+          "evidence": [
+            "ev_190005",
+            "ev_190006",
+            "ev_190009"
+          ]
         }
       ],
       "second_order": [
@@ -24218,8 +24627,12 @@
             "ent_nvidia"
           ],
           "direction": "negative",
-          "text": "Landlords of the Unattributed leases can finance buildings on Nvidia's credit, so capacity reaches users that could not sign such leases themselves.",
-          "lens": "lender_reliance"
+          "text": "Landlords of leases Nvidia signs and plans to reassign can finance buildings on Nvidia's credit, so capacity reaches tenants that could not sign such leases alone (analysis).",
+          "lens": "lender_reliance",
+          "evidence": [
+            "ev_190008",
+            "ev_50130"
+          ]
         }
       ]
     },

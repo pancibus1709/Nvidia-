@@ -136,23 +136,16 @@
         "market_signals": [
           {
             "date": "2026-10-09",
-            "signal": "Firmus withdrew its application to list on the Australian Securities Exchange (Nikkei Asia, single tier 2 source).",
+            "signal": "One news report, unconfirmed, says Firmus withdrew its application to list on the Australian Securities Exchange (Nikkei Asia, single tier 2 source).",
             "evidence": [
               "ev_110048"
             ]
           },
           {
-            "date": "2026-10-09",
-            "signal": "Withdrawn offer sought up to A$7.9 billion (about $5.5 billion) (Nikkei Asia, single tier 2 source).",
+            "date": "2026-09-08",
+            "signal": "Firmus says contracted capacity across all customers is more than 900 MW.",
             "evidence": [
-              "ev_110049"
-            ]
-          },
-          {
-            "date": "2026-10-09",
-            "signal": "An analyst quoted by Nikkei Asia said 46 MW was built out of 912 MW contracted (opinion, single tier 2 source).",
-            "evidence": [
-              "ev_110052"
+              "ev_110047"
             ]
           }
         ],
@@ -549,7 +542,11 @@
               "ent_nvidia"
             ],
             "direction": "mixed",
-            "text": "A new Lambda round or listing would put a price on Nvidia's stake, which today is invisible inside Nvidia's non-marketable equity total."
+            "text": "A new Lambda round or listing would put a price on Nvidia's stake, which today is invisible inside Nvidia's non-marketable equity total.",
+            "evidence": [
+              "ev_110001",
+              "ev_130010"
+            ]
           }
         ],
         "second_order": [
@@ -717,7 +714,8 @@
         "ev_110012",
         "ev_110013",
         "ev_110014",
-        "ev_110005"
+        "ev_110005",
+        "ev_130010"
       ],
       "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
     },
@@ -1328,16 +1326,25 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "If Crusoe cannot fill or finance new campus capacity, its valuation falls and Nvidia's Crusoe stake is written down."
+            "text": "If Crusoe cannot fill or finance new campus capacity, its valuation falls and Nvidia's Crusoe stake is written down.",
+            "evidence": [
+              "ev_110020",
+              "ev_110021",
+              "ev_110022"
+            ]
           },
           {
-            "trigger": "Crusoe proceeds with its reported IPO",
-            "mechanism": "A listing puts a market price on Nvidia's Crusoe stake",
+            "trigger": "Crusoe raises again",
+            "mechanism": "A new Crusoe round price resets the carrying value of Nvidia's stake",
             "affected": [
               "ent_nvidia"
             ],
             "direction": "mixed",
-            "text": "A Crusoe listing would move Nvidia's stake from an undisclosed carrying value to a quoted price that moves daily."
+            "text": "Crusoe's Series F priced it at $30.9 billion after the money, so Nvidia's Crusoe stake is carried against private round prices until another round sets a new one.",
+            "evidence": [
+              "ev_110021",
+              "ev_110020"
+            ]
           }
         ],
         "second_order": [
@@ -1366,7 +1373,12 @@
               "ent_blue_owl"
             ],
             "direction": "negative",
-            "text": "Lenders and joint venture partners of Crusoe rely on its equity rounds, which Nvidia joins, to absorb first losses on GPU and campus assets."
+            "text": "Brookfield and Upper90 lend to Crusoe, and the Upper90 facility is used only to buy Nvidia GPUs, so Crusoe's equity, which Nvidia holds, ranks behind lenders on those GPUs (analysis).",
+            "evidence": [
+              "ev_110024",
+              "ev_110025",
+              "ev_110026"
+            ]
           }
         ]
       },
@@ -1891,7 +1903,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia follow-on in the Firmus USD2 billion round",
-      "insight_template": "Nvidia made a follow-on investment in {counterparty} for an undisclosed amount, ranking behind a large debt facility led by Blackstone.",
+      "insight_template": "{counterparty} names Nvidia as a follow-on participant in its latest round for an undisclosed amount, ranking behind a large debt facility led by Blackstone.",
       "definition": "Firmus announced full commitments for a USD2 billion strategic equity round in August 2026, with follow-on participation from Coatue and NVIDIA and new investment from Blackstone funds and Jane Street. Firmus says total new equity raised over the past year exceeds USD3 billion at a post-money valuation above USD10.5 billion. Nvidia's amount is not disclosed.",
       "status": "definitive",
       "claim_basis": "company_announced",
@@ -1989,19 +2001,24 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "If Firmus cannot fund its unbuilt sites, Nvidia's Firmus stake loses value against its private round prices."
+            "text": "If Firmus cannot fund its unbuilt sites, Nvidia's Firmus stake loses value against its private round prices.",
+            "evidence": [
+              "ev_110033",
+              "ev_110047"
+            ]
           },
           {
-            "trigger": "Reported, unconfirmed: Nvidia adds new equity after the IPO withdrawal",
-            "mechanism": "Nvidia's Firmus exposure would rise while Firmus's market access is weakest",
+            "trigger": "Reported, unconfirmed: Firmus withdrew its Australian listing application",
+            "mechanism": "Firmus would again depend on private investors such as Nvidia, Coatue and Blackstone",
             "affected": [
               "ent_nvidia",
               "ent_firmus"
             ],
             "direction": "negative",
-            "text": "One news report, unconfirmed, says Firmus withdrew its IPO; if talks for Nvidia to back Firmus afterwards lead to new equity, Nvidia's exposure would rise when Firmus depends most on it.",
+            "text": "One news report, unconfirmed, says Firmus withdrew its Australian listing application; if so, Firmus's next funding would again come from private investors such as Nvidia, Coatue and Blackstone.",
             "evidence": [
-              "ev_110048"
+              "ev_110048",
+              "ev_110033"
             ]
           }
         ],
@@ -2015,7 +2032,10 @@
               "ent_firmus"
             ],
             "direction": "negative",
-            "text": "If Firmus delays sites, OpenAI and other Firmus customers lose contracted capacity they had planned around."
+            "text": "If Firmus delays sites, OpenAI and other Firmus customers lose contracted capacity they had planned around.",
+            "evidence": [
+              "ev_110047"
+            ]
           },
           {
             "trigger": "Firmus suffers a loss",
@@ -2112,7 +2132,8 @@
         "ev_110050",
         "ev_110048",
         "ev_110049",
-        "ev_110037"
+        "ev_110037",
+        "ev_110047"
       ],
       "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
     },
@@ -2251,16 +2272,25 @@
               "ent_firmus"
             ],
             "direction": "negative",
-            "text": "If Firmus cannot place Batam capacity with customers, Nvidia's credit support turns from a sales tool into a payment."
+            "text": "If Firmus cannot place Batam capacity with customers, Nvidia's credit support for the campus could become a payment; its terms are not disclosed.",
+            "evidence": [
+              "ev_110037",
+              "ev_110043",
+              "ev_50078"
+            ]
           },
           {
             "trigger": "Batam capacity is fully used",
-            "mechanism": "Nvidia earns a share of Firmus cloud revenue on top of chip sales",
+            "mechanism": "Nvidia earns a share of Firmus's Batam cloud revenue",
             "affected": [
               "ent_nvidia"
             ],
             "direction": "positive",
-            "text": "If Firmus fills Batam, Nvidia earns recurring revenue share on top of the chips it sold to Firmus."
+            "text": "If Firmus fills Batam, Nvidia earns a revenue share under the Batam model, which covers up to 170,000 Nvidia accelerators.",
+            "evidence": [
+              "ev_110037",
+              "ev_110040"
+            ]
           }
         ],
         "second_order": [
@@ -2272,7 +2302,11 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Chip revenue from Firmus's Batam campus rests partly on Nvidia's own credit support, so it is weaker evidence of end demand."
+            "text": "Nvidia chip sales into Firmus's Batam campus rest partly on Nvidia's own credit support, so they are weaker evidence of end demand (analysis).",
+            "evidence": [
+              "ev_110043",
+              "ev_110040"
+            ]
           },
           {
             "lens": "lender_reliance",
@@ -2291,7 +2325,7 @@
           },
           {
             "lens": "contagion",
-            "trigger": "Firmus fails after its withdrawn IPO",
+            "trigger": "Firmus fails",
             "mechanism": "Nvidia faces Batam support calls just as other Firmus funders retreat",
             "affected": [
               "ent_nvidia",
@@ -2299,7 +2333,11 @@
               "ent_firmus"
             ],
             "direction": "negative",
-            "text": "Nvidia is both an equity holder in Firmus and a credit supporter of its Batam campus, so a Firmus failure hits Nvidia twice."
+            "text": "Nvidia is both an equity holder in Firmus and a credit supporter of its Batam campus, so a Firmus failure hits Nvidia twice.",
+            "evidence": [
+              "ev_110033",
+              "ev_110037"
+            ]
           }
         ]
       },
@@ -2347,7 +2385,8 @@
         "ev_110045",
         "ev_110035",
         "ev_10036",
-        "ev_50078"
+        "ev_50078",
+        "ev_110033"
       ],
       "notes": "Firmus's expected US$25 to 30 billion is customer offtake to Firmus over six years, not Nvidia's exposure; it is not entered as an amount. DayOne is co-developer of the campus."
     },

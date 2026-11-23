@@ -191,7 +191,7 @@
   ],
   "source_mix": {
     "evidence_by_tier": {
-      "1": 1075,
+      "1": 1081,
       "2": 6
     },
     "one_sided_relationships": 53,
@@ -446,16 +446,16 @@
   },
   "by_grade": {
     "Insufficient information": {
-      "count": 56,
-      "funded": 25000000.0,
+      "count": 57,
+      "funded": 1831027603.859787,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 32100000000.0,
       "contingent_max": 105000000000.0,
       "contingent_not_in_force": 105000000000.0,
-      "gross": 137125000000.0,
-      "headline": 242555000000.0,
+      "gross": 138931027603.8598,
+      "headline": 244555000000.0,
       "lower_bound": 42,
-      "funded_known": 12
+      "funded_known": 13
     },
     "Adequate": {
       "count": 12,
@@ -492,67 +492,67 @@
       "headline": 8300000000.0,
       "lower_bound": 2,
       "funded_known": 1
-    },
-    "Strong": {
-      "count": 1,
-      "funded": 1806027603.859787,
-      "committed_unfunded": 0.0,
-      "committed_split_unknown": 0.0,
-      "contingent_max": 0.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 1806027603.859787,
-      "headline": 2000000000.0,
-      "lower_bound": 0,
-      "funded_known": 1
     }
   },
   "by_tenor": {
-    "Equity or no stated maturity": {
-      "count": 76,
-      "funded": 28696314380.28435,
-      "committed_unfunded": 0.0,
-      "committed_split_unknown": 36700000000.0,
-      "contingent_max": 107360340000.0,
-      "contingent_not_in_force": 105000000000.0,
-      "gross": 172756654380.28436,
-      "headline": 296192739346.78,
-      "lower_bound": 48,
-      "funded_known": 24
-    },
-    "Under 2 years": {
+    "Over 10 years": {
       "count": 1,
-      "funded": 1000000000.0,
-      "committed_unfunded": 1000000000.0,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
-      "contingent_max": 0.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 2000000000.0,
-      "headline": 2000000000.0,
+      "contingent_max": 105000000000.0,
+      "contingent_not_in_force": 105000000000.0,
+      "gross": 105000000000.0,
+      "headline": 105000000000.0,
       "lower_bound": 0,
       "funded_known": 1
     },
-    "2 to 5 years": {
-      "count": 2,
-      "funded": 500000000.0,
+    "Equity or no stated maturity": {
+      "count": 71,
+      "funded": 27196314380.28435,
       "committed_unfunded": 0.0,
-      "committed_split_unknown": 0.0,
+      "committed_split_unknown": 33300000000.0,
       "contingent_max": 0.0,
       "contingent_not_in_force": 0.0,
-      "gross": 500000000.0,
-      "headline": 2600000000.0,
-      "lower_bound": 1,
+      "gross": 60496314380.28435,
+      "headline": 179052399346.78,
+      "lower_bound": 46,
+      "funded_known": 22
+    },
+    "Under 2 years": {
+      "count": 2,
+      "funded": 2500000000.0,
+      "committed_unfunded": 1000000000.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 1500000000.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 5000000000.0,
+      "headline": 5000000000.0,
+      "lower_bound": 0,
+      "funded_known": 2
+    },
+    "2 to 5 years": {
+      "count": 4,
+      "funded": 500000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 3400000000.0,
+      "contingent_max": 860340000.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 4760340000.0,
+      "headline": 6860340000.0,
+      "lower_bound": 2,
       "funded_known": 1
     },
     "5 to 10 years": {
-      "count": 1,
+      "count": 2,
       "funded": 0.0,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
       "contingent_not_in_force": 0.0,
       "gross": 0.0,
-      "headline": 6300000000.0,
-      "lower_bound": 1,
+      "headline": 11180000000.0,
+      "lower_bound": 2,
       "funded_known": 0
     }
   },

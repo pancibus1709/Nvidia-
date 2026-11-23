@@ -2,7 +2,7 @@
 
 Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattributed remainders and context records are excluded.
 
-**How far the sources reach.** Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown. The register holds 1081 citations: 1075 from filings, company releases and other primary sources, 6 from news publications. 53 of 80 relationships are disclosed by one side only.
+**How far the sources reach.** Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown. The register holds 1087 citations: 1081 from filings, company releases and other primary sources, 6 from news publications. 53 of 80 relationships are disclosed by one side only.
 
 ## Totals
 
@@ -90,11 +90,10 @@ A position whose cost is not disclosed adds nothing to gross exposure above, so 
 
 | Group | Relationships | Funded and still held (cost) | Committed, confirmed not yet paid | Committed, paid portion not disclosed | Contingent maximum | of which not yet in force | Gross | Headline | Lower bounds |
 |---|---|---|---|---|---|---|---|---|---|
-| Insufficient information | 56 | $25 million | $0 | $32.1 billion | $105 billion | $105 billion | $137.1 billion | $242.6 billion | 42 |
+| Insufficient information | 57 | $1.83 billion | $0 | $32.1 billion | $105 billion | $105 billion | $138.9 billion | $244.6 billion | 42 |
 | Adequate | 12 | $20.7 billion | $0 | $0 | $0 | $0 | $20.7 billion | $38.5 billion | 4 |
 | Watch | 8 | $5.68 billion | $1 billion | $4.6 billion | $2.36 billion | $0 | $13.6 billion | $15.7 billion | 2 |
 | Weak | 3 | $2 billion | $0 | $0 | $0 | $0 | $2 billion | $8.3 billion | 2 |
-| Strong | 1 | $1.81 billion | $0 | $0 | $0 | $0 | $1.81 billion | $2 billion | 0 |
 
 OpenAI, 77.0% of gross exposure, publishes no balance sheet and cannot be graded.
 
@@ -102,10 +101,11 @@ OpenAI, 77.0% of gross exposure, publishes no balance sheet and cannot be graded
 
 | Group | Relationships | Funded and still held (cost) | Committed, confirmed not yet paid | Committed, paid portion not disclosed | Contingent maximum | of which not yet in force | Gross | Headline | Lower bounds |
 |---|---|---|---|---|---|---|---|---|---|
-| Equity or no stated maturity | 76 | $28.7 billion | $0 | $36.7 billion | $107.4 billion | $105 billion | $172.8 billion | $296.2 billion | 48 |
-| Under 2 years | 1 | $1 billion | $1 billion | $0 | $0 | $0 | $2 billion | $2 billion | 0 |
-| 2 to 5 years | 2 | $500 million | $0 | $0 | $0 | $0 | $500 million | $2.6 billion | 1 |
-| 5 to 10 years | 1 | $0 | $0 | $0 | $0 | $0 | $0 | $6.3 billion | 1 |
+| Over 10 years | 1 | $0 | $0 | $0 | $105 billion | $105 billion | $105 billion | $105 billion | 0 |
+| Equity or no stated maturity | 71 | $27.2 billion | $0 | $33.3 billion | $0 | $0 | $60.5 billion | $179.1 billion | 46 |
+| Under 2 years | 2 | $2.5 billion | $1 billion | $0 | $1.5 billion | $0 | $5 billion | $5 billion | 0 |
+| 2 to 5 years | 4 | $500 million | $0 | $3.4 billion | $860.3 million | $0 | $4.76 billion | $6.86 billion | 2 |
+| 5 to 10 years | 2 | $0 | $0 | $0 | $0 | $0 | $0 | $11.2 billion | 2 |
 
 ### By wrong-way risk
 
@@ -128,7 +128,7 @@ OpenAI, 77.0% of gross exposure, publishes no balance sheet and cannot be graded
 
 | Counterparty | Gross | Share of gross | Funded and still held | Relationships |
 |---|---|---|---|---|
-| OpenAI | $135 billion | 77.0% | Not disclosed | 3 |
+| OpenAI | $135 billion | 77.0% | Not disclosed; see the analysis note on the record for a lower bound | 3 |
 | Anthropic | $10 billion | 5.7% | $10 billion | 2 |
 | Nscale | $5.24 billion | 3.0% | $2.18 billion | 4 |
 | Intel | $3.75 billion | 2.1% | $3.75 billion | 1 |

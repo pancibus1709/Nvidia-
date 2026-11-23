@@ -3979,23 +3979,16 @@
       "market_signals": [
         {
           "date": "2026-10-09",
-          "signal": "Firmus withdrew its application to list on the Australian Securities Exchange (Nikkei Asia, single tier 2 source).",
+          "signal": "One news report, unconfirmed, says Firmus withdrew its application to list on the Australian Securities Exchange (Nikkei Asia, single tier 2 source).",
           "evidence": [
             "ev_110048"
           ]
         },
         {
-          "date": "2026-10-09",
-          "signal": "Withdrawn offer sought up to A$7.9 billion (about $5.5 billion) (Nikkei Asia, single tier 2 source).",
+          "date": "2026-09-08",
+          "signal": "Firmus says contracted capacity across all customers is more than 900 MW.",
           "evidence": [
-            "ev_110049"
-          ]
-        },
-        {
-          "date": "2026-10-09",
-          "signal": "An analyst quoted by Nikkei Asia said 46 MW was built out of 912 MW contracted (opinion, single tier 2 source).",
-          "evidence": [
-            "ev_110052"
+            "ev_110047"
           ]
         }
       ],
@@ -4185,7 +4178,7 @@
         ]
       },
       "maturities_24m": {
-        "value": 3817000000,
+        "value": 7643000000,
         "as_of": "2026-09-26",
         "fiscal_period": null,
         "original_currency": "USD",
@@ -4194,11 +4187,28 @@
         "fx_date": null,
         "last_verified": "2026-11-23",
         "display_eligible": true,
-        "lower_bound": true,
+        "lower_bound": false,
         "evidence": [
-          "ev_60018"
+          "ev_60018",
+          "ev_210003"
         ],
-        "note": "Short-term debt due within 12 months only; debt due in months 13 to 24 not found, so this is a lower bound."
+        "note": "Analysis: the 10-Q short-term debt plus the 10-K second-year amount. The two windows overlap for part of 2027, so this may count some 2027 maturities twice and is a conservative figure.",
+        "components": [
+          {
+            "value": 3817000000,
+            "evidence": [
+              "ev_60018"
+            ],
+            "note": "Short-term debt at 2026-09-26 (due within 12 months)"
+          },
+          {
+            "value": 3826000000,
+            "evidence": [
+              "ev_210003"
+            ],
+            "note": "Principal due in 2027 per the 10-K debt schedule at 2025-12-27"
+          }
+        ]
       },
       "cash_and_undrawn": {
         "value": 69005000000,
@@ -4252,7 +4262,7 @@
       "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
       "market_signals": [],
       "grade": "Adequate",
-      "grade_reason": "Three columns sourced. Public rating BBB (investment grade), Strong. Debt due within 12 months $3.8 billion against $69.0 billion of cash, short-term investments and undrawn revolvers (ratio under 0.1; the 24 month figure is a lower bound, and the 10-K schedule adds $3.8 billion due in 2027), Strong. Top customer 19% of 2025 revenue, Strong. Weakest column Strong, moved down one step to Adequate: the rating was cut in August 2025 and the agency is not named, and Intel carries a $13.7 billion liability for shares escrowed for the US government.",
+      "grade_reason": "Three columns sourced. Public rating BBB (investment grade), Strong. Debt due within 24 months about $7.6 billion (short-term debt of $3.8 billion plus $3.8 billion due in 2027 under the 10-K schedule) against $69.0 billion of cash, short-term investments and undrawn revolvers, a ratio of 0.11, Strong. Top customer 19% of 2025 revenue, Strong. Weakest column Strong, moved down one step to Adequate: the rating was cut in August 2025 and the agency is not named, and Intel carries a $13.7 billion liability for shares escrowed for the US government.",
       "notes": "Rating agency not named in the 10-K (ev_60026). Debt $50.1B and cash plus short-term investments $54.0B at 2026-09-26. August 2026 common stock offering raised $23.0B gross (ev_60015). Revolving facilities of $15.0B undrawn from 2026-10-01 (ev_60019, ev_60020). Customer concentration from the 10-K for 2025 (ev_190112, ev_190110).",
       "evidence": [
         "ev_190110",
@@ -4340,7 +4350,7 @@
         "evidence": [
           "ev_190049"
         ],
-        "note": "Current borrowings in EUR at 2025-12-31, so 12 months only; a lower bound. USD 500 million of notes fall due in June 2027 (ev_190055). At 2026-09-30 short-term interest-bearing liabilities were EUR 574 million (ev_190046)."
+        "note": "Current borrowings in EUR at 2025-12-31 (12 months). The only bond listed as maturing in 2027 is USD 500 million of notes due June 2027 (ev_190055); Other borrowings of EUR 466 million have no stated maturity. Kept in EUR with the dollar notes listed here because no sourced exchange rate is recorded. At 2026-09-30 short-term interest-bearing liabilities were EUR 574 million (ev_190046)."
       },
       "cash_and_undrawn": {
         "value": null,
@@ -4389,7 +4399,7 @@
       "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
       "market_signals": [],
       "grade": "Adequate",
-      "grade_reason": "Three columns sourced, ratios computed in EUR. Debt due within 12 months EUR 1,084 million against EUR 6,423 million of cash and current investments at 2025-12-31 (0.17; at 2026-09-30 EUR 574 million against EUR 5,023 million, 0.11), Strong. No customer above 10% of net sales, Strong. Ratings BBB- from Fitch and S&P Global (investment grade, Strong) and Ba1 from Moody's (BB range, Adequate). Weakest column Adequate, taking the lowest rating; no adjustment.",
+      "grade_reason": "Three columns sourced, ratios computed in EUR. Debt due within 12 months EUR 1,084 million against EUR 6,423 million of cash and current investments at 2025-12-31 (0.17). Adding the USD 500 million notes due June 2027, the only bond due in the second year, and even all EUR 466 million of other borrowings, the 24 month ratio stays below 0.33 if a dollar is worth no more than a euro (analysis), Strong. No customer above 10% of net sales, Strong. Ratings BBB- from Fitch and S&P Global (investment grade, Strong) and Ba1 from Moody's (BB range, Adequate). Weakest column Adequate, taking the lowest rating; no adjustment.",
       "notes": "Instruments: 20-F for 2025 filed 2026-03-05 (ratings, facilities, customers, XBRL balances) and the Q3 2026 interim report furnished on Form 6-K on 2026-10-22 (balances at 2026-09-30, cited as text). Net cash and interest-bearing financial investments EUR 2,584 million at 2026-09-30 (Q3 report). Undrawn revolving facilities EUR 2,000 million at 2025-12-31 (ev_190052). Ratings are as stated in the 20-F at 2025-12-31; later rating actions were not checked.",
       "evidence": [
         "ev_190045",
@@ -4521,19 +4531,19 @@
       },
       "committed_spend_12m": null,
       "top_customer_share": {
-        "value": 0.1,
+        "value": null,
         "as_of": "2025-10-31",
         "evidence": [
           "ev_190064"
         ],
-        "note": "Analysis: the 10-K for fiscal 2025 discloses one customer above 10% only for fiscal 2024 (12.6%) and 2023 (13.5%), implying none above 10% in fiscal 2025.",
+        "note": "Analysis, not counted as a sourced column: the 10-K for fiscal 2025 discloses one customer above 10% only for fiscal 2024 (12.6%) and 2023 (13.5%), which suggests none above 10% in fiscal 2025, but the filing does not state it (ev_190064).",
         "last_verified": "2026-11-23"
       },
       "top3_customer_share": null,
       "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
       "market_signals": [],
-      "grade": "Strong",
-      "grade_reason": "Two columns sourced. Debt due through fiscal 2028 is $2.06 billion against $4.46 billion of cash, short-term investments and the undrawn $850 million revolver, a ratio of 0.46, Strong (near the 0.5 boundary). Top customer below 10% of fiscal 2025 revenue (inferred from the 10-K), Strong. No liquidity cover or public rating stated. Weakest column Strong; no adjustment, but the debt ratio is close to Adequate and the revolver matures in December 2027.",
+      "grade": "Insufficient information",
+      "grade_reason": "One column sourced. Debt due through fiscal 2028 is $2.06 billion against $4.46 billion of cash, short-term investments and the undrawn $850 million revolver, a ratio of 0.46, near the 0.5 boundary. Customer concentration for fiscal 2025 is inferred, not stated, so it is not counted; no liquidity cover or public rating stated. Fewer than two columns sourced.",
       "notes": "Instruments: 10-Q for the quarter ended 2026-07-31 (filed 2026-08-26); the 10-K for fiscal 2026 (year ending October 2026) was not filed by 2026-11-23. Customer figure from the 10-K for fiscal 2025 filed 2025-12-22.",
       "evidence": [
         "ev_190058",
@@ -4711,7 +4721,7 @@
         "evidence": [
           "ev_190076"
         ],
-        "note": "Current portion of debt, 12 months only, so a lower bound; mostly convertible notes, which may be settled partly in shares."
+        "note": "Current portion of debt, which includes convertible notes classified as current; principal must be settled in cash. No 24 month schedule is cached, so this is a 12 month figure and a lower bound. Total debt is $1.40 billion (ev_190077), so debt due within 24 months cannot exceed that."
       },
       "cash_and_undrawn": {
         "value": 2379600000.0,
@@ -4767,7 +4777,7 @@
       "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
       "market_signals": [],
       "grade": "Adequate",
-      "grade_reason": "Two columns sourced from the 10-Q for the quarter ended 2026-09-26. Debt due within 12 months $1.36 billion against $2.38 billion of cash, short-term investments and undrawn revolver, a ratio of 0.57 (a lower bound for 24 months), Adequate. Top end customer 37%, Adequate. No liquidity cover or public rating stated. Weakest column Adequate; no adjustment.",
+      "grade_reason": "Two columns sourced from the 10-Q for the quarter ended 2026-09-26. Debt due within 12 months $1.36 billion against $2.38 billion of cash, short-term investments and undrawn revolver, a ratio of 0.57; this is a 12 month figure and the column is graded as a lower bound, but total debt of $1.40 billion caps the 24 month ratio at 0.59, so the column is Adequate either way. Top end customer 37%, Adequate. No liquidity cover or public rating stated. Weakest column Adequate; no adjustment.",
       "notes": "Instrument: 10-Q filed 2026-11-03, which supersedes the 10-K for fiscal 2026 (filed 2026-08-17).",
       "evidence": [
         "ev_190074",
@@ -4848,7 +4858,7 @@
             "note": "Principal due in fiscal 2028 per the 10-K schedule at 2026-06-30"
           }
         ],
-        "note": "Mixes the 10-Q current portion with the 10-K second-year amount (analysis). The $350 million revolver matures 2027-07-01 but is undrawn; term facilities mature 2029."
+        "note": "Mixes the 10-Q current portion with the 10-K second-year amount (analysis). The $700 million revolver ($669 million available, ev_190087) matures 2027-07-01; term facilities mature 2029."
       },
       "cash_and_undrawn": {
         "value": 2421929000.0,
@@ -5044,7 +5054,7 @@
         ]
       },
       "maturities_24m": {
-        "value": 933000000.0,
+        "value": 1334000000,
         "as_of": "2026-09-30",
         "fiscal_period": null,
         "original_currency": "USD",
@@ -5053,11 +5063,28 @@
         "fx_date": null,
         "last_verified": "2026-11-23",
         "display_eligible": true,
-        "lower_bound": true,
+        "lower_bound": false,
         "evidence": [
-          "ev_190091"
+          "ev_190091",
+          "ev_210004"
         ],
-        "note": "Current portion of debt, 12 months only; a lower bound. The 10-K schedule at 2025-12-31 showed $804 million due in 2026 and $401 million in 2027 (XBRL)."
+        "note": "Analysis: the 10-Q current portion plus the 10-K amount due in 2027. The windows overlap for part of 2027, so this is a conservative figure.",
+        "components": [
+          {
+            "value": 933000000,
+            "evidence": [
+              "ev_190091"
+            ],
+            "note": "Current portion of debt at 2026-09-30"
+          },
+          {
+            "value": 401000000,
+            "evidence": [
+              "ev_210004"
+            ],
+            "note": "Principal due in 2027 per the 10-K debt schedule at 2025-12-31"
+          }
+        ]
       },
       "cash_and_undrawn": {
         "value": 4037000000.0,
@@ -5112,7 +5139,7 @@
       "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
       "market_signals": [],
       "grade": "Adequate",
-      "grade_reason": "Two columns sourced. Liquidity cover far above 24 months ($4.04 billion of cash and undrawn revolver against $283 million of purchase obligations), Strong. Debt due within 12 months $0.93 billion against $4.04 billion, a ratio of 0.23 (a lower bound for 24 months), Strong. Customer share is disclosed only by segment (two end customers 28% of Optical Communications, three 59% of Display, ev_190096), and no rating is stated. Weakest column Strong, moved down one step to Adequate: the purchase obligations exclude capital commitments for the three new plants, so liquidity cover is overstated.",
+      "grade_reason": "Two columns sourced. Liquidity cover far above 24 months ($4.04 billion of cash and undrawn revolver against $283 million of purchase obligations), Strong. Debt due within 24 months about $1.33 billion (current portion $0.93 billion plus $0.40 billion due in 2027 under the 10-K schedule) against $4.04 billion, a ratio of 0.33, Strong. Customer share is disclosed only by segment (two end customers 28% of Optical Communications, three 59% of Display, ev_190096), and no rating is stated. Weakest column Strong, moved down one step to Adequate: the purchase obligations exclude capital commitments for the three new plants, so liquidity cover is overstated.",
       "notes": "Instruments: 10-Q for the quarter ended 2026-09-30 (filed 2026-10-29) for balances; 10-K for 2025 (filed 2026-02-12) for purchase obligations and segment concentration.",
       "evidence": [
         "ev_190090",

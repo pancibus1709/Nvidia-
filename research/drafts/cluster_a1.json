@@ -1010,7 +1010,11 @@
               "ent_openai"
             ],
             "direction": "mixed",
-            "text": "If OpenAI keeps deploying Nvidia systems without the letter of intent being signed into a contract, Nvidia gains the sales without the per gigawatt investment."
+            "text": "The letter of intent ties Nvidia's investment to each gigawatt OpenAI deploys; if OpenAI keeps deploying Nvidia systems without a signed agreement, Nvidia gains the sales without investing (analysis).",
+            "evidence": [
+              "ev_30021",
+              "ev_30092"
+            ]
           },
           {
             "trigger": "Nvidia and OpenAI sign a definitive agreement on the gigawatt structure",
@@ -1020,7 +1024,11 @@
               "ent_openai"
             ],
             "direction": "negative",
-            "text": "A signed version would turn the headline into a contingent commitment tied to OpenAI's own Nvidia purchases, which is vendor financing by another name."
+            "text": "If Nvidia and OpenAI signed the letter's terms, investment released progressively as each gigawatt is deployed would become a commitment tied to OpenAI's own purchases of Nvidia systems (analysis).",
+            "evidence": [
+              "ev_30021",
+              "ev_120020"
+            ]
           }
         ],
         "second_order": [
@@ -1033,8 +1041,12 @@
               "ent_sb_energy"
             ],
             "direction": "negative",
-            "text": "Lessors and clouds that counted on Nvidia money reaching OpenAI could find that the headline never funds, weakening the case for OpenAI's leases.",
-            "lens": "signaling"
+            "text": "OpenAI and Nvidia said only that they look forward to finalizing the details, so lessors and clouds serving OpenAI cannot count the letter's headline as funding for OpenAI (analysis).",
+            "lens": "signaling",
+            "evidence": [
+              "ev_120021",
+              "ev_30020"
+            ]
           }
         ]
       },
@@ -1111,7 +1123,8 @@
           "last_verified": null,
           "display_eligible": false,
           "lower_bound": false,
-          "evidence": []
+          "evidence": [],
+          "note": "Analysis: Nvidia's total unfunded equity commitments were $20 billion at 2026-10-25 (ev_120011). If the $30 billion OpenAI names is a binding commitment in that total, at least $10 billion had been paid by that date, and at least $13.5 billion after the $3.5 billion this register attributes to other investees. The exact amount is not disclosed."
         },
         "contingent_max": {
           "value": 0,
@@ -1161,13 +1174,16 @@
         "first_order": [
           {
             "trigger": "OpenAI's next financing prices below the $852 billion post-money of the 2026 round",
-            "mechanism": "Nvidia's carrying value of its OpenAI preferred stock would be marked down on an observable price",
+            "mechanism": "Nvidia's carrying value of its OpenAI preferred stock would be marked down on an observable price (analysis)",
             "affected": [
               "ent_nvidia",
               "ent_openai"
             ],
             "direction": "negative",
-            "text": "A down round at OpenAI would force Nvidia to impair its OpenAI stake through other income, because the measurement alternative uses observable transactions."
+            "text": "A lower OpenAI round price would lead Nvidia to mark down its OpenAI stake, as it already records impairments on private stakes it holds (analysis).",
+            "evidence": [
+              "ev_50099"
+            ]
           },
           {
             "trigger": "OpenAI spends round proceeds on Nvidia-based compute",
@@ -1323,7 +1339,8 @@
         "ev_120111",
         "ev_120028",
         "ev_20199",
-        "ev_20102"
+        "ev_20102",
+        "ev_50099"
       ],
       "notes": "Linked compute: OpenAI's release pairs the investment with 3 GW of dedicated inference capacity and 2 GW of training on Vera Rubin (ev_120105). Tier 2 (CNBC, citing the OpenAI release) says the investment is separate from the September 2025 letter of intent; needs quote. Funded left unknown, see credit notes."
     },
@@ -1477,7 +1494,8 @@
         "wwr_reason": "Nvidia pays only when OpenAI cannot pay rent, so the exposure is drawn exactly as OpenAI's credit fails; SB Energy states OpenAI is not an investment-grade tenant.",
         "collateral": "No security for Nvidia. The landlord must pursue the tenant parent concurrently (ev_100050) and Nvidia looks solely to the tenant and tenant parent for recoupment (ev_100003). On a trigger Nvidia may assume the tenancy, have the landlord re-let, or sell (ev_40096); recovery depends on reletting a campus purpose-built for Nvidia infrastructure. OpenAI's reimbursement and indemnity is an unsecured claim on the defaulted tenant (ev_30008, ev_120007).",
         "tenor": "Over 10 years: up to 20 years per building from each lease commencement, leases commencing 2028 to 2032; no guaranty is in force before the first building is ready, expected in Nvidia's fiscal 2029.",
-        "notes": "Not effective yet: no building is ready for service; exposure builds building by building and then declines (ev_120009). The guaranties are limited to defined portions of lease and power payments (ev_120003). Nvidia's option on the remaining capacity is at its sole discretion and carries no stated amount."
+        "notes": "Not effective yet: no building is ready for service; exposure builds building by building and then declines (ev_120009). The guaranties are limited to defined portions of lease and power payments (ev_120003). Nvidia's option on the remaining capacity is at its sole discretion and carries no stated amount.",
+        "tenor_bucket": "Over 10 years"
       },
       "consequences": {
         "first_order": [
@@ -1490,7 +1508,12 @@
               "ent_sb_energy"
             ],
             "direction": "negative",
-            "text": "If OpenAI stops paying rent at PORTS-Pike, Nvidia owes SB Energy the guaranteed value and holds only an unsecured reimbursement claim on OpenAI."
+            "text": "If OpenAI's tenant becomes insolvent or misses rent at PORTS-Pike, Nvidia pays SB Energy the shortfall and can recover only from OpenAI's tenant entities under their reimbursement promise.",
+            "evidence": [
+              "ev_40091",
+              "ev_30008",
+              "ev_100003"
+            ]
           },
           {
             "trigger": "OpenAI reaches the designated credit rating",
@@ -1513,7 +1536,11 @@
               "ent_openai"
             ],
             "direction": "negative",
-            "text": "Because guaranties switch on building by building, a slowdown at OpenAI during construction raises Nvidia's exposure at the worst time."
+            "text": "Because each guaranty takes effect only when its building is complete, Nvidia's exposure to OpenAI keeps rising through construction even if OpenAI's finances weaken meanwhile (analysis).",
+            "evidence": [
+              "ev_100007",
+              "ev_120009"
+            ]
           }
         ],
         "second_order": [
@@ -1541,8 +1568,12 @@
               "ent_openai"
             ],
             "direction": "negative",
-            "text": "A default by OpenAI would leave Nvidia seeking a new tenant for gigawatts of Nvidia-only capacity, testing what that capacity is worth without OpenAI.",
-            "lens": "collateral_loop"
+            "text": "On an OpenAI default Nvidia may assume or re-let the lease, and the campus may host only Nvidia infrastructure, which tests what that capacity is worth without OpenAI.",
+            "lens": "collateral_loop",
+            "evidence": [
+              "ev_40096",
+              "ev_100004"
+            ]
           },
           {
             "trigger": "OpenAI's payment capacity falls",
@@ -1934,7 +1965,8 @@
           "lower_bound": false,
           "evidence": [
             "ev_120038"
-          ]
+          ],
+          "note": "Amount from the prospectus (ev_120038). The placement closed on 2026-11-20 (ev_120069), but the closing release gives only the aggregate for all seven buyers, so it cannot ground the Nvidia figure and is cited on the relationship instead."
         },
         "contingent_max": {
           "value": 0,
@@ -2017,7 +2049,11 @@
               "ent_anthropic"
             ],
             "direction": "negative",
-            "text": "Every move in Anthropic's stock now passes through Nvidia's income statement as a gain or loss on publicly held equity."
+            "text": "Nvidia records gains and losses on its listed holdings in other income, so every move in Anthropic's share price since its listing now reaches Nvidia's income statement.",
+            "evidence": [
+              "ev_10110",
+              "ev_120071"
+            ]
           },
           {
             "trigger": "Anthropic deploys IPO and placement proceeds into compute",
@@ -2062,7 +2098,10 @@
             ],
             "direction": "negative",
             "text": "Nvidia's Anthropic shares carry no underwriter lock-up, so a sale by Nvidia would signal reduced supplier support to Anthropic's other strategic holders.",
-            "lens": "signaling"
+            "lens": "signaling",
+            "evidence": [
+              "ev_210001"
+            ]
           }
         ]
       },
@@ -2210,7 +2249,9 @@
         "ev_120049",
         "ev_120050",
         "ev_40029",
-        "ev_40030"
+        "ev_40030",
+        "ev_10110",
+        "ev_210001"
       ],
       "notes": "Distinct from rel_anthropic_eqc_2025; see that record's notes."
     },
@@ -2362,7 +2403,12 @@
               "ent_spacex"
             ],
             "direction": "negative",
-            "text": "SpaceX's AI segment carries heavy GPU spending, so weaker returns at SpaceXSI lower the value of Nvidia's SpaceX shares through other income."
+            "text": "SpaceX's AI segment carries billions of dollars of GPU lease payments to Valor, so weaker returns at SpaceXSI would lower the value of Nvidia's SpaceX shares through other income (analysis).",
+            "evidence": [
+              "ev_120075",
+              "ev_120087",
+              "ev_10110"
+            ]
           },
           {
             "trigger": "SpaceX buys Nvidia GPUs with Valor and Apollo lease financing",
@@ -2372,7 +2418,12 @@
               "ent_spacex"
             ],
             "direction": "mixed",
-            "text": "SpaceX finances Nvidia GPUs through Valor leases and a planned Apollo finance lease, so Nvidia's stake sits next to sales that depend on SpaceX's leasing capacity."
+            "text": "SpaceX finances AI hardware through Valor equipment leases and a planned Apollo-managed finance lease and is a Vera Rubin customer, so Nvidia's SpaceX stake sits beside sales that depend on SpaceX's leasing capacity.",
+            "evidence": [
+              "ev_120087",
+              "ev_120094",
+              "ev_120013"
+            ]
           }
         ],
         "second_order": [
@@ -2402,8 +2453,12 @@
               "ent_spacex"
             ],
             "direction": "negative",
-            "text": "Valor and the Apollo-managed lessor own GPUs leased to SpaceX, so a faster Nvidia product cycle cuts the collateral behind SpaceX's AI leases.",
-            "lens": "collateral_loop"
+            "text": "Valor and the Apollo-managed lessor own the AI hardware leased to SpaceX, so a faster Nvidia product cycle would cut the collateral value behind SpaceX's leases (analysis).",
+            "lens": "collateral_loop",
+            "evidence": [
+              "ev_120087",
+              "ev_120094"
+            ]
           }
         ]
       },
@@ -2555,7 +2610,8 @@
         "ev_120095",
         "ev_120047",
         "ev_120048",
-        "ev_200004"
+        "ev_200004",
+        "ev_10110"
       ],
       "notes": "Seed A3 (Nvidia up to $2 billion in an SPV that buys GPUs leased to xAI) is not confirmed: SpaceX discloses the Valor equipment leases but no allowed source quotable here places Nvidia money in the lessor. Recorded as context in depth2_links only."
     }
