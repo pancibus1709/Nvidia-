@@ -119,7 +119,7 @@ Value in Nvidia's holdings report. A position whose cost is not disclosed adds n
 
 | Counterparty | Gross | Share of gross | Funded and still held | Relationships |
 |---|---|---|---|---|
-| OpenAI | $135 billion | 77.0% | $0 | 3 |
+| OpenAI | $135 billion | 77.0% | Not disclosed | 3 |
 | Anthropic | $10 billion | 5.7% | $10 billion | 2 |
 | Nscale | $5.24 billion | 3.0% | $2.18 billion | 4 |
 | Intel | $3.75 billion | 2.1% | $3.75 billion | 1 |

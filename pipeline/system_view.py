@@ -151,7 +151,7 @@ def main():
     md.append(table("By reconciliation result", sv["by_reconciliation"]))
     md += ["### Top five concentrations by gross exposure", "", "| Counterparty | Gross | Share of gross | Funded and still held | Relationships |", "|---|---|---|---|---|"]
     for x in sv["top_concentrations"]:
-        md.append(f"| {x['name']} | {fmt.money(x['gross'])} | {fmt.pct(x['share_of_gross'])} | {fmt.money(x['funded']) if x['funded_known'] else 'Not disclosed'} | {x['count']} |")
+        md.append(f"| {x['name']} | {fmt.money(x['gross'])} | {fmt.pct(x['share_of_gross'])} | {fmt.money(x['funded']) if (x['funded_known'] and not (x['funded'] == 0 and x['committed_split_unknown'])) else 'Not disclosed'} | {x['count']} |")
     md += ["", "## Scenarios at default parameters", "", "These illustrate how losses would travel, not forecasts.", ""]
     s1 = sv["scenarios"]["S1"]
     md += ["### S1 Demand pause", f"- Parameters: {s1['parameters']}",
