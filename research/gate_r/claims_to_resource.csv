@@ -1,0 +1,44 @@
+n,id,counterparty,cik,type,title,status,headline,committed_total,funded,contingent_max,announced,maturity,why_selected
+1,rel_openai_eqc_2025,OpenAI Group PBC,,EQ-C,OpenAI letter of intent: up to $100 billion as each gigawatt is deployed,loi_or_framework,100000000000,,,,2025-09-22,,1B+; unsettled status; equals a seed value
+2,rel_openai_eq_2026,OpenAI Group PBC,,EQ,OpenAI 2026 funding round: Nvidia named for $30B,definitive,30000000000,30000000000,,,2026-02-27,,1B+; equals a seed value
+3,rel_openai_gu_2026,OpenAI Group PBC,,GU,"Guaranties of OpenAI's PORTS-Pike leases from SB Energy, capped at $105 billion",definitive,105000000000,,,105000000000,2026-08-17,,1B+
+4,rel_anthropic_eqc_2025,"Anthropic, PBC",0002130357,EQ-C,"Anthropic: agreement to invest up to $10 billion (November 2025), partly funded in Series G",definitive,10000000000,,,,2025-11-18,,1B+; equals a seed value
+5,rel_anthropic_eq_2026,"Anthropic, PBC",0002130357,EQ,Anthropic IPO concurrent private placement: 120.5 million Class N shares for about $10.0 billion,completed,10000000000,10000000000,10000000000,,2026-11-19,,1B+; equals a seed value
+6,rel_thinking_machines_eq_2026,Thinking Machines Lab Inc.,,EQ,"Nvidia equity in Thinking Machines Lab, tied to a gigawatt Vera Rubin deployment",completed,,,,,2026-03-10,,random 20%
+7,rel_cohere_eq_2025,Cohere Inc.,,EQ,"Nvidia equity in Cohere (repeat participation, 2025 and Series E 2026)",completed,,,,,2025-08-14,,random 20%
+8,rel_motif_eqc_2026,Motif Technologies,,EQ-C,Planned Nvidia investment in Motif Technologies,loi_or_framework,,,,,2026-11-09,,unsettled status
+9,rel_rlwrld_eqc_2026,RLWRLD,,EQ-C,Planned Nvidia investment in RLWRLD,loi_or_framework,,,,,2026-11-09,,unsettled status
+10,rel_upstage_eqc_2026,Upstage,,EQ-C,Planned Nvidia investment in Upstage,loi_or_framework,,,,,2026-11-09,,unsettled status
+11,rel_naver_eq_2026,NAVER Corporation,,EQ,Nvidia $1 billion equity investment in NAVER (private placement),definitive,1000000000,1000000000,,,2026-07-24,,1B+; equals a seed value
+12,rel_uk_ai_startup_program_eqc_2025,Nvidia UK AI startup ecosystem commitment,,EQ-C,Nvidia GBP 2 billion UK AI startup commitment,loi_or_framework,,,,,2025-09-18,,unsettled status
+13,rel_figure_eq_2025,Figure AI Inc.,,EQ,Nvidia equity in Figure AI (Series C),completed,,,,,2025-09-16,,random 20%
+14,rel_wayve_eqc_2025,Wayve Technologies Ltd,,EQ-C,Nvidia letter of intent to evaluate a $500 million investment in Wayve,loi_or_framework,500000000,,,,2025-09-18,,unsettled status
+15,rel_skild_ai_eq_2026,"Skild AI, Inc.",,EQ,NVentures equity in Skild AI (Series C),completed,,,,,2026-01-14,,random 20%
+16,rel_anysphere_eq_2025,"Anysphere, Inc. (Cursor)",,EQ,"Nvidia equity in Anysphere (Cursor), converted on SpaceX acquisition",restructured,,,,,2025-11-13,,unsettled status
+17,rel_databricks_eq_2023,"Databricks, Inc.",,EQ,Nvidia equity in Databricks (Series I),completed,,,,,2023-09-14,,random 20%
+18,rel_tusimple_eq_2023,"TuSimple Holdings, Inc.",,EQ,Nvidia shareholding in TuSimple (13F),terminated,,,,,,,random 20%
+19,rel_generate_biomedicines_eq_2026,"Generate Biomedicines, Inc.",0002100782,EQ,Nvidia shareholding in Generate Biomedicines (13F),completed,,,,,,,random 20%
+20,rel_coreweave_eq_2025,"CoreWeave, Inc.",0001769628,EQ,Nvidia common stake in CoreWeave,completed,2000000000,2000000000,2000000000,,2026-01-26,,1B+; equals a seed value
+21,rel_coreweave_bk_2025,"CoreWeave, Inc.",0001769628,BK,Nvidia order for CoreWeave's residual unsold capacity,definitive,6300000000,,,6300000000,2025-09-15,2032-04-13,1B+; equals a seed value
+22,rel_coreweave_gu_2026,"CoreWeave, Inc.",0001769628,GU,"Nvidia and CoreWeave collaboration framework for land, power and shell",loi_or_framework,,,,,2026-01-26,,unsettled status
+23,rel_nscale_lb_2025,Nscale plc,0002110365,LB,Nvidia rents reserved GPU cluster capacity from Nscale (NVIDIA MSA),definitive,1200000000,1200000000,,,,,1B+
+24,rel_nscale_eq_2025,Nscale plc,0002110365,EQ,"Nvidia preferred shares in Nscale (Series B, SAFE converted to Series C-3, Series C-4)",completed,1177399346.78,1177399346.78,1177399346.78,,,,1B+
+25,rel_nscale_fc_2026,Nscale plc,0002110365,FC,Nvidia convertible loan notes in Nscale (2028 Convertible Loan Notes and the NVIDIA Sale),definitive,2000000000,2000000000,1000000000,,,2028-06-15,1B+; equals a seed value
+26,rel_nebius_eq_2024,Nebius Group N.V.,0001513845,EQ,Nvidia common shares in Nebius (held since the fourth quarter of 2024),completed,,,,,,,random 20%
+27,rel_nebius_eq_2026,Nebius Group N.V.,0001513845,EQ,Nvidia pre-funded warrant over 21.1 million Nebius shares,completed,2000000000,2000000000,2000000000,,2026-03-11,,1B+; equals a seed value
+28,rel_iren_lb_2026,IREN Limited,0001878848,LB,Nvidia five-year cloud services contract with IREN,definitive,3400000000,3400000000,,,,,1B+
+29,rel_iren_eq_2026,IREN Limited,0001878848,EQ,Nvidia right to buy up to 30 million IREN shares at $70 (Investment Rights),definitive,2100000000,,,,2026-05-07,2031-05-07,1B+
+30,rel_sharonai_bk_2026,SharonAI Holdings Inc.,0002068385,BK,Nvidia Master Cloud Services Agreement with SharonAI: reserved capacity with minimum revenue and revenue share,definitive,4880000000,,,,2026-06-12,,1B+
+31,rel_intel_eq_2025,Intel Corporation,0000050863,EQ,Nvidia common stake in Intel,completed,5000000000,5000000000,5000000000,,2025-09-18,,1B+; equals a seed value
+32,rel_nokia_eq_2025,Nokia Corporation,0000924613,EQ,Nvidia stake in Nokia,completed,1000000000,1000000000,1000000000,,2025-10-28,,1B+; equals a seed value
+33,rel_synopsys_eq_2025,"Synopsys, Inc.",0000883241,EQ,Nvidia common stake in Synopsys,completed,2000000000,2000000000,2000000000,,2025-12-01,,1B+; equals a seed value
+34,rel_marvell_eq_2026,"Marvell Technology, Inc.",0001835632,EQ,Nvidia convertible preferred stake in Marvell,completed,2000000000,2000000000,2000000000,,2026-03-31,,1B+; equals a seed value
+35,rel_lumentum_eq_2026,Lumentum Holdings Inc.,0001633978,EQ,Nvidia convertible preferred stake in Lumentum,completed,2000000000,2000000000,2000000000,,2026-03-02,,1B+; equals a seed value
+36,rel_coherent_eq_2026,Coherent Corp.,0000820318,EQ,Nvidia common stake in Coherent,completed,2000000000,2000000000,2000000000,,2026-03-02,,1B+; equals a seed value
+37,rel_arm_eq_2023,Arm Holdings plc,0001973239,EQ,Nvidia's former stake in Arm,terminated,,,,,,,random 20%
+38,rel_corning_pp_2026,Corning Incorporated,0000024741,PP,Customer deposit with Corning linked to the Nvidia warrants,definitive,1000000000,1000000000,,,,2029-12-31,1B+; equals a seed value
+39,rel_amkor_pp_2026,"Amkor Technology, Inc.",0001047127,PP,Nvidia advance payments to Amkor,definitive,3000000000,2800000000,,,2026-07,,1B+
+40,rel_kyec_pp_2026,"King Yuan Electronics Co., Ltd.",,PP,Nvidia capacity reservation advance to KYEC,definitive,1100000000,1100000000,,,2026-10-21,,1B+
+41,rel_sb_energy_eq_2026,"SB Energy, Inc.",0002133037,EQ,Nvidia equity in SB Energy (prepaid forward and IPO private placement),definitive,3000000000,3000000000,1500000000,,2026-08-17,,1B+; equals a seed value
+42,rel_ai_financing_platforms_rv_2026,"AI compute infrastructure financing platforms (Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR)",,RV,Residual value support for AI compute financing platforms (MOUs with six capital providers),loi_or_framework,,,,,2026-08-10,,unsettled status
+43,rel_meta_eq_2026,"Meta Platforms, Inc.",0001326801,EQ,Nvidia indication to buy $3 billion of Meta Class A stock in Meta's October 2026 offering,loi_or_framework,3000000000,,,,2026-10-26,,1B+; unsettled status

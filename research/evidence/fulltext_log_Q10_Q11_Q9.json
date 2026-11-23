@@ -1,0 +1,378 @@
+{
+ "stats": {
+  "\"NVIDIA\" \"principal stockholder\"": {
+   "qid": "Q9",
+   "hits": 52,
+   "kept_within_50_words": 0,
+   "dropped_outside_window": 52,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"beneficial owner\"": {
+   "qid": "Q9",
+   "hits": 1300,
+   "kept_within_50_words": 92,
+   "dropped_outside_window": 1157,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"collateral\"": {
+   "qid": "Q10",
+   "hits": 1400,
+   "kept_within_50_words": 14,
+   "dropped_outside_window": 1380,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"security interest\"": {
+   "qid": "Q10",
+   "hits": 600,
+   "kept_within_50_words": 20,
+   "dropped_outside_window": 576,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"GPU-backed\"": {
+   "qid": "Q10",
+   "hits": 5,
+   "kept_within_50_words": 3,
+   "dropped_outside_window": 2,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"concentration\" \"supplier\"": {
+   "qid": "Q11",
+   "hits": 1945,
+   "kept_within_50_words": 173,
+   "dropped_outside_window": 1659,
+   "fetch_errors": 0
+  }
+ },
+ "log": [
+  {
+   "query": "\"NVIDIA\" \"principal stockholder\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 52,
+   "fetched": 52,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"beneficial owner\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 1131,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"beneficial owner\"",
+   "window": [
+    "2023-01-01",
+    "2024-12-12"
+   ],
+   "total": 439,
+   "fetched": 500,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"beneficial owner\"",
+   "window": [
+    "2024-12-13",
+    "2026-11-23"
+   ],
+   "total": 692,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"beneficial owner\"",
+   "window": [
+    "2024-12-13",
+    "2025-12-03"
+   ],
+   "total": 314,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"beneficial owner\"",
+   "window": [
+    "2025-12-04",
+    "2026-11-23"
+   ],
+   "total": 378,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"collateral\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 1238,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"collateral\"",
+   "window": [
+    "2023-01-01",
+    "2024-12-12"
+   ],
+   "total": 439,
+   "fetched": 500,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"collateral\"",
+   "window": [
+    "2024-12-13",
+    "2026-11-23"
+   ],
+   "total": 799,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"collateral\"",
+   "window": [
+    "2024-12-13",
+    "2025-12-03"
+   ],
+   "total": 323,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"collateral\"",
+   "window": [
+    "2025-12-04",
+    "2026-11-23"
+   ],
+   "total": 476,
+   "fetched": 500,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"security interest\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 533,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"security interest\"",
+   "window": [
+    "2023-01-01",
+    "2024-12-12"
+   ],
+   "total": 177,
+   "fetched": 200,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"security interest\"",
+   "window": [
+    "2024-12-13",
+    "2026-11-23"
+   ],
+   "total": 356,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"GPU-backed\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 5,
+   "fetched": 5,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 855,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-01-01",
+    "2024-12-12"
+   ],
+   "total": 855,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-01-01",
+    "2023-12-22"
+   ],
+   "total": 855,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-01-01",
+    "2023-06-27"
+   ],
+   "total": 855,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-01-01",
+    "2023-03-30"
+   ],
+   "total": 855,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-01-01",
+    "2023-02-14"
+   ],
+   "total": 855,
+   "fetched": 500,
+   "action": "overflow at minimum window: capped"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-02-15",
+    "2023-03-30"
+   ],
+   "total": 32,
+   "fetched": 32,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-03-31",
+    "2023-06-27"
+   ],
+   "total": 43,
+   "fetched": 43,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-06-28",
+    "2023-12-22"
+   ],
+   "total": 43,
+   "fetched": 43,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2023-12-23",
+    "2024-12-12"
+   ],
+   "total": 169,
+   "fetched": 200,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2024-12-13",
+    "2026-11-23"
+   ],
+   "total": 555,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2024-12-13",
+    "2025-12-03"
+   ],
+   "total": 555,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2024-12-13",
+    "2025-06-08"
+   ],
+   "total": 555,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2024-12-13",
+    "2025-03-11"
+   ],
+   "total": 555,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2024-12-13",
+    "2025-01-26"
+   ],
+   "total": 555,
+   "fetched": 500,
+   "action": "overflow at minimum window: capped"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2025-01-27",
+    "2025-03-11"
+   ],
+   "total": 54,
+   "fetched": 54,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2025-03-12",
+    "2025-06-08"
+   ],
+   "total": 89,
+   "fetched": 89,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2025-06-09",
+    "2025-12-03"
+   ],
+   "total": 84,
+   "fetched": 84,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"concentration\" \"supplier\"",
+   "window": [
+    "2025-12-04",
+    "2026-11-23"
+   ],
+   "total": 315,
+   "fetched": 400,
+   "action": "ok"
+  }
+ ],
+ "window": [
+  "2023-01-01",
+  "2026-11-23"
+ ]
+}
