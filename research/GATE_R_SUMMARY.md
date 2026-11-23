@@ -15,7 +15,7 @@ Everything below uses confirmed figures only: a number counts only if a company 
 | Timeline events | 135 |
 | Circular flows mapped | 11 |
 | Seed hypotheses | 34: 13 confirmed, 18 modified, 3 killed |
-| Claims with no usable source, kept out | 49 (logged in `research/unconfirmed.md`) |
+| Claims with no usable source, kept out | 47 (logged in `research/unconfirmed.md`) |
 
 ## The numbers
 
