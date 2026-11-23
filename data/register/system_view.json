@@ -40,58 +40,65 @@
     {
       "line": "Private stakes, carrying value",
       "nvidia": 61650000000.0,
-      "named": null,
-      "key": "non_marketable_equity_carrying_value",
-      "note": "The register sizes private stakes at cost only where a source states the cost; see the unattributed remainder."
+      "named": 2677399346.7799997,
+      "aggregate": "non_marketable_equity_securities",
+      "note": "Named column is the cost of the few private stakes whose cost a source states."
     },
     {
       "line": "Public equity, fair value",
       "nvidia": 48888000000.0,
-      "named": 48330717074.0,
-      "key": "marketable_equity_fair_value",
-      "note": "Named column is the value in Nvidia's holdings report of 30 September 2026."
+      "named": 48330717074,
+      "aggregate": "publicly_held_equity_securities",
+      "note": "Named column is the value in Nvidia's holdings report of 30 September 2026; the dates differ."
     },
     {
       "line": "Guarantees, maximum",
       "nvidia": 118000000000.0,
       "named": 105860340000.0,
-      "key": "total_guarantees_max",
+      "aggregate": "guarantees_maximum_gross_exposure",
       "note": ""
     },
     {
       "line": "Neocloud agreements, maximum",
       "nvidia": 32000000000.0,
       "named": 0,
-      "key": "neocloud_agreements_max",
-      "note": "No counterparty states its share of this maximum."
+      "aggregate": "neocloud_agreements",
+      "note": "Partners are known (SharonAI, Firmus and others) but no partner's share is disclosed."
     },
     {
       "line": "Cloud service agreements",
       "nvidia": 28000000000.0,
-      "named": 4600000000.0,
-      "key": "cloud_service_agreements",
-      "note": "Named column is contract value at signing, not the balance still owed."
+      "named": 0,
+      "aggregate": "cloud_service_agreements",
+      "note": "IREN and Nscale state contract values at signing of $4.6 billion; the balance still owed is not disclosed."
     },
     {
       "line": "Unfunded equity commitments",
       "nvidia": 20000000000.0,
-      "named": 1000000000.0,
-      "key": "unfunded_equity_commitments",
-      "note": "Named column counts only amounts confirmed not yet paid."
-    },
-    {
-      "line": "Equity purchases, nine months",
-      "nvidia": 58100000000.0,
-      "named": null,
-      "key": "equity_purchases_9m",
-      "note": "Cash Nvidia paid for equity securities in the period."
+      "named": 3500000000.0,
+      "aggregate": "equity_investment_commitments",
+      "note": "Named column counts amounts a source shows as signed and unpaid at that date."
     },
     {
       "line": "Data center leases signed, not commenced",
       "nvidia": 74000000000.0,
-      "named": null,
-      "key": "data_center_leases_not_commenced",
+      "named": 0,
+      "aggregate": "data_center_leases_not_commenced",
       "note": "Nvidia says it may assign some of these leases to third parties."
+    },
+    {
+      "line": "Supply and capacity commitments",
+      "nvidia": 390000000000.0,
+      "named": 0,
+      "aggregate": "supply_and_capacity_commitments",
+      "note": "Upstream commitments to suppliers; none is attributed."
+    },
+    {
+      "line": "Equity purchases, nine months to 25 October 2026",
+      "nvidia": 58100000000.0,
+      "named": 11202399346.78,
+      "aggregate": null,
+      "note": "Named column is the dated, costed equity purchases in this register inside the period; the rest of Nvidia's purchases are not attributed."
     }
   ],
   "positions_by_value": [
@@ -152,9 +159,39 @@
       "cost_known": false
     }
   ],
+  "positions_not_yet_valued": [
+    {
+      "relationship": "rel_anthropic_eq_2026",
+      "name": "Anthropic",
+      "value": null,
+      "as_of": null,
+      "cost_known": true
+    },
+    {
+      "relationship": "rel_nebius_eq_2026",
+      "name": "Nebius",
+      "value": null,
+      "as_of": null,
+      "cost_known": true
+    },
+    {
+      "relationship": "rel_marvell_eq_2026",
+      "name": "Marvell",
+      "value": null,
+      "as_of": null,
+      "cost_known": true
+    },
+    {
+      "relationship": "rel_lumentum_eq_2026",
+      "name": "Lumentum",
+      "value": null,
+      "as_of": null,
+      "cost_known": true
+    }
+  ],
   "source_mix": {
     "evidence_by_tier": {
-      "1": 1052,
+      "1": 1075,
       "2": 6
     },
     "one_sided_relationships": 53,
@@ -409,16 +446,28 @@
   },
   "by_grade": {
     "Insufficient information": {
-      "count": 58,
-      "funded": 10025000000.0,
+      "count": 56,
+      "funded": 25000000.0,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 32100000000.0,
       "contingent_max": 105000000000.0,
       "contingent_not_in_force": 105000000000.0,
-      "gross": 147125000000.0,
-      "headline": 262555000000.0,
-      "lower_bound": 43,
-      "funded_known": 13
+      "gross": 137125000000.0,
+      "headline": 242555000000.0,
+      "lower_bound": 42,
+      "funded_known": 12
+    },
+    "Adequate": {
+      "count": 12,
+      "funded": 20687887429.644566,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 20687887429.644566,
+      "headline": 38500000000.0,
+      "lower_bound": 4,
+      "funded_known": 8
     },
     "Watch": {
       "count": 8,
@@ -431,18 +480,6 @@
       "headline": 15737739346.779999,
       "lower_bound": 2,
       "funded_known": 4
-    },
-    "Adequate": {
-      "count": 9,
-      "funded": 10687887429.644566,
-      "committed_unfunded": 0.0,
-      "committed_split_unknown": 0.0,
-      "contingent_max": 0.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 10687887429.644566,
-      "headline": 18500000000.0,
-      "lower_bound": 2,
-      "funded_known": 7
     },
     "Weak": {
       "count": 3,
@@ -457,7 +494,7 @@
       "funded_known": 1
     },
     "Strong": {
-      "count": 2,
+      "count": 1,
       "funded": 1806027603.859787,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
@@ -465,12 +502,12 @@
       "contingent_not_in_force": 0.0,
       "gross": 1806027603.859787,
       "headline": 2000000000.0,
-      "lower_bound": 1,
+      "lower_bound": 0,
       "funded_known": 1
     }
   },
   "by_tenor": {
-    "No stated maturity": {
+    "Equity or no stated maturity": {
       "count": 76,
       "funded": 28696314380.28435,
       "committed_unfunded": 0.0,
@@ -925,6 +962,7 @@
         "lapsed_commitments": [
           {
             "relationship": "rel_anthropic_eqc_2025",
+            "title": "Anthropic: agreement to invest up to $10 billion (November 2025), partly funded in Series G",
             "headline": 10000000000.0,
             "status": "definitive"
           }
@@ -935,6 +973,8 @@
             "counterparty": "ent_google",
             "description": "Google CSP hosting agreement, minimum spend April 2026 to July 2033 regardless of usage, with a true-up.",
             "amount": 121300000000.0,
+            "soft": false,
+            "lease": false,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120045"
@@ -944,6 +984,8 @@
             "counterparty": "ent_amazon",
             "description": "Amazon agreement, minimum spend May 2026 to April 2036 regardless of usage.",
             "amount": 110000000000.0,
+            "soft": false,
+            "lease": false,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120046"
@@ -953,6 +995,8 @@
             "counterparty": "ent_microsoft",
             "description": "Microsoft agreement of November 2025 as amended to November 2026: at least $47.2 billion and up to $49.2 billion, November 2026 to June 2033 (minimum shown). Grew from the $30 billion Azure commitment announced in November 2025 (ev_120065).",
             "amount": 47200000000.0,
+            "soft": true,
+            "lease": false,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120044"
@@ -962,6 +1006,8 @@
             "counterparty": "ent_spacex",
             "description": "SpaceXAI arrangements for NVIDIA GPU compute, up to this amount into 2029, about $3.1 billion a month at full delivery; cancellable on 90 days notice after initial periods ending January and March 2027 (ev_120048).",
             "amount": 120500000000.0,
+            "soft": true,
+            "lease": false,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120047"
@@ -971,6 +1017,8 @@
             "counterparty": "ent_nscale",
             "description": "Nscale GPU services agreements for NVIDIA GPU compute into 2033; fees accrue only on delivery; Nscale must obtain financing (ev_40030).",
             "amount": 44600000000.0,
+            "soft": false,
+            "lease": false,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120049",
@@ -981,6 +1029,8 @@
             "counterparty": "ent_lambda",
             "description": "Lambda agreements for NVIDIA GPU compute into 2034; the August 2026 agreement (about $34.9 billion of the total) is currently terminable because Lambda did not secure the facility lease.",
             "amount": 41300000000.0,
+            "soft": true,
+            "lease": true,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120050"
@@ -990,6 +1040,8 @@
             "counterparty": "ent_broadcom",
             "description": "Five-year Broadcom master equipment leases (finance leases), rent excluding interest.",
             "amount": 161200000000.0,
+            "soft": false,
+            "lease": true,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120051"
@@ -1048,6 +1100,7 @@
         "not_computable": [
           {
             "relationship": "rel_anysphere_eq_2025",
+            "title": "Nvidia equity in Anysphere (Cursor), converted on SpaceX acquisition",
             "reason": "No confirmed value for this stake."
           }
         ],
@@ -1091,6 +1144,7 @@
         "not_computable": [
           {
             "relationship": "rel_black_forest_labs_eq_2025",
+            "title": "Nvidia equity in Black Forest Labs",
             "reason": "No confirmed value for this stake."
           }
         ],
@@ -1134,6 +1188,7 @@
         "not_computable": [
           {
             "relationship": "rel_cohere_eq_2025",
+            "title": "Nvidia equity in Cohere (repeat participation, 2025 and Series E 2026)",
             "reason": "No confirmed value for this stake."
           }
         ],
@@ -1177,6 +1232,7 @@
         "not_computable": [
           {
             "relationship": "rel_mistral_eq_2025",
+            "title": "Nvidia equity in Mistral AI (Series C participation)",
             "reason": "No confirmed value for this stake."
           }
         ],
@@ -1213,6 +1269,7 @@
         "lapsed_commitments": [
           {
             "relationship": "rel_motif_eqc_2026",
+            "title": "Planned Nvidia investment in Motif Technologies",
             "headline": null,
             "status": "loi_or_framework"
           }
@@ -1257,6 +1314,7 @@
         "lapsed_commitments": [
           {
             "relationship": "rel_openai_eqc_2025",
+            "title": "OpenAI letter of intent: up to $100 billion as each gigawatt is deployed",
             "headline": 100000000000.0,
             "status": "loi_or_framework"
           }
@@ -1274,6 +1332,8 @@
             "counterparty": "ent_microsoft",
             "description": "Incremental Azure services contracted under the October 2025 restructured Microsoft agreement (Microsoft 10-Q; same figure in OpenAI release ev_120102).",
             "amount": 250000000000.0,
+            "soft": false,
+            "lease": true,
             "as_of": "2025-10-28",
             "evidence": [
               "ev_120111"
@@ -1283,6 +1343,8 @@
             "counterparty": "ent_amazon",
             "description": "AWS compute agreement announced 2025-11-03, with continued growth over seven years.",
             "amount": 38000000000.0,
+            "soft": false,
+            "lease": false,
             "as_of": "2025-11-03",
             "evidence": [
               "ev_120028"
@@ -1292,6 +1354,8 @@
             "counterparty": "ent_coreweave",
             "description": "CoreWeave master services agreement of March 2025, up to about this amount through October 2030 (CoreWeave 10-K).",
             "amount": 11900000000.0,
+            "soft": true,
+            "lease": false,
             "as_of": "2026-03-02",
             "evidence": [
               "ev_20199"
@@ -1301,6 +1365,8 @@
             "counterparty": "ent_coreweave",
             "description": "CoreWeave order form of September 2025, up to about this amount through 31 May 2031 (CoreWeave 10-Q for Q3 2026).",
             "amount": 6500000000.0,
+            "soft": true,
+            "lease": false,
             "as_of": "2026-11-12",
             "evidence": [
               "ev_20102"
@@ -1320,7 +1386,8 @@
         "not_computable": [
           {
             "relationship": "rel_openai_eq_2026",
-            "reason": "Equity loss not computable: 30,000,000,000 committed, paid amount not disclosed."
+            "title": "OpenAI 2026 funding round: Nvidia named for $30B",
+            "reason": "Equity loss not computable: $30 billion committed, paid amount not disclosed."
           },
           {
             "entity": "ent_sb_energy",
@@ -1375,6 +1442,7 @@
         "not_computable": [
           {
             "relationship": "rel_reflection_eq_2025",
+            "title": "Nvidia equity in Reflection AI",
             "reason": "No confirmed value for this stake."
           }
         ],
@@ -1418,6 +1486,7 @@
         "not_computable": [
           {
             "relationship": "rel_sakana_eq_2024",
+            "title": "Nvidia equity in Sakana AI (Series A participation)",
             "reason": "No confirmed value for this stake."
           }
         ],
@@ -1465,6 +1534,8 @@
             "counterparty": "ent_valor",
             "description": "Three equipment leases of computing equipment from Valor, guaranteed by SpaceX; aggregate cash payments over the lease lives (424B4). Recorded as failed sale-leaseback debt.",
             "amount": 20206000000.0,
+            "soft": false,
+            "lease": true,
             "as_of": "2026-06-12",
             "evidence": [
               "ev_120075",
@@ -1476,6 +1547,8 @@
             "counterparty": "ent_apollo",
             "description": "Binding commitment letter of 2026-10-24 for a master finance lease of GPU pods from an Apollo-managed lessor; aggregate principal payments; subject to closing conditions; schedules commence in the first half of 2027.",
             "amount": 40000000000.0,
+            "soft": false,
+            "lease": true,
             "as_of": "2026-10-26",
             "evidence": [
               "ev_120094"
@@ -1530,6 +1603,7 @@
         "not_computable": [
           {
             "relationship": "rel_ssi_eq_2026",
+            "title": "Nvidia equity investment in Safe Superintelligence",
             "reason": "No confirmed value for this stake."
           },
           {
@@ -1578,6 +1652,7 @@
         "not_computable": [
           {
             "relationship": "rel_thinking_machines_eq_2026",
+            "title": "Nvidia equity in Thinking Machines Lab, tied to a gigawatt Vera Rubin deployment",
             "reason": "No confirmed value for this stake."
           },
           {
@@ -1618,6 +1693,7 @@
         "lapsed_commitments": [
           {
             "relationship": "rel_upstage_eqc_2026",
+            "title": "Planned Nvidia investment in Upstage",
             "headline": null,
             "status": "loi_or_framework"
           }

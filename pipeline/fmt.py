@@ -65,7 +65,7 @@ def amount_text(a: dict | None) -> str:
         return "Not disclosed"
     if not a.get("display_eligible"):
         return "Not confirmed"
-    return money(a["value"])
+    return (a["qualifier"] + " " if a.get("qualifier") else "") + money(a["value"])
 
 
 def render_insight(template: str, rel: dict, entities: dict) -> tuple[str, list[str]]:

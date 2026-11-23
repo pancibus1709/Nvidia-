@@ -161,6 +161,14 @@
         },
         "effective_note": {
           "type": "string"
+        },
+        "qualifier": {
+          "enum": [
+            "nearly",
+            "about",
+            "more than",
+            "up to"
+          ]
         }
       }
     }

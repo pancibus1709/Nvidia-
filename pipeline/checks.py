@@ -682,6 +682,13 @@ def check_text_citations(reg):
         for i in sorted(set(re.findall(r"ev_\d+", f.read_text(encoding="utf-8")))):
             if i not in reg.ev:
                 out.append(f"citations: {name}: {i} is cited in text but is not in the evidence store")
+    if reg.dir == REGISTER:
+        for rep in ("R7_aggregates.md", "R9.md", "R8.md", "R2.md", "R4.md"):
+            f = ROOT / "research" / "reports" / rep
+            if f.exists():
+                for i in sorted(set(re.findall(r"ev_\d+", f.read_text(encoding="utf-8")))):
+                    if i not in reg.ev:
+                        out.append(f"citations: reports/{rep}: {i} is cited but is not in the evidence store")
     return out
 
 

@@ -9,7 +9,9 @@ import json
 import sys
 
 from .checks import Register, _ev_ids
-from .common import REGISTER, save_json
+from .common import REGISTER, ROOT, save_json
+
+REPORTS = ("R7_aggregates.md", "R9.md", "R8.md", "R2.md", "R4.md")
 from .evidence import EV_DIR
 
 
@@ -30,6 +32,10 @@ def main():
         f = REGISTER / extra
         if f.exists():
             used |= set(re.findall(r"ev_\d+", f.read_text()))
+    for rep in REPORTS:
+        f = ROOT / "research" / "reports" / rep
+        if f.exists():
+            used |= set(re.findall(r"ev_\d+", f.read_text())) & set(pool)
     keep = pool.values() if "--all" in sys.argv else [e for i, e in pool.items() if i in used]
     out = sorted(keep, key=lambda e: int(e["id"].split("_")[1]))
     save_json(REGISTER / "evidence.json", out)

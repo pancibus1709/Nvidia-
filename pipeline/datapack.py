@@ -43,9 +43,13 @@ def header(ws, row, labels, widths=None):
 def put_amount(ws, row, col, a, reg):
     """Writes value | as of | source into three columns. Returns nothing."""
     cell = ws.cell(row=row, column=col)
+    qual = ""
     text = fmt.amount_text(a)
     if a and a.get("value") is not None and a.get("display_eligible") and not a.get("not_applicable"):
         cell.value, cell.number_format, cell.font = a["value"] / 1e6, MONEY, BLUE
+        if a.get("qualifier"):
+            qual = f'Source states this figure as "{a["qualifier"]}".\n'
+
     else:
         cell.value, cell.font = text, BLACK
     cell.alignment = Alignment(horizontal="right")
@@ -59,7 +63,7 @@ def put_amount(ws, row, col, a, reg):
         ev = reg.ev[ids[0]]
         src.hyperlink = ev.get("source_link") or ev["url"]
         note = "\n".join(f"{i}: \"{reg.ev[i]['quote']}\" ({reg.ev[i]['publisher']}, {reg.ev[i]['published']})" for i in dict.fromkeys(ids) if i in reg.ev)
-        cell.comment = Comment(note[:1500], "Register")
+        cell.comment = Comment((qual + note)[:1500], "Register")
 
 
 def type_tab(wb, code, rels, reg):
@@ -73,8 +77,8 @@ def type_tab(wb, code, rels, reg):
         labels += [lab, "As of", "Source"]
         widths += [16, 11, 18]
     labels += ["Share of purchase still held", "Funded and still held (cost)", "Committed, confirmed not yet paid", "Committed, paid portion not disclosed", "Gross exposure",
-               "Lower bound?", "Contingent in force?", "Reconciliation", "Wrong-way risk", "Last verified"]
-    widths += [14, 16, 16, 16, 16, 12, 12, 14, 14, 12]
+               "Lower bound?", "Contingent in force?", "Reconciliation", "Wrong-way risk", "Last verified", "Contingent not yet in force"]
+    widths += [14, 16, 16, 16, 16, 12, 12, 14, 14, 12, 16]
     header(ws, 4, labels, widths)
     first = 5
     col = {k: 8 + 3 * i for i, (k, _) in enumerate(AMOUNTS)}   # value columns
@@ -93,15 +97,16 @@ def type_tab(wb, code, rels, reg):
         share = 0.0 if r["status"] == "terminated" else (min(1.0, h["shares"] / h["shares_acquired"]) if h.get("shares") is not None and h.get("shares_acquired") else 1.0)
         sc = ws.cell(row=row, column=c_share, value=share)
         sc.number_format, sc.font = "0.0%", BLUE
-        closed = "TRUE" if (r["status"] in ("completed", "terminated") or r["amounts"]["committed_total"].get("not_applicable")) else "FALSE"
         ws.cell(row=row, column=c_held, value=f'=IF(ISNUMBER({f}{row}),{f}{row}*{L(c_share)}{row},0)')
         ws.cell(row=row, column=c_unf, value=f'=IF(AND(ISNUMBER({c}{row}),ISNUMBER({f}{row})),MAX(0,{c}{row}-{f}{row}),0)')
         ws.cell(row=row, column=c_split, value=f'=IF(AND(ISNUMBER({c}{row}),NOT(ISNUMBER({f}{row}))),{c}{row},0)')
         ws.cell(row=row, column=c_gross, value=f'={L(c_held)}{row}+{L(c_unf)}{row}+{L(c_split)}{row}+IF(ISNUMBER({g}{row}),{g}{row},0)')
-        for cc in (c_held, c_unf, c_split, c_gross):
-            ws.cell(row=row, column=cc).number_format, ws.cell(row=row, column=cc).font = MONEY, BLACK
         d = r.get("derived") or {}
         cm = r["amounts"]["contingent_max"]
+        c_nif = c_gross + 6
+        ws.cell(row=row, column=c_nif, value=f'=IF(AND(ISNUMBER({g}{row}),LEFT({L(c_gross + 2)}{row},2)="No"),{g}{row},0)')
+        for cc in (c_held, c_unf, c_split, c_gross, c_nif):
+            ws.cell(row=row, column=cc).number_format, ws.cell(row=row, column=cc).font = MONEY, BLACK
         tail = ["Yes" if d.get("gross_lower_bound") else "No", ("" if not cm.get("value") else "Yes" if cm.get("in_force", True) else "No: " + cm.get("effective_note", "")),
                 r["reconciliation"]["result"], r["credit"]["wwr"],
                 max([a.get("last_verified") or "" for a in r["amounts"].values() if isinstance(a, dict)] or [""])]
@@ -111,11 +116,11 @@ def type_tab(wb, code, rels, reg):
     last = row - 1
     total = row + 1
     ws.cell(row=total, column=1, value="Total (confirmed amounts only)").font = BOLD
-    for cc in [col[k] for k, _ in AMOUNTS] + [c_held, c_unf, c_split, c_gross]:
+    for cc in [col[k] for k, _ in AMOUNTS] + [c_held, c_unf, c_split, c_gross, c_gross + 6]:
         c = ws.cell(row=total, column=cc, value=f"=SUM({L(cc)}{first}:{L(cc)}{last})" if last >= first else 0)
         c.number_format, c.font, c.border = MONEY, BOLD, Border(top=THIN, bottom=DOUBLE)
     ws.freeze_panes = "C5"
-    return {"sheet": code, "total_row": total, "cols": {**{k: L(v) for k, v in col.items()}, "funded_held": L(c_held), "committed_unfunded": L(c_unf), "committed_split_unknown": L(c_split), "gross": L(c_gross)}, "count": len(rels)}
+    return {"sheet": code, "total_row": total, "cols": {**{k: L(v) for k, v in col.items()}, "funded_held": L(c_held), "committed_unfunded": L(c_unf), "committed_split_unknown": L(c_split), "gross": L(c_gross), "not_in_force": L(c_gross + 6)}, "count": len(rels)}
 
 
 def build():
@@ -202,8 +207,8 @@ def build():
     summ["A2"].value = f"Prepared {date.today().isoformat()} by Resolute Business Development. USD millions. Confirmed amounts only: a figure counts only if a primary source or two independent named publications contain it. Not investment advice."
     cols = [("funded_held", "Funded and still held (cost)", "funded"), ("committed_unfunded", "Committed, confirmed not yet paid", "committed_unfunded"),
             ("committed_split_unknown", "Committed, paid portion not disclosed", "committed_split_unknown"), ("contingent_max", "Contingent maximum", "contingent_max"),
-            ("gross", "Gross exposure", "gross"), ("headline", "Headline announced (never added)", "headline")]
-    header(summ, 4, ["Exposure type", "Relationships"] + [c[1] for c in cols], [38, 14, 18, 18, 18, 18, 16, 20])
+            ("not_in_force", "of which not yet in force", "contingent_not_in_force"), ("gross", "Gross exposure", "gross"), ("headline", "Headline announced (never added)", "headline")]
+    header(summ, 4, ["Exposure type", "Relationships"] + [c[1] for c in cols], [38, 14, 18, 18, 18, 18, 18, 16, 20])
     row = 5
     for ref in refs:
         summ.cell(row=row, column=1, value=f"{ref['sheet']}  {TYPE_NAMES[ref['sheet']]}").font = BLACK
@@ -232,6 +237,18 @@ def build():
         c.font = BLACK
         if j > 2:
             c.number_format = '$#,##0.000;$(#,##0.000);"0"'
+    sv = load_json(REGISTER / "system_view.json", {})
+    brow = tot + 13
+    summ.cell(row=brow - 1, column=1, value="Bridge to Nvidia's own disclosures at 25 October 2026 (USD millions; analysis)").font = BOLD
+    for j, lab in enumerate(["Line", "Nvidia reports", "Named and sized in this register", "Note"], 1):
+        c = summ.cell(row=brow, column=j, value=lab)
+        c.font, c.fill = BOLD, HEAD_FILL
+    for i, b in enumerate(sv.get("bridge", []), brow + 1):
+        summ.cell(row=i, column=1, value=b["line"]).font = BLACK
+        for j, k in ((2, "nvidia"), (3, "named")):
+            c = summ.cell(row=i, column=j, value=(b[k] / 1e6 if b[k] is not None else "Not disclosed"))
+            c.font, c.number_format = BLUE, MONEY
+        summ.cell(row=i, column=4, value=b["note"]).font = BLACK
     notes = [
         "How to read this pack",
         "Funded and still held = cash paid, scaled to the share of the purchase Nvidia still reports holding. Committed, confirmed not yet paid = binding amount less what is funded, both sourced.",

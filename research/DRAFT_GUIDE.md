@@ -112,3 +112,5 @@ maturity}, `seniority`, `reconciliation`, `credit`, `consequences`, `projects` [
 - Evidence ids belong in `evidence` lists. If a note or reconciliation text mentions an id, that id must exist in
   research/evidence/*.jsonl; the checks now fail on any id that does not resolve.
 - No "ev_" ids and no bracketed citations inside insight, definition or consequence text.
+- `amounts.<field>.qualifier`: "nearly", "about", "more than" or "up to", when the source states the figure that way. It is shown before the number.
+- `credit.tenor_bucket`: "Under 2 years", "2 to 5 years", "5 to 10 years", "Over 10 years" or "Equity or no stated maturity", when a source states the term.

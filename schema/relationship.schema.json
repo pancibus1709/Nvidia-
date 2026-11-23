@@ -304,6 +304,15 @@
         },
         "notes": {
           "type": "string"
+        },
+        "tenor_bucket": {
+          "enum": [
+            "Under 2 years",
+            "2 to 5 years",
+            "5 to 10 years",
+            "Over 10 years",
+            "Equity or no stated maturity"
+          ]
         }
       }
     },
@@ -601,6 +610,14 @@
         },
         "effective_note": {
           "type": "string"
+        },
+        "qualifier": {
+          "enum": [
+            "nearly",
+            "about",
+            "more than",
+            "up to"
+          ]
         }
       }
     }

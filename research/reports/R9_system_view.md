@@ -2,36 +2,39 @@
 
 Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattributed remainders and context records are excluded.
 
-**How far the sources reach.** Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown. The register holds 1058 citations: 1052 from filings, company releases and other primary sources, 6 from news publications. 53 of 80 relationships are disclosed by one side only.
+**How far the sources reach.** Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown. The register holds 1081 citations: 1075 from filings, company releases and other primary sources, 6 from news publications. 53 of 80 relationships are disclosed by one side only.
 
 ## Totals
 
 - Relationships counted: 80 (50 are lower bounds because at least one component is not disclosed or not confirmed)
 - Funded and still held, at cost: $30.2 billion across 14 relationships. Cash paid to date including shares since sold: $32.3 billion. Funded counts only stakes whose cost a source states; Nvidia's own accounts show far more (see the bridge below).
-- Committed, confirmed not yet paid: $1 billion across 1
+- Committed, confirmed not yet paid: $1 billion across 1 (Nscale, as of 2026-11-12; a later closing would move this to funded)
 - Committed, paid portion not disclosed: $36.7 billion across 5. These are binding amounts where no source says how much has been paid, so they are not called unpaid.
 - Contingent maximum: $107.4 billion across 3, of which signed but not yet in force: $105 billion; in force today: $2.36 billion
 - Gross exposure: at least $175.3 billion
 - Headline announced (never added to exposure): $307.1 billion across 30, in three unlike groups: guaranty and backstop figures $117 billion; announced but not binding or not followed by a disclosed agreement $103.5 billion; other announced amounts (equity, rentals, prepayments, options Nvidia holds) $86.6 billion; excludes GBP 2 billion (rel_uk_ai_startup_program_eqc_2025), not converted
 
+Totals are struck at 2026-11-23. The bridge below compares against Nvidia's figures at 25 October 2026, so purchases after that date (for example Anthropic's November placement) are in the totals but in no Nvidia figure yet.
+
 ## Bridge to Nvidia's own disclosures
 
-What Nvidia reports in total, beside what this register can name and size. Label: analysis.
+What Nvidia reports in total, beside what this register can name and size. Named figures come from the unattributed remainder records. Label: analysis.
 
 | Line | Nvidia reports | Named and sized in this register | Note |
 |---|---|---|---|
-| Private stakes, carrying value | $61.6 billion |  | The register sizes private stakes at cost only where a source states the cost; see the unattributed remainder. |
-| Public equity, fair value | $48.9 billion | $48.3 billion | Named column is the value in Nvidia's holdings report of 30 September 2026. |
+| Private stakes, carrying value | $61.6 billion | $2.68 billion | Named column is the cost of the few private stakes whose cost a source states. |
+| Public equity, fair value | $48.9 billion | $48.3 billion | Named column is the value in Nvidia's holdings report of 30 September 2026; the dates differ. |
 | Guarantees, maximum | $118 billion | $105.9 billion |  |
-| Neocloud agreements, maximum | $32 billion | $0 | No counterparty states its share of this maximum. |
-| Cloud service agreements | $28 billion | $4.6 billion | Named column is contract value at signing, not the balance still owed. |
-| Unfunded equity commitments | $20 billion | $1 billion | Named column counts only amounts confirmed not yet paid. |
-| Equity purchases, nine months | $58.1 billion |  | Cash Nvidia paid for equity securities in the period. |
-| Data center leases signed, not commenced | $74 billion |  | Nvidia says it may assign some of these leases to third parties. |
+| Neocloud agreements, maximum | $32 billion | $0 | Partners are known (SharonAI, Firmus and others) but no partner's share is disclosed. |
+| Cloud service agreements | $28 billion | $0 | IREN and Nscale state contract values at signing of $4.6 billion; the balance still owed is not disclosed. |
+| Unfunded equity commitments | $20 billion | $3.5 billion | Named column counts amounts a source shows as signed and unpaid at that date. |
+| Data center leases signed, not commenced | $74 billion | $0 | Nvidia says it may assign some of these leases to third parties. |
+| Supply and capacity commitments | $390 billion | $0 | Upstream commitments to suppliers; none is attributed. |
+| Equity purchases, nine months to 25 October 2026 | $58.1 billion | $11.2 billion | Named column is the dated, costed equity purchases in this register inside the period; the rest of Nvidia's purchases are not attributed. |
 
-## Largest positions by current value where known
+## Largest positions by value at 30 September 2026 (Nvidia's holdings report)
 
-Value in Nvidia's holdings report. A position whose cost is not disclosed adds nothing to gross exposure above, so it is shown here.
+A position whose cost is not disclosed adds nothing to gross exposure above, so it is shown here. Values are refreshed from market data before publication.
 
 | Counterparty | Value | As of | Cost disclosed |
 |---|---|---|---|
@@ -43,6 +46,10 @@ Value in Nvidia's holdings report. A position whose cost is not disclosed adds n
 | Nokia | $738.8 million | 2026-09-30 | Yes |
 | Nebius | $280.8 million | 2026-09-30 | No |
 | Generate Biomedicines | $12.5 million | 2026-09-30 | No |
+| Anthropic | not yet valued | listed or bought after 30 September 2026 | Yes |
+| Nebius | not yet valued | listed or bought after 30 September 2026 | Yes |
+| Marvell | not yet valued | listed or bought after 30 September 2026 | Yes |
+| Lumentum | not yet valued | listed or bought after 30 September 2026 | Yes |
 
 ### By exposure type
 
@@ -83,17 +90,19 @@ Value in Nvidia's holdings report. A position whose cost is not disclosed adds n
 
 | Group | Relationships | Funded and still held (cost) | Committed, confirmed not yet paid | Committed, paid portion not disclosed | Contingent maximum | of which not yet in force | Gross | Headline | Lower bounds |
 |---|---|---|---|---|---|---|---|---|---|
-| Insufficient information | 58 | $10 billion | $0 | $32.1 billion | $105 billion | $105 billion | $147.1 billion | $262.6 billion | 43 |
+| Insufficient information | 56 | $25 million | $0 | $32.1 billion | $105 billion | $105 billion | $137.1 billion | $242.6 billion | 42 |
+| Adequate | 12 | $20.7 billion | $0 | $0 | $0 | $0 | $20.7 billion | $38.5 billion | 4 |
 | Watch | 8 | $5.68 billion | $1 billion | $4.6 billion | $2.36 billion | $0 | $13.6 billion | $15.7 billion | 2 |
-| Adequate | 9 | $10.7 billion | $0 | $0 | $0 | $0 | $10.7 billion | $18.5 billion | 2 |
 | Weak | 3 | $2 billion | $0 | $0 | $0 | $0 | $2 billion | $8.3 billion | 2 |
-| Strong | 2 | $1.81 billion | $0 | $0 | $0 | $0 | $1.81 billion | $2 billion | 1 |
+| Strong | 1 | $1.81 billion | $0 | $0 | $0 | $0 | $1.81 billion | $2 billion | 0 |
+
+OpenAI, 77.0% of gross exposure, publishes no balance sheet and cannot be graded.
 
 ### By tenor
 
 | Group | Relationships | Funded and still held (cost) | Committed, confirmed not yet paid | Committed, paid portion not disclosed | Contingent maximum | of which not yet in force | Gross | Headline | Lower bounds |
 |---|---|---|---|---|---|---|---|---|---|
-| No stated maturity | 76 | $28.7 billion | $0 | $36.7 billion | $107.4 billion | $105 billion | $172.8 billion | $296.2 billion | 48 |
+| Equity or no stated maturity | 76 | $28.7 billion | $0 | $36.7 billion | $107.4 billion | $105 billion | $172.8 billion | $296.2 billion | 48 |
 | Under 2 years | 1 | $1 billion | $1 billion | $0 | $0 | $0 | $2 billion | $2 billion | 0 |
 | 2 to 5 years | 2 | $500 million | $0 | $0 | $0 | $0 | $500 million | $2.6 billion | 1 |
 | 5 to 10 years | 1 | $0 | $0 | $0 | $0 | $0 | $0 | $6.3 billion | 1 |
@@ -136,55 +145,27 @@ These illustrate how losses would travel, not forecasts.
 
 ### S2 Lab funding gap: Anthropic
 - Equity loss after haircut: $5 billion on stakes with a confirmed value
-- Conditional commitments or letters of intent to this lab: 1; compute commitments at risk: $646.1 billion across 7 counterparties
-
-### S2 Lab funding gap: Cursor
-- Equity loss: not computable; not computable for rel_anysphere_eq_2025
-- Conditional commitments or letters of intent to this lab: 0; compute commitments at risk: $0 across 0 counterparties
-
-### S2 Lab funding gap: Black Forest Labs
-- Equity loss: not computable; not computable for rel_black_forest_labs_eq_2025
-- Conditional commitments or letters of intent to this lab: 0; compute commitments at risk: $0 across 0 counterparties
-
-### S2 Lab funding gap: Cohere
-- Equity loss: not computable; not computable for rel_cohere_eq_2025
-- Conditional commitments or letters of intent to this lab: 0; compute commitments at risk: $0 across 0 counterparties
-
-### S2 Lab funding gap: Mistral
-- Equity loss: not computable; not computable for rel_mistral_eq_2025
-- Conditional commitments or letters of intent to this lab: 0; compute commitments at risk: $0 across 0 counterparties
-
-### S2 Lab funding gap: Motif Technologies
-- Equity loss: not computable
-- Conditional commitments or letters of intent to this lab: 1; compute commitments at risk: $0 across 0 counterparties
+- Other Nvidia commitment to this lab: Anthropic: agreement to invest up to $10 billion (November 2025), partly funded in Series G (headline $10 billion, not counted as exposure)
+- Counterparty contracts that depend on this lab: up to $443.6 billion across 5 (includes $167.7 billion stated as up to, cancellable or terminable)
+- Lease obligations of this lab: $202.5 billion across 2 lessors
 
 ### S2 Lab funding gap: OpenAI
-- Equity loss: not computable; not computable for rel_openai_eq_2026. Guaranties that this lab's default would trigger: $105 billion cap, not yet in force
-- Conditional commitments or letters of intent to this lab: 1; compute commitments at risk: $306.4 billion across 4 counterparties
-
-### S2 Lab funding gap: Reflection
-- Equity loss: not computable; not computable for rel_reflection_eq_2025
-- Conditional commitments or letters of intent to this lab: 0; compute commitments at risk: $0 across 0 counterparties
-
-### S2 Lab funding gap: Sakana AI
-- Equity loss: not computable; not computable for rel_sakana_eq_2024
-- Conditional commitments or letters of intent to this lab: 0; compute commitments at risk: $0 across 0 counterparties
+- OpenAI 2026 funding round: Nvidia named for $30B: Equity loss not computable: $30 billion committed, paid amount not disclosed.
+- Guaranty this lab's default would trigger: $105 billion cap, not yet in force (Not in force: each guaranty takes effect only when its PORTS-Pike building is completed and ready for service; the first is expected in Nvidia's fiscal 2029 (ev_120002, ev_120009). No payments have been made (ev_30023).)
+- Other Nvidia commitment to this lab: OpenAI letter of intent: up to $100 billion as each gigawatt is deployed (headline $100 billion, not counted as exposure)
+- Counterparty contracts that depend on this lab: up to $56.4 billion across 3 (includes $18.4 billion stated as up to, cancellable or terminable)
+- Lease obligations of this lab: $250 billion across 1 lessors
 
 ### S2 Lab funding gap: SpaceX
 - Equity loss after haircut: $9.84 billion on stakes with a confirmed value
-- Conditional commitments or letters of intent to this lab: 0; compute commitments at risk: $60.2 billion across 2 counterparties
+- Lease obligations of this lab: $60.2 billion across 2 lessors
 
-### S2 Lab funding gap: SSI
-- Equity loss: not computable; not computable for rel_ssi_eq_2026
-- Conditional commitments or letters of intent to this lab: 0; compute commitments at risk: $0 across 0 counterparties
+### S2 Lab funding gap: other labs
+- Not computable (no confirmed value for Nvidia's stake and no sourced commitments): Cursor, Black Forest Labs, Cohere, Mistral, Motif Technologies, Reflection, Sakana AI, SSI, Thinking Machines, Upstage
 
-### S2 Lab funding gap: Thinking Machines
-- Equity loss: not computable; not computable for rel_thinking_machines_eq_2026
-- Conditional commitments or letters of intent to this lab: 0; compute commitments at risk: $0 across 0 counterparties
+## Loops
 
-### S2 Lab funding gap: Upstage
-- Equity loss: not computable
-- Conditional commitments or letters of intent to this lab: 1; compute commitments at risk: $0 across 0 counterparties
+10 loops close through a supplier relationship and 1 is open at the closing leg. None has a disclosed dollar value on the return leg, so no circularity ratio is computable.
 
 ### S3 Collateral repricing
 - Facilities computed: 1; not computable: 14 (needs both a sourced balance and a sourced collateral value)

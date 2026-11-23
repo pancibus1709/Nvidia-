@@ -53,6 +53,9 @@ def main():
         for e in d.get("entities", []):
             if e["id"] in ents and e["id"] not in ("ent_nvidia", "ent_nvidia_unattributed"):
                 ents[e["id"]] = merge_entity(ents[e["id"]], e)
+                if f.name.startswith("lead_") and e.get("credit"):
+                    # a later credit review replaces the earlier credit block whole, however long the earlier one was
+                    ents[e["id"]]["credit"] = e["credit"]
                 log.append(f"entity {e['id']} merged from {f.name}")
             elif e["id"] not in ents:
                 ents[e["id"]] = e

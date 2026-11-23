@@ -7,6 +7,7 @@ from __future__ import annotations
 
 from .checks import Register, elig_value
 from .common import CONFIG, load_json
+from .fmt import money
 
 EQUITY_TYPES = ("EQ", "EQ-SPV")
 
@@ -102,7 +103,7 @@ def s2(reg: Register, overrides=None) -> dict:
                 v, basis = equity_at_risk(r)
                 if v is None:
                     c = elig_value(r["amounts"].get("committed_total"))
-                    nc.append({"relationship": r["id"], "reason": (f"Equity loss not computable: {c:,.0f} committed, paid amount not disclosed." if c else "No confirmed value for this stake.")})
+                    nc.append({"relationship": r["id"], "title": r["title"], "reason": (f"Equity loss not computable: {money(c)} committed, paid amount not disclosed." if c else "No confirmed value for this stake.")})
                 else:
                     eq_losses.append({"relationship": r["id"], "basis": basis, "value": v, "loss": v * p["h2"]})
             if r["type_primary"] in ("GU", "RV") and elig_value(r["amounts"].get("contingent_max")):
@@ -110,14 +111,17 @@ def s2(reg: Register, overrides=None) -> dict:
                 guaranties.append({"relationship": r["id"], "cap": cm["value"], "in_force": cm.get("in_force", True), "effective_note": cm.get("effective_note", "")})
             if r["type_primary"] == "EQ-C":
                 h = elig_value(r["amounts"].get("headline"))
-                lapsed.append({"relationship": r["id"], "headline": h, "status": r["status"]})
+                lapsed.append({"relationship": r["id"], "title": r["title"], "headline": h, "status": r["status"]})
         for cc in reg.ent.get(lab, {}).get("compute_commitments") or []:
             v = elig_value(cc["amount"])
             affected.add(cc["counterparty"])
             if v is None:
                 nc.append({"entity": cc["counterparty"], "reason": f"Commitment amount not confirmed: {cc['description']}"})
             else:
+                low = cc["description"].lower()
                 at_risk.append({"counterparty": cc["counterparty"], "description": cc["description"], "amount": v,
+                                "soft": any(w in low for w in ("up to", "cancel", "terminable", "terminat")),
+                                "lease": "lease" in low,
                                 "as_of": cc["amount"].get("as_of"), "evidence": cc["amount"].get("evidence", [])})
     loss = sum(x["loss"] for x in eq_losses)
     ead = sum(x["value"] for x in eq_losses)

@@ -256,7 +256,39 @@
         ],
         "note": "Amazon convertible notes principal, expected to be settled in shares. Convertible notes are carried at a fair value far above principal; the $15.0 billion secured revolver was undrawn (ev_120060, ev_120061)."
       },
-      "maturities_24m": null,
+      "maturities_24m": {
+        "value": 559000000.0,
+        "as_of": "2026-09-30",
+        "fiscal_period": null,
+        "original_currency": "USD",
+        "original_value": null,
+        "fx_rate": null,
+        "fx_date": null,
+        "last_verified": "2026-11-23",
+        "display_eligible": true,
+        "lower_bound": false,
+        "evidence": [
+          "ev_190011",
+          "ev_190012"
+        ],
+        "components": [
+          {
+            "value": 121000000.0,
+            "evidence": [
+              "ev_190011"
+            ],
+            "note": "Finance lease payments, remainder of 2026"
+          },
+          {
+            "value": 438000000.0,
+            "evidence": [
+              "ev_190012"
+            ],
+            "note": "Finance lease payments, 2027"
+          }
+        ],
+        "note": "Finance lease payments due in Q4 2026 and calendar 2027 (15 months). No notes mature within 24 months: the Amazon notes mature in 2034 and 2035 (ev_190016) and are expected to be settled in shares. Instrument: final prospectus (424B4) of 2026-11-19, which supersedes S-1/A No. 3 of 2026-11-17."
+      },
       "cash_and_undrawn": {
         "value": 146700000000,
         "as_of": "2026-09-30",
@@ -298,30 +330,103 @@
         ],
         "note": "Before the IPO and concurrent private placement of November 2026 (about $119.5 billion gross, company release)."
       },
-      "committed_spend_12m": null,
-      "top_customer_share": null,
+      "committed_spend_12m": {
+        "value": 51796000000.0,
+        "as_of": "2026-09-30",
+        "fiscal_period": null,
+        "original_currency": "USD",
+        "original_value": null,
+        "fx_rate": null,
+        "fx_date": null,
+        "last_verified": "2026-11-23",
+        "display_eligible": true,
+        "lower_bound": false,
+        "evidence": [
+          "ev_190013",
+          "ev_190014",
+          "ev_190015"
+        ],
+        "components": [
+          {
+            "value": 5231000000.0,
+            "evidence": [
+              "ev_190013"
+            ],
+            "note": "Contractual obligations, remainder of 2026"
+          },
+          {
+            "value": 29165000000.0,
+            "evidence": [
+              "ev_190014"
+            ],
+            "note": "Contractual obligations, 2027"
+          },
+          {
+            "value": 17400000000.0,
+            "evidence": [
+              "ev_190015"
+            ],
+            "note": "Minimum payments under contracts of one year or less"
+          }
+        ],
+        "note": "Contractual obligations due in Q4 2026 and calendar 2027 (15 months, so this overstates a 12 month figure), plus about $17.4 billion of minimum payments under contracts of one year or less that the table excludes. Excludes compute arrangements without a fixed dollar commitment."
+      },
+      "top_customer_share": {
+        "value": 0.1,
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190017"
+        ],
+        "note": "Upper bound: no single customer exceeded 10% of revenue in the nine months to 2026-09-30. Top five customers were about 25% (ev_190018).",
+        "last_verified": "2026-11-23"
+      },
       "top3_customer_share": null,
       "collateral_note": "Compute is contracted, not owned, in the main: CSP hosting agreements and five-year Broadcom equipment finance leases (ev_120051). The revolver is senior secured (ev_120060).",
       "market_signals": [],
-      "grade": "Insufficient information",
-      "grade_reason": "Only liquidity is sourced (cash, short-term investments and undrawn revolver of $146.7 billion at 2026-09-30). Debt due within 24 months, customer concentration and a public rating were not sourced in this pass. Analysis: liquidity is large against purchase commitments, but $313.8 billion of purchase commitments (ev_120052) dwarfs nine-month revenue of $33.2 billion (ev_120058).",
-      "notes": "Revenue nine months to 2026-09-30: $33,242 million (ev_120058). Net loss is dominated by fair value changes on convertible notes (424B4). Capital raised to 2026-09-30: $141.1 billion (ev_120057). Contractual obligations $320.0 billion, of which about $186.2 billion are subject to termination rights or contingent conditions such as counterparty financing (ev_120053).",
+      "grade": "Adequate",
+      "grade_reason": "Three columns sourced from the 424B4. Liquidity cover about 34 months ($146.7 billion of cash, short-term investments and undrawn revolver against $51.8 billion due over the next 15 months), Strong. Debt due within 24 months is finance lease payments of $0.56 billion against $146.7 billion, Strong. No customer above 10% of revenue, Strong. No public rating. Weakest column Strong, moved down one step to Adequate: purchase commitments of $313.8 billion, most due from 2028, are about nine times nine-month revenue of $33.2 billion and the company is loss making before fair value changes on its notes.",
+      "notes": "Instrument: Anthropic final prospectus (424B4) filed 2026-11-19, figures at 2026-09-30, before the IPO and concurrent private placements (Nvidia about $10.0 billion). Supersedes the S-1/A amendments of 2 to 17 November 2026. Amazon convertible notes of $6.2 billion principal mature in 2034 and 2035 (ev_190016). Top five customers about 25% of revenue (ev_190018). Revenue nine months to 2026-09-30: $33,242 million (ev_120058). Purchase commitments $313.8 billion (ev_120052).",
       "evidence": [
+        "ev_120052",
         "ev_120054",
         "ev_120055",
         "ev_120056",
+        "ev_120058",
         "ev_120059",
-        "ev_120060",
-        "ev_120061",
-        "ev_120052",
-        "ev_120053",
-        "ev_120057",
-        "ev_120058"
+        "ev_190011",
+        "ev_190012",
+        "ev_190013",
+        "ev_190014",
+        "ev_190015",
+        "ev_190016",
+        "ev_190017",
+        "ev_190018"
       ],
       "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
+        "value": 34.0,
+        "label": "analysis",
+        "inputs": [
+          {
+            "field": "credit.cash_and_undrawn",
+            "value": 146700000000,
+            "as_of": "2026-09-30",
+            "evidence": [
+              "ev_120054",
+              "ev_120055",
+              "ev_120056"
+            ]
+          },
+          {
+            "field": "credit.committed_spend_12m",
+            "value": 51796000000.0,
+            "as_of": "2026-09-30",
+            "evidence": [
+              "ev_190013",
+              "ev_190014",
+              "ev_190015"
+            ]
+          }
+        ]
       }
     },
     "description": "Developer of the Claude models; listed on Nasdaq on 2026-11-19.",
@@ -608,24 +713,34 @@
         ],
         "note": "Non-cancelable commitments for October 2026 to December 2027 (15 months), so this overstates a 12 month figure. Excludes the Apollo GPU lease, which commences in 2027."
       },
-      "top_customer_share": null,
+      "top_customer_share": {
+        "value": 0.345,
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190019"
+        ],
+        "note": "Customer B, SI segment, 34.5% of revenue in the quarter to 2026-09-30 (24.2% over nine months). Customer A was 16.6% of the quarter (ev_190020). Customers are not named; that Customer B is Anthropic, which leases about 325,000 Nvidia GPUs from SpaceX's AI segment, is analysis.",
+        "last_verified": "2026-11-23"
+      },
       "top3_customer_share": null,
       "collateral_note": "GPU hardware financed through Valor equipment leases recorded as failed sale-leasebacks (ev_120087) and, from 2027, an Apollo-managed lessor finance lease of about $40 billion principal with terms of five to five and a quarter years (ev_120094).",
       "market_signals": [],
-      "grade": "Strong",
-      "grade_reason": "Internal, weakest of two sourced columns: liquidity cover about 41 months (cash plus undrawn $94.9 billion against $27.9 billion due over 15 months) and debt due within the window $2.9 billion against $94.9 billion (ratio under 0.1). Customer concentration and rating not sourced.",
-      "notes": "SpaceX's 10-Q for the quarter ended 2026-09-30 does not name NVIDIA. Its AI segment leases about 325,000 NVIDIA GPUs to Anthropic at $1.25 billion per month through May 2029 (424B4, ev_120079).",
+      "grade": "Adequate",
+      "grade_reason": "Three columns sourced from the 10-Q for the quarter ended 2026-09-30. Liquidity cover about 41 months ($94.9 billion of cash and undrawn facilities against $27.9 billion due over 15 months), Strong. Debt due by end 2027 $2.9 billion against $94.9 billion (ratio under 0.1, a lower bound for 24 months), Strong. Top customer 34.5% of quarterly revenue, Adequate. No public rating. Weakest column Adequate; no adjustment. Previously graded Strong on two columns; the customer column lowers it.",
+      "notes": "SpaceX's 10-Q for the quarter ended 2026-09-30 does not name NVIDIA. Its AI segment leases about 325,000 NVIDIA GPUs to Anthropic at $1.25 billion per month through May 2029 (424B4, ev_120079). Customer concentration added from Note 3 of the same 10-Q (ev_190019, ev_190020): the two disclosed customers were 51.1% of quarterly revenue (analysis). Instruments: 10-Q of 2026-10-22, which supersedes the 424B4 of 2026-06-12 for balance sheet figures.",
       "evidence": [
-        "ev_120088",
-        "ev_120092",
-        "ev_120093",
         "ev_120081",
         "ev_120082",
         "ev_120083",
-        "ev_120091",
-        "ev_120090",
         "ev_120087",
-        "ev_120094"
+        "ev_120088",
+        "ev_120090",
+        "ev_120091",
+        "ev_120092",
+        "ev_120093",
+        "ev_120094",
+        "ev_190019",
+        "ev_190020"
       ],
       "liquidity_months": {
         "value": 40.8,
