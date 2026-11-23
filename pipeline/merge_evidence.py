@@ -25,6 +25,11 @@ def main():
     for coll in (reg.relationships, reg.entities, reg.projects, reg.events, [reg.financials]):
         for row in coll:
             used |= set(_ev_ids(row))
+    import re
+    for extra in ("loops.json", "central_bank.json"):
+        f = REGISTER / extra
+        if f.exists():
+            used |= set(re.findall(r"ev_\d+", f.read_text()))
     keep = pool.values() if "--all" in sys.argv else [e for i, e in pool.items() if i in used]
     out = sorted(keep, key=lambda e: int(e["id"].split("_")[1]))
     save_json(REGISTER / "evidence.json", out)

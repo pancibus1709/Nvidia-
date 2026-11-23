@@ -2376,6 +2376,33 @@
     "grounded_value": null
   },
   {
+    "id": "ev_20090",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "CoreWeave, Inc.",
+    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=The%20Company%20had%20an%20outstanding%20balance%20of%20%247.4",
+    "accession": "0001769628-26-000465",
+    "section": "Note 10 - Debt",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23T02:21:00Z",
+    "quote": "The Company had an outstanding balance of $7.4 billion and $3.8 billion",
+    "locator": "93560",
+    "unit_scale_locator": null,
+    "parent_company": "CoreWeave, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
+    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "OEM Financing outstanding 7.4bn at 2026-09-30"
+    ],
+    "grounded_value": 7400000000.0
+  },
+  {
     "id": "ev_20091",
     "tier": "1",
     "kind": "sec_filing",
@@ -11556,6 +11583,33 @@
     "grounded_value": 13700000000.0
   },
   {
+    "id": "ev_60015",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Intel Corporation",
+    "title": "Intel Corporation Form 10-Q for the quarter ended September 26, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm#:~:text=common%20stock%20in%20exchange%20for%20gross%20proceeds%20of",
+    "accession": "0000050863-26-000191",
+    "section": "Note 4 - Earnings (Loss) Per Share and Stockholders' Equity",
+    "published": "2026-10-30",
+    "retrieved": "2026-11-23T02:35:39Z",
+    "quote": "common stock in exchange for gross proceeds of $23.0 billion",
+    "locator": "44500",
+    "unit_scale_locator": null,
+    "parent_company": "Intel Corporation",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/50863/000005086326000191/intc-20260926.htm",
+    "content_hash": "fac629e30c0688c8cc425da9814d840adc34fd18cafdcd79e70ae70fc40e9f95",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Intel: August 2026 public offering gross proceeds"
+    ],
+    "grounded_value": 23000000000.0
+  },
+  {
     "id": "ev_60016",
     "tier": "1",
     "kind": "sec_filing",
@@ -14526,6 +14580,33 @@
     "grounded_value": 20059.0
   },
   {
+    "id": "ev_80009",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "SharonAI Holdings Inc.",
+    "title": "SharonAI Holdings Inc. Form 10-Q for the quarter ended September 30, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226052382/form10-q.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226052382/form10-q.htm#:~:text=has%20concluded%20that%20the%20Company%20is%20able%20to",
+    "accession": "0001493152-26-052382",
+    "section": "Note 1. Going Concern",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-23T02:30:53Z",
+    "quote": "has concluded that the Company is able to continue as a going concern",
+    "locator": "26071",
+    "unit_scale_locator": null,
+    "parent_company": "SharonAI Holdings Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2068385/000149315226052382/form10-q.htm",
+    "content_hash": "5c3103844cd9be31a628d3c0305e1ba3fc9b2a32ffba5fb2f3f29c64a166f6ee",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "SharonAI: going concern section; management concludes it can continue as a going concern (going-concern language under the spec/05 rubric)"
+    ],
+    "grounded_value": null
+  },
+  {
     "id": "ev_80010",
     "tier": "1",
     "kind": "sec_filing",
@@ -17330,6 +17411,33 @@
     "pasted_by_reviewer": false,
     "supports": [
       "Nvidia SPA ($1.5bn) terminates May 15, 2027 if not closed"
+    ],
+    "grounded_value": null
+  },
+  {
+    "id": "ev_100024",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "SB Energy, Inc.",
+    "title": "SB Energy, Inc. Form S-1/A Amendment No. 3",
+    "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026075026/sbenergy-sx1a3.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026075026/sbenergy-sx1a3.htm#:~:text=OpenAI%20is%20not%20currently%20an%20investment-grade%20tenant",
+    "accession": "0001628280-26-075026",
+    "section": "Risk Factors",
+    "published": "2026-11-19",
+    "retrieved": "2026-11-23T02:16:18Z",
+    "quote": "OpenAI is not currently an investment-grade tenant",
+    "locator": "249751",
+    "unit_scale_locator": null,
+    "parent_company": "SB Energy, Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/2133037/000162828026075026/sbenergy-sx1a3.htm",
+    "content_hash": "f4e6b3e336452a0cc79e09361fec4694b68c4cf384edd6c550e83ac9c6ceb58c",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "SB Energy: OpenAI not investment grade; PORTS financeability depends on Nvidia RVG"
     ],
     "grounded_value": null
   },
@@ -23596,5 +23704,32 @@
       "rel_coreweave_bk_2025 depth 2: Galaxy cites the Nvidia obligation in marketing notes backed by a CoreWeave-leased data center"
     ],
     "grounded_value": 6300000000.0
+  },
+  {
+    "id": "ev_170017",
+    "tier": "1",
+    "kind": "sec_filing",
+    "publisher": "Galaxy Digital Inc.",
+    "title": "Galaxy Digital Inc. Form 8-K Exhibit 99.1, senior secured notes investor presentation",
+    "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000068/launch8-kexhibit99172226.htm",
+    "source_link": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000068/launch8-kexhibit99172226.htm#:~:text=Backed%20by%20Nvidia%20who%20owns%20a%20~11.5%25%20equity",
+    "accession": "0001859392-26-000068",
+    "section": "Exhibit 99.1",
+    "published": "2026-07-22",
+    "retrieved": "2026-11-23T02:57:51Z",
+    "quote": "Backed by Nvidia who owns a ~11.5% equity stake",
+    "locator": "14049",
+    "unit_scale_locator": null,
+    "parent_company": "Galaxy Digital Inc.",
+    "cites_publisher": [],
+    "cache_path": "research/cache/sec/1859392/000185939226000068/launch8-kexhibit99172226.htm",
+    "content_hash": "7f9b1c37790c41cde020b09a41b217be02cea1d494dce0db8b380c979317abc9",
+    "sourcing": "filing",
+    "paywalled": false,
+    "pasted_by_reviewer": false,
+    "supports": [
+      "Galaxy notes presentation cites Nvidia stake in tenant CoreWeave"
+    ],
+    "grounded_value": null
   }
 ]
