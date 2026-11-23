@@ -670,7 +670,7 @@ def main(argv=None):
         from .evidence import EV_DIR
         extra = []
         for f in sorted(EV_DIR.glob("*.jsonl")):
-            extra += [json.loads(l) for l in open(f, encoding="utf-8")]
+            extra += [r for r in (json.loads(l) for l in open(f, encoding="utf-8")) if str(r.get("id", "")).startswith("ev_")]
         reg = Register(args.register)
         known = set(reg.ev)
         reg.evidence += [e for e in extra if e["id"] not in known]

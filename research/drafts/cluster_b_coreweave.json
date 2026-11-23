@@ -30,7 +30,7 @@
           "fx_rate": null,
           "fx_date": null,
           "last_verified": "2026-11-23",
-          "display_eligible": false,
+          "display_eligible": true,
           "lower_bound": false,
           "evidence": [
             "ev_20071"
@@ -46,7 +46,7 @@
           "fx_rate": null,
           "fx_date": null,
           "last_verified": "2026-11-23",
-          "display_eligible": false,
+          "display_eligible": true,
           "lower_bound": true,
           "evidence": [],
           "components": [
@@ -76,7 +76,7 @@
           "fx_rate": null,
           "fx_date": null,
           "last_verified": "2026-11-23",
-          "display_eligible": false,
+          "display_eligible": true,
           "lower_bound": false,
           "evidence": [
             "ev_20109"
@@ -835,7 +835,7 @@
           "fx_rate": null,
           "fx_date": null,
           "last_verified": "2026-11-23",
-          "display_eligible": false,
+          "display_eligible": true,
           "lower_bound": false,
           "evidence": [],
           "label": "fact",
@@ -898,7 +898,7 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
               "ev_20061"
@@ -947,7 +947,7 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
               "ev_20059"
@@ -1332,7 +1332,7 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
               "ev_20050"
@@ -1864,7 +1864,7 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
               "ev_20045"
@@ -1920,7 +1920,7 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
               "ev_20046"
@@ -1949,7 +1949,7 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
               "ev_20047"
@@ -2004,7 +2004,7 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
               "ev_20048"
@@ -2069,7 +2069,7 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
               "ev_20064"
@@ -2084,7 +2084,7 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
               "ev_20080"
@@ -2148,7 +2148,7 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
               "ev_20049"
@@ -2219,7 +2219,7 @@
             "fx_rate": null,
             "fx_date": null,
             "last_verified": "2026-11-23",
-            "display_eligible": false,
+            "display_eligible": true,
             "lower_bound": false,
             "evidence": [
               "ev_20050"

@@ -4,7 +4,7 @@ fetches each hit, and keeps it only if the query terms fall within a 50-word win
   python3 -m pipeline.fulltext run [--only Q1,Q2] [--start 2023-01-01] [--end YYYY-MM-DD] [--max-docs 500]
   python3 -m pipeline.fulltext report
 
-Output: research/evidence/fulltext_hits.jsonl (one line per kept hit, with the window as the paragraph)
+Output: research/evidence/fulltext_hits.ndjson (one line per kept hit, with the window as the paragraph)
 and research/evidence/fulltext_log.json (totals, overflow flags, discards).
 """
 from __future__ import annotations
@@ -36,7 +36,7 @@ QUERIES = {
     "Q12": [["NVIDIA", "license", "non-exclusive"]],
 }
 CAP = 500
-OUT = ROOT / "research" / "evidence" / "fulltext_hits.jsonl"
+OUT = ROOT / "research" / "evidence" / "fulltext_hits.ndjson"
 LOG = ROOT / "research" / "evidence" / "fulltext_log.json"
 MONEY = re.compile(r"\$\s?\d|\bmillion\b|\bbillion\b|\bshares\b|\bcommit", re.I)
 

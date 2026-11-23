@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ent_nvidia",
+    "name": "NVIDIA Corporation",
+    "short_name": "Nvidia",
+    "cluster": "nvidia",
+    "depth": 0,
+    "public": true,
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "country": "US",
+    "description": "Designer of accelerated computing systems. The center of the map.",
+    "domains": [
+      "nvidia.com"
+    ]
+  },
+  {
+    "id": "ent_nvidia_unattributed",
+    "name": "Unattributed carrying value",
+    "short_name": "Unattributed",
+    "cluster": "other",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": null,
+    "description": "Synthetic entity for the part of a disclosed Nvidia aggregate that no named relationship explains. Excluded from every total."
+  }
+]

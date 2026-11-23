@@ -98,7 +98,7 @@ in your report under "Domains added". This is the one exception to the "do not e
 - `research/reports/R3_nvidia_announcements.md` and `research/drafts/r3_announcements.json`: Nvidia's own announcements.
 - `research/reports/R1_named.md` (may still be in progress): named relationships in Nvidia filings, 13F history.
 - `research/evidence/nvda_13f.txt`: Nvidia's 13F holdings by quarter.
-- `research/evidence/fulltext_hits.jsonl` (in progress): other filers' paragraphs mentioning NVIDIA near deal words
-  (`grep -i "<company>" research/evidence/fulltext_hits.jsonl | head`).
+- `research/evidence/fulltext_hits.ndjson` (in progress): other filers' paragraphs mentioning NVIDIA near deal words
+  (`grep -i "<company>" research/evidence/fulltext_hits.ndjson | head`).
 Evidence ids created by other researchers (ev_1xxxx from R1, ev_3xxxx from R3) can be reused in your records:
 look them up with `grep '"id": "ev_30010"' research/evidence/*.jsonl`. Do not re-create evidence that exists.

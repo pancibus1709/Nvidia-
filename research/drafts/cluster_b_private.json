@@ -1,0 +1,3219 @@
+{
+  "entities": [
+    {
+      "id": "ent_lambda",
+      "name": "Lambda, Inc.",
+      "short_name": "Lambda",
+      "cluster": "neocloud",
+      "depth": 1,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Private US GPU cloud provider that rents Nvidia based compute to AI labs, hyperscalers and enterprises.",
+      "domains": [
+        "lambda.ai",
+        "lambda.com",
+        "lambdalabs.com"
+      ],
+      "evidence": [
+        "ev_110001",
+        "ev_110059",
+        "ev_110060",
+        "ev_110002",
+        "ev_110006",
+        "ev_110009",
+        "ev_110010",
+        "ev_110011"
+      ],
+      "compute_commitments": [],
+      "credit": {
+        "public_ratings": [
+          {
+            "agency": "Moody's",
+            "rating": "Baa2 (term loan B facility rating, not an issuer rating)",
+            "date": "2026-08-12",
+            "evidence": [
+              "ev_110005"
+            ]
+          },
+          {
+            "agency": "Moody's / Morningstar DBRS",
+            "rating": "Baa1 / A (low) (fixed rate delayed draw facility rating, not an issuer rating)",
+            "date": "2026-10-01",
+            "evidence": [
+              "ev_110006"
+            ]
+          }
+        ],
+        "debt_outstanding": null,
+        "maturities_24m": null,
+        "cash_and_undrawn": null,
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Both 2026 asset level facilities are secured by the GPU servers and related infrastructure they fund and by the contracted cash flows. GPU generation and depreciation life not disclosed.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "No issuer liquidity, drawn debt or customer concentration is published; only facility sizes and facility ratings. Fewer than two rubric columns sourced.",
+        "notes": "Facilities (company releases): $1 billion syndicated senior secured credit facility closed 2026-05-07, upsized from $275 million (Aug 2025), J.P. Morgan lead arranger (ev_110009); $926 million senior secured term loan B priced 2026-08-12, SOFR + 3.00%, matures 2030-12-31, Morgan Stanley lead left, funds GPUs dedicated to one unnamed investment-grade offtaker (ev_110002, ev_110003, ev_110004); $1.008 billion fixed rate delayed draw term loan closed 2026-10-01, 6.78%, matures 2033-05-30, J.P. Morgan sole coordinator, backed by two unnamed investment-grade offtakers (ev_110006, ev_110007, ev_110008). Drawn balances not disclosed. Customers: Microsoft multibillion multi-year agreement (ev_110010); Anthropic agreed to spend about $41.3 billion under the Lambda Agreements (ev_110011), of which about $34.9 billion (August 2026 agreement) is terminable by either party because Lambda did not secure the facility lease by the required date (ev_110012, ev_110013). Equity: Series D $480M (Feb 2025, NVIDIA a participant, ev_110059, ev_110001) and Series E over $1.5B (Nov 2025, ev_110060); both figures are written with M or B suffixes that the grounding tool does not parse, so they are not grounded as values."
+      }
+    },
+    {
+      "id": "ent_crusoe",
+      "name": "Crusoe Energy Systems LLC (trading as Crusoe)",
+      "short_name": "Crusoe",
+      "cluster": "neocloud",
+      "depth": 1,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Private US AI infrastructure company that develops power, builds data center campuses and runs the Crusoe Cloud GPU service.",
+      "domains": [
+        "crusoe.ai"
+      ],
+      "evidence": [
+        "ev_110016",
+        "ev_110018",
+        "ev_110020",
+        "ev_110019",
+        "ev_110022",
+        "ev_110024",
+        "ev_110025",
+        "ev_110061"
+      ],
+      "compute_commitments": [],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": null,
+        "maturities_24m": null,
+        "cash_and_undrawn": null,
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Upper90 facility proceeds are used exclusively for NVIDIA GPUs and supporting cloud infrastructure (ev_110026). Abilene buildings each designed for up to 50,000 NVIDIA GB200 NVL72s (ev_110027). Depreciation life not disclosed.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "No issuer liquidity, drawn debt or customer concentration is published. Fewer than two rubric columns sourced.",
+        "notes": "Debt (company releases): $750 million credit facility from Brookfield infrastructure debt, 2025-06-11 (ev_110024); about $225 million credit facility led by Upper90, page dated 2025-03-27 (ev_110025). Equity: Series D $600 million (2024-12-12, ev_110015), Series E $1.375 billion initial close (2025-10-24, ev_110017), Series F $3.9 billion anticipated, initial close at $30.9 billion post-money (2026-09-17, ev_110019, ev_110021); NVIDIA named in all three. Contracted value over $140 billion and over 6 GW gross contracted capacity per the Series F release (ev_110022, ev_110023). Customers named in releases include Together AI, Cursor, Fireworks; no customer share disclosed."
+      }
+    },
+    {
+      "id": "ent_firmus",
+      "name": "Firmus Grid Limited (trading as Firmus Technologies)",
+      "short_name": "Firmus",
+      "cluster": "neocloud",
+      "depth": 1,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "AU",
+      "description": "Private Australian AI factory developer and GPU cloud operating in Australia and Singapore with sites under development in Indonesia and Malaysia.",
+      "domains": [
+        "firmus.co"
+      ],
+      "evidence": [
+        "ev_110062",
+        "ev_110029",
+        "ev_110032",
+        "ev_110034",
+        "ev_110035",
+        "ev_110037",
+        "ev_110046",
+        "ev_110048"
+      ],
+      "compute_commitments": [],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": null,
+        "maturities_24m": null,
+        "cash_and_undrawn": null,
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Southgate and Batam are built on the NVIDIA DSX reference design with GB300 and Vera Rubin systems; depreciation life not disclosed.",
+        "market_signals": [
+          {
+            "date": "2026-10-09",
+            "signal": "Firmus withdrew its application to list on the Australian Securities Exchange (Nikkei Asia, single tier 2 source).",
+            "evidence": [
+              "ev_110048"
+            ]
+          },
+          {
+            "date": "2026-10-09",
+            "signal": "Withdrawn offer sought up to A$7.9 billion (about $5.5 billion) (Nikkei Asia, single tier 2 source).",
+            "evidence": [
+              "ev_110049"
+            ]
+          },
+          {
+            "date": "2026-10-09",
+            "signal": "An analyst quoted by Nikkei Asia said 46 MW was built out of 912 MW contracted (opinion, single tier 2 source).",
+            "evidence": [
+              "ev_110052"
+            ]
+          }
+        ],
+        "grade": "Insufficient information",
+        "grade_reason": "No issuer liquidity, drawn debt or customer concentration is published. Fewer than two rubric columns sourced. Withdrawn IPO is a market signal, not a rubric column.",
+        "notes": "Debt: US$10 billion debt financing facility led by Blackstone funds, supported by Coatue, 2026-02-09 (ev_110035; also reported by Nikkei Asia, ev_110050); drawn balance not disclosed. Equity: A$330m placement with NVIDIA participation (2025-09-16, ev_110062); USD505m led by Coatue with NVIDIA participation subject to closing conditions (2026-04-07, ev_110029, ev_110030); USD2 billion fully committed with NVIDIA follow-on (2026-08-07, ev_110032, ev_110033); more than USD3 billion new equity in the year to August 2026 (ev_110034). Contracted capacity more than 900 MW (2026-09-08, ev_110047). Customers named: OpenAI (Malaysia anchor, ev_110046); Meta and Thinking Machines Lab agreements are listed in the newsroom but were not read."
+      }
+    },
+    {
+      "id": "ent_together_ai",
+      "name": "Together Computer, Inc. (Together AI)",
+      "short_name": "Together AI",
+      "cluster": "neocloud",
+      "depth": 1,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Private US AI cloud for open source model inference and training that runs on Nvidia GPUs, partly on capacity rented from other clouds.",
+      "domains": [
+        "together.ai"
+      ],
+      "evidence": [
+        "ev_110053",
+        "ev_110055",
+        "ev_110057",
+        "ev_110056",
+        "ev_110058",
+        "ev_40120"
+      ],
+      "compute_commitments": [
+        {
+          "counterparty": "ent_iren",
+          "description": "Together AI is one of the AI developers in IREN's July 2026 multi-year cloud contracts; the $2.8 billion is the aggregate for Prometheus, Perplexity and Together AI, not Together AI alone.",
+          "amount": {
+            "value": null,
+            "as_of": null,
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": null,
+            "display_eligible": false,
+            "lower_bound": false,
+            "evidence": []
+          }
+        }
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": null,
+        "maturities_24m": null,
+        "cash_and_undrawn": null,
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not disclosed.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "No credit facts published.",
+        "notes": "Series C $800 million (2026-07-01, ev_110056) with NVIDIA among investors (ev_110057); commitments for over 500 MW of compute capacity to be capitalized independently by its new investors (ev_110058). Series B $305 million (2025-02-20, ev_110054, ev_110055). Series A $102.5M (2023-11-29, ev_110064 unparsed suffix, ev_110053). Customer of IREN (ev_40120, aggregate with others) and named by Crusoe as a Crusoe Cloud customer (Series E release)."
+      }
+    },
+    {
+      "id": "ent_anthropic",
+      "name": "Anthropic, PBC",
+      "short_name": "Anthropic",
+      "cluster": "ai_lab",
+      "depth": 2,
+      "public": true,
+      "ticker": "ANT",
+      "cik": "0002130357",
+      "country": "US",
+      "description": "AI lab; offtaker of Lambda capacity under the Lambda Agreements.",
+      "domains": [
+        "anthropic.com"
+      ],
+      "evidence": [
+        "ev_110011"
+      ],
+      "compute_commitments": [],
+      "credit": {}
+    },
+    {
+      "id": "ent_microsoft",
+      "name": "Microsoft Corporation",
+      "short_name": "Microsoft",
+      "cluster": "hyperscaler",
+      "depth": 2,
+      "public": true,
+      "ticker": "MSFT",
+      "cik": "0000789019",
+      "country": "US",
+      "description": "Hyperscaler; offtaker of Lambda capacity under a multibillion multi-year agreement.",
+      "domains": [
+        "microsoft.com"
+      ],
+      "evidence": [
+        "ev_110010"
+      ],
+      "compute_commitments": [],
+      "credit": {}
+    },
+    {
+      "id": "ent_openai",
+      "name": "OpenAI",
+      "short_name": "OpenAI",
+      "cluster": "ai_lab",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "AI lab; anchor customer of Firmus AI factory sites in Malaysia.",
+      "domains": [
+        "openai.com"
+      ],
+      "evidence": [
+        "ev_110046"
+      ],
+      "compute_commitments": [],
+      "credit": {}
+    },
+    {
+      "id": "ent_blackstone",
+      "name": "Blackstone Inc.",
+      "short_name": "Blackstone",
+      "cluster": "lender",
+      "depth": 2,
+      "public": true,
+      "ticker": "BX",
+      "cik": "0001393818",
+      "country": "US",
+      "description": "Alternative asset manager; leads the Firmus debt facility and invested in the Firmus equity round of August 2026.",
+      "domains": [
+        "blackstone.com"
+      ],
+      "evidence": [
+        "ev_110035",
+        "ev_110033"
+      ],
+      "compute_commitments": [],
+      "credit": {}
+    },
+    {
+      "id": "ent_coatue",
+      "name": "Coatue Management",
+      "short_name": "Coatue",
+      "cluster": "other",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Investment firm; co-investor with Nvidia in Firmus and supporter of the Firmus debt facility.",
+      "domains": [],
+      "evidence": [
+        "ev_110029",
+        "ev_110033"
+      ],
+      "compute_commitments": [],
+      "credit": {}
+    },
+    {
+      "id": "ent_brookfield",
+      "name": "Brookfield Asset Management",
+      "short_name": "Brookfield",
+      "cluster": "lender",
+      "depth": 2,
+      "public": true,
+      "ticker": "BAM",
+      "cik": null,
+      "country": "CA",
+      "description": "Asset manager; lender to Crusoe through its infrastructure debt platform.",
+      "domains": [
+        "brookfield.com"
+      ],
+      "evidence": [
+        "ev_110024"
+      ],
+      "compute_commitments": [],
+      "credit": {}
+    },
+    {
+      "id": "ent_upper90",
+      "name": "Upper90 Capital Management, LP",
+      "short_name": "Upper90",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Asset backed private credit firm; lead lender on a Crusoe GPU credit facility.",
+      "domains": [],
+      "evidence": [
+        "ev_110025"
+      ],
+      "compute_commitments": [],
+      "credit": {}
+    },
+    {
+      "id": "ent_blue_owl",
+      "name": "Blue Owl Capital Inc.",
+      "short_name": "Blue Owl",
+      "cluster": "lender",
+      "depth": 2,
+      "public": true,
+      "ticker": "OWL",
+      "cik": null,
+      "country": "US",
+      "description": "Alternative asset manager; joint sponsor with Crusoe and Primary Digital Infrastructure of the Abilene data center joint venture.",
+      "domains": [],
+      "evidence": [
+        "ev_110061"
+      ],
+      "compute_commitments": [],
+      "credit": {}
+    },
+    {
+      "id": "ent_morgan_stanley",
+      "name": "Morgan Stanley",
+      "short_name": "Morgan Stanley",
+      "cluster": "lender",
+      "depth": 2,
+      "public": true,
+      "ticker": "MS",
+      "cik": "0000895421",
+      "country": "US",
+      "description": "Lead left arranger and administrative agent on the Lambda term loan B.",
+      "domains": [],
+      "evidence": [
+        "ev_110002"
+      ],
+      "compute_commitments": [],
+      "credit": {}
+    },
+    {
+      "id": "ent_jpmorgan",
+      "name": "JPMorgan Chase & Co.",
+      "short_name": "J.P. Morgan",
+      "cluster": "lender",
+      "depth": 2,
+      "public": true,
+      "ticker": "JPM",
+      "cik": "0000019617",
+      "country": "US",
+      "description": "Lead arranger on the Lambda credit facility and coordinator of the Lambda fixed rate delayed draw term loan.",
+      "domains": [],
+      "evidence": [
+        "ev_110009",
+        "ev_110006"
+      ],
+      "compute_commitments": [],
+      "credit": {}
+    },
+    {
+      "id": "ent_iren",
+      "name": "IREN Limited",
+      "short_name": "IREN",
+      "cluster": "neocloud",
+      "depth": 2,
+      "public": true,
+      "ticker": "IREN",
+      "cik": "0001878848",
+      "country": "AU",
+      "description": "Listed GPU cloud; Together AI is among its July 2026 cloud contract customers.",
+      "domains": [
+        "iren.com"
+      ],
+      "evidence": [
+        "ev_40120"
+      ],
+      "compute_commitments": [],
+      "credit": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel_lambda_eq_2025",
+      "from": "ent_nvidia",
+      "to": "ent_lambda",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia participation in the Lambda Series D",
+      "insight_template": "Nvidia holds an undisclosed stake in {counterparty}, whose loans rest on offtake contracts that a lost data center lease has already weakened.",
+      "definition": "Lambda raised a Series D in February 2025 and names NVIDIA among its new investors. Neither Lambda nor Nvidia states how much Nvidia invested, the share class or Nvidia's ownership. Lambda raised a further Series E in November 2025 whose release does not name Nvidia.",
+      "status": "completed",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2025-02-19",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "dates": {
+        "announced": "2025-02-19",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_110001"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. Nvidia's newsroom, blogs and filings read for this cluster do not name this investment; Nvidia reports non-marketable equity only in aggregate.",
+        "counterparty_side": "The counterparty's own release names NVIDIA as a participant in the round. It does not state NVIDIA's amount, share class or ownership.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_110001",
+          "ev_110059"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Equity value and the counterparty's GPU rental business both depend on demand for Nvidia based compute; the exposure is capped at cost and does not grow with distress.",
+        "collateral": "None. Equity holder, last in line.",
+        "tenor": "Perpetual (equity).",
+        "notes": "Seed B5 (Nvidia leasing back its own GPUs from Lambda) is reported only by The Information and Bloomberg pages that returned HTTP 403; not recorded. Bloomberg headlines tie the August 2026 term loan B to an 'Nvidia-tied chip deal'; Lambda's release names only an unnamed investment-grade offtaker."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Anthropic or Lambda terminates the August 2026 agreement",
+            "mechanism": "Lambda loses the largest share of its disclosed Anthropic backlog, lowering the value of Nvidia's Lambda stake",
+            "affected": [
+              "ent_lambda",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If the Anthropic agreement that Lambda could not secure a lease for is terminated, Lambda's backlog shrinks and Nvidia's Lambda stake loses value."
+          },
+          {
+            "trigger": "Lambda raises its pre-IPO round or lists",
+            "mechanism": "A priced round or listing marks Nvidia's Lambda stake to a visible value",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "mixed",
+            "text": "A new Lambda round or listing would put a price on Nvidia's stake, which today is invisible inside Nvidia's non-marketable equity total."
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "lender_reliance",
+            "trigger": "An investment-grade offtaker reduces or ends its contract",
+            "mechanism": "Lambda's asset level loans are secured by the GPUs and the contracted cash flows of named deployments",
+            "affected": [
+              "ent_morgan_stanley",
+              "ent_jpmorgan",
+              "ent_lambda"
+            ],
+            "direction": "negative",
+            "text": "Lenders to Lambda's term loan B and fixed rate facility are repaid from specific offtake contracts, so a lost offtaker leaves them holding used Nvidia GPUs."
+          },
+          {
+            "lens": "signaling",
+            "trigger": "Nvidia is named as a Lambda investor",
+            "mechanism": "The Nvidia name supports Lambda's access to investment-grade rated GPU debt",
+            "affected": [
+              "ent_lambda"
+            ],
+            "direction": "positive",
+            "text": "Nvidia's presence on Lambda's cap table is part of the profile that let Lambda price GPU debt at investment-grade ratings."
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [
+        {
+          "entity": "ent_anthropic",
+          "role": "offtaker",
+          "description": "Anthropic agreed to spend about $41.3 billion under the Lambda Agreements for compute powered by NVIDIA GPUs; the August 2026 agreement (about $34.9 billion) is terminable by either party because Lambda did not secure the facility lease by the required date. Neither party had given notice as of the prospectus date.",
+          "amount": {
+            "value": 41300000000.0,
+            "as_of": "2026-11-19",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110011"
+            ]
+          },
+          "evidence": [
+            "ev_110011",
+            "ev_110012",
+            "ev_110013",
+            "ev_110014"
+          ]
+        },
+        {
+          "entity": "ent_microsoft",
+          "role": "offtaker",
+          "description": "Multibillion multi-year agreement to deploy AI infrastructure powered by tens of thousands of NVIDIA GPUs; amount not stated.",
+          "amount": null,
+          "evidence": [
+            "ev_110010"
+          ]
+        },
+        {
+          "entity": "ent_morgan_stanley",
+          "role": "lender",
+          "description": "Lead left arranger of the $926 million senior secured term loan B (SOFR + 3.00%, matures 2030-12-31), secured by the GPUs it funds and their contracted cash flows; Moody's facility rating Baa2.",
+          "amount": {
+            "value": 926000000.0,
+            "as_of": "2026-08-12",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110002"
+            ]
+          },
+          "evidence": [
+            "ev_110002",
+            "ev_110004",
+            "ev_110005"
+          ]
+        },
+        {
+          "entity": "ent_jpmorgan",
+          "role": "lender",
+          "description": "Lead arranger of the $1 billion syndicated senior secured credit facility (May 2026).",
+          "amount": {
+            "value": 1000000000.0,
+            "as_of": "2026-05-07",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110009"
+            ]
+          },
+          "evidence": [
+            "ev_110009"
+          ]
+        },
+        {
+          "entity": "ent_jpmorgan",
+          "role": "lender",
+          "description": "Sole coordinating lead arranger of the $1.008 billion fixed rate delayed draw term loan (6.78%, matures 2033-05-30) for deployments with two investment-grade offtakers.",
+          "amount": {
+            "value": 1008000000.0,
+            "as_of": "2026-10-01",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110006"
+            ]
+          },
+          "evidence": [
+            "ev_110006",
+            "ev_110008",
+            "ev_110007"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "measure_inputs": {},
+      "evidence": [
+        "ev_110001",
+        "ev_110059",
+        "ev_110060",
+        "ev_110002",
+        "ev_110003",
+        "ev_110006",
+        "ev_110007",
+        "ev_110009",
+        "ev_110010",
+        "ev_110011",
+        "ev_110012",
+        "ev_110013",
+        "ev_110014"
+      ],
+      "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
+    },
+    {
+      "id": "rel_crusoe_eq_2024",
+      "from": "ent_nvidia",
+      "to": "ent_crusoe",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia participation in the Crusoe Series D",
+      "insight_template": "Nvidia keeps buying into {counterparty} rounds while {counterparty} fills its campuses with Nvidia systems, so the stake tracks GPU demand.",
+      "definition": "Crusoe closed a $600 million Series D in December 2024 led by Founders Fund and lists NVIDIA among the participating investors. Neither side states Nvidia's amount or ownership.",
+      "status": "completed",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2024-12-12",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "dates": {
+        "announced": "2024-12-12",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_110016"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. Nvidia's newsroom, blogs and filings read for this cluster do not name this investment; Nvidia reports non-marketable equity only in aggregate.",
+        "counterparty_side": "The counterparty's own release names NVIDIA as a participant in the round. It does not state NVIDIA's amount, share class or ownership.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_110016",
+          "ev_110015"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Equity value and the counterparty's GPU rental business both depend on demand for Nvidia based compute; the exposure is capped at cost and does not grow with distress.",
+        "collateral": "None. Equity holder, last in line.",
+        "tenor": "Perpetual (equity).",
+        "notes": "Round size is the counterparty's total, not Nvidia's share."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Crusoe fails to lease or finance planned campus capacity",
+            "mechanism": "Crusoe's private valuation falls, and Nvidia's Crusoe stake with it",
+            "affected": [
+              "ent_crusoe",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If Crusoe cannot fill or finance new campus capacity, its valuation falls and Nvidia's Crusoe stake is written down."
+          },
+          {
+            "trigger": "Crusoe proceeds with its reported IPO",
+            "mechanism": "A listing puts a market price on Nvidia's Crusoe stake",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "mixed",
+            "text": "A Crusoe listing would move Nvidia's stake from an undisclosed carrying value to a quoted price that moves daily."
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "revenue_quality",
+            "trigger": "Crusoe spends new equity and debt on GPU clusters",
+            "mechanism": "Part of Crusoe's capital, including a facility tied by its terms to NVIDIA GPUs, returns to Nvidia as hardware sales",
+            "affected": [
+              "ent_nvidia",
+              "ent_crusoe"
+            ],
+            "direction": "mixed",
+            "text": "Crusoe's Upper90 facility is used exclusively for NVIDIA GPUs, so some Crusoe capital raised alongside Nvidia returns to Nvidia as chip revenue."
+          },
+          {
+            "lens": "lender_reliance",
+            "trigger": "Crusoe's equity cushion shrinks",
+            "mechanism": "Brookfield, Upper90 and the Abilene joint venture partners rely on Crusoe's equity base",
+            "affected": [
+              "ent_brookfield",
+              "ent_upper90",
+              "ent_blue_owl"
+            ],
+            "direction": "negative",
+            "text": "Lenders and joint venture partners of Crusoe rely on its equity rounds, which Nvidia joins, to absorb first losses on GPU and campus assets."
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [
+        {
+          "entity": "ent_brookfield",
+          "role": "lender",
+          "description": "$750 million credit facility from Brookfield's infrastructure debt platform for AI factories and Crusoe Cloud (June 2025).",
+          "amount": {
+            "value": 750000000.0,
+            "as_of": "2025-06-11",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110024"
+            ]
+          },
+          "evidence": [
+            "ev_110024"
+          ]
+        },
+        {
+          "entity": "ent_upper90",
+          "role": "lender",
+          "description": "About $225 million credit facility led by Upper90, used exclusively for NVIDIA GPUs and supporting cloud infrastructure.",
+          "amount": {
+            "value": 225000000.0,
+            "as_of": "2025-03-27",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110025"
+            ]
+          },
+          "evidence": [
+            "ev_110025",
+            "ev_110026"
+          ]
+        },
+        {
+          "entity": "ent_blue_owl",
+          "role": "co_investor",
+          "description": "Joint sponsor with Crusoe and Primary Digital Infrastructure of the second phase of a $15 billion joint venture for the 1.2 GW Abilene campus.",
+          "amount": {
+            "value": 15000000000.0,
+            "as_of": "2025-05-21",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110061"
+            ]
+          },
+          "evidence": [
+            "ev_110061"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "measure_inputs": {
+        "counterparty_nvidia_spend": {
+          "value": 225000000.0,
+          "as_of": "2025-03-27",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_110025"
+          ]
+        },
+        "window": "Only the Upper90 facility names NVIDIA GPUs as the use of proceeds; other Crusoe spending on Nvidia hardware is not quantified in its releases.",
+        "counterparty_equity_raised": {
+          "value": 600000000.0,
+          "as_of": "2024-12-12",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_110015"
+          ]
+        }
+      },
+      "evidence": [
+        "ev_110016",
+        "ev_110015",
+        "ev_110024",
+        "ev_110025",
+        "ev_110026",
+        "ev_110061",
+        "ev_110027"
+      ],
+      "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
+    },
+    {
+      "id": "rel_crusoe_eq_2025",
+      "from": "ent_nvidia",
+      "to": "ent_crusoe",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia participation in the Crusoe Series E",
+      "insight_template": "Nvidia keeps buying into {counterparty} rounds while {counterparty} fills its campuses with Nvidia systems, so the stake tracks GPU demand.",
+      "definition": "Crusoe announced the initial closing of an anticipated $1.375 billion Series E in October 2025, co-led by Valor Equity Partners and Mubadala Capital, and lists NVIDIA among participants. Nvidia's amount is not disclosed.",
+      "status": "completed",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2025-10-24",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "dates": {
+        "announced": "2025-10-24",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_110018"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. Nvidia's newsroom, blogs and filings read for this cluster do not name this investment; Nvidia reports non-marketable equity only in aggregate.",
+        "counterparty_side": "The counterparty's own release names NVIDIA as a participant in the round. It does not state NVIDIA's amount, share class or ownership.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_110018",
+          "ev_110017"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Equity value and the counterparty's GPU rental business both depend on demand for Nvidia based compute; the exposure is capped at cost and does not grow with distress.",
+        "collateral": "None. Equity holder, last in line.",
+        "tenor": "Perpetual (equity).",
+        "notes": "Round size is the counterparty's total, not Nvidia's share."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Crusoe fails to lease or finance planned campus capacity",
+            "mechanism": "Crusoe's private valuation falls, and Nvidia's Crusoe stake with it",
+            "affected": [
+              "ent_crusoe",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If Crusoe cannot fill or finance new campus capacity, its valuation falls and Nvidia's Crusoe stake is written down."
+          },
+          {
+            "trigger": "Crusoe proceeds with its reported IPO",
+            "mechanism": "A listing puts a market price on Nvidia's Crusoe stake",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "mixed",
+            "text": "A Crusoe listing would move Nvidia's stake from an undisclosed carrying value to a quoted price that moves daily."
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "revenue_quality",
+            "trigger": "Crusoe spends new equity and debt on GPU clusters",
+            "mechanism": "Part of Crusoe's capital, including a facility tied by its terms to NVIDIA GPUs, returns to Nvidia as hardware sales",
+            "affected": [
+              "ent_nvidia",
+              "ent_crusoe"
+            ],
+            "direction": "mixed",
+            "text": "Crusoe's Upper90 facility is used exclusively for NVIDIA GPUs, so some Crusoe capital raised alongside Nvidia returns to Nvidia as chip revenue."
+          },
+          {
+            "lens": "lender_reliance",
+            "trigger": "Crusoe's equity cushion shrinks",
+            "mechanism": "Brookfield, Upper90 and the Abilene joint venture partners rely on Crusoe's equity base",
+            "affected": [
+              "ent_brookfield",
+              "ent_upper90",
+              "ent_blue_owl"
+            ],
+            "direction": "negative",
+            "text": "Lenders and joint venture partners of Crusoe rely on its equity rounds, which Nvidia joins, to absorb first losses on GPU and campus assets."
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [
+        {
+          "entity": "ent_brookfield",
+          "role": "lender",
+          "description": "$750 million credit facility from Brookfield's infrastructure debt platform for AI factories and Crusoe Cloud (June 2025).",
+          "amount": {
+            "value": 750000000.0,
+            "as_of": "2025-06-11",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110024"
+            ]
+          },
+          "evidence": [
+            "ev_110024"
+          ]
+        },
+        {
+          "entity": "ent_upper90",
+          "role": "lender",
+          "description": "About $225 million credit facility led by Upper90, used exclusively for NVIDIA GPUs and supporting cloud infrastructure.",
+          "amount": {
+            "value": 225000000.0,
+            "as_of": "2025-03-27",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110025"
+            ]
+          },
+          "evidence": [
+            "ev_110025",
+            "ev_110026"
+          ]
+        },
+        {
+          "entity": "ent_blue_owl",
+          "role": "co_investor",
+          "description": "Joint sponsor with Crusoe and Primary Digital Infrastructure of the second phase of a $15 billion joint venture for the 1.2 GW Abilene campus.",
+          "amount": {
+            "value": 15000000000.0,
+            "as_of": "2025-05-21",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110061"
+            ]
+          },
+          "evidence": [
+            "ev_110061"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "measure_inputs": {
+        "counterparty_nvidia_spend": {
+          "value": 225000000.0,
+          "as_of": "2025-03-27",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_110025"
+          ]
+        },
+        "window": "Only the Upper90 facility names NVIDIA GPUs as the use of proceeds; other Crusoe spending on Nvidia hardware is not quantified in its releases.",
+        "counterparty_equity_raised": {
+          "value": 1375000000.0,
+          "as_of": "2025-10-24",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_110017"
+          ]
+        }
+      },
+      "evidence": [
+        "ev_110018",
+        "ev_110017",
+        "ev_110024",
+        "ev_110025",
+        "ev_110026",
+        "ev_110061",
+        "ev_110027"
+      ],
+      "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
+    },
+    {
+      "id": "rel_crusoe_eq_2026",
+      "from": "ent_nvidia",
+      "to": "ent_crusoe",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia participation in the Crusoe Series F",
+      "insight_template": "Nvidia keeps buying into {counterparty} rounds while {counterparty} fills its campuses with Nvidia systems, so the stake tracks GPU demand.",
+      "definition": "Crusoe announced the initial closing of an anticipated $3.9 billion Series F at a $30.9 billion post-money valuation in September 2026, co-led by Atreides, Mubadala Capital and Valor, and names NVIDIA among new and existing investors. Nvidia's amount is not disclosed and the round total may change at final close.",
+      "status": "completed",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-09-17",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "dates": {
+        "announced": "2026-09-17",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_110020"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. Nvidia's newsroom, blogs and filings read for this cluster do not name this investment; Nvidia reports non-marketable equity only in aggregate.",
+        "counterparty_side": "The counterparty's own release names NVIDIA as a participant in the round. It does not state NVIDIA's amount, share class or ownership.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_110020",
+          "ev_110019"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Equity value and the counterparty's GPU rental business both depend on demand for Nvidia based compute; the exposure is capped at cost and does not grow with distress.",
+        "collateral": "None. Equity holder, last in line.",
+        "tenor": "Perpetual (equity).",
+        "notes": "Round size is the counterparty's total, not Nvidia's share."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Crusoe fails to lease or finance planned campus capacity",
+            "mechanism": "Crusoe's private valuation falls, and Nvidia's Crusoe stake with it",
+            "affected": [
+              "ent_crusoe",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If Crusoe cannot fill or finance new campus capacity, its valuation falls and Nvidia's Crusoe stake is written down."
+          },
+          {
+            "trigger": "Crusoe proceeds with its reported IPO",
+            "mechanism": "A listing puts a market price on Nvidia's Crusoe stake",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "mixed",
+            "text": "A Crusoe listing would move Nvidia's stake from an undisclosed carrying value to a quoted price that moves daily."
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "revenue_quality",
+            "trigger": "Crusoe spends new equity and debt on GPU clusters",
+            "mechanism": "Part of Crusoe's capital, including a facility tied by its terms to NVIDIA GPUs, returns to Nvidia as hardware sales",
+            "affected": [
+              "ent_nvidia",
+              "ent_crusoe"
+            ],
+            "direction": "mixed",
+            "text": "Crusoe's Upper90 facility is used exclusively for NVIDIA GPUs, so some Crusoe capital raised alongside Nvidia returns to Nvidia as chip revenue."
+          },
+          {
+            "lens": "lender_reliance",
+            "trigger": "Crusoe's equity cushion shrinks",
+            "mechanism": "Brookfield, Upper90 and the Abilene joint venture partners rely on Crusoe's equity base",
+            "affected": [
+              "ent_brookfield",
+              "ent_upper90",
+              "ent_blue_owl"
+            ],
+            "direction": "negative",
+            "text": "Lenders and joint venture partners of Crusoe rely on its equity rounds, which Nvidia joins, to absorb first losses on GPU and campus assets."
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [
+        {
+          "entity": "ent_brookfield",
+          "role": "lender",
+          "description": "$750 million credit facility from Brookfield's infrastructure debt platform for AI factories and Crusoe Cloud (June 2025).",
+          "amount": {
+            "value": 750000000.0,
+            "as_of": "2025-06-11",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110024"
+            ]
+          },
+          "evidence": [
+            "ev_110024"
+          ]
+        },
+        {
+          "entity": "ent_upper90",
+          "role": "lender",
+          "description": "About $225 million credit facility led by Upper90, used exclusively for NVIDIA GPUs and supporting cloud infrastructure.",
+          "amount": {
+            "value": 225000000.0,
+            "as_of": "2025-03-27",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110025"
+            ]
+          },
+          "evidence": [
+            "ev_110025",
+            "ev_110026"
+          ]
+        },
+        {
+          "entity": "ent_blue_owl",
+          "role": "co_investor",
+          "description": "Joint sponsor with Crusoe and Primary Digital Infrastructure of the second phase of a $15 billion joint venture for the 1.2 GW Abilene campus.",
+          "amount": {
+            "value": 15000000000.0,
+            "as_of": "2025-05-21",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110061"
+            ]
+          },
+          "evidence": [
+            "ev_110061"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "measure_inputs": {
+        "counterparty_nvidia_spend": {
+          "value": 225000000.0,
+          "as_of": "2025-03-27",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_110025"
+          ]
+        },
+        "window": "Only the Upper90 facility names NVIDIA GPUs as the use of proceeds; other Crusoe spending on Nvidia hardware is not quantified in its releases.",
+        "counterparty_equity_raised": {
+          "value": 3900000000.0,
+          "as_of": "2026-09-17",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_110019"
+          ]
+        }
+      },
+      "evidence": [
+        "ev_110020",
+        "ev_110019",
+        "ev_110024",
+        "ev_110025",
+        "ev_110026",
+        "ev_110061",
+        "ev_110027",
+        "ev_110021",
+        "ev_110022",
+        "ev_110023"
+      ],
+      "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
+    },
+    {
+      "id": "rel_firmus_eq_2025",
+      "from": "ent_nvidia",
+      "to": "ent_firmus",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia participation in the Firmus A$330m placement",
+      "insight_template": "Nvidia owns equity in {counterparty}, which withdrew its IPO while most contracted capacity is still unbuilt, so the stake depends on private funding.",
+      "definition": "Firmus closed an A$330m equity placement in September 2025 with a cornerstone investment by Ellerston Capital and participation from NVIDIA. Nvidia's amount is not disclosed. The figure is in Australian dollars.",
+      "status": "completed",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2025-09-16",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "dates": {
+        "announced": "2025-09-16",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_110062"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. Nvidia's newsroom, blogs and filings read for this cluster do not name this investment; Nvidia reports non-marketable equity only in aggregate.",
+        "counterparty_side": "The counterparty's own release names NVIDIA as a participant in the round. It does not state NVIDIA's amount, share class or ownership.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_110062"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Equity value and the counterparty's GPU rental business both depend on demand for Nvidia based compute; the exposure is capped at cost and does not grow with distress.",
+        "collateral": "None. Equity holder, last in line.",
+        "tenor": "Perpetual (equity).",
+        "notes": "Round size A$330m (AUD, not converted; the grounding tool does not parse the A$330m form)."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Firmus cannot raise the capital for its unbuilt contracted sites",
+            "mechanism": "Firmus's valuation falls below the private round prices at which Nvidia invested",
+            "affected": [
+              "ent_firmus",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If Firmus cannot fund its unbuilt sites after the withdrawn IPO, Nvidia's Firmus stake loses value against its private round prices."
+          },
+          {
+            "trigger": "Nvidia adds new equity after the IPO withdrawal",
+            "mechanism": "Nvidia's Firmus exposure rises while Firmus's market access is weakest",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "Reported talks for Nvidia to back Firmus after the failed IPO would raise Nvidia's exposure when Firmus depends most on it."
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "contagion",
+            "trigger": "Firmus delays Batam or Malaysia sites",
+            "mechanism": "OpenAI and other Firmus customers lose contracted capacity",
+            "affected": [
+              "ent_openai",
+              "ent_firmus"
+            ],
+            "direction": "negative",
+            "text": "If Firmus delays sites, OpenAI and other Firmus customers lose contracted capacity they had planned around."
+          },
+          {
+            "lens": "signaling",
+            "trigger": "Nvidia participates in each Firmus round",
+            "mechanism": "Nvidia's presence supports Firmus's private valuations and its Blackstone debt terms",
+            "affected": [
+              "ent_blackstone",
+              "ent_coatue",
+              "ent_firmus"
+            ],
+            "direction": "mixed",
+            "text": "Coatue and Blackstone invested alongside Nvidia in Firmus, so an Nvidia step back would weaken the case for their Firmus funding."
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [
+        {
+          "entity": "ent_coatue",
+          "role": "co_investor",
+          "description": "Led the USD505 million round and followed on in the USD2 billion round alongside Nvidia; also supports the Blackstone led debt facility.",
+          "amount": null,
+          "evidence": [
+            "ev_110029",
+            "ev_110033",
+            "ev_110035"
+          ]
+        },
+        {
+          "entity": "ent_blackstone",
+          "role": "lender",
+          "description": "Leads the US$10 billion Firmus debt financing facility (February 2026) and invested in the August 2026 equity round.",
+          "amount": {
+            "value": 10000000000.0,
+            "as_of": "2026-02-09",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110035"
+            ]
+          },
+          "evidence": [
+            "ev_110035",
+            "ev_110033"
+          ]
+        },
+        {
+          "entity": "ent_openai",
+          "role": "offtaker",
+          "description": "Anchor customer contracting dedicated compute capacity from two Firmus AI factory sites in Malaysia; amount not stated.",
+          "amount": null,
+          "evidence": [
+            "ev_110046"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "measure_inputs": {},
+      "evidence": [
+        "ev_110062",
+        "ev_110028",
+        "ev_110051"
+      ],
+      "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
+    },
+    {
+      "id": "rel_firmus_eq_2026a",
+      "from": "ent_nvidia",
+      "to": "ent_firmus",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia participation in the Firmus USD505 million round",
+      "insight_template": "Nvidia owns equity in {counterparty}, which withdrew its IPO while most contracted capacity is still unbuilt, so the stake depends on private funding.",
+      "definition": "Firmus announced that it expected to secure a further USD505 million strategic equity investment led by Coatue, with NVIDIA participating subject to certain closing conditions. Nikkei Asia reported the raise as including a further infusion from Nvidia. Nvidia's amount is not disclosed.",
+      "status": "completed",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-04-07",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "dates": {
+        "announced": "2026-04-07",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_110029"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. Nvidia's newsroom, blogs and filings read for this cluster do not name this investment; Nvidia reports non-marketable equity only in aggregate.",
+        "counterparty_side": "The counterparty's own release names NVIDIA as a participant in the round. It does not state NVIDIA's amount, share class or ownership.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_110029",
+          "ev_110030"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Equity value and the counterparty's GPU rental business both depend on demand for Nvidia based compute; the exposure is capped at cost and does not grow with distress.",
+        "collateral": "None. Equity holder, last in line.",
+        "tenor": "Perpetual (equity).",
+        "notes": "At announcement Nvidia's participation was conditional; the August 2026 release calls Nvidia's later investment follow-on participation, which implies it completed (analysis)."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Firmus cannot raise the capital for its unbuilt contracted sites",
+            "mechanism": "Firmus's valuation falls below the private round prices at which Nvidia invested",
+            "affected": [
+              "ent_firmus",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If Firmus cannot fund its unbuilt sites after the withdrawn IPO, Nvidia's Firmus stake loses value against its private round prices."
+          },
+          {
+            "trigger": "Nvidia adds new equity after the IPO withdrawal",
+            "mechanism": "Nvidia's Firmus exposure rises while Firmus's market access is weakest",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "Reported talks for Nvidia to back Firmus after the failed IPO would raise Nvidia's exposure when Firmus depends most on it."
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "contagion",
+            "trigger": "Firmus delays Batam or Malaysia sites",
+            "mechanism": "OpenAI and other Firmus customers lose contracted capacity",
+            "affected": [
+              "ent_openai",
+              "ent_firmus"
+            ],
+            "direction": "negative",
+            "text": "If Firmus delays sites, OpenAI and other Firmus customers lose contracted capacity they had planned around."
+          },
+          {
+            "lens": "signaling",
+            "trigger": "Nvidia participates in each Firmus round",
+            "mechanism": "Nvidia's presence supports Firmus's private valuations and its Blackstone debt terms",
+            "affected": [
+              "ent_blackstone",
+              "ent_coatue",
+              "ent_firmus"
+            ],
+            "direction": "mixed",
+            "text": "Coatue and Blackstone invested alongside Nvidia in Firmus, so an Nvidia step back would weaken the case for their Firmus funding."
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [
+        {
+          "entity": "ent_coatue",
+          "role": "co_investor",
+          "description": "Led the USD505 million round and followed on in the USD2 billion round alongside Nvidia; also supports the Blackstone led debt facility.",
+          "amount": null,
+          "evidence": [
+            "ev_110029",
+            "ev_110033",
+            "ev_110035"
+          ]
+        },
+        {
+          "entity": "ent_blackstone",
+          "role": "lender",
+          "description": "Leads the US$10 billion Firmus debt financing facility (February 2026) and invested in the August 2026 equity round.",
+          "amount": {
+            "value": 10000000000.0,
+            "as_of": "2026-02-09",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110035"
+            ]
+          },
+          "evidence": [
+            "ev_110035",
+            "ev_110033"
+          ]
+        },
+        {
+          "entity": "ent_openai",
+          "role": "offtaker",
+          "description": "Anchor customer contracting dedicated compute capacity from two Firmus AI factory sites in Malaysia; amount not stated.",
+          "amount": null,
+          "evidence": [
+            "ev_110046"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "measure_inputs": {
+        "counterparty_equity_raised": {
+          "value": 505000000.0,
+          "as_of": "2026-04-07",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_110029",
+            "ev_110063"
+          ]
+        }
+      },
+      "evidence": [
+        "ev_110029",
+        "ev_110030",
+        "ev_110031",
+        "ev_110063"
+      ],
+      "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
+    },
+    {
+      "id": "rel_firmus_eq_2026b",
+      "from": "ent_nvidia",
+      "to": "ent_firmus",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia follow-on in the Firmus USD2 billion round",
+      "insight_template": "Nvidia owns equity in {counterparty}, which withdrew its IPO while most contracted capacity is still unbuilt, so the stake depends on private funding.",
+      "definition": "Firmus announced full commitments for a USD2 billion strategic equity round in August 2026, with follow-on participation from Coatue and NVIDIA and new investment from Blackstone funds and Jane Street. Firmus says total new equity raised over the past year exceeds USD3 billion at a post-money valuation above USD10.5 billion. Nvidia's amount is not disclosed.",
+      "status": "definitive",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-08-07",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "dates": {
+        "announced": "2026-08-07",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_110032"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. Nvidia's newsroom, blogs and filings read for this cluster do not name this investment; Nvidia reports non-marketable equity only in aggregate.",
+        "counterparty_side": "The counterparty's own release names NVIDIA as a participant in the round. It does not state NVIDIA's amount, share class or ownership.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_110032",
+          "ev_110033"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Equity value and the counterparty's GPU rental business both depend on demand for Nvidia based compute; the exposure is capped at cost and does not grow with distress.",
+        "collateral": "None. Equity holder, last in line.",
+        "tenor": "Perpetual (equity).",
+        "notes": "Bloomberg and The Information (October 2026) report Nvidia in talks to invest further after the IPO withdrawal; both pages returned HTTP 403 and Bloomberg cites The Information, so this is one source. Not recorded."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Firmus cannot raise the capital for its unbuilt contracted sites",
+            "mechanism": "Firmus's valuation falls below the private round prices at which Nvidia invested",
+            "affected": [
+              "ent_firmus",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If Firmus cannot fund its unbuilt sites after the withdrawn IPO, Nvidia's Firmus stake loses value against its private round prices."
+          },
+          {
+            "trigger": "Nvidia adds new equity after the IPO withdrawal",
+            "mechanism": "Nvidia's Firmus exposure rises while Firmus's market access is weakest",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "Reported talks for Nvidia to back Firmus after the failed IPO would raise Nvidia's exposure when Firmus depends most on it."
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "contagion",
+            "trigger": "Firmus delays Batam or Malaysia sites",
+            "mechanism": "OpenAI and other Firmus customers lose contracted capacity",
+            "affected": [
+              "ent_openai",
+              "ent_firmus"
+            ],
+            "direction": "negative",
+            "text": "If Firmus delays sites, OpenAI and other Firmus customers lose contracted capacity they had planned around."
+          },
+          {
+            "lens": "signaling",
+            "trigger": "Nvidia participates in each Firmus round",
+            "mechanism": "Nvidia's presence supports Firmus's private valuations and its Blackstone debt terms",
+            "affected": [
+              "ent_blackstone",
+              "ent_coatue",
+              "ent_firmus"
+            ],
+            "direction": "mixed",
+            "text": "Coatue and Blackstone invested alongside Nvidia in Firmus, so an Nvidia step back would weaken the case for their Firmus funding."
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [
+        {
+          "entity": "ent_coatue",
+          "role": "co_investor",
+          "description": "Led the USD505 million round and followed on in the USD2 billion round alongside Nvidia; also supports the Blackstone led debt facility.",
+          "amount": null,
+          "evidence": [
+            "ev_110029",
+            "ev_110033",
+            "ev_110035"
+          ]
+        },
+        {
+          "entity": "ent_blackstone",
+          "role": "lender",
+          "description": "Leads the US$10 billion Firmus debt financing facility (February 2026) and invested in the August 2026 equity round.",
+          "amount": {
+            "value": 10000000000.0,
+            "as_of": "2026-02-09",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110035"
+            ]
+          },
+          "evidence": [
+            "ev_110035",
+            "ev_110033"
+          ]
+        },
+        {
+          "entity": "ent_openai",
+          "role": "offtaker",
+          "description": "Anchor customer contracting dedicated compute capacity from two Firmus AI factory sites in Malaysia; amount not stated.",
+          "amount": null,
+          "evidence": [
+            "ev_110046"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "measure_inputs": {
+        "counterparty_equity_raised": {
+          "value": 3000000000.0,
+          "as_of": "2026-08-07",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_110034"
+          ]
+        }
+      },
+      "evidence": [
+        "ev_110032",
+        "ev_110033",
+        "ev_110034",
+        "ev_110051",
+        "ev_110035",
+        "ev_110050",
+        "ev_110048",
+        "ev_110049"
+      ],
+      "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
+    },
+    {
+      "id": "rel_firmus_bk_2026",
+      "from": "ent_nvidia",
+      "to": "ent_firmus",
+      "type_primary": "BK",
+      "types_secondary": [
+        "GU"
+      ],
+      "title": "Nvidia revenue sharing and credit support for the Firmus Batam campus",
+      "insight_template": "Nvidia gives credit support to {counterparty}'s Batam campus in return for a revenue share, so its exposure grows if customers do not take the capacity.",
+      "definition": "Firmus announced a strategic compute partnership with NVIDIA running through 2034, anchored by a 360 MW NVIDIA DSX campus in Batam, Indonesia, covering up to 170,000 NVIDIA accelerators. Firmus procures NVIDIA infrastructure through a revenue-sharing and credit-support model: NVIDIA earns product revenue plus a share of cloud revenue on the supported capacity. Nvidia's own blog names Firmus as one of the first partners in this model. Neither side discloses the size or trigger of the credit support.",
+      "status": "definitive",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "funded": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-06-28",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "contingent_max": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "trigger": "Firmus cannot sell the supported Batam capacity to customers (form and cap of the credit support not disclosed)"
+        }
+      },
+      "dates": {
+        "announced": "2026-06-28",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_110038"
+        ]
+      },
+      "seniority": "contingent_buyer",
+      "reconciliation": {
+        "result": "partial",
+        "nvidia_side": "Nvidia's blog of 2026-07-01 describes a revenue-sharing and credit-support model for AI clouds and names Firmus and its Batam campus (360 MW, up to 170,000 GPUs). Nvidia's 10-Q for the quarter ended 2026-07-26 reports AI cloud agreements in aggregate ($36 billion) without naming partners.",
+        "counterparty_side": "Firmus release of 2026-06-28: partnership through 2034, revenue-sharing and credit-support model, up to 170,000 accelerators, expected US$25 to 30 billion from committed offtake over six years.",
+        "nvidia_evidence": [
+          "ev_110043",
+          "ev_110044",
+          "ev_110045",
+          "ev_10036",
+          "ev_50078"
+        ],
+        "counterparty_evidence": [
+          "ev_110037",
+          "ev_110038",
+          "ev_110039",
+          "ev_110040",
+          "ev_110041"
+        ],
+        "differences": [
+          {
+            "field": "term",
+            "nvidia_value": "Not stated in the Nvidia blog",
+            "counterparty_value": "Through 2034",
+            "evidence": [
+              "ev_110038"
+            ]
+          },
+          {
+            "field": "amount",
+            "nvidia_value": "Included, if at all, only in the unattributed AI cloud agreements aggregate",
+            "counterparty_value": "Not stated; Firmus gives expected customer offtake, not Nvidia's commitment",
+            "evidence": [
+              "ev_10036",
+              "ev_110041"
+            ]
+          }
+        ]
+      },
+      "credit": {
+        "wwr": "specific",
+        "wwr_reason": "Credit support on Batam capacity is called on when Firmus cannot sell that capacity, which is when Firmus is weakest.",
+        "collateral": "Not disclosed. Nvidia would receive capacity or a revenue share, not security over the campus, as far as the releases say.",
+        "tenor": "Partnership runs through 2034; GPU deliveries across 2027 and 2028.",
+        "notes": "Nvidia's 10-Q says AI cloud agreements commit Nvidia to buy capacity if AI clouds do not sell it to third parties (ev_50078); whether the Firmus Batam agreement is one of those contracts is analysis, not stated. The Information (single source, 403) reported Nvidia will earn a revenue share and provide credit support for Batam."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Batam customers take less capacity than Firmus contracted for",
+            "mechanism": "Nvidia's credit support pays for or absorbs Firmus's unsold Batam capacity",
+            "affected": [
+              "ent_nvidia",
+              "ent_firmus"
+            ],
+            "direction": "negative",
+            "text": "If Firmus cannot place Batam capacity with customers, Nvidia's credit support turns from a sales tool into a payment."
+          },
+          {
+            "trigger": "Batam capacity is fully used",
+            "mechanism": "Nvidia earns a share of Firmus cloud revenue on top of chip sales",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "positive",
+            "text": "If Firmus fills Batam, Nvidia earns recurring revenue share on top of the chips it sold to Firmus."
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "revenue_quality",
+            "trigger": "Nvidia reports chip sales to Firmus for Batam",
+            "mechanism": "Nvidia's own credit support underwrites the demand behind those sales",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "Chip revenue from Firmus's Batam campus rests partly on Nvidia's own credit support, so it is weaker evidence of end demand."
+          },
+          {
+            "lens": "lender_reliance",
+            "trigger": "Lenders finance Batam GPUs",
+            "mechanism": "Lenders size Batam debt against capacity that Nvidia supports",
+            "affected": [
+              "ent_firmus",
+              "ent_blackstone"
+            ],
+            "direction": "negative",
+            "text": "Lenders to Firmus's Batam campus can rely on Nvidia's credit support, so any change in Nvidia's support would reprice that debt."
+          },
+          {
+            "lens": "contagion",
+            "trigger": "Firmus fails after its withdrawn IPO",
+            "mechanism": "Nvidia faces Batam support calls just as other Firmus funders retreat",
+            "affected": [
+              "ent_nvidia",
+              "ent_coatue",
+              "ent_firmus"
+            ],
+            "direction": "negative",
+            "text": "Nvidia is both an equity holder in Firmus and a credit supporter of its Batam campus, so a Firmus failure hits Nvidia twice."
+          }
+        ]
+      },
+      "projects": [
+        "proj_firmus_batam"
+      ],
+      "depth2_links": [
+        {
+          "entity": "ent_blackstone",
+          "role": "lender",
+          "description": "Leads the US$10 billion Firmus debt facility; whether any of it funds Batam is not disclosed.",
+          "amount": {
+            "value": 10000000000.0,
+            "as_of": "2026-02-09",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_110035"
+            ]
+          },
+          "evidence": [
+            "ev_110035"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "stress_inputs": {},
+      "evidence": [
+        "ev_110037",
+        "ev_110038",
+        "ev_110039",
+        "ev_110040",
+        "ev_110041",
+        "ev_110042",
+        "ev_110043",
+        "ev_110044",
+        "ev_110045",
+        "ev_110035",
+        "ev_10036",
+        "ev_50078"
+      ],
+      "notes": "Firmus's expected US$25 to 30 billion is customer offtake to Firmus over six years, not Nvidia's exposure; it is not entered as an amount. DayOne is co-developer of the campus."
+    },
+    {
+      "id": "rel_together_ai_eq_2023",
+      "from": "ent_nvidia",
+      "to": "ent_together_ai",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia participation in the Together AI Series A",
+      "insight_template": "Nvidia holds undisclosed equity in {counterparty}, which rents Nvidia capacity from other clouds, so the stake rides on resale demand.",
+      "definition": "Together AI raised a $102.5M Series A in November 2023 led by Kleiner Perkins, with participation from NVIDIA and Emergence Capital. Nvidia's amount is not disclosed.",
+      "status": "completed",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2023-11-29",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "dates": {
+        "announced": "2023-11-29",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_110053"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. Nvidia's newsroom, blogs and filings read for this cluster do not name this investment; Nvidia reports non-marketable equity only in aggregate.",
+        "counterparty_side": "The counterparty's own release names NVIDIA as a participant in the round. It does not state NVIDIA's amount, share class or ownership.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_110053",
+          "ev_110064"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Equity value and the counterparty's GPU rental business both depend on demand for Nvidia based compute; the exposure is capped at cost and does not grow with distress.",
+        "collateral": "None. Equity holder, last in line.",
+        "tenor": "Perpetual (equity).",
+        "notes": "Round size is Together AI's total, not Nvidia's share."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Together AI's inference demand slows",
+            "mechanism": "Together AI's valuation falls, reducing Nvidia's stake value",
+            "affected": [
+              "ent_together_ai",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If demand for Together AI's open model inference slows, Nvidia's Together AI stake loses value."
+          },
+          {
+            "trigger": "Together AI expands capacity",
+            "mechanism": "Together AI buys or rents more Nvidia GPU capacity",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "positive",
+            "text": "Growth at Together AI adds demand for Nvidia GPUs that Together AI rents from IREN, Crusoe and others."
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "contagion",
+            "trigger": "Together AI cuts its capacity commitments",
+            "mechanism": "IREN and Crusoe lose a named GPU cloud customer",
+            "affected": [
+              "ent_iren",
+              "ent_crusoe"
+            ],
+            "direction": "negative",
+            "text": "Together AI is a named customer of IREN and of Crusoe, so a Together AI pullback would cut revenue at other Nvidia backed clouds."
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "measure_inputs": {},
+      "evidence": [
+        "ev_110053",
+        "ev_110064",
+        "ev_40120"
+      ],
+      "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
+    },
+    {
+      "id": "rel_together_ai_eq_2025",
+      "from": "ent_nvidia",
+      "to": "ent_together_ai",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia participation in the Together AI Series B",
+      "insight_template": "Nvidia holds undisclosed equity in {counterparty}, which rents Nvidia capacity from other clouds, so the stake rides on resale demand.",
+      "definition": "Together AI raised a $305 million Series B in February 2025 led by General Catalyst and co-led by Prosperity7, with NVIDIA among participants. The round funds deployment of NVIDIA Blackwell GPUs. Nvidia's amount is not disclosed.",
+      "status": "completed",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2025-02-20",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "dates": {
+        "announced": "2025-02-20",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_110055"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. Nvidia's newsroom, blogs and filings read for this cluster do not name this investment; Nvidia reports non-marketable equity only in aggregate.",
+        "counterparty_side": "The counterparty's own release names NVIDIA as a participant in the round. It does not state NVIDIA's amount, share class or ownership.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_110055",
+          "ev_110054"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Equity value and the counterparty's GPU rental business both depend on demand for Nvidia based compute; the exposure is capped at cost and does not grow with distress.",
+        "collateral": "None. Equity holder, last in line.",
+        "tenor": "Perpetual (equity).",
+        "notes": "Round size is Together AI's total, not Nvidia's share."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Together AI's inference demand slows",
+            "mechanism": "Together AI's valuation falls, reducing Nvidia's stake value",
+            "affected": [
+              "ent_together_ai",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If demand for Together AI's open model inference slows, Nvidia's Together AI stake loses value."
+          },
+          {
+            "trigger": "Together AI expands capacity",
+            "mechanism": "Together AI buys or rents more Nvidia GPU capacity",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "positive",
+            "text": "Growth at Together AI adds demand for Nvidia GPUs that Together AI rents from IREN, Crusoe and others."
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "contagion",
+            "trigger": "Together AI cuts its capacity commitments",
+            "mechanism": "IREN and Crusoe lose a named GPU cloud customer",
+            "affected": [
+              "ent_iren",
+              "ent_crusoe"
+            ],
+            "direction": "negative",
+            "text": "Together AI is a named customer of IREN and of Crusoe, so a Together AI pullback would cut revenue at other Nvidia backed clouds."
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "measure_inputs": {
+        "counterparty_equity_raised": {
+          "value": 305000000.0,
+          "as_of": "2025-02-20",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_110054"
+          ]
+        }
+      },
+      "evidence": [
+        "ev_110055",
+        "ev_110054",
+        "ev_40120"
+      ],
+      "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
+    },
+    {
+      "id": "rel_together_ai_eq_2026",
+      "from": "ent_nvidia",
+      "to": "ent_together_ai",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia participation in the Together AI Series C",
+      "insight_template": "Nvidia holds undisclosed equity in {counterparty}, which rents Nvidia capacity from other clouds, so the stake rides on resale demand.",
+      "definition": "Together AI raised an $800 million Series C in July 2026 with NVIDIA among the investors, and secured commitments for over 500 MW of compute capacity to be capitalized independently by its new investors. Nvidia's amount is not disclosed.",
+      "status": "completed",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-07-01",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "dates": {
+        "announced": "2026-07-01",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_110057"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. Nvidia's newsroom, blogs and filings read for this cluster do not name this investment; Nvidia reports non-marketable equity only in aggregate.",
+        "counterparty_side": "The counterparty's own release names NVIDIA as a participant in the round. It does not state NVIDIA's amount, share class or ownership.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_110057",
+          "ev_110056"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Equity value and the counterparty's GPU rental business both depend on demand for Nvidia based compute; the exposure is capped at cost and does not grow with distress.",
+        "collateral": "None. Equity holder, last in line.",
+        "tenor": "Perpetual (equity).",
+        "notes": "Round size is Together AI's total, not Nvidia's share."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Together AI's inference demand slows",
+            "mechanism": "Together AI's valuation falls, reducing Nvidia's stake value",
+            "affected": [
+              "ent_together_ai",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If demand for Together AI's open model inference slows, Nvidia's Together AI stake loses value."
+          },
+          {
+            "trigger": "Together AI expands capacity",
+            "mechanism": "Together AI buys or rents more Nvidia GPU capacity",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "positive",
+            "text": "Growth at Together AI adds demand for Nvidia GPUs that Together AI rents from IREN, Crusoe and others."
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "contagion",
+            "trigger": "Together AI cuts its capacity commitments",
+            "mechanism": "IREN and Crusoe lose a named GPU cloud customer",
+            "affected": [
+              "ent_iren",
+              "ent_crusoe"
+            ],
+            "direction": "negative",
+            "text": "Together AI is a named customer of IREN and of Crusoe, so a Together AI pullback would cut revenue at other Nvidia backed clouds."
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "measure_inputs": {
+        "counterparty_equity_raised": {
+          "value": 800000000.0,
+          "as_of": "2026-07-01",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_110056"
+          ]
+        }
+      },
+      "evidence": [
+        "ev_110057",
+        "ev_110056",
+        "ev_110058",
+        "ev_40120"
+      ],
+      "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_firmus_batam",
+      "entity": "ent_firmus",
+      "name": "Firmus Batam NVIDIA DSX AI factory campus",
+      "location": "Batam, Indonesia",
+      "power_mw_contracted": {
+        "value": 360,
+        "as_of": "2026-06-28",
+        "evidence": [
+          "ev_110039",
+          "ev_110045"
+        ],
+        "note": "Planned dedicated campus capacity"
+      },
+      "power_mw_energized": {
+        "value": null,
+        "as_of": null,
+        "evidence": []
+      },
+      "gpu_generation": "Grace Blackwell, Vera Rubin and Vera platforms (2027 and 2028)",
+      "gpu_count": 170000,
+      "anchor_tenant": null,
+      "contract_years": null,
+      "financing": [],
+      "expected_completion": null,
+      "nvidia_link": [
+        "rel_firmus_bk_2026"
+      ],
+      "role": "covered",
+      "notes": "Partnership runs through 2034 (no day or month given, so dates.maturity is left null); GPU count is an up to figure. Developed with DayOne. Customer names not disclosed; Firmus expects US$25 to 30 billion of committed offtake over six years.",
+      "evidence": [
+        "ev_110039",
+        "ev_110040",
+        "ev_110042",
+        "ev_110041",
+        "ev_110045"
+      ]
+    },
+    {
+      "id": "proj_firmus_southgate",
+      "entity": "ent_firmus",
+      "name": "Project Southgate",
+      "location": "Tasmania and other Australian sites",
+      "power_mw_contracted": {
+        "value": null,
+        "as_of": null,
+        "evidence": []
+      },
+      "power_mw_energized": {
+        "value": null,
+        "as_of": null,
+        "evidence": []
+      },
+      "gpu_generation": "NVIDIA GPUs on the DSX reference design",
+      "gpu_count": 36000,
+      "anchor_tenant": null,
+      "contract_years": null,
+      "financing": [
+        {
+          "facility": "US$10 billion debt financing facility led by Blackstone funds, supported by Coatue",
+          "lenders": [
+            "ent_blackstone",
+            "ent_coatue"
+          ],
+          "balance": {
+            "value": null,
+            "as_of": null,
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": null,
+            "display_eligible": false,
+            "lower_bound": false,
+            "evidence": []
+          },
+          "collateral_value": null,
+          "secured_by": "Not disclosed",
+          "covenant_ltv": null,
+          "evidence": [
+            "ev_110035",
+            "ev_110050"
+          ]
+        }
+      ],
+      "expected_completion": "Scale up to 1.6 GW through 2028 (company target)",
+      "nvidia_link": [
+        "rel_firmus_eq_2025",
+        "rel_firmus_eq_2026a",
+        "rel_firmus_eq_2026b"
+      ],
+      "role": "context",
+      "notes": "GPU count 36,000 is the Tasmania campus over two stages. Facility size is US$10 billion; drawn balance unknown so balance is left null.",
+      "evidence": [
+        "ev_110028",
+        "ev_110035",
+        "ev_110036"
+      ]
+    },
+    {
+      "id": "proj_firmus_malaysia",
+      "entity": "ent_firmus",
+      "name": "Firmus Malaysia AI factory sites (two)",
+      "location": "Malaysia",
+      "power_mw_contracted": {
+        "value": null,
+        "as_of": null,
+        "evidence": []
+      },
+      "power_mw_energized": {
+        "value": null,
+        "as_of": null,
+        "evidence": []
+      },
+      "gpu_generation": "NVIDIA Vera Rubin NVL72",
+      "gpu_count": null,
+      "anchor_tenant": "ent_openai",
+      "contract_years": null,
+      "financing": [],
+      "expected_completion": null,
+      "nvidia_link": [],
+      "role": "context",
+      "notes": "OpenAI contract is multi-year (length not stated). Firmus total contracted capacity more than 900 MW across customers.",
+      "evidence": [
+        "ev_110046",
+        "ev_110047"
+      ]
+    },
+    {
+      "id": "proj_crusoe_abilene",
+      "entity": "ent_crusoe",
+      "name": "Abilene AI data center campus",
+      "location": "Abilene, Texas, US",
+      "power_mw_contracted": {
+        "value": 1200,
+        "as_of": "2025-05-21",
+        "evidence": [
+          "ev_110061"
+        ],
+        "note": "1.2 GW campus, eight buildings"
+      },
+      "power_mw_energized": {
+        "value": null,
+        "as_of": null,
+        "evidence": []
+      },
+      "gpu_generation": "NVIDIA GB200 NVL72",
+      "gpu_count": null,
+      "anchor_tenant": null,
+      "contract_years": null,
+      "financing": [
+        {
+          "facility": "Joint venture with Blue Owl Real Assets funds and Primary Digital Infrastructure (second phase of a $15 billion joint venture)",
+          "lenders": [
+            "ent_blue_owl"
+          ],
+          "balance": {
+            "value": null,
+            "as_of": null,
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": null,
+            "display_eligible": false,
+            "lower_bound": false,
+            "evidence": []
+          },
+          "collateral_value": null,
+          "secured_by": "Not disclosed",
+          "covenant_ltv": null,
+          "evidence": [
+            "ev_110061"
+          ]
+        }
+      ],
+      "expected_completion": "Second phase energization expected mid 2026 (as of May 2025)",
+      "nvidia_link": [],
+      "role": "context",
+      "notes": "Each building designed for up to 50,000 NVIDIA GB200 NVL72s. Tenant not named in the Crusoe release. No Nvidia credit support found for this site.",
+      "evidence": [
+        "ev_110061",
+        "ev_110027"
+      ]
+    },
+    {
+      "id": "proj_lambda_anthropic_aug2026",
+      "entity": "ent_lambda",
+      "name": "Facility for the August 2026 Lambda and Anthropic agreement",
+      "location": "Not disclosed",
+      "power_mw_contracted": {
+        "value": null,
+        "as_of": null,
+        "evidence": []
+      },
+      "power_mw_energized": {
+        "value": null,
+        "as_of": null,
+        "evidence": []
+      },
+      "gpu_generation": "NVIDIA GPUs (generation not stated)",
+      "gpu_count": null,
+      "anchor_tenant": "ent_anthropic",
+      "contract_years": null,
+      "financing": [],
+      "expected_completion": null,
+      "nvidia_link": [],
+      "role": "context",
+      "notes": "Terms extend into 2034. Lambda did not secure the facility lease by the contractual date, so the agreement (about $34.9 billion of Anthropic's commitment) is terminable by either party; neither had given notice as of 2026-11-19.",
+      "evidence": [
+        "ev_110012",
+        "ev_110013"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_lambda_series_d",
+      "date": "2025-02-19",
+      "relationship": "rel_lambda_eq_2025",
+      "kind": "announcement",
+      "summary": "Lambda announces its Series D with NVIDIA among new investors.",
+      "evidence": [
+        "ev_110001"
+      ]
+    },
+    {
+      "id": "evt_lambda_tlb",
+      "date": "2026-08-12",
+      "relationship": "rel_lambda_eq_2025",
+      "kind": "announcement",
+      "summary": "Lambda prices a term loan B secured by GPUs dedicated to an investment-grade offtaker.",
+      "evidence": [
+        "ev_110002"
+      ]
+    },
+    {
+      "id": "evt_lambda_fixed_ddtl",
+      "date": "2026-10-01",
+      "relationship": "rel_lambda_eq_2025",
+      "kind": "closing",
+      "summary": "Lambda closes a fixed rate delayed draw term loan backed by two investment-grade offtakers.",
+      "evidence": [
+        "ev_110006"
+      ]
+    },
+    {
+      "id": "evt_lambda_anthropic_terminable",
+      "date": "2026-11-19",
+      "relationship": "rel_lambda_eq_2025",
+      "kind": "filing",
+      "summary": "Anthropic's prospectus says its August 2026 Lambda agreement is terminable because Lambda did not secure the facility lease.",
+      "evidence": [
+        "ev_110013"
+      ]
+    },
+    {
+      "id": "evt_crusoe_series_d",
+      "date": "2024-12-12",
+      "relationship": "rel_crusoe_eq_2024",
+      "kind": "closing",
+      "summary": "Crusoe closes its Series D with NVIDIA participating.",
+      "evidence": [
+        "ev_110016"
+      ]
+    },
+    {
+      "id": "evt_crusoe_series_e",
+      "date": "2025-10-24",
+      "relationship": "rel_crusoe_eq_2025",
+      "kind": "closing",
+      "summary": "Crusoe announces the initial closing of its Series E with NVIDIA participating.",
+      "evidence": [
+        "ev_110018"
+      ]
+    },
+    {
+      "id": "evt_crusoe_series_f",
+      "date": "2026-09-17",
+      "relationship": "rel_crusoe_eq_2026",
+      "kind": "closing",
+      "summary": "Crusoe announces the initial closing of its Series F with NVIDIA among investors.",
+      "evidence": [
+        "ev_110020"
+      ]
+    },
+    {
+      "id": "evt_firmus_placement",
+      "date": "2025-09-16",
+      "relationship": "rel_firmus_eq_2025",
+      "kind": "closing",
+      "summary": "Firmus closes an Australian dollar placement with NVIDIA participation.",
+      "evidence": [
+        "ev_110062"
+      ]
+    },
+    {
+      "id": "evt_firmus_505",
+      "date": "2026-04-07",
+      "relationship": "rel_firmus_eq_2026a",
+      "kind": "announcement",
+      "summary": "Firmus announces a Coatue led round with NVIDIA participation subject to closing conditions.",
+      "evidence": [
+        "ev_110030"
+      ]
+    },
+    {
+      "id": "evt_firmus_batam",
+      "date": "2026-06-28",
+      "relationship": "rel_firmus_bk_2026",
+      "kind": "announcement",
+      "summary": "Firmus announces a partnership with NVIDIA through 2034 using a revenue sharing and credit support model for its Batam campus.",
+      "evidence": [
+        "ev_110037"
+      ]
+    },
+    {
+      "id": "evt_nvidia_model_blog",
+      "date": "2026-07-01",
+      "relationship": "rel_firmus_bk_2026",
+      "kind": "announcement",
+      "summary": "Nvidia's blog names Firmus among the first partners in its revenue sharing and credit support model.",
+      "evidence": [
+        "ev_110044"
+      ]
+    },
+    {
+      "id": "evt_firmus_2b",
+      "date": "2026-08-07",
+      "relationship": "rel_firmus_eq_2026b",
+      "kind": "announcement",
+      "summary": "Firmus announces full commitments for a strategic equity round with NVIDIA following on.",
+      "evidence": [
+        "ev_110033"
+      ]
+    },
+    {
+      "id": "evt_firmus_ipo_withdrawn",
+      "date": "2026-10-09",
+      "relationship": "rel_firmus_eq_2026b",
+      "kind": "restructuring",
+      "summary": "Nikkei Asia reports Firmus withdrew its Australian IPO application.",
+      "evidence": [
+        "ev_110048"
+      ]
+    },
+    {
+      "id": "evt_together_series_a",
+      "date": "2023-11-29",
+      "relationship": "rel_together_ai_eq_2023",
+      "kind": "announcement",
+      "summary": "Together AI announces its Series A with NVIDIA participating.",
+      "evidence": [
+        "ev_110053"
+      ]
+    },
+    {
+      "id": "evt_together_series_b",
+      "date": "2025-02-20",
+      "relationship": "rel_together_ai_eq_2025",
+      "kind": "announcement",
+      "summary": "Together AI announces its Series B with NVIDIA participating.",
+      "evidence": [
+        "ev_110055"
+      ]
+    },
+    {
+      "id": "evt_together_series_c",
+      "date": "2026-07-01",
+      "relationship": "rel_together_ai_eq_2026",
+      "kind": "announcement",
+      "summary": "Together AI announces its Series C with NVIDIA among investors.",
+      "evidence": [
+        "ev_110057"
+      ]
+    }
+  ]
+}

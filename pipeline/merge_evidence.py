@@ -19,7 +19,8 @@ def main():
     for f in sorted(EV_DIR.glob("*.jsonl")):
         for line in open(f, encoding="utf-8"):
             e = json.loads(line)
-            pool[e["id"]] = e
+            if str(e.get("id", "")).startswith("ev_"):
+                pool[e["id"]] = e
     used = set()
     for coll in (reg.relationships, reg.entities, reg.projects, reg.events, [reg.financials]):
         for row in coll:
