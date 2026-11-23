@@ -45,13 +45,13 @@ def risk_factors(path) -> str:
     starts = [m.start() for m in re.finditer(r"Item 1A\.?\s+Risk Factors", text, re.I)]
     if not starts:
         return ""
-    best = ""
-    for s in starts:
-        m = re.search(r"Item (1B|2)\.?\s+(Unresolved|Properties|Unregistered|Cybersecurity)", text[s + 50:], re.I)
+    # the first match is usually the table of contents: take the last start that is followed by real text
+    for s in reversed(starts):
+        m = re.search(r"Item (1B|1C|2)\.?\s+(Unresolved|Properties|Unregistered|Cybersecurity)", text[s + 50:], re.I)
         chunk = text[s: s + 50 + m.start()] if m else text[s: s + 400000]
-        if len(chunk) > len(best):
-            best = chunk
-    return best
+        if len(chunk) > 5000:
+            return chunk
+    return ""
 
 
 def _key(sentence: str) -> str:

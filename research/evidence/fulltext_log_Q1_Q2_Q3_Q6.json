@@ -1,0 +1,222 @@
+{
+ "stats": {
+  "\"NVIDIA\" \"backstop\"": {
+   "qid": "Q1",
+   "hits": 64,
+   "kept_within_50_words": 7,
+   "dropped_outside_window": 57,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"unused capacity\"": {
+   "qid": "Q2",
+   "hits": 12,
+   "kept_within_50_words": 0,
+   "dropped_outside_window": 12,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"unsold capacity\"": {
+   "qid": "Q2",
+   "hits": 3,
+   "kept_within_50_words": 1,
+   "dropped_outside_window": 2,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"residual capacity\"": {
+   "qid": "Q2",
+   "hits": 4,
+   "kept_within_50_words": 0,
+   "dropped_outside_window": 4,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"guarantee\"": {
+   "qid": "Q3",
+   "hits": 2000,
+   "kept_within_50_words": 71,
+   "dropped_outside_window": 1915,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"guaranty\"": {
+   "qid": "Q3",
+   "hits": 300,
+   "kept_within_50_words": 8,
+   "dropped_outside_window": 290,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"master services agreement\"": {
+   "qid": "Q6",
+   "hits": 200,
+   "kept_within_50_words": 28,
+   "dropped_outside_window": 172,
+   "fetch_errors": 0
+  },
+  "\"NVIDIA\" \"cloud services agreement\"": {
+   "qid": "Q6",
+   "hits": 42,
+   "kept_within_50_words": 29,
+   "dropped_outside_window": 13,
+   "fetch_errors": 0
+  }
+ },
+ "log": [
+  {
+   "query": "\"NVIDIA\" \"backstop\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 64,
+   "fetched": 64,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"unused capacity\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 12,
+   "fetched": 12,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"unsold capacity\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 3,
+   "fetched": 3,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"residual capacity\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 4,
+   "fetched": 4,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"guarantee\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 1755,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"guarantee\"",
+   "window": [
+    "2023-01-01",
+    "2024-12-12"
+   ],
+   "total": 640,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"guarantee\"",
+   "window": [
+    "2023-01-01",
+    "2023-12-22"
+   ],
+   "total": 249,
+   "fetched": 300,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"guarantee\"",
+   "window": [
+    "2023-12-23",
+    "2024-12-12"
+   ],
+   "total": 391,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"guarantee\"",
+   "window": [
+    "2024-12-13",
+    "2026-11-23"
+   ],
+   "total": 1115,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"guarantee\"",
+   "window": [
+    "2024-12-13",
+    "2025-12-03"
+   ],
+   "total": 478,
+   "fetched": 500,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"guarantee\"",
+   "window": [
+    "2025-12-04",
+    "2026-11-23"
+   ],
+   "total": 637,
+   "action": "overflow: date range narrowed"
+  },
+  {
+   "query": "\"NVIDIA\" \"guarantee\"",
+   "window": [
+    "2025-12-04",
+    "2026-05-30"
+   ],
+   "total": 320,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"guarantee\"",
+   "window": [
+    "2026-05-31",
+    "2026-11-23"
+   ],
+   "total": 317,
+   "fetched": 400,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"guaranty\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 296,
+   "fetched": 300,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"master services agreement\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 131,
+   "fetched": 200,
+   "action": "ok"
+  },
+  {
+   "query": "\"NVIDIA\" \"cloud services agreement\"",
+   "window": [
+    "2023-01-01",
+    "2026-11-23"
+   ],
+   "total": 42,
+   "fetched": 42,
+   "action": "ok"
+  }
+ ],
+ "window": [
+  "2023-01-01",
+  "2026-11-23"
+ ]
+}

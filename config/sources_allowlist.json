@@ -139,10 +139,17 @@
       ],
       "ent_lambda": [
         "lambda.ai",
-        "lambdalabs.com"
+        "lambdalabs.com",
+        "lambda.com"
       ],
       "ent_nscale": [
         "nscale.com"
+      ],
+      "ent_sharonai": [
+        "sharonai.com"
+      ],
+      "ent_applied_digital": [
+        "applieddigital.com"
       ],
       "ent_corning": [
         "corning.com"
@@ -170,6 +177,63 @@
       ],
       "ent_poolside": [
         "poolside.ai"
+      ],
+      "ent_firmus": [
+        "firmus.co"
+      ],
+      "ent_cohere": [
+        "cohere.com"
+      ],
+      "ent_wayve": [
+        "wayve.ai"
+      ],
+      "ent_figure": [
+        "figure.ai"
+      ],
+      "ent_perplexity": [
+        "perplexity.ai"
+      ],
+      "ent_sakana": [
+        "sakana.ai"
+      ],
+      "ent_recursion": [
+        "recursion.com"
+      ],
+      "ent_generate_biomedicines": [
+        "generatebiomedicines.com"
+      ],
+      "ent_together_ai": [
+        "together.ai"
+      ],
+      "ent_scale_ai": [
+        "scale.com"
+      ],
+      "ent_anysphere": [
+        "cursor.com"
+      ],
+      "ent_databricks": [
+        "databricks.com"
+      ],
+      "ent_commonwealth_fusion": [
+        "cfs.energy"
+      ],
+      "ent_psiquantum": [
+        "psiquantum.com"
+      ],
+      "ent_quantinuum": [
+        "quantinuum.com"
+      ],
+      "ent_terrapower": [
+        "terrapower.com"
+      ],
+      "ent_skild_ai": [
+        "skild.ai"
+      ],
+      "ent_black_forest_labs": [
+        "bfl.ai"
+      ],
+      "ent_nuro": [
+        "nuro.ai"
       ]
     }
   },

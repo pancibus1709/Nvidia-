@@ -1,0 +1,2539 @@
+{
+  "entities": [
+    {
+      "id": "ent_coreweave",
+      "name": "CoreWeave, Inc.",
+      "short_name": "CoreWeave",
+      "cluster": "neocloud",
+      "depth": 1,
+      "public": true,
+      "ticker": "CRWV",
+      "cik": "0001769628",
+      "country": "US",
+      "description": "GPU cloud provider whose fleet is entirely NVIDIA GPUs; Nvidia is at once its shareholder, supplier and customer.",
+      "domains": [
+        "coreweave.com"
+      ],
+      "evidence": [
+        "ev_20007",
+        "ev_20127",
+        "ev_20028"
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 47505000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": "Q3 2026",
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20071"
+          ],
+          "note": "Total future principal at 2026-09-30 per the Q3 2026 10-Q (filed 2026-11-12). Supersedes the FY2025 10-K debt note. Recourse debt net $41,600m (ev_20062) and non-recourse net $5,273m (ev_20066)."
+        },
+        "maturities_24m": {
+          "value": 13407000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": "Q3 2026",
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [],
+          "components": [
+            {
+              "value": 2433000000,
+              "evidence": [
+                "ev_20068"
+              ],
+              "note": "principal due in the rest of 2026"
+            },
+            {
+              "value": 10974000000,
+              "evidence": [
+                "ev_20069"
+              ],
+              "note": "principal due in 2027"
+            }
+          ],
+          "note": "Lower bound: principal due 2026-10-01 to 2027-12-31 only. The 2028 principal of $5,479m (ev_20070) is not split by month; analysis pro-rating three quarters of it gives about $17.5bn within 24 months."
+        },
+        "cash_and_undrawn": {
+          "value": 9837000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": "Q3 2026",
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20109"
+          ],
+          "note": "Total liquidity as CoreWeave defines it: cash and equivalents $4,122m (ev_20104) plus availability under existing facilities $5,653m (ev_20108) and other items. Restricted cash of $1,405m current and $877m non-current (ev_20105, ev_20106) is not counted."
+        },
+        "committed_spend_12m": {
+          "value": null,
+          "as_of": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Not disclosed. Context: capex of $23,558m in the nine months to 2026-09-30 (ev_70029); other contractual purchase commitments of about $4bn (ev_20113); leases not yet commenced with $47.4bn of undiscounted payments (ev_20196). None is a 12-month committed figure."
+        },
+        "liquidity_months": {
+          "value": null,
+          "label": "analysis",
+          "note": "Not computable by the rubric because committed 12-month spend is not disclosed. Analysis: $9,837m of liquidity against nine-month capex of $23,558m (about $2.6bn a month) covers about 3.8 months of gross capex, before operating cash flow of $5,638m (ev_20112) and new financing."
+        },
+        "top_customer_share": {
+          "value": 0.33,
+          "as_of": "2026-09-30",
+          "evidence": [
+            "ev_20100"
+          ],
+          "last_verified": "2026-11-23",
+          "note": "Customer A, nine months 2026. Q3 2026 alone: top two customers 30% and 24% (ev_20101, ev_20099). FY2025 Microsoft 67% (ev_20125); FY2024 Microsoft 62% (ev_20035)."
+        },
+        "top3_customer_share": {
+          "value": null,
+          "as_of": null,
+          "evidence": [],
+          "last_verified": null,
+          "note": "Not disclosed. Top two customers were about 54% of Q3 2026 revenue (30% and 24%, ev_20101); FY2024 top two 77% (ev_20036)."
+        },
+        "collateral_note": "All GPUs in the fleet are NVIDIA GPUs (ev_20127) and customers contractually specify them (ev_20128). Computing equipment is depreciated over six years, changed from five in 2023 (ev_20130). Delayed draw term loans sit in special purpose vehicles that hold the financed infrastructure and the customer contracts (ev_20087); they are sized on the depreciable cost of GPU servers (ev_20144). SPV debt was secured by $22.2bn of non-current assets at 2026-09-30 (ev_20086). DDTL 3.0 tracks collateral GPU by GPU using serial-number documents from NVIDIA or Dell (ev_20210). Latest generation deployed: Vera Rubin NVL72 (ev_20183).",
+        "market_signals": [
+          {
+            "signal": "Value per CoreWeave share implied by Nvidia's 13F",
+            "label": "analysis",
+            "value": "$163.06 at 2025-06-30 (ev_70014), $71.61 at 2025-12-31 (ev_70015), $87.12 at 2026-09-30 (ev_50019)",
+            "note": "Reported value divided by shares; a 56% fall from June to December 2025.",
+            "evidence": [
+              "ev_70014",
+              "ev_70015",
+              "ev_50019"
+            ]
+          },
+          {
+            "signal": "Unsecured bond coupons",
+            "label": "fact",
+            "value": "9.00% to 9.75% on 2030 to 2032 senior notes",
+            "date": "2026-09-30",
+            "evidence": [
+              "ev_20142",
+              "ev_20052",
+              "ev_20053",
+              "ev_20054"
+            ]
+          },
+          {
+            "signal": "Secured facility pricing",
+            "label": "fact",
+            "value": "DDTL 4.0 at SOFR plus 2.25% (March 2026) versus DDTL 5.5 at SOFR plus 5.50% (August 2026)",
+            "date": "2026-08-10",
+            "evidence": [
+              "ev_20076",
+              "ev_20150"
+            ]
+          },
+          {
+            "signal": "Convertible notes",
+            "label": "fact",
+            "value": "2033 notes at 2.875% converting at about $97.85 per share; 2032 notes convert at about $119.60",
+            "date": "2026-09-22",
+            "evidence": [
+              "ev_70001",
+              "ev_20092",
+              "ev_20091"
+            ]
+          },
+          {
+            "signal": "Securities class action",
+            "label": "fact",
+            "value": "Masaitis v. CoreWeave, filed 2026-01-12",
+            "date": "2026-01-12",
+            "evidence": [
+              "ev_20198"
+            ]
+          }
+        ],
+        "grade": "Weak",
+        "grade_reason": "Two of four rubric columns are sourced. Debt due within 24 months over cash plus undrawn is at least 1.36 ($13,407m lower bound over $9,837m), which is Watch; top customer share of 33% is Adequate. Weakest column Watch, moved down one step to Weak because the maturity ratio is a lower bound (about 1.78 if three quarters of 2028 principal is pro-rated, analysis), DDTL 3.0 needed covenant relief in December 2025, disclosure controls were not effective at 2026-09-30, and $1.9bn of deferred revenue moved to liabilities as contracts became cancellable. Liquidity cover and a corporate rating are not sourced. Not Distressed: no missed payment, no going concern language, in covenant compliance at 2026-09-30 (ev_20074, ev_20119).",
+        "notes": "Facility ratings only, no corporate rating found: DDTL 4.0 A3 (Moody's) and A (low) (DBRS) (ev_20169); DDTL 5.0 Ba2 and BB+ (Fitch) (ev_20177); DDTL 5.5 Ba2 and BB+ (ev_20155). Material weaknesses continued at 2025-12-31 (ev_20132) and disclosure controls were not effective at 2026-09-30 (ev_20148). Covenant relief: the DDTL 3.0 First Amendment of 2025-12-31 aligned the facility with delivery delays (ev_20201), cut minimum liquidity to $100m (ev_20202) from a schedule of up to $175m (ev_20211), postponed the first debt service coverage test (ev_20203) and allowed unlimited equity cures (ev_20204). Cross-default in DDTL 5.5 above $35m (ev_20160) and cross-acceleration in the 2033 convertible indenture above the greater of $200m and 5% of LTM EBITDA (ev_70004). $1.9bn of deferred revenue reclassified to liabilities as contracts became cancellable (ev_20118, ev_20098). RPO $132.3bn at 2026-09-30, 36% within 24 months (ev_20095, ev_20096). Accumulated deficit $4.7bn (ev_20110).",
+        "evidence": [
+          "ev_20071",
+          "ev_20068",
+          "ev_20069",
+          "ev_20070",
+          "ev_20109",
+          "ev_20100",
+          "ev_20101",
+          "ev_20074",
+          "ev_20119"
+        ]
+      }
+    },
+    {
+      "id": "ent_mufg",
+      "name": "MUFG Bank, Ltd.",
+      "short_name": "MUFG",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "JP",
+      "description": "Administrative agent on DDTL 3.0 and DDTL 4.0 and joint lead arranger on DDTL 5.5 for CoreWeave.",
+      "domains": [],
+      "evidence": [
+        "ev_20205",
+        "ev_20077",
+        "ev_20154"
+      ]
+    },
+    {
+      "id": "ent_morgan_stanley",
+      "name": "Morgan Stanley",
+      "short_name": "Morgan Stanley",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Administrative agent on CoreWeave's DDTL 5.0, coordinating lead arranger on DDTL 4.0 and DDTL 5.5 bookrunner.",
+      "domains": [],
+      "evidence": [
+        "ev_20082",
+        "ev_20168",
+        "ev_70021"
+      ]
+    },
+    {
+      "id": "ent_jpmorgan",
+      "name": "JPMorgan Chase Bank, N.A.",
+      "short_name": "JPMorgan",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Administrative agent on CoreWeave's DDTL 5.5 and on its revolving credit facility.",
+      "domains": [],
+      "evidence": [
+        "ev_20084",
+        "ev_20154",
+        "ev_70012"
+      ]
+    },
+    {
+      "id": "ent_us_bank",
+      "name": "U.S. Bank Trust Company, National Association",
+      "short_name": "U.S. Bank",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Collateral agent on CoreWeave's DDTL 3.0, agent on DDTL 1.0, trustee of the 2033 convertible notes and DDTL 5.5 bookrunner.",
+      "domains": [],
+      "evidence": [
+        "ev_20205",
+        "ev_70013",
+        "ev_70006",
+        "ev_70022"
+      ]
+    },
+    {
+      "id": "ent_blackstone",
+      "name": "Blackstone Inc.",
+      "short_name": "Blackstone",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Co-led CoreWeave's DDTL 2.0 GPU-backed facility.",
+      "domains": [],
+      "evidence": [
+        "ev_20147"
+      ]
+    },
+    {
+      "id": "ent_magnetar",
+      "name": "Magnetar Capital",
+      "short_name": "Magnetar",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Co-led CoreWeave's DDTL 2.0, holds a $195m loan to CoreWeave and is a related party.",
+      "domains": [],
+      "evidence": [
+        "ev_20147",
+        "ev_20061",
+        "ev_20194"
+      ]
+    },
+    {
+      "id": "ent_citigroup",
+      "name": "Citigroup Global Markets Inc.",
+      "short_name": "Citigroup",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Joint bookrunner on CoreWeave's DDTL 5.5.",
+      "domains": [],
+      "evidence": [
+        "ev_20161"
+      ]
+    },
+    {
+      "id": "ent_credit_agricole",
+      "name": "Credit Agricole Corporate and Investment Bank",
+      "short_name": "Credit Agricole",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "FR",
+      "description": "Joint bookrunner on CoreWeave's DDTL 5.5.",
+      "domains": [],
+      "evidence": [
+        "ev_20161"
+      ]
+    },
+    {
+      "id": "ent_deutsche_bank",
+      "name": "Deutsche Bank AG",
+      "short_name": "Deutsche Bank",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "DE",
+      "description": "Joint bookrunner on CoreWeave's DDTL 5.5.",
+      "domains": [],
+      "evidence": [
+        "ev_70021"
+      ]
+    },
+    {
+      "id": "ent_goldman_sachs",
+      "name": "Goldman Sachs Bank USA",
+      "short_name": "Goldman Sachs",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Joint bookrunner on CoreWeave's DDTL 5.5.",
+      "domains": [],
+      "evidence": [
+        "ev_70021"
+      ]
+    },
+    {
+      "id": "ent_pnc",
+      "name": "PNC Capital Markets LLC",
+      "short_name": "PNC",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Joint bookrunner on CoreWeave's DDTL 5.5.",
+      "domains": [],
+      "evidence": [
+        "ev_70020"
+      ]
+    },
+    {
+      "id": "ent_societe_generale",
+      "name": "Société Générale",
+      "short_name": "Societe Generale",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "FR",
+      "description": "Joint bookrunner on CoreWeave's DDTL 5.5.",
+      "domains": [],
+      "evidence": [
+        "ev_70020"
+      ]
+    },
+    {
+      "id": "ent_smbc",
+      "name": "Sumitomo Mitsui Banking Corporation",
+      "short_name": "SMBC",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "JP",
+      "description": "Joint bookrunner on CoreWeave's DDTL 5.5.",
+      "domains": [],
+      "evidence": [
+        "ev_70020"
+      ]
+    },
+    {
+      "id": "ent_td",
+      "name": "TD Securities (USA) LLC",
+      "short_name": "TD Securities",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Joint bookrunner on CoreWeave's DDTL 5.5.",
+      "domains": [],
+      "evidence": [
+        "ev_70020"
+      ]
+    },
+    {
+      "id": "ent_wells_fargo",
+      "name": "Wells Fargo Securities, LLC",
+      "short_name": "Wells Fargo",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Joint bookrunner on CoreWeave's DDTL 5.5.",
+      "domains": [],
+      "evidence": [
+        "ev_70022"
+      ]
+    },
+    {
+      "id": "ent_openai",
+      "name": "OpenAI OpCo, LLC",
+      "short_name": "OpenAI",
+      "cluster": "ai_lab",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "CoreWeave customer whose March 2025 master services agreement and order form back DDTL 3.0; committed up to about $11.9bn and $6.5bn.",
+      "domains": [],
+      "evidence": [
+        "ev_20207",
+        "ev_20208",
+        "ev_20199",
+        "ev_20102"
+      ]
+    },
+    {
+      "id": "ent_microsoft",
+      "name": "Microsoft Corporation",
+      "short_name": "Microsoft",
+      "cluster": "hyperscaler",
+      "depth": 2,
+      "public": true,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "CoreWeave's largest customer in 2024 and 2025, at 62% and 67% of revenue.",
+      "domains": [],
+      "evidence": [
+        "ev_20035",
+        "ev_20125",
+        "ev_20200"
+      ]
+    },
+    {
+      "id": "ent_meta",
+      "name": "Meta Platforms, Inc.",
+      "short_name": "Meta",
+      "cluster": "hyperscaler",
+      "depth": 2,
+      "public": true,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "CoreWeave customer that initially committed up to about $21.0bn through December 2032.",
+      "domains": [],
+      "evidence": [
+        "ev_20103",
+        "ev_20126"
+      ]
+    },
+    {
+      "id": "ent_core_scientific",
+      "name": "Core Scientific, Inc.",
+      "short_name": "Core Scientific",
+      "cluster": "other",
+      "depth": 2,
+      "public": true,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Data center operator that hosted about 500 MW for CoreWeave; its holders rejected a merger, terminated 2025-10-30.",
+      "domains": [],
+      "evidence": [
+        "ev_20188",
+        "ev_20187"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel_coreweave_eq_2025",
+      "from": "ent_nvidia",
+      "to": "ent_coreweave",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia common stake in CoreWeave",
+      "insight_template": "Nvidia holds {counterparty} common stock worth {market_value} at its last filing, behind all of the company's lenders and noteholders.",
+      "definition": "Nvidia owns Class A common stock of CoreWeave. It held shares before the March 2025 IPO, and on 23 January 2026 it bought 22,935,780 more shares in a private placement at $87.20 each for $2 billion in cash. Nvidia reports the stake as a publicly-held equity security at fair value and files as a 10% owner.",
+      "status": "completed",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 2000000000,
+          "as_of": "2026-01-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20010",
+            "ev_30053",
+            "ev_20014"
+          ],
+          "note": "The only announced purchase amount (January 2026)."
+        },
+        "committed_total": {
+          "value": 2000000000,
+          "as_of": "2026-01-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20010",
+            "ev_30053"
+          ],
+          "note": "Securities purchase agreement of January 2026, closed (ev_20114). Earlier purchases have no stated commitment."
+        },
+        "funded": {
+          "value": 2000000000,
+          "as_of": "2026-01-23",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [],
+          "components": [
+            {
+              "value": 2000000000,
+              "evidence": [
+                "ev_20010",
+                "ev_30053",
+                "ev_20114",
+                "ev_20145"
+              ],
+              "note": "22,935,780 shares at $87.20 in cash, 2026-01-23"
+            }
+          ],
+          "note": "Only purchases a source states are summed. Excluded as not stated: the cost of the pre-IPO holding of 17,932,460 shares; about 6,250,000 shares added between the 424B4 table and the 2025-03-31 13G, reported by CNBC and Axios as a $250m IPO anchor order (needs quote, analysis); and 95,113 shares added between the 2025-03-31 and 2025-06-30 13F reports (analysis)."
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-01-26",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Plain common equity; no contingent term found."
+        },
+        "market_value": {
+          "value": 4113227313,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_50019"
+          ],
+          "price_source": "Nvidia Form 13F-HR",
+          "price_timestamp": "2026-09-30",
+          "note": "13F reported value for 47,213,353 shares at 2026-09-30, filed 2026-11-16."
+        }
+      },
+      "holding": {
+        "shares": 47213353,
+        "as_of": "2026-09-30",
+        "ticker": "CRWV",
+        "evidence": [
+          "ev_50019",
+          "ev_70017",
+          "ev_20019",
+          "ev_20022"
+        ],
+        "percent_of_class_a": 0.1066,
+        "percent_as_of": "2026-04-15",
+        "percent_evidence": [
+          "ev_20023"
+        ],
+        "percent_of_voting_power": 0.0327,
+        "percent_voting_evidence": [
+          "ev_20024"
+        ],
+        "note": "11.5% of Class A at 2026-01-23 per Nvidia's 13G/A (ev_20020). Analysis: 10.29% on 458,871,690 Class A shares outstanding at 2026-07-31 (ev_20040)."
+      },
+      "dates": {
+        "announced": "2026-01-26",
+        "signed": "2026-01-23",
+        "filed": "2026-01-26",
+        "effective": "2026-01-23",
+        "maturity": null,
+        "evidence": [
+          "ev_20008",
+          "ev_20019",
+          "ev_70017"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "reconciled",
+        "nvidia_side": "Nvidia's 13G (2025-05-15) reports 24,182,460 shares, 7.0%, at 2025-03-31; its 13G/A and Form 3 (2026-01-26) report 47,213,353 shares, 11.5%, held directly; its release says it invested $2 billion at $87.20; its 13F reports 47,213,353 shares worth $4,113,227,313 at 2026-09-30. Nvidia's Q1 FY2026 10-Q names CoreWeave as reclassified to marketable securities at fair value of $1 billion.",
+        "counterparty_side": "CoreWeave's 8-K (2026-01-26) reports the sale of 22,935,780 shares to NVIDIA at $87.20 for $2 billion in cash; the IPO prospectus lists 17,932,460 NVIDIA shares before the offering; the proxy lists 47,213,353 shares, 10.66% of Class A and 3.27% of voting power.",
+        "nvidia_evidence": [
+          "ev_20017",
+          "ev_20018",
+          "ev_20019",
+          "ev_20020",
+          "ev_70017",
+          "ev_30053",
+          "ev_30054",
+          "ev_50018",
+          "ev_70014",
+          "ev_50019",
+          "ev_10186",
+          "ev_10187"
+        ],
+        "counterparty_evidence": [
+          "ev_20008",
+          "ev_20009",
+          "ev_20010",
+          "ev_20030",
+          "ev_20022",
+          "ev_20023",
+          "ev_20114"
+        ],
+        "differences": [
+          {
+            "field": "holding around the IPO",
+            "nvidia_value": "24,182,460 shares at 2025-03-31 (13G)",
+            "counterparty_value": "17,932,460 shares before the IPO (424B4); no IPO purchase by NVIDIA stated",
+            "evidence": [
+              "ev_20017",
+              "ev_20030"
+            ],
+            "note": "The 6,250,000 share gap is consistent with a $250m purchase at the $40 IPO price reported by CNBC and Axios (analysis, needs quote)."
+          },
+          {
+            "field": "shares in the January 2026 purchase",
+            "nvidia_value": "Release states $2 billion at $87.20; 13G/A total 47,213,353",
+            "counterparty_value": "8-K states 22,935,780 shares; the Q3 2026 10-Q says approximately 23 million",
+            "evidence": [
+              "ev_20008",
+              "ev_20114",
+              "ev_20019"
+            ]
+          },
+          {
+            "field": "percent of Class A",
+            "nvidia_value": "11.5% at 2026-01-23 (13G/A)",
+            "counterparty_value": "10.66% at the proxy record date (DEF 14A 2026-04-22)",
+            "evidence": [
+              "ev_20020",
+              "ev_20023"
+            ],
+            "note": "Different dates and share denominators; same share count."
+          },
+          {
+            "field": "shares added in 2025",
+            "nvidia_value": "24,277,573 shares at 2025-06-30 (13F), 95,113 more than at 2025-03-31",
+            "counterparty_value": "No disclosure found as of 2026-11-23",
+            "evidence": [
+              "ev_70014",
+              "ev_50018"
+            ]
+          }
+        ]
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Equity value falls with CoreWeave's results and the AI demand cycle, but the exposure does not grow when CoreWeave weakens: the loss is capped at what Nvidia paid and the market value already reflects the share price.",
+        "collateral": "None. Common equity ranks behind about $47.5bn of principal (ev_20071), including $22.2bn of SPV debt secured by non-current assets (ev_20086).",
+        "tenor": "Open-ended holding; no lock-up or put found.",
+        "notes": "Nvidia carried the pre-IPO stake at $843m in non-marketable equity before reclassifying it in FY2026 Q1 (ev_10185); fair value $1 billion at 2025-04-27 (ev_10187) and $2.8 billion at 2025-07-27 (ev_10173). Later Nvidia filings do not give a CoreWeave-specific value. Nvidia files under Rule 13d-1(c) as a passive investor (ev_20021)."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "CoreWeave cannot refinance the $10,974m of principal due in 2027 or breaches a facility covenant",
+            "mechanism": "CoreWeave common equity ranks behind about $47.5bn of principal, so Nvidia's stake absorbs losses first",
+            "affected": [
+              "ent_nvidia",
+              "ent_coreweave"
+            ],
+            "direction": "negative",
+            "text": "If CoreWeave cannot refinance its 2027 maturities, Nvidia's common stake sits behind about $47.5 billion of principal and could lose most of its value.",
+            "evidence": [
+              "ev_20069",
+              "ev_20071"
+            ]
+          },
+          {
+            "trigger": "CoreWeave's share price falls",
+            "mechanism": "Nvidia marks the CoreWeave stake at fair value through income, as it did when it cited CoreWeave for unrealized losses in FY2026 Q1",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "A fall in CoreWeave's share price flows straight into Nvidia's other income, because the stake is held at fair value.",
+            "evidence": [
+              "ev_70030",
+              "ev_10187"
+            ]
+          },
+          {
+            "trigger": "CoreWeave sells shares under its 35,000,000 share at-the-market program or notes convert",
+            "mechanism": "New CoreWeave Class A shares dilute Nvidia's 10.66% of the class",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "CoreWeave's at-the-market program and convertible notes can dilute Nvidia's share of the company without any decision by Nvidia.",
+            "evidence": [
+              "ev_20039",
+              "ev_20092",
+              "ev_20023"
+            ]
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "signaling",
+            "trigger": "Nvidia sells CoreWeave shares or stops adding capital",
+            "mechanism": "Nvidia's $2 billion purchase at $87.20 came alongside a framework to use its financial strength for CoreWeave sites, which CoreWeave's lenders and convertible buyers can read as support",
+            "affected": [
+              "ent_coreweave",
+              "ent_mufg",
+              "ent_jpmorgan",
+              "ent_morgan_stanley"
+            ],
+            "direction": "negative",
+            "text": "Investors priced CoreWeave's later convertible and secured debt with Nvidia as a 10% holder, so an Nvidia exit would likely raise CoreWeave's cost of capital (analysis).",
+            "evidence": [
+              "ev_20013",
+              "ev_70001",
+              "ev_20150"
+            ]
+          },
+          {
+            "lens": "contagion",
+            "trigger": "CoreWeave fails",
+            "mechanism": "CoreWeave's customers lose contracted capacity and Nvidia loses a customer whose fleet is entirely Nvidia GPUs and which bought 17% of its supplies from Nvidia",
+            "affected": [
+              "ent_microsoft",
+              "ent_openai",
+              "ent_meta",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "A CoreWeave failure would strand capacity contracted by Microsoft, OpenAI and Meta and remove a buyer that runs only Nvidia GPUs.",
+            "evidence": [
+              "ev_20127",
+              "ev_20027",
+              "ev_20199",
+              "ev_20103",
+              "ev_20125"
+            ]
+          },
+          {
+            "lens": "collateral_loop",
+            "trigger": "CoreWeave's SPV lenders enforce on GPU collateral",
+            "mechanism": "CoreWeave's delayed draw loans are sized on the depreciable cost of GPU servers and secured by $22.2bn of assets; a forced sale would set lower prices for used Nvidia GPUs",
+            "affected": [
+              "ent_mufg",
+              "ent_blackstone",
+              "ent_magnetar",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "Enforcement on CoreWeave's GPU-backed loans would put used Nvidia GPUs on the market and lower the collateral values other lenders rely on.",
+            "evidence": [
+              "ev_20144",
+              "ev_20086"
+            ]
+          }
+        ]
+      },
+      "measure_inputs": {
+        "counterparty_nvidia_spend": null,
+        "counterparty_equity_raised": {
+          "value": 6081000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [],
+          "label": "fact",
+          "components": [
+            {
+              "value": 421000000,
+              "evidence": [
+                "ev_70025"
+              ],
+              "note": "preferred stock, 2023"
+            },
+            {
+              "value": 15000000,
+              "evidence": [
+                "ev_70026"
+              ],
+              "note": "common stock, 2023"
+            },
+            {
+              "value": 1172000000,
+              "evidence": [
+                "ev_70024"
+              ],
+              "note": "preferred stock, 2024"
+            },
+            {
+              "value": 1491000000,
+              "evidence": [
+                "ev_70027"
+              ],
+              "note": "IPO net proceeds, 2025"
+            },
+            {
+              "value": 2982000000,
+              "evidence": [
+                "ev_70028"
+              ],
+              "note": "private placements, nine months 2026, including NVIDIA's $2.0bn"
+            }
+          ],
+          "note": "Cash equity raised 2023-01-01 to 2026-09-30 per the cash flow statements. Excludes equity raised before 2023 and any at-the-market sales after 2026-09-30."
+        },
+        "nvidia_paid": null,
+        "covered_project_debt": null,
+        "window": "2023-01-01 to 2026-09-30"
+      },
+      "notes": "counterparty_nvidia_spend is left blank: CoreWeave states NVIDIA was 17% of FY2025 purchases from suppliers (ev_20027, ev_20129) but gives no dollar amount, and its $7.4bn of OEM financing names no OEM (ev_20090). Analysis, not in any amount: Nvidia's known funded cost is $2.0bn; the pre-IPO cost is not disclosed and the reported $250m IPO order is not in a filing.",
+      "projects": [],
+      "depth2_links": [
+        {
+          "entity": "ent_magnetar",
+          "role": "co_investor",
+          "description": "Related party and lender to CoreWeave alongside Nvidia's equity; holds a $195m loan maturing January 2029.",
+          "amount": {
+            "value": 195000000,
+            "as_of": "2026-09-30",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_20061"
+            ]
+          },
+          "evidence": [
+            "ev_20194",
+            "ev_20061"
+          ]
+        },
+        {
+          "entity": "ent_us_bank",
+          "role": "bondholder",
+          "description": "Trustee for the $4.2bn 2.875% convertible notes due 2033, unsecured and senior to Nvidia's common stock.",
+          "amount": {
+            "value": 4200000000,
+            "as_of": "2026-09-22",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_70001"
+            ]
+          },
+          "evidence": [
+            "ev_70006",
+            "ev_70001",
+            "ev_70002"
+          ]
+        },
+        {
+          "entity": "ent_jpmorgan",
+          "role": "lender",
+          "description": "Agent on CoreWeave's revolving credit facility ($1,200m drawn) and DDTL 5.5, both ahead of Nvidia's equity.",
+          "amount": {
+            "value": 1200000000,
+            "as_of": "2026-09-30",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_20059"
+            ]
+          },
+          "evidence": [
+            "ev_70012",
+            "ev_20059",
+            "ev_20084"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "evidence": [
+        "ev_10186",
+        "ev_10187",
+        "ev_20008",
+        "ev_20009",
+        "ev_20010",
+        "ev_20013",
+        "ev_20014",
+        "ev_20017",
+        "ev_20018",
+        "ev_20019",
+        "ev_20020",
+        "ev_20022",
+        "ev_20023",
+        "ev_20024",
+        "ev_20027",
+        "ev_20030",
+        "ev_20039",
+        "ev_20059",
+        "ev_20061",
+        "ev_20069",
+        "ev_20071",
+        "ev_20084",
+        "ev_20086",
+        "ev_20092",
+        "ev_20103",
+        "ev_20114",
+        "ev_20125",
+        "ev_20127",
+        "ev_20144",
+        "ev_20145",
+        "ev_20150",
+        "ev_20194",
+        "ev_20199",
+        "ev_30053",
+        "ev_30054",
+        "ev_50018",
+        "ev_50019",
+        "ev_70001",
+        "ev_70002",
+        "ev_70006",
+        "ev_70012",
+        "ev_70014",
+        "ev_70017",
+        "ev_70024",
+        "ev_70025",
+        "ev_70026",
+        "ev_70027",
+        "ev_70028",
+        "ev_70030"
+      ]
+    },
+    {
+      "id": "rel_coreweave_bk_2025",
+      "from": "ent_nvidia",
+      "to": "ent_coreweave",
+      "type_primary": "BK",
+      "types_secondary": [
+        "LB"
+      ],
+      "title": "Nvidia order for CoreWeave's residual unsold capacity",
+      "insight_template": "Nvidia must buy the capacity {counterparty} cannot sell through {dates.maturity:year}, so its payments rise as demand weakens, until an insolvency ends the order.",
+      "definition": "On 9 September 2025 Nvidia placed an order form under its master services agreement with CoreWeave with an initial value of $6.3 billion. CoreWeave sells reserved capacity to its own customers first, and Nvidia is obligated to purchase the residual unsold capacity through 13 April 2032, subject to CoreWeave meeting delivery and availability of service requirements. Either party may terminate on an uncured breach or an insolvency proceeding not dismissed within 90 days.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 6300000000,
+          "as_of": "2025-09-15",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20001"
+          ],
+          "note": "Stated as the order's initial value."
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Not disclosed. The payable amount depends on how much capacity CoreWeave does not sell; no fixed minimum is stated."
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Payments under this order are not disclosed separately. NVIDIA paid $326.3m in FY2025 and $59.6m in Q1 2026 under the MSA and all related order forms (see rel_coreweave_lb_2023)."
+        },
+        "contingent_max": {
+          "value": 6300000000,
+          "as_of": "2025-09-15",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20001"
+          ],
+          "trigger": "CoreWeave does not sell reserved capacity to its customers; Nvidia buys the residual unsold capacity through 2032-04-13, if CoreWeave meets delivery and availability of service requirements",
+          "note": "The 8-K calls $6.3bn the initial value, not a maximum. Whether it is a ceiling, a minimum or an estimate is not disclosed; treated here as the contingent amount."
+        }
+      },
+      "dates": {
+        "announced": "2025-09-15",
+        "signed": "2025-09-09",
+        "filed": "2025-09-15",
+        "effective": "2025-09-09",
+        "maturity": "2032-04-13",
+        "evidence": [
+          "ev_20001",
+          "ev_20002",
+          "ev_20004"
+        ]
+      },
+      "seniority": "contingent_buyer",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. No Nvidia filing or release names CoreWeave's residual capacity order. Nvidia reports only unnamed aggregates: multi-year cloud service agreements of $26 billion at 2025-10-26 (ev_10151) and, from Q2 FY2027, AI cloud agreements of $36 billion that the AI clouds can stop providing and sell to third parties (ev_10035, ev_10039). Whether this order sits in either aggregate is not stated.",
+        "counterparty_side": "CoreWeave's 8-K of 2025-09-15, restated in its 424B3 of 2025-09-26, discloses the order form with an initial value of $6.3 billion and NVIDIA's obligation to purchase residual unsold capacity through 2032-04-13. CoreWeave's later 10-Qs and 10-K do not mention the order.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_20001",
+          "ev_20002",
+          "ev_20003",
+          "ev_20004",
+          "ev_20005",
+          "ev_20006",
+          "ev_20015",
+          "ev_20190"
+        ],
+        "differences": [
+          {
+            "field": "existence and value",
+            "nvidia_value": "Not named; possibly inside the $26 billion cloud service agreement aggregate at 2025-10-26 (analysis)",
+            "counterparty_value": "$6.3 billion initial value",
+            "evidence": [
+              "ev_20001",
+              "ev_10151"
+            ]
+          },
+          {
+            "field": "label",
+            "nvidia_value": "Nvidia's own term for the closest category is AI cloud agreements, capacity the clouds can sell to third parties",
+            "counterparty_value": "CoreWeave calls it access to residual unsold capacity; neither side uses the word backstop",
+            "evidence": [
+              "ev_10039",
+              "ev_20004"
+            ]
+          },
+          {
+            "field": "remaining performance obligations",
+            "nvidia_value": "Not applicable",
+            "counterparty_value": "Not stated whether the order is in RPO. RPO language on committed capacity the Company has the right to resell first appears in the Q3 2025 10-Q, the quarter of the order (analysis)",
+            "evidence": [
+              "ev_70007",
+              "ev_70009",
+              "ev_20097"
+            ]
+          }
+        ]
+      },
+      "credit": {
+        "wwr": "specific",
+        "wwr_reason": "Nvidia pays for whatever reserved capacity CoreWeave fails to sell, so its payments grow as CoreWeave loses customers while it remains solvent. The growth stops at failure: either party may terminate if the other's insolvency proceeding is not dismissed within 90 days, and on termination Nvidia is released from payment for services after termination. Payment also depends on CoreWeave meeting delivery and availability requirements, so a CoreWeave that cannot deliver is not paid. Analysis: US bankruptcy law can limit termination clauses triggered by a filing, so how far the 90 day clause protects Nvidia in a Chapter 11 needs legal review.",
+        "collateral": "None. Nvidia receives compute capacity for its payments; no security interest.",
+        "tenor": "2025-09-09 to 2032-04-13, about six and a half years.",
+        "notes": "The order form itself is not filed; only the MSA (Ex. 10.31 to the S-4/A) is public (ev_20016). Termination for breach on 30 days' notice and for insolvency not dismissed within 90 days (ev_20006); release of post-termination payments (ev_20015). No credit agreement read (DDTL 3.0, 4.0, 5.0, 5.5) names NVIDIA as a customer or Qualified Customer; the DDTL 5.5 customer MSAs are redacted (ev_20163)."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "CoreWeave sells less reserved capacity to its own customers while it remains solvent",
+            "mechanism": "Nvidia buys CoreWeave's residual unsold capacity through 2032-04-13",
+            "affected": [
+              "ent_nvidia",
+              "ent_coreweave"
+            ],
+            "direction": "mixed",
+            "text": "If CoreWeave's customers take less capacity, Nvidia pays for the unsold remainder, turning a weak quarter at CoreWeave into an expense for Nvidia.",
+            "evidence": [
+              "ev_20002",
+              "ev_20004"
+            ]
+          },
+          {
+            "trigger": "CoreWeave enters an insolvency proceeding not dismissed within 90 days",
+            "mechanism": "Nvidia may terminate and is released from paying for services after termination",
+            "affected": [
+              "ent_coreweave",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If a CoreWeave insolvency case runs past 90 days, Nvidia can end the order, so the purchase support disappears when CoreWeave most needs it.",
+            "evidence": [
+              "ev_20006",
+              "ev_20015"
+            ]
+          },
+          {
+            "trigger": "CoreWeave misses delivery or availability of service requirements, as with the delays announced in November 2025",
+            "mechanism": "Nvidia's obligation is subject to those requirements",
+            "affected": [
+              "ent_coreweave"
+            ],
+            "direction": "negative",
+            "text": "Delivery delays at CoreWeave reduce what Nvidia must buy, so the order protects demand risk but not construction risk.",
+            "evidence": [
+              "ev_20005",
+              "ev_20206"
+            ]
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "revenue_quality",
+            "trigger": "Nvidia pays CoreWeave for unsold capacity",
+            "mechanism": "CoreWeave uses its revenue to buy and finance more NVIDIA GPUs, its only GPU supplier",
+            "affected": [
+              "ent_nvidia",
+              "ent_coreweave"
+            ],
+            "direction": "negative",
+            "text": "Payments for CoreWeave's unsold capacity return to Nvidia as GPU orders, so part of Nvidia's reported demand would rest on its own cash (analysis).",
+            "evidence": [
+              "ev_20127",
+              "ev_20027"
+            ]
+          },
+          {
+            "lens": "lender_reliance",
+            "trigger": "CoreWeave defaults on its secured facilities",
+            "mechanism": "Lenders to CoreWeave cannot count on the Nvidia order, which no credit agreement names and which ends after a 90 day insolvency",
+            "affected": [
+              "ent_mufg",
+              "ent_jpmorgan",
+              "ent_morgan_stanley",
+              "ent_us_bank"
+            ],
+            "direction": "negative",
+            "text": "Lenders to CoreWeave may treat the Nvidia order as a demand floor, but it terminates on insolvency and is pledged in none of the credit agreements read.",
+            "evidence": [
+              "ev_20006",
+              "ev_20163",
+              "ev_20207"
+            ]
+          },
+          {
+            "lens": "signaling",
+            "trigger": "Nvidia does not extend or repeat the order after 2032 or for new CoreWeave sites",
+            "mechanism": "Investors read the order as Nvidia standing behind CoreWeave capacity; its absence on new capacity would remove that read",
+            "affected": [
+              "ent_coreweave"
+            ],
+            "direction": "negative",
+            "text": "New CoreWeave capacity without an Nvidia purchase floor would be priced on its customers alone, raising CoreWeave's cost of capital (analysis).",
+            "evidence": [
+              "ev_20001",
+              "ev_20150"
+            ]
+          }
+        ]
+      },
+      "measure_inputs": {
+        "counterparty_nvidia_spend": null,
+        "counterparty_equity_raised": null,
+        "nvidia_paid": null,
+        "covered_project_debt": null,
+        "window": "2025-09-09 to 2026-09-30"
+      },
+      "notes": "nvidia_paid is blank because MSA payments are not split between this order and other order forms. covered_project_debt is blank: no document ties any CoreWeave facility to the capacity this order covers. stress_inputs are not filled: the contracted floor, contracted and merchant shares and capacity value per quarter are not disclosed by either side. Seed B2 confirmed with modifications: the filing says initial value, not a fixed amount, and the order is conditional on delivery and availability requirements.",
+      "projects": [],
+      "depth2_links": [
+        {
+          "entity": "ent_openai",
+          "role": "offtaker",
+          "description": "Buys reserved CoreWeave capacity ahead of Nvidia's residual purchase; committed up to about $11.9bn through October 2030 and up to about $6.5bn through May 2031.",
+          "amount": {
+            "value": 11900000000,
+            "as_of": "2026-03-02",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_20199"
+            ]
+          },
+          "evidence": [
+            "ev_20199",
+            "ev_20102"
+          ]
+        },
+        {
+          "entity": "ent_meta",
+          "role": "offtaker",
+          "description": "Initially committed up to about $21.0bn through December 2032; its take-up reduces what Nvidia must buy.",
+          "amount": {
+            "value": 21000000000,
+            "as_of": "2026-11-12",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_20103"
+            ]
+          },
+          "evidence": [
+            "ev_20103"
+          ]
+        },
+        {
+          "entity": "ent_microsoft",
+          "role": "offtaker",
+          "description": "CoreWeave's largest customer in 2025 at 67% of revenue.",
+          "amount": null,
+          "evidence": [
+            "ev_20125"
+          ]
+        },
+        {
+          "entity": "ent_mufg",
+          "role": "lender",
+          "description": "Agent or arranger on DDTL 3.0, 4.0 and 5.5; none of these agreements names NVIDIA as a customer.",
+          "amount": null,
+          "evidence": [
+            "ev_20205",
+            "ev_20077",
+            "ev_20154"
+          ]
+        },
+        {
+          "entity": "ent_jpmorgan",
+          "role": "lender",
+          "description": "Agent on DDTL 5.5, backed by five redacted customer MSAs that average about three years.",
+          "amount": {
+            "value": 1555000000,
+            "as_of": "2026-09-30",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_20050"
+            ]
+          },
+          "evidence": [
+            "ev_20084",
+            "ev_20163",
+            "ev_20156"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "evidence": [
+        "ev_10039",
+        "ev_10151",
+        "ev_20001",
+        "ev_20002",
+        "ev_20003",
+        "ev_20004",
+        "ev_20005",
+        "ev_20006",
+        "ev_20015",
+        "ev_20027",
+        "ev_20050",
+        "ev_20077",
+        "ev_20084",
+        "ev_20097",
+        "ev_20102",
+        "ev_20103",
+        "ev_20125",
+        "ev_20127",
+        "ev_20150",
+        "ev_20154",
+        "ev_20156",
+        "ev_20163",
+        "ev_20190",
+        "ev_20199",
+        "ev_20205",
+        "ev_20206",
+        "ev_20207",
+        "ev_70007",
+        "ev_70009"
+      ]
+    },
+    {
+      "id": "rel_coreweave_lb_2023",
+      "from": "ent_nvidia",
+      "to": "ent_coreweave",
+      "type_primary": "LB",
+      "types_secondary": [],
+      "title": "Nvidia rents compute from CoreWeave under a master services agreement",
+      "insight_template": "Nvidia rents compute from {counterparty}, which runs only Nvidia GPUs, so its rent helps pay for the chips it sold.",
+      "definition": "Under a master services agreement dated 10 April 2023, CoreWeave provides NVIDIA infrastructure and platform services through order forms that NVIDIA submits. CoreWeave reports that NVIDIA paid about $320 million to the end of 2024, $326.3 million in 2025 and $59.6 million in the first quarter of 2026. The values and terms of individual order forms are not disclosed.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "evidence": [],
+          "note": "No total contract value is disclosed by either side. A reported figure of about $1.3bn over four years (seed B3) was not found in an allowed source."
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Order form values not disclosed."
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "evidence": [],
+          "note": "No prepaid rent disclosed. Rent paid is in measure_inputs.nvidia_paid."
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2025-03-31",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "No contingent term in the rental order forms; the residual capacity order under the same MSA is rel_coreweave_bk_2025."
+        }
+      },
+      "dates": {
+        "announced": null,
+        "signed": "2023-04-10",
+        "filed": "2025-09-25",
+        "effective": "2023-04-10",
+        "maturity": null,
+        "evidence": [
+          "ev_20003",
+          "ev_20146",
+          "ev_20016"
+        ]
+      },
+      "seniority": "lessee",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. Nvidia names no counterparty for its multi-year cloud service agreements ($26 billion at 2025-10-26, ev_10151; $27 billion at 2026-01-25 by year, ev_10120). Nvidia's filings state no related-party transactions.",
+        "counterparty_side": "CoreWeave discloses the MSA with NVIDIA dated 2023-04-10 as a related-party transaction and a material contract, and the payments: about $320m cumulative to 2024-12-31, $326.3m in 2025 and $59.6m in Q1 2026.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_20029",
+          "ev_20033",
+          "ev_20025",
+          "ev_20026",
+          "ev_20146",
+          "ev_20016",
+          "ev_20028"
+        ],
+        "differences": [
+          {
+            "field": "related party status",
+            "nvidia_value": "No related-party transactions disclosed by Nvidia",
+            "counterparty_value": "CoreWeave's proxy treats NVIDIA as a related party; its Q3 2026 10-Q related-party note does not list NVIDIA",
+            "evidence": [
+              "ev_20028",
+              "ev_20194"
+            ]
+          },
+          {
+            "field": "contract value",
+            "nvidia_value": "Not named within cloud service agreement aggregates",
+            "counterparty_value": "Payments only; order form values not disclosed",
+            "evidence": [
+              "ev_10151",
+              "ev_20025"
+            ]
+          }
+        ]
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Nvidia is the renter. It can lose only prepaid rent, none of which is disclosed, and the cost of capacity it does not use. The exposure does not grow as CoreWeave weakens; both sides move with AI demand.",
+        "collateral": "None.",
+        "tenor": "Runs until all order forms expire; order form terms not disclosed.",
+        "notes": "Termination for breach on 30 days' notice or insolvency not dismissed within 90 days (ev_20006), with release of post-termination payments (ev_20015). 2025 and Q1 2026 payments may include amounts under the September 2025 residual capacity order; they are not split. Analysis: 2025 payments were about 6.4% of CoreWeave's $5.1bn revenue (ev_20124), a cash measure, not recognized revenue."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Nvidia reduces or stops submitting order forms",
+            "mechanism": "CoreWeave loses rent of a few hundred million dollars a year",
+            "affected": [
+              "ent_coreweave"
+            ],
+            "direction": "negative",
+            "text": "If Nvidia stops ordering, CoreWeave loses a customer that paid it $326.3 million in 2025, about 6% of revenue (analysis).",
+            "evidence": [
+              "ev_20025",
+              "ev_20124"
+            ]
+          },
+          {
+            "trigger": "CoreWeave breaches the MSA or an insolvency proceeding is not dismissed within 90 days",
+            "mechanism": "Either party may terminate and Nvidia stops paying for later services",
+            "affected": [
+              "ent_nvidia",
+              "ent_coreweave"
+            ],
+            "direction": "negative",
+            "text": "A CoreWeave insolvency lets Nvidia end the agreement, but Nvidia would need to find the research compute elsewhere.",
+            "evidence": [
+              "ev_20006",
+              "ev_20015"
+            ]
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "revenue_quality",
+            "trigger": "Nvidia keeps paying rent to CoreWeave",
+            "mechanism": "CoreWeave buys only Nvidia GPUs and Nvidia was 17% of its 2025 supplier purchases",
+            "affected": [
+              "ent_nvidia",
+              "ent_coreweave"
+            ],
+            "direction": "mixed",
+            "text": "Nvidia's $705.9 million of rent to CoreWeave since 2023 sits beside CoreWeave's Nvidia GPU purchases, a round trip shown side by side, not netted.",
+            "evidence": [
+              "ev_20033",
+              "ev_20025",
+              "ev_20026",
+              "ev_20027"
+            ]
+          },
+          {
+            "lens": "collateral_loop",
+            "trigger": "Nvidia supplies documents that CoreWeave's lenders use to track GPU collateral",
+            "mechanism": "DDTL 3.0 tracks collateral GPUs using serial-number documents from NVIDIA or Dell",
+            "affected": [
+              "ent_us_bank",
+              "ent_mufg"
+            ],
+            "direction": "mixed",
+            "text": "CoreWeave's lenders identify their GPU collateral from Nvidia documents, tying Nvidia's records to the security of CoreWeave's loans.",
+            "evidence": [
+              "ev_20210"
+            ]
+          }
+        ]
+      },
+      "measure_inputs": {
+        "counterparty_nvidia_spend": null,
+        "counterparty_equity_raised": null,
+        "covered_project_debt": null,
+        "nvidia_paid": {
+          "value": 705900000,
+          "as_of": "2026-03-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [],
+          "label": "fact",
+          "components": [
+            {
+              "value": 320000000,
+              "evidence": [
+                "ev_20033"
+              ],
+              "note": "cumulative from April 2023 to 2024-12-31"
+            },
+            {
+              "value": 326300000,
+              "evidence": [
+                "ev_20025"
+              ],
+              "note": "year 2025"
+            },
+            {
+              "value": 59600000,
+              "evidence": [
+                "ev_20026"
+              ],
+              "note": "Q1 2026"
+            }
+          ],
+          "note": "Approximate payments under the MSA and all related order forms, including any under the residual capacity order."
+        },
+        "window": "2023-04-10 to 2026-03-31"
+      },
+      "notes": "Seed B3 modified: the rental relationship exists in filings, but the reported $1.3bn over four years is not found in an allowed source; only payments are disclosed.",
+      "projects": [],
+      "depth2_links": [
+        {
+          "entity": "ent_us_bank",
+          "role": "lender",
+          "description": "Collateral agent on DDTL 3.0, which tracks GPU collateral using NVIDIA or Dell serial-number documents.",
+          "amount": null,
+          "evidence": [
+            "ev_20205",
+            "ev_20210"
+          ]
+        },
+        {
+          "entity": "ent_microsoft",
+          "role": "offtaker",
+          "description": "Larger customer of CoreWeave than Nvidia: 67% of 2025 revenue against about 6% from Nvidia's payments (analysis).",
+          "amount": null,
+          "evidence": [
+            "ev_20125",
+            "ev_20025"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "evidence": [
+        "ev_10151",
+        "ev_20003",
+        "ev_20006",
+        "ev_20015",
+        "ev_20016",
+        "ev_20025",
+        "ev_20026",
+        "ev_20027",
+        "ev_20028",
+        "ev_20029",
+        "ev_20033",
+        "ev_20124",
+        "ev_20125",
+        "ev_20146",
+        "ev_20194",
+        "ev_20205",
+        "ev_20210"
+      ]
+    },
+    {
+      "id": "rel_coreweave_gu_2026",
+      "from": "ent_nvidia",
+      "to": "ent_coreweave",
+      "type_primary": "GU",
+      "types_secondary": [
+        "FC"
+      ],
+      "title": "Nvidia and CoreWeave collaboration framework for land, power and shell",
+      "insight_template": "Nvidia says it intends to lend its financial strength to {counterparty} sites, but no agreement or amount exists yet.",
+      "definition": "Alongside the January 2026 share purchase, Nvidia and CoreWeave announced a collaboration framework to accelerate CoreWeave's buildout of more than 5 gigawatts of AI factories by 2030. The companies intend to use Nvidia's financial strength to speed CoreWeave's procurement of land, power and shell. CoreWeave states it is subject to future agreements or order forms; no amount, guarantee or financing has been disclosed.",
+      "status": "loi_or_framework",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "evidence": [],
+          "note": "No amount stated by either side."
+        },
+        "committed_total": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-01-26",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Framework only."
+        },
+        "funded": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-01-26",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Framework only."
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-01-26",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Framework only."
+        }
+      },
+      "dates": {
+        "announced": "2026-01-26",
+        "signed": null,
+        "filed": "2026-01-26",
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_20011",
+          "ev_30056"
+        ]
+      },
+      "seniority": "none",
+      "reconciliation": {
+        "result": "reconciled",
+        "nvidia_side": "Nvidia's release and its Q4 FY2026 results release describe a strengthened collaboration to build more than 5 gigawatts of AI factories by 2030 and an intent to use Nvidia's financial strength for land, power and shell. No amount.",
+        "counterparty_side": "CoreWeave's 8-K describes the collaboration framework, the same intent, and that it is subject to future agreements or order forms. Its Q3 2026 10-Q mentions the framework but no guarantee or financing from Nvidia.",
+        "nvidia_evidence": [
+          "ev_30055",
+          "ev_30056",
+          "ev_70019"
+        ],
+        "counterparty_evidence": [
+          "ev_20011",
+          "ev_20012",
+          "ev_20013",
+          "ev_70023"
+        ],
+        "differences": [
+          {
+            "field": "binding status",
+            "nvidia_value": "Release does not state the condition",
+            "counterparty_value": "Subject to future execution of additional agreements and/or order forms",
+            "evidence": [
+              "ev_20012",
+              "ev_30055"
+            ]
+          },
+          {
+            "field": "link to Nvidia's land, power and shell guarantees",
+            "nvidia_value": "$3.5 billion of land, power and shell guarantees disclosed for unnamed partners",
+            "counterparty_value": "No guarantee from Nvidia disclosed",
+            "evidence": [
+              "ev_10123",
+              "ev_70023"
+            ],
+            "note": "Whether any part of the $3.5 billion covers CoreWeave is not stated."
+          }
+        ]
+      },
+      "credit": {
+        "wwr": "specific",
+        "wwr_reason": "No exposure exists yet. If the intent became guarantees of CoreWeave's land, power or shell leases, Nvidia would pay when CoreWeave cannot meet those leases, so the exposure would grow as CoreWeave weakens.",
+        "collateral": "None defined.",
+        "tenor": "Buildout target to 2030.",
+        "notes": "Headline only. Nvidia's own land, power and shell guarantees reached $3.5bn by 2026-01-25 (ev_10123) for partners it does not name."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Nvidia and CoreWeave sign definitive land, power and shell agreements under the framework",
+            "mechanism": "Nvidia would stand behind CoreWeave site obligations, as it already does for other AI clouds",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If the framework becomes signed guarantees, Nvidia would take on CoreWeave's site lease risk for the more than 5 gigawatt buildout.",
+            "evidence": [
+              "ev_20013",
+              "ev_10123"
+            ]
+          },
+          {
+            "trigger": "No further agreements are executed",
+            "mechanism": "CoreWeave funds its land, power and shell with its own credit, which already pays 9% or more on unsecured notes",
+            "affected": [
+              "ent_coreweave"
+            ],
+            "direction": "negative",
+            "text": "Without signed Nvidia support, CoreWeave must finance its site buildout on its own high-yield credit.",
+            "evidence": [
+              "ev_20012",
+              "ev_20142"
+            ]
+          }
+        ],
+        "second_order": [
+          {
+            "lens": "signaling",
+            "trigger": "Developers and landlords price CoreWeave leases on the stated Nvidia intent",
+            "mechanism": "An announced intent to use Nvidia's financial strength can lower what landlords demand from CoreWeave until it is tested",
+            "affected": [
+              "ent_coreweave",
+              "ent_core_scientific"
+            ],
+            "direction": "mixed",
+            "text": "Landlords may offer CoreWeave better terms on the strength of the Nvidia framework and reprice if no guarantee follows (analysis).",
+            "evidence": [
+              "ev_20013",
+              "ev_30055"
+            ]
+          },
+          {
+            "lens": "lender_reliance",
+            "trigger": "CoreWeave's lease commitments grow with the buildout",
+            "mechanism": "CoreWeave had $47.4bn of undiscounted payments on leases not yet commenced; landlords' lenders rely on CoreWeave's credit",
+            "affected": [
+              "ent_coreweave"
+            ],
+            "direction": "negative",
+            "text": "CoreWeave's $47.4 billion of leases not yet commenced rely on its own credit today, since no Nvidia guarantee has been disclosed.",
+            "evidence": [
+              "ev_20196"
+            ]
+          }
+        ]
+      },
+      "notes": "Recorded separately because it carries an intent beyond the equity purchase: credit support for land, power and shell. Seed B4 confirmed for the equity part, which is in rel_coreweave_eq_2025.",
+      "projects": [
+        "proj_coreweave_kenilworth_nj"
+      ],
+      "depth2_links": [
+        {
+          "entity": "ent_core_scientific",
+          "role": "landlord",
+          "description": "Hosted about 500 MW for CoreWeave; the merger that would have brought those sites in-house was terminated on 2025-10-30. Not linked to the framework by any document.",
+          "amount": null,
+          "evidence": [
+            "ev_20188",
+            "ev_20187"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "evidence": [
+        "ev_10123",
+        "ev_20011",
+        "ev_20012",
+        "ev_20013",
+        "ev_20142",
+        "ev_20187",
+        "ev_20188",
+        "ev_20196",
+        "ev_30055",
+        "ev_30056",
+        "ev_70019",
+        "ev_70023"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_coreweave_ddtl1",
+      "entity": "ent_coreweave",
+      "name": "DDTL 1.0 financed capacity",
+      "location": "Not disclosed",
+      "power_mw_contracted": null,
+      "power_mw_energized": null,
+      "gpu_generation": null,
+      "gpu_count": null,
+      "anchor_tenant": null,
+      "contract_years": null,
+      "financing": [
+        {
+          "facility": "DDTL 1.0 (up to $2.3bn, July 2023)",
+          "lenders": [
+            "ent_us_bank"
+          ],
+          "balance": {
+            "value": 1139000000,
+            "as_of": "2026-09-30",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_20045"
+            ]
+          },
+          "collateral_value": null,
+          "secured_by": "SPV holding GPU infrastructure and related customer contracts; final payment 2028-03-28; effective rate 15%",
+          "covenant_ltv": null,
+          "evidence": [
+            "ev_20133",
+            "ev_20045",
+            "ev_20143",
+            "ev_70013",
+            "ev_20087"
+          ]
+        }
+      ],
+      "expected_completion": null,
+      "nvidia_link": [],
+      "role": "context",
+      "notes": "Sites not named. U.S. Bank is the administrative agent; other lenders are not named in the documents read. No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+      "evidence": [
+        "ev_20133",
+        "ev_20045",
+        "ev_20143",
+        "ev_70013"
+      ]
+    },
+    {
+      "id": "proj_coreweave_ddtl2",
+      "entity": "ent_coreweave",
+      "name": "DDTL 2.0 and 2.1 financed capacity",
+      "location": "Not disclosed",
+      "power_mw_contracted": null,
+      "power_mw_energized": null,
+      "gpu_generation": null,
+      "gpu_count": null,
+      "anchor_tenant": null,
+      "contract_years": null,
+      "financing": [
+        {
+          "facility": "DDTL 2.0 (up to $7.6bn, May 2024)",
+          "lenders": [
+            "ent_blackstone",
+            "ent_magnetar"
+          ],
+          "balance": {
+            "value": 2796000000,
+            "as_of": "2026-09-30",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_20046"
+            ]
+          },
+          "collateral_value": null,
+          "secured_by": "SPV; sized on depreciable cost of GPU servers; matures August 2030",
+          "covenant_ltv": null,
+          "evidence": [
+            "ev_20134",
+            "ev_20046",
+            "ev_20147",
+            "ev_20144",
+            "ev_20038"
+          ]
+        },
+        {
+          "facility": "DDTL 2.1 tranche (up to $3.0bn, September 2025)",
+          "lenders": [],
+          "balance": {
+            "value": 2494000000,
+            "as_of": "2026-09-30",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_20047"
+            ]
+          },
+          "collateral_value": null,
+          "secured_by": "As DDTL 2.0; SOFR plus 4.25%; matures March 2031",
+          "covenant_ltv": null,
+          "evidence": [
+            "ev_20135",
+            "ev_20047",
+            "ev_20140"
+          ]
+        }
+      ],
+      "expected_completion": null,
+      "nvidia_link": [],
+      "role": "context",
+      "notes": "Blackstone and Magnetar led DDTL 2.0; DDTL 2.1 lenders not named. $500m of IPO proceeds were to be held as restricted cash securing DDTL 2.0 (ev_20038). No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+      "evidence": [
+        "ev_20134",
+        "ev_20135",
+        "ev_20046",
+        "ev_20047",
+        "ev_20147"
+      ]
+    },
+    {
+      "id": "proj_coreweave_ddtl3_phoenix1",
+      "entity": "ent_coreweave",
+      "name": "DDTL 3.0, OpenAI order form Phoenix 1",
+      "location": "Not disclosed",
+      "power_mw_contracted": null,
+      "power_mw_energized": null,
+      "gpu_generation": null,
+      "gpu_count": null,
+      "anchor_tenant": "OpenAI",
+      "contract_years": null,
+      "financing": [
+        {
+          "facility": "DDTL 3.0 (up to $2.6bn, July 2025; First Amendment 2025-12-31)",
+          "lenders": [
+            "ent_mufg",
+            "ent_us_bank"
+          ],
+          "balance": {
+            "value": 2323000000,
+            "as_of": "2026-09-30",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_20048"
+            ]
+          },
+          "collateral_value": null,
+          "secured_by": "OpenAI master services agreement of 2025-03-07 and Reserved Compute Instance Order Form #1 (Phoenix 1), and the GPU infrastructure; SOFR plus 4.00%; matures August 2030",
+          "covenant_ltv": null,
+          "covenant": "Minimum liquidity cut to $100m (from up to $175m); first debt service coverage test postponed; unlimited equity cures before 2026-10-28; contract realization ratio",
+          "evidence": [
+            "ev_20136",
+            "ev_20048",
+            "ev_20141",
+            "ev_20207",
+            "ev_20208",
+            "ev_20205",
+            "ev_20202",
+            "ev_20203",
+            "ev_20204",
+            "ev_20209",
+            "ev_20211"
+          ]
+        }
+      ],
+      "expected_completion": null,
+      "nvidia_link": [],
+      "role": "context",
+      "notes": "Phoenix 1 is the order form name; the site location is not disclosed. Covenant relief in December 2025 followed data center delivery delays. No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+      "evidence": [
+        "ev_20136",
+        "ev_20048",
+        "ev_20207",
+        "ev_20208",
+        "ev_20205",
+        "ev_20201"
+      ]
+    },
+    {
+      "id": "proj_coreweave_ddtl4",
+      "entity": "ent_coreweave",
+      "name": "DDTL 4.0, single AI enterprise contract (non-recourse)",
+      "location": "Four data center sites, names redacted",
+      "power_mw_contracted": null,
+      "power_mw_energized": null,
+      "gpu_generation": null,
+      "gpu_count": null,
+      "anchor_tenant": "A leading AI enterprise (not named)",
+      "contract_years": null,
+      "financing": [
+        {
+          "facility": "DDTL 4.0 (up to $8.5bn, $7.5bn initially, March 2026)",
+          "lenders": [
+            "ent_mufg",
+            "ent_morgan_stanley"
+          ],
+          "balance": {
+            "value": 4583000000,
+            "as_of": "2026-09-30",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_20064"
+            ]
+          },
+          "collateral_value": {
+            "value": 5200000000,
+            "as_of": "2026-09-30",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_20080"
+            ]
+          },
+          "secured_by": "Equity of CCAC VIII and substantially all its assets, including one customer contract; parent liable only for bad acts; SOFR plus 2.25% and about 5.9% fixed; matures 2032-03-31; rated A3 and A (low)",
+          "covenant_ltv": null,
+          "covenant": "Debt service coverage of at least 1.15x",
+          "evidence": [
+            "ev_20075",
+            "ev_20170",
+            "ev_20064",
+            "ev_20079",
+            "ev_20080",
+            "ev_20167",
+            "ev_20076",
+            "ev_20171",
+            "ev_20165",
+            "ev_20166",
+            "ev_20168",
+            "ev_20169"
+          ]
+        }
+      ],
+      "expected_completion": null,
+      "nvidia_link": [],
+      "role": "context",
+      "notes": "Analysis: balance over collateral is about 0.88 at 2026-09-30. No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+      "evidence": [
+        "ev_20075",
+        "ev_20064",
+        "ev_20172",
+        "ev_70011",
+        "ev_20169"
+      ]
+    },
+    {
+      "id": "proj_coreweave_ddtl5",
+      "entity": "ent_coreweave",
+      "name": "DDTL 5.0, two non-investment grade customers",
+      "location": "Four data center sites, names redacted",
+      "power_mw_contracted": null,
+      "power_mw_energized": null,
+      "gpu_generation": null,
+      "gpu_count": null,
+      "anchor_tenant": "Two large non-investment grade customers (not named)",
+      "contract_years": null,
+      "financing": [
+        {
+          "facility": "DDTL 5.0 ($3.1bn, May 2026)",
+          "lenders": [
+            "ent_morgan_stanley",
+            "ent_mufg"
+          ],
+          "balance": {
+            "value": 2749000000,
+            "as_of": "2026-09-30",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_20049"
+            ]
+          },
+          "collateral_value": null,
+          "secured_by": "SPV GPU servers and contracts with two large non-investment grade customers; SOFR plus 4.50%; matures 2031-11-15; rated Ba2 and BB+",
+          "covenant_ltv": null,
+          "covenant": "Debt service coverage of at least 1.35x",
+          "evidence": [
+            "ev_20081",
+            "ev_20082",
+            "ev_20049",
+            "ev_20175",
+            "ev_20174",
+            "ev_20176",
+            "ev_20177",
+            "ev_20178",
+            "ev_20085"
+          ]
+        }
+      ],
+      "expected_completion": null,
+      "nvidia_link": [],
+      "role": "context",
+      "notes": "MUFG named as lender in the researcher's facts file; the agent is Morgan Stanley Senior Funding. No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+      "evidence": [
+        "ev_20081",
+        "ev_20049",
+        "ev_20178"
+      ]
+    },
+    {
+      "id": "proj_coreweave_ddtl55",
+      "entity": "ent_coreweave",
+      "name": "DDTL 5.5, five customer MSAs",
+      "location": "Data center sites, names redacted",
+      "power_mw_contracted": null,
+      "power_mw_energized": null,
+      "gpu_generation": null,
+      "gpu_count": null,
+      "anchor_tenant": "Five customers (names redacted)",
+      "contract_years": 3,
+      "financing": [
+        {
+          "facility": "DDTL 5.5 ($2.6bn, August 2026)",
+          "lenders": [
+            "ent_jpmorgan",
+            "ent_mufg",
+            "ent_citigroup",
+            "ent_credit_agricole",
+            "ent_deutsche_bank",
+            "ent_goldman_sachs",
+            "ent_morgan_stanley",
+            "ent_pnc",
+            "ent_societe_generale",
+            "ent_smbc",
+            "ent_td",
+            "ent_us_bank",
+            "ent_wells_fargo"
+          ],
+          "balance": {
+            "value": 1555000000,
+            "as_of": "2026-09-30",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_20050"
+            ]
+          },
+          "collateral_value": null,
+          "secured_by": "SPV GPU servers and five customer MSAs (names redacted); SOFR plus 5.50%; matures 2031-09-01; rated Ba2 and BB+; mandatory prepayment on events affecting the customer contracts",
+          "covenant_ltv": null,
+          "covenant": "Debt service coverage of at least 1.35x; cross-default above $35m; Qualified Customer test met by borrower certification",
+          "evidence": [
+            "ev_20083",
+            "ev_20084",
+            "ev_20154",
+            "ev_20161",
+            "ev_70020",
+            "ev_70021",
+            "ev_70022",
+            "ev_20050",
+            "ev_20149",
+            "ev_20150",
+            "ev_20155",
+            "ev_20162",
+            "ev_20160",
+            "ev_20158",
+            "ev_20094"
+          ]
+        }
+      ],
+      "expected_completion": null,
+      "nvidia_link": [],
+      "role": "context",
+      "notes": "Underlying customer contracts average about three years (ev_20156) against a roughly five year loan; replacement contracts need only six months of tenor (ev_20159). No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+      "evidence": [
+        "ev_20083",
+        "ev_20050",
+        "ev_20163",
+        "ev_70010",
+        "ev_20156"
+      ]
+    },
+    {
+      "id": "proj_coreweave_kenilworth_nj",
+      "entity": "ent_coreweave",
+      "name": "Kenilworth, New Jersey joint venture campus",
+      "location": "Kenilworth, New Jersey",
+      "power_mw_contracted": null,
+      "power_mw_energized": null,
+      "gpu_generation": null,
+      "gpu_count": null,
+      "anchor_tenant": null,
+      "contract_years": null,
+      "financing": [],
+      "expected_completion": null,
+      "nvidia_link": [
+        "rel_coreweave_gu_2026"
+      ],
+      "role": "context",
+      "notes": "Multi-phase campus developed through a joint venture; the third-party developer obtained an 85% equity interest and CoreWeave holds 15%. No financing, power figures or tenant disclosed. The January 2026 framework (land, power and shell) is linked here only as the type of site it targets; no document ties them.",
+      "evidence": [
+        "ev_20197",
+        "ev_20212"
+      ]
+    },
+    {
+      "id": "proj_coreweave_core_scientific_hosting",
+      "entity": "ent_coreweave",
+      "name": "Core Scientific hosted capacity",
+      "location": "Not disclosed",
+      "power_mw_contracted": {
+        "value": 500,
+        "as_of": "2024-10-31",
+        "evidence": [
+          "ev_20188"
+        ],
+        "note": "About 500 MW provided by Core Scientific as of October 2024.",
+        "last_verified": "2026-11-23"
+      },
+      "power_mw_energized": null,
+      "gpu_generation": null,
+      "gpu_count": null,
+      "anchor_tenant": null,
+      "contract_years": null,
+      "financing": [],
+      "expected_completion": null,
+      "nvidia_link": [],
+      "role": "context",
+      "notes": "Landlord relationship. The planned merger was terminated on 2025-10-30 after Core Scientific holders voted against it. No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+      "evidence": [
+        "ev_20188",
+        "ev_20187"
+      ]
+    },
+    {
+      "id": "proj_coreweave_undelivered_leases",
+      "entity": "ent_coreweave",
+      "name": "Leased sites with undelivered power",
+      "location": "Not disclosed",
+      "power_mw_contracted": {
+        "value": 807,
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_20191",
+          "ev_20192"
+        ],
+        "note": "Undelivered power: 453 MW at one leased site (phases in 2026 and 2028) plus 354 MW at other sites; sum is analysis.",
+        "last_verified": "2026-11-23"
+      },
+      "power_mw_energized": null,
+      "gpu_generation": null,
+      "gpu_count": null,
+      "anchor_tenant": null,
+      "contract_years": null,
+      "financing": [],
+      "expected_completion": null,
+      "nvidia_link": [],
+      "role": "context",
+      "notes": "Leases not yet commenced carry $47.4bn of undiscounted payments (ev_20196). No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+      "evidence": [
+        "ev_20191",
+        "ev_20192",
+        "ev_20196"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_coreweave_msa_2023",
+      "date": "2023-04-10",
+      "relationship": "rel_coreweave_lb_2023",
+      "kind": "signing",
+      "summary": "CoreWeave and Nvidia sign the master services agreement under which Nvidia rents CoreWeave capacity.",
+      "evidence": [
+        "ev_20003",
+        "ev_20146"
+      ]
+    },
+    {
+      "id": "evt_coreweave_ipo_2025",
+      "date": "2025-03-31",
+      "relationship": "rel_coreweave_eq_2025",
+      "kind": "filing",
+      "summary": "CoreWeave's IPO prospectus lists Nvidia as holder of 17,932,460 Class A shares before the offering, with $320 million paid under the MSA to date.",
+      "evidence": [
+        "ev_20030",
+        "ev_20033"
+      ]
+    },
+    {
+      "id": "evt_coreweave_13g_2025",
+      "date": "2025-05-15",
+      "relationship": "rel_coreweave_eq_2025",
+      "kind": "holding_change",
+      "summary": "Nvidia's first 13G and 13F report 24,182,460 CoreWeave shares, 7.0% of Class A, at 31 March 2025.",
+      "evidence": [
+        "ev_20017",
+        "ev_20018",
+        "ev_50018"
+      ]
+    },
+    {
+      "id": "evt_coreweave_reclass_2025",
+      "date": "2025-05-28",
+      "relationship": "rel_coreweave_eq_2025",
+      "kind": "filing",
+      "summary": "Nvidia's 10-Q reports its CoreWeave stake moved from non-marketable to marketable securities, at fair value of $1 billion.",
+      "evidence": [
+        "ev_10186",
+        "ev_10187",
+        "ev_10185"
+      ]
+    },
+    {
+      "id": "evt_coreweave_13f_q2_2025",
+      "date": "2025-08-14",
+      "relationship": "rel_coreweave_eq_2025",
+      "kind": "holding_change",
+      "summary": "Nvidia's 13F reports 24,277,573 CoreWeave shares at 30 June 2025, up 95,113 from March.",
+      "evidence": [
+        "ev_70014"
+      ]
+    },
+    {
+      "id": "evt_coreweave_order_2025",
+      "date": "2025-09-09",
+      "relationship": "rel_coreweave_bk_2025",
+      "kind": "signing",
+      "summary": "Nvidia signs an order form with an initial value of $6.3 billion to purchase CoreWeave's residual unsold capacity through 13 April 2032.",
+      "evidence": [
+        "ev_20001",
+        "ev_20002",
+        "ev_20004"
+      ]
+    },
+    {
+      "id": "evt_coreweave_order_8k_2025",
+      "date": "2025-09-15",
+      "relationship": "rel_coreweave_bk_2025",
+      "kind": "filing",
+      "summary": "CoreWeave files an 8-K disclosing the Nvidia order and its insolvency termination terms.",
+      "evidence": [
+        "ev_20006",
+        "ev_20007"
+      ]
+    },
+    {
+      "id": "evt_coreweave_msa_filed_2025",
+      "date": "2025-09-25",
+      "relationship": "rel_coreweave_lb_2023",
+      "kind": "filing",
+      "summary": "CoreWeave files the Nvidia master services agreement as an exhibit to its S-4/A.",
+      "evidence": [
+        "ev_20016",
+        "ev_20015"
+      ]
+    },
+    {
+      "id": "evt_coreweave_ddtl3_amend_2025",
+      "date": "2025-12-31",
+      "relationship": "rel_coreweave_bk_2025",
+      "kind": "amendment",
+      "summary": "CoreWeave amends DDTL 3.0 for delivery delays, cutting minimum liquidity to $100 million and postponing the coverage test.",
+      "evidence": [
+        "ev_20201",
+        "ev_20202",
+        "ev_20203",
+        "ev_20204"
+      ]
+    },
+    {
+      "id": "evt_coreweave_purchase_2026",
+      "date": "2026-01-23",
+      "relationship": "rel_coreweave_eq_2025",
+      "kind": "closing",
+      "summary": "Nvidia buys 22,935,780 CoreWeave shares at $87.20 for $2 billion in cash.",
+      "evidence": [
+        "ev_20008",
+        "ev_20009",
+        "ev_20010",
+        "ev_30053"
+      ]
+    },
+    {
+      "id": "evt_coreweave_13ga_2026",
+      "date": "2026-01-26",
+      "relationship": "rel_coreweave_eq_2025",
+      "kind": "holding_change",
+      "summary": "Nvidia's 13G/A and Form 3 report 47,213,353 CoreWeave shares, 11.5% of Class A, held directly.",
+      "evidence": [
+        "ev_20019",
+        "ev_20020",
+        "ev_70017"
+      ]
+    },
+    {
+      "id": "evt_coreweave_framework_2026",
+      "date": "2026-01-26",
+      "relationship": "rel_coreweave_gu_2026",
+      "kind": "announcement",
+      "summary": "Nvidia and CoreWeave announce a collaboration framework to build more than 5 gigawatts by 2030, with intent to use Nvidia's financial strength for land, power and shell.",
+      "evidence": [
+        "ev_20011",
+        "ev_20013",
+        "ev_30055",
+        "ev_30056"
+      ]
+    },
+    {
+      "id": "evt_coreweave_ddtl4_2026",
+      "date": "2026-03-31",
+      "relationship": "rel_coreweave_bk_2025",
+      "kind": "signing",
+      "summary": "CoreWeave signs the $8.5 billion non-recourse DDTL 4.0 with MUFG as agent; no Nvidia agreement is pledged.",
+      "evidence": [
+        "ev_20075",
+        "ev_20077"
+      ]
+    },
+    {
+      "id": "evt_coreweave_ddtl5_2026",
+      "date": "2026-05-18",
+      "relationship": "rel_coreweave_bk_2025",
+      "kind": "signing",
+      "summary": "CoreWeave signs the $3.1 billion DDTL 5.0 with Morgan Stanley as agent, backed by two non-investment grade customers.",
+      "evidence": [
+        "ev_20081",
+        "ev_20178"
+      ]
+    },
+    {
+      "id": "evt_coreweave_ddtl55_2026",
+      "date": "2026-08-10",
+      "relationship": "rel_coreweave_bk_2025",
+      "kind": "signing",
+      "summary": "CoreWeave signs the $2.6 billion DDTL 5.5 with JPMorgan as agent, backed by five redacted customer contracts.",
+      "evidence": [
+        "ev_20083",
+        "ev_20163"
+      ]
+    },
+    {
+      "id": "evt_coreweave_converts_2033",
+      "date": "2026-09-22",
+      "relationship": "rel_coreweave_eq_2025",
+      "kind": "closing",
+      "summary": "CoreWeave issues $4.2 billion of 2.875% convertible notes due 2033, senior to Nvidia's common stock.",
+      "evidence": [
+        "ev_70001",
+        "ev_70002",
+        "ev_70006"
+      ]
+    },
+    {
+      "id": "evt_coreweave_13f_q3_2026",
+      "date": "2026-11-16",
+      "relationship": "rel_coreweave_eq_2025",
+      "kind": "holding_change",
+      "summary": "Nvidia's latest 13F reports 47,213,353 CoreWeave shares worth $4,113,227,313 at 30 September 2026.",
+      "evidence": [
+        "ev_50019"
+      ]
+    }
+  ]
+}

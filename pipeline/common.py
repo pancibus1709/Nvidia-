@@ -97,7 +97,10 @@ def render_text(path) -> str:
     head = raw[:2000].lower()
     if suffix in (".json",):
         return norm(raw)
-    if suffix in (".htm", ".html", ".xml") or "<html" in head or "<document>" in head or "<?xml" in head:
+    if suffix == ".xml" or head.lstrip().startswith("<?xml"):
+        # data files (13F information tables, ownership forms): every tag is a field boundary
+        return norm(html.unescape(_TAG.sub(" ", _COMMENT.sub(" ", raw))))
+    if suffix in (".htm", ".html") or "<html" in head or "<document>" in head or "<?xml" in head:
         return html_to_text(raw)
     return norm(raw)
 

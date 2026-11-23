@@ -1,0 +1,1918 @@
+{
+ "relationships": [
+  {
+   "counterparty": "SB Energy Corp. (lessor) / OpenAI Group PBC affiliate (tenant) - PORTS-Pike Technology Campus, Pike County, Ohio",
+   "type_guess": "GU",
+   "status_guess": "definitive (8-K Item 1.01 'Entry into a Material Definitive Agreement', signed 2026-08-17); guarantees effective phase by phase from ~FY2029",
+   "summary": "Nvidia entered multiple residual value guaranties with SB Energy covering 20-year leases to an OpenAI affiliate for ~4.25 GW IT load; obligation capped at $105B, triggered by OpenAI insolvency default or payment failure; pays shortfall between guaranteed minimum lease value and re-let/sale recoveries; OpenAI reimburses/indemnifies Nvidia; option for ~3.8 GW more; terminates on OpenAI satisfactory credit rating or 20 years. In exchange the site exclusively hosts Nvidia infrastructure. No payments made to date (Q3 FY27 CFO commentary).",
+   "amounts": {
+    "headline": {
+     "value": 105000000000,
+     "as_of": "2026-08-17",
+     "evidence": [
+      "ev_50032"
+     ],
+     "wording": "aggregate payment obligation is cumulatively capped at $105 billion"
+    },
+    "committed_total": null,
+    "funded": {
+     "value": 0,
+     "as_of": "2026-10-25",
+     "evidence": [
+      "ev_50045"
+     ],
+     "wording": "To date, we have not made any payments related to our guarantees."
+    },
+    "contingent_max": {
+     "value": 105000000000,
+     "as_of": "2026-07-26 (10-Q, event Aug 2026)",
+     "evidence": [
+      "ev_50032",
+      "ev_50039",
+      "ev_50044"
+     ],
+     "wording": "capped at a total of $105 billion; exposure builds as buildings come online"
+    }
+   },
+   "dates": {
+    "signed": "2026-08-17",
+    "first_effective_expected": "FY2029 (calendar 2028 ready-for-service)",
+    "term": "20 years per lease"
+   },
+   "evidence": [
+    "ev_50032",
+    "ev_50033",
+    "ev_50034",
+    "ev_50035",
+    "ev_50036",
+    "ev_50037",
+    "ev_50038",
+    "ev_50039",
+    "ev_50040",
+    "ev_50041",
+    "ev_50042",
+    "ev_50044",
+    "ev_50045",
+    "ev_50046",
+    "ev_50048",
+    "ev_50049",
+    "ev_50128"
+   ],
+   "notes": "8-K calls them 'residual value guaranties' (RV form); economic trigger is tenant default, so GU primary, wrong-way risk specific to OpenAI. Option for ~3.8 GW has no stated amount."
+  },
+  {
+   "counterparty": "SB Energy Corp. (equity)",
+   "type_guess": "EQ",
+   "status_guess": "announced in press release furnished as Ex. 99.1 to 8-K (verb 'will invest'); closing/funding not stated in Nvidia filings",
+   "summary": "Nvidia will invest $1.5B in SB Energy, joining SoftBank Group and OpenAI as investors.",
+   "amounts": {
+    "headline": {
+     "value": 1500000000,
+     "as_of": "2026-08-17",
+     "evidence": [
+      "ev_50047"
+     ],
+     "wording": "NVIDIA will invest $1.5 billion in SB Energy"
+    },
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "announced": "2026-08-17"
+   },
+   "evidence": [
+    "ev_50047"
+   ]
+  },
+  {
+   "counterparty": "OpenAI (equity / investment and partnership agreement)",
+   "type_guess": "EQ-C",
+   "status_guess": "loi_or_framework (LOI in Q3 FY26; 'finalizing' in FY26 10-K filed 2026-02-25); Q1 and Q2 FY27 10-Qs do not mention an OpenAI investment; outcome not stated in Nvidia filings",
+   "summary": "Nvidia entered a letter of intent 'with an opportunity to invest in OpenAI' (Q3 FY26) and a strategic partnership for OpenAI to deploy at least 10 GW of Nvidia systems; by Feb 2026 Nvidia was 'finalizing an investment and partnership agreement' with no assurance. No amount appears in any Nvidia filing.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "loi": "Q3 FY26 (Aug-Oct 2025)",
+    "last_status_statement": "2026-02-25"
+   },
+   "evidence": [
+    "ev_50050",
+    "ev_50051",
+    "ev_50146",
+    "ev_50052",
+    "ev_50053",
+    "ev_50054",
+    "ev_50055"
+   ],
+   "notes": "Seed A1 $100B figure: not found in Nvidia filings."
+  },
+  {
+   "counterparty": "Anthropic",
+   "type_guess": "EQ",
+   "status_guess": "definitive agreement subject to closing conditions (Nov 2025); 'Announced an investment' in Q4 FY26 release; closing and funded amount not stated",
+   "summary": "In November 2025 Nvidia entered into an agreement, subject to certain closing conditions, to invest up to $10B in Anthropic; Anthropic to adopt initially 1 GW of Nvidia Grace Blackwell and Vera Rubin capacity.",
+   "amounts": {
+    "headline": {
+     "value": 10000000000,
+     "as_of": "2025-10-26 (10-Q, event Nov 2025)",
+     "evidence": [
+      "ev_50056"
+     ],
+     "wording": "to invest up to $10 billion in Anthropic"
+    },
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "agreement": "2025-11",
+    "announced_in_filing": "2025-11-19"
+   },
+   "evidence": [
+    "ev_50056",
+    "ev_50057",
+    "ev_50058",
+    "ev_50059",
+    "ev_50060"
+   ]
+  },
+  {
+   "counterparty": "Intel Corporation",
+   "type_guess": "EQ",
+   "status_guess": "completed (13F shows 214,776,632 shares at 2025-12-31); partially sold by 2026-09-30",
+   "summary": "Nvidia committed to invest $5B in Intel common stock subject to regulatory approval (Q3 FY26), plus product collaboration; 13F shows position from 2025-12-31 and a reduction to 161,082,488 shares at 2026-09-30.",
+   "amounts": {
+    "headline": {
+     "value": 5000000000,
+     "as_of": "2025-10-26",
+     "evidence": [
+      "ev_50061",
+      "ev_50063"
+     ],
+     "wording": "committed to invest $5 billion in Intel Corporation, subject to regulatory approval"
+    },
+    "committed_total": {
+     "value": 5000000000,
+     "as_of": "2025-10-26",
+     "evidence": [
+      "ev_50061"
+     ],
+     "wording": "Investment commitments ... including $5 billion in Intel Corporation"
+    },
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "commitment": "Q3 FY26",
+    "first_13f": "2025-12-31"
+   },
+   "evidence": [
+    "ev_50061",
+    "ev_50062",
+    "ev_50063",
+    "ev_50064",
+    "ev_50065",
+    "ev_50020",
+    "ev_50021"
+   ],
+   "notes": "Funded cash amount not stated; seed price $23.28/share not in Nvidia filings."
+  },
+  {
+   "counterparty": "Groq, Inc.",
+   "type_guess": "LI",
+   "status_guess": "completed (Dec 2025)",
+   "summary": "Non-exclusive license of LPU technology plus hiring of Groq employees; $13.0B paid at closing and $4B (incl. imputed interest) payable within one year; no equity acquired. A purchase, not credit exposure to Groq.",
+   "amounts": {
+    "headline": null,
+    "committed_total": {
+     "value": 17000000000,
+     "as_of": "2026-01-25",
+     "evidence": [
+      "ev_50066",
+      "ev_50067"
+     ],
+     "wording": "$13.0 billion paid at closing and $4 billion ... payable within one year (sum is analysis)"
+    },
+    "funded": {
+     "value": 13000000000,
+     "as_of": "2026-01-25",
+     "evidence": [
+      "ev_50066"
+     ],
+     "wording": "Total consideration consists of $13.0 billion paid at closing"
+    },
+    "contingent_max": null
+   },
+   "dates": {
+    "closing": "2025-12"
+   },
+   "evidence": [
+    "ev_50066",
+    "ev_50067",
+    "ev_50068",
+    "ev_50069"
+   ],
+   "notes": "committed_total is the arithmetic sum of two filed figures (analysis). $2,944M of the deferred amount paid in H1 FY27."
+  },
+  {
+   "counterparty": "CoreWeave, Inc.",
+   "type_guess": "EQ",
+   "status_guess": "completed (pre-IPO stake; increased to 47,213,353 shares by 2026-01-23)",
+   "summary": "Pre-IPO stake reclassified to marketable at IPO (FV $1B at 2025-04-27); 13G 24,182,460 sh (7.0%) at 2025-03-31; 13G/A and Form 3: 47,213,353 sh (11.5%), 10% owner from 2026-01-23; 13F unchanged at 2026-09-30. 5 GW AI factory collaboration. No named capacity backstop or cloud agreement with CoreWeave in Nvidia filings.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "ipo_reclass": "Q1 FY26",
+    "stake_doubling": "2026-01-23"
+   },
+   "evidence": [
+    "ev_50070",
+    "ev_50071",
+    "ev_50105",
+    "ev_50106",
+    "ev_50107",
+    "ev_50108",
+    "ev_50109",
+    "ev_50072",
+    "ev_50018",
+    "ev_50019"
+   ],
+   "notes": "Seeds B2 ($6.3B order) and B3 ($1.3B rental): not found in Nvidia filings by name."
+  },
+  {
+   "counterparty": "Nebius Group N.V.",
+   "type_guess": "EQ",
+   "status_guess": "completed (SPA 2026-03-11; pre-funded warrant)",
+   "summary": "Nvidia holds 1,190,476 Class A shares (13F since 2024-12-31) plus a pre-funded warrant for 21,065,936 shares bought 2026-03-11 under a Securities Purchase Agreement; 22,256,412 shares (9.3%) beneficially owned at 2026-07-13. Purchase price not stated.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "spa": "2026-03-11",
+    "13g_event": "2026-07-13"
+   },
+   "evidence": [
+    "ev_50101",
+    "ev_50102",
+    "ev_50103",
+    "ev_50104",
+    "ev_50014",
+    "ev_50015"
+   ]
+  },
+  {
+   "counterparty": "Serve Robotics Inc.",
+   "type_guess": "FC",
+   "status_guess": "completed and exited (0 shares at 2024-12-31)",
+   "summary": "Nvidia held a 6.00% convertible promissory note that converted in April 2024 at $2.42 into 1,050,129 shares; plus shares from the July 2023 merger and a $4 private placement; 10.0% holder (3,727,033 shares); exited by 2024-12-31.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "merger": "2023-07-31",
+    "conversion": "2024-04-22",
+    "exit_by": "2024-12-31"
+   },
+   "evidence": [
+    "ev_50113",
+    "ev_50114",
+    "ev_50115",
+    "ev_50112",
+    "ev_50110",
+    "ev_50111",
+    "ev_50010",
+    "ev_50011"
+   ],
+   "notes": "Only named Nvidia loan instrument found (convertible note); principal amount not stated."
+  },
+  {
+   "counterparty": "Unnamed AI cloud / neocloud partners (land, power and shell facility lease guarantees)",
+   "type_guess": "GU",
+   "status_guess": "definitive (in force)",
+   "summary": "Guarantees of partners' data center lease obligations in event of default, in exchange for warrants; first $860M (Q3 FY26, escrow $470M, partner sold capacity), then $3.5B max across agreements, 5-7 year terms, escrow $712M; classified as credit derivatives.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": {
+     "value": 3500000000,
+     "as_of": "2026-01-25",
+     "evidence": [
+      "ev_50076"
+     ],
+     "wording": "The maximum gross exposure under all agreements is $3.5 billion"
+    }
+   },
+   "dates": {
+    "first": "Q3 FY26"
+   },
+   "evidence": [
+    "ev_50073",
+    "ev_50074",
+    "ev_50075",
+    "ev_50076",
+    "ev_50077"
+   ]
+  },
+  {
+   "counterparty": "Unnamed AI clouds / neoclouds (AI cloud agreements, renamed neocloud agreements)",
+   "type_guess": "BK",
+   "status_guess": "definitive; Q3 FY27 commitments contingent on neoclouds securing financing and capacity acceptance",
+   "summary": "AI clouds buy Nvidia infrastructure and Nvidia commits to cloud service agreements; if capacity is not sold to third parties Nvidia buys it; typically six years; revenue share. $36B at 2026-07-26; $32B at 2026-10-25.",
+   "amounts": {
+    "headline": null,
+    "committed_total": {
+     "value": 36000000000,
+     "as_of": "2026-07-26",
+     "evidence": [
+      "ev_50079"
+     ],
+     "wording": "Our commitments, which are typically six years in duration, totaled $36 billion"
+    },
+    "funded": null,
+    "contingent_max": {
+     "value": 32000000000,
+     "as_of": "2026-10-25",
+     "evidence": [
+      "ev_50080"
+     ],
+     "wording": "Neocloud agreements ... $ 32"
+    }
+   },
+   "dates": {
+    "introduced": "Q2 FY27"
+   },
+   "evidence": [
+    "ev_50078",
+    "ev_50079",
+    "ev_50080",
+    "ev_50081",
+    "ev_50127"
+   ],
+   "notes": "Counterparties not named in Nvidia filings."
+  },
+  {
+   "counterparty": "Unnamed partners (power and systems credit support guarantees)",
+   "type_guess": "GU",
+   "status_guess": "definitive (first disclosed Q3 FY27 CFO commentary)",
+   "summary": "New guarantee category: 'land, power, shell, and hardware financing arrangements' under which Nvidia may pay third parties if partners default; $9.5B max gross exposure at 2026-10-25.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": {
+     "value": 0,
+     "as_of": "2026-10-25",
+     "evidence": [
+      "ev_50045"
+     ],
+     "wording": "To date, we have not made any payments related to our guarantees."
+    },
+    "contingent_max": {
+     "value": 9500000000,
+     "as_of": "2026-10-25",
+     "evidence": [
+      "ev_50043"
+     ],
+     "wording": "Power and systems credit support guarantees 9.5"
+    }
+   },
+   "dates": {
+    "first_disclosed": "2026-11-17"
+   },
+   "evidence": [
+    "ev_50043",
+    "ev_50044",
+    "ev_50045"
+   ]
+  },
+  {
+   "counterparty": "Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR (financing platforms)",
+   "type_guess": "RV",
+   "status_guess": "loi_or_framework (memoranda of understanding; 'subject to definitive agreements')",
+   "summary": "MOUs to establish independent compute financing platforms to mobilize over $500B of third-party capital; Nvidia 'may provide limited residual-value support for a portion of specific projects' at its option.",
+   "amounts": {
+    "headline": {
+     "value": 500000000000,
+     "as_of": "2026-08-26",
+     "evidence": [
+      "ev_50083"
+     ],
+     "wording": "to mobilize over $500 billion of third-party capital (third-party money, not Nvidia's)"
+    },
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "mou": "2026-08"
+   },
+   "evidence": [
+    "ev_50082",
+    "ev_50083",
+    "ev_50084",
+    "ev_50085",
+    "ev_50129"
+   ]
+  },
+  {
+   "counterparty": "Unnamed infrastructure financiers / funds (equity method, VIEs)",
+   "type_guess": "EQ-SPV",
+   "status_guess": "completed/committed",
+   "summary": "Equity-method investments in infrastructure funds $1.0B (max loss $2.3B) at 2026-04-26; in infrastructure financiers $3.3B (VIE max loss $4.7B incl. future committed amounts) at 2026-07-26.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": {
+     "value": 3300000000,
+     "as_of": "2026-07-26",
+     "evidence": [
+      "ev_50086"
+     ],
+     "wording": "$3.3 billion of investments in infrastructure financiers ... equity method (carrying value)"
+    },
+    "contingent_max": {
+     "value": 4700000000,
+     "as_of": "2026-07-26",
+     "evidence": [
+      "ev_50087"
+     ],
+     "wording": "maximum loss exposure, including carrying values and future committed amounts, of $4.7 billion"
+    }
+   },
+   "dates": {},
+   "evidence": [
+    "ev_50100",
+    "ev_50088",
+    "ev_50086",
+    "ev_50087"
+   ]
+  },
+  {
+   "counterparty": "Unnamed investment-grade customers (extended payment terms)",
+   "type_guess": "FC",
+   "status_guess": "in force",
+   "summary": "Longer payment terms from 90 days up to one year for investment-grade customers on large multi-quarter agreements; FY26 10-K said Nvidia had 'not entered into any financing arrangements'; Q2 FY27 10-Q lists 'financing arrangements' among arrangements entered.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {},
+   "evidence": [
+    "ev_50137",
+    "ev_50131",
+    "ev_50122",
+    "ev_50125",
+    "ev_50121"
+   ]
+  },
+  {
+   "counterparty": "Unnamed public companies (warrants, equity forward, convertible debt)",
+   "type_guess": "EQ",
+   "status_guess": "completed",
+   "summary": "Public company warrants notional $4.8B (FV $824M) received Q2 FY27; equity forward contract notional $1.0B; debt convertible into publicly held equity $3,471M at 2026-10-25. Issuers not named.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": {
+     "value": 3471000000,
+     "as_of": "2026-10-25",
+     "evidence": [
+      "ev_50098"
+     ],
+     "wording": "Debt securities convertible into publicly held equity securities ... 3,471"
+    },
+    "contingent_max": null
+   },
+   "dates": {},
+   "evidence": [
+    "ev_50095",
+    "ev_50096",
+    "ev_50097",
+    "ev_50098"
+   ]
+  },
+  {
+   "counterparty": "Hugging Face, Inc.",
+   "type_guess": "LI",
+   "status_guess": "definitive (acquisition agreement 2026-09-02; closing expected H1 2027)",
+   "summary": "Acquisition for ~$11.9B plus up to ~$1.0B retention program. An acquisition, not credit exposure; context only.",
+   "amounts": {
+    "headline": {
+     "value": 11900000000,
+     "as_of": "2026-09-02",
+     "evidence": [
+      "ev_50089"
+     ],
+     "wording": "approximately $11.9 billion purchase price"
+    },
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "signed": "2026-09-02"
+   },
+   "evidence": [
+    "ev_50089",
+    "ev_50145"
+   ]
+  },
+  {
+   "counterparty": "U.K. AI market (partners named: CoreWeave, Microsoft, Nscale)",
+   "type_guess": "EQ-C",
+   "status_guess": "announced (press release highlight)",
+   "summary": "Nvidia 'announced an investment of £2 billion in the U.K. market'. Recipients and form not stated in the filing.",
+   "amounts": {
+    "headline": {
+     "value": 2000000000,
+     "as_of": "2025-11-19",
+     "evidence": [
+      "ev_50090"
+     ],
+     "wording": "announced an investment of £2 billion in the U.K. market (GBP)"
+    },
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "announced_by": "2025-11-19"
+   },
+   "evidence": [
+    "ev_50090"
+   ],
+   "notes": "Value is GBP 2 billion, not USD."
+  },
+  {
+   "counterparty": "Synopsys, Inc.",
+   "type_guess": "EQ",
+   "status_guess": "completed (13F from 2025-12-31)",
+   "summary": "13F: 4,821,717 shares at 2025-12-31; 4,354,077 at 2026-09-30. Expanded strategic partnership. Investment amount/price not in Nvidia filings.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {},
+   "evidence": [
+    "ev_50141",
+    "ev_50022",
+    "ev_50023"
+   ]
+  },
+  {
+   "counterparty": "Nokia Corporation",
+   "type_guess": "EQ",
+   "status_guess": "completed; reduced in Q3 2026",
+   "summary": "13F: 166,389,351 ADS at 2025-12-31; 72,859,751 at 2026-09-30. AI-RAN partnership. Amount/price not in Nvidia filings.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {},
+   "evidence": [
+    "ev_50142",
+    "ev_50024",
+    "ev_50025"
+   ]
+  },
+  {
+   "counterparty": "Coherent Corp.",
+   "type_guess": "EQ",
+   "status_guess": "completed (13F from 2026-03-31)",
+   "summary": "13F: 7,788,161 shares from 2026-03-31; multi-year strategic agreements (optics).",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {},
+   "evidence": [
+    "ev_50140",
+    "ev_50026",
+    "ev_50027"
+   ]
+  },
+  {
+   "counterparty": "Space Exploration Technologies Corp. (SpaceX)",
+   "type_guess": "EQ",
+   "status_guess": "completed (13F from 2026-06-30)",
+   "summary": "13F: 122,764,805 Class A shares ($20.98B) at 2026-06-30; 130,472,925 ($19.68B) at 2026-09-30. SpaceXAI named as customer. No investment terms in Nvidia filings.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {},
+   "evidence": [
+    "ev_50143",
+    "ev_50030",
+    "ev_50031"
+   ]
+  },
+  {
+   "counterparty": "xAI",
+   "type_guess": "CX",
+   "status_guess": "no capital disclosed",
+   "summary": "Named only as infrastructure partner (Q3 FY26 release). No Nvidia capital, SPV or lease in Nvidia filings.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {},
+   "evidence": [
+    "ev_50144"
+   ]
+  },
+  {
+   "counterparty": "Arm Holdings plc",
+   "type_guess": "EQ",
+   "status_guess": "completed; exited",
+   "summary": "13F-only holding, first 2023-12-31, held to 2025-09-30.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "first_13f": "2023-12-31",
+    "last_13f": "2025-09-30"
+   },
+   "evidence": [
+    "ev_50001",
+    "ev_50002"
+   ]
+  },
+  {
+   "counterparty": "Applied Digital Corp.",
+   "type_guess": "EQ",
+   "status_guess": "completed; exited",
+   "summary": "13F-only holding, first 2024-09-30, held to 2025-09-30.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "first_13f": "2024-09-30",
+    "last_13f": "2025-09-30"
+   },
+   "evidence": [
+    "ev_50012",
+    "ev_50013"
+   ]
+  },
+  {
+   "counterparty": "Recursion Pharmaceuticals",
+   "type_guess": "EQ",
+   "status_guess": "completed; exited",
+   "summary": "13F-only holding, first 2023-12-31, held to 2025-09-30.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "first_13f": "2023-12-31",
+    "last_13f": "2025-09-30"
+   },
+   "evidence": [
+    "ev_50003",
+    "ev_50004"
+   ]
+  },
+  {
+   "counterparty": "WeRide Inc.",
+   "type_guess": "EQ",
+   "status_guess": "completed; exited",
+   "summary": "13F-only holding, first 2024-12-31, held to 2025-09-30.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "first_13f": "2024-12-31",
+    "last_13f": "2025-09-30"
+   },
+   "evidence": [
+    "ev_50016",
+    "ev_50017"
+   ]
+  },
+  {
+   "counterparty": "SoundHound AI",
+   "type_guess": "EQ",
+   "status_guess": "completed; exited",
+   "summary": "13F-only holding, first 2023-12-31, held to 2024-09-30.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "first_13f": "2023-12-31",
+    "last_13f": "2024-09-30"
+   },
+   "evidence": [
+    "ev_50005",
+    "ev_50006"
+   ]
+  },
+  {
+   "counterparty": "TuSimple Holdings",
+   "type_guess": "EQ",
+   "status_guess": "completed; exited",
+   "summary": "13F-only holding, first 2023-12-31, held to 2023-12-31.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "first_13f": "2023-12-31",
+    "last_13f": "2023-12-31"
+   },
+   "evidence": [
+    "ev_50007"
+   ]
+  },
+  {
+   "counterparty": "Nano-X Imaging",
+   "type_guess": "EQ",
+   "status_guess": "completed; exited",
+   "summary": "13F-only holding, first 2023-12-31, held to 2024-09-30.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "first_13f": "2023-12-31",
+    "last_13f": "2024-09-30"
+   },
+   "evidence": [
+    "ev_50008",
+    "ev_50009"
+   ]
+  },
+  {
+   "counterparty": "Generate Biomedicines",
+   "type_guess": "EQ",
+   "status_guess": "completed",
+   "summary": "13F-only holding, first 2026-03-31, still held 2026-09-30.",
+   "amounts": {
+    "headline": null,
+    "committed_total": null,
+    "funded": null,
+    "contingent_max": null
+   },
+   "dates": {
+    "first_13f": "2026-03-31",
+    "last_13f": "2026-09-30"
+   },
+   "evidence": [
+    "ev_50028",
+    "ev_50029"
+   ]
+  }
+ ],
+ "thirteenf": [
+  {
+   "issuer": "ARM HOLDINGS PLC",
+   "cusip": "042068205",
+   "history": [
+    {
+     "report_date": "2023-12-31",
+     "shares": 1960784,
+     "value": 147343114
+    },
+    {
+     "report_date": "2024-03-31",
+     "shares": 1960784,
+     "value": 245078392
+    },
+    {
+     "report_date": "2024-06-30",
+     "shares": 1960784,
+     "value": 320823478
+    },
+    {
+     "report_date": "2024-09-30",
+     "shares": 1960784,
+     "value": 280411720
+    },
+    {
+     "report_date": "2024-12-31",
+     "shares": 1101249,
+     "value": 135850077
+    },
+    {
+     "report_date": "2025-03-31",
+     "shares": 1101249,
+     "value": 117602381
+    },
+    {
+     "report_date": "2025-06-30",
+     "shares": 1101249,
+     "value": 178116013
+    },
+    {
+     "report_date": "2025-09-30",
+     "shares": 1101249,
+     "value": 155815721
+    }
+   ],
+   "latest_evidence": null,
+   "last_held_evidence": "ev_50002",
+   "first_evidence": "ev_50001",
+   "exited_after": "2025-09-30"
+  },
+  {
+   "issuer": "RECURSION PHARMACEUTICALS IN",
+   "cusip": "75629V104",
+   "history": [
+    {
+     "report_date": "2023-12-31",
+     "shares": 7706363,
+     "value": 75984739
+    },
+    {
+     "report_date": "2024-03-31",
+     "shares": 7706363,
+     "value": 76832439
+    },
+    {
+     "report_date": "2024-06-30",
+     "shares": 7706363,
+     "value": 57797723
+    },
+    {
+     "report_date": "2024-09-30",
+     "shares": 7706363,
+     "value": 50784932
+    },
+    {
+     "report_date": "2024-12-31",
+     "shares": 7706363,
+     "value": 52095014
+    },
+    {
+     "report_date": "2025-03-31",
+     "shares": 7706363,
+     "value": 40766660
+    },
+    {
+     "report_date": "2025-06-30",
+     "shares": 7706363,
+     "value": 38994197
+    },
+    {
+     "report_date": "2025-09-30",
+     "shares": 7706363,
+     "value": 37607051
+    }
+   ],
+   "latest_evidence": null,
+   "last_held_evidence": "ev_50004",
+   "first_evidence": "ev_50003",
+   "exited_after": "2025-09-30"
+  },
+  {
+   "issuer": "SOUNDHOUND AI INC",
+   "cusip": "836100107",
+   "history": [
+    {
+     "report_date": "2023-12-31",
+     "shares": 1730883,
+     "value": 3669472
+    },
+    {
+     "report_date": "2024-03-31",
+     "shares": 1730883,
+     "value": 10194901
+    },
+    {
+     "report_date": "2024-06-30",
+     "shares": 1730883,
+     "value": 6836988
+    },
+    {
+     "report_date": "2024-09-30",
+     "shares": 1730883,
+     "value": 8065915
+    }
+   ],
+   "latest_evidence": null,
+   "last_held_evidence": "ev_50006",
+   "first_evidence": "ev_50005",
+   "exited_after": "2024-09-30"
+  },
+  {
+   "issuer": "TUSIMPLE HLDGS INC",
+   "cusip": "90089L108",
+   "history": [
+    {
+     "report_date": "2023-12-31",
+     "shares": 3465372,
+     "value": 3041904
+    }
+   ],
+   "latest_evidence": null,
+   "last_held_evidence": "ev_50007",
+   "first_evidence": "ev_50007",
+   "exited_after": "2023-12-31"
+  },
+  {
+   "issuer": "NANO X IMAGING LTD",
+   "cusip": "M70700105",
+   "history": [
+    {
+     "report_date": "2023-12-31",
+     "shares": 59632,
+     "value": 379856
+    },
+    {
+     "report_date": "2024-03-31",
+     "shares": 59632,
+     "value": 582605
+    },
+    {
+     "report_date": "2024-06-30",
+     "shares": 59632,
+     "value": 437699
+    },
+    {
+     "report_date": "2024-09-30",
+     "shares": 59632,
+     "value": 362563
+    }
+   ],
+   "latest_evidence": null,
+   "last_held_evidence": "ev_50009",
+   "first_evidence": "ev_50008",
+   "exited_after": "2024-09-30"
+  },
+  {
+   "issuer": "SERVE ROBOTICS INC",
+   "cusip": "81758H106",
+   "history": [
+    {
+     "report_date": "2024-06-30",
+     "shares": 3727033,
+     "value": 7267714
+    },
+    {
+     "report_date": "2024-09-30",
+     "shares": 3727033,
+     "value": 29629912
+    }
+   ],
+   "latest_evidence": null,
+   "last_held_evidence": "ev_50011",
+   "first_evidence": "ev_50010",
+   "exited_after": "2024-09-30"
+  },
+  {
+   "issuer": "APPLIED DIGITAL CORP",
+   "cusip": "038169207",
+   "history": [
+    {
+     "report_date": "2024-09-30",
+     "shares": 7716050,
+     "value": 63657413
+    },
+    {
+     "report_date": "2024-12-31",
+     "shares": 7716050,
+     "value": 58950622
+    },
+    {
+     "report_date": "2025-03-31",
+     "shares": 7716050,
+     "value": 43364201
+    },
+    {
+     "report_date": "2025-06-30",
+     "shares": 7716050,
+     "value": 77700624
+    },
+    {
+     "report_date": "2025-09-30",
+     "shares": 7716050,
+     "value": 177006187
+    }
+   ],
+   "latest_evidence": null,
+   "last_held_evidence": "ev_50013",
+   "first_evidence": "ev_50012",
+   "exited_after": "2025-09-30"
+  },
+  {
+   "issuer": "NEBIUS GROUP N.V.",
+   "cusip": "N97284108",
+   "history": [
+    {
+     "report_date": "2024-12-31",
+     "shares": 1190476,
+     "value": 32976185
+    },
+    {
+     "report_date": "2025-03-31",
+     "shares": 1190476,
+     "value": 25130948
+    },
+    {
+     "report_date": "2025-06-30",
+     "shares": 1190476,
+     "value": 65869037
+    },
+    {
+     "report_date": "2025-09-30",
+     "shares": 1190476,
+     "value": 133654741
+    },
+    {
+     "report_date": "2025-12-31",
+     "shares": 1190476,
+     "value": 99648794
+    },
+    {
+     "report_date": "2026-03-31",
+     "shares": 1190476,
+     "value": 123523790
+    },
+    {
+     "report_date": "2026-06-30",
+     "shares": 1190476,
+     "value": 328773757
+    },
+    {
+     "report_date": "2026-09-30",
+     "shares": 1190476,
+     "value": 280809479
+    }
+   ],
+   "latest_evidence": "ev_50015",
+   "last_held_evidence": "ev_50015",
+   "first_evidence": "ev_50014",
+   "exited_after": null
+  },
+  {
+   "issuer": "WERIDE INC",
+   "cusip": "950915108",
+   "history": [
+    {
+     "report_date": "2024-12-31",
+     "shares": 1738563,
+     "value": 24652823
+    },
+    {
+     "report_date": "2025-03-31",
+     "shares": 1738563,
+     "value": 23592300
+    },
+    {
+     "report_date": "2025-06-30",
+     "shares": 1738563,
+     "value": 13699876
+    },
+    {
+     "report_date": "2025-09-30",
+     "shares": 1738563,
+     "value": 17211774
+    }
+   ],
+   "latest_evidence": null,
+   "last_held_evidence": "ev_50017",
+   "first_evidence": "ev_50016",
+   "exited_after": "2025-09-30"
+  },
+  {
+   "issuer": "COREWEAVE INC",
+   "cusip": "21873S108",
+   "history": [
+    {
+     "report_date": "2025-03-31",
+     "shares": 24182460,
+     "value": 896685617
+    },
+    {
+     "report_date": "2025-06-30",
+     "shares": 24277573,
+     "value": 3958701053
+    },
+    {
+     "report_date": "2025-09-30",
+     "shares": 24277573,
+     "value": 3322385865
+    },
+    {
+     "report_date": "2025-12-31",
+     "shares": 24277573,
+     "value": 1738517003
+    },
+    {
+     "report_date": "2026-03-31",
+     "shares": 47213353,
+     "value": 3657618457
+    },
+    {
+     "report_date": "2026-06-30",
+     "shares": 47213353,
+     "value": 4699617158
+    },
+    {
+     "report_date": "2026-09-30",
+     "shares": 47213353,
+     "value": 4113227313
+    }
+   ],
+   "latest_evidence": "ev_50019",
+   "last_held_evidence": "ev_50019",
+   "first_evidence": "ev_50018",
+   "exited_after": null
+  },
+  {
+   "issuer": "INTEL CORP",
+   "cusip": "458140100",
+   "history": [
+    {
+     "report_date": "2025-12-31",
+     "shares": 214776632,
+     "value": 7925257721
+    },
+    {
+     "report_date": "2026-03-31",
+     "shares": 214776632,
+     "value": 9478092770
+    },
+    {
+     "report_date": "2026-06-30",
+     "shares": 214776632,
+     "value": 29989261126
+    },
+    {
+     "report_date": "2026-09-30",
+     "shares": 161082488,
+     "value": 19366947532
+    }
+   ],
+   "latest_evidence": "ev_50021",
+   "last_held_evidence": "ev_50021",
+   "first_evidence": "ev_50020",
+   "exited_after": null
+  },
+  {
+   "issuer": "SYNOPSYS INC",
+   "cusip": "871607107",
+   "history": [
+    {
+     "report_date": "2025-12-31",
+     "shares": 4821717,
+     "value": 2264856909
+    },
+    {
+     "report_date": "2026-03-31",
+     "shares": 4821717,
+     "value": 1911714356
+    },
+    {
+     "report_date": "2026-06-30",
+     "shares": 4821717,
+     "value": 2150823302
+    },
+    {
+     "report_date": "2026-09-30",
+     "shares": 4354077,
+     "value": 1893762250
+    }
+   ],
+   "latest_evidence": "ev_50023",
+   "last_held_evidence": "ev_50023",
+   "first_evidence": "ev_50022",
+   "exited_after": null
+  },
+  {
+   "issuer": "NOKIA CORP",
+   "cusip": "654902204",
+   "history": [
+    {
+     "report_date": "2025-12-31",
+     "shares": 166389351,
+     "value": 1076539101
+    },
+    {
+     "report_date": "2026-03-31",
+     "shares": 166389351,
+     "value": 1337770382
+    },
+    {
+     "report_date": "2026-06-30",
+     "shares": 166389351,
+     "value": 2209650581
+    },
+    {
+     "report_date": "2026-09-30",
+     "shares": 72859751,
+     "value": 738797875
+    }
+   ],
+   "latest_evidence": "ev_50025",
+   "last_held_evidence": "ev_50025",
+   "first_evidence": "ev_50024",
+   "exited_after": null
+  },
+  {
+   "issuer": "COHERENT CORP",
+   "cusip": "19247G107",
+   "history": [
+    {
+     "report_date": "2026-03-31",
+     "shares": 7788161,
+     "value": 1855217832
+    },
+    {
+     "report_date": "2026-06-30",
+     "shares": 7788161,
+     "value": 3072195870
+    },
+    {
+     "report_date": "2026-09-30",
+     "shares": 7788161,
+     "value": 2241510617
+    }
+   ],
+   "latest_evidence": "ev_50027",
+   "last_held_evidence": "ev_50027",
+   "first_evidence": "ev_50026",
+   "exited_after": null
+  },
+  {
+   "issuer": "GENERATE BIOMEDICINES INC",
+   "cusip": "370920100",
+   "history": [
+    {
+     "report_date": "2026-03-31",
+     "shares": 833325,
+     "value": 10416563
+    },
+    {
+     "report_date": "2026-06-30",
+     "shares": 833325,
+     "value": 14058193
+    },
+    {
+     "report_date": "2026-09-30",
+     "shares": 833325,
+     "value": 12516542
+    }
+   ],
+   "latest_evidence": "ev_50029",
+   "last_held_evidence": "ev_50029",
+   "first_evidence": "ev_50028",
+   "exited_after": null
+  },
+  {
+   "issuer": "SPACE EXPLORATION TECHN CORP",
+   "cusip": "84615Q103",
+   "history": [
+    {
+     "report_date": "2026-06-30",
+     "shares": 122764805,
+     "value": 20975594582
+    },
+    {
+     "report_date": "2026-09-30",
+     "shares": 130472925,
+     "value": 19683145466
+    }
+   ],
+   "latest_evidence": "ev_50031",
+   "last_held_evidence": "ev_50031",
+   "first_evidence": "ev_50030",
+   "exited_after": null
+  }
+ ],
+ "ownership_filings": [
+  {
+   "form": "SC 13G",
+   "filed": "2024-07-18",
+   "accession": "0001045810-24-000230",
+   "subject": "Serve Robotics Inc.",
+   "event_date": "2023-07-31",
+   "shares": 3727033,
+   "percent": 10.0,
+   "implication": "initial 13G (late, after 2023 merger and Apr 2024 note conversion)",
+   "evidence": [
+    "ev_50110"
+   ]
+  },
+  {
+   "form": "3",
+   "filed": "2024-07-18",
+   "accession": "0001045810-24-000231",
+   "subject": "Serve Robotics Inc.",
+   "event_date": "2023-07-31",
+   "shares": 2614404,
+   "percent": null,
+   "implication": "10% owner initial statement; shares received in merger",
+   "evidence": [
+    "ev_50112"
+   ]
+  },
+  {
+   "form": "4",
+   "filed": "2024-07-18",
+   "accession": "0001045810-24-000232",
+   "subject": "Serve Robotics Inc.",
+   "event_date": "2023-07-31 and 2024-04-22",
+   "shares": 3727033,
+   "percent": null,
+   "implication": "private placement 62,500 sh at $4; 6.00% convertible note converted into 1,050,129 sh at $2.42",
+   "evidence": [
+    "ev_50115",
+    "ev_50113",
+    "ev_50114"
+   ]
+  },
+  {
+   "form": "SCHEDULE 13G/A",
+   "filed": "2025-02-14",
+   "accession": "0001045810-25-000014",
+   "subject": "Serve Robotics Inc.",
+   "event_date": "2024-12-31",
+   "shares": 0,
+   "percent": 0.0,
+   "implication": "exit",
+   "evidence": [
+    "ev_50111"
+   ]
+  },
+  {
+   "form": "SCHEDULE 13G",
+   "filed": "2025-05-15",
+   "accession": "0001045810-25-000103",
+   "subject": "CoreWeave, Inc.",
+   "event_date": "2025-03-31",
+   "shares": 24182460,
+   "percent": 7.0,
+   "implication": "new reportable stake after IPO",
+   "evidence": [
+    "ev_50105",
+    "ev_50106"
+   ]
+  },
+  {
+   "form": "3",
+   "filed": "2026-01-26",
+   "accession": "0001045810-26-000007",
+   "subject": "CoreWeave, Inc.",
+   "event_date": "2026-01-23",
+   "shares": 47213353,
+   "percent": null,
+   "implication": "became 10% owner (increase)",
+   "evidence": [
+    "ev_50109"
+   ]
+  },
+  {
+   "form": "SCHEDULE 13G/A",
+   "filed": "2026-01-26",
+   "accession": "0001045810-26-000008",
+   "subject": "CoreWeave, Inc.",
+   "event_date": "2026-01-23",
+   "shares": 47213353,
+   "percent": 11.5,
+   "implication": "increase from 24.2M to 47.2M shares",
+   "evidence": [
+    "ev_50107",
+    "ev_50108"
+   ]
+  },
+  {
+   "form": "SCHEDULE 13G",
+   "filed": "2026-07-20",
+   "accession": "0001045810-26-000062",
+   "subject": "Nebius Group N.V.",
+   "event_date": "2026-07-13",
+   "shares": 22256412,
+   "percent": 9.3,
+   "implication": "new reportable stake via pre-funded warrant (21,065,936 sh) bought 2026-03-11 under SPA, plus 1,190,476 sh",
+   "evidence": [
+    "ev_50101",
+    "ev_50102",
+    "ev_50103",
+    "ev_50104"
+   ]
+  }
+ ],
+ "risk_factor_signals": [
+  {
+   "first_filing": "2025-05-28 10-Q (Q1 FY26)",
+   "sentence_summary": "Announced purchase intentions by governments/companies often non-binding",
+   "evidence": "ev_50134"
+  },
+  {
+   "first_filing": "2025-08-27 10-Q (Q2 FY26)",
+   "sentence_summary": "Investments in public and private companies could create volatility; losses up to value",
+   "evidence": "ev_50138"
+  },
+  {
+   "first_filing": "2025-11-19 10-Q (Q3 FY26)",
+   "sentence_summary": "Customers' access to capital constrained for less-capitalized companies; may delay deployments",
+   "evidence": "ev_50118"
+  },
+  {
+   "first_filing": "2025-11-19 10-Q (Q3 FY26)",
+   "sentence_summary": "OpenAI LOI; no assurance of definitive agreements",
+   "evidence": "ev_50051"
+  },
+  {
+   "first_filing": "2025-11-19 10-Q (Q3 FY26)",
+   "sentence_summary": "Anthropic up to $10B agreement subject to closing conditions",
+   "evidence": "ev_50056"
+  },
+  {
+   "first_filing": "2025-11-19 10-Q (Q3 FY26)",
+   "sentence_summary": "Timing of investments depends on partners' ability to deploy AI infrastructure",
+   "evidence": "ev_50120"
+  },
+  {
+   "first_filing": "2025-11-19 10-Q (Q3 FY26)",
+   "sentence_summary": "Investments may be limited by Nvidia liquidity and capital resources",
+   "evidence": "ev_50119"
+  },
+  {
+   "first_filing": "2025-11-19 10-Q (Q3 FY26)",
+   "sentence_summary": "May be required to satisfy obligations under guarantees and commercial commitments",
+   "evidence": "ev_50116"
+  },
+  {
+   "first_filing": "2025-11-19 10-Q (Q3 FY26)",
+   "sentence_summary": "Long-term capacity purchase obligations and financial guarantees supporting customers' buildout",
+   "evidence": "ev_50117"
+  },
+  {
+   "first_filing": "2026-02-25 10-K (FY26)",
+   "sentence_summary": "Finalizing investment and partnership agreement with OpenAI; no assurance",
+   "evidence": "ev_50052"
+  },
+  {
+   "first_filing": "2026-02-25 10-K (FY26)",
+   "sentence_summary": "Investees may not achieve profitability; no guarantee of return",
+   "evidence": "ev_50124"
+  },
+  {
+   "first_filing": "2026-02-25 10-K (FY26)",
+   "sentence_summary": "Asked to offer financing arrangements to customers/partners",
+   "evidence": "ev_50121"
+  },
+  {
+   "first_filing": "2026-02-25 10-K (FY26)",
+   "sentence_summary": "Have not entered into any financing arrangements",
+   "evidence": "ev_50122"
+  },
+  {
+   "first_filing": "2026-02-25 10-K (FY26)",
+   "sentence_summary": "Financing would lower upfront cash flows and increase credit risk",
+   "evidence": "ev_50123"
+  },
+  {
+   "first_filing": "2026-08-26 10-Q (Q2 FY27)",
+   "sentence_summary": "Nvidia enters financial guarantees, credit support, financing arrangements and data center leases",
+   "evidence": "ev_50125"
+  },
+  {
+   "first_filing": "2026-08-26 10-Q (Q2 FY27)",
+   "sentence_summary": "Future demand depends on customers' and partners' ability to generate revenue and sustain investment",
+   "evidence": "ev_50126"
+  },
+  {
+   "first_filing": "2026-08-26 10-Q (Q2 FY27)",
+   "sentence_summary": "Financing arrangements with investment-grade customers (extended terms) affect cash flow timing",
+   "evidence": "ev_50131"
+  },
+  {
+   "first_filing": "2026-08-26 10-Q (Q2 FY27)",
+   "sentence_summary": "Agreed to purchase capacity AI clouds fail to sell",
+   "evidence": "ev_50078"
+  },
+  {
+   "first_filing": "2026-08-26 10-Q (Q2 FY27)",
+   "sentence_summary": "May lack demand or ability to use or resell committed capacity",
+   "evidence": "ev_50127"
+  },
+  {
+   "first_filing": "2026-08-26 10-Q (Q2 FY27)",
+   "sentence_summary": "OpenAI default/insolvency could trigger SB Energy guarantees",
+   "evidence": "ev_50049"
+  },
+  {
+   "first_filing": "2026-08-26 10-Q (Q2 FY27)",
+   "sentence_summary": "OpenAI reimbursement may not be recovered promptly or in full",
+   "evidence": "ev_50128"
+  },
+  {
+   "first_filing": "2026-08-26 10-Q (Q2 FY27)",
+   "sentence_summary": "MOUs with capital providers for financing platforms; may not reach definitive agreements",
+   "evidence": "ev_50129"
+  },
+  {
+   "first_filing": "2026-08-26 10-Q (Q2 FY27)",
+   "sentence_summary": "Intends to assign data center leases to third parties; delays leave Nvidia bearing costs",
+   "evidence": "ev_50130"
+  }
+ ],
+ "eight_k": [
+  {
+   "filed": "2026-11-17",
+   "event_date": "2026-11-17",
+   "accession": "0001045810-26-000088",
+   "items": "2.02,9.01",
+   "summary": "Q3 FY27 results (EX-99.1 PR, EX-99.2 CFO commentary, EX-99.3 supplemental). Commitments table: supply $390B, cloud $28B, DC leases not commenced $74B, equity investments $20B; neocloud agreements $32B contingent on neoclouds securing financing; guarantees max $118.0B incl. new $9.5B power and systems credit support; no guarantee payments to date; impairment $1.8B on private investments; convertible debt of a public company $3,471M; pending Hugging Face acquisition; independent board committee investigation referenced.",
+   "evidence": [
+    "ev_50080",
+    "ev_50081",
+    "ev_50043",
+    "ev_50044",
+    "ev_50045",
+    "ev_50139",
+    "ev_50099",
+    "ev_50098",
+    "ev_50060"
+   ]
+  },
+  {
+   "filed": "2026-11-12",
+   "event_date": "2026-11-11",
+   "accession": "0001045810-26-000082",
+   "items": "5.02,9.01",
+   "summary": "CEO transition: Jensen Huang resigned 2026-11-11; Colette Kress interim CEO; Harvey Jones chair. No financing content.",
+   "evidence": []
+  },
+  {
+   "filed": "2026-09-03",
+   "event_date": "2026-09-02",
+   "accession": "0001045810-26-000078",
+   "items": "8.01",
+   "summary": "Definitive agreement to acquire Hugging Face (~$11.9B + up to ~$1.0B retention), closing expected H1 2027; supplemental risk factor.",
+   "evidence": [
+    "ev_50145",
+    "ev_50089"
+   ]
+  },
+  {
+   "filed": "2026-08-26",
+   "event_date": "2026-08-26",
+   "accession": "0001045810-26-000073",
+   "items": "2.02,9.01",
+   "summary": "Q2 FY27 results. PR: financing platform MOUs with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR (>$500B third-party capital, subject to definitive agreements); SB Energy partnership. CFO: AI cloud agreements $36B, DC leases for third parties $20B, SB Energy guarantees $105B, each PORTS-Pike generation ~$150-200B Nvidia revenue; AI clouds/model makers 'growing faster than their balance sheets'.",
+   "evidence": [
+    "ev_50082",
+    "ev_50083",
+    "ev_50046",
+    "ev_50133",
+    "ev_50143"
+   ]
+  },
+  {
+   "filed": "2026-08-17",
+   "event_date": "2026-08-17",
+   "accession": "0001045810-26-000069",
+   "items": "1.01,2.03,7.01",
+   "summary": "Items 1.01, 2.03, 7.01: residual value guaranties with SB Energy for OpenAI-leased PORTS-Pike site, capped $105B; EX-99.1 press release: Nvidia to invest $1.5B in SB Energy.",
+   "evidence": [
+    "ev_50032",
+    "ev_50038",
+    "ev_50035",
+    "ev_50047"
+   ]
+  },
+  {
+   "filed": "2026-07-02",
+   "event_date": "2026-06-28",
+   "accession": "0001045810-26-000060",
+   "items": "5.02",
+   "summary": "Item 5.02: EVP Worldwide Field Operations retirement. No financing content.",
+   "evidence": []
+  },
+  {
+   "filed": "2026-06-30",
+   "event_date": "2026-06-24",
+   "accession": "0001045810-26-000056",
+   "items": "5.07",
+   "summary": "Item 5.07: annual meeting vote results. No financing content.",
+   "evidence": []
+  },
+  {
+   "filed": "2026-06-18",
+   "event_date": "2026-06-15",
+   "accession": "0001193125-26-275783",
+   "items": "8.01,9.01",
+   "summary": "Item 8.01: completion of $25.0B senior notes offering (seven tranches); exhibits underwriting agreement, officers' certificate, opinion. Use of proceeds general corporate purposes (424B5).",
+   "evidence": []
+  },
+  {
+   "filed": "2026-05-20",
+   "event_date": "2026-05-20",
+   "accession": "0001045810-26-000051",
+   "items": "2.02,9.01",
+   "summary": "Q1 FY27 results. Supply commitments $119B, multi-year cloud service $30B; outlays for strategic investments; strategic agreements with Coherent, Corning, Lumentum; Marvell partnership.",
+   "evidence": [
+    "ev_50140"
+   ]
+  },
+  {
+   "filed": "2026-05-08",
+   "event_date": "2026-05-07",
+   "accession": "0001045810-26-000028",
+   "items": "5.02",
+   "summary": "Item 5.02: new director appointed. No financing content.",
+   "evidence": []
+  },
+  {
+   "filed": "2026-04-27",
+   "event_date": "2026-04-24",
+   "accession": "0001045810-26-000026",
+   "items": "5.02",
+   "summary": "Item 5.02: Chief Accounting Officer retirement. No financing content.",
+   "evidence": []
+  },
+  {
+   "filed": "2026-03-06",
+   "event_date": "2026-03-02",
+   "accession": "0001045810-26-000024",
+   "items": "5.02,9.01",
+   "summary": "Items 5.02/9.01: FY27 variable compensation plan. No financing content.",
+   "evidence": []
+  },
+  {
+   "filed": "2026-02-25",
+   "event_date": "2026-02-25",
+   "accession": "0001045810-26-000019",
+   "items": "2.02,9.01",
+   "summary": "Q4 FY26 results. PR: investment and deep technology partnership with Anthropic; Groq non-exclusive license; CoreWeave 5 GW collaboration; Synopsys partnership; Meta partnership. CFO: gains from Intel investment; outlays for IP license and strategic investments.",
+   "evidence": [
+    "ev_50058",
+    "ev_50072",
+    "ev_50141",
+    "ev_50064"
+   ]
+  },
+  {
+   "filed": "2026-01-23",
+   "event_date": "2026-01-20",
+   "accession": "0001045810-26-000003",
+   "items": "5.02",
+   "summary": "Item 5.02: director resignation. No financing content.",
+   "evidence": []
+  },
+  {
+   "filed": "2025-11-19",
+   "event_date": "2025-11-19",
+   "accession": "0001045810-25-000228",
+   "items": "2.02,9.01",
+   "summary": "Q3 FY26 results. PR: OpenAI strategic partnership (at least 10 GW); Anthropic 1 GW adoption; Intel collaboration; Nokia AI-RAN partnership; xAI named as infrastructure partner; £2B UK investment with CoreWeave, Microsoft, Nscale.",
+   "evidence": [
+    "ev_50054",
+    "ev_50059",
+    "ev_50065",
+    "ev_50142",
+    "ev_50144",
+    "ev_50090"
+   ]
+  },
+  {
+   "filed": "2025-08-27",
+   "event_date": "2025-08-27",
+   "accession": "0001045810-25-000207",
+   "items": "2.02,9.01",
+   "summary": "Q2 FY26 results. Partnership mentions only (OpenAI open models). No investment amounts.",
+   "evidence": []
+  },
+  {
+   "filed": "2025-08-05",
+   "event_date": "2025-07-31",
+   "accession": "0001045810-25-000197",
+   "items": "5.02",
+   "summary": "Item 5.02: director resignation. No financing content.",
+   "evidence": []
+  },
+  {
+   "filed": "2025-07-01",
+   "event_date": "2025-06-25",
+   "accession": "0001045810-25-000179",
+   "items": "5.07",
+   "summary": "Item 5.07: annual meeting votes.",
+   "evidence": []
+  },
+  {
+   "filed": "2025-05-28",
+   "event_date": "2025-05-28",
+   "accession": "0001045810-25-000115",
+   "items": "2.02,9.01",
+   "summary": "Q1 FY26 results incl. H20 $4.5B charge; Stargate UAE partner mention. No investment amounts.",
+   "evidence": []
+  },
+  {
+   "filed": "2025-04-15",
+   "event_date": "2025-04-09",
+   "accession": "0001045810-25-000082",
+   "items": "8.01",
+   "summary": "Item 8.01: USG H20 export license requirement. No financing content.",
+   "evidence": []
+  },
+  {
+   "filed": "2025-03-07",
+   "event_date": "2025-03-03",
+   "accession": "0001045810-25-000039",
+   "items": "5.02",
+   "summary": "Item 5.02: FY26 variable compensation plan.",
+   "evidence": []
+  },
+  {
+   "filed": "2025-02-26",
+   "event_date": "2025-02-26",
+   "accession": "0001045810-25-000021",
+   "items": "2.02,9.01",
+   "summary": "Q4 FY25 results; Stargate 'key technology partner' mention. No investment amounts.",
+   "evidence": []
+  },
+  {
+   "filed": "2025-01-17",
+   "event_date": "2025-01-13",
+   "accession": "0001045810-25-000007",
+   "items": "8.01",
+   "summary": "Item 8.01: AI Diffusion export rule. No financing content.",
+   "evidence": []
+  },
+  {
+   "filed": "2024-11-20",
+   "event_date": "2024-11-20",
+   "accession": "0001045810-24-000315",
+   "items": "2.02,9.01",
+   "summary": "Q3 FY25 results; CoreWeave/xAI named as customers/partners only.",
+   "evidence": []
+  },
+  {
+   "filed": "2024-11-07",
+   "event_date": "2024-11-07",
+   "accession": "0001045810-24-000300",
+   "items": "5.02",
+   "summary": "Item 5.02: director appointment.",
+   "evidence": []
+  },
+  {
+   "filed": "2024-08-28",
+   "event_date": "2024-08-28",
+   "accession": "0001045810-24-000262",
+   "items": "2.02,9.01",
+   "summary": "Q2 FY25 results; CoreWeave named as H200 cloud provider only.",
+   "evidence": []
+  },
+  {
+   "filed": "2024-07-02",
+   "event_date": "2024-06-26",
+   "accession": "0001045810-24-000206",
+   "items": "5.07",
+   "summary": "Item 5.07: annual meeting votes.",
+   "evidence": []
+  },
+  {
+   "filed": "2024-06-07",
+   "event_date": "2024-06-07",
+   "accession": "0001045810-24-000144",
+   "items": "5.03",
+   "summary": "Item 5.03: charter amendment (stock split authorisation).",
+   "evidence": []
+  },
+  {
+   "filed": "2024-05-22",
+   "event_date": "2024-05-22",
+   "accession": "0001045810-24-000113",
+   "items": "2.02,8.01,9.01",
+   "summary": "Q1 FY25 results; Item 8.01 ten-for-one stock split and dividend. No investment amounts.",
+   "evidence": []
+  },
+  {
+   "filed": "2024-03-14",
+   "event_date": "2024-03-08",
+   "accession": "0001045810-24-000069",
+   "items": "5.02,5.03,9.01",
+   "summary": "Items 5.02/5.03: FY25 variable comp plan, bylaws.",
+   "evidence": []
+  },
+  {
+   "filed": "2024-02-21",
+   "event_date": "2024-02-21",
+   "accession": "0001045810-24-000028",
+   "items": "2.02,9.01",
+   "summary": "Q4 FY24 results. No named investments.",
+   "evidence": []
+  },
+  {
+   "filed": "2023-11-21",
+   "event_date": "2023-11-21",
+   "accession": "0001045810-23-000225",
+   "items": "2.02,9.01",
+   "summary": "Q3 FY24 results. No named investments.",
+   "evidence": []
+  },
+  {
+   "filed": "2023-10-24",
+   "event_date": "2023-10-23",
+   "accession": "0001045810-23-000221",
+   "items": "8.01",
+   "summary": "Item 8.01: export rule effective immediately (A100/H100 etc.).",
+   "evidence": []
+  },
+  {
+   "filed": "2023-10-17",
+   "event_date": "2023-10-17",
+   "accession": "0001045810-23-000217",
+   "items": "8.01",
+   "summary": "Item 8.01: October 2023 export control interim final rule.",
+   "evidence": []
+  },
+  {
+   "filed": "2023-08-23",
+   "event_date": "2023-08-23",
+   "accession": "0001045810-23-000171",
+   "items": "2.02,9.01",
+   "summary": "Q2 FY24 results; partnership mentions (VMware, Snowflake etc.). No investment amounts.",
+   "evidence": []
+  },
+  {
+   "filed": "2023-07-24",
+   "event_date": "2023-07-24",
+   "accession": "0001045810-23-000164",
+   "items": "5.02",
+   "summary": "Item 5.02: director appointment.",
+   "evidence": []
+  },
+  {
+   "filed": "2023-06-27",
+   "event_date": "2023-06-22",
+   "accession": "0001045810-23-000146",
+   "items": "5.07",
+   "summary": "Item 5.07: annual meeting votes.",
+   "evidence": []
+  },
+  {
+   "filed": "2023-05-24",
+   "event_date": "2023-05-24",
+   "accession": "0001045810-23-000087",
+   "items": "2.02,9.01",
+   "summary": "Q1 FY24 results. No named investments.",
+   "evidence": []
+  },
+  {
+   "filed": "2023-03-08",
+   "event_date": "2023-03-02",
+   "accession": "0001045810-23-000039",
+   "items": "5.02,5.03,9.01",
+   "summary": "Items 5.02/5.03: FY24 variable comp, bylaws.",
+   "evidence": []
+  },
+  {
+   "filed": "2023-02-22",
+   "event_date": "2023-02-22",
+   "accession": "0001045810-23-000014",
+   "items": "2.02,9.01",
+   "summary": "Q4 FY23 results. No named investments.",
+   "evidence": []
+  }
+ ]
+}
