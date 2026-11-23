@@ -1,0 +1,3330 @@
+{
+  "entities": [
+    {
+      "id": "ent_intel",
+      "name": "Intel Corporation",
+      "short_name": "Intel",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "INTC",
+      "cik": "0000050863",
+      "country": "US",
+      "description": "US maker of x86 processors with a contract foundry business; agreed in September 2025 to build custom data center CPUs and RTX SOCs with Nvidia.",
+      "domains": [
+        "intel.com",
+        "intc.com"
+      ],
+      "credit": {
+        "public_ratings": [
+          {
+            "agency": "Not named (\"a major credit rating agency\", Intel 10-K)",
+            "rating": "BBB",
+            "date": "2025-08",
+            "evidence": [
+              "ev_60026"
+            ]
+          }
+        ],
+        "debt_outstanding": {
+          "value": 50134000000,
+          "as_of": "2026-09-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60017"
+          ]
+        },
+        "maturities_24m": {
+          "value": 3817000000,
+          "as_of": "2026-09-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_60018"
+          ],
+          "note": "Short-term debt due within 12 months only; debt due in months 13 to 24 not found, so this is a lower bound."
+        },
+        "cash_and_undrawn": {
+          "value": 69005000000,
+          "as_of": "2026-10-01",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Cash and short-term investments at 2026-09-26 plus revolving credit capacity at 2026-10-01 (analysis: sum of two quoted figures).",
+          "components": [
+            {
+              "value": 54005000000,
+              "evidence": [
+                "ev_60016"
+              ],
+              "note": "Cash and short-term investments, 2026-09-26"
+            },
+            {
+              "value": 15000000000,
+              "evidence": [
+                "ev_60019"
+              ],
+              "note": "Undrawn revolving facilities, total capacity from 2026-10-01"
+            }
+          ]
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Adequate",
+        "grade_reason": "Two columns sourced: public rating BBB (investment grade, Strong) and debt due within 12 months of $3.8B against $69.0B of cash, short-term investments and undrawn revolvers (ratio under 0.5, Strong, but the 24 month figure is a lower bound). Adjusted down one step: the rating was cut in August 2025, the agency is not named, and Intel carries a $13.7B liability for shares escrowed for the US government.",
+        "notes": "Rating agency not named in the 10-K (ev_60026). Debt $50.1B and cash plus short-term investments $54.0B at 2026-09-26. August 2026 common stock offering raised $23.0B gross (ev_60015). Revolving facilities of $15.0B undrawn from 2026-10-01 (ev_60019, ev_60020)."
+      }
+    },
+    {
+      "id": "ent_nokia",
+      "name": "Nokia Corporation",
+      "short_name": "Nokia",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "NOK",
+      "cik": "0000924613",
+      "country": "FI",
+      "description": "Finnish network equipment maker; issued new shares to Nvidia in November 2025 alongside an AI-RAN and data center networking partnership.",
+      "domains": [
+        "nokia.com"
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": null,
+        "maturities_24m": null,
+        "cash_and_undrawn": null,
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "Fewer than two rubric columns sourced in USD. Liquidity is reported in EUR only.",
+        "notes": "Total cash and interest-bearing financial investments EUR 6,791 million at 2025-12-31 (ev_60032, EUR, not converted). Cash proceeds from the Nvidia issuance EUR 859 million (ev_60030)."
+      }
+    },
+    {
+      "id": "ent_synopsys",
+      "name": "Synopsys, Inc.",
+      "short_name": "Synopsys",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "SNPS",
+      "cik": "0000883241",
+      "country": "US",
+      "description": "US electronic design automation and simulation software company; sold common stock to Nvidia in December 2025 alongside a multi-year engineering partnership.",
+      "domains": [
+        "synopsys.com"
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 9017113000,
+          "as_of": "2026-07-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60050"
+          ],
+          "note": "Long-term debt line only."
+        },
+        "maturities_24m": null,
+        "cash_and_undrawn": {
+          "value": 3607669000,
+          "as_of": "2026-07-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60049"
+          ],
+          "note": "Cash, cash equivalents and short-term investments; undrawn revolver not added."
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "Only cash and long-term debt are sourced; no rating, maturity schedule or customer concentration recorded.",
+        "notes": "Repaid the remaining $3.5B of Ansys acquisition term loans in fiscal 2026, partly offset by the $2.0B Nvidia proceeds (ev_60048)."
+      }
+    },
+    {
+      "id": "ent_marvell",
+      "name": "Marvell Technology, Inc.",
+      "short_name": "Marvell",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "MRVL",
+      "cik": "0001835632",
+      "country": "US",
+      "description": "US maker of data infrastructure chips and custom AI silicon; sold convertible preferred stock to Nvidia in March 2026 with an NVLink Fusion partnership.",
+      "domains": [
+        "marvell.com"
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 4962900000,
+          "as_of": "2026-08-01",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60061"
+          ],
+          "note": "Long-term debt line; no short-term debt at 2026-08-01."
+        },
+        "maturities_24m": null,
+        "cash_and_undrawn": {
+          "value": 3932800000,
+          "as_of": "2026-08-01",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60060"
+          ],
+          "note": "Cash and cash equivalents only."
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "Only cash and long-term debt are sourced.",
+        "notes": "Issued $1.0B of 5.300% senior notes due 2036 in April 2026. Issued Google a warrant for up to 58,970,907 shares in August 2026 (ev_60063)."
+      }
+    },
+    {
+      "id": "ent_lumentum",
+      "name": "Lumentum Holdings Inc.",
+      "short_name": "Lumentum",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "LITE",
+      "cik": "0001633978",
+      "country": "US",
+      "description": "US maker of lasers and optical components for data centers; sold convertible preferred stock to Nvidia in March 2026 with a multi-year optics agreement.",
+      "domains": [
+        "lumentum.com"
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": null,
+        "maturities_24m": {
+          "value": 1360300000,
+          "as_of": "2026-09-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_60074"
+          ],
+          "note": "Current portion of long-term debt; lower bound for 24 months."
+        },
+        "cash_and_undrawn": {
+          "value": 1272200000,
+          "as_of": "2026-09-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60073"
+          ],
+          "note": "Cash and cash equivalents only; short-term investments of $707.4M not added."
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "Only cash and current debt are sourced.",
+        "notes": "Current portion of long-term debt $1,360.3M at 2026-09-26 is mostly convertible notes, several exchanged for shares in 2026 (analysis)."
+      }
+    },
+    {
+      "id": "ent_coherent",
+      "name": "Coherent Corp.",
+      "short_name": "Coherent",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "COHR",
+      "cik": "0000820318",
+      "country": "US",
+      "description": "US maker of optical networking components and lasers; sold common stock to Nvidia in March 2026 with access to co-packaged optics product families.",
+      "domains": [
+        "coherent.com"
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": null,
+        "maturities_24m": null,
+        "cash_and_undrawn": null,
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "Cash and total debt are quoted in thousands in a form the evidence tool could not scale; no amount objects recorded.",
+        "notes": "Cash and cash equivalents 1,552,929 and total debt 4,000,598, both in $000, at 2026-09-30 (ev_60083, ev_60084): about $1.55B and $4.0B."
+      }
+    },
+    {
+      "id": "ent_arm",
+      "name": "Arm Holdings plc",
+      "short_name": "Arm",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "ARM",
+      "cik": "0001973239",
+      "country": "GB",
+      "description": "UK designer of processor architectures licensed to chipmakers; Nvidia held its American depositary shares from 2023 until an exit by the end of 2025.",
+      "domains": [
+        "arm.com"
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": null,
+        "maturities_24m": null,
+        "cash_and_undrawn": null,
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "Not assessed: Nvidia has exited the position.",
+        "notes": ""
+      }
+    },
+    {
+      "id": "ent_corning",
+      "name": "Corning Incorporated",
+      "short_name": "Corning",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "GLW",
+      "cik": "0000024741",
+      "country": "US",
+      "description": "US maker of optical fiber, connectivity and specialty glass; sold Nvidia warrants in May 2026 under a long-term partnership to expand US optical capacity.",
+      "domains": [
+        "corning.com"
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 7267000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60101"
+          ],
+          "note": "Long-term debt line only."
+        },
+        "maturities_24m": null,
+        "cash_and_undrawn": {
+          "value": 2537000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60100"
+          ],
+          "note": "Cash and cash equivalents only."
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "Only cash and long-term debt are sourced.",
+        "notes": "Contract liabilities $2.7B at 2026-09-30 include customer deposits under long-term supply agreements."
+      }
+    },
+    {
+      "id": "ent_amkor",
+      "name": "Amkor Technology, Inc.",
+      "short_name": "Amkor",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "AMKR",
+      "cik": "0001047127",
+      "country": "US",
+      "description": "US provider of semiconductor packaging and test services with plants in Korea and a new Arizona site; signed customer advance payment agreements in July and October 2026.",
+      "domains": [
+        "amkor.com"
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 2317733000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60108"
+          ],
+          "note": "Long-term debt line only."
+        },
+        "maturities_24m": null,
+        "cash_and_undrawn": {
+          "value": 1603015000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60109"
+          ],
+          "note": "Cash and cash equivalents only."
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "Only cash and long-term debt are sourced.",
+        "notes": "Expects about $1.9B of customer advance payments in the 12 months after 2026-09-30, $200M of them backed by standby letters of credit (ev_60103)."
+      }
+    },
+    {
+      "id": "ent_kyec",
+      "name": "King Yuan Electronics Co., Ltd.",
+      "short_name": "KYEC",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "2449.TW",
+      "cik": null,
+      "country": "TW",
+      "description": "Taiwanese semiconductor test services company building US test capacity with a Nvidia capacity reservation advance.",
+      "domains": [
+        "kyec.com.tw"
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": null,
+        "maturities_24m": null,
+        "cash_and_undrawn": null,
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "No counterparty financial data collected.",
+        "notes": ""
+      }
+    },
+    {
+      "id": "ent_ibiden",
+      "name": "IBIDEN Co., Ltd.",
+      "short_name": "IBIDEN",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "4062.T",
+      "cik": null,
+      "country": "JP",
+      "description": "Japanese maker of IC package substrates; Nvidia funds capacity at its Ono Plant through a capacity reservation advance.",
+      "domains": [
+        "ibiden.com"
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": null,
+        "maturities_24m": null,
+        "cash_and_undrawn": null,
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "No counterparty financial data collected.",
+        "notes": ""
+      }
+    },
+    {
+      "id": "ent_unimicron",
+      "name": "Unimicron Technology Corporation",
+      "short_name": "Unimicron",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "3037.TW",
+      "cik": null,
+      "country": "TW",
+      "description": "Taiwanese maker of substrates and printed circuit boards; signed a capacity reservation agreement with Nvidia for substrate capacity in Taiwan.",
+      "domains": [
+        "unimicron.com"
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": null,
+        "maturities_24m": null,
+        "cash_and_undrawn": null,
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "No counterparty financial data collected.",
+        "notes": ""
+      }
+    },
+    {
+      "id": "ent_spil",
+      "name": "Siliconware Precision Industries Co., Ltd.",
+      "short_name": "SPIL",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "TW",
+      "description": "Taiwanese packaging and test company owned by ASE Technology Holding; expanding capacity dedicated to Nvidia with Nvidia funding.",
+      "domains": [
+        "spil.com.tw"
+      ],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": null,
+        "maturities_24m": null,
+        "cash_and_undrawn": null,
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "Private subsidiary; parent ASE files a 20-F, not reviewed for SPIL figures.",
+        "notes": ""
+      }
+    },
+    {
+      "id": "ent_softbank",
+      "name": "SoftBank Group Corp.",
+      "short_name": "SoftBank",
+      "cluster": "other",
+      "depth": 2,
+      "public": true,
+      "ticker": "9984.T",
+      "cik": null,
+      "country": "JP",
+      "description": "Japanese investment holding company; bought Intel common stock in a private placement in September 2025.",
+      "domains": [
+        "softbank.jp",
+        "group.softbank"
+      ]
+    },
+    {
+      "id": "ent_us_doc",
+      "name": "U.S. Department of Commerce",
+      "short_name": "US Commerce Department",
+      "cluster": "other",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "US government department that received Intel common stock, escrowed shares and a warrant under an August 2025 agreement.",
+      "domains": []
+    },
+    {
+      "id": "ent_google",
+      "name": "Google LLC",
+      "short_name": "Google",
+      "cluster": "hyperscaler",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Subsidiary of Alphabet; Marvell customer for custom silicon that received a Marvell warrant in August 2026.",
+      "domains": [
+        "google.com"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel_intel_eq_2025",
+      "from": "ent_nvidia",
+      "to": "ent_intel",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia common stake in Intel",
+      "insight_template": "Nvidia paid {funded} for {counterparty} stock and sold part of it within a year, so it reads as a product deal, not lasting support.",
+      "definition": "Nvidia bought 214,776,632 newly issued Intel common shares at $23.28 each for $5.0 billion in cash under a securities purchase agreement signed on 15 September 2025. The sale closed on 26 December 2025 after the Hart-Scott-Rodino waiting period. The stake came with a collaboration under which Intel builds Nvidia-custom x86 CPUs and x86 SOCs with Nvidia RTX GPU chiplets. Nvidia's 13F shows 161,082,488 shares at 30 September 2026.",
+      "status": "completed",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 5000000000,
+          "as_of": "2025-09-18",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_30033",
+            "ev_60023"
+          ]
+        },
+        "committed_total": {
+          "value": 5000000000,
+          "as_of": "2025-09-15",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60009",
+            "ev_10155"
+          ],
+          "note": "Securities purchase agreement of 2025-09-15; listed in Nvidia's investment commitments at 2025-10-26 subject to regulatory approval."
+        },
+        "funded": {
+          "value": 5000000000,
+          "as_of": "2025-12-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60006",
+            "ev_60010"
+          ],
+          "note": "214,776,632 shares at $23.28 in cash, closed 2025-12-26. Cost of the shares sold later is not disclosed."
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2025-09-15",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Plain common equity; no contingent term found."
+        },
+        "market_value": {
+          "value": 19366947532,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_50021"
+          ],
+          "note": "13F reported value of 161,082,488 shares at 2026-09-30, filed 2026-11-16, after a reduction from 214,776,632 shares.",
+          "price_source": "Nvidia Form 13F-HR",
+          "price_timestamp": "2026-09-30"
+        }
+      },
+      "holding": {
+        "shares": 161082488,
+        "as_of": "2026-09-30",
+        "ticker": "INTC",
+        "evidence": [
+          "ev_50021",
+          "ev_50020"
+        ],
+        "note": "214,776,632 shares at 2025-12-31 and 2026-06-30; 161,082,488 at 2026-09-30, a reduction of 53,694,144 shares (analysis). No source states the sale price, date or reason. Percent of class not computed."
+      },
+      "dates": {
+        "announced": "2025-09-18",
+        "signed": "2025-09-15",
+        "filed": "2025-09-18",
+        "effective": "2025-12-26",
+        "maturity": null,
+        "evidence": [
+          "ev_60001",
+          "ev_60008",
+          "ev_60028"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "reconciled",
+        "nvidia_side": "Nvidia's release (2025-09-18) says it will invest $5 billion at $23.28 per share subject to regulatory approvals; its Q3 FY2026 10-Q lists $5 billion in Intel within investment commitments subject to regulatory approval; its FY2026 10-K reports gains on the Intel stock; its 13F reports 214,776,632 shares at 2025-12-31 and 161,082,488 at 2026-09-30.",
+        "counterparty_side": "Intel's 8-K (2025-09-18) reports the agreement of 2025-09-15 for 214,776,632 shares at $23.28 for $5.0 billion, subject to HSR, with no governance or information rights; its 8-K (2025-12-29) reports closing on 2025-12-26; its 10-K and Q3 2026 10-Q repeat the terms (215 million shares, rounded).",
+        "nvidia_evidence": [
+          "ev_30033",
+          "ev_30034",
+          "ev_30035",
+          "ev_10155",
+          "ev_10111",
+          "ev_50020",
+          "ev_50021"
+        ],
+        "counterparty_evidence": [
+          "ev_60001",
+          "ev_60009",
+          "ev_60002",
+          "ev_60003",
+          "ev_60004",
+          "ev_60005",
+          "ev_60006",
+          "ev_60007",
+          "ev_60008",
+          "ev_60010",
+          "ev_60028"
+        ],
+        "differences": [
+          {
+            "field": "shares held after closing",
+            "nvidia_value": "161,082,488 shares at 2026-09-30 (13F)",
+            "counterparty_value": "Intel reports only the 214,776,632 shares issued; no disclosure of Nvidia sales found",
+            "evidence": [
+              "ev_50021",
+              "ev_60005"
+            ],
+            "note": "Nvidia's Q3 FY2027 cash flow shows $2,253M of proceeds from equity sales without naming issuers (ev_60113)."
+          }
+        ]
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Equity loss is capped at cost and does not grow if Intel weakens; Intel's value and the joint products both depend on data center and AI demand, so the stake moves with the AI cycle.",
+        "collateral": "None. Common stock, last in line behind $50.1B of Intel debt.",
+        "tenor": "Open ended; no lock-up or standstill found in Intel's filings.",
+        "notes": "The agreement gives Nvidia no governance or information rights (ev_60004). Co-investors in the same period: SoftBank at $23.00 per share and the US government."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Intel misses its foundry and data center product milestones",
+            "mechanism": "The joint x86 and RTX products slip and Intel's share price falls",
+            "affected": [
+              "ent_nvidia",
+              "ent_intel"
+            ],
+            "direction": "negative",
+            "text": "If Intel misses its product milestones, Nvidia loses value on its remaining Intel shares and its custom x86 CPU supply is delayed."
+          },
+          {
+            "trigger": "Nvidia continues to sell Intel shares",
+            "mechanism": "Nvidia realizes gains and reduces its exposure to Intel",
+            "affected": [
+              "ent_nvidia",
+              "ent_intel"
+            ],
+            "direction": "mixed",
+            "text": "Nvidia cut its Intel holding by a quarter within a year of closing, so its exposure to Intel is falling while the product collaboration continues."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Nvidia exits Intel entirely",
+            "mechanism": "Investors read the exit as a vote against Intel's turnaround, raising Intel's cost of equity",
+            "affected": [
+              "ent_intel",
+              "ent_softbank",
+              "ent_us_doc"
+            ],
+            "direction": "negative",
+            "text": "A full Nvidia exit from Intel would weaken the signal that supported Intel's 2025 private placements alongside SoftBank and the US government.",
+            "lens": "signaling"
+          },
+          {
+            "trigger": "Intel's foundry business is sold or spun off below 51% ownership",
+            "mechanism": "The US government warrant for 241 million shares at $20 becomes exercisable and dilutes holders",
+            "affected": [
+              "ent_intel",
+              "ent_us_doc",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If Intel ceases to own at least half of its foundry, the government warrant dilutes Intel holders, Nvidia included.",
+            "lens": "contagion"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [
+        {
+          "entity": "ent_softbank",
+          "role": "co_investor",
+          "description": "Bought 87 million Intel shares at $23.00 for $2.0 billion under an agreement of 18 August 2025, closed 26 September 2025.",
+          "amount": {
+            "value": 2000000000,
+            "as_of": "2025-09-26",
+            "fiscal_period": null,
+            "original_currency": "USD",
+            "original_value": null,
+            "fx_rate": null,
+            "fx_date": null,
+            "last_verified": "2026-11-23",
+            "display_eligible": true,
+            "lower_bound": false,
+            "evidence": [
+              "ev_60012"
+            ]
+          },
+          "evidence": [
+            "ev_60011",
+            "ev_60012"
+          ]
+        },
+        {
+          "entity": "ent_us_doc",
+          "role": "co_investor",
+          "description": "Received 275 million Intel shares, 159 million escrowed shares released at $20 per share as Secure Enclave funds arrive, and a warrant for up to 241 million shares at $20 exercisable if Intel owns less than 51% of its foundry.",
+          "amount": null,
+          "evidence": [
+            "ev_60024",
+            "ev_60025",
+            "ev_60013",
+            "ev_60014"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "notes": "Seed C1 confirmed: $23.28 per share quoted from Intel's 8-K (ev_60002, ev_60007) and Nvidia's release (ev_30034). Analysis: at the 13F value, the remaining 161,082,488 shares were worth about $120 each at 2026-09-30.",
+      "evidence": [
+        "ev_10111",
+        "ev_10155",
+        "ev_30033",
+        "ev_30034",
+        "ev_30035",
+        "ev_50020",
+        "ev_50021",
+        "ev_60001",
+        "ev_60002",
+        "ev_60003",
+        "ev_60004",
+        "ev_60005",
+        "ev_60006",
+        "ev_60007",
+        "ev_60008",
+        "ev_60009",
+        "ev_60010",
+        "ev_60011",
+        "ev_60012",
+        "ev_60013",
+        "ev_60014",
+        "ev_60023",
+        "ev_60024",
+        "ev_60025",
+        "ev_60028"
+      ]
+    },
+    {
+      "id": "rel_nokia_eq_2025",
+      "from": "ent_nvidia",
+      "to": "ent_nokia",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia stake in Nokia",
+      "insight_template": "Nvidia paid {funded} for new {counterparty} shares tied to an AI radio partnership, then sold most of them within a year.",
+      "definition": "Nokia's board issued 166,389,351 new shares to Nvidia in a directed issue at $6.01 per share, about $1.0 billion, announced on 28 October 2025 and completed on 13 November 2025 as American depositary shares. The issue gave Nvidia 2.90% of Nokia and is described by Nokia as an essential part of a partnership on AI-RAN and data center networking. Nvidia's 13F shows 72,859,751 shares at 30 September 2026.",
+      "status": "completed",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 1000000000,
+          "as_of": "2025-10-28",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_30038",
+            "ev_60036"
+          ]
+        },
+        "committed_total": {
+          "value": 1000000000,
+          "as_of": "2025-10-28",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60036"
+          ],
+          "note": "Directed share issue resolved by Nokia's board, subject to customary closing conditions."
+        },
+        "funded": {
+          "value": 1000000000,
+          "as_of": "2025-11-13",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60036",
+            "ev_30038"
+          ],
+          "note": "Completion 2025-11-13 (ev_60041); Nokia's 20-F reports USD 1 000 million total proceeds (ev_60035) and EUR 859 million cash received (ev_60030)."
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2025-10-28",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Plain common equity; no contingent term found."
+        },
+        "market_value": {
+          "value": 738797875,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_50025"
+          ],
+          "note": "13F reported value of 72,859,751 ADS at 2026-09-30, filed 2026-11-16.",
+          "price_source": "Nvidia Form 13F-HR",
+          "price_timestamp": "2026-09-30"
+        }
+      },
+      "holding": {
+        "shares": 72859751,
+        "as_of": "2026-09-30",
+        "ticker": "NOK",
+        "evidence": [
+          "ev_50025",
+          "ev_50024"
+        ],
+        "note": "166,389,351 ADS at 2025-12-31 through 2026-06-30; 72,859,751 at 2026-09-30, a reduction of 93,529,600 (56%, analysis). 2.90% of Nokia at issuance (ev_60038). No allowed source states why or when Nvidia sold."
+      },
+      "dates": {
+        "announced": "2025-10-28",
+        "signed": "2025-10-28",
+        "filed": "2025-10-28",
+        "effective": "2025-11-13",
+        "maturity": null,
+        "evidence": [
+          "ev_60036",
+          "ev_60041"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "reconciled",
+        "nvidia_side": "Nvidia's release (2025-10-28) says it will invest $1 billion in Nokia at $6.01 per share subject to closing conditions; its 13F reports 166,389,351 ADS at 2025-12-31 and 72,859,751 at 2026-09-30.",
+        "counterparty_side": "Nokia's 6-K (2025-10-28) reports the board resolution to issue 166 389 351 shares at USD 6.01 (EUR 5.16), 2.90% of shares after issue; its 6-K (2025-11-13) reports completion; its 2025 20-F reports USD 1 000 million proceeds and delivery as ADS in November 2025.",
+        "nvidia_evidence": [
+          "ev_30038",
+          "ev_30036",
+          "ev_30037",
+          "ev_50024",
+          "ev_50025"
+        ],
+        "counterparty_evidence": [
+          "ev_60036",
+          "ev_60037",
+          "ev_60038",
+          "ev_60039",
+          "ev_60041",
+          "ev_60033",
+          "ev_60034",
+          "ev_60035",
+          "ev_60029"
+        ],
+        "differences": [
+          {
+            "field": "closing",
+            "nvidia_value": "No Nvidia closing statement found",
+            "counterparty_value": "Completed and registered 2025-11-13",
+            "evidence": [
+              "ev_60041"
+            ]
+          },
+          {
+            "field": "shares held",
+            "nvidia_value": "72,859,751 ADS at 2026-09-30 (13F)",
+            "counterparty_value": "No Nokia disclosure of Nvidia's sale found in 2026 6-Ks",
+            "evidence": [
+              "ev_50025"
+            ]
+          }
+        ]
+      },
+      "credit": {
+        "wwr": "none",
+        "wwr_reason": "Nokia sells mostly mobile, fixed and optical network equipment to telecom operators, whose spending does not hinge on AI demand; equity loss is capped at cost.",
+        "collateral": "None. Common stock held as ADS.",
+        "tenor": "Open ended; no lock-up found.",
+        "notes": "Nokia states the issue was an essential part of the partnership (ev_60039)."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Nokia's AI-RAN products fail to win operators",
+            "mechanism": "Nokia's share price falls and the partnership loses value",
+            "affected": [
+              "ent_nvidia",
+              "ent_nokia"
+            ],
+            "direction": "negative",
+            "text": "If operators do not buy Nokia's AI-RAN products, Nvidia's remaining Nokia shares lose value and a route for its accelerators into radio networks narrows."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Nvidia's 13F shows it sold over half its Nokia shares",
+            "mechanism": "Investors question the depth of the partnership that justified the directed issue",
+            "affected": [
+              "ent_nokia"
+            ],
+            "direction": "negative",
+            "text": "Nvidia's sale of most of its Nokia shares within a year weakens the signal Nokia used to justify issuing shares without pre-emptive rights.",
+            "lens": "signaling"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "notes": "Seed C2 confirmed: $6.01 per share quoted from Nokia's 6-K (ev_60037) and 20-F (ev_60029) and Nvidia's release (ev_30036). Reason for the 2026 reduction: not found in any allowed source; a CNBC quote page lists a third party headline of 17 November 2026 about a reduced stake (excluded source).",
+      "evidence": [
+        "ev_30036",
+        "ev_30037",
+        "ev_30038",
+        "ev_50024",
+        "ev_50025",
+        "ev_60029",
+        "ev_60033",
+        "ev_60034",
+        "ev_60035",
+        "ev_60036",
+        "ev_60037",
+        "ev_60038",
+        "ev_60039",
+        "ev_60041"
+      ]
+    },
+    {
+      "id": "rel_synopsys_eq_2025",
+      "from": "ent_nvidia",
+      "to": "ent_synopsys",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia common stake in Synopsys",
+      "insight_template": "Nvidia paid {funded} for {counterparty} shares as the company repaid acquisition loans, so its exposure sits behind the remaining lenders.",
+      "definition": "On 1 December 2025 Nvidia bought 4,821,717 Synopsys common shares at $414.79 each for $2 billion in cash in a private placement, signed and funded the same day. The purchase came with a multi-year partnership to accelerate Synopsys software on Nvidia GPUs. Nvidia's 13F shows 4,354,077 shares at 30 September 2026.",
+      "status": "completed",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 2000000000,
+          "as_of": "2025-12-01",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_30039",
+            "ev_60045"
+          ]
+        },
+        "committed_total": {
+          "value": 2000000000,
+          "as_of": "2025-12-01",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60045"
+          ]
+        },
+        "funded": {
+          "value": 2000000000,
+          "as_of": "2025-12-01",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60045",
+            "ev_60047",
+            "ev_30039"
+          ]
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2025-12-01",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Plain common equity; no contingent term found."
+        },
+        "market_value": {
+          "value": 1893762250,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_50023"
+          ],
+          "note": "13F reported value of 4,354,077 shares at 2026-09-30.",
+          "price_source": "Nvidia Form 13F-HR",
+          "price_timestamp": "2026-09-30"
+        }
+      },
+      "holding": {
+        "shares": 4354077,
+        "as_of": "2026-09-30",
+        "ticker": "SNPS",
+        "evidence": [
+          "ev_50023",
+          "ev_50022"
+        ],
+        "note": "4,821,717 shares at 2025-12-31 through 2026-06-30; 4,354,077 at 2026-09-30, a reduction of 467,640 (analysis). No source states why."
+      },
+      "dates": {
+        "announced": "2025-12-01",
+        "signed": "2025-12-01",
+        "filed": "2025-12-01",
+        "effective": "2025-12-01",
+        "maturity": null,
+        "evidence": [
+          "ev_60043",
+          "ev_60042"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "reconciled",
+        "nvidia_side": "Nvidia's release (2025-12-01) says it invested $2 billion in Synopsys common stock at $414.79 per share; its 13F reports 4,821,717 shares at 2025-12-31 and 4,354,077 at 2026-09-30.",
+        "counterparty_side": "Synopsys's 8-K (2025-12-01) reports a securities purchase agreement under which Nvidia purchased 4,821,717 shares at $414.79 for $2 billion in cash; its July 2026 10-Q reports net proceeds of $2.0 billion.",
+        "nvidia_evidence": [
+          "ev_30039",
+          "ev_30040",
+          "ev_50022",
+          "ev_50023"
+        ],
+        "counterparty_evidence": [
+          "ev_60042",
+          "ev_60043",
+          "ev_60044",
+          "ev_60045",
+          "ev_60046",
+          "ev_60047"
+        ],
+        "differences": [
+          {
+            "field": "shares held",
+            "nvidia_value": "4,354,077 at 2026-09-30 (13F)",
+            "counterparty_value": "No Synopsys disclosure of Nvidia's sale found",
+            "evidence": [
+              "ev_50023"
+            ]
+          }
+        ]
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Synopsys sells design and simulation software whose demand follows chip design spending, much of it now for AI chips; equity loss is capped at cost and does not grow with distress.",
+        "collateral": "None. Common stock behind $9.0B of long-term debt.",
+        "tenor": "Open ended; no lock-up found.",
+        "notes": ""
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Synopsys's GPU-accelerated products sell less than planned",
+            "mechanism": "Synopsys's share price falls",
+            "affected": [
+              "ent_nvidia",
+              "ent_synopsys"
+            ],
+            "direction": "negative",
+            "text": "If Synopsys's GPU-accelerated tools sell poorly, Nvidia's Synopsys shares lose value and fewer design workloads move to Nvidia GPUs."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Synopsys buys Nvidia GPUs to run accelerated tools for customers",
+            "mechanism": "Part of Nvidia's equity returns to Nvidia as hardware or cloud spend",
+            "affected": [
+              "ent_synopsys",
+              "ent_nvidia"
+            ],
+            "direction": "mixed",
+            "text": "Any Nvidia hardware Synopsys buys to run its accelerated tools would partly recycle Nvidia's own money; no filing quantifies such purchases.",
+            "lens": "revenue_quality"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "notes": "Seed C3 confirmed with price $414.79 (ev_60044, ev_30040). Synopsys's 10-Q says it repaid the remaining $3.5B of term loans, partially offset by the Nvidia proceeds (ev_60048); it does not say the proceeds were used for repayment.",
+      "evidence": [
+        "ev_30039",
+        "ev_30040",
+        "ev_50022",
+        "ev_50023",
+        "ev_60042",
+        "ev_60043",
+        "ev_60044",
+        "ev_60045",
+        "ev_60046",
+        "ev_60047"
+      ]
+    },
+    {
+      "id": "rel_marvell_eq_2026",
+      "from": "ent_nvidia",
+      "to": "ent_marvell",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia convertible preferred stake in Marvell",
+      "insight_template": "Nvidia paid {funded} for {counterparty} preferred stock that ranks with common shares in a liquidation, so it carries equity risk with no preference.",
+      "definition": "On 31 March 2026 Nvidia bought 2,000,000 shares of Marvell Series A convertible preferred stock for $2.0 billion in cash, signed and closed the same day. Each share has a $1,000 stated value and converts at about $91.84, into at most 21,778,000 common shares, at Nvidia's option once the HSR waiting period ends. The preferred has no redemption rights and shares pro rata with common stock in a liquidation. Marvell provides custom XPUs and scale-up networking compatible with Nvidia NVLink Fusion.",
+      "status": "completed",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 2000000000,
+          "as_of": "2026-03-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_30078",
+            "ev_60052"
+          ]
+        },
+        "committed_total": {
+          "value": 2000000000,
+          "as_of": "2026-03-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60052"
+          ]
+        },
+        "funded": {
+          "value": 2000000000,
+          "as_of": "2026-03-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60052",
+            "ev_60059"
+          ]
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-03-31",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "No further payment by Nvidia; conversion needs no cash."
+        },
+        "market_value": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Not on Nvidia's 13F, since convertible preferred is not a 13F security (analysis). Nvidia's Level 2 public equity of $10,806M at 2026-07-26 includes convertible preferred but is not split by issuer (ev_10015)."
+        }
+      },
+      "holding": {
+        "shares": 2000000,
+        "as_of": "2026-03-31",
+        "ticker": "MRVL",
+        "evidence": [
+          "ev_60051",
+          "ev_60053"
+        ],
+        "note": "Preferred shares, convertible into up to 21,778,000 common shares. No later change found."
+      },
+      "dates": {
+        "announced": "2026-03-31",
+        "signed": "2026-03-31",
+        "filed": "2026-03-31",
+        "effective": "2026-03-31",
+        "maturity": null,
+        "evidence": [
+          "ev_60051"
+        ]
+      },
+      "seniority": "preferred_equity",
+      "reconciliation": {
+        "result": "reconciled",
+        "nvidia_side": "Nvidia's release (2026-03-31) says Nvidia has invested $2 billion in Marvell, with no security or price stated.",
+        "counterparty_side": "Marvell's 8-K (2026-03-31) reports 2,000,000 Series A convertible preferred shares sold to Nvidia for $2,000,000,000.00 in cash, convertible into up to 21,778,000 common shares at about $91.8355; its August 2026 10-Q repeats the terms.",
+        "nvidia_evidence": [
+          "ev_30078"
+        ],
+        "counterparty_evidence": [
+          "ev_60051",
+          "ev_60052",
+          "ev_60053",
+          "ev_60054",
+          "ev_60055",
+          "ev_60056",
+          "ev_60057",
+          "ev_60059"
+        ],
+        "differences": [
+          {
+            "field": "security",
+            "nvidia_value": "Not stated (\"invested $2 billion in Marvell\")",
+            "counterparty_value": "Series A convertible preferred, $1,000 stated value",
+            "evidence": [
+              "ev_30078",
+              "ev_60051"
+            ]
+          }
+        ]
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Marvell's custom AI silicon and optical businesses move with AI data center demand; the preferred has no liquidation preference, so loss behaves like common equity and is capped at cost.",
+        "collateral": "None. Preferred ranks pro rata with common in liquidation (ev_60057).",
+        "tenor": "Perpetual; no redemption rights (ev_60056).",
+        "notes": "Holder conversion requires expiry of the HSR waiting period (ev_60055)."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Marvell's custom XPU programs lose hyperscaler orders",
+            "mechanism": "Marvell's share price and the conversion value fall",
+            "affected": [
+              "ent_nvidia",
+              "ent_marvell"
+            ],
+            "direction": "negative",
+            "text": "If Marvell loses custom XPU orders, Nvidia's preferred stake falls with Marvell's common stock because it has no liquidation preference."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Google's custom silicon program with Marvell changes",
+            "mechanism": "Marvell's revenue from TPU-related programs, backed by a Google warrant, shifts",
+            "affected": [
+              "ent_marvell",
+              "ent_google",
+              "ent_nvidia"
+            ],
+            "direction": "mixed",
+            "text": "Marvell also gave Google a warrant tied to custom TPU-related silicon, so Nvidia holds equity in a supplier to a rival accelerator program.",
+            "lens": "contagion"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [
+        {
+          "entity": "ent_google",
+          "role": "co_investor",
+          "description": "Received a Marvell warrant in August 2026 for up to 58,970,907 shares at $206.58 in connection with custom silicon for the TPU ecosystem.",
+          "amount": null,
+          "evidence": [
+            "ev_60062",
+            "ev_60063"
+          ]
+        }
+      ],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "notes": "",
+      "evidence": [
+        "ev_30078",
+        "ev_60051",
+        "ev_60052",
+        "ev_60053",
+        "ev_60054",
+        "ev_60055",
+        "ev_60056",
+        "ev_60057",
+        "ev_60059",
+        "ev_60062",
+        "ev_60063"
+      ]
+    },
+    {
+      "id": "rel_lumentum_eq_2026",
+      "from": "ent_nvidia",
+      "to": "ent_lumentum",
+      "type_primary": "EQ",
+      "types_secondary": [
+        "PP"
+      ],
+      "title": "Nvidia convertible preferred stake in Lumentum",
+      "insight_template": "Nvidia paid {funded} for {counterparty} preferred stock to fund a new optics fab, tying its money to capacity it has also agreed to buy.",
+      "definition": "On 2 March 2026 Nvidia bought 2,876,415 shares of Lumentum Series A convertible preferred stock at $695.31 each for $2.0 billion in cash, signed and closed the same day. The preferred converts one for one into common stock at Nvidia's option after the HSR waiting period, has no redemption rights and ranks pro rata with common in a liquidation. The joint release says the deal includes a Nvidia multi-billion purchase commitment and future capacity access rights, and that Lumentum is building a new US fab.",
+      "status": "completed",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 2000000000,
+          "as_of": "2026-03-02",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_30046",
+            "ev_60066"
+          ]
+        },
+        "committed_total": {
+          "value": 2000000000,
+          "as_of": "2026-03-02",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60066"
+          ]
+        },
+        "funded": {
+          "value": 2000000000,
+          "as_of": "2026-03-02",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60066",
+            "ev_60072"
+          ]
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-03-02",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "No further payment under the preferred. The separate multi-billion purchase commitment is unquantified and is a purchase, not credit exposure."
+        },
+        "market_value": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Not on Nvidia's 13F: convertible preferred is not a 13F security (analysis)."
+        }
+      },
+      "holding": {
+        "shares": 2876415,
+        "as_of": "2026-09-26",
+        "ticker": "LITE",
+        "evidence": [
+          "ev_60064"
+        ],
+        "note": "Lumentum's balance sheet shows 2.9 million preferred shares still outstanding at 2026-09-26, so no conversion as of that date (analysis)."
+      },
+      "dates": {
+        "announced": "2026-03-02",
+        "signed": "2026-03-02",
+        "filed": "2026-03-02",
+        "effective": "2026-03-02",
+        "maturity": null,
+        "evidence": [
+          "ev_60064"
+        ]
+      },
+      "seniority": "preferred_equity",
+      "reconciliation": {
+        "result": "reconciled",
+        "nvidia_side": "Nvidia's release (2026-03-02) says Nvidia is investing $2 billion in Lumentum and has a multi-billion purchase commitment and future capacity access rights.",
+        "counterparty_side": "Lumentum's 8-K (2026-03-02) reports 2,876,415 Series A convertible preferred shares sold to Nvidia at $695.31 for $2,000,000,000 in cash; its September 2026 10-Q repeats the terms.",
+        "nvidia_evidence": [
+          "ev_30046",
+          "ev_30047"
+        ],
+        "counterparty_evidence": [
+          "ev_60064",
+          "ev_60065",
+          "ev_60066",
+          "ev_60067",
+          "ev_60068",
+          "ev_60070",
+          "ev_60071",
+          "ev_60072"
+        ],
+        "differences": [
+          {
+            "field": "security",
+            "nvidia_value": "Not stated",
+            "counterparty_value": "Series A convertible preferred, one for one conversion",
+            "evidence": [
+              "ev_30046",
+              "ev_60067"
+            ]
+          }
+        ]
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Lumentum's laser and optics demand is driven by AI data center buildouts; the preferred has no liquidation preference, so the loss is capped at cost and does not grow with distress.",
+        "collateral": "None.",
+        "tenor": "Perpetual; no redemption rights (ev_60068).",
+        "notes": "Lumentum had $1,360.3M of current debt against $1,272.2M of cash at 2026-09-26 (ev_60074, ev_60073)."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Lumentum's new fab is late or over budget",
+            "mechanism": "Laser supply to Nvidia is delayed and Lumentum's equity falls",
+            "affected": [
+              "ent_nvidia",
+              "ent_lumentum"
+            ],
+            "direction": "negative",
+            "text": "If Lumentum's new fab slips, Nvidia faces both a loss on its preferred and a delay in the laser capacity it paid to reserve."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Nvidia buys under its purchase commitment",
+            "mechanism": "Nvidia's equity funds capacity whose output Nvidia then buys",
+            "affected": [
+              "ent_lumentum",
+              "ent_nvidia"
+            ],
+            "direction": "mixed",
+            "text": "Lumentum's revenue from Nvidia is partly financed by Nvidia's own equity, so its growth overstates demand from independent buyers.",
+            "lens": "revenue_quality"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "notes": "",
+      "evidence": [
+        "ev_30046",
+        "ev_30047",
+        "ev_60064",
+        "ev_60065",
+        "ev_60066",
+        "ev_60067",
+        "ev_60068",
+        "ev_60070",
+        "ev_60071",
+        "ev_60072"
+      ]
+    },
+    {
+      "id": "rel_coherent_eq_2026",
+      "from": "ent_nvidia",
+      "to": "ent_coherent",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia common stake in Coherent",
+      "insight_template": "Nvidia paid {funded} for {counterparty} common stock now worth {market_value}, funding the capacity of an optics supplier it also buys from.",
+      "definition": "On 2 March 2026 Nvidia bought 7,788,161 Coherent common shares at $256.80 each for $2 billion in cash, signed and closed the same day. The shares carried a six-month lock-up and a six-month price protection term that expired in September 2026 without being triggered. Nvidia gained access to five additional Coherent co-packaged optics product families, and the joint release mentions a multi-billion Nvidia purchase commitment.",
+      "status": "completed",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 2000000000,
+          "as_of": "2026-03-02",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_30048",
+            "ev_60077"
+          ]
+        },
+        "committed_total": {
+          "value": 2000000000,
+          "as_of": "2026-03-02",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60077"
+          ]
+        },
+        "funded": {
+          "value": 2000000000,
+          "as_of": "2026-03-02",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60077",
+            "ev_60081"
+          ]
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-03-02",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "The price protection term could have required Coherent, not Nvidia, to issue shares or pay cash; it expired untriggered in September 2026."
+        },
+        "market_value": {
+          "value": 2241510617,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_50027"
+          ],
+          "note": "13F reported value of 7,788,161 shares.",
+          "price_source": "Nvidia Form 13F-HR",
+          "price_timestamp": "2026-09-30"
+        }
+      },
+      "holding": {
+        "shares": 7788161,
+        "as_of": "2026-09-30",
+        "ticker": "COHR",
+        "evidence": [
+          "ev_50027",
+          "ev_50026",
+          "ev_60075"
+        ],
+        "note": "Unchanged since the 2026-03-31 13F."
+      },
+      "dates": {
+        "announced": "2026-03-02",
+        "signed": "2026-03-02",
+        "filed": "2026-03-02",
+        "effective": "2026-03-02",
+        "maturity": null,
+        "evidence": [
+          "ev_60075"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "reconciled",
+        "nvidia_side": "Nvidia's release (2026-03-02) says Nvidia is investing $2 billion in Coherent with a multi-billion purchase commitment; its 13F reports 7,788,161 shares at 2026-03-31 and 2026-09-30.",
+        "counterparty_side": "Coherent's 8-K (2026-03-02) reports 7,788,161 shares sold to Nvidia at $256.80 for $2 billion in cash; its September 2026 10-Q adds the six-month lock-up and the price protection term that expired untriggered.",
+        "nvidia_evidence": [
+          "ev_30048",
+          "ev_30049",
+          "ev_50026",
+          "ev_50027"
+        ],
+        "counterparty_evidence": [
+          "ev_60075",
+          "ev_60076",
+          "ev_60077",
+          "ev_60078",
+          "ev_60081",
+          "ev_60082",
+          "ev_60079",
+          "ev_60080"
+        ],
+        "differences": [
+          {
+            "field": "terms",
+            "nvidia_value": "No lock-up or price protection stated",
+            "counterparty_value": "Six-month lock-up and six-month price protection, expired September 2026",
+            "evidence": [
+              "ev_60082",
+              "ev_60079"
+            ]
+          }
+        ]
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Coherent's optical transceiver demand moves with AI data center spending; equity loss is capped at cost and does not grow with distress.",
+        "collateral": "None. Common stock behind about $4.0B of debt.",
+        "tenor": "Open ended; lock-up ended about September 2026.",
+        "notes": ""
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Optical transceiver prices fall as competitors add capacity",
+            "mechanism": "Coherent's margins and share price fall",
+            "affected": [
+              "ent_nvidia",
+              "ent_coherent"
+            ],
+            "direction": "negative",
+            "text": "If transceiver prices fall, Nvidia loses value on its Coherent shares while the capacity it funded lowers its own optics costs."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Nvidia buys optics from Coherent under its purchase commitment",
+            "mechanism": "Coherent's sales to Nvidia are partly financed by Nvidia's equity",
+            "affected": [
+              "ent_coherent",
+              "ent_nvidia"
+            ],
+            "direction": "mixed",
+            "text": "Coherent's reported growth in sales to Nvidia is partly funded by Nvidia's own equity, which flatters demand signals for optics suppliers.",
+            "lens": "revenue_quality"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "notes": "",
+      "evidence": [
+        "ev_30048",
+        "ev_30049",
+        "ev_50026",
+        "ev_50027",
+        "ev_60075",
+        "ev_60076",
+        "ev_60077",
+        "ev_60078",
+        "ev_60079",
+        "ev_60080",
+        "ev_60081",
+        "ev_60082"
+      ]
+    },
+    {
+      "id": "rel_arm_eq_2023",
+      "from": "ent_nvidia",
+      "to": "ent_arm",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia's former stake in Arm",
+      "insight_template": "Nvidia no longer holds {counterparty} shares, so the former stake carries no exposure and matters only as history.",
+      "definition": "Nvidia held Arm American depositary shares bought in the open market or before Arm's 2023 listing; the cost is not disclosed. Its 13F showed 1,960,784 ADS at 31 December 2023 and 1,101,249 ADS at 30 September 2025. The position is absent from the 31 December 2025 13F, so Nvidia exited during the fourth quarter of 2025.",
+      "status": "terminated",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "No announced amount."
+        },
+        "committed_total": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2023-12-31",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Known only from 13F; no commitment."
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Cost not disclosed."
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2023-12-31",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Plain equity."
+        },
+        "market_value": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Position exited by 2025-12-31. Last reported value $155,815,721 for 1,101,249 ADS at 2025-09-30 (ev_50002)."
+        }
+      },
+      "holding": {
+        "shares": 0,
+        "as_of": "2025-12-31",
+        "ticker": "ARM",
+        "evidence": [
+          "ev_50002",
+          "ev_50001"
+        ],
+        "note": "Absent from the 2025-12-31 13F (analysis from the 13F list). Reduced from 1,960,784 ADS (2023-12-31) to 1,101,249 ADS by 2024-12-31."
+      },
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "filed": "2024-02-14",
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_50001"
+        ]
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "Nvidia's 13F reports the ADS position from 2023-12-31 to 2025-09-30 and not at 2025-12-31.",
+        "counterparty_side": "No disclosure found as of 2026-11-23. Arm's 6-K for the quarter ended 2026-09-30 mentions Nvidia only in export control and past acquisition context.",
+        "nvidia_evidence": [
+          "ev_50001",
+          "ev_50002"
+        ],
+        "counterparty_evidence": [],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "none",
+        "wwr_reason": "Nvidia has no remaining position in Arm, so there is no exposure that could move with Arm's credit or the AI cycle.",
+        "collateral": "None.",
+        "tenor": "Closed.",
+        "notes": "Nvidia still licenses Arm architecture for its CPUs; that is a commercial relationship, not exposure."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Nvidia sold its Arm position in late 2025",
+            "mechanism": "The stake no longer adds to Nvidia's equity exposure",
+            "affected": [
+              "ent_nvidia",
+              "ent_arm"
+            ],
+            "direction": "positive",
+            "text": "Nvidia's exit from Arm removed a small listed stake and has no effect on its Arm architecture license."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Nvidia exits listed stakes in suppliers and partners",
+            "mechanism": "Readers treat Nvidia's small public stakes as tradable rather than strategic",
+            "affected": [
+              "ent_arm",
+              "ent_nvidia"
+            ],
+            "direction": "mixed",
+            "text": "The Arm exit shows Nvidia sells listed partner stakes, which tempers any reading of its newer supplier stakes as permanent support.",
+            "lens": "signaling"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "notes": "Seed C5 modified: long-standing holding confirmed from 13F, but it was exited by 2025-12-31. A CNBC article of 2026-02-18 reports the exit; fetch returned HTTP 403 (needs quote).",
+      "evidence": [
+        "ev_50001",
+        "ev_50002"
+      ]
+    },
+    {
+      "id": "rel_corning_eq_2026",
+      "from": "ent_nvidia",
+      "to": "ent_corning",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia warrants in Corning",
+      "insight_template": "Nvidia paid {funded} for {counterparty} warrants that lapse if the supply partnership ends, so their value depends on that contract surviving.",
+      "definition": "On 6 May 2026 Corning sold Nvidia a warrant for up to 15 million shares at $180.00 and a pre-funded warrant for up to 3 million shares, for $500 million in total, under a securities purchase agreement tied to a long-term partnership. Both are exercisable at once and expire on the third anniversary; the traditional warrant also ends if the partnership agreement terminates. Corning committed to raise US optical connectivity capacity tenfold and build three new plants.",
+      "status": "completed",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 500000000,
+          "as_of": "2026-05-06",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60088"
+          ],
+          "note": "A CNBC headline reports up to $3.2 billion, which equals $500M plus 15 million shares at $180 (analysis); exercise is Nvidia's option, not a commitment."
+        },
+        "committed_total": {
+          "value": 500000000,
+          "as_of": "2026-05-06",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60088"
+          ]
+        },
+        "funded": {
+          "value": 500000000,
+          "as_of": "2026-05-06",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60088",
+            "ev_60097"
+          ]
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-05-06",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Exercising the $180 warrant (up to $2.7B, analysis) is at Nvidia's option, so it is not a contingent obligation."
+        },
+        "market_value": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Warrants are not 13F securities; Nvidia reports public company warrants with $4,800M notional at 2026-07-26 without naming issuers (ev_10026)."
+        }
+      },
+      "holding": {
+        "shares": 18000000,
+        "as_of": "2026-05-06",
+        "ticker": "GLW",
+        "evidence": [
+          "ev_60085",
+          "ev_60087",
+          "ev_60102"
+        ],
+        "note": "Shares issuable under both warrants; no exercise found."
+      },
+      "dates": {
+        "announced": "2026-05-06",
+        "signed": "2026-05-06",
+        "filed": "2026-05-06",
+        "effective": "2026-05-06",
+        "maturity": "2029-05-06",
+        "evidence": [
+          "ev_60088",
+          "ev_60091"
+        ]
+      },
+      "seniority": "warrants",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23 that names Corning warrants; Nvidia's release of 2026-05-06 describes the partnership without an investment amount (R3).",
+        "counterparty_side": "Corning's 8-K (2026-05-06) reports the warrants, exercise prices and the $500 million purchase price; its September 2026 10-Q shows $500M proceeds from warrants and links a warrant to a customer deposit.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_60085",
+          "ev_60086",
+          "ev_60087",
+          "ev_60088",
+          "ev_60089",
+          "ev_60090",
+          "ev_60091",
+          "ev_60092",
+          "ev_60097",
+          "ev_60102"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Corning's optical connectivity growth depends on AI data center buildouts; the loss is capped at the $500M paid and does not grow with distress.",
+        "collateral": "None.",
+        "tenor": "Three years to 2029-05-06, earlier if the partnership agreement terminates.",
+        "notes": "Corning accounted part of the warrant value as consideration payable to a customer (ev_60096)."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "The Corning partnership agreement terminates",
+            "mechanism": "The traditional warrant expires early",
+            "affected": [
+              "ent_nvidia",
+              "ent_corning"
+            ],
+            "direction": "negative",
+            "text": "If the Corning partnership ends, Nvidia's $180 warrant lapses and the value it paid for that option is lost."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Corning records the warrant as consideration payable to a customer",
+            "mechanism": "The warrant value reduces Corning's revenue from that customer as sales occur",
+            "affected": [
+              "ent_corning"
+            ],
+            "direction": "mixed",
+            "text": "Corning treats part of the warrant as a price concession to a customer, so its reported revenue from that supply agreement is lower than gross billings.",
+            "lens": "revenue_quality"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "notes": "",
+      "evidence": [
+        "ev_60085",
+        "ev_60086",
+        "ev_60087",
+        "ev_60088",
+        "ev_60089",
+        "ev_60090",
+        "ev_60091",
+        "ev_60092",
+        "ev_60097",
+        "ev_60102"
+      ]
+    },
+    {
+      "id": "rel_corning_pp_2026",
+      "from": "ent_nvidia",
+      "to": "ent_corning",
+      "type_primary": "PP",
+      "types_secondary": [],
+      "title": "Customer deposit with Corning linked to the Nvidia warrants",
+      "insight_template": "A {committed_total} deposit with {counterparty} is repaid only through product deliveries, so a supply failure leaves the prepaying customer exposed.",
+      "definition": "In the second quarter of 2026 Corning recorded a $1.0 billion customer deposit under a long-term supply agreement running through 31 December 2029, offset by part of a warrant issued to the same customer. Corning's only warrants issued that quarter were those sold to Nvidia on 6 May 2026, so the customer is Nvidia by that link (analysis). Deposits are applied against the customer's receivables as products are delivered.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 1000000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60094"
+          ],
+          "note": "Attribution to Nvidia is analysis: Corning does not name the customer.",
+          "label": "analysis"
+        },
+        "committed_total": {
+          "value": 1000000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60094"
+          ],
+          "note": "Recorded as a contract liability in Q2 2026; whether all cash was received is not stated.",
+          "label": "analysis"
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Cash received not separately stated."
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-09-30",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Supply prepayment."
+        }
+      },
+      "dates": {
+        "announced": null,
+        "signed": "2026-05",
+        "filed": "2026-07-29",
+        "effective": null,
+        "maturity": "2029-12-31",
+        "evidence": [
+          "ev_60095"
+        ]
+      },
+      "seniority": "prepaying_buyer",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. Nvidia's filings no longer break out prepaid supply after October 2025.",
+        "counterparty_side": "Corning's September 2026 10-Q reports a $1.0 billion customer deposit under a supply agreement through 2029-12-31, partly offset by $267 million for a warrant issued to the customer.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_60094",
+          "ev_60095",
+          "ev_60096",
+          "ev_60098",
+          "ev_60099",
+          "ev_60102",
+          "ev_60088"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "The deposit is drawn down as Nvidia's customers buy optical connectivity; if AI demand falls, deliveries slow and the deposit stays outstanding longer, but the amount does not grow.",
+        "collateral": "None found; repaid by applying the deposit against receivables.",
+        "tenor": "Supply agreement to 2029-12-31.",
+        "notes": "Filed for Corning; filed date is the Q2 2026 10-Q."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Corning cannot deliver from its new plants on time",
+            "mechanism": "The deposit is applied more slowly against receivables",
+            "affected": [
+              "ent_nvidia",
+              "ent_corning"
+            ],
+            "direction": "negative",
+            "text": "If Corning's new plants are late, the deposit stays on its balance sheet longer and Nvidia carries an unsecured claim on Corning."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Corning's fiber goes to hyperscalers deploying Nvidia systems",
+            "mechanism": "A Corning shortfall slows data center builds that use Nvidia GPUs",
+            "affected": [
+              "ent_corning",
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "A Corning delivery shortfall would slow hyperscaler builds that need its fiber, delaying Nvidia system shipments as well as the deposit drawdown.",
+            "lens": "contagion"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "notes": "New candidate from R5. Analysis link: ev_60096 (warrant to the customer) plus ev_60102 (warrants issued May 6, 2026) plus ev_60088 (May 6 warrants sold to Nvidia).",
+      "evidence": [
+        "ev_60088",
+        "ev_60094",
+        "ev_60095",
+        "ev_60096",
+        "ev_60098",
+        "ev_60099",
+        "ev_60102"
+      ]
+    },
+    {
+      "id": "rel_amkor_pp_2026",
+      "from": "ent_nvidia",
+      "to": "ent_amkor",
+      "type_primary": "PP",
+      "types_secondary": [],
+      "title": "Nvidia advance payments to Amkor",
+      "insight_template": "Nvidia's agreements with {counterparty} total close to {headline} including prepayments for packaging capacity, repaid only by future packaging work.",
+      "definition": "Nvidia says it supports Amkor's expansion through multiyear agreements announced in July and October 2026, totaling nearly $3 billion and including prepayments. Amkor's 10-Qs report two advance payment agreements with an unnamed customer in the same months, under which it expects about $1.5 billion and $1.3 billion in 2027. Some advances are backed by standby letters of credit issued by Amkor.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 3000000000,
+          "as_of": "2026-11-17",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_30065"
+          ],
+          "note": "Nvidia says nearly $3 billion."
+        },
+        "committed_total": {
+          "value": 2800000000,
+          "as_of": "2026-10-27",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Sum of two advance payment agreements with an unnamed customer; attribution to Nvidia is analysis from matching months.",
+          "label": "analysis",
+          "components": [
+            {
+              "value": 1500000000,
+              "evidence": [
+                "ev_60111"
+              ],
+              "note": "July 2026 agreement, about $1.5B expected in 2027"
+            },
+            {
+              "value": 1300000000,
+              "evidence": [
+                "ev_60105"
+              ],
+              "note": "October 2026 agreement, about $1.3B expected in 2027"
+            }
+          ]
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Advances under both agreements are expected in 2027."
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-11-17",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Supply prepayment."
+        }
+      },
+      "dates": {
+        "announced": "2026-07",
+        "signed": "2026-07",
+        "filed": "2026-07-28",
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_60110",
+          "ev_60104"
+        ]
+      },
+      "seniority": "prepaying_buyer",
+      "reconciliation": {
+        "result": "partial",
+        "nvidia_side": "Nvidia's release (2026-11-17) says multiyear agreements announced in July and October 2026 total nearly $3 billion and include prepayments.",
+        "counterparty_side": "Amkor's June and September 2026 10-Qs report advance payment agreements signed in July 2026 (about $1.5B in 2027) and October 2026 (about $1.3B in 2027) with an unnamed customer, plus $200M of standby letters of credit for advances received.",
+        "nvidia_evidence": [
+          "ev_30065",
+          "ev_30066"
+        ],
+        "counterparty_evidence": [
+          "ev_60110",
+          "ev_60111",
+          "ev_60104",
+          "ev_60105",
+          "ev_60103",
+          "ev_60106",
+          "ev_60112",
+          "ev_60107"
+        ],
+        "differences": [
+          {
+            "field": "amount",
+            "nvidia_value": "nearly $3 billion of agreements including prepayments",
+            "counterparty_value": "about $1.5B plus about $1.3B of advances, customer not named",
+            "evidence": [
+              "ev_30065",
+              "ev_60111",
+              "ev_60105"
+            ]
+          },
+          {
+            "field": "counterparty named",
+            "nvidia_value": "Amkor named",
+            "counterparty_value": "Customer not named in the 10-Qs",
+            "evidence": [
+              "ev_60104",
+              "ev_60110"
+            ]
+          }
+        ]
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "The advances are credited against packaging work for Nvidia; if AI demand falls, Nvidia orders less, credits slow and the exposure lasts longer without growing.",
+        "collateral": "Amkor issues standby letters of credit for some customer advances ($200M outstanding at 2026-09-30); whether any cover Nvidia's advances is not stated.",
+        "tenor": "Advances expected in 2027; repayment period not stated.",
+        "notes": "Amkor IR releases on ir.amkor.com could not be fetched (HTTP 403)."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Amkor's Arizona or Korea capacity is delayed",
+            "mechanism": "Nvidia's prepayments are not worked off on schedule",
+            "affected": [
+              "ent_nvidia",
+              "ent_amkor"
+            ],
+            "direction": "negative",
+            "text": "If Amkor's new packaging lines are late, Nvidia's advances to Amkor sit as unsecured claims and its packaging supply tightens."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Amkor relies on customer advances to fund capex",
+            "mechanism": "Amkor borrowed $1.15B of long-term debt in 2026 alongside the advances",
+            "affected": [
+              "ent_amkor"
+            ],
+            "direction": "mixed",
+            "text": "Amkor funds its expansion with both new debt and Nvidia's advances, so a cut in Nvidia orders would leave Amkor's lenders with more underused capacity.",
+            "lens": "lender_reliance"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "notes": "",
+      "evidence": [
+        "ev_30065",
+        "ev_30066",
+        "ev_60103",
+        "ev_60104",
+        "ev_60105",
+        "ev_60106",
+        "ev_60107",
+        "ev_60110",
+        "ev_60111",
+        "ev_60112"
+      ]
+    },
+    {
+      "id": "rel_kyec_pp_2026",
+      "from": "ent_nvidia",
+      "to": "ent_kyec",
+      "type_primary": "PP",
+      "types_secondary": [],
+      "title": "Nvidia capacity reservation advance to KYEC",
+      "insight_template": "Nvidia is advancing {committed_total} to {counterparty} for test capacity not yet built, so the money is at risk until production starts.",
+      "definition": "Nvidia is providing a capacity reservation advance to King Yuan Electronics to support new US testing facilities. The advance reserves test capacity for Nvidia; high-volume production is targeted for April 2027 according to Nvidia. Terms of repayment or crediting are not stated.",
+      "status": "definitive",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": 1100000000,
+          "as_of": "2026-10-21",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_30062"
+          ]
+        },
+        "committed_total": {
+          "value": 1100000000,
+          "as_of": "2026-10-21",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_30062"
+          ],
+          "note": "Described by Nvidia as its advance; definitive per the release, not confirmed by KYEC."
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Not stated."
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-10-21",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Supply prepayment."
+        }
+      },
+      "dates": {
+        "announced": "2026-10-21",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_30062"
+        ]
+      },
+      "seniority": "prepaying_buyer",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "Nvidia's release (2026-10-21) says its $1.1 billion capacity reservation advance to KYEC will support new US testing facilities.",
+        "counterparty_side": "No disclosure found as of 2026-11-23.",
+        "nvidia_evidence": [
+          "ev_30062"
+        ],
+        "counterparty_evidence": [],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "The advance to KYEC is worked off through purchases for Nvidia; if AI demand falls, purchases slow and the exposure lasts longer without growing.",
+        "collateral": "None stated.",
+        "tenor": "Not stated.",
+        "notes": "KYEC is not an SEC registrant; kyec.com.tw not searched successfully."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "KYEC's US test facilities are delayed",
+            "mechanism": "Nvidia's advance is not worked off and test capacity is short",
+            "affected": [
+              "ent_nvidia",
+              "ent_kyec"
+            ],
+            "direction": "negative",
+            "text": "If KYEC's US test sites slip past their target, Nvidia's advance to KYEC is tied up and its US test capacity falls short."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "KYEC's US sites serve Nvidia's US manufacturing plans",
+            "mechanism": "A KYEC delay holds back other US packaging and test steps",
+            "affected": [
+              "ent_kyec",
+              "ent_amkor"
+            ],
+            "direction": "negative",
+            "text": "A KYEC delay would hold back US-made Nvidia products that also depend on Amkor's Arizona packaging.",
+            "lens": "contagion"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "evidence": [
+        "ev_30062"
+      ],
+      "notes": "KYEC is not an SEC registrant; kyec.com.tw not searched successfully."
+    },
+    {
+      "id": "rel_ibiden_pp_2026",
+      "from": "ent_nvidia",
+      "to": "ent_ibiden",
+      "type_primary": "PP",
+      "types_secondary": [],
+      "title": "Nvidia capacity reservation advance to IBIDEN",
+      "insight_template": "Nvidia funds substrate capacity at {counterparty} with an advance of {committed_total}, so a substrate shortfall would hit both its supply and its money.",
+      "definition": "Nvidia is providing a multibillion-dollar capacity reservation advance to support IBIDEN's Ono Plant, which makes IC package substrates. Nvidia says the agreement was signed and announced earlier in 2026 by IBIDEN. No amount, term or crediting mechanism is stated.",
+      "status": "definitive",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Described only as multibillion-dollar."
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Not stated."
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Not stated."
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-10-21",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Supply prepayment."
+        }
+      },
+      "dates": {
+        "announced": "2026-10-21",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_30063"
+        ]
+      },
+      "seniority": "prepaying_buyer",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "Nvidia's release (2026-10-21) says it is providing a multibillion-dollar capacity reservation advance for IBIDEN's Ono Plant.",
+        "counterparty_side": "No disclosure found as of 2026-11-23.",
+        "nvidia_evidence": [
+          "ev_30063"
+        ],
+        "counterparty_evidence": [],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "The advance to IBIDEN is worked off through purchases for Nvidia; if AI demand falls, purchases slow and the exposure lasts longer without growing.",
+        "collateral": "None stated.",
+        "tenor": "Not stated.",
+        "notes": "IBIDEN's capital investment notice (ibiden.com PDF) was fetched but its text could not be extracted; a search snippet says customers bear investment costs partly as advance payments, without naming Nvidia."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "IBIDEN's Ono Plant ramps slower than planned",
+            "mechanism": "Substrate supply to Nvidia falls short and the advance is worked off slowly",
+            "affected": [
+              "ent_nvidia",
+              "ent_ibiden"
+            ],
+            "direction": "negative",
+            "text": "If IBIDEN's Ono Plant ramps late, Nvidia's substrate supply tightens and its advance to IBIDEN stays outstanding longer."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "IBIDEN substrates are used by packaging partners",
+            "mechanism": "A shortfall at IBIDEN constrains packaging output at Nvidia's assemblers",
+            "affected": [
+              "ent_ibiden",
+              "ent_amkor",
+              "ent_spil"
+            ],
+            "direction": "negative",
+            "text": "A substrate shortfall at IBIDEN would idle packaging lines that Nvidia also prepaid at Amkor and SPIL.",
+            "lens": "contagion"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "evidence": [
+        "ev_30063"
+      ],
+      "notes": "IBIDEN's capital investment notice (ibiden.com PDF) was fetched but its text could not be extracted; a search snippet says customers bear investment costs partly as advance payments, without naming Nvidia."
+    },
+    {
+      "id": "rel_unimicron_pp_2026",
+      "from": "ent_nvidia",
+      "to": "ent_unimicron",
+      "type_primary": "PP",
+      "types_secondary": [],
+      "title": "Nvidia capacity reservation agreement with Unimicron",
+      "insight_template": "Nvidia has reserved substrate capacity at {counterparty} for {committed_total}, so its exposure cannot be sized from public sources.",
+      "definition": "Nvidia supports Unimicron's KF substrate manufacturing expansion in Taiwan with a capacity reservation agreement. The release does not say whether Nvidia pays any advance, or how much.",
+      "status": "definitive",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Not stated."
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Not stated."
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Not stated."
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-10-21",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Supply prepayment."
+        }
+      },
+      "dates": {
+        "announced": "2026-10-21",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_30064"
+        ]
+      },
+      "seniority": "prepaying_buyer",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "Nvidia's release (2026-10-21) says it supports Unimicron's KF substrate expansion with a capacity reservation agreement.",
+        "counterparty_side": "No disclosure found as of 2026-11-23.",
+        "nvidia_evidence": [
+          "ev_30064"
+        ],
+        "counterparty_evidence": [],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "The advance to Unimicron is worked off through purchases for Nvidia; if AI demand falls, purchases slow and the exposure lasts longer without growing.",
+        "collateral": "None stated.",
+        "tenor": "Not stated.",
+        "notes": "No amount and no statement that an advance is paid; recorded as PP because it is a capacity reservation."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Unimicron's KF substrate expansion is delayed",
+            "mechanism": "Reserved substrate volumes arrive late",
+            "affected": [
+              "ent_nvidia",
+              "ent_unimicron"
+            ],
+            "direction": "negative",
+            "text": "If Unimicron's Taiwan expansion slips, Nvidia's reserved substrate supply arrives late, and any advance paid stays outstanding."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Unimicron and IBIDEN are both Nvidia substrate sources",
+            "mechanism": "Delays at one raise reliance on the other",
+            "affected": [
+              "ent_unimicron",
+              "ent_ibiden"
+            ],
+            "direction": "negative",
+            "text": "A Unimicron delay would raise Nvidia's reliance on IBIDEN, concentrating its substrate supply further.",
+            "lens": "contagion"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "evidence": [
+        "ev_30064"
+      ],
+      "notes": "No amount and no statement that an advance is paid; recorded as PP because it is a capacity reservation."
+    },
+    {
+      "id": "rel_spil_pp_2026",
+      "from": "ent_nvidia",
+      "to": "ent_spil",
+      "type_primary": "PP",
+      "types_secondary": [],
+      "title": "Nvidia funding for SPIL packaging capacity",
+      "insight_template": "Nvidia funds dedicated packaging capacity at {counterparty} for {committed_total}, leaving the size of its exposure unknown.",
+      "definition": "Siliconware Precision Industries is increasing advanced packaging capacity dedicated to Nvidia under a multiyear agreement supported by multibillion-dollar funding from Nvidia. The form of funding, whether prepayment, loan or capex support, is not stated.",
+      "status": "definitive",
+      "claim_basis": "company_announced",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Described only as multibillion-dollar."
+        },
+        "committed_total": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Not stated."
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Not stated."
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-11-17",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": [],
+          "note": "Supply prepayment."
+        }
+      },
+      "dates": {
+        "announced": "2026-11-17",
+        "signed": null,
+        "filed": null,
+        "effective": null,
+        "maturity": null,
+        "evidence": [
+          "ev_30067"
+        ]
+      },
+      "seniority": "prepaying_buyer",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "Nvidia's release (2026-11-17) says SPIL's capacity increase is under a multiyear agreement supported by multibillion-dollar funding from Nvidia.",
+        "counterparty_side": "No disclosure found as of 2026-11-23.",
+        "nvidia_evidence": [
+          "ev_30067"
+        ],
+        "counterparty_evidence": [],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "The advance to SPIL is worked off through purchases for Nvidia; if AI demand falls, purchases slow and the exposure lasts longer without growing.",
+        "collateral": "None stated.",
+        "tenor": "Not stated.",
+        "notes": "SPIL is a private subsidiary of ASE Technology Holding; ASE's 20-F (filed 2026-04-01) was searched and no Nvidia funding found."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "SPIL's dedicated capacity is not ready by mid 2029",
+            "mechanism": "Nvidia's funding is not repaid in packaging output",
+            "affected": [
+              "ent_nvidia",
+              "ent_spil"
+            ],
+            "direction": "negative",
+            "text": "If SPIL's dedicated lines are late, Nvidia's funding to SPIL is tied up and its advanced packaging supply tightens."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "SPIL and Amkor are both Nvidia packaging sources funded by Nvidia",
+            "mechanism": "Nvidia's packaging supply rests on suppliers it has funded",
+            "affected": [
+              "ent_spil",
+              "ent_amkor"
+            ],
+            "direction": "mixed",
+            "text": "Nvidia now funds both SPIL and Amkor packaging capacity, so a demand fall would leave it with prepaid capacity at two assemblers at once.",
+            "lens": "contagion"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "evidence": [
+        "ev_30067"
+      ],
+      "notes": "SPIL is a private subsidiary of ASE Technology Holding; ASE's 20-F (filed 2026-04-01) was searched and no Nvidia funding found."
+    }
+  ],
+  "projects": [],
+  "events": [
+    {
+      "id": "evt_intel_spa_signed",
+      "date": "2025-09-15",
+      "relationship": "rel_intel_eq_2025",
+      "kind": "signing",
+      "summary": "Intel and Nvidia signed a securities purchase agreement for 214,776,632 Intel shares at $23.28.",
+      "evidence": [
+        "ev_60001"
+      ]
+    },
+    {
+      "id": "evt_intel_announced",
+      "date": "2025-09-18",
+      "relationship": "rel_intel_eq_2025",
+      "kind": "announcement",
+      "summary": "Intel and Nvidia announced the $5 billion investment and joint x86 and RTX product plans.",
+      "evidence": [
+        "ev_60023",
+        "ev_30033"
+      ]
+    },
+    {
+      "id": "evt_intel_closed",
+      "date": "2025-12-26",
+      "relationship": "rel_intel_eq_2025",
+      "kind": "closing",
+      "summary": "Intel completed the sale of 214,776,632 shares to Nvidia for $5.0 billion.",
+      "evidence": [
+        "ev_60005",
+        "ev_60006"
+      ]
+    },
+    {
+      "id": "evt_intel_reduced",
+      "date": "2026-09-30",
+      "relationship": "rel_intel_eq_2025",
+      "kind": "holding_change",
+      "summary": "Nvidia's 13F showed 161,082,488 Intel shares, down from 214,776,632 a quarter earlier.",
+      "evidence": [
+        "ev_50021"
+      ]
+    },
+    {
+      "id": "evt_nokia_announced",
+      "date": "2025-10-28",
+      "relationship": "rel_nokia_eq_2025",
+      "kind": "announcement",
+      "summary": "Nokia's board resolved to issue 166,389,351 shares to Nvidia at $6.01 per share.",
+      "evidence": [
+        "ev_60036",
+        "ev_30038"
+      ]
+    },
+    {
+      "id": "evt_nokia_closed",
+      "date": "2025-11-13",
+      "relationship": "rel_nokia_eq_2025",
+      "kind": "closing",
+      "summary": "Nokia completed the directed share issue to Nvidia.",
+      "evidence": [
+        "ev_60041"
+      ]
+    },
+    {
+      "id": "evt_nokia_reduced",
+      "date": "2026-09-30",
+      "relationship": "rel_nokia_eq_2025",
+      "kind": "holding_change",
+      "summary": "Nvidia's 13F showed 72,859,751 Nokia ADS, down from 166,389,351.",
+      "evidence": [
+        "ev_50025"
+      ]
+    },
+    {
+      "id": "evt_synopsys_closed",
+      "date": "2025-12-01",
+      "relationship": "rel_synopsys_eq_2025",
+      "kind": "closing",
+      "summary": "Nvidia bought 4,821,717 Synopsys shares at $414.79 for $2 billion.",
+      "evidence": [
+        "ev_60042",
+        "ev_60045"
+      ]
+    },
+    {
+      "id": "evt_synopsys_reduced",
+      "date": "2026-09-30",
+      "relationship": "rel_synopsys_eq_2025",
+      "kind": "holding_change",
+      "summary": "Nvidia's 13F showed 4,354,077 Synopsys shares, down from 4,821,717.",
+      "evidence": [
+        "ev_50023"
+      ]
+    },
+    {
+      "id": "evt_marvell_closed",
+      "date": "2026-03-31",
+      "relationship": "rel_marvell_eq_2026",
+      "kind": "closing",
+      "summary": "Marvell sold Nvidia 2,000,000 Series A convertible preferred shares for $2.0 billion.",
+      "evidence": [
+        "ev_60051",
+        "ev_60052"
+      ]
+    },
+    {
+      "id": "evt_lumentum_closed",
+      "date": "2026-03-02",
+      "relationship": "rel_lumentum_eq_2026",
+      "kind": "closing",
+      "summary": "Lumentum sold Nvidia 2,876,415 Series A convertible preferred shares for $2.0 billion.",
+      "evidence": [
+        "ev_60064",
+        "ev_60066"
+      ]
+    },
+    {
+      "id": "evt_coherent_closed",
+      "date": "2026-03-02",
+      "relationship": "rel_coherent_eq_2026",
+      "kind": "closing",
+      "summary": "Coherent sold Nvidia 7,788,161 common shares at $256.80 for $2 billion.",
+      "evidence": [
+        "ev_60075",
+        "ev_60077"
+      ]
+    },
+    {
+      "id": "evt_arm_first_13f",
+      "date": "2023-12-31",
+      "relationship": "rel_arm_eq_2023",
+      "kind": "holding_change",
+      "summary": "Nvidia's first 13F listed 1,960,784 Arm ADS.",
+      "evidence": [
+        "ev_50001"
+      ]
+    },
+    {
+      "id": "evt_arm_last_13f",
+      "date": "2025-09-30",
+      "relationship": "rel_arm_eq_2023",
+      "kind": "holding_change",
+      "summary": "Nvidia's 13F listed 1,101,249 Arm ADS for the last time before its exit.",
+      "evidence": [
+        "ev_50002"
+      ]
+    },
+    {
+      "id": "evt_corning_warrants",
+      "date": "2026-05-06",
+      "relationship": "rel_corning_eq_2026",
+      "kind": "closing",
+      "summary": "Corning sold Nvidia warrants for up to 18 million shares for $500 million.",
+      "evidence": [
+        "ev_60088",
+        "ev_60085"
+      ]
+    },
+    {
+      "id": "evt_corning_deposit",
+      "date": "2026-07-29",
+      "relationship": "rel_corning_pp_2026",
+      "kind": "filing",
+      "summary": "Corning reported a $1.0 billion customer deposit under a supply agreement to 2029, linked to a customer warrant.",
+      "evidence": [
+        "ev_60094"
+      ]
+    },
+    {
+      "id": "evt_amkor_july",
+      "date": "2026-07-28",
+      "relationship": "rel_amkor_pp_2026",
+      "kind": "filing",
+      "summary": "Amkor reported a July 2026 advance payment agreement for about $1.5 billion in 2027.",
+      "evidence": [
+        "ev_60111"
+      ]
+    },
+    {
+      "id": "evt_amkor_october",
+      "date": "2026-10-27",
+      "relationship": "rel_amkor_pp_2026",
+      "kind": "filing",
+      "summary": "Amkor reported an October 2026 advance payment agreement for about $1.3 billion in 2027.",
+      "evidence": [
+        "ev_60105"
+      ]
+    },
+    {
+      "id": "evt_amkor_nvidia_release",
+      "date": "2026-11-17",
+      "relationship": "rel_amkor_pp_2026",
+      "kind": "announcement",
+      "summary": "Nvidia said its Amkor agreements total nearly $3 billion and include prepayments.",
+      "evidence": [
+        "ev_30065"
+      ]
+    },
+    {
+      "id": "evt_kyec_announced",
+      "date": "2026-10-21",
+      "relationship": "rel_kyec_pp_2026",
+      "kind": "announcement",
+      "summary": "Nvidia announced a $1.1 billion capacity reservation advance to KYEC.",
+      "evidence": [
+        "ev_30062"
+      ]
+    },
+    {
+      "id": "evt_ibiden_announced",
+      "date": "2026-10-21",
+      "relationship": "rel_ibiden_pp_2026",
+      "kind": "announcement",
+      "summary": "Nvidia described a multibillion-dollar capacity reservation advance to IBIDEN.",
+      "evidence": [
+        "ev_30063"
+      ]
+    },
+    {
+      "id": "evt_unimicron_announced",
+      "date": "2026-10-21",
+      "relationship": "rel_unimicron_pp_2026",
+      "kind": "announcement",
+      "summary": "Nvidia described a capacity reservation agreement with Unimicron.",
+      "evidence": [
+        "ev_30064"
+      ]
+    },
+    {
+      "id": "evt_spil_announced",
+      "date": "2026-11-17",
+      "relationship": "rel_spil_pp_2026",
+      "kind": "announcement",
+      "summary": "Nvidia described multibillion-dollar funding for SPIL capacity.",
+      "evidence": [
+        "ev_30067"
+      ]
+    }
+  ]
+}

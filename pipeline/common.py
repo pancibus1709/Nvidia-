@@ -167,9 +167,15 @@ _NUM = re.compile(r"(?<![\w.])\(?\$?\s?(\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+
 _TABLE_SCALE = re.compile(r"(?:in\s+(?:USD\s+|US\$\s*|\$\s*|U\.S\. dollars in\s+)?|\$\s*|USD\s+|US\$\s*)(thousands|millions|billions)", re.I)
 
 
+_COMPACT = re.compile(r"[$\u00a3\u20ac\u00a5]\s?(\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?)\s?(bn|mn|tn|[MBKTmbkt])(?![A-Za-z])")
+_COMPACT_SCALE = {"k": 1e3, "m": 1e6, "mn": 1e6, "b": 1e9, "bn": 1e9, "t": 1e12, "tn": 1e12}
+
+
 def numbers_in(text: str) -> list[tuple[float, float | None]]:
-    """Every number in text as (raw value, explicit scale or None)."""
+    """Every number in text as (raw value, explicit scale or None). Handles "$6.3 billion", "$480M", "A$330m"."""
     out = []
+    for m in _COMPACT.finditer(text):
+        out.append((float(m.group(1).replace(",", "")), _COMPACT_SCALE[m.group(2).lower()]))
     for m in _NUM.finditer(text):
         raw = float(m.group(1).replace(",", ""))
         word = (m.group(2) or "").lower()
