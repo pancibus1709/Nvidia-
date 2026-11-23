@@ -560,7 +560,7 @@
     "date": "2026-01-06",
     "relationship": "rel_spacex_eq_2026",
     "kind": "closing",
-    "summary": "xAI closes its $20B Series E with Nvidia as a strategic investor.",
+    "summary": "xAI closes its $20 billion Series E with Nvidia as a strategic investor.",
     "evidence": [
       "ev_120096",
       "ev_120097"
@@ -691,7 +691,7 @@
     "date": "2026-02-27",
     "relationship": "rel_openai_eq_2026",
     "kind": "signing",
-    "summary": "OpenAI announces new investment including $30B from Nvidia under a Series C purchase agreement dated the same day.",
+    "summary": "OpenAI announces new investment including $30 billion from Nvidia under a Series C purchase agreement dated the same day.",
     "evidence": [
       "ev_120098",
       "ev_120032"

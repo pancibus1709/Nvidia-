@@ -165,7 +165,9 @@
             "display_eligible": false,
             "lower_bound": false,
             "evidence": []
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 0
         }
       ]
     },
@@ -213,7 +215,9 @@
             "display_eligible": false,
             "lower_bound": false,
             "evidence": []
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 0
         }
       ]
     },
@@ -463,7 +467,9 @@
             "display_eligible": false,
             "lower_bound": false,
             "evidence": []
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 0
         }
       ]
     },
@@ -541,7 +547,9 @@
             "evidence": [
               "ev_90065"
             ]
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 0
         }
       ]
     },
@@ -1228,7 +1236,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia equity investment in Safe Superintelligence",
-      "insight_template": "Nvidia calls its {counterparty} investment substantial and pairs it with Vera Rubin access, but states no amount, so the stake cannot be sized.",
+      "insight_template": "Nvidia calls its {counterparty} investment substantial and pairs it with Vera Rubin access; no amount is stated.",
       "definition": "On 27 July 2026 Nvidia and SSI announced a long term partnership and Nvidia said it had made an investment in SSI. The release pairs the investment with access to Nvidia's Vera Rubin platform to raise SSI's compute by an order of magnitude. No amount, price or share class is stated.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -1338,7 +1346,8 @@
             "direction": "mixed",
             "text": "Nvidia pairs its SSI investment with Vera Rubin access to raise SSI's compute, so part of the money may return to Nvidia as revenue (analysis).",
             "evidence": [
-              "ev_30060"
+              "ev_30060",
+              "ev_220006"
             ]
           }
         ],
@@ -1366,7 +1375,8 @@
       "version": 1,
       "evidence": [
         "ev_30059",
-        "ev_30060"
+        "ev_30060",
+        "ev_220006"
       ],
       "notes": "Bloomberg (2026-07-27) reported, citing people familiar, that Nvidia committed $5 billion; single tier 2 source, not cached (HTTP 403): needs quote, not displayed. An April 2025 SSI round with reported Nvidia participation (CNBC, 2025-09-26) is also unquoted."
     },
@@ -1701,7 +1711,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia equity in Cohere (repeat participation, 2025 and Series E 2026)",
-      "insight_template": "Nvidia has joined repeated {counterparty} rounds, the latest led by Schwarz Group, without stating an amount, so the stake cannot be sized.",
+      "insight_template": "Nvidia has joined repeated {counterparty} rounds without stating an amount, the latest led by Schwarz Group alongside the Government of Canada.",
       "definition": "Nvidia is an existing Cohere investor. It took part in Cohere's $500 million round at a $6.8 billion valuation in August 2025 and is named among participants in the initial close of the Series E announced on 29 October 2026, which targets up to CAD 7 billion and is led by Schwarz Group. Nvidia's amounts are not disclosed.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -1796,7 +1806,7 @@
               "ent_cohere"
             ],
             "direction": "negative",
-            "text": "If Cohere's Series E falls short of its target of up to CAD 7 billion, the value of Nvidia's repeated Cohere investments falls (analysis).",
+            "text": "If Cohere's Series E falls short of its target of up to C$7 billion, the value of Nvidia's repeated Cohere investments falls (analysis).",
             "evidence": [
               "ev_90034",
               "ev_90035"
@@ -1805,15 +1815,16 @@
         ],
         "second_order": [
           {
-            "trigger": "Schwarz Group and Canada fund Cohere alongside Nvidia",
-            "mechanism": "Public and strategic money stands next to Nvidia's",
+            "trigger": "Cohere's Series E reaches its final close",
+            "mechanism": "The final round price revalues the earlier Cohere stakes",
             "affected": [
               "ent_cohere"
             ],
-            "direction": "mixed",
-            "text": "The Government of Canada and Schwarz Group invest in Cohere alongside Nvidia, so a Cohere setback would hit public and corporate investors at once.",
-            "lens": "contagion",
+            "direction": "negative",
+            "text": "Cohere's Series E is still open with a target of up to C$7 billion, so the price of its final close, not Nvidia's earlier entry, will set the value of Nvidia's Cohere stake (analysis).",
+            "lens": "signaling",
             "evidence": [
+              "ev_90034",
               "ev_90035"
             ]
           }
@@ -1875,7 +1886,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia equity in Sakana AI (Series A participation)",
-      "insight_template": "{counterparty} names Nvidia among its Series A investors without an amount, so the stake cannot be sized.",
+      "insight_template": "{counterparty} names Nvidia among its Series A investors without an amount, beside Translink Capital.",
       "definition": "Sakana AI's Series A of about $200 million, announced on 4 September 2024, was led by NEA, Khosla Ventures and Lux Capital with participation from NVIDIA. Sakana's corporate page still lists NVIDIA as an investor. Nvidia's amount is not disclosed.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -1962,14 +1973,14 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Sakana AI raises again or its value changes",
-            "mechanism": "Sakana AI names NVIDIA among Series A participants but gives no amount",
+            "trigger": "Sakana AI's value falls",
+            "mechanism": "Write-down of an unsized private stake",
             "affected": [
               "ent_nvidia",
               "ent_sakana"
             ],
             "direction": "negative",
-            "text": "Sakana AI names Nvidia beside Translink Capital and 500 Global in its Series A without amounts, so Nvidia's share of the round is unknown.",
+            "text": "Sakana AI discloses no Nvidia amount, terms or commercial tie for its Series A, so no consequence can be drawn beyond a write-down of an unsized stake if Sakana AI's value falls.",
             "evidence": [
               "ev_90044"
             ]
@@ -2103,7 +2114,8 @@
             "direction": "negative",
             "text": "Point2 builds radio frequency interconnects for AI factories, and Nvidia has not said what it paid, so if Point2's product is not adopted the loss cannot be sized.",
             "evidence": [
-              "ev_30069"
+              "ev_30069",
+              "ev_220001"
             ]
           }
         ],
@@ -2118,7 +2130,8 @@
             "text": "Nvidia announced the Point2 investment without any supply agreement, so whether Point2 also sells to Nvidia, and depends on it, is not known.",
             "lens": "revenue_quality",
             "evidence": [
-              "ev_30069"
+              "ev_30069",
+              "ev_220001"
             ]
           }
         ]
@@ -2129,7 +2142,8 @@
       "significance": {},
       "version": 1,
       "evidence": [
-        "ev_30069"
+        "ev_30069",
+        "ev_220001"
       ],
       "notes": "Long tail record from Nvidia's own blog. Classified as a private startup, not a listed networking company."
     },
@@ -2767,7 +2781,14 @@
         "ev_90072",
         "ev_180001"
       ],
-      "notes": "Status kept definitive after the R9 review: NAVER states it 'signed a strategic investment agreement worth $1 billion with NVIDIA' on 24 July 2026 (ev_180001), and on 27 October 2026 that the precondition was met and it plans to promptly complete a paid-in capital increase through a third-party allotment to NVIDIA (ev_90068). No board resolution or closing has been found as of 2026-11-23, so funded stays unknown until closing. Previously listed by R3 as loi_or_framework (c_r3_015)."
+      "notes": "Status kept definitive after the R9 review: NAVER states it 'signed a strategic investment agreement worth $1 billion with NVIDIA' on 24 July 2026 (ev_180001), and on 27 October 2026 that the precondition was met and it plans to promptly complete a paid-in capital increase through a third-party allotment to NVIDIA (ev_90068). No board resolution or closing has been found as of 2026-11-23, so funded stays unknown until closing. Previously listed by R3 as loi_or_framework (c_r3_015).",
+      "holding": {
+        "shares": null,
+        "as_of": null,
+        "ticker": null,
+        "evidence": [],
+        "instrument": "common"
+      }
     },
     {
       "id": "rel_uk_ai_startup_program_eqc_2025",
@@ -3018,7 +3039,8 @@
             "direction": "negative",
             "text": "If Figure cannot fund its $3.5 billion compute commitment, Nvidia's Figure stake and expected Vera Rubin demand fall together.",
             "evidence": [
-              "ev_90065"
+              "ev_90065",
+              "ev_220002"
             ]
           },
           {
@@ -3110,7 +3132,8 @@
         "ev_90042",
         "ev_90043",
         "ev_90065",
-        "ev_90066"
+        "ev_90066",
+        "ev_220002"
       ],
       "notes": "Nvidia's participation in Figure's February 2024 Series B is reported but not quoted from an allowed source on file.",
       "measure_inputs": {
@@ -3480,7 +3503,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "NVentures equity in Skild AI (Series C)",
-      "insight_template": "Nvidia's venture arm joined {counterparty}'s Series C led by SoftBank for an undisclosed amount, so the stake cannot be sized.",
+      "insight_template": "Nvidia's venture arm joined {counterparty}'s Series C led by SoftBank; no amount is stated.",
       "definition": "Skild AI announced on 14 January 2026 that it raised $1.4 billion in a Series C led by SoftBank with participation from NVentures, valuing it at over $14 billion. NVentures' amount is not disclosed.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -3567,14 +3590,14 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Skild AI raises at a lower valuation than its Series C",
-            "mechanism": "NVentures joined a Series C led by SoftBank with no disclosed amount",
+            "trigger": "Skild AI raises its next round at a lower price",
+            "mechanism": "Nvidia's private stake is revalued to the new round price",
             "affected": [
               "ent_nvidia",
               "ent_skild_ai"
             ],
             "direction": "negative",
-            "text": "NVentures joined the Skild AI Series C led by SoftBank, beside Macquarie Capital, and Skild AI states no Nvidia amount.",
+            "text": "If Skild AI's next round prices below its SoftBank-led Series C, Nvidia's stake from that round is marked down, and Skild AI discloses no Nvidia amount to size the loss (analysis).",
             "evidence": [
               "ev_90061",
               "ev_90062"
@@ -3734,17 +3757,17 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Black Forest Labs loses value",
-            "mechanism": "Nvidia is one of several existing investors in a small Series B, amount not stated",
+            "trigger": "Black Forest Labs raises below its Series B valuation",
+            "mechanism": "Nvidia's private stake is revalued to the new round price",
             "affected": [
               "ent_nvidia",
               "ent_black_forest_labs"
             ],
             "direction": "negative",
-            "text": "Nvidia joined a16z, Northzone and Creandum as existing investors in the $300M Black Forest Labs Series B, and no Nvidia amount is stated.",
+            "text": "If Black Forest Labs' next round prices below the $3.25 billion post-money valuation of its Series B, Nvidia's stake as an existing investor is marked down by an amount neither side discloses (analysis).",
             "evidence": [
-              "ev_90063",
-              "ev_90064"
+              "ev_90064",
+              "ev_90063"
             ]
           }
         ],
@@ -3782,7 +3805,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia equity in Scale AI (Series F participation)",
-      "insight_template": "Nvidia joined {counterparty}'s Series F, led by Accel, with nearly all existing investors; its amount is undisclosed, so the stake cannot be sized.",
+      "insight_template": "Nvidia joined {counterparty}'s Series F, led by Accel, with nearly all existing investors; no amount is stated.",
       "definition": "Scale AI said on 21 May 2024 that it closed a $1 billion financing at a $13.8 billion valuation, a mix of primary and secondary, led by Accel, with nearly all existing investors including NVIDIA participating. Nvidia's amount is not stated.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -3869,14 +3892,14 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Scale AI loses value",
-            "mechanism": "Scale AI lists NVIDIA among existing Series F investors, amount not stated",
+            "trigger": "Scale AI's value falls",
+            "mechanism": "Write-down of an unsized private stake",
             "affected": [
               "ent_nvidia",
               "ent_scale_ai"
             ],
             "direction": "negative",
-            "text": "Scale AI lists Nvidia beside Thrive Capital, Spark Capital and Tiger Global in its Series F without amounts, so Nvidia's share of the round is unknown.",
+            "text": "Scale AI discloses no Nvidia amount, terms or commercial tie for its Series F, so no consequence can be drawn beyond a write-down of an unsized stake if Scale AI's value falls.",
             "evidence": [
               "ev_90047"
             ]
@@ -3884,14 +3907,14 @@
         ],
         "second_order": [
           {
-            "trigger": "Scale AI loses value",
-            "mechanism": "Loss shared across the Scale AI syndicate led by Accel",
+            "trigger": "Nvidia exits or holds its Scale AI stake",
+            "mechanism": "Other investors read little from Nvidia's moves because it joined with the whole syndicate",
             "affected": [
               "ent_scale_ai"
             ],
-            "direction": "mixed",
-            "text": "Scale AI says nearly all its existing investors, Nvidia among them, joined a financing led by Accel, so a Scale AI setback would fall on a wide syndicate, not on Nvidia alone.",
-            "lens": "contagion",
+            "direction": "negative",
+            "text": "Nearly all existing Scale AI investors, Nvidia among them, joined the Accel-led round, so Nvidia's participation carried no separate signal and a later Nvidia exit from Scale AI would say little on its own (analysis).",
+            "lens": "signaling",
             "evidence": [
               "ev_90047"
             ]
@@ -4140,14 +4163,14 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "Databricks prices below its Series I valuation",
-            "mechanism": "Nvidia's Series I stake has no disclosed size and sits inside an aggregate",
+            "trigger": "Databricks' value falls",
+            "mechanism": "Write-down of an unsized private stake",
             "affected": [
               "ent_nvidia",
               "ent_databricks"
             ],
             "direction": "negative",
-            "text": "Nvidia joined the Databricks Series I beside Ghisallo Capital and Ontario Teachers' Pension Plan, and Databricks states no Nvidia amount for a round of over $500 million.",
+            "text": "Databricks discloses no Nvidia amount, terms or commercial tie for its Series I, so no consequence can be drawn beyond a write-down of an unsized stake if Databricks' value falls.",
             "evidence": [
               "ev_90050",
               "ev_90051"
@@ -4208,7 +4231,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "NVentures equity in Commonwealth Fusion Systems (Series B2)",
-      "insight_template": "Nvidia's venture arm is among many backers of a {counterparty} fusion power round, with no amount stated, so its stake cannot be sized.",
+      "insight_template": "Nvidia's venture arm joined a {counterparty} fusion power round of many backers; no amount is stated.",
       "definition": "Commonwealth Fusion Systems announced on 28 August 2025 an $863 million Series B2; NVentures, Nvidia's venture capital arm, is among the investors. NVentures' amount is not stated.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -4295,17 +4318,17 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "CFS loses value",
-            "mechanism": "NVentures is one of many CFS Series B2 investors, amount not stated",
+            "trigger": "CFS raises its next round at a lower price",
+            "mechanism": "NVentures' stake is revalued to the new round price",
             "affected": [
               "ent_nvidia",
               "ent_commonwealth_fusion"
             ],
             "direction": "negative",
-            "text": "NVentures sits beside investors such as Neva SGR of Intesa Sanpaolo in the $863 million CFS Series B2, and CFS states no Nvidia amount.",
+            "text": "If CFS raises its next round below the price of its $863 million Series B2, NVentures' stake from that round is marked down by an amount CFS does not disclose (analysis).",
             "evidence": [
-              "ev_90052",
-              "ev_90053"
+              "ev_90053",
+              "ev_90052"
             ]
           }
         ],
@@ -4450,17 +4473,18 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "PsiQuantum prices below its Series E",
-            "mechanism": "NVentures entered PsiQuantum as a new Series E investor with no amount stated",
+            "trigger": "PsiQuantum's quantum computer program falls behind",
+            "mechanism": "NVentures' Series E stake loses value",
             "affected": [
               "ent_nvidia",
               "ent_psiquantum"
             ],
             "direction": "negative",
-            "text": "NVentures entered PsiQuantum's $1 billion Series E beside Ribbit Capital and Adage Capital Management, and PsiQuantum states no Nvidia amount.",
+            "text": "If PsiQuantum's plan to build fault-tolerant quantum computers falls behind, NVentures' Series E stake loses value, and PsiQuantum states no Nvidia amount to size the loss (analysis).",
             "evidence": [
               "ev_90054",
-              "ev_90060"
+              "ev_90060",
+              "ev_220004"
             ]
           }
         ],
@@ -4475,7 +4499,8 @@
             "text": "PsiQuantum says it is collaborating with Nvidia on areas including GPU and quantum processor integration, so part of its roadmap depends on its investor.",
             "lens": "signaling",
             "evidence": [
-              "ev_200008"
+              "ev_200008",
+              "ev_220004"
             ]
           }
         ]
@@ -4488,7 +4513,8 @@
       "evidence": [
         "ev_90054",
         "ev_90060",
-        "ev_200008"
+        "ev_200008",
+        "ev_220004"
       ],
       "notes": "",
       "measure_inputs": {
@@ -4621,16 +4647,17 @@
         ],
         "second_order": [
           {
-            "trigger": "Quantinuum loses value",
-            "mechanism": "Quantinuum co-investors share the loss",
+            "trigger": "Quantinuum's listing and later trading",
+            "mechanism": "Nvidia's name as a backer supported the pre-listing raise; a quiet exit would remove it unseen",
             "affected": [
               "ent_quantinuum"
             ],
-            "direction": "positive",
-            "text": "Quanta Computer and QED Investors joined the same Quantinuum round as NVentures, so a Quantinuum setback falls on them as well as on Nvidia.",
-            "lens": "contagion",
+            "direction": "negative",
+            "text": "Honeywell named NVentures as a new Quantinuum investor beside Quanta Computer and QED Investors, so Nvidia's name supported the pre-listing raise, while no source says whether Nvidia kept the stake after Quantinuum listed (analysis).",
+            "lens": "signaling",
             "evidence": [
-              "ev_90055"
+              "ev_90055",
+              "ev_50031"
             ]
           }
         ]
@@ -4760,14 +4787,14 @@
       "consequences": {
         "first_order": [
           {
-            "trigger": "TerraPower loses value",
-            "mechanism": "NVentures is one of several investors in TerraPower's fundraise, amount not stated",
+            "trigger": "TerraPower's value falls",
+            "mechanism": "Write-down of an unsized NVentures stake",
             "affected": [
               "ent_nvidia",
               "ent_terrapower"
             ],
             "direction": "negative",
-            "text": "NVentures took part in TerraPower's $650 million fundraise and TerraPower states no Nvidia amount, so Nvidia's share of the round is unknown.",
+            "text": "TerraPower discloses no Nvidia amount, terms or commercial tie for its $650 million fundraise, so no consequence can be drawn beyond a write-down of an unsized stake if TerraPower's value falls.",
             "evidence": [
               "ev_90057",
               "ev_90058"
@@ -4776,16 +4803,17 @@
         ],
         "second_order": [
           {
-            "trigger": "TerraPower's reactor programme slips",
-            "mechanism": "TerraPower losses fall on founder, industrial and venture backers together",
+            "trigger": "TerraPower suffers a setback",
+            "mechanism": "Loss is confined to the stake; no commercial tie is disclosed",
             "affected": [
               "ent_terrapower"
             ],
             "direction": "negative",
-            "text": "TerraPower's backers include its founder Bill Gates and HD Hyundai beside NVentures, so a TerraPower setback would fall on an industrial partner as well as on Nvidia.",
+            "text": "TerraPower discloses no supply or power agreement with Nvidia beside the NVentures stake, so a setback at the nuclear company would reach Nvidia only through the stake, not through its sales (analysis).",
             "lens": "contagion",
             "evidence": [
-              "ev_90057"
+              "ev_90057",
+              "ev_220007"
             ]
           }
         ]
@@ -4797,7 +4825,8 @@
       "version": 1,
       "evidence": [
         "ev_90057",
-        "ev_90058"
+        "ev_90058",
+        "ev_220007"
       ],
       "notes": "",
       "measure_inputs": {
@@ -4876,7 +4905,17 @@
           "evidence": [
             "ev_90017"
           ],
-          "note": "Gross proceeds, approximately $50 million; historical cost of a position since exited."
+          "note": "Gross proceeds, approximately $50 million; historical cost of a position since exited.",
+          "components": [
+            {
+              "value": 50000000,
+              "evidence": [
+                "ev_90017"
+              ],
+              "note": "Shares sold to Nvidia on 2023-07-11 (8-K, ev_90017).",
+              "paid_on": "2023-07-11"
+            }
+          ]
         },
         "contingent_max": {
           "value": 0,
@@ -4990,7 +5029,8 @@
         "ticker": "RXRX",
         "evidence": [
           "ev_50004"
-        ]
+        ],
+        "instrument": "common"
       }
     },
     {
@@ -5135,7 +5175,8 @@
         "ticker": "SOUN",
         "evidence": [
           "ev_50006"
-        ]
+        ],
+        "instrument": "common"
       }
     },
     {
@@ -5281,7 +5322,8 @@
         "ticker": null,
         "evidence": [
           "ev_50007"
-        ]
+        ],
+        "instrument": "common"
       }
     },
     {
@@ -5426,7 +5468,8 @@
         "ticker": "NNOX",
         "evidence": [
           "ev_50009"
-        ]
+        ],
+        "instrument": "common"
       }
     },
     {
@@ -5484,7 +5527,17 @@
           "evidence": [
             "ev_90021"
           ],
-          "note": "'over $12 million' since 2022; historical cost of a position since exited."
+          "note": "'over $12 million' since 2022; historical cost of a position since exited.",
+          "components": [
+            {
+              "value": 12000000,
+              "evidence": [
+                "ev_90021"
+              ],
+              "note": "Over $12 million invested since 2022 in more than one payment; no payment dates stated (ev_90021).",
+              "paid_on": null
+            }
+          ]
         },
         "contingent_max": {
           "value": 0,
@@ -5601,7 +5654,8 @@
         "ticker": "SERV",
         "evidence": [
           "ev_50011"
-        ]
+        ],
+        "instrument": "common"
       }
     },
     {
@@ -5727,7 +5781,7 @@
             "lens": "revenue_quality",
             "evidence": [
               "ev_90025",
-              "ev_90016"
+              "ev_220005"
             ]
           }
         ]
@@ -5741,7 +5795,8 @@
         "ev_50016",
         "ev_50017",
         "ev_90016",
-        "ev_90025"
+        "ev_90025",
+        "ev_220005"
       ],
       "notes": "Exited: absent from the 13F-HR for the quarter ended 2025-12-31 (filed 2026-02-17). ",
       "holding": {
@@ -5750,7 +5805,8 @@
         "ticker": "WRD",
         "evidence": [
           "ev_50017"
-        ]
+        ],
+        "instrument": "common"
       }
     },
     {
@@ -5910,7 +5966,8 @@
         "ticker": "GENB",
         "evidence": [
           "ev_50029"
-        ]
+        ],
+        "instrument": "common"
       }
     }
   ],

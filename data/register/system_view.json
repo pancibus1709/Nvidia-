@@ -45,6 +45,22 @@
       "note": "Named column is the cost of the few private stakes whose cost a source states."
     },
     {
+      "line": "Warrants and convertible preferred (Level 2)",
+      "nvidia": 10516000000,
+      "named": 6500000000,
+      "aggregate": "publicly_held_equity_securities",
+      "named_text": null,
+      "note": "Marvell and Lumentum convertible preferred ($2 billion each), the Nebius pre-funded warrant ($2 billion) and the Corning warrants ($500 million), at cost, not fair value. IREN's investment rights carry no value. Named column is cost, not fair value."
+    },
+    {
+      "line": "Listed shares (Level 1)",
+      "nvidia": 38372000000,
+      "named": null,
+      "aggregate": "publicly_held_equity_securities",
+      "named_text": "not comparable",
+      "note": "Not comparable. Nvidia's holdings report of 30 September 2026 shows $48.3 billion of named common stock, $10 billion more than Level 1 at 25 October 2026; the dates differ and Nvidia does not say in which level the SpaceX shares sit."
+    },
+    {
       "line": "Guarantees, maximum",
       "nvidia": 118000000000.0,
       "named": 105860340000.0,
@@ -89,64 +105,64 @@
     {
       "line": "Equity purchases, nine months to 25 October 2026",
       "nvidia": 58100000000.0,
-      "named": 0.0,
+      "named": 10482399382.46,
       "aggregate": null,
-      "note": "Named column is equity cost in this register with a sourced payment date inside the period, 0% of Nvidia's figure; a further $31.3 billion of funded cost in the register has no sourced payment date. The rest of Nvidia's purchases are not attributed."
+      "note": "Named column is equity cost in this register with a sourced payment date inside the period, 18% of Nvidia's figure; a further $312 million of funded cost in the register has no sourced payment date. The rest of Nvidia's purchases are not attributed."
     }
   ],
   "positions_by_value": [
     {
       "relationship": "rel_spacex_eq_2026",
-      "name": "SpaceX",
+      "name": "SpaceX (common)",
       "value": 19683145466.0,
       "as_of": "2026-09-30",
       "cost_known": false
     },
     {
       "relationship": "rel_intel_eq_2025",
-      "name": "Intel",
+      "name": "Intel (common)",
       "value": 19366947532.0,
       "as_of": "2026-09-30",
       "cost_known": true
     },
     {
       "relationship": "rel_coreweave_eq_2025",
-      "name": "CoreWeave",
+      "name": "CoreWeave (common)",
       "value": 4113227313.0,
       "as_of": "2026-09-30",
       "cost_known": true
     },
     {
       "relationship": "rel_coherent_eq_2026",
-      "name": "Coherent",
+      "name": "Coherent (common)",
       "value": 2241510617.0,
       "as_of": "2026-09-30",
       "cost_known": true
     },
     {
       "relationship": "rel_synopsys_eq_2025",
-      "name": "Synopsys",
+      "name": "Synopsys (common)",
       "value": 1893762250.0,
       "as_of": "2026-09-30",
       "cost_known": true
     },
     {
       "relationship": "rel_nokia_eq_2025",
-      "name": "Nokia",
+      "name": "Nokia (common)",
       "value": 738797875.0,
       "as_of": "2026-09-30",
       "cost_known": true
     },
     {
       "relationship": "rel_nebius_eq_2024",
-      "name": "Nebius",
+      "name": "Nebius (common)",
       "value": 280809479.0,
       "as_of": "2026-09-30",
       "cost_known": false
     },
     {
       "relationship": "rel_generate_biomedicines_eq_2026",
-      "name": "Generate Biomedicines",
+      "name": "Generate Biomedicines (common)",
       "value": 12516542.0,
       "as_of": "2026-09-30",
       "cost_known": false
@@ -155,44 +171,44 @@
   "positions_not_yet_valued": [
     {
       "relationship": "rel_anthropic_eq_2026",
-      "name": "Anthropic",
+      "name": "Anthropic (common)",
       "cost": 10000000000.0,
       "reason": "bought after 30 September 2026"
     },
     {
       "relationship": "rel_nebius_eq_2026",
-      "name": "Nebius",
+      "name": "Nebius (warrant)",
       "cost": 2000000000.0,
-      "reason": "warrant or preferred stock, not in the holdings report"
+      "reason": "warrant, not in the holdings report"
     },
     {
       "relationship": "rel_marvell_eq_2026",
-      "name": "Marvell",
+      "name": "Marvell (preferred)",
       "cost": 2000000000.0,
-      "reason": "warrant or preferred stock, not in the holdings report"
+      "reason": "preferred, not in the holdings report"
     },
     {
       "relationship": "rel_lumentum_eq_2026",
-      "name": "Lumentum",
+      "name": "Lumentum (preferred)",
       "cost": 2000000000.0,
-      "reason": "warrant or preferred stock, not in the holdings report"
+      "reason": "preferred, not in the holdings report"
     },
     {
       "relationship": "rel_corning_eq_2026",
-      "name": "Corning",
+      "name": "Corning (warrant)",
       "cost": 500000000.0,
-      "reason": "warrant or preferred stock, not in the holdings report"
+      "reason": "warrant, not in the holdings report"
     },
     {
       "relationship": "rel_iambic_eq_2023",
-      "name": "Iambic",
+      "name": "Iambic (common)",
       "cost": 25000000.0,
-      "reason": "warrant or preferred stock, not in the holdings report"
+      "reason": "not in Nvidia's holdings report of 30 September 2026"
     }
   ],
   "source_mix": {
     "evidence_by_tier": {
-      "1": 1081,
+      "1": 1088,
       "2": 6
     },
     "one_sided_relationships": 53,
@@ -974,7 +990,7 @@
             "counterparty": "ent_google",
             "description": "Google CSP hosting agreement, minimum spend April 2026 to July 2033 regardless of usage, with a true-up.",
             "amount": 121300000000.0,
-            "kind": "unclassified",
+            "kind": "contract",
             "soft_amount": 0.0,
             "as_of": "2026-11-19",
             "evidence": [
@@ -985,7 +1001,7 @@
             "counterparty": "ent_amazon",
             "description": "Amazon agreement, minimum spend May 2026 to April 2036 regardless of usage.",
             "amount": 110000000000.0,
-            "kind": "unclassified",
+            "kind": "contract",
             "soft_amount": 0.0,
             "as_of": "2026-11-19",
             "evidence": [
@@ -996,7 +1012,7 @@
             "counterparty": "ent_microsoft",
             "description": "Microsoft agreement of November 2025 as amended to November 2026: at least $47.2 billion and up to $49.2 billion, November 2026 to June 2033 (minimum shown). Grew from the $30 billion Azure commitment announced in November 2025 (ev_120065).",
             "amount": 47200000000.0,
-            "kind": "unclassified",
+            "kind": "contract",
             "soft_amount": 0.0,
             "as_of": "2026-11-19",
             "evidence": [
@@ -1007,8 +1023,8 @@
             "counterparty": "ent_spacex",
             "description": "SpaceXAI arrangements for NVIDIA GPU compute, up to this amount into 2029, about $3.1 billion a month at full delivery; cancellable on 90 days notice after initial periods ending January and March 2027 (ev_120048).",
             "amount": 120500000000.0,
-            "kind": "unclassified",
-            "soft_amount": 0.0,
+            "kind": "contract",
+            "soft_amount": 120500000000.0,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120047"
@@ -1018,8 +1034,8 @@
             "counterparty": "ent_nscale",
             "description": "Nscale GPU services agreements for NVIDIA GPU compute into 2033; fees accrue only on delivery; Nscale must obtain financing (ev_40030).",
             "amount": 44600000000.0,
-            "kind": "unclassified",
-            "soft_amount": 0.0,
+            "kind": "contract",
+            "soft_amount": 44600000000.0,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120049",
@@ -1030,8 +1046,8 @@
             "counterparty": "ent_lambda",
             "description": "Lambda agreements for NVIDIA GPU compute into 2034; the August 2026 agreement (about $34.9 billion of the total) is currently terminable because Lambda did not secure the facility lease.",
             "amount": 41300000000.0,
-            "kind": "unclassified",
-            "soft_amount": 0.0,
+            "kind": "contract",
+            "soft_amount": 34900000000,
             "as_of": "2026-11-19",
             "evidence": [
               "ev_120050"
@@ -1041,7 +1057,7 @@
             "counterparty": "ent_broadcom",
             "description": "Five-year Broadcom master equipment leases (finance leases), rent excluding interest.",
             "amount": 161200000000.0,
-            "kind": "unclassified",
+            "kind": "lease",
             "soft_amount": 0.0,
             "as_of": "2026-11-19",
             "evidence": [
@@ -1333,7 +1349,7 @@
             "counterparty": "ent_microsoft",
             "description": "Incremental Azure services contracted under the October 2025 restructured Microsoft agreement (Microsoft 10-Q; same figure in OpenAI release ev_120102).",
             "amount": 250000000000.0,
-            "kind": "unclassified",
+            "kind": "contract",
             "soft_amount": 0.0,
             "as_of": "2025-10-28",
             "evidence": [
@@ -1344,7 +1360,7 @@
             "counterparty": "ent_amazon",
             "description": "AWS compute agreement announced 2025-11-03, with continued growth over seven years.",
             "amount": 38000000000.0,
-            "kind": "unclassified",
+            "kind": "contract",
             "soft_amount": 0.0,
             "as_of": "2025-11-03",
             "evidence": [
@@ -1355,8 +1371,8 @@
             "counterparty": "ent_coreweave",
             "description": "CoreWeave master services agreement of March 2025, up to about this amount through October 2030 (CoreWeave 10-K).",
             "amount": 11900000000.0,
-            "kind": "unclassified",
-            "soft_amount": 0.0,
+            "kind": "contract",
+            "soft_amount": 11900000000.0,
             "as_of": "2026-03-02",
             "evidence": [
               "ev_20199"
@@ -1366,8 +1382,8 @@
             "counterparty": "ent_coreweave",
             "description": "CoreWeave order form of September 2025, up to about this amount through 31 May 2031 (CoreWeave 10-Q for Q3 2026).",
             "amount": 6500000000.0,
-            "kind": "unclassified",
-            "soft_amount": 0.0,
+            "kind": "contract",
+            "soft_amount": 6500000000.0,
             "as_of": "2026-11-12",
             "evidence": [
               "ev_20102"
@@ -1387,8 +1403,8 @@
         "not_computable": [
           {
             "relationship": "rel_openai_eq_2026",
-            "title": "OpenAI 2026 funding round: Nvidia named for $30B",
-            "reason": "Equity loss not computable: $30 billion committed, paid amount not disclosed."
+            "title": "OpenAI 2026 funding round: Nvidia named for $30 billion",
+            "reason": "Equity loss not computable: $30 billion committed, paid amount not disclosed. At least $10 billion by 25 October 2026 (analysis: at least this much had been paid by that date if the commitment sits in Nvidia's $20 billion unfunded equity commitments total.)"
           },
           {
             "entity": "ent_sb_energy",
@@ -1535,7 +1551,7 @@
             "counterparty": "ent_valor",
             "description": "Three equipment leases of computing equipment from Valor, guaranteed by SpaceX; aggregate cash payments over the lease lives (424B4). Recorded as failed sale-leaseback debt.",
             "amount": 20206000000.0,
-            "kind": "unclassified",
+            "kind": "lease",
             "soft_amount": 0.0,
             "as_of": "2026-06-12",
             "evidence": [
@@ -1548,7 +1564,7 @@
             "counterparty": "ent_apollo",
             "description": "Binding commitment letter of 2026-10-24 for a master finance lease of GPU pods from an Apollo-managed lessor; aggregate principal payments; subject to closing conditions; schedules commence in the first half of 2027.",
             "amount": 40000000000.0,
-            "kind": "unclassified",
+            "kind": "lease",
             "soft_amount": 0.0,
             "as_of": "2026-10-26",
             "evidence": [
@@ -1723,7 +1739,7 @@
         {
           "project": "proj_coreweave_ddtl4",
           "entity": "ent_coreweave",
-          "facility": "DDTL 4.0 (up to $8.5bn, $7.5bn initially, March 2026)",
+          "facility": "DDTL 4.0 (up to $8.5 billion, $7.5 billion initially, March 2026)",
           "ltv_before": 0.8813461538461539,
           "ltv_after": 1.4689102564102565,
           "covenant_ltv": null,
@@ -1736,52 +1752,52 @@
       "not_computable": [
         {
           "project": "proj_coreweave_ddtl1",
-          "facility": "DDTL 1.0 (up to $2.3bn, July 2023)",
+          "facility": "DDTL 1.0 (up to $2.3 billion, July 2023)",
           "reason": "Needs both a sourced balance and a sourced collateral value."
         },
         {
           "project": "proj_coreweave_ddtl2",
-          "facility": "DDTL 2.0 (up to $7.6bn, May 2024)",
+          "facility": "DDTL 2.0 (up to $7.6 billion, May 2024)",
           "reason": "Needs both a sourced balance and a sourced collateral value."
         },
         {
           "project": "proj_coreweave_ddtl2",
-          "facility": "DDTL 2.1 tranche (up to $3.0bn, September 2025)",
+          "facility": "DDTL 2.1 tranche (up to $3 billion, September 2025)",
           "reason": "Needs both a sourced balance and a sourced collateral value."
         },
         {
           "project": "proj_coreweave_ddtl3_phoenix1",
-          "facility": "DDTL 3.0 (up to $2.6bn, July 2025; First Amendment 2025-12-31)",
+          "facility": "DDTL 3.0 (up to $2.6 billion, July 2025; First Amendment 2025-12-31)",
           "reason": "Needs both a sourced balance and a sourced collateral value."
         },
         {
           "project": "proj_coreweave_ddtl5",
-          "facility": "DDTL 5.0 ($3.1bn, May 2026)",
+          "facility": "DDTL 5.0 ($3.1 billion, May 2026)",
           "reason": "Needs both a sourced balance and a sourced collateral value."
         },
         {
           "project": "proj_coreweave_ddtl55",
-          "facility": "DDTL 5.5 ($2.6bn, August 2026)",
+          "facility": "DDTL 5.5 ($2.6 billion, August 2026)",
           "reason": "Needs both a sourced balance and a sourced collateral value."
         },
         {
           "project": "proj_nscale_ward_county",
-          "facility": "Ward County GPU Facility (delayed draw term loan, August 2026; $630m fixed plus $1.22bn floating; SOFR plus 2.375%; matures February 2033)",
+          "facility": "Ward County GPU Facility (delayed draw term loan, August 2026; $630 million fixed plus $1.22 billion floating; SOFR plus 2.375%; matures February 2033)",
           "reason": "Needs both a sourced balance and a sourced collateral value."
         },
         {
           "project": "proj_nscale_north_carolina",
-          "facility": "North Carolina GPU Facility (delayed draw term loan, August 2026; $370m fixed plus $830m floating; SOFR plus 2.375%; matures December 2031)",
+          "facility": "North Carolina GPU Facility (delayed draw term loan, August 2026; $370 million fixed plus $830 million floating; SOFR plus 2.375%; matures December 2031)",
           "reason": "Needs both a sourced balance and a sourced collateral value."
         },
         {
           "project": "proj_nscale_iceland",
-          "facility": "Macquarie Iceland Facility (delayed draw term loan, July 2026; $331.9m; SOFR plus 5.50% plus a MOIC feature; 46 months)",
+          "facility": "Macquarie Iceland Facility (delayed draw term loan, July 2026; $331.9 million; SOFR plus 5.50% plus a MOIC feature; 46 months)",
           "reason": "Needs both a sourced balance and a sourced collateral value."
         },
         {
           "project": "proj_nscale_kvandal_south",
-          "facility": "Kvandal South DC term loan ($725.0m, SOFR plus 3.00% to 3.75%) and VAT facility ($65.0m), July 2026",
+          "facility": "Kvandal South DC term loan ($725 million, SOFR plus 3.00% to 3.75%) and VAT facility ($65 million), July 2026",
           "reason": "Needs both a sourced balance and a sourced collateral value."
         },
         {
@@ -1791,7 +1807,7 @@
         },
         {
           "project": "proj_iren_childress",
-          "facility": "GPU Financing 1.0 (May 2026; DDTL $1.5bn at SOFR plus 2.25% and $2.1bn US private placement notes; non-recourse; matures 2031-12-31)",
+          "facility": "GPU Financing 1.0 (May 2026; DDTL $1.5 billion at SOFR plus 2.25% and $2.1 billion US private placement notes; non-recourse; matures 2031-12-31)",
           "reason": "Needs both a sourced balance and a sourced collateral value."
         },
         {

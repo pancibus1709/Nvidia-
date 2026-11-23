@@ -122,7 +122,7 @@
           }
         ],
         "grade": "Watch",
-        "grade_reason": "Weakest sourced column: top customer 52% of revenue in the six months to 2026-06-30 is Watch (ev_40025). Debt due within 24 months over cash is at least 0.94 ($3.36bn of convertible notes due 2028-06-15 if not converted over $3.58bn of estimated cash, ev_40013, ev_40021), which is Adequate and a lower bound. Liquidity cover and a public rating are not sourced. No step adjustment: the audited notes say the going-concern doubt was alleviated by management's plan (ev_40045), but the company says it must obtain additional financing to meet forecast obligations (ev_40049), which keeps the grade from moving up. Pending Thomas's answer to R9 decision 1.",
+        "grade_reason": "Weakest sourced column: top customer 52% of revenue in the six months to 2026-06-30 is Watch (ev_40025). Debt due within 24 months over cash is at least 0.94 ($3.36 billion of convertible notes due 2028-06-15 if not converted over $3.58 billion of estimated cash, ev_40013, ev_40021), which is Adequate and a lower bound. Liquidity cover and a public rating are not sourced. No step adjustment: the audited notes say the going-concern doubt was alleviated by management's plan (ev_40045), but the company says it must obtain additional financing to meet forecast obligations (ev_40049), which keeps the grade from moving up. Pending Thomas's answer to R9 decision 1.",
         "notes": "The company must obtain additional financing to meet forecast 2027 obligations (ev_40049). Material weaknesses in internal control (ev_40048). No binding financing yet for the Anthropic Monarch contract (ev_40030), which needs about $10bn to $10.5bn of data center capex for Building 1 and $21bn to $22bn of GPUs (ev_40031, ev_40032). Customer prepayments of $2.3bn were received in the first half of 2026 (ev_40033). RPO $56.4bn at 2026-06-30 (ev_40024). Microsoft statements of work up to about $43.8bn through December 2033, one $3.22bn statement terminated (ev_40027, ev_40028)."
       }
     },
@@ -250,7 +250,7 @@
           }
         ],
         "grade": "Adequate",
-        "grade_reason": "Two of four columns sourced. Debt due within 24 months over cash is at least 0.02 ($159.5m over $7,425.6m), which is Strong; adding the full $3.5bn Citi Facility if drawn would give 0.33 over a larger cash balance, still Strong (analysis). Top customer 33% in Q3 2026 is Adequate. Weakest column Adequate; no adjustment. Not Distressed: the going-concern wording found is the standard basis-of-preparation sentence, with no substantial doubt, waiver or missed payment (Note 1 of the Q3 2026 statements). Liquidity cover and a public rating are not sourced.",
+        "grade_reason": "Two of four columns sourced. Debt due within 24 months over cash is at least 0.02 ($159.5 million over $7,425.6 million), which is Strong; adding the full $3.5 billion Citi Facility if drawn would give 0.33 over a larger cash balance, still Strong (analysis). Top customer 33% in Q3 2026 is Adequate. Weakest column Adequate; no adjustment. Not Distressed: the going-concern wording found is the standard basis-of-preparation sentence, with no substantial doubt, waiver or missed payment (Note 1 of the Q3 2026 statements). Liquidity cover and a public rating are not sourced.",
         "notes": "RPO $38.7bn at 2026-09-30, about 40% within 24 months (ev_40075). Meta agreement of 2026-03-13 up to about $27bn, including up to $15bn for Meta to buy capacity Nebius cannot sell to others (ev_40079, ev_40081): Meta, not Nvidia, is the backstop there. Microsoft agreement up to about $17.4bn (ev_40084). Nebius states it relies on Nvidia for its GPU chips (ev_40061)."
       }
     },
@@ -410,7 +410,7 @@
           }
         ],
         "grade": "Watch",
-        "grade_reason": "Two of four columns sourced. Debt due within 24 months over cash plus undrawn is at least 0.27 ($1,782m over $6,679m), which is Strong; top customer 28% is Adequate. Weakest column Adequate, moved down one step to Watch because commitments of $18,947m (ev_40123) are about 2.8 times cash plus undrawn and the top three customers are 70% of revenue, with Microsoft and Nvidia a substantial majority of contracted revenue (ev_40119). Not Distressed: IREN states liquidity is sufficient for at least 12 months; no substantial doubt, waiver or missed payment found. Liquidity cover and a public rating are not sourced.",
+        "grade_reason": "Two of four columns sourced. Debt due within 24 months over cash plus undrawn is at least 0.27 ($1,782 million over $6,679 million), which is Strong; top customer 28% is Adequate. Weakest column Adequate, moved down one step to Watch because commitments of $18,947 million (ev_40123) are about 2.8 times cash plus undrawn and the top three customers are 70% of revenue, with Microsoft and Nvidia a substantial majority of contracted revenue (ev_40119). Not Distressed: IREN states liquidity is sufficient for at least 12 months; no substantial doubt, waiver or missed payment found. Liquidity cover and a public rating are not sourced.",
         "notes": "December 2033 convertible notes $3,000m (ev_80005). RPO $6,347m at 2026-09-30 (ev_40124). Microsoft contract about $9.7bn (ev_40118); July 2026 contracts with Prometheus, Perplexity and Together AI about $2.8bn (ev_40120). IREN buys GPUs directly from Nvidia (ev_40116) and through Dell (ev_40121)."
       }
     },
@@ -509,7 +509,7 @@
           "last_verified": "2026-11-23",
           "note": "Not disclosed."
         },
-        "collateral_note": "Nvidia B200, B300 and GB300 GPUs. Depreciation life not found in the 10-Q. The $356m SPV facility is secured by all obligor assets and supports a different customer contract (ev_40152).",
+        "collateral_note": "Nvidia B200, B300 and GB300 GPUs. Depreciation life not found in the 10-Q. The $356 million SPV facility is secured by all obligor assets and supports a different customer contract (ev_40152).",
         "market_signals": [
           {
             "signal": "Secured financing cost",
@@ -522,7 +522,7 @@
           }
         ],
         "grade": "Insufficient information",
-        "grade_reason": "Only one rubric column is sourced: debt due within 24 months over cash is near zero ($20,059 over $1.34bn, ev_80007, ev_40150), which is Strong. Customer concentration, liquidity cover and a public rating are not sourced, so the rubric gives Insufficient information. The going-concern section is not treated as distress: SharonAI concludes it can continue as a going concern (ev_80009), and that conclusion rests on management's discretion to delay expansion if financing does not arrive (ev_80009, ev_80010). Pending Thomas's answer to R9 decision 1.",
+        "grade_reason": "Only one rubric column is sourced: debt due within 24 months over cash is near zero ($20,059 over $1.34 billion, ev_80007, ev_40150), which is Strong. Customer concentration, liquidity cover and a public rating are not sourced, so the rubric gives Insufficient information. The going-concern section is not treated as distress: SharonAI concludes it can continue as a going concern (ev_80009), and that conclusion rests on management's discretion to delay expansion if financing does not arrive (ev_80009, ev_80010). Pending Thomas's answer to R9 decision 1.",
         "notes": "Material weakness at 2026-09-30 (ev_40153). Nine-month net loss driven by a $470.7m fair value loss on convertible notes. New Zealand five-year contract about $1.32bn (ev_40151)."
       }
     },
@@ -721,7 +721,7 @@
       "ticker": null,
       "cik": null,
       "country": "US",
-      "description": "Equipment lessor to Nscale, with about $2.54bn of initial-term rent.",
+      "description": "Equipment lessor to Nscale, with about $2.54 billion of initial-term rent.",
       "domains": [],
       "evidence": [
         "ev_40040"
@@ -769,7 +769,7 @@
       "ticker": null,
       "cik": null,
       "country": "US",
-      "description": "Lender to neoclouds; Citi provides Nebius's $3.5bn 364-day senior secured facility.",
+      "description": "Lender to neoclouds; Citi provides Nebius's $3.5 billion 364-day senior secured facility.",
       "domains": [],
       "evidence": [
         "ev_40072"
@@ -1074,7 +1074,7 @@
         {
           "entity": "ent_jpmorgan",
           "role": "lender",
-          "description": "Lender under the $1.85bn Ward County GPU Facility for the guaranteed site.",
+          "description": "Lender under the $1.85 billion Ward County GPU Facility for the guaranteed site.",
           "amount": {
             "value": 1850000000,
             "as_of": "2026-08-31",
@@ -1098,7 +1098,7 @@
         {
           "entity": "ent_goldman_sachs",
           "role": "lender",
-          "description": "Lender under the $1.85bn Ward County GPU Facility for the guaranteed site.",
+          "description": "Lender under the $1.85 billion Ward County GPU Facility for the guaranteed site.",
           "amount": null,
           "evidence": [
             "ev_40035"
@@ -1293,7 +1293,7 @@
         {
           "entity": "ent_macquarie",
           "role": "lender",
-          "description": "Lender under the $331.9m Macquarie Iceland facility; the NVIDIA MSA covers capacity in Iceland (site match is analysis).",
+          "description": "Lender under the $331.9 million Macquarie Iceland facility; the NVIDIA MSA covers capacity in Iceland (site match is analysis).",
           "amount": {
             "value": 331900000,
             "as_of": "2026-07-31",
@@ -1432,21 +1432,24 @@
               "evidence": [
                 "ev_80030"
               ],
-              "note": "Series B, issued 2025-10-08"
+              "note": "Series B, issued 2025-10-08; paid at completion of the Series B Financing on 2025-10-08.",
+              "paid_on": "2025-10-08"
             },
             {
               "value": 300000000,
               "evidence": [
                 "ev_40008"
               ],
-              "note": "SAFE principal, converted 2026-03-27"
+              "note": "SAFE principal, converted 2026-03-27; the date the SAFE cash was paid is not stated.",
+              "paid_on": null
             },
             {
               "value": 477399382.46,
               "evidence": [
                 "ev_40009"
               ],
-              "note": "Series C-4, issued 2026-03-27"
+              "note": "Series C-4, issued 2026-03-27 at Series C Completion.",
+              "paid_on": "2026-03-27"
             }
           ]
         },
@@ -1547,7 +1550,7 @@
               "ent_nscale"
             ],
             "direction": "negative",
-            "text": "Sandton invested alongside Nvidia under the same March 2026 agreement, so a pause by Nvidia in later Nscale rounds would raise Nscale's cost of equity.",
+            "text": "Sandton invested alongside Nvidia under the same March 2026 agreement, so a pause by Nvidia in later Nscale rounds would raise Nscale's cost of equity (analysis).",
             "evidence": [
               "ev_80025"
             ],
@@ -1561,7 +1564,7 @@
               "ent_anthropic"
             ],
             "direction": "negative",
-            "text": "Microsoft and Anthropic have contracted up to $43.8bn and $44.6bn of Nscale capacity, so a Nscale failure would hit Nvidia's equity and those customers' compute plans together.",
+            "text": "Microsoft and Anthropic have contracted up to $43.8 billion and $44.6 billion of Nscale capacity, so a Nscale failure would hit Nvidia's equity and those customers' compute plans together.",
             "evidence": [
               "ev_40027",
               "ev_40029"
@@ -1584,7 +1587,7 @@
         {
           "entity": "ent_microsoft",
           "role": "offtaker",
-          "description": "Statements of work for Nscale capacity, up to about $43.8bn through December 2033; one $3.22bn statement terminated.",
+          "description": "Statements of work for Nscale capacity, up to about $43.8 billion through December 2033; one $3.22 billion statement terminated.",
           "amount": {
             "value": 43800000000,
             "as_of": "2026-11-12",
@@ -1609,7 +1612,7 @@
         {
           "entity": "ent_anthropic",
           "role": "offtaker",
-          "description": "GPU Services Agreements of 2026-08-25 for the Monarch Compute Campus, up to about $44.6bn.",
+          "description": "GPU Services Agreements of 2026-08-25 for the Monarch Compute Campus, up to about $44.6 billion.",
           "amount": {
             "value": 44600000000,
             "as_of": "2026-08-25",
@@ -1818,7 +1821,7 @@
               "ent_jpmorgan"
             ],
             "direction": "positive",
-            "text": "Nscale's secured lenders, including Goldman Sachs and JPMorgan, sit above $2.0bn of Nvidia notes, so Nvidia money absorbs Nscale losses before theirs (analysis).",
+            "text": "Nscale's secured lenders, including Goldman Sachs and JPMorgan, sit above $2 billion of Nvidia notes, so Nvidia money absorbs Nscale losses before theirs (analysis).",
             "evidence": [
               "ev_80019",
               "ev_40041"
@@ -1833,7 +1836,7 @@
               "ent_nscale"
             ],
             "direction": "mixed",
-            "text": "Nscale's $24.0bn of equipment commitments are largely Nvidia GPUs, so Nvidia's note money helps buy the hardware that secures Nscale's other lenders (analysis).",
+            "text": "Nscale's $24 billion of equipment commitments are largely Nvidia GPUs, so Nvidia's note money helps buy the hardware that secures Nscale's other lenders (analysis).",
             "evidence": [
               "ev_40017",
               "ev_40015"
@@ -1847,7 +1850,7 @@
         {
           "entity": "ent_goldman_sachs",
           "role": "lender",
-          "description": "A Goldman Sachs affiliate lends under the $1.4bn senior secured GPU Financing Facility, which ranks ahead of Nvidia's unsecured notes.",
+          "description": "A Goldman Sachs affiliate lends under the $1.4 billion senior secured GPU Financing Facility, which ranks ahead of Nvidia's unsecured notes.",
           "amount": null,
           "evidence": [
             "ev_40041"
@@ -1954,7 +1957,8 @@
         "ticker": "NBIS",
         "evidence": [
           "ev_50015"
-        ]
+        ],
+        "instrument": "common"
       },
       "reconciliation": {
         "result": "one_sided",
@@ -1984,7 +1988,7 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "A fall in the Nebius share price reduces this stake directly; its value rose from $33.0m to $280.8m between the first and latest 13F.",
+            "text": "A fall in the Nebius share price reduces this stake directly; its value rose from $33 million to $280.8 million between the first and latest 13F.",
             "evidence": [
               "ev_50014",
               "ev_50015"
@@ -2075,11 +2079,19 @@
           "last_verified": "2026-11-23",
           "display_eligible": true,
           "lower_bound": false,
-          "evidence": [
-            "ev_40055",
-            "ev_40057"
-          ],
-          "note": "Warrant issued and proceeds received 2026-03-11 (Q3 2026 Note 14 and 20-F)."
+          "evidence": [],
+          "note": "Warrant issued and proceeds received 2026-03-11 (Q3 2026 Note 14 and 20-F).",
+          "components": [
+            {
+              "value": 2000000000,
+              "evidence": [
+                "ev_40055",
+                "ev_40057"
+              ],
+              "note": "Pre-funded warrant sold to Nvidia under the purchase agreement of 2026-03-11 and exercisable from that date (ev_40057).",
+              "paid_on": "2026-03-11"
+            }
+          ]
         },
         "contingent_max": {
           "value": 0,
@@ -2117,7 +2129,8 @@
         "evidence": [
           "ev_40053"
         ],
-        "note": "Warrant shares. Total beneficial ownership 22,256,412 shares, 9.3% of Class A (ev_40051, ev_40052)."
+        "note": "Warrant shares. Total beneficial ownership 22,256,412 shares, 9.3% of Class A (ev_40051, ev_40052).",
+        "instrument": "warrant"
       },
       "reconciliation": {
         "result": "reconciled",
@@ -2148,8 +2161,8 @@
       },
       "credit": {
         "wwr": "general",
-        "wwr_reason": "Equity loss is capped at the $2.0bn paid and moves with AI demand; the exposure does not grow as Nebius weakens.",
-        "collateral": "None. Ranks behind all Nebius debt, including $16.5bn of principal at 2026-09-30.",
+        "wwr_reason": "Equity loss is capped at the $2 billion paid and moves with AI demand; the exposure does not grow as Nebius weakens.",
+        "collateral": "None. Ranks behind all Nebius debt, including $16.5 billion of principal at 2026-09-30.",
         "tenor": "Exercisable from 2026-03-11 until exercised in full; no expiry date.",
         "notes": "Lock-up to 2026-09-11 (ev_40054, ev_40059). The release also says the partnership enables Nebius to deploy more than 5 GW of Nvidia systems by end of 2030, a headline with no Nvidia commitment (ev_30061, ev_40085)."
       },
@@ -2169,7 +2182,7 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Because the exercise price is nominal, Nvidia's Nebius warrant loses value exactly as Nebius shares do, so Nvidia carries full equity risk on the $2.0bn.",
+            "text": "Because the exercise price is nominal, Nvidia's Nebius warrant loses value exactly as Nebius shares do, so Nvidia carries full equity risk on the $2 billion.",
             "evidence": [
               "ev_40056"
             ]
@@ -2184,7 +2197,7 @@
               "ent_nebius"
             ],
             "direction": "mixed",
-            "text": "Nebius relies on Nvidia for its GPUs, so part of Nvidia's $2.0bn may come back as Nvidia revenue; Nebius does not disclose its Nvidia purchases (analysis).",
+            "text": "Nebius relies on Nvidia for its GPUs, so part of Nvidia's $2 billion may come back as Nvidia revenue; Nebius does not disclose its Nvidia purchases (analysis).",
             "evidence": [
               "ev_40061"
             ],
@@ -2199,7 +2212,7 @@
               "ent_citigroup"
             ],
             "direction": "negative",
-            "text": "Nebius raised a term loan, $5.75bn of convertible notes and a Citi facility after Nvidia invested, so an Nvidia sale would weaken a signal its later lenders may have relied on (analysis).",
+            "text": "Nebius raised a term loan, $5.75 billion of convertible notes and a Citi facility after Nvidia invested, so an Nvidia sale would weaken a signal its later lenders may have relied on (analysis).",
             "evidence": [
               "ev_40063",
               "ev_40067",
@@ -2215,7 +2228,7 @@
               "ent_meta"
             ],
             "direction": "negative",
-            "text": "Microsoft and Meta have contracted Nebius capacity of up to $17.4bn and $27bn, so a Nebius funding failure would hit Nvidia's warrant and those customers' capacity together.",
+            "text": "Microsoft and Meta have contracted Nebius capacity of up to $17.4 billion and $27 billion, so a Nebius funding failure would hit Nvidia's warrant and those customers' capacity together.",
             "evidence": [
               "ev_40084",
               "ev_40079"
@@ -2231,7 +2244,7 @@
         {
           "entity": "ent_microsoft",
           "role": "offtaker",
-          "description": "Five-year agreement for Vineland, New Jersey capacity, estimated up to about $17.4bn.",
+          "description": "Five-year agreement for Vineland, New Jersey capacity, estimated up to about $17.4 billion.",
           "amount": {
             "value": 17400000000,
             "as_of": "2026-04-30",
@@ -2255,7 +2268,7 @@
         {
           "entity": "ent_meta",
           "role": "offtaker",
-          "description": "March 2026 agreement up to about $27bn, including up to $15bn for Meta to buy capacity Nebius does not sell to others.",
+          "description": "March 2026 agreement up to about $27 billion, including up to $15 billion for Meta to buy capacity Nebius does not sell to others.",
           "amount": {
             "value": 27000000000,
             "as_of": "2026-04-30",
@@ -2280,7 +2293,7 @@
         {
           "entity": "ent_mufg",
           "role": "lender",
-          "description": "Agent on the senior secured Term Loan Facility, $751.8m outstanding at 2026-09-30.",
+          "description": "Agent on the senior secured Term Loan Facility, $751.8 million outstanding at 2026-09-30.",
           "amount": {
             "value": 751800000,
             "as_of": "2026-09-30",
@@ -2304,7 +2317,7 @@
         {
           "entity": "ent_citigroup",
           "role": "lender",
-          "description": "Citi senior secured facility of $3.5bn, 364 days, signed 2026-10-22.",
+          "description": "Citi senior secured facility of $3.5 billion, 364 days, signed 2026-10-22.",
           "amount": {
             "value": 3500000000,
             "as_of": "2026-10-22",
@@ -2432,7 +2445,7 @@
       "reconciliation": {
         "result": "one_sided",
         "nvidia_side": "No Nvidia disclosure of this contract found as of 2026-11-23. Nvidia's 7 May 2026 IREN release covers only the share purchase right and up to 5 GW of DSX infrastructure (ev_30043, ev_30051).",
-        "counterparty_side": "IREN's 10-K for FY2026 describes a five-year cloud services contract with Nvidia of about $3.4bn total contract value, under which Nvidia is a customer (ev_40108, ev_40109, ev_40110).",
+        "counterparty_side": "IREN's 10-K for FY2026 describes a five-year cloud services contract with Nvidia of about $3.4 billion total contract value, under which Nvidia is a customer (ev_40108, ev_40109, ev_40110).",
         "nvidia_evidence": [],
         "counterparty_evidence": [
           "ev_40108",
@@ -2465,7 +2478,7 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "If IREN cannot deliver the capacity, Nvidia must find other compute for its internal research, while IREN loses about $3.4bn of contracted revenue.",
+            "text": "If IREN cannot deliver the capacity, Nvidia must find other compute for its internal research, while IREN loses about $3.4 billion of contracted revenue.",
             "evidence": [
               "ev_40108"
             ]
@@ -2480,7 +2493,7 @@
               "ent_iren"
             ],
             "direction": "mixed",
-            "text": "IREN bought about $1.6bn of GPUs through Dell for a $3.4bn contract that matches Nvidia's, so Nvidia's rent partly funds demand for its own chips (analysis).",
+            "text": "IREN bought about $1.6 billion of GPUs through Dell for a $3.4 billion contract that matches Nvidia's, so Nvidia's rent partly funds demand for its own chips (analysis).",
             "evidence": [
               "ev_40121",
               "ev_40109"
@@ -2510,7 +2523,7 @@
         {
           "entity": "ent_microsoft",
           "role": "offtaker",
-          "description": "Five-year Horizon 1 to 4 contract at Childress of about $9.7bn; with Nvidia's contract a substantial majority of IREN's contracted revenue.",
+          "description": "Five-year Horizon 1 to 4 contract at Childress of about $9.7 billion; with Nvidia's contract a substantial majority of IREN's contracted revenue.",
           "amount": {
             "value": 9700000000,
             "as_of": "2026-08-27",
@@ -2624,7 +2637,8 @@
         "evidence": [
           "ev_40111"
         ],
-        "note": "Rights over up to 30,000,000 shares; no shares acquired as of the 10-Q filed 2026-11-05 (none disclosed)."
+        "note": "Rights over up to 30,000,000 shares; no shares acquired as of the 10-Q filed 2026-11-05 (none disclosed).",
+        "instrument": "warrant"
       },
       "reconciliation": {
         "result": "reconciled",
@@ -2654,7 +2668,7 @@
           {
             "field": "accounting",
             "nvidia_value": "No disclosure",
-            "counterparty_value": "Grant-date fair value $793.4m capitalised into the cost of GPUs acquired from Nvidia",
+            "counterparty_value": "Grant-date fair value $793.4 million capitalised into the cost of GPUs acquired from Nvidia",
             "evidence": [
               "ev_40115",
               "ev_40116"
@@ -2701,7 +2715,7 @@
               "ent_iren"
             ],
             "direction": "mixed",
-            "text": "IREN booked the $793.4m fair value of Nvidia's rights as part of the cost of GPUs bought from Nvidia, so part of Nvidia's GPU revenue from IREN is paid in IREN equity options (analysis).",
+            "text": "IREN booked the $793.4 million fair value of Nvidia's rights as part of the cost of GPUs bought from Nvidia, so part of Nvidia's GPU revenue from IREN is paid in IREN equity options (analysis).",
             "evidence": [
               "ev_40115",
               "ev_40116"
@@ -2715,7 +2729,7 @@
               "ent_iren"
             ],
             "direction": "mixed",
-            "text": "Nvidia's right to buy IREN shares at $70 signals support for IREN's 5 GW DSX plan at no cash cost, and a lapse would signal the opposite to IREN's lenders.",
+            "text": "Nvidia's right to buy IREN shares at $70 signals support for IREN's 5 GW DSX plan at no cash cost, and a lapse would signal the opposite to IREN's lenders (analysis).",
             "evidence": [
               "ev_40117",
               "ev_30051"
@@ -2817,7 +2831,7 @@
       "reconciliation": {
         "result": "one_sided",
         "nvidia_side": "No Nvidia disclosure of this agreement found as of 2026-11-23. Nvidia's 9 September 2026 Australia release names Sharon AI as a partner expanding land, power and shell capacity, with no agreement terms (ev_80029, ev_80028). Nvidia's aggregate neocloud agreements, whose commitments take effect only if the neoclouds secure financing, may include it (ev_30090; analysis).",
-        "counterparty_side": "SharonAI's 8-K and 10-Q describe the six-year agreement, the up to $4.88bn contract value, minimum revenue provisions subject to third-party utilisation, Nvidia's limited use of the capacity, and notice obligations to Nvidia on capacity sold (ev_40143, ev_40144, ev_40145, ev_40146, ev_40148, ev_40149).",
+        "counterparty_side": "SharonAI's 8-K and 10-Q describe the six-year agreement, the up to $4.88 billion contract value, minimum revenue provisions subject to third-party utilisation, Nvidia's limited use of the capacity, and notice obligations to Nvidia on capacity sold (ev_40143, ev_40144, ev_40145, ev_40146, ev_40148, ev_40149).",
         "nvidia_evidence": [],
         "counterparty_evidence": [
           "ev_40143",
@@ -2834,7 +2848,7 @@
       "credit": {
         "wwr": "specific",
         "wwr_reason": "Nvidia's payments rest on capacity SharonAI cannot sell to others, so Nvidia's payments grow as SharonAI's sales weaken. SharonAI itself calls the structure credit support.",
-        "collateral": "None disclosed for Nvidia. The $356m SPV facility is secured on assets supporting a different customer contract (ev_40152).",
+        "collateral": "None disclosed for Nvidia. The $356 million SPV facility is secured on assets supporting a different customer contract (ev_40152).",
         "tenor": "Six years; all phases end on the same date, which is not disclosed.",
         "notes": "Internal difference on the SharonAI side: the 8-K states a contract value of up to $4.88bn (ev_40144) while the 10-Q says no fixed aggregate value is specified (ev_40146). The customer price per GPU hour declines over the six-year term. SharonAI committed to about $4bn of hardware and infrastructure in connection with the agreement (ev_40155), though the order form does not by itself fix a hardware amount (ev_80014). Nvidia earns product revenue on the GPUs and a share of cloud revenue (ev_80016). Either party may terminate on material breach or on insolvency or material adverse change events (8-K).",
         "tenor_bucket": "5 to 10 years"
@@ -2884,7 +2898,7 @@
               "ent_sharonai"
             ],
             "direction": "mixed",
-            "text": "SharonAI committed about $4bn of hardware for the Nvidia agreement and says it needs more financing, so lenders to those GPUs would look to Nvidia's minimum revenue (analysis).",
+            "text": "SharonAI committed about $4 billion of hardware for the Nvidia agreement and says it needs more financing, so lenders to those GPUs would look to Nvidia's minimum revenue (analysis).",
             "evidence": [
               "ev_40155",
               "ev_80010"
@@ -2929,7 +2943,7 @@
         {
           "entity": "ent_nextdc",
           "role": "landlord",
-          "description": "Amended and restated service order for 72 MW in Australia, five phases from 2027; about $623m total commitment.",
+          "description": "Amended and restated service order for 72 MW in Australia, five phases from 2027; about $623 million total commitment.",
           "amount": {
             "value": 623000000,
             "as_of": "2026-09-30",
@@ -3042,7 +3056,8 @@
         "evidence": [
           "ev_50013"
         ],
-        "note": "Last 13F holding before exit; none at 2025-12-31."
+        "note": "Last 13F holding before exit; none at 2025-12-31.",
+        "instrument": "common"
       },
       "reconciliation": {
         "result": "reconciled",
@@ -3075,7 +3090,7 @@
               "ent_nvidia"
             ],
             "direction": "positive",
-            "text": "Nvidia sold its Applied Digital shares by the end of 2025, after their 13F value rose from $63.7m to $177.0m, so Applied Digital's later results no longer touch Nvidia's balance sheet.",
+            "text": "Nvidia sold its Applied Digital shares by the end of 2025, after their 13F value rose from $63.7 million to $177 million, so Applied Digital's later results no longer touch Nvidia's balance sheet.",
             "evidence": [
               "ev_50012",
               "ev_50013"
@@ -3091,7 +3106,7 @@
               "ent_related_companies"
             ],
             "direction": "mixed",
-            "text": "Nvidia's 2024 entry with Related Companies helped Applied Digital raise $160m at market, and its quiet exit by late 2025 removed that signal without any announcement.",
+            "text": "Nvidia's 2024 entry with Related Companies was part of Applied Digital's raise of $160 million at market, and its quiet exit by late 2025 removed that signal without any announcement (analysis).",
             "evidence": [
               "ev_80026",
               "ev_50013"
@@ -3140,7 +3155,7 @@
       "contract_years": null,
       "financing": [
         {
-          "facility": "Ward County GPU Facility (delayed draw term loan, August 2026; $630m fixed plus $1.22bn floating; SOFR plus 2.375%; matures February 2033)",
+          "facility": "Ward County GPU Facility (delayed draw term loan, August 2026; $630 million fixed plus $1.22 billion floating; SOFR plus 2.375%; matures February 2033)",
           "lenders": [
             "ent_jpmorgan",
             "ent_goldman_sachs",
@@ -3184,7 +3199,7 @@
       "contract_years": null,
       "financing": [
         {
-          "facility": "North Carolina GPU Facility (delayed draw term loan, August 2026; $370m fixed plus $830m floating; SOFR plus 2.375%; matures December 2031)",
+          "facility": "North Carolina GPU Facility (delayed draw term loan, August 2026; $370 million fixed plus $830 million floating; SOFR plus 2.375%; matures December 2031)",
           "lenders": [
             "ent_goldman_sachs",
             "ent_jpmorgan",
@@ -3216,7 +3231,7 @@
       "power_mw_energized": null,
       "gpu_generation": "Vera Rubin NVL72",
       "gpu_count": null,
-      "anchor_tenant": "Anthropic (GPU Services Agreements of 2026-08-25, up to about $44.6bn)",
+      "anchor_tenant": "Anthropic (GPU Services Agreements of 2026-08-25, up to about $44.6 billion)",
       "contract_years": null,
       "financing": [],
       "expected_completion": null,
@@ -3244,7 +3259,7 @@
       "contract_years": null,
       "financing": [
         {
-          "facility": "Macquarie Iceland Facility (delayed draw term loan, July 2026; $331.9m; SOFR plus 5.50% plus a MOIC feature; 46 months)",
+          "facility": "Macquarie Iceland Facility (delayed draw term loan, July 2026; $331.9 million; SOFR plus 5.50% plus a MOIC feature; 46 months)",
           "lenders": [
             "ent_macquarie"
           ],
@@ -3281,7 +3296,7 @@
       "contract_years": null,
       "financing": [
         {
-          "facility": "Kvandal South DC term loan ($725.0m, SOFR plus 3.00% to 3.75%) and VAT facility ($65.0m), July 2026",
+          "facility": "Kvandal South DC term loan ($725 million, SOFR plus 3.00% to 3.75%) and VAT facility ($65 million), July 2026",
           "lenders": [
             "DNB (agent)",
             "ABN AMRO",
@@ -3368,7 +3383,7 @@
       "power_mw_energized": null,
       "gpu_generation": null,
       "gpu_count": null,
-      "anchor_tenant": "Microsoft (five-year agreement, up to about $17.4bn)",
+      "anchor_tenant": "Microsoft (five-year agreement, up to about $17.4 billion)",
       "contract_years": 5,
       "financing": [],
       "expected_completion": null,
@@ -3388,11 +3403,11 @@
       "power_mw_energized": null,
       "gpu_generation": "GB300 NVL72 (Horizon 1)",
       "gpu_count": null,
-      "anchor_tenant": "Microsoft (Horizon 1 to 4, about $9.7bn)",
+      "anchor_tenant": "Microsoft (Horizon 1 to 4, about $9.7 billion)",
       "contract_years": 5,
       "financing": [
         {
-          "facility": "GPU Financing 1.0 (May 2026; DDTL $1.5bn at SOFR plus 2.25% and $2.1bn US private placement notes; non-recourse; matures 2031-12-31)",
+          "facility": "GPU Financing 1.0 (May 2026; DDTL $1.5 billion at SOFR plus 2.25% and $2.1 billion US private placement notes; non-recourse; matures 2031-12-31)",
           "lenders": [
             "Lenders and noteholders not named; CSC Delaware Trust (collateral agent)"
           ],
@@ -3501,7 +3516,7 @@
       "power_mw_energized": null,
       "gpu_generation": null,
       "gpu_count": null,
-      "anchor_tenant": "Unnamed customer (five-year arrangement, about $1.32bn)",
+      "anchor_tenant": "Unnamed customer (five-year arrangement, about $1.32 billion)",
       "contract_years": 5,
       "financing": [],
       "expected_completion": "Phases during 2027",

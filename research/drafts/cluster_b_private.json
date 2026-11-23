@@ -192,7 +192,9 @@
             "display_eligible": false,
             "lower_bound": false,
             "evidence": []
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 0
         }
       ],
       "credit": {
@@ -575,7 +577,7 @@
               "ent_lambda"
             ],
             "direction": "mixed",
-            "text": "Lambda's rated GPU loans rest on the GPUs they fund and on investment-grade offtakers' contracts; whether Nvidia is one of those Lambda offtakers is reported but unconfirmed.",
+            "text": "Lambda's rated GPU loans rest on the GPUs they fund and on contracts with investment-grade offtakers that Lambda does not name, so no source shows whether Nvidia's stake sits beside a loan that depends on Nvidia.",
             "evidence": [
               "ev_110003",
               "ev_110005",
@@ -1085,18 +1087,18 @@
         ],
         "second_order": [
           {
-            "trigger": "Crusoe's value falls",
-            "mechanism": "Valor Equity Partners and Mubadala Capital co-led the same Crusoe round",
+            "trigger": "Crusoe's finances weaken",
+            "mechanism": "Lenders whose facility bought Nvidia GPUs are repaid before equity holders such as Nvidia",
             "affected": [
               "ent_valor",
               "ent_crusoe"
             ],
             "direction": "negative",
-            "text": "Valor Equity Partners and Mubadala Capital co-led the Crusoe Series E that Nvidia joined, so a fall in Crusoe's value would hit those leads alongside Nvidia.",
-            "lens": "contagion",
+            "text": "Crusoe's $225 million Upper90 credit facility is used only to buy NVIDIA GPUs and ranks ahead of the Series E equity Nvidia joined, so Nvidia's Crusoe stake sits below debt that funds Nvidia sales (analysis).",
+            "lens": "collateral_loop",
             "evidence": [
-              "ev_110017",
-              "ev_110018"
+              "ev_110025",
+              "ev_110026"
             ]
           }
         ]
@@ -1511,9 +1513,9 @@
       "to": "ent_firmus",
       "type_primary": "EQ",
       "types_secondary": [],
-      "title": "Nvidia participation in the Firmus A$330m placement",
+      "title": "Nvidia participation in the Firmus A$330 million placement",
       "insight_template": "Nvidia joined a {counterparty} share placement for an undisclosed amount, so the size of its stake cannot be stated.",
-      "definition": "Firmus closed an A$330m equity placement in September 2025 with a cornerstone investment by Ellerston Capital and participation from NVIDIA. Nvidia's amount is not disclosed. The figure is in Australian dollars.",
+      "definition": "Firmus closed an A$330 million equity placement in September 2025 with a cornerstone investment by Ellerston Capital and participation from NVIDIA. Nvidia's amount is not disclosed. The figure is in Australian dollars.",
       "status": "completed",
       "claim_basis": "company_announced",
       "amounts": {
@@ -1609,7 +1611,7 @@
               "ent_firmus"
             ],
             "direction": "negative",
-            "text": "Nvidia joined the A$330m Firmus placement of September 2025 beside cornerstone Ellerston Capital with no amount stated, so this stake rides on the same unbuilt Firmus sites as its later rounds.",
+            "text": "Nvidia joined the A$330 million Firmus placement of September 2025 beside cornerstone Ellerston Capital with no amount stated, so this stake rides on the same unbuilt Firmus sites as its later rounds.",
             "evidence": [
               "ev_110062"
             ]
@@ -1638,7 +1640,7 @@
         {
           "entity": "ent_coatue",
           "role": "co_investor",
-          "description": "Led the USD505 million round and followed on in the USD2 billion round alongside Nvidia; also supports the Blackstone led debt facility.",
+          "description": "Led the $505 million round and followed on in the $2 billion round alongside Nvidia; also supports the Blackstone led debt facility.",
           "amount": null,
           "evidence": [
             "ev_110029",
@@ -1697,9 +1699,9 @@
       "to": "ent_firmus",
       "type_primary": "EQ",
       "types_secondary": [],
-      "title": "Nvidia participation in the Firmus USD505 million round",
+      "title": "Nvidia participation in the Firmus $505 million round",
       "insight_template": "{counterparty} said Nvidia would join its round subject to closing conditions; no source confirms the closing, so this stake may not exist.",
-      "definition": "Firmus announced that it expected to secure a further USD505 million strategic equity investment led by Coatue, with NVIDIA participating subject to certain closing conditions. Nikkei Asia reported the raise as including a further infusion from Nvidia. Nvidia's amount is not disclosed.",
+      "definition": "Firmus announced that it expected to secure a further $505 million strategic equity investment led by Coatue, with NVIDIA participating subject to certain closing conditions. Nikkei Asia reported the raise as including a further infusion from Nvidia. Nvidia's amount is not disclosed.",
       "status": "definitive",
       "claim_basis": "company_announced",
       "amounts": {
@@ -1804,18 +1806,20 @@
         ],
         "second_order": [
           {
-            "trigger": "Firmus later prices below this round",
-            "mechanism": "Coatue led the Firmus round at a USD5.5 billion post-money valuation beside Nvidia",
+            "trigger": "The $505 million Firmus round fails to close for Nvidia",
+            "mechanism": "Nvidia's Firmus exposure is carried by the later round only",
             "affected": [
               "ent_coatue",
               "ent_firmus"
             ],
             "direction": "negative",
-            "text": "Coatue led the Firmus round at a USD5.5 billion post-money valuation beside Nvidia, so a lower later Firmus price would mark down Coatue and Nvidia together.",
-            "lens": "contagion",
+            "text": "Firmus's later $2 billion round names Nvidia as a follow-on investor, so if the $505 million round never closed for Nvidia, Nvidia's Firmus stake rests on the later round alone (analysis).",
+            "lens": "signaling",
             "evidence": [
-              "ev_110031",
-              "ev_110029"
+              "ev_110032",
+              "ev_110033",
+              "ev_110029",
+              "ev_110030"
             ]
           }
         ]
@@ -1825,7 +1829,7 @@
         {
           "entity": "ent_coatue",
           "role": "co_investor",
-          "description": "Led the USD505 million round and followed on in the USD2 billion round alongside Nvidia; also supports the Blackstone led debt facility.",
+          "description": "Led the $505 million round and followed on in the $2 billion round alongside Nvidia; also supports the Blackstone led debt facility.",
           "amount": null,
           "evidence": [
             "ev_110029",
@@ -1892,7 +1896,9 @@
         "ev_110029",
         "ev_110030",
         "ev_110031",
-        "ev_110063"
+        "ev_110063",
+        "ev_110032",
+        "ev_110033"
       ],
       "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23. Status set to definitive (R9 review): Nvidia's participation was subject to certain closing conditions (ev_110030) and no source confirms closing; the August 2026 release's 'follow-on participation from Coatue and NVIDIA' (ev_110033) refers to the later round and does not show this round closed."
     },
@@ -1902,9 +1908,9 @@
       "to": "ent_firmus",
       "type_primary": "EQ",
       "types_secondary": [],
-      "title": "Nvidia follow-on in the Firmus USD2 billion round",
+      "title": "Nvidia follow-on in the Firmus $2 billion round",
       "insight_template": "{counterparty} names Nvidia as a follow-on participant in its latest round for an undisclosed amount, ranking behind a large debt facility led by Blackstone.",
-      "definition": "Firmus announced full commitments for a USD2 billion strategic equity round in August 2026, with follow-on participation from Coatue and NVIDIA and new investment from Blackstone funds and Jane Street. Firmus says total new equity raised over the past year exceeds USD3 billion at a post-money valuation above USD10.5 billion. Nvidia's amount is not disclosed.",
+      "definition": "Firmus announced full commitments for a $2 billion strategic equity round in August 2026, with follow-on participation from Coatue and NVIDIA and new investment from Blackstone funds and Jane Street. Firmus says total new equity raised over the past year exceeds $3 billion at a post-money valuation above $10.5 billion. Nvidia's amount is not disclosed.",
       "status": "definitive",
       "claim_basis": "company_announced",
       "amounts": {
@@ -2015,10 +2021,11 @@
               "ent_firmus"
             ],
             "direction": "negative",
-            "text": "One news report, unconfirmed, says Firmus withdrew its Australian listing application; if so, Firmus's next funding would again come from private investors such as Nvidia, Coatue and Blackstone.",
+            "text": "One news report, unconfirmed, says Firmus withdrew its Australian listing application; if so, Firmus stays privately funded, with Coatue and Nvidia as named equity investors and a Blackstone-led debt facility (analysis).",
             "evidence": [
               "ev_110048",
-              "ev_110033"
+              "ev_110033",
+              "ev_110035"
             ]
           }
         ],
@@ -2061,7 +2068,7 @@
         {
           "entity": "ent_coatue",
           "role": "co_investor",
-          "description": "Led the USD505 million round and followed on in the USD2 billion round alongside Nvidia; also supports the Blackstone led debt facility.",
+          "description": "Led the $505 million round and followed on in the $2 billion round alongside Nvidia; also supports the Blackstone led debt facility.",
           "amount": null,
           "evidence": [
             "ev_110029",
@@ -2398,7 +2405,7 @@
       "types_secondary": [],
       "title": "Nvidia participation in the Together AI Series A",
       "insight_template": "Nvidia's first {counterparty} stake came in a Series A led by Kleiner Perkins, with no amount stated by either side.",
-      "definition": "Together AI raised a $102.5M Series A in November 2023 led by Kleiner Perkins, with participation from NVIDIA and Emergence Capital. Nvidia's amount is not disclosed.",
+      "definition": "Together AI raised a $102.5 million Series A in November 2023 led by Kleiner Perkins, with participation from NVIDIA and Emergence Capital. Nvidia's amount is not disclosed.",
       "status": "completed",
       "claim_basis": "company_announced",
       "amounts": {
@@ -2495,7 +2502,7 @@
               "ent_together_ai"
             ],
             "direction": "negative",
-            "text": "Nvidia's first Together AI stake came in a $102.5M Series A led by Kleiner Perkins with no amount stated, so it is small unless sized and rides on the same Together AI demand as later rounds.",
+            "text": "Nvidia's first Together AI stake came in a $102.5 million Series A led by Kleiner Perkins with no amount stated, so it is small unless sized and rides on the same Together AI demand as later rounds.",
             "evidence": [
               "ev_110053",
               "ev_110064"
@@ -2655,7 +2662,8 @@
             "text": "Together AI said its Series B funds a deployment of NVIDIA Blackwell GPUs, so part of the round Nvidia joined returns to Nvidia as hardware demand (analysis).",
             "lens": "revenue_quality",
             "evidence": [
-              "ev_110054"
+              "ev_110054",
+              "ev_220003"
             ]
           }
         ]
@@ -2685,7 +2693,8 @@
       "evidence": [
         "ev_110055",
         "ev_110054",
-        "ev_40120"
+        "ev_40120",
+        "ev_220003"
       ],
       "notes": "Share class not disclosed; seniority recorded as common_equity by default (unknown). Nvidia amount not disclosed by either side as of 2026-11-23."
     },

@@ -112,7 +112,7 @@
           "last_verified": null,
           "note": "Not disclosed. Top two customers were about 54% of Q3 2026 revenue (30% and 24%, ev_20101); FY2024 top two 77% (ev_20036)."
         },
-        "collateral_note": "All GPUs in the fleet are NVIDIA GPUs (ev_20127) and customers contractually specify them (ev_20128). Computing equipment is depreciated over six years, changed from five in 2023 (ev_20130). Delayed draw term loans sit in special purpose vehicles that hold the financed infrastructure and the customer contracts (ev_20087); they are sized on the depreciable cost of GPU servers (ev_20144). SPV debt was secured by $22.2bn of non-current assets at 2026-09-30 (ev_20086). DDTL 3.0 tracks collateral GPU by GPU using serial-number documents from NVIDIA or Dell (ev_20210). Latest generation deployed: Vera Rubin NVL72 (ev_20183).",
+        "collateral_note": "All GPUs in the fleet are NVIDIA GPUs (ev_20127) and customers contractually specify them (ev_20128). Computing equipment is depreciated over six years, changed from five in 2023 (ev_20130). Delayed draw term loans sit in special purpose vehicles that hold the financed infrastructure and the customer contracts (ev_20087); they are sized on the depreciable cost of GPU servers (ev_20144). SPV debt was secured by $22.2 billion of non-current assets at 2026-09-30 (ev_20086). DDTL 3.0 tracks collateral GPU by GPU using serial-number documents from NVIDIA or Dell (ev_20210). Latest generation deployed: Vera Rubin NVL72 (ev_20183).",
         "market_signals": [
           {
             "signal": "Value per CoreWeave share implied by Nvidia's 13F",
@@ -169,7 +169,7 @@
           }
         ],
         "grade": "Weak",
-        "grade_reason": "Two of four rubric columns are sourced. Debt due within 24 months over cash plus undrawn is at least 1.36 ($13,407m lower bound over $9,837m), which is Watch; top customer share of 33% is Adequate. Weakest column Watch, moved down one step to Weak because the maturity ratio is a lower bound (about 1.78 if three quarters of 2028 principal is pro-rated, analysis), DDTL 3.0 needed covenant relief in December 2025, disclosure controls were not effective at 2026-09-30, and $1.9bn of deferred revenue moved to liabilities as contracts became cancellable. Liquidity cover and a corporate rating are not sourced. Not Distressed: no missed payment, no going concern language, in covenant compliance at 2026-09-30 (ev_20074, ev_20119).",
+        "grade_reason": "Two of four rubric columns are sourced. Debt due within 24 months over cash plus undrawn is at least 1.36 ($13,407 million lower bound over $9,837 million), which is Watch; top customer share of 33% is Adequate. Weakest column Watch, moved down one step to Weak because the maturity ratio is a lower bound (about 1.78 if three quarters of 2028 principal is pro-rated, analysis), DDTL 3.0 needed covenant relief in December 2025, disclosure controls were not effective at 2026-09-30, and $1.9 billion of deferred revenue moved to liabilities as contracts became cancellable. Liquidity cover and a corporate rating are not sourced. Not Distressed: no missed payment, no going concern language, in covenant compliance at 2026-09-30 (ev_20074, ev_20119).",
         "notes": "Facility ratings only, no corporate rating found: DDTL 4.0 A3 (Moody's) and A (low) (DBRS) (ev_20169); DDTL 5.0 Ba2 and BB+ (Fitch) (ev_20177); DDTL 5.5 Ba2 and BB+ (ev_20155). Material weaknesses continued at 2025-12-31 (ev_20132) and disclosure controls were not effective at 2026-09-30 (ev_20148). Covenant relief: the DDTL 3.0 First Amendment of 2025-12-31 aligned the facility with delivery delays (ev_20201), cut minimum liquidity to $100m (ev_20202) from a schedule of up to $175m (ev_20211), postponed the first debt service coverage test (ev_20203) and allowed unlimited equity cures (ev_20204). Cross-default in DDTL 5.5 above $35m (ev_20160) and cross-acceleration in the 2033 convertible indenture above the greater of $200m and 5% of LTM EBITDA (ev_70004). $1.9bn of deferred revenue reclassified to liabilities as contracts became cancellable (ev_20118, ev_20098). RPO $132.3bn at 2026-09-30, 36% within 24 months (ev_20095, ev_20096). Accumulated deficit $4.7bn (ev_20110).",
         "evidence": [
           "ev_20071",
@@ -283,7 +283,7 @@
       "ticker": null,
       "cik": null,
       "country": "US",
-      "description": "Co-led CoreWeave's DDTL 2.0, holds a $195m loan to CoreWeave and is a related party.",
+      "description": "Co-led CoreWeave's DDTL 2.0, holds a $195 million loan to CoreWeave and is a related party.",
       "domains": [],
       "evidence": [
         "ev_20147",
@@ -445,7 +445,7 @@
       "ticker": null,
       "cik": null,
       "country": "US",
-      "description": "CoreWeave customer whose March 2025 master services agreement and order form back DDTL 3.0; committed up to about $11.9bn and $6.5bn.",
+      "description": "CoreWeave customer whose March 2025 master services agreement and order form back DDTL 3.0; committed up to about $11.9 billion and $6.5 billion.",
       "domains": [],
       "evidence": [
         "ev_20207",
@@ -482,7 +482,7 @@
       "ticker": null,
       "cik": null,
       "country": "US",
-      "description": "CoreWeave customer that initially committed up to about $21.0bn through December 2032.",
+      "description": "CoreWeave customer that initially committed up to about $21 billion through December 2032.",
       "domains": [],
       "evidence": [
         "ev_20103",
@@ -588,7 +588,8 @@
                 "ev_20114",
                 "ev_20145"
               ],
-              "note": "22,935,780 shares at $87.20 in cash, 2026-01-23"
+              "note": "22,935,780 shares at $87.20 in cash, 2026-01-23",
+              "paid_on": "2026-01-23"
             }
           ],
           "note": "Only purchases a source states are summed. Excluded as not stated: the cost of the pre-IPO holding of 17,932,460 shares; about 6,250,000 shares added between the 424B4 table and the 2025-03-31 13G, reported by CNBC and Axios as a $250m IPO anchor order (needs quote, analysis); and 95,113 shares added between the 2025-03-31 and 2025-06-30 13F reports (analysis)."
@@ -640,7 +641,8 @@
         "percent_voting_evidence": [
           "ev_20024"
         ],
-        "note": "11.5% of Class A at 2026-01-23 per Nvidia's 13G/A (ev_20020). Analysis: 10.29% on 458,871,690 Class A shares outstanding at 2026-07-31 (ev_20040)."
+        "note": "11.5% of Class A at 2026-01-23 per Nvidia's 13G/A (ev_20020). Analysis: 10.29% on 458,871,690 Class A shares outstanding at 2026-07-31 (ev_20040).",
+        "instrument": "common"
       },
       "dates": {
         "announced": "2026-01-26",
@@ -730,15 +732,15 @@
       "credit": {
         "wwr": "general",
         "wwr_reason": "Equity value falls with CoreWeave's results and the AI demand cycle, but the exposure does not grow when CoreWeave weakens: the loss is capped at what Nvidia paid and the market value already reflects the share price.",
-        "collateral": "None. Common equity ranks behind about $47.5bn of principal (ev_20071), including $22.2bn of SPV debt secured by non-current assets (ev_20086).",
+        "collateral": "None. Common equity ranks behind about $47.5 billion of principal (ev_20071), including $22.2 billion of SPV debt secured by non-current assets (ev_20086).",
         "tenor": "Open-ended holding; no lock-up or put found.",
         "notes": "Nvidia carried the pre-IPO stake at $843m in non-marketable equity before reclassifying it in FY2026 Q1 (ev_10185); fair value $1 billion at 2025-04-27 (ev_10187) and $2.8 billion at 2025-07-27 (ev_10173). Later Nvidia filings do not give a CoreWeave-specific value. Nvidia files under Rule 13d-1(c) as a passive investor (ev_20021)."
       },
       "consequences": {
         "first_order": [
           {
-            "trigger": "CoreWeave cannot refinance the $10,974m of principal due in 2027 or breaches a facility covenant",
-            "mechanism": "CoreWeave common equity ranks behind about $47.5bn of principal, so Nvidia's stake absorbs losses first",
+            "trigger": "CoreWeave cannot refinance the $10,974 million of principal due in 2027 or breaches a facility covenant",
+            "mechanism": "CoreWeave common equity ranks behind about $47.5 billion of principal, so Nvidia's stake absorbs losses first",
             "affected": [
               "ent_nvidia",
               "ent_coreweave"
@@ -817,7 +819,7 @@
           {
             "lens": "collateral_loop",
             "trigger": "CoreWeave's SPV lenders enforce on GPU collateral",
-            "mechanism": "CoreWeave's delayed draw loans are sized on the depreciable cost of GPU servers and secured by $22.2bn of assets; a forced sale would set lower prices for used Nvidia GPUs",
+            "mechanism": "CoreWeave's delayed draw loans are sized on the depreciable cost of GPU servers and secured by $22.2 billion of assets; a forced sale would set lower prices for used Nvidia GPUs",
             "affected": [
               "ent_mufg",
               "ent_blackstone",
@@ -897,7 +899,7 @@
         {
           "entity": "ent_magnetar",
           "role": "co_investor",
-          "description": "Related party and lender to CoreWeave alongside Nvidia's equity; holds a $195m loan maturing January 2029.",
+          "description": "Related party and lender to CoreWeave alongside Nvidia's equity; holds a $195 million loan maturing January 2029.",
           "amount": {
             "value": 195000000,
             "as_of": "2026-09-30",
@@ -921,7 +923,7 @@
         {
           "entity": "ent_us_bank",
           "role": "bondholder",
-          "description": "Trustee for the $4.2bn 2.875% convertible notes due 2033, unsecured and senior to Nvidia's common stock.",
+          "description": "Trustee for the $4.2 billion 2.875% convertible notes due 2033, unsecured and senior to Nvidia's common stock.",
           "amount": {
             "value": 4200000000,
             "as_of": "2026-09-22",
@@ -946,7 +948,7 @@
         {
           "entity": "ent_jpmorgan",
           "role": "lender",
-          "description": "Agent on CoreWeave's revolving credit facility ($1,200m drawn) and DDTL 5.5, both ahead of Nvidia's equity.",
+          "description": "Agent on CoreWeave's revolving credit facility ($1,200 million drawn) and DDTL 5.5, both ahead of Nvidia's equity.",
           "amount": {
             "value": 1200000000,
             "as_of": "2026-09-30",
@@ -1278,7 +1280,7 @@
         {
           "entity": "ent_openai",
           "role": "offtaker",
-          "description": "Buys reserved CoreWeave capacity ahead of Nvidia's residual purchase; committed up to about $11.9bn through October 2030 and up to about $6.5bn through May 2031.",
+          "description": "Buys reserved CoreWeave capacity ahead of Nvidia's residual purchase; committed up to about $11.9 billion through October 2030 and up to about $6.5 billion through May 2031.",
           "amount": {
             "value": 11900000000,
             "as_of": "2026-03-02",
@@ -1302,7 +1304,7 @@
         {
           "entity": "ent_meta",
           "role": "offtaker",
-          "description": "Initially committed up to about $21.0bn through December 2032; its take-up reduces what Nvidia must buy.",
+          "description": "Initially committed up to about $21 billion through December 2032; its take-up reduces what Nvidia must buy.",
           "amount": {
             "value": 21000000000,
             "as_of": "2026-11-12",
@@ -1475,7 +1477,7 @@
       "reconciliation": {
         "result": "one_sided",
         "nvidia_side": "No disclosure found as of 2026-11-23. Nvidia names no counterparty for its multi-year cloud service agreements ($26 billion at 2025-10-26, ev_10151; $27 billion at 2026-01-25 by year, ev_10120). Nvidia's filings state no related-party transactions.",
-        "counterparty_side": "CoreWeave discloses the MSA with NVIDIA dated 2023-04-10 as a related-party transaction and a material contract, and the payments: about $320m cumulative to 2024-12-31, $326.3m in 2025 and $59.6m in Q1 2026.",
+        "counterparty_side": "CoreWeave discloses the MSA with NVIDIA dated 2023-04-10 as a related-party transaction and a material contract, and the payments: about $320 million cumulative to 2024-12-31, $326.3 million in 2025 and $59.6 million in Q1 2026.",
         "nvidia_evidence": [],
         "counterparty_evidence": [
           "ev_20029",
@@ -1825,7 +1827,7 @@
           {
             "lens": "lender_reliance",
             "trigger": "CoreWeave's lease commitments grow with the buildout",
-            "mechanism": "CoreWeave had $47.4bn of undiscounted payments on leases not yet commenced; landlords' lenders rely on CoreWeave's credit",
+            "mechanism": "CoreWeave had $47.4 billion of undiscounted payments on leases not yet commenced; landlords' lenders rely on CoreWeave's credit",
             "affected": [
               "ent_coreweave"
             ],
@@ -1887,7 +1889,7 @@
       "contract_years": null,
       "financing": [
         {
-          "facility": "DDTL 1.0 (up to $2.3bn, July 2023)",
+          "facility": "DDTL 1.0 (up to $2.3 billion, July 2023)",
           "lenders": [
             "ent_us_bank"
           ],
@@ -1942,7 +1944,7 @@
       "contract_years": null,
       "financing": [
         {
-          "facility": "DDTL 2.0 (up to $7.6bn, May 2024)",
+          "facility": "DDTL 2.0 (up to $7.6 billion, May 2024)",
           "lenders": [
             "ent_blackstone",
             "ent_magnetar"
@@ -1974,7 +1976,7 @@
           ]
         },
         {
-          "facility": "DDTL 2.1 tranche (up to $3.0bn, September 2025)",
+          "facility": "DDTL 2.1 tranche (up to $3 billion, September 2025)",
           "lenders": [],
           "balance": {
             "value": 2494000000,
@@ -2026,7 +2028,7 @@
       "contract_years": null,
       "financing": [
         {
-          "facility": "DDTL 3.0 (up to $2.6bn, July 2025; First Amendment 2025-12-31)",
+          "facility": "DDTL 3.0 (up to $2.6 billion, July 2025; First Amendment 2025-12-31)",
           "lenders": [
             "ent_mufg",
             "ent_us_bank"
@@ -2049,7 +2051,7 @@
           "collateral_value": null,
           "secured_by": "OpenAI master services agreement of 2025-03-07 and Reserved Compute Instance Order Form #1 (Phoenix 1), and the GPU infrastructure; SOFR plus 4.00%; matures August 2030",
           "covenant_ltv": null,
-          "covenant": "Minimum liquidity cut to $100m (from up to $175m); first debt service coverage test postponed; unlimited equity cures before 2026-10-28; contract realization ratio",
+          "covenant": "Minimum liquidity cut to $100 million (from up to $175 million); first debt service coverage test postponed; unlimited equity cures before 2026-10-28; contract realization ratio",
           "evidence": [
             "ev_20136",
             "ev_20048",
@@ -2091,7 +2093,7 @@
       "contract_years": null,
       "financing": [
         {
-          "facility": "DDTL 4.0 (up to $8.5bn, $7.5bn initially, March 2026)",
+          "facility": "DDTL 4.0 (up to $8.5 billion, $7.5 billion initially, March 2026)",
           "lenders": [
             "ent_mufg",
             "ent_morgan_stanley"
@@ -2170,7 +2172,7 @@
       "contract_years": null,
       "financing": [
         {
-          "facility": "DDTL 5.0 ($3.1bn, May 2026)",
+          "facility": "DDTL 5.0 ($3.1 billion, May 2026)",
           "lenders": [
             "ent_morgan_stanley",
             "ent_mufg"
@@ -2230,7 +2232,7 @@
       "contract_years": 3,
       "financing": [
         {
-          "facility": "DDTL 5.5 ($2.6bn, August 2026)",
+          "facility": "DDTL 5.5 ($2.6 billion, August 2026)",
           "lenders": [
             "ent_jpmorgan",
             "ent_mufg",
@@ -2264,7 +2266,7 @@
           "collateral_value": null,
           "secured_by": "SPV GPU servers and five customer MSAs (names redacted); SOFR plus 5.50%; matures 2031-09-01; rated Ba2 and BB+; mandatory prepayment on events affecting the customer contracts",
           "covenant_ltv": null,
-          "covenant": "Debt service coverage of at least 1.35x; cross-default above $35m; Qualified Customer test met by borrower certification",
+          "covenant": "Debt service coverage of at least 1.35x; cross-default above $35 million; Qualified Customer test met by borrower certification",
           "evidence": [
             "ev_20083",
             "ev_20084",

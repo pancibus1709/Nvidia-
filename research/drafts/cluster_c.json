@@ -93,7 +93,7 @@
         "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
         "market_signals": [],
         "grade": "Adequate",
-        "grade_reason": "Two columns sourced: public rating BBB (investment grade, Strong) and debt due within 12 months of $3.8B against $69.0B of cash, short-term investments and undrawn revolvers (ratio under 0.5, Strong, but the 24 month figure is a lower bound). Adjusted down one step: the rating was cut in August 2025, the agency is not named, and Intel carries a $13.7B liability for shares escrowed for the US government.",
+        "grade_reason": "Two columns sourced: public rating BBB (investment grade, Strong) and debt due within 12 months of $3.8 billion against $69 billion of cash, short-term investments and undrawn revolvers (ratio under 0.5, Strong, but the 24 month figure is a lower bound). Adjusted down one step: the rating was cut in August 2025, the agency is not named, and Intel carries a $13.7 billion liability for shares escrowed for the US government.",
         "notes": "Rating agency not named in the 10-K (ev_60026). Debt $50.1B and cash plus short-term investments $54.0B at 2026-09-26. August 2026 common stock offering raised $23.0B gross (ev_60015). Revolving facilities of $15.0B undrawn from 2026-10-01 (ev_60019, ev_60020)."
       }
     },
@@ -701,7 +701,18 @@
             "ev_60006",
             "ev_60010"
           ],
-          "note": "214,776,632 shares at $23.28 in cash, closed 2025-12-26. Cost of the shares sold later is not disclosed."
+          "note": "214,776,632 shares at $23.28 in cash, closed 2025-12-26. Cost of the shares sold later is not disclosed.",
+          "components": [
+            {
+              "value": 5000000000,
+              "evidence": [
+                "ev_60006",
+                "ev_60010"
+              ],
+              "note": "Issuance and sale completed 2025-12-26 (8-K, ev_60006).",
+              "paid_on": "2025-12-26"
+            }
+          ]
         },
         "contingent_max": {
           "value": 0,
@@ -741,7 +752,8 @@
           "ev_60005"
         ],
         "note": "214,776,632 shares at 2025-12-31 and 2026-06-30; 161,082,488 at 2026-09-30, a reduction of 53,694,144 shares (analysis). No source states the sale price, date or reason. Percent of class not computed. shares_acquired: 214,776,632 shares bought for the funded amount (Intel 8-K of 2025-12-29, ev_60005).",
-        "shares_acquired": 214776632
+        "shares_acquired": 214776632,
+        "instrument": "common"
       },
       "dates": {
         "announced": "2025-09-18",
@@ -802,7 +814,7 @@
       "credit": {
         "wwr": "general",
         "wwr_reason": "Equity loss is capped at cost and does not grow if Intel weakens; Intel's value and the joint products both depend on data center and AI demand, so the stake moves with the AI cycle.",
-        "collateral": "None. Common stock, last in line behind $50.1B of Intel debt.",
+        "collateral": "None. Common stock, last in line behind $50.1 billion of Intel debt.",
         "tenor": "Open ended; no lock-up or standstill found in Intel's filings.",
         "notes": "The agreement gives Nvidia no governance or information rights (ev_60004). Co-investors in the same period: SoftBank at $23.00 per share and the US government."
       },
@@ -1007,7 +1019,18 @@
             "ev_60036",
             "ev_30038"
           ],
-          "note": "Completion 2025-11-13 (ev_60041); Nokia's 20-F reports USD 1 000 million total proceeds (ev_60035) and EUR 859 million cash received (ev_60030)."
+          "note": "Completion 2025-11-13 (ev_60041); Nokia's 20-F reports USD 1 000 million total proceeds (ev_60035) and EUR 859 million cash received (ev_60030).",
+          "components": [
+            {
+              "value": 1000000000,
+              "evidence": [
+                "ev_60036",
+                "ev_30038"
+              ],
+              "note": "Directed share issuance completed 2025-11-13 (Nokia 6-K, ev_60041).",
+              "paid_on": "2025-11-13"
+            }
+          ]
         },
         "contingent_max": {
           "value": 0,
@@ -1047,7 +1070,8 @@
           "ev_60033"
         ],
         "note": "166,389,351 ADS at 2025-12-31 through 2026-06-30; 72,859,751 at 2026-09-30, a reduction of 93,529,600 (56%, analysis). 2.90% of Nokia at issuance (ev_60038). No allowed source states why or when Nvidia sold. shares_acquired: 166,389,351 shares bought for the funded amount (Nokia 20-F, ev_60033).",
-        "shares_acquired": 166389351
+        "shares_acquired": 166389351,
+        "instrument": "common"
       },
       "dates": {
         "announced": "2025-10-28",
@@ -1227,6 +1251,18 @@
             "ev_60045",
             "ev_60047",
             "ev_30039"
+          ],
+          "components": [
+            {
+              "value": 2000000000,
+              "evidence": [
+                "ev_60045",
+                "ev_60047",
+                "ev_30039"
+              ],
+              "note": "Nvidia purchased the shares under the agreement of 2025-12-01 (8-K, ev_60045).",
+              "paid_on": "2025-12-01"
+            }
           ]
         },
         "contingent_max": {
@@ -1267,7 +1303,8 @@
           "ev_60042"
         ],
         "note": "4,821,717 shares at 2025-12-31 through 2026-06-30; 4,354,077 at 2026-09-30, a reduction of 467,640 (analysis). No source states why. shares_acquired: 4,821,717 shares bought for the funded amount (Synopsys 8-K of 2025-12-01, ev_60042).",
-        "shares_acquired": 4821717
+        "shares_acquired": 4821717,
+        "instrument": "common"
       },
       "dates": {
         "announced": "2025-12-01",
@@ -1314,7 +1351,7 @@
       "credit": {
         "wwr": "general",
         "wwr_reason": "Synopsys sells design and simulation software whose demand follows chip design spending, much of it now for AI chips; equity loss is capped at cost and does not grow with distress.",
-        "collateral": "None. Common stock behind $9.0B of long-term debt.",
+        "collateral": "None. Common stock behind $9 billion of long-term debt.",
         "tenor": "Open ended; no lock-up found.",
         "notes": ""
       },
@@ -1429,6 +1466,17 @@
           "evidence": [
             "ev_60052",
             "ev_60059"
+          ],
+          "components": [
+            {
+              "value": 2000000000,
+              "evidence": [
+                "ev_60052",
+                "ev_60059"
+              ],
+              "note": "Issuance and sale completed 2026-03-31 (8-K, ev_60052).",
+              "paid_on": "2026-03-31"
+            }
           ]
         },
         "contingent_max": {
@@ -1463,7 +1511,8 @@
           "ev_60051",
           "ev_60053"
         ],
-        "note": "Preferred shares, convertible into up to 21,778,000 common shares. No later change found."
+        "note": "Preferred shares, convertible into up to 21,778,000 common shares. No later change found.",
+        "instrument": "preferred"
       },
       "dates": {
         "announced": "2026-03-31",
@@ -1638,6 +1687,17 @@
           "evidence": [
             "ev_60066",
             "ev_60072"
+          ],
+          "components": [
+            {
+              "value": 2000000000,
+              "evidence": [
+                "ev_60066",
+                "ev_60072"
+              ],
+              "note": "Issuance and sale completed 2026-03-02 (8-K, ev_60066).",
+              "paid_on": "2026-03-02"
+            }
           ]
         },
         "contingent_max": {
@@ -1671,7 +1731,8 @@
         "evidence": [
           "ev_60064"
         ],
-        "note": "Lumentum's balance sheet shows 2.9 million preferred shares still outstanding at 2026-09-26, so no conversion as of that date (analysis)."
+        "note": "Lumentum's balance sheet shows 2.9 million preferred shares still outstanding at 2026-09-26, so no conversion as of that date (analysis).",
+        "instrument": "preferred"
       },
       "dates": {
         "announced": "2026-03-02",
@@ -1835,6 +1896,17 @@
           "evidence": [
             "ev_60077",
             "ev_60081"
+          ],
+          "components": [
+            {
+              "value": 2000000000,
+              "evidence": [
+                "ev_60077",
+                "ev_60081"
+              ],
+              "note": "Issuance and sale completed 2026-03-02 (8-K, ev_60077).",
+              "paid_on": "2026-03-02"
+            }
           ]
         },
         "contingent_max": {
@@ -1874,7 +1946,8 @@
           "ev_50026",
           "ev_60075"
         ],
-        "note": "Unchanged since the 2026-03-31 13F."
+        "note": "Unchanged since the 2026-03-31 13F.",
+        "instrument": "common"
       },
       "dates": {
         "announced": "2026-03-02",
@@ -1923,7 +1996,7 @@
       "credit": {
         "wwr": "general",
         "wwr_reason": "Coherent's optical transceiver demand moves with AI data center spending; equity loss is capped at cost and does not grow with distress.",
-        "collateral": "None. Common stock behind about $4.0B of debt.",
+        "collateral": "None. Common stock behind about $4 billion of debt.",
         "tenor": "Open ended; lock-up ended about September 2026.",
         "notes": ""
       },
@@ -2067,7 +2140,8 @@
           "ev_50002",
           "ev_50001"
         ],
-        "note": "Absent from the 2025-12-31 13F (analysis from the 13F list). Reduced from 1,960,784 ADS (2023-12-31) to 1,101,249 ADS by 2024-12-31."
+        "note": "Absent from the 2025-12-31 13F (analysis from the 13F list). Reduced from 1,960,784 ADS (2023-12-31) to 1,101,249 ADS by 2024-12-31.",
+        "instrument": "common"
       },
       "dates": {
         "announced": null,
@@ -2200,6 +2274,17 @@
           "evidence": [
             "ev_60088",
             "ev_60097"
+          ],
+          "components": [
+            {
+              "value": 500000000,
+              "evidence": [
+                "ev_60088",
+                "ev_60097"
+              ],
+              "note": "Warrants issued and sold to Nvidia under the agreement of 2026-05-06 (8-K, ev_60088).",
+              "paid_on": "2026-05-06"
+            }
           ]
         },
         "contingent_max": {
@@ -2235,7 +2320,8 @@
           "ev_60087",
           "ev_60102"
         ],
-        "note": "Shares issuable under both warrants; no exercise found."
+        "note": "Shares issuable under both warrants; no exercise found.",
+        "instrument": "warrant"
       },
       "dates": {
         "announced": "2026-05-06",
@@ -2252,7 +2338,7 @@
       "reconciliation": {
         "result": "partial",
         "nvidia_side": "Nvidia's Q1 FY2027 results release names multi-year strategic agreements with Coherent, Corning and Lumentum; no Nvidia filing or release names the Corning warrants or the $500 million paid.",
-        "counterparty_side": "Corning's 8-K (2026-05-06) reports the warrants, exercise prices and the $500 million purchase price; its September 2026 10-Q shows $500M proceeds from warrants and links a warrant to a customer deposit.",
+        "counterparty_side": "Corning's 8-K (2026-05-06) reports the warrants, exercise prices and the $500 million purchase price; its September 2026 10-Q shows $500 million proceeds from warrants and links a warrant to a customer deposit.",
         "nvidia_evidence": [
           "ev_50140"
         ],
@@ -2282,7 +2368,7 @@
       },
       "credit": {
         "wwr": "general",
-        "wwr_reason": "Corning's optical connectivity growth depends on AI data center buildouts; the loss is capped at the $500M paid and does not grow with distress.",
+        "wwr_reason": "Corning's optical connectivity growth depends on AI data center buildouts; the loss is capped at the $500 million paid and does not grow with distress.",
         "collateral": "None.",
         "tenor": "Three years to 2029-05-06, earlier if the partnership agreement terminates.",
         "notes": "Corning accounted part of the warrant value as consideration payable to a customer (ev_60096)."
@@ -2579,7 +2665,7 @@
       "reconciliation": {
         "result": "partial",
         "nvidia_side": "Nvidia's release (2026-11-17) says multiyear agreements announced in July and October 2026 total nearly $3 billion and include prepayments.",
-        "counterparty_side": "Amkor's June and September 2026 10-Qs report advance payment agreements signed in July 2026 (about $1.5B in 2027) and October 2026 (about $1.3B in 2027) with an unnamed customer, plus $200M of standby letters of credit for advances received.",
+        "counterparty_side": "Amkor's June and September 2026 10-Qs report advance payment agreements signed in July 2026 (about $1.5 billion in 2027) and October 2026 (about $1.3 billion in 2027) with an unnamed customer, plus $200 million of standby letters of credit for advances received.",
         "nvidia_evidence": [
           "ev_30065",
           "ev_30066"
@@ -2598,7 +2684,7 @@
           {
             "field": "amount",
             "nvidia_value": "nearly $3 billion of agreements including prepayments",
-            "counterparty_value": "about $1.5B plus about $1.3B of advances, customer not named",
+            "counterparty_value": "about $1.5 billion plus about $1.3 billion of advances, customer not named",
             "evidence": [
               "ev_30065",
               "ev_60111",
@@ -2619,7 +2705,7 @@
       "credit": {
         "wwr": "general",
         "wwr_reason": "The advances are credited against packaging work for Nvidia; if AI demand falls, Nvidia orders less, credits slow and the exposure lasts longer without growing.",
-        "collateral": "Amkor issues standby letters of credit for some customer advances ($200M outstanding at 2026-09-30); whether any cover Nvidia's advances is not stated.",
+        "collateral": "Amkor issues standby letters of credit for some customer advances ($200 million outstanding at 2026-09-30); whether any cover Nvidia's advances is not stated.",
         "tenor": "Advances expected in 2027; repayment period not stated.",
         "notes": "Amkor IR releases on ir.amkor.com could not be fetched (HTTP 403)."
       },

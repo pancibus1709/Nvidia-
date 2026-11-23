@@ -76,7 +76,9 @@
             "evidence": [
               "ev_120111"
             ]
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 0
         },
         {
           "counterparty": "ent_amazon",
@@ -95,7 +97,9 @@
             "evidence": [
               "ev_120028"
             ]
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 0
         },
         {
           "counterparty": "ent_coreweave",
@@ -115,7 +119,9 @@
               "ev_20199"
             ],
             "note": "Up to; CoreWeave's figure"
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 11900000000
         },
         {
           "counterparty": "ent_coreweave",
@@ -135,7 +141,9 @@
               "ev_20102"
             ],
             "note": "Up to; CoreWeave's figure"
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 6500000000
         },
         {
           "counterparty": "ent_sb_energy",
@@ -152,7 +160,9 @@
             "display_eligible": false,
             "lower_bound": false,
             "evidence": []
-          }
+          },
+          "kind": "lease",
+          "soft_amount": 0
         },
         {
           "counterparty": "ent_amd",
@@ -169,7 +179,9 @@
             "display_eligible": false,
             "lower_bound": false,
             "evidence": []
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 0
         },
         {
           "counterparty": "ent_broadcom",
@@ -186,7 +198,9 @@
             "display_eligible": false,
             "lower_bound": false,
             "evidence": []
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 0
         }
       ]
     },
@@ -308,7 +322,9 @@
             "evidence": [
               "ev_120045"
             ]
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 0
         },
         {
           "counterparty": "ent_amazon",
@@ -327,7 +343,9 @@
             "evidence": [
               "ev_120046"
             ]
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 0
         },
         {
           "counterparty": "ent_microsoft",
@@ -346,7 +364,9 @@
             "evidence": [
               "ev_120044"
             ]
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 0
         },
         {
           "counterparty": "ent_spacex",
@@ -366,7 +386,9 @@
               "ev_120047"
             ],
             "note": "Up to"
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 120500000000
         },
         {
           "counterparty": "ent_nscale",
@@ -387,7 +409,9 @@
               "ev_40029"
             ],
             "note": "Up to"
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 44600000000
         },
         {
           "counterparty": "ent_lambda",
@@ -406,7 +430,9 @@
             "evidence": [
               "ev_120050"
             ]
-          }
+          },
+          "kind": "contract",
+          "soft_amount": 34900000000
         },
         {
           "counterparty": "ent_broadcom",
@@ -425,7 +451,9 @@
             "evidence": [
               "ev_120051"
             ]
-          }
+          },
+          "kind": "lease",
+          "soft_amount": 0
         }
       ]
     },
@@ -635,7 +663,9 @@
                 "note": "lease three"
               }
             ]
-          }
+          },
+          "kind": "lease",
+          "soft_amount": 0
         },
         {
           "counterparty": "ent_apollo",
@@ -655,7 +685,9 @@
               "ev_120094"
             ],
             "note": "Expected aggregate principal, not yet closed"
-          }
+          },
+          "kind": "lease",
+          "soft_amount": 0
         }
       ]
     },
@@ -971,7 +1003,7 @@
       "reconciliation": {
         "result": "partial",
         "nvidia_side": "Nvidia release: intends to invest up to $100 billion progressively (ev_30021). Q3 FY26 10-Q: a letter of intent with an opportunity to invest in OpenAI (ev_10156). FY26 10-K (2026-02-25): finalizing an investment and partnership agreement (ev_10125). Q1 and Q2 FY27 10-Qs do not name OpenAI as an investee.",
-        "counterparty_side": "OpenAI release of the same date: NVIDIA intends to invest up to $100 billion progressively (ev_120020), details to be finalized (ev_120021). OpenAI has published nothing since that converts the letter of intent into a definitive agreement; its February 2026 round release describes a separate $30B investment.",
+        "counterparty_side": "OpenAI release of the same date: NVIDIA intends to invest up to $100 billion progressively (ev_120020), details to be finalized (ev_120021). OpenAI has published nothing since that converts the letter of intent into a definitive agreement; its February 2026 round release describes a separate $30 billion investment.",
         "nvidia_evidence": [
           "ev_30021",
           "ev_10156",
@@ -1075,9 +1107,9 @@
       "to": "ent_openai",
       "type_primary": "EQ",
       "types_secondary": [],
-      "title": "OpenAI 2026 funding round: Nvidia named for $30B",
+      "title": "OpenAI 2026 funding round: Nvidia named for $30 billion",
       "insight_template": "Nvidia committed {committed_total} to {counterparty}'s {dates.announced:year} round, yet neither company has disclosed how much Nvidia has actually paid in.",
-      "definition": "On 2026-02-27 OpenAI announced $110B of new investment at a $730B pre-money valuation, including $30B from NVIDIA, under a Series C Preferred Stock Purchase Agreement dated the same day. OpenAI closed the round on 2026-03-31 with $122 billion of committed capital, anchored by Amazon, NVIDIA and SoftBank. Nvidia's own filings do not name the investment, its instrument, tranches or the amount paid.",
+      "definition": "On 2026-02-27 OpenAI announced $110 billion of new investment at a $730 billion pre-money valuation, including $30 billion from NVIDIA, under a Series C Preferred Stock Purchase Agreement dated the same day. OpenAI closed the round on 2026-03-31 with $122 billion of committed capital, anchored by Amazon, NVIDIA and SoftBank. Nvidia's own filings do not name the investment, its instrument, tranches or the amount paid.",
       "status": "definitive",
       "claim_basis": "company_announced",
       "amounts": {
@@ -1124,7 +1156,10 @@
           "display_eligible": false,
           "lower_bound": false,
           "evidence": [],
-          "note": "Analysis: Nvidia's total unfunded equity commitments were $20 billion at 2026-10-25 (ev_120011). If the $30 billion OpenAI names is a binding commitment in that total, at least $10 billion had been paid by that date, and at least $13.5 billion after the $3.5 billion this register attributes to other investees. The exact amount is not disclosed."
+          "note": "Analysis: Nvidia's total unfunded equity commitments were $20 billion at 2026-10-25 (ev_120011). If the $30 billion OpenAI names is a binding commitment in that total, at least $10 billion had been paid by that date, and at least $13.5 billion after the $3.5 billion this register attributes to other investees. The exact amount is not disclosed.",
+          "floor": 10000000000,
+          "floor_as_of": "2026-10-25",
+          "floor_note": "Analysis: at least this much had been paid by that date if the commitment sits in Nvidia's $20 billion unfunded equity commitments total."
         },
         "contingent_max": {
           "value": 0,
@@ -1152,7 +1187,7 @@
       "reconciliation": {
         "result": "one_sided",
         "nvidia_side": "No disclosure found as of 2026-11-23 that names this investment. The FY26 10-K (filed 2026-02-25) says Nvidia was finalizing an investment and partnership agreement with OpenAI (ev_10125, recorded on the letter of intent). Later filings refer only to equity commitments in AI model makers or frontier labs, unnamed: $20 billion at 2026-10-25 (ev_120008, ev_120010, ev_120011).",
-        "counterparty_side": "OpenAI: $30B from NVIDIA in the $110B round at $730B pre-money (ev_120098); round closed with $122 billion committed at $852 billion post-money, anchored by NVIDIA (ev_120015, ev_120016, ev_120017). OpenAI's equity commitment letter with Amazon, filed by Amazon, names NVIDIA Corporation as an investor in the company (ev_120031) and the Series C Preferred Stock Purchase Agreement of 2026-02-27 (ev_120032).",
+        "counterparty_side": "OpenAI: $30 billion from NVIDIA in the $110 billion round at $730 billion pre-money (ev_120098); round closed with $122 billion committed at $852 billion post-money, anchored by NVIDIA (ev_120015, ev_120016, ev_120017). OpenAI's equity commitment letter with Amazon, filed by Amazon, names NVIDIA Corporation as an investor in the company (ev_120031) and the Series C Preferred Stock Purchase Agreement of 2026-02-27 (ev_120032).",
         "nvidia_evidence": [],
         "counterparty_evidence": [
           "ev_120098",
@@ -1208,7 +1243,7 @@
               "ent_openai"
             ],
             "direction": "negative",
-            "text": "SoftBank paid its USD 30.0 billion in three tranches beside Nvidia's OpenAI commitment, so a pause by Nvidia in OpenAI's next round would be read first by the same co-investors.",
+            "text": "SoftBank paid its $30 billion in three tranches beside Nvidia's OpenAI commitment, so a pause by Nvidia in OpenAI's next round would be read first by the same co-investors.",
             "lens": "signaling",
             "evidence": [
               "ev_120103",
@@ -1240,7 +1275,7 @@
         {
           "entity": "ent_softbank",
           "role": "co_investor",
-          "description": "SoftBank Group: definitive agreement of 2026-02-27 for USD 30.0 billion in three USD 10 billion tranches at a USD 730 billion pre-money valuation; completed 2026-10-01, cumulative USD 64.6 billion, about 13%.",
+          "description": "SoftBank Group: definitive agreement of 2026-02-27 for $30 billion in three $10 billion tranches at a $730 billion pre-money valuation; completed 2026-10-01, cumulative $64.6 billion, about 13%.",
           "amount": {
             "value": 30000000000,
             "as_of": "2026-10-01",
@@ -1908,7 +1943,14 @@
         "ev_120046",
         "ev_120051"
       ],
-      "notes": "Series G: $30 billion at $380 billion post-money, led by GIC and Coatue (ev_120067, ev_120068). Seniority: Series G was redeemable convertible preferred before the IPO conversion (analysis from the 424B4)."
+      "notes": "Series G: $30 billion at $380 billion post-money, led by GIC and Coatue (ev_120067, ev_120068). Seniority: Series G was redeemable convertible preferred before the IPO conversion (analysis from the 424B4).",
+      "holding": {
+        "shares": null,
+        "as_of": null,
+        "ticker": null,
+        "evidence": [],
+        "instrument": "preferred"
+      }
     },
     {
       "id": "rel_anthropic_eq_2026",
@@ -1966,7 +2008,17 @@
           "evidence": [
             "ev_120038"
           ],
-          "note": "Amount from the prospectus (ev_120038). The placement closed on 2026-11-20 (ev_120069), but the closing release gives only the aggregate for all seven buyers, so it cannot ground the Nvidia figure and is cited on the relationship instead."
+          "note": "Amount from the prospectus (ev_120038). The placement closed on 2026-11-20 (ev_120069), but the closing release gives only the aggregate for all seven buyers, so it cannot ground the Nvidia figure and is cited on the relationship instead.",
+          "components": [
+            {
+              "value": 10000000000,
+              "evidence": [
+                "ev_120038"
+              ],
+              "note": "Paid at the closing of the concurrent private placement on 2026-11-20 (closing release ev_120069); amount from the prospectus.",
+              "paid_on": "2026-11-20"
+            }
+          ]
         },
         "contingent_max": {
           "value": 0,
@@ -1990,7 +2042,8 @@
         "evidence": [
           "ev_120038",
           "ev_120069"
-        ]
+        ],
+        "instrument": "common"
       },
       "dates": {
         "announced": "2026-11-19",
@@ -2097,7 +2150,7 @@
               "ent_microsoft"
             ],
             "direction": "negative",
-            "text": "Nvidia's Anthropic shares carry no underwriter lock-up, so a sale by Nvidia would signal reduced supplier support to Anthropic's other strategic holders.",
+            "text": "Nvidia's Anthropic shares carry no underwriter lock-up, so a sale by Nvidia would signal reduced supplier support to Anthropic's other strategic holders (analysis).",
             "lens": "signaling",
             "evidence": [
               "ev_210001"
@@ -2345,7 +2398,8 @@
         "ticker": "SPCX",
         "evidence": [
           "ev_50031"
-        ]
+        ],
+        "instrument": "common"
       },
       "dates": {
         "announced": "2026-01-06",
@@ -2358,7 +2412,7 @@
       "reconciliation": {
         "result": "partial",
         "nvidia_side": "13F-HR: SPACE EXPLORATION TECHN CORP Class A, 122,764,805 shares, $20.98 billion at 2026-06-30 (new position) and 130,472,925 shares, $19.68 billion at 2026-09-30 (ev_50030, ev_50031). Nvidia filings name SpaceXAI and SpaceXSI only as customers (ev_120013, ev_120014); no cost or investment terms.",
-        "counterparty_side": "xAI release: NVIDIA a strategic investor in the $20B Series E (ev_120096, ev_120097). SpaceX 424B4: xAI acquired 2026-02-02; xAI preferred converted at 0.1433 SpaceX Class A per share pre-split; five-for-one split (ev_120072, ev_120073, ev_120074). SpaceX's 424B4 and 10-Q do not name Nvidia as a holder or state its investment amount.",
+        "counterparty_side": "xAI release: NVIDIA a strategic investor in the $20 billion Series E (ev_120096, ev_120097). SpaceX 424B4: xAI acquired 2026-02-02; xAI preferred converted at 0.1433 SpaceX Class A per share pre-split; five-for-one split (ev_120072, ev_120073, ev_120074). SpaceX's 424B4 and 10-Q do not name Nvidia as a holder or state its investment amount.",
         "nvidia_evidence": [
           "ev_50030",
           "ev_50031"
@@ -2563,7 +2617,7 @@
         {
           "entity": "ent_tesla",
           "role": "co_investor",
-          "description": "Tesla agreed in January 2026 to invest USD 2,000 million in xAI Series E, settled in SpaceX Class A shares after the merger.",
+          "description": "Tesla agreed in January 2026 to invest $2,000 million in xAI Series E, settled in SpaceX Class A shares after the merger.",
           "amount": {
             "value": 2000000000,
             "as_of": "2026-06-12",
@@ -2654,7 +2708,7 @@
       "date": "2026-02-27",
       "relationship": "rel_openai_eq_2026",
       "kind": "signing",
-      "summary": "OpenAI announces new investment including $30B from Nvidia under a Series C purchase agreement dated the same day.",
+      "summary": "OpenAI announces new investment including $30 billion from Nvidia under a Series C purchase agreement dated the same day.",
       "evidence": [
         "ev_120098",
         "ev_120032"
@@ -2761,7 +2815,7 @@
       "date": "2026-01-06",
       "relationship": "rel_spacex_eq_2026",
       "kind": "closing",
-      "summary": "xAI closes its $20B Series E with Nvidia as a strategic investor.",
+      "summary": "xAI closes its $20 billion Series E with Nvidia as a strategic investor.",
       "evidence": [
         "ev_120096",
         "ev_120097"

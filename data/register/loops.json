@@ -490,7 +490,7 @@
   {
     "id": "loop_naver_brookfield",
     "title": "NAVER: Nvidia equity tied to a Brookfield GPU vehicle that NAVER guarantees",
-    "summary": "Nvidia's investment in NAVER was conditional on NAVER securing project financing, which it met with a Brookfield vehicle that will buy GPUs and data centers. NAVER guarantees its cloud unit's usage fees to the vehicle, and the expansion is an Nvidia DSX AI factory, so Nvidia's equity helps trigger financing that buys Nvidia systems.",
+    "summary": "Nvidia's investment in NAVER was conditional on NAVER securing project financing, which it met with a Brookfield vehicle that will buy GPUs and data centers. NAVER guarantees its cloud unit's usage fees to the vehicle, and the expansion is an Nvidia DSX AI factory, so Nvidia's equity helped trigger financing for a site Nvidia describes as its own AI factory design; no source says whose GPUs the vehicle buys.",
     "entities": [
       "ent_nvidia",
       "ent_naver",

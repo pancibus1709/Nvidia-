@@ -128,7 +128,9 @@ def build(reg: Register, today: date | None = None) -> dict:
             continue
         eff = r["dates"].get("effective") or ""
         unvalued.append({"relationship": r["id"], "name": label(r), "cost": cost,
-                         "reason": "bought after 30 September 2026" if eff > "2026-09-30" else "warrant or preferred stock, not in the holdings report"})
+                         "reason": ("bought after 30 September 2026" if eff > "2026-09-30" else
+                                    f"{inst}, not in the holdings report" if (inst := (r.get('holding') or {}).get('instrument')) in ("warrant", "preferred", "convertible note") else
+                                    "not in Nvidia's holdings report of 30 September 2026")})
     unvalued.sort(key=lambda x: -x["cost"])
     for p in positions:
         p["name"] = label(reg.rel[p["relationship"]])
@@ -254,7 +256,8 @@ def main():
         other = [x for x in s2["at_risk_backlog"] if x["kind"] not in ("contract", "lease")]
         if contracts:
             soft = sum(x["soft_amount"] for x in contracts)
-            lines.append(f"- Counterparty contracts that depend on this lab: up to {fmt.money(sum(x['amount'] for x in contracts))} across {len(contracts)}"
+            n_cp = len({x["counterparty"] for x in contracts})
+            lines.append(f"- Counterparty contracts that depend on this lab: up to {fmt.money(sum(x['amount'] for x in contracts))} in {len(contracts)} contracts with {n_cp} " + ("counterparty" if n_cp == 1 else "counterparties")
                          + (f" (includes {fmt.money(soft)} stated as up to, cancellable or terminable)" if soft else ""))
         if leases:
             lines.append(f"- Lease obligations of this lab: {fmt.money(sum(x['amount'] for x in leases))} across {len(leases)} " + ("lessor" if len(leases) == 1 else "lessors"))

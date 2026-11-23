@@ -12,7 +12,7 @@
     "contract_years": null,
     "financing": [
       {
-        "facility": "DDTL 1.0 (up to $2.3bn, July 2023)",
+        "facility": "DDTL 1.0 (up to $2.3 billion, July 2023)",
         "lenders": [
           "ent_us_bank"
         ],
@@ -67,7 +67,7 @@
     "contract_years": null,
     "financing": [
       {
-        "facility": "DDTL 2.0 (up to $7.6bn, May 2024)",
+        "facility": "DDTL 2.0 (up to $7.6 billion, May 2024)",
         "lenders": [
           "ent_blackstone",
           "ent_magnetar"
@@ -99,7 +99,7 @@
         ]
       },
       {
-        "facility": "DDTL 2.1 tranche (up to $3.0bn, September 2025)",
+        "facility": "DDTL 2.1 tranche (up to $3 billion, September 2025)",
         "lenders": [],
         "balance": {
           "value": 2494000000,
@@ -151,7 +151,7 @@
     "contract_years": null,
     "financing": [
       {
-        "facility": "DDTL 3.0 (up to $2.6bn, July 2025; First Amendment 2025-12-31)",
+        "facility": "DDTL 3.0 (up to $2.6 billion, July 2025; First Amendment 2025-12-31)",
         "lenders": [
           "ent_mufg",
           "ent_us_bank"
@@ -174,7 +174,7 @@
         "collateral_value": null,
         "secured_by": "OpenAI master services agreement of 2025-03-07 and Reserved Compute Instance Order Form #1 (Phoenix 1), and the GPU infrastructure; SOFR plus 4.00%; matures August 2030",
         "covenant_ltv": null,
-        "covenant": "Minimum liquidity cut to $100m (from up to $175m); first debt service coverage test postponed; unlimited equity cures before 2026-10-28; contract realization ratio",
+        "covenant": "Minimum liquidity cut to $100 million (from up to $175 million); first debt service coverage test postponed; unlimited equity cures before 2026-10-28; contract realization ratio",
         "evidence": [
           "ev_20136",
           "ev_20048",
@@ -216,7 +216,7 @@
     "contract_years": null,
     "financing": [
       {
-        "facility": "DDTL 4.0 (up to $8.5bn, $7.5bn initially, March 2026)",
+        "facility": "DDTL 4.0 (up to $8.5 billion, $7.5 billion initially, March 2026)",
         "lenders": [
           "ent_mufg",
           "ent_morgan_stanley"
@@ -295,7 +295,7 @@
     "contract_years": null,
     "financing": [
       {
-        "facility": "DDTL 5.0 ($3.1bn, May 2026)",
+        "facility": "DDTL 5.0 ($3.1 billion, May 2026)",
         "lenders": [
           "ent_morgan_stanley",
           "ent_mufg"
@@ -355,7 +355,7 @@
     "contract_years": 3,
     "financing": [
       {
-        "facility": "DDTL 5.5 ($2.6bn, August 2026)",
+        "facility": "DDTL 5.5 ($2.6 billion, August 2026)",
         "lenders": [
           "ent_jpmorgan",
           "ent_mufg",
@@ -389,7 +389,7 @@
         "collateral_value": null,
         "secured_by": "SPV GPU servers and five customer MSAs (names redacted); SOFR plus 5.50%; matures 2031-09-01; rated Ba2 and BB+; mandatory prepayment on events affecting the customer contracts",
         "covenant_ltv": null,
-        "covenant": "Debt service coverage of at least 1.35x; cross-default above $35m; Qualified Customer test met by borrower certification",
+        "covenant": "Debt service coverage of at least 1.35x; cross-default above $35 million; Qualified Customer test met by borrower certification",
         "evidence": [
           "ev_20083",
           "ev_20084",
@@ -517,7 +517,7 @@
     "contract_years": null,
     "financing": [
       {
-        "facility": "Ward County GPU Facility (delayed draw term loan, August 2026; $630m fixed plus $1.22bn floating; SOFR plus 2.375%; matures February 2033)",
+        "facility": "Ward County GPU Facility (delayed draw term loan, August 2026; $630 million fixed plus $1.22 billion floating; SOFR plus 2.375%; matures February 2033)",
         "lenders": [
           "ent_jpmorgan",
           "ent_goldman_sachs",
@@ -561,7 +561,7 @@
     "contract_years": null,
     "financing": [
       {
-        "facility": "North Carolina GPU Facility (delayed draw term loan, August 2026; $370m fixed plus $830m floating; SOFR plus 2.375%; matures December 2031)",
+        "facility": "North Carolina GPU Facility (delayed draw term loan, August 2026; $370 million fixed plus $830 million floating; SOFR plus 2.375%; matures December 2031)",
         "lenders": [
           "ent_goldman_sachs",
           "ent_jpmorgan",
@@ -593,7 +593,7 @@
     "power_mw_energized": null,
     "gpu_generation": "Vera Rubin NVL72",
     "gpu_count": null,
-    "anchor_tenant": "Anthropic (GPU Services Agreements of 2026-08-25, up to about $44.6bn)",
+    "anchor_tenant": "Anthropic (GPU Services Agreements of 2026-08-25, up to about $44.6 billion)",
     "contract_years": null,
     "financing": [],
     "expected_completion": null,
@@ -621,7 +621,7 @@
     "contract_years": null,
     "financing": [
       {
-        "facility": "Macquarie Iceland Facility (delayed draw term loan, July 2026; $331.9m; SOFR plus 5.50% plus a MOIC feature; 46 months)",
+        "facility": "Macquarie Iceland Facility (delayed draw term loan, July 2026; $331.9 million; SOFR plus 5.50% plus a MOIC feature; 46 months)",
         "lenders": [
           "ent_macquarie"
         ],
@@ -658,7 +658,7 @@
     "contract_years": null,
     "financing": [
       {
-        "facility": "Kvandal South DC term loan ($725.0m, SOFR plus 3.00% to 3.75%) and VAT facility ($65.0m), July 2026",
+        "facility": "Kvandal South DC term loan ($725 million, SOFR plus 3.00% to 3.75%) and VAT facility ($65 million), July 2026",
         "lenders": [
           "DNB (agent)",
           "ABN AMRO",
@@ -745,7 +745,7 @@
     "power_mw_energized": null,
     "gpu_generation": null,
     "gpu_count": null,
-    "anchor_tenant": "Microsoft (five-year agreement, up to about $17.4bn)",
+    "anchor_tenant": "Microsoft (five-year agreement, up to about $17.4 billion)",
     "contract_years": 5,
     "financing": [],
     "expected_completion": null,
@@ -765,11 +765,11 @@
     "power_mw_energized": null,
     "gpu_generation": "GB300 NVL72 (Horizon 1)",
     "gpu_count": null,
-    "anchor_tenant": "Microsoft (Horizon 1 to 4, about $9.7bn)",
+    "anchor_tenant": "Microsoft (Horizon 1 to 4, about $9.7 billion)",
     "contract_years": 5,
     "financing": [
       {
-        "facility": "GPU Financing 1.0 (May 2026; DDTL $1.5bn at SOFR plus 2.25% and $2.1bn US private placement notes; non-recourse; matures 2031-12-31)",
+        "facility": "GPU Financing 1.0 (May 2026; DDTL $1.5 billion at SOFR plus 2.25% and $2.1 billion US private placement notes; non-recourse; matures 2031-12-31)",
         "lenders": [
           "Lenders and noteholders not named; CSC Delaware Trust (collateral agent)"
         ],
@@ -878,7 +878,7 @@
     "power_mw_energized": null,
     "gpu_generation": null,
     "gpu_count": null,
-    "anchor_tenant": "Unnamed customer (five-year arrangement, about $1.32bn)",
+    "anchor_tenant": "Unnamed customer (five-year arrangement, about $1.32 billion)",
     "contract_years": 5,
     "financing": [],
     "expected_completion": "Phases during 2027",

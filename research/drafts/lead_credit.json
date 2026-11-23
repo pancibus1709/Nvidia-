@@ -38,7 +38,7 @@
           "fx_date": null,
           "last_verified": "2026-11-23",
           "display_eligible": true,
-          "lower_bound": false,
+          "lower_bound": true,
           "evidence": [
             "ev_190011",
             "ev_190012"
@@ -918,7 +918,7 @@
         "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
         "market_signals": [],
         "grade": "Adequate",
-        "grade_reason": "Three columns sourced, ratios computed in EUR. Debt due within 12 months EUR 1,084 million against EUR 6,423 million of cash and current investments at 2025-12-31 (0.17). Adding the USD 500 million notes due June 2027, the only bond due in the second year, and even all EUR 466 million of other borrowings, the 24 month ratio stays below 0.33 if a dollar is worth no more than a euro (analysis), Strong. No customer above 10% of net sales, Strong. Ratings BBB- from Fitch and S&P Global (investment grade, Strong) and Ba1 from Moody's (BB range, Adequate). Weakest column Adequate, taking the lowest rating; no adjustment.",
+        "grade_reason": "Three columns sourced, ratios computed in EUR. Debt due within 12 months EUR 1,084 million against EUR 6,423 million of cash and current investments at 2025-12-31 (0.17). Adding the $500 million notes due June 2027, the only bond due in the second year, and even all EUR 466 million of other borrowings, the 24 month ratio stays below 0.33 if a dollar is worth no more than a euro (analysis), Strong. No customer above 10% of net sales, Strong. Ratings BBB- from Fitch and S&P Global (investment grade, Strong) and Ba1 from Moody's (BB range, Adequate). Weakest column Adequate, taking the lowest rating; no adjustment.",
         "notes": "Instruments: 20-F for 2025 filed 2026-03-05 (ratings, facilities, customers, XBRL balances) and the Q3 2026 interim report furnished on Form 6-K on 2026-10-22 (balances at 2026-09-30, cited as text). Net cash and interest-bearing financial investments EUR 2,584 million at 2026-09-30 (Q3 report). Undrawn revolving facilities EUR 2,000 million at 2025-12-31 (ev_190052). Ratings are as stated in the 20-F at 2025-12-31; later rating actions were not checked.",
         "evidence": [
           "ev_190045",

@@ -323,7 +323,7 @@
       "ticker": "VST",
       "cik": "0001692819",
       "country": "US",
-      "description": "Power generator; founding investor in Helix with up to $1bn committed and its preferred power provider.",
+      "description": "Power generator; founding investor in Helix with up to $1 billion committed and its preferred power provider.",
       "domains": [],
       "evidence": [
         "ev_100055"
@@ -512,6 +512,16 @@
           "lower_bound": false,
           "evidence": [
             "ev_40087"
+          ],
+          "components": [
+            {
+              "value": 1500000000,
+              "evidence": [
+                "ev_40087"
+              ],
+              "note": "Nvidia funded the full prepaid forward on 2026-08-17 (S-1/A, ev_40087).",
+              "paid_on": "2026-08-17"
+            }
           ]
         },
         "contingent_max": {
@@ -630,7 +640,7 @@
               "ent_softbank"
             ],
             "direction": "positive",
-            "text": "Nvidia buying SB Energy stock at 90% of the IPO price lends support to the offering, which a withdrawal by Nvidia would remove.",
+            "text": "Nvidia buying SB Energy stock at 90% of the IPO price lends support to the offering, which a withdrawal by Nvidia would remove (analysis).",
             "lens": "signaling",
             "evidence": [
               "ev_40087",
@@ -1608,7 +1618,14 @@
         "ev_100044",
         "ev_100045",
         "ev_100046"
-      ]
+      ],
+      "holding": {
+        "shares": null,
+        "as_of": null,
+        "ticker": null,
+        "evidence": [],
+        "instrument": "common"
+      }
     },
     {
       "id": "rel_microsoft_cx_2025",

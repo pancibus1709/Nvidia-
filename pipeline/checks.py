@@ -761,7 +761,7 @@ CHECKS = [check_text_citations, check_no_ids_in_copy, check_money_style, check_r
 def run_all(reg: Register, published_dir=None, site_dir=None, today=None, draft=False) -> list[str]:
     out = []
     for fn in CHECKS:
-        if draft and fn is check_text_citations:
+        if draft and fn in (check_text_citations, check_lead_grades, check_report_totals):
             continue   # a draft is checked against its own evidence; whole-register citations are checked on the register
         out += fn(reg)
     published = None

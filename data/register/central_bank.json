@@ -43,7 +43,7 @@
           ]
         },
         {
-          "text": "Intel's Nvidia stake came with a product deal but no disclosed purchase commitment.",
+          "text": "Nvidia's Intel stake came with a product deal but no disclosed purchase commitment.",
           "relationships": [
             "rel_intel_eq_2025"
           ],
@@ -177,12 +177,13 @@
       ]
     }
   ],
-  "where_the_analogy_breaks": "Nvidia cannot create money. Its guarantees reach a $118.0 billion maximum against $266.7 billion of shareholders' equity at 25 October 2026; the OpenAI guaranty alone is $105 billion, with only OpenAI's reimbursement promise in return. Its support depends on the same AI demand.",
+  "where_the_analogy_breaks": "Nvidia cannot create money. Its guarantees reach a $118.0 billion maximum against $266.7 billion of shareholders' equity at 25 October 2026; the OpenAI guaranty alone is $105 billion, recoverable only from OpenAI. Its support depends on the same AI demand.",
   "where_the_analogy_breaks_evidence": [
     "ev_50044",
     "ev_130001",
     "ev_30001",
-    "ev_30008"
+    "ev_30008",
+    "ev_100003"
   ],
   "where_the_analogy_breaks_relationships": [
     "rel_openai_gu_2026",

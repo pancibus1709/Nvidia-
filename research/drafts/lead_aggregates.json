@@ -55,35 +55,40 @@
               "evidence": [
                 "ev_130010"
               ],
-              "note": "Disclosed: non-marketable equity securities, carrying value at 2026-10-25"
+              "note": "Disclosed: non-marketable equity securities, carrying value at 2026-10-25",
+              "paid_on": null
             },
             {
               "value": -399999964.32,
               "evidence": [
                 "ev_80030"
               ],
-              "note": "Less Nscale Series B preferred, cost (rel_nscale_eq_2025)"
+              "note": "Less Nscale Series B preferred, cost (rel_nscale_eq_2025)",
+              "paid_on": null
             },
             {
               "value": -300000000,
               "evidence": [
                 "ev_40008"
               ],
-              "note": "Less Nscale SAFE converted to Series C-3, cost (rel_nscale_eq_2025)"
+              "note": "Less Nscale SAFE converted to Series C-3, cost (rel_nscale_eq_2025)",
+              "paid_on": null
             },
             {
               "value": -477399382.46,
               "evidence": [
                 "ev_40009"
               ],
-              "note": "Less Nscale Series C-4 preferred, cost (rel_nscale_eq_2025)"
+              "note": "Less Nscale Series C-4 preferred, cost (rel_nscale_eq_2025)",
+              "paid_on": null
             },
             {
               "value": -1500000000,
               "evidence": [
                 "ev_40087"
               ],
-              "note": "Less SB Energy prepaid forward, amount funded 2026-08-17 (rel_sb_energy_eq_2026)"
+              "note": "Less SB Energy prepaid forward, amount funded 2026-08-17 (rel_sb_energy_eq_2026)",
+              "paid_on": null
             }
           ]
         },
@@ -183,9 +188,9 @@
       "to": "ent_nvidia_unattributed",
       "type_primary": "EQ",
       "types_secondary": [],
-      "title": "Unattributed publicly held equity securities, fair value at 2026-10-25 against 13F values at 2026-09-30",
-      "insight_template": "Named public stakes explain almost all of Nvidia's listed equity, leaving {funded} unattributed at fair value.",
-      "definition": "Nvidia's stakes in listed companies, measured at fair value, totalled the disclosed Level 1 and Level 2 amounts at 2026-10-25. This record subtracts the value of each named holding in Nvidia's Form 13F for 2026-09-30, the nearest date. What remains is small and within the error from the date gap, so nearly all of Nvidia's public equity is named.",
+      "title": "Unattributed publicly held equity securities at 2026-10-25: not computable against 13F values at 2026-09-30",
+      "insight_template": "Nvidia's listed holdings cannot be matched to its balance sheet line by line, because the dates and instruments differ, so no unattributed figure is shown.",
+      "definition": "Nvidia's stakes in listed companies, measured at fair value, totalled the disclosed Level 1 and Level 2 amounts at 25 October 2026. Level 2 holds unregistered warrants and preferred stock convertible into common stock, which Nvidia's holdings report (Form 13F) does not list, and that report is dated 30 September 2026. Because the dates and the instruments differ, no unattributed remainder is computed; two bridge rows compare listed shares and Level 2 instruments separately.",
       "status": "definitive",
       "claim_basis": "filed",
       "amounts": {
@@ -206,102 +211,18 @@
           "evidence": []
         },
         "funded": {
-          "value": 557282926.0,
-          "as_of": "2026-10-25",
-          "fiscal_period": "FY2027 Q3",
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": "2026-11-23",
-          "display_eligible": true,
+          "last_verified": null,
+          "display_eligible": false,
           "lower_bound": false,
-          "label": "analysis",
-          "note": "Analysis. Fair value at 2026-10-25 less 13F reported values at 2026-09-30. Neither an upper nor a lower bound: the dates differ by 25 days and Level 2 named items at cost are not subtracted.",
-          "evidence": [
-            "ev_130011",
-            "ev_130012",
-            "ev_50015",
-            "ev_50019",
-            "ev_50021",
-            "ev_50023",
-            "ev_50025",
-            "ev_50027",
-            "ev_50029",
-            "ev_50031"
-          ],
-          "components": [
-            {
-              "value": 38372000000.0,
-              "evidence": [
-                "ev_130011"
-              ],
-              "note": "Disclosed: publicly held equity securities Level 1, fair value at 2026-10-25 (current and locked long term)"
-            },
-            {
-              "value": 10516000000.0,
-              "evidence": [
-                "ev_130012"
-              ],
-              "note": "Disclosed: publicly held equity securities Level 2 (unregistered warrants, convertible preferred), fair value at 2026-10-25"
-            },
-            {
-              "value": -19366947532,
-              "evidence": [
-                "ev_50021"
-              ],
-              "note": "Less Intel common, 13F value at 2026-09-30 (rel_intel_eq_2025)"
-            },
-            {
-              "value": -19683145466,
-              "evidence": [
-                "ev_50031"
-              ],
-              "note": "Less SpaceX Class A, 13F value at 2026-09-30 (rel_spacex_eq_2026)"
-            },
-            {
-              "value": -4113227313,
-              "evidence": [
-                "ev_50019"
-              ],
-              "note": "Less CoreWeave Class A, 13F value at 2026-09-30 (rel_coreweave_eq_2025)"
-            },
-            {
-              "value": -2241510617,
-              "evidence": [
-                "ev_50027"
-              ],
-              "note": "Less Coherent common, 13F (rel_coherent_eq_2026)"
-            },
-            {
-              "value": -1893762250,
-              "evidence": [
-                "ev_50023"
-              ],
-              "note": "Less Synopsys common, 13F (rel_synopsys_eq_2025)"
-            },
-            {
-              "value": -738797875,
-              "evidence": [
-                "ev_50025"
-              ],
-              "note": "Less Nokia ADS, 13F (rel_nokia_eq_2025)"
-            },
-            {
-              "value": -280809479,
-              "evidence": [
-                "ev_50015"
-              ],
-              "note": "Less Nebius Class A, 13F (rel_nebius_eq_2024)"
-            },
-            {
-              "value": -12516542,
-              "evidence": [
-                "ev_50029"
-              ],
-              "note": "Less Generate Biomedicines, 13F (rel_generate_biomedicines_eq_2026)"
-            }
-          ]
+          "evidence": [],
+          "note": "Not computable: see the two bridge rows."
         },
         "contingent_max": {
           "value": 0,
@@ -338,20 +259,19 @@
         "wwr_reason": "Public stakes fall with AI equity prices, and Nvidia's exposure is capped at fair value; it does not grow as issuers weaken.",
         "collateral": "Not disclosed",
         "tenor": "Open ended; lock-ups to December 2027",
-        "notes": "Analysis. Remainder computed in R7 at one balance sheet date, 2026-10-25; excluded from every total."
+        "notes": "Analysis. No remainder is computed: the 13F values are 25 days earlier than the balance sheet date and exclude Level 2 instruments; see bridge_rows. Excluded from every total."
       },
       "consequences": {
         "first_order": [
           {
             "trigger": "Listed AI stocks fall",
-            "mechanism": "Unattributed and named public stakes are marked to market through Other income, net",
+            "mechanism": "Named and unnamed public stakes are marked to market through Other income, net",
             "affected": [
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Almost all of Nvidia's listed holdings are named stakes such as Intel, SpaceX and CoreWeave, so a fall in its public equity value can be traced to those names.",
+            "text": "Nvidia's holdings report names Intel, SpaceX and CoreWeave as its largest listed positions, so a fall in its public equity value can be traced mainly to those names.",
             "evidence": [
-              "ev_130011",
               "ev_50021",
               "ev_50031",
               "ev_50019"
@@ -384,6 +304,8 @@
         "ev_130011",
         "ev_130012",
         "ev_130014",
+        "ev_210002",
+        "ev_40057",
         "ev_50015",
         "ev_50019",
         "ev_50021",
@@ -393,9 +315,44 @@
         "ev_50029",
         "ev_50031",
         "ev_50098",
-        "ev_210002"
+        "ev_60052",
+        "ev_60066",
+        "ev_60088"
       ],
-      "notes": "13F covers only US-listed 13(f) securities: it omits warrants, private-placement preferred, convertible debt and non-US listings, and its date (2026-09-30) differs from the balance sheet date (2026-10-25). Named but not quantified at fair value (inside Level 2 but carried in the register only at cost, so not subtracted): Marvell preferred ($2.0B cost, rel_marvell_eq_2026), Lumentum preferred ($2.0B cost, rel_lumentum_eq_2026), Corning warrants ($0.5B, rel_corning_eq_2026), Nebius pre-funded warrant ($2.0B, rel_nebius_eq_2026), IREN investment rights (rel_iren_eq_2026, no value). Analysis: the 13F common total ($48.3B) exceeds Level 1 ($38.4B) by about $10B, so some 13F positions are probably carried in Level 2 or were sold or repriced in October; if the Level 2 items were subtracted at cost the remainder would be negative. Excluded: debt convertible into a public company's equity, $3,471M (ev_50098), which sits in marketable debt securities. Anthropic (public from 2026-11-20) is after the date. Basis check after the critic review: every subtraction is a fair value stated in Nvidia's 13F, the same measure as the aggregate, at a date 25 days earlier."
+      "notes": "Not computable; grounded figures kept here. Disclosed at 2026-10-25: publicly held equity securities Level 1, fair value $38,372 million (ev_130011); Level 2 (unregistered warrants, convertible preferred), fair value $10,516 million (ev_130012). Named common stock in Nvidia's 13F at 2026-09-30, reported values: Intel $19,366,947,532 (ev_50021), SpaceX Class A $19,683,145,466 (ev_50031), CoreWeave $4,113,227,313 (ev_50019), Coherent $2,241,510,617 (ev_50027), Synopsys $1,893,762,250 (ev_50023), Nokia ADS $738,797,875 (ev_50025), Nebius Class A $280,809,479 (ev_50015), Generate Biomedicines $12,516,542 (ev_50029); total $48,330,717,074, which exceeds Level 1 by about $10 billion at a date 25 days earlier. Named Level 2 instruments in the register at cost, not fair value: Marvell convertible preferred $2.0 billion (ev_60052, rel_marvell_eq_2026), Lumentum convertible preferred $2.0 billion (ev_60066, rel_lumentum_eq_2026), Nebius pre-funded warrant $2.0 billion (ev_40057, rel_nebius_eq_2026), Corning warrants $0.5 billion (ev_60088, rel_corning_eq_2026); total $6.5 billion. IREN investment rights (rel_iren_eq_2026) carry no value. Nvidia's table does not say in which level the SpaceX shares sit. Excluded: debt convertible into a public company's equity, $3,471 million (ev_50098), which sits in marketable debt securities. Anthropic (public from 2026-11-20) is after the date. The earlier remainder of $557.3 million (Level 1 plus Level 2 less the eight 13F values) was withdrawn after critic round 3 because it subtracted common stock values from a total that includes Level 2 instruments.",
+      "bridge_rows": [
+        {
+          "line": "Listed shares (Level 1)",
+          "nvidia": 38372000000,
+          "nvidia_evidence": [
+            "ev_130011"
+          ],
+          "named": null,
+          "note": "Not comparable. Nvidia's holdings report of 30 September 2026 shows $48.3 billion of named common stock, $10 billion more than Level 1 at 25 October 2026; the dates differ and Nvidia does not say in which level the SpaceX shares sit."
+        },
+        {
+          "line": "Warrants and convertible preferred (Level 2)",
+          "nvidia": 10516000000,
+          "nvidia_evidence": [
+            "ev_130012"
+          ],
+          "named": 6500000000,
+          "named_basis": "cost, not fair value",
+          "named_records": [
+            "rel_marvell_eq_2026",
+            "rel_lumentum_eq_2026",
+            "rel_nebius_eq_2026",
+            "rel_corning_eq_2026"
+          ],
+          "named_evidence": [
+            "ev_60052",
+            "ev_60066",
+            "ev_40057",
+            "ev_60088"
+          ],
+          "note": "Marvell and Lumentum convertible preferred ($2 billion each), the Nebius pre-funded warrant ($2 billion) and the Corning warrants ($500 million), at cost, not fair value. IREN's investment rights carry no value."
+        }
+      ]
     },
     {
       "id": "rel_unattributed_guarantees_2026_10_25",
@@ -404,7 +361,7 @@
       "type_primary": "GU",
       "types_secondary": [],
       "title": "Unattributed guarantees: maximum gross exposure not tied to a named counterparty at 2026-10-25",
-      "insight_template": "Nvidia could have to pay up to {contingent_max} if unnamed partners default, and it does not say who they are.",
+      "insight_template": "Up to {contingent_max} of Nvidia's guarantees cannot be tied to a named partner; CoreWeave, Firmus and SharonAI support may sit inside it.",
       "definition": "Nvidia guarantees leases, power contracts and hardware financing of partners and discloses the maximum it could have to pay. This record subtracts the guarantees whose beneficiary is named: the SB Energy guaranties for OpenAI's leases and the Nscale lease guarantee. What remains is guarantee exposure to partners Nvidia does not name, mostly the power and systems credit support first shown in November 2026.",
       "status": "definitive",
       "claim_basis": "filed",
@@ -699,7 +656,7 @@
       "type_primary": "LB",
       "types_secondary": [],
       "title": "Unattributed multi-year cloud service agreements at 2026-10-25",
-      "insight_template": "Nvidia has {committed_total} of cloud rental commitments and names none of the providers, though some are firms that buy its chips.",
+      "insight_template": "Nvidia has {committed_total} of cloud rental commitments; CoreWeave, IREN and Nscale are known providers, but no provider's remaining balance is disclosed.",
       "definition": "Nvidia rents cloud compute from cloud providers under multi-year agreements to support its research and development, and discloses the remaining commitment. No named rental has a disclosed remaining commitment at the same date: CoreWeave, IREN and Nscale give only an initial order value or total contract values. Nothing is subtracted, so the whole aggregate is shown as unattributed.",
       "status": "definitive",
       "claim_basis": "filed",
@@ -790,7 +747,7 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Nvidia owed $28 billion under cloud service agreements at 25 October 2026 and names only some providers, so it keeps paying even if its own compute needs fall.",
+            "text": "Nvidia owed $28 billion under cloud service agreements at 25 October 2026 and does not say what it still owes each provider, so it keeps paying even if its own compute needs fall.",
             "evidence": [
               "ev_130013"
             ]

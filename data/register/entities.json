@@ -71,7 +71,9 @@
           "evidence": [
             "ev_120111"
           ]
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 0
       },
       {
         "counterparty": "ent_amazon",
@@ -90,7 +92,9 @@
           "evidence": [
             "ev_120028"
           ]
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 0
       },
       {
         "counterparty": "ent_coreweave",
@@ -110,7 +114,9 @@
             "ev_20199"
           ],
           "note": "Up to; CoreWeave's figure"
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 11900000000
       },
       {
         "counterparty": "ent_coreweave",
@@ -130,7 +136,9 @@
             "ev_20102"
           ],
           "note": "Up to; CoreWeave's figure"
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 6500000000
       },
       {
         "counterparty": "ent_sb_energy",
@@ -147,7 +155,9 @@
           "display_eligible": false,
           "lower_bound": false,
           "evidence": []
-        }
+        },
+        "kind": "lease",
+        "soft_amount": 0
       },
       {
         "counterparty": "ent_amd",
@@ -164,7 +174,9 @@
           "display_eligible": false,
           "lower_bound": false,
           "evidence": []
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 0
       },
       {
         "counterparty": "ent_broadcom",
@@ -181,7 +193,9 @@
           "display_eligible": false,
           "lower_bound": false,
           "evidence": []
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 0
       }
     ],
     "credit": {
@@ -266,7 +280,7 @@
         "fx_date": null,
         "last_verified": "2026-11-23",
         "display_eligible": true,
-        "lower_bound": false,
+        "lower_bound": true,
         "evidence": [
           "ev_190011",
           "ev_190012"
@@ -458,7 +472,9 @@
           "evidence": [
             "ev_120045"
           ]
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 0
       },
       {
         "counterparty": "ent_amazon",
@@ -477,7 +493,9 @@
           "evidence": [
             "ev_120046"
           ]
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 0
       },
       {
         "counterparty": "ent_microsoft",
@@ -496,7 +514,9 @@
           "evidence": [
             "ev_120044"
           ]
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 0
       },
       {
         "counterparty": "ent_spacex",
@@ -516,7 +536,9 @@
             "ev_120047"
           ],
           "note": "Up to"
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 120500000000
       },
       {
         "counterparty": "ent_nscale",
@@ -537,7 +559,9 @@
             "ev_40029"
           ],
           "note": "Up to"
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 44600000000
       },
       {
         "counterparty": "ent_lambda",
@@ -556,7 +580,9 @@
           "evidence": [
             "ev_120050"
           ]
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 34900000000
       },
       {
         "counterparty": "ent_broadcom",
@@ -575,7 +601,9 @@
           "evidence": [
             "ev_120051"
           ]
-        }
+        },
+        "kind": "lease",
+        "soft_amount": 0
       }
     ]
   },
@@ -820,7 +848,9 @@
               "note": "lease three"
             }
           ]
-        }
+        },
+        "kind": "lease",
+        "soft_amount": 0
       },
       {
         "counterparty": "ent_apollo",
@@ -840,7 +870,9 @@
             "ev_120094"
           ],
           "note": "Expected aggregate principal, not yet closed"
-        }
+        },
+        "kind": "lease",
+        "soft_amount": 0
       }
     ]
   },
@@ -1324,7 +1356,7 @@
         "last_verified": null,
         "note": "Not disclosed. Top two customers were about 54% of Q3 2026 revenue (30% and 24%, ev_20101); FY2024 top two 77% (ev_20036)."
       },
-      "collateral_note": "All GPUs in the fleet are NVIDIA GPUs (ev_20127) and customers contractually specify them (ev_20128). Computing equipment is depreciated over six years, changed from five in 2023 (ev_20130). Delayed draw term loans sit in special purpose vehicles that hold the financed infrastructure and the customer contracts (ev_20087); they are sized on the depreciable cost of GPU servers (ev_20144). SPV debt was secured by $22.2bn of non-current assets at 2026-09-30 (ev_20086). DDTL 3.0 tracks collateral GPU by GPU using serial-number documents from NVIDIA or Dell (ev_20210). Latest generation deployed: Vera Rubin NVL72 (ev_20183).",
+      "collateral_note": "All GPUs in the fleet are NVIDIA GPUs (ev_20127) and customers contractually specify them (ev_20128). Computing equipment is depreciated over six years, changed from five in 2023 (ev_20130). Delayed draw term loans sit in special purpose vehicles that hold the financed infrastructure and the customer contracts (ev_20087); they are sized on the depreciable cost of GPU servers (ev_20144). SPV debt was secured by $22.2 billion of non-current assets at 2026-09-30 (ev_20086). DDTL 3.0 tracks collateral GPU by GPU using serial-number documents from NVIDIA or Dell (ev_20210). Latest generation deployed: Vera Rubin NVL72 (ev_20183).",
       "market_signals": [
         {
           "signal": "Value per CoreWeave share implied by Nvidia's 13F",
@@ -1381,7 +1413,7 @@
         }
       ],
       "grade": "Weak",
-      "grade_reason": "Two of four rubric columns are sourced. Debt due within 24 months over cash plus undrawn is at least 1.36 ($13,407m lower bound over $9,837m), which is Watch; top customer share of 33% is Adequate. Weakest column Watch, moved down one step to Weak because the maturity ratio is a lower bound (about 1.78 if three quarters of 2028 principal is pro-rated, analysis), DDTL 3.0 needed covenant relief in December 2025, disclosure controls were not effective at 2026-09-30, and $1.9bn of deferred revenue moved to liabilities as contracts became cancellable. Liquidity cover and a corporate rating are not sourced. Not Distressed: no missed payment, no going concern language, in covenant compliance at 2026-09-30 (ev_20074, ev_20119).",
+      "grade_reason": "Two of four rubric columns are sourced. Debt due within 24 months over cash plus undrawn is at least 1.36 ($13,407 million lower bound over $9,837 million), which is Watch; top customer share of 33% is Adequate. Weakest column Watch, moved down one step to Weak because the maturity ratio is a lower bound (about 1.78 if three quarters of 2028 principal is pro-rated, analysis), DDTL 3.0 needed covenant relief in December 2025, disclosure controls were not effective at 2026-09-30, and $1.9 billion of deferred revenue moved to liabilities as contracts became cancellable. Liquidity cover and a corporate rating are not sourced. Not Distressed: no missed payment, no going concern language, in covenant compliance at 2026-09-30 (ev_20074, ev_20119).",
       "notes": "Facility ratings only, no corporate rating found: DDTL 4.0 A3 (Moody's) and A (low) (DBRS) (ev_20169); DDTL 5.0 Ba2 and BB+ (Fitch) (ev_20177); DDTL 5.5 Ba2 and BB+ (ev_20155). Material weaknesses continued at 2025-12-31 (ev_20132) and disclosure controls were not effective at 2026-09-30 (ev_20148). Covenant relief: the DDTL 3.0 First Amendment of 2025-12-31 aligned the facility with delivery delays (ev_20201), cut minimum liquidity to $100m (ev_20202) from a schedule of up to $175m (ev_20211), postponed the first debt service coverage test (ev_20203) and allowed unlimited equity cures (ev_20204). Cross-default in DDTL 5.5 above $35m (ev_20160) and cross-acceleration in the 2033 convertible indenture above the greater of $200m and 5% of LTM EBITDA (ev_70004). $1.9bn of deferred revenue reclassified to liabilities as contracts became cancellable (ev_20118, ev_20098). RPO $132.3bn at 2026-09-30, 36% within 24 months (ev_20095, ev_20096). Accumulated deficit $4.7bn (ev_20110).",
       "evidence": [
         "ev_20071",
@@ -1554,7 +1586,7 @@
         }
       ],
       "grade": "Watch",
-      "grade_reason": "Weakest sourced column: top customer 52% of revenue in the six months to 2026-06-30 is Watch (ev_40025). Debt due within 24 months over cash is at least 0.94 ($3.36bn of convertible notes due 2028-06-15 if not converted over $3.58bn of estimated cash, ev_40013, ev_40021), which is Adequate and a lower bound. Liquidity cover and a public rating are not sourced. No step adjustment: the audited notes say the going-concern doubt was alleviated by management's plan (ev_40045), but the company says it must obtain additional financing to meet forecast obligations (ev_40049), which keeps the grade from moving up. Pending Thomas's answer to R9 decision 1.",
+      "grade_reason": "Weakest sourced column: top customer 52% of revenue in the six months to 2026-06-30 is Watch (ev_40025). Debt due within 24 months over cash is at least 0.94 ($3.36 billion of convertible notes due 2028-06-15 if not converted over $3.58 billion of estimated cash, ev_40013, ev_40021), which is Adequate and a lower bound. Liquidity cover and a public rating are not sourced. No step adjustment: the audited notes say the going-concern doubt was alleviated by management's plan (ev_40045), but the company says it must obtain additional financing to meet forecast obligations (ev_40049), which keeps the grade from moving up. Pending Thomas's answer to R9 decision 1.",
       "notes": "The company must obtain additional financing to meet forecast 2027 obligations (ev_40049). Material weaknesses in internal control (ev_40048). No binding financing yet for the Anthropic Monarch contract (ev_40030), which needs about $10bn to $10.5bn of data center capex for Building 1 and $21bn to $22bn of GPUs (ev_40031, ev_40032). Customer prepayments of $2.3bn were received in the first half of 2026 (ev_40033). RPO $56.4bn at 2026-06-30 (ev_40024). Microsoft statements of work up to about $43.8bn through December 2033, one $3.22bn statement terminated (ev_40027, ev_40028)."
     }
   },
@@ -1799,7 +1831,9 @@
           "display_eligible": false,
           "lower_bound": false,
           "evidence": []
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 0
       }
     ]
   },
@@ -1852,7 +1886,9 @@
           "display_eligible": false,
           "lower_bound": false,
           "evidence": []
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 0
       }
     ]
   },
@@ -2142,7 +2178,9 @@
           "display_eligible": false,
           "lower_bound": false,
           "evidence": []
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 0
       }
     ]
   },
@@ -2230,7 +2268,9 @@
           "evidence": [
             "ev_90065"
           ]
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 0
       }
     ]
   },
@@ -2933,7 +2973,7 @@
     "ticker": null,
     "cik": null,
     "country": "US",
-    "description": "Co-led CoreWeave's DDTL 2.0, holds a $195m loan to CoreWeave and is a related party.",
+    "description": "Co-led CoreWeave's DDTL 2.0, holds a $195 million loan to CoreWeave and is a related party.",
     "domains": [],
     "evidence": [
       "ev_20147",
@@ -2951,7 +2991,7 @@
     "ticker": null,
     "cik": null,
     "country": "US",
-    "description": "Lender to neoclouds; Citi provides Nebius's $3.5bn 364-day senior secured facility.",
+    "description": "Lender to neoclouds; Citi provides Nebius's $3.5 billion 364-day senior secured facility.",
     "domains": [],
     "evidence": [
       "ev_20161",
@@ -3448,7 +3488,7 @@
         }
       ],
       "grade": "Adequate",
-      "grade_reason": "Two of four columns sourced. Debt due within 24 months over cash is at least 0.02 ($159.5m over $7,425.6m), which is Strong; adding the full $3.5bn Citi Facility if drawn would give 0.33 over a larger cash balance, still Strong (analysis). Top customer 33% in Q3 2026 is Adequate. Weakest column Adequate; no adjustment. Not Distressed: the going-concern wording found is the standard basis-of-preparation sentence, with no substantial doubt, waiver or missed payment (Note 1 of the Q3 2026 statements). Liquidity cover and a public rating are not sourced.",
+      "grade_reason": "Two of four columns sourced. Debt due within 24 months over cash is at least 0.02 ($159.5 million over $7,425.6 million), which is Strong; adding the full $3.5 billion Citi Facility if drawn would give 0.33 over a larger cash balance, still Strong (analysis). Top customer 33% in Q3 2026 is Adequate. Weakest column Adequate; no adjustment. Not Distressed: the going-concern wording found is the standard basis-of-preparation sentence, with no substantial doubt, waiver or missed payment (Note 1 of the Q3 2026 statements). Liquidity cover and a public rating are not sourced.",
       "notes": "RPO $38.7bn at 2026-09-30, about 40% within 24 months (ev_40075). Meta agreement of 2026-03-13 up to about $27bn, including up to $15bn for Meta to buy capacity Nebius cannot sell to others (ev_40079, ev_40081): Meta, not Nvidia, is the backstop there. Microsoft agreement up to about $17.4bn (ev_40084). Nebius states it relies on Nvidia for its GPU chips (ev_40061)."
     }
   },
@@ -3610,7 +3650,7 @@
         }
       ],
       "grade": "Watch",
-      "grade_reason": "Two of four columns sourced. Debt due within 24 months over cash plus undrawn is at least 0.27 ($1,782m over $6,679m), which is Strong; top customer 28% is Adequate. Weakest column Adequate, moved down one step to Watch because commitments of $18,947m (ev_40123) are about 2.8 times cash plus undrawn and the top three customers are 70% of revenue, with Microsoft and Nvidia a substantial majority of contracted revenue (ev_40119). Not Distressed: IREN states liquidity is sufficient for at least 12 months; no substantial doubt, waiver or missed payment found. Liquidity cover and a public rating are not sourced.",
+      "grade_reason": "Two of four columns sourced. Debt due within 24 months over cash plus undrawn is at least 0.27 ($1,782 million over $6,679 million), which is Strong; top customer 28% is Adequate. Weakest column Adequate, moved down one step to Watch because commitments of $18,947 million (ev_40123) are about 2.8 times cash plus undrawn and the top three customers are 70% of revenue, with Microsoft and Nvidia a substantial majority of contracted revenue (ev_40119). Not Distressed: IREN states liquidity is sufficient for at least 12 months; no substantial doubt, waiver or missed payment found. Liquidity cover and a public rating are not sourced.",
       "notes": "December 2033 convertible notes $3,000m (ev_80005). RPO $6,347m at 2026-09-30 (ev_40124). Microsoft contract about $9.7bn (ev_40118); July 2026 contracts with Prometheus, Perplexity and Together AI about $2.8bn (ev_40120). IREN buys GPUs directly from Nvidia (ev_40116) and through Dell (ev_40121)."
     }
   },
@@ -3709,7 +3749,7 @@
         "last_verified": "2026-11-23",
         "note": "Not disclosed."
       },
-      "collateral_note": "Nvidia B200, B300 and GB300 GPUs. Depreciation life not found in the 10-Q. The $356m SPV facility is secured by all obligor assets and supports a different customer contract (ev_40152).",
+      "collateral_note": "Nvidia B200, B300 and GB300 GPUs. Depreciation life not found in the 10-Q. The $356 million SPV facility is secured by all obligor assets and supports a different customer contract (ev_40152).",
       "market_signals": [
         {
           "signal": "Secured financing cost",
@@ -3722,7 +3762,7 @@
         }
       ],
       "grade": "Insufficient information",
-      "grade_reason": "Only one rubric column is sourced: debt due within 24 months over cash is near zero ($20,059 over $1.34bn, ev_80007, ev_40150), which is Strong. Customer concentration, liquidity cover and a public rating are not sourced, so the rubric gives Insufficient information. The going-concern section is not treated as distress: SharonAI concludes it can continue as a going concern (ev_80009), and that conclusion rests on management's discretion to delay expansion if financing does not arrive (ev_80009, ev_80010). Pending Thomas's answer to R9 decision 1.",
+      "grade_reason": "Only one rubric column is sourced: debt due within 24 months over cash is near zero ($20,059 over $1.34 billion, ev_80007, ev_40150), which is Strong. Customer concentration, liquidity cover and a public rating are not sourced, so the rubric gives Insufficient information. The going-concern section is not treated as distress: SharonAI concludes it can continue as a going concern (ev_80009), and that conclusion rests on management's discretion to delay expansion if financing does not arrive (ev_80009, ev_80010). Pending Thomas's answer to R9 decision 1.",
       "notes": "Material weakness at 2026-09-30 (ev_40153). Nine-month net loss driven by a $470.7m fair value loss on convertible notes. New Zealand five-year contract about $1.32bn (ev_40151)."
     }
   },
@@ -3831,7 +3871,7 @@
     "ticker": null,
     "cik": null,
     "country": "US",
-    "description": "Equipment lessor to Nscale, with about $2.54bn of initial-term rent.",
+    "description": "Equipment lessor to Nscale, with about $2.54 billion of initial-term rent.",
     "domains": [],
     "evidence": [
       "ev_40040"
@@ -4040,7 +4080,9 @@
           "display_eligible": false,
           "lower_bound": false,
           "evidence": []
-        }
+        },
+        "kind": "contract",
+        "soft_amount": 0
       }
     ],
     "credit": {
@@ -4399,7 +4441,7 @@
       "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
       "market_signals": [],
       "grade": "Adequate",
-      "grade_reason": "Three columns sourced, ratios computed in EUR. Debt due within 12 months EUR 1,084 million against EUR 6,423 million of cash and current investments at 2025-12-31 (0.17). Adding the USD 500 million notes due June 2027, the only bond due in the second year, and even all EUR 466 million of other borrowings, the 24 month ratio stays below 0.33 if a dollar is worth no more than a euro (analysis), Strong. No customer above 10% of net sales, Strong. Ratings BBB- from Fitch and S&P Global (investment grade, Strong) and Ba1 from Moody's (BB range, Adequate). Weakest column Adequate, taking the lowest rating; no adjustment.",
+      "grade_reason": "Three columns sourced, ratios computed in EUR. Debt due within 12 months EUR 1,084 million against EUR 6,423 million of cash and current investments at 2025-12-31 (0.17). Adding the $500 million notes due June 2027, the only bond due in the second year, and even all EUR 466 million of other borrowings, the 24 month ratio stays below 0.33 if a dollar is worth no more than a euro (analysis), Strong. No customer above 10% of net sales, Strong. Ratings BBB- from Fitch and S&P Global (investment grade, Strong) and Ba1 from Moody's (BB range, Adequate). Weakest column Adequate, taking the lowest rating; no adjustment.",
       "notes": "Instruments: 20-F for 2025 filed 2026-03-05 (ratings, facilities, customers, XBRL balances) and the Q3 2026 interim report furnished on Form 6-K on 2026-10-22 (balances at 2026-09-30, cited as text). Net cash and interest-bearing financial investments EUR 2,584 million at 2026-09-30 (Q3 report). Undrawn revolving facilities EUR 2,000 million at 2025-12-31 (ev_190052). Ratings are as stated in the 20-F at 2025-12-31; later rating actions were not checked.",
       "evidence": [
         "ev_190045",
@@ -5577,7 +5619,7 @@
     "ticker": "VST",
     "cik": "0001692819",
     "country": "US",
-    "description": "Power generator; founding investor in Helix with up to $1bn committed and its preferred power provider.",
+    "description": "Power generator; founding investor in Helix with up to $1 billion committed and its preferred power provider.",
     "domains": [],
     "evidence": [
       "ev_100055"

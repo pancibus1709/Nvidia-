@@ -36,15 +36,16 @@ Validation: `python3 -m pipeline.checks draft research/drafts/lead_aggregates.js
 | Nvidia's figure | Amount | Named and sized in the remainder records | Unattributed remainder |
 |---|---|---|---|
 | Private stakes, carrying value | $61.65B (ev_130010) | $2.68B (Nscale $1.18B, SB Energy $1.5B, at cost) | $58.97B |
-| Public equity, fair value | $48.89B (ev_130011, ev_130012) | $48.33B (13F values at 2026-09-30) | $0.56B |
+| Listed shares (Level 1), fair value | $38.37B (ev_130011) | Not comparable: Nvidia's 13F of 2026-09-30 shows $48.33B of named common stock, $10B more than Level 1 at 2026-10-25; the dates differ and the level of the SpaceX shares is not disclosed | Not computable |
+| Warrants and convertible preferred (Level 2), fair value | $10.52B (ev_130012) | $6.5B at cost, not fair value (Marvell and Lumentum preferred, Nebius pre-funded warrant, Corning warrants) | Not computable |
 | Guarantees, maximum | $118.0B (ev_50044) | $105.86B (PORTS-Pike $105B, Nscale $0.86B) | $12.14B |
 | Neocloud agreements, maximum | $32B (ev_50080) | $0 | $32B |
 | Cloud service agreements | $28B (ev_130013) | $0 (CoreWeave, IREN, Nscale named, no remaining balance stated) | $28B |
 | Unfunded equity commitments | $20B (ev_120011) | $3.5B (SB Energy $1.5B, NAVER $1B, Nscale $1B) | $16.5B |
 | Data center leases not commenced | $74B (ev_190004) | $0 | $74B |
 | Supply and capacity commitments | $390B (ev_130023) | $0 | $390B |
-| Equity purchases, nine months | $58.1B (ev_190001) | flow, no remainder | |
-| Net additions to private stakes, nine months | $46.4B (ev_190002) | flow, no remainder | |
+| Equity purchases, nine months | $58.1B (ev_190001) | See the system view bridge | |
+| Net additions to private stakes, nine months | $46.4B (ev_190002) | See the system view bridge | |
 
 Deviation from the brief: fcf_ttm and revenue_ttm are built from positive quarterly and nine-month figures (FY26 Q4 plus FY27 nine months) instead of CFO and capex with negative components, because negative components cannot ground. The CFO and capex figures are grounded and listed in the note.
 
@@ -75,9 +76,9 @@ Named but not quantified: OpenAI Series C ($30B committed, ev_120098; funded not
 | less Nokia | rel_nokia_eq_2025 | $739M | ev_50025 |
 | less Nebius common | rel_nebius_eq_2024 | $281M | ev_50015 |
 | less Generate Biomedicines | rel_generate_biomedicines_eq_2026 | $13M | ev_50029 |
-| **Remainder** (`funded`, fair value) | rel_unattributed_marketable_equity_2026_10_25 | **$557M** | |
+| **Remainder** (`funded`) | rel_unattributed_marketable_equity_2026_10_25 | **Not computable** (see the two bridge rows) | |
 
-Named but not quantified at fair value (Level 2, register holds cost only): Marvell preferred $2.0B, Lumentum preferred $2.0B, Corning warrants $0.5B, Nebius pre-funded warrant $2.0B, IREN rights. Caveats: 13F covers only US-listed 13(f) securities (no warrants, private-placement preferred, convertible debt or non-US listings), and its date (2026-09-30) is 25 days before the balance sheet date. The remainder is neither an upper nor a lower bound. Analysis: the 13F common total ($48.3B) exceeds Level 1 ($38.4B) by about $10B, so some 13F positions are probably carried as Level 2 or were sold or repriced in October. Subtracting the Level 2 named items at cost would make the remainder negative. Conclusion: nearly all public equity is named. Excluded: $3,471M of debt convertible into a public company's equity (ev_50098), which is in marketable debt.
+Named but not quantified at fair value (Level 2, register holds cost only): Marvell preferred $2.0B, Lumentum preferred $2.0B, Corning warrants $0.5B, Nebius pre-funded warrant $2.0B, IREN rights. Caveats: 13F covers only US-listed 13(f) securities (no warrants, private-placement preferred, convertible debt or non-US listings), and its date (2026-09-30) is 25 days before the balance sheet date. The remainder is neither an upper nor a lower bound. Analysis: the 13F common total ($48.3B) exceeds Level 1 ($38.4B) by about $10B, so some 13F positions are probably carried as Level 2 or were sold or repriced in October. Subtracting the Level 2 named items at cost would make the remainder negative. Conclusion (after critic round 3): the eight 13F values are common stock dated 25 days earlier and cannot be subtracted from a total that includes $10.5B of Level 2 instruments, so no unattributed figure is computed. The subtraction rows above are kept for reference only. Like for like, Level 1 ($38.4B) is compared with the 13F common total ($48.3B, which exceeds Level 1 by $10B at a date 25 days earlier) and Level 2 ($10.5B) with the named Level 2 positions at cost ($6.5B: rel_marvell_eq_2026, rel_lumentum_eq_2026, rel_nebius_eq_2026, rel_corning_eq_2026). Excluded: $3,471M of debt convertible into a public company's equity (ev_50098), which is in marketable debt.
 
 ## c. Guarantees, maximum gross exposure
 
@@ -213,7 +214,7 @@ Analysis: Nvidia is never a secured creditor. Where it lends or guarantees, it r
 |---|---|---|
 | B10 Cloud service agreements aggregate | Modified | $28B at 2026-10-25 (ev_130013), down from $30B. The backstop-shaped part is disclosed separately as neocloud agreements ($32B). Named but not quantified: CoreWeave, IREN, Nscale (no remaining balance stated). Remainder $28B |
 | F1 Non-marketable equity by period | Confirmed | $61,650M at 2026-10-25 (ev_130010), up from $47,898M (ev_10001); $1.8B impairment in Q3 (ev_50099). Remainder up to $59.0B; nine-month purchases of equity securities $58.1B (ev_190001), net additions $46.4B (ev_190002) |
-| F2 Marketable equity | Confirmed | $48,888M Level 1 + Level 2 (ev_130011, ev_130012); 13F-named stakes explain almost all |
+| F2 Marketable equity | Confirmed | $48,888M Level 1 + Level 2 (ev_130011, ev_130012); 13F-named common stock exceeds Level 1 by $10B at a date 25 days earlier; Level 2 ($10.5B) against $6.5B of named Level 2 positions at cost; no unattributed figure |
 | F3 Multi-year cloud service agreements | Modified | Split into ordinary cloud service agreements and contingent neocloud backstops; see d and e |
 | F4 Purchase obligations and prepaid supply | Modified | Supply and capacity commitments $390B (ev_130023). The prepaid balance has not been disclosed since 2025-10-26, so no attribution is possible |
 | F5 Customer concentration | Confirmed, not attributable | 14/11/11% in Q3 FY27 (ev_130024); no customer named |

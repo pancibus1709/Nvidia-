@@ -2,7 +2,7 @@
 
 Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattributed remainders and context records are excluded.
 
-**How far the sources reach.** Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown. The register holds 1087 citations: 1081 from filings, company releases and other primary sources, 6 from news publications. 53 of 80 relationships are disclosed by one side only.
+**How far the sources reach.** Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown. The register holds 1094 citations: 1088 from filings, company releases and other primary sources, 6 from news publications. 53 of 80 relationships are disclosed by one side only.
 
 ## Totals
 
@@ -23,13 +23,15 @@ What Nvidia reports in total, beside what this register can name and size. Named
 | Line | Nvidia reports | Named and sized in this register | Note |
 |---|---|---|---|
 | Private stakes, carrying value | $61.6 billion | $2.68 billion | Named column is the cost of the few private stakes whose cost a source states. |
+| Warrants and convertible preferred (Level 2) | $10.5 billion | $6.5 billion | Marvell and Lumentum convertible preferred ($2 billion each), the Nebius pre-funded warrant ($2 billion) and the Corning warrants ($500 million), at cost, not fair value. IREN's investment rights carry no value. Named column is cost, not fair value. |
+| Listed shares (Level 1) | $38.4 billion | not comparable | Not comparable. Nvidia's holdings report of 30 September 2026 shows $48.3 billion of named common stock, $10 billion more than Level 1 at 25 October 2026; the dates differ and Nvidia does not say in which level the SpaceX shares sit. |
 | Guarantees, maximum | $118 billion | $105.9 billion |  |
 | Neocloud agreements, maximum | $32 billion | $0 | Partners are known (SharonAI, Firmus and others) but no partner's share is disclosed. |
 | Cloud service agreements | $28 billion | $0 | IREN and Nscale state contract values at signing of $4.6 billion; the balance still owed is not disclosed. |
 | Unfunded equity commitments | $20 billion | $3.5 billion | Named column counts amounts a source shows as signed and unpaid at that date. |
 | Data center leases signed, not commenced | $74 billion | $0 | Nvidia says it may assign some of these leases to third parties. |
 | Supply and capacity commitments | $390 billion | $0 | Upstream commitments to suppliers; none is attributed. |
-| Equity purchases, nine months to 25 October 2026 | $58.1 billion | $0 | Named column is equity cost in this register with a sourced payment date inside the period, 0% of Nvidia's figure; a further $31.3 billion of funded cost in the register has no sourced payment date. The rest of Nvidia's purchases are not attributed. |
+| Equity purchases, nine months to 25 October 2026 | $58.1 billion | $10.5 billion | Named column is equity cost in this register with a sourced payment date inside the period, 18% of Nvidia's figure; a further $312 million of funded cost in the register has no sourced payment date. The rest of Nvidia's purchases are not attributed. |
 
 ## Largest positions by value at 30 September 2026 (Nvidia's holdings report)
 
@@ -37,20 +39,20 @@ A position whose cost is not disclosed adds nothing to gross exposure above, so 
 
 | Counterparty | Value | As of | Cost disclosed |
 |---|---|---|---|
-| SpaceX | $19.7 billion | 2026-09-30 | No |
-| Intel | $19.4 billion | 2026-09-30 | Yes |
-| CoreWeave | $4.11 billion | 2026-09-30 | Yes |
-| Coherent | $2.24 billion | 2026-09-30 | Yes |
-| Synopsys | $1.89 billion | 2026-09-30 | Yes |
-| Nokia | $738.8 million | 2026-09-30 | Yes |
-| Nebius | $280.8 million | 2026-09-30 | No |
-| Generate Biomedicines | $12.5 million | 2026-09-30 | No |
-| Anthropic | not valued (cost $10 billion) | bought after 30 September 2026 | Yes |
-| Nebius | not valued (cost $2 billion) | warrant or preferred stock, not in the holdings report | Yes |
-| Marvell | not valued (cost $2 billion) | warrant or preferred stock, not in the holdings report | Yes |
-| Lumentum | not valued (cost $2 billion) | warrant or preferred stock, not in the holdings report | Yes |
-| Corning | not valued (cost $500 million) | warrant or preferred stock, not in the holdings report | Yes |
-| Iambic | not valued (cost $25 million) | warrant or preferred stock, not in the holdings report | Yes |
+| SpaceX (common) | $19.7 billion | 2026-09-30 | No |
+| Intel (common) | $19.4 billion | 2026-09-30 | Yes |
+| CoreWeave (common) | $4.11 billion | 2026-09-30 | Yes |
+| Coherent (common) | $2.24 billion | 2026-09-30 | Yes |
+| Synopsys (common) | $1.89 billion | 2026-09-30 | Yes |
+| Nokia (common) | $738.8 million | 2026-09-30 | Yes |
+| Nebius (common) | $280.8 million | 2026-09-30 | No |
+| Generate Biomedicines (common) | $12.5 million | 2026-09-30 | No |
+| Anthropic (common) | not valued (cost $10 billion) | bought after 30 September 2026 | Yes |
+| Nebius (warrant) | not valued (cost $2 billion) | warrant, not in the holdings report | Yes |
+| Marvell (preferred) | not valued (cost $2 billion) | preferred, not in the holdings report | Yes |
+| Lumentum (preferred) | not valued (cost $2 billion) | preferred, not in the holdings report | Yes |
+| Corning (warrant) | not valued (cost $500 million) | warrant, not in the holdings report | Yes |
+| Iambic (common) | not valued (cost $25 million) | not in Nvidia's holdings report of 30 September 2026 | Yes |
 
 ### By exposure type
 
@@ -131,7 +133,7 @@ SB Energy is placed by its conditional amount (under 2 years); its funded $1.5 b
 
 | Counterparty | Gross | Share of gross | Funded and still held | Relationships |
 |---|---|---|---|---|
-| OpenAI | $135 billion | 77.0% | Not disclosed | 3 |
+| OpenAI | $135 billion | 77.0% | Not disclosed; at least $10 billion by 25 October 2026 (analysis: at least this much had been paid by that date if the commitment sits in Nvidia's $20 billion unfunded equity commitments total.) | 3 |
 | Anthropic | $10 billion | 5.7% | $10 billion | 2 |
 | Nscale | $5.24 billion | 3.0% | $2.18 billion | 4 |
 | Intel | $3.75 billion | 2.1% | $3.75 billion | 1 |
@@ -149,17 +151,18 @@ These illustrate how losses would travel, not forecasts.
 ### S2 Lab funding gap: Anthropic
 - Equity loss after haircut: $5 billion on stakes with a confirmed value
 - Other Nvidia commitment to this lab: Anthropic: agreement to invest up to $10 billion (November 2025), partly funded in Series G (headline $10 billion, not counted as exposure)
-- Commitments not yet classified as contract or lease: $646.1 billion across 7
+- Counterparty contracts that depend on this lab: up to $484.9 billion in 6 contracts with 6 counterparties (includes $200 billion stated as up to, cancellable or terminable)
+- Lease obligations of this lab: $161.2 billion across 1 lessor
 
 ### S2 Lab funding gap: OpenAI
-- OpenAI 2026 funding round: Nvidia named for $30B: Equity loss not computable: $30 billion committed, paid amount not disclosed.
+- OpenAI 2026 funding round: Nvidia named for $30 billion: Equity loss not computable: $30 billion committed, paid amount not disclosed. At least $10 billion by 25 October 2026 (analysis: at least this much had been paid by that date if the commitment sits in Nvidia's $20 billion unfunded equity commitments total.)
 - Guaranty this lab's default would trigger: $105 billion cap, not yet in force (Not in force: each guaranty takes effect only when its PORTS-Pike building is completed and ready for service; the first is expected in Nvidia's fiscal 2029 (ev_120002, ev_120009). No payments have been made (ev_30023).)
 - Other Nvidia commitment to this lab: OpenAI letter of intent: up to $100 billion as each gigawatt is deployed (headline $100 billion, not counted as exposure)
-- Commitments not yet classified as contract or lease: $306.4 billion across 4
+- Counterparty contracts that depend on this lab: up to $306.4 billion in 4 contracts with 3 counterparties (includes $18.4 billion stated as up to, cancellable or terminable)
 
 ### S2 Lab funding gap: SpaceX
 - Equity loss after haircut: $9.84 billion on stakes with a confirmed value
-- Commitments not yet classified as contract or lease: $60.2 billion across 2
+- Lease obligations of this lab: $60.2 billion across 2 lessors
 
 ### S2 Lab funding gap: other labs
 - Not computable (no confirmed value for Nvidia's stake and no sourced commitments): Cursor, Black Forest Labs, Cohere, Mistral, Motif Technologies, Reflection, Sakana AI, SSI, Thinking Machines, Upstage

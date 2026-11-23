@@ -134,14 +134,16 @@
               "evidence": [
                 "ev_170001"
               ],
-              "note": "Series B purchase price"
+              "note": "Series B purchase price; the Series B was sold from September to December 2023 and only the months are stated, so the first day of the first month is used; every date in that range is before 2026.",
+              "paid_on": "2023-09-01"
             },
             {
               "value": 5000000,
               "evidence": [
                 "ev_170002"
               ],
-              "note": "Series B-4 purchase price"
+              "note": "Series B-4 purchase price; the Series B-4 was sold from April to May 2026 and only the months are stated, so the first day of April 2026 is used.",
+              "paid_on": "2026-04-01"
             }
           ]
         },
@@ -294,7 +296,8 @@
           "ev_170001",
           "ev_170002"
         ],
-        "note": "Preferred shares bought (1,536,034 Series B plus 291,658 Series B-4) as stated in the prospectus; holdings after conversion not disclosed."
+        "note": "Preferred shares bought (1,536,034 Series B plus 291,658 Series B-4) as stated in the prospectus; holdings after conversion not disclosed.",
+        "instrument": "common"
       }
     }
   ],
