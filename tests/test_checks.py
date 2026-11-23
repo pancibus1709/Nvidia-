@@ -223,3 +223,14 @@ def test_staleness_rule():
     done = {"status": "completed", "amounts": {"headline": {"value": 5e9}}}
     assert checks.is_stale(a, big, cfg, date(2025, 2, 15)) and not checks.is_stale(a, small, cfg, date(2025, 2, 15))
     assert not checks.is_stale(a, done, cfg, date(2025, 6, 1)) and checks.is_stale(a, done, cfg, date(2026, 2, 1))
+
+
+def test_committed_with_undisclosed_paid_portion_counts_once(reg, helpers):
+    r = helpers.rel("rel_example_eq_2026", type_primary="EQ", evidence=["ev_2"], committed_total=helpers.amt(250e6, ["ev_2"]),
+                    headline=helpers.amt(250e6, ["ev_2"]), contingent_max=helpers.amt(na=True))
+    before = checks.independent_totals(reg)
+    reg.relationships.append(r); reg.index(); measure.run(reg)
+    after = checks.independent_totals(reg)
+    assert r["derived"]["committed_unfunded"] == 250e6 and r["derived"]["funded_split_unknown"] is True
+    assert r["derived"]["gross_exposure"] == 250e6 and r["derived"]["gross_missing"] == []
+    assert after["gross"] == before["gross"] + 250e6 and after["funded"] == before["funded"]

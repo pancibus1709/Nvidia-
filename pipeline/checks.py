@@ -237,10 +237,14 @@ def independent_gross(r: dict) -> dict:
         unfunded = 0.0
     elif am["committed_total"].get("not_applicable") and funded is not None:
         unfunded = 0.0
+    elif committed is not None and funded is None and not am["committed_total"].get("not_applicable"):
+        unfunded = committed   # paid portion not disclosed: the committed total counts once, as not yet confirmed paid
     else:
         unfunded = None
+    split_unknown = unfunded is not None and funded is None
     parts = {"funded": funded, "committed_unfunded": unfunded, "contingent_max": cont}
-    return {**parts, "gross": sum(v for v in parts.values() if v is not None), "missing": [k for k, v in parts.items() if v is None]}
+    return {**parts, "gross": sum(v for v in parts.values() if v is not None),
+            "missing": [k for k, v in parts.items() if v is None and not (k == "funded" and split_unknown)]}
 
 
 def independent_totals(reg: Register, rel_filter=None) -> dict:

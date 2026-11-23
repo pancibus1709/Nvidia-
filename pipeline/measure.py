@@ -25,13 +25,24 @@ def committed_unfunded(r: dict):
         return max(0.0, committed - funded)
     if funded is not None and (r["status"] == "completed" or na):
         return 0.0
+    if committed is not None and funded is None and not na:
+        # Paid portion not disclosed. Funded plus unfunded equals the committed total whatever the split,
+        # so the whole committed total counts once, here, and the record is flagged.
+        return committed
     return None
+
+
+def funded_split_unknown(r: dict) -> bool:
+    am = r["amounts"]
+    return (elig_value(am.get("committed_total")) is not None and not am["committed_total"].get("not_applicable")
+            and elig_value(am.get("funded")) is None)
 
 
 def gross(r: dict):
     parts = {"funded": elig_value(r["amounts"].get("funded")), "committed_unfunded": committed_unfunded(r),
              "contingent_max": elig_value(r["amounts"].get("contingent_max"))}
-    missing = [k for k, v in parts.items() if v is None]
+    split_unknown = funded_split_unknown(r)
+    missing = [k for k, v in parts.items() if v is None and not (k == "funded" and split_unknown)]
     return sum(v for v in parts.values() if v is not None), missing, parts
 
 
@@ -110,7 +121,8 @@ def run(reg: Register, today: date | None = None) -> Register:
         cont = parts["contingent_max"]
         funded = parts["funded"]
         d = {"label": "analysis", "committed_unfunded": cu, "gross_exposure": g if (g or not missing) else None,
-             "gross_missing": missing, "gross_lower_bound": bool(missing)}
+             "gross_missing": missing, "gross_lower_bound": bool(missing),
+             "funded_split_unknown": funded_split_unknown(r)}
         if g == 0 and missing:
             d["gross_exposure"] = None
         rate = (draw["base"].get(r["type_primary"]) or {}).get("rate")

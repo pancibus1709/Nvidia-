@@ -142,9 +142,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 31.2,
+      "score": 29.8,
       "components": {
-        "gross_percentile": 0.154,
+        "gross_percentile": 0.121,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -177,6 +177,7 @@
       "gross_exposure": 0.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 0,
       "ead_max": 0,
       "loss_max": 0,
@@ -450,17 +451,15 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 45.0,
+      "score": 51.3,
       "components": {
-        "gross_percentile": null,
-        "contingent_share": null,
+        "gross_percentile": 0.97,
+        "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
         "lender_reliance": 0.0
       },
       "missing": [
-        "gross_percentile",
-        "contingent_share",
         "circularity_percentile",
         "counterparty_weakness"
       ],
@@ -490,16 +489,14 @@
     "notes": "Linked compute: OpenAI's release pairs the investment with 3 GW of dedicated inference capacity and 2 GW of training on Vera Rubin (ev_120105). Tier 2 (CNBC, citing the OpenAI release) says the investment is separate from the September 2025 letter of intent; needs quote. Funded left unknown, see credit notes.",
     "derived": {
       "label": "analysis",
-      "committed_unfunded": null,
-      "gross_exposure": null,
-      "gross_missing": [
-        "funded",
-        "committed_unfunded"
-      ],
-      "gross_lower_bound": true,
-      "ead_base": null,
-      "ead_max": null,
-      "loss_max": null,
+      "committed_unfunded": 30000000000.0,
+      "gross_exposure": 30000000000.0,
+      "gross_missing": [],
+      "gross_lower_bound": false,
+      "funded_split_unknown": true,
+      "ead_base": 30000000000.0,
+      "ead_max": 30000000000.0,
+      "loss_max": 30000000000.0,
       "loss_max_note": "Upper bound. Assumes every contingent amount is drawn and no value is received or recovered.",
       "loss_base": null,
       "loss_base_note": "Not estimated. A base case loss needs a sourced value for what Nvidia receives or recovers.",
@@ -893,6 +890,7 @@
       "gross_exposure": 105000000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_base_note": "Not estimated. Draw depends on default of the guaranteed party.",
       "ead_max": 105000000000.0,
@@ -1158,6 +1156,7 @@
         "contingent_max"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -1510,9 +1509,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 56.0,
+      "score": 55.1,
       "components": {
-        "gross_percentile": 0.962,
+        "gross_percentile": 0.939,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -1551,6 +1550,7 @@
       "gross_exposure": 10000000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 10000000000.0,
       "ead_max": 10000000000.0,
       "loss_max": 10000000000.0,
@@ -1973,6 +1973,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -2198,6 +2199,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -2409,6 +2411,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -2625,6 +2628,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -2855,6 +2859,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -3094,6 +3099,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -3283,6 +3289,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -3472,6 +3479,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -3634,9 +3642,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 31.2,
+      "score": 29.8,
       "components": {
-        "gross_percentile": 0.154,
+        "gross_percentile": 0.121,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -3660,6 +3668,7 @@
       "gross_exposure": 0.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 0,
       "ead_max": 0,
       "loss_max": 0,
@@ -3822,9 +3831,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 31.2,
+      "score": 29.8,
       "components": {
-        "gross_percentile": 0.154,
+        "gross_percentile": 0.121,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -3848,6 +3857,7 @@
       "gross_exposure": 0.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 0,
       "ead_max": 0,
       "loss_max": 0,
@@ -4010,9 +4020,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 31.2,
+      "score": 29.8,
       "components": {
-        "gross_percentile": 0.154,
+        "gross_percentile": 0.121,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -4036,6 +4046,7 @@
       "gross_exposure": 0.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 0,
       "ead_max": 0,
       "loss_max": 0,
@@ -4253,17 +4264,15 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 55.0,
+      "score": 39.5,
       "components": {
-        "gross_percentile": null,
-        "contingent_share": null,
+        "gross_percentile": 0.424,
+        "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
         "lender_reliance": 1.0
       },
       "missing": [
-        "gross_percentile",
-        "contingent_share",
         "circularity_percentile",
         "counterparty_weakness"
       ],
@@ -4283,16 +4292,14 @@
     "notes": "Seed status: brief described this as conditional. Precondition met per NAVER (ev_90068), so recorded as definitive with committed_total and funded unknown until closing. Previously listed by R3 as loi_or_framework (c_r3_015).",
     "derived": {
       "label": "analysis",
-      "committed_unfunded": null,
-      "gross_exposure": null,
-      "gross_missing": [
-        "funded",
-        "committed_unfunded"
-      ],
-      "gross_lower_bound": true,
-      "ead_base": null,
-      "ead_max": null,
-      "loss_max": null,
+      "committed_unfunded": 1000000000.0,
+      "gross_exposure": 1000000000.0,
+      "gross_missing": [],
+      "gross_lower_bound": false,
+      "funded_split_unknown": true,
+      "ead_base": 1000000000.0,
+      "ead_max": 1000000000.0,
+      "loss_max": 1000000000.0,
       "loss_max_note": "Upper bound. Assumes every contingent amount is drawn and no value is received or recovered.",
       "loss_base": null,
       "loss_base_note": "Not estimated. A base case loss needs a sourced value for what Nvidia receives or recovers.",
@@ -4457,9 +4464,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 31.2,
+      "score": 29.8,
       "components": {
-        "gross_percentile": 0.154,
+        "gross_percentile": 0.121,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -4484,6 +4491,7 @@
       "gross_exposure": 0.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 0,
       "ead_max": 0,
       "loss_max": 0,
@@ -4752,6 +4760,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -5013,6 +5022,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -5178,9 +5188,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 31.2,
+      "score": 29.8,
       "components": {
-        "gross_percentile": 0.154,
+        "gross_percentile": 0.121,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -5205,6 +5215,7 @@
       "gross_exposure": 0.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 0,
       "ead_max": 0,
       "loss_max": 0,
@@ -5425,6 +5436,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -5615,6 +5627,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -5804,6 +5817,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -5997,6 +6011,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -6206,6 +6221,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -6415,6 +6431,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -6624,6 +6641,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -6833,6 +6851,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -7042,6 +7061,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -7222,9 +7242,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 27.9,
+      "score": 24.6,
       "components": {
-        "gross_percentile": 0.385,
+        "gross_percentile": 0.303,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -7261,6 +7281,7 @@
       "gross_exposure": 50000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 50000000.0,
       "ead_max": 50000000.0,
       "loss_max": 50000000.0,
@@ -7462,6 +7483,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -7662,6 +7684,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -7863,6 +7886,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -8041,9 +8065,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 26.3,
+      "score": 23.4,
       "components": {
-        "gross_percentile": 0.346,
+        "gross_percentile": 0.273,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -8084,6 +8108,7 @@
       "gross_exposure": 12000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 12000000.0,
       "ead_max": 12000000.0,
       "loss_max": 12000000.0,
@@ -8288,6 +8313,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -8505,6 +8531,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -8998,9 +9025,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 41.8,
+      "score": 40.8,
       "components": {
-        "gross_percentile": 0.692,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.66,
@@ -9072,6 +9099,7 @@
       "gross_exposure": 2000000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 2000000000.0,
       "ead_max": 2000000000.0,
       "loss_max": 2000000000.0,
@@ -9453,9 +9481,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 86.0,
+      "score": 85.5,
       "components": {
-        "gross_percentile": 0.923,
+        "gross_percentile": 0.909,
         "contingent_share": 1.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.66,
@@ -9507,6 +9535,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_base_note": "Not estimated. No counterparty discloses utilization against a contracted floor.",
       "ead_max": 6300000000.0,
@@ -9826,6 +9855,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -10049,9 +10079,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 37.8,
+      "score": 36.4,
       "components": {
-        "gross_percentile": 0.154,
+        "gross_percentile": 0.121,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": 0.66,
@@ -10084,6 +10114,7 @@
       "gross_exposure": 0.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 0,
       "ead_max": 0,
       "loss_max": 0,
@@ -10382,9 +10413,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 67.6,
+      "score": 63.6,
       "components": {
-        "gross_percentile": 0.462,
+        "gross_percentile": 0.364,
         "contingent_share": 1.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.66,
@@ -10423,6 +10454,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_base_note": "Not estimated. Draw depends on default of the guaranteed party.",
       "ead_max": 860340000.0,
@@ -10660,17 +10692,15 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 56.6,
+      "score": 45.9,
       "components": {
-        "gross_percentile": null,
-        "contingent_share": null,
+        "gross_percentile": 0.545,
+        "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.66,
         "lender_reliance": 1.0
       },
       "missing": [
-        "gross_percentile",
-        "contingent_share",
         "circularity_percentile"
       ],
       "label": "analysis"
@@ -10687,16 +10717,14 @@
     "notes": "Part of Nvidia's aggregate multi-year cloud service agreements (analysis); the remainder is computed in R7.",
     "derived": {
       "label": "analysis",
-      "committed_unfunded": null,
-      "gross_exposure": null,
-      "gross_missing": [
-        "funded",
-        "committed_unfunded"
-      ],
-      "gross_lower_bound": true,
-      "ead_base": null,
-      "ead_max": null,
-      "loss_max": null,
+      "committed_unfunded": 1200000000.0,
+      "gross_exposure": 1200000000.0,
+      "gross_missing": [],
+      "gross_lower_bound": false,
+      "funded_split_unknown": true,
+      "ead_base": 1200000000.0,
+      "ead_max": 1200000000.0,
+      "loss_max": 1200000000.0,
       "loss_max_note": "Upper bound. Assumes every contingent amount is drawn and no value is received or recovered.",
       "loss_base": null,
       "loss_base_note": "Not estimated. A base case loss needs a sourced value for what Nvidia receives or recovers.",
@@ -11038,9 +11066,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 35.6,
+      "score": 34.7,
       "components": {
-        "gross_percentile": 0.538,
+        "gross_percentile": 0.515,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.66,
@@ -11075,6 +11103,7 @@
       "gross_exposure": 1177399346.78,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 1177399346.78,
       "ead_max": 1177399346.78,
       "loss_max": 1177399346.78,
@@ -11317,9 +11346,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 51.8,
+      "score": 50.8,
       "components": {
-        "gross_percentile": 0.692,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.66,
@@ -11352,6 +11381,7 @@
       "gross_exposure": 2000000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 2000000000.0,
       "ead_max": 2000000000.0,
       "loss_max": 2000000000.0,
@@ -11560,6 +11590,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -11909,9 +11940,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 38.5,
+      "score": 37.5,
       "components": {
-        "gross_percentile": 0.692,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.33,
@@ -11954,6 +11985,7 @@
       "gross_exposure": 2000000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 2000000000.0,
       "ead_max": 2000000000.0,
       "loss_max": 2000000000.0,
@@ -12171,17 +12203,15 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 48.3,
+      "score": 49.7,
       "components": {
-        "gross_percentile": null,
-        "contingent_share": null,
+        "gross_percentile": 0.848,
+        "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.33,
         "lender_reliance": 0.5
       },
       "missing": [
-        "gross_percentile",
-        "contingent_share",
         "circularity_percentile"
       ],
       "label": "analysis"
@@ -12200,16 +12230,14 @@
     "notes": "Part of Nvidia's aggregate multi-year cloud service or neocloud agreements (analysis); the remainder is computed in R7.",
     "derived": {
       "label": "analysis",
-      "committed_unfunded": null,
-      "gross_exposure": null,
-      "gross_missing": [
-        "funded",
-        "committed_unfunded"
-      ],
-      "gross_lower_bound": true,
-      "ead_base": null,
-      "ead_max": null,
-      "loss_max": null,
+      "committed_unfunded": 3400000000.0,
+      "gross_exposure": 3400000000.0,
+      "gross_missing": [],
+      "gross_lower_bound": false,
+      "funded_split_unknown": true,
+      "ead_base": 3400000000.0,
+      "ead_max": 3400000000.0,
+      "loss_max": 3400000000.0,
       "loss_max_note": "Upper bound. Assumes every contingent amount is drawn and no value is received or recovered.",
       "loss_base": null,
       "loss_base_note": "Not estimated. A base case loss needs a sourced value for what Nvidia receives or recovers.",
@@ -12467,6 +12495,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -12762,6 +12791,7 @@
         "contingent_max"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -12972,6 +13002,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -13309,6 +13340,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -13635,6 +13667,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -13961,6 +13994,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -14290,6 +14324,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -14553,6 +14588,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -14835,6 +14871,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -15120,6 +15157,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -15414,6 +15452,7 @@
         "contingent_max"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -15621,6 +15660,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -15844,6 +15884,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -16068,6 +16109,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -16361,9 +16403,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 42.9,
+      "score": 42.7,
       "components": {
-        "gross_percentile": 0.885,
+        "gross_percentile": 0.879,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.0,
@@ -16413,6 +16455,7 @@
       "gross_exposure": 5000000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 5000000000.0,
       "ead_max": 5000000000.0,
       "loss_max": 5000000000.0,
@@ -16642,9 +16685,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 32.5,
+      "score": 29.5,
       "components": {
-        "gross_percentile": 0.5,
+        "gross_percentile": 0.424,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -16681,6 +16724,7 @@
       "gross_exposure": 1000000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 1000000000.0,
       "ead_max": 1000000000.0,
       "loss_max": 1000000000.0,
@@ -16898,9 +16942,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 40.2,
+      "score": 39.2,
       "components": {
-        "gross_percentile": 0.692,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -16933,6 +16977,7 @@
       "gross_exposure": 2000000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 2000000000.0,
       "ead_max": 2000000000.0,
       "loss_max": 2000000000.0,
@@ -17155,9 +17200,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 40.2,
+      "score": 39.2,
       "components": {
-        "gross_percentile": 0.692,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -17190,6 +17235,7 @@
       "gross_exposure": 2000000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 2000000000.0,
       "ead_max": 2000000000.0,
       "loss_max": 2000000000.0,
@@ -17403,9 +17449,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 40.2,
+      "score": 39.2,
       "components": {
-        "gross_percentile": 0.692,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -17438,6 +17484,7 @@
       "gross_exposure": 2000000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 2000000000.0,
       "ead_max": 2000000000.0,
       "loss_max": 2000000000.0,
@@ -17657,9 +17704,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 40.2,
+      "score": 39.2,
       "components": {
-        "gross_percentile": 0.692,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -17694,6 +17741,7 @@
       "gross_exposure": 2000000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 2000000000.0,
       "ead_max": 2000000000.0,
       "loss_max": 2000000000.0,
@@ -17907,6 +17955,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -18120,9 +18169,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 29.4,
+      "score": 25.8,
       "components": {
-        "gross_percentile": 0.423,
+        "gross_percentile": 0.333,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -18155,6 +18204,7 @@
       "gross_exposure": 500000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 500000000.0,
       "ead_max": 500000000.0,
       "loss_max": 500000000.0,
@@ -18329,17 +18379,15 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 45.0,
+      "score": 29.5,
       "components": {
-        "gross_percentile": null,
-        "contingent_share": null,
+        "gross_percentile": 0.424,
+        "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
         "lender_reliance": 0.0
       },
       "missing": [
-        "gross_percentile",
-        "contingent_share",
         "circularity_percentile",
         "counterparty_weakness"
       ],
@@ -18358,16 +18406,14 @@
     ],
     "derived": {
       "label": "analysis",
-      "committed_unfunded": null,
-      "gross_exposure": null,
-      "gross_missing": [
-        "funded",
-        "committed_unfunded"
-      ],
-      "gross_lower_bound": true,
-      "ead_base": null,
-      "ead_max": null,
-      "loss_max": null,
+      "committed_unfunded": 1000000000.0,
+      "gross_exposure": 1000000000.0,
+      "gross_missing": [],
+      "gross_lower_bound": false,
+      "funded_split_unknown": true,
+      "ead_base": 1000000000.0,
+      "ead_max": 1000000000.0,
+      "loss_max": 1000000000.0,
       "loss_max_note": "Upper bound. Assumes every contingent amount is drawn and no value is received or recovered.",
       "loss_base": null,
       "loss_base_note": "Not estimated. A base case loss needs a sourced value for what Nvidia receives or recovers.",
@@ -18395,8 +18441,8 @@
         "inputs": []
       },
       "annual_obligation": {
-        "value": null,
-        "basis": null
+        "value": 324324324.3243243,
+        "basis": "derived: committed not yet paid divided by remaining years"
       },
       "backstop_coverage": {
         "value": null,
@@ -18576,17 +18622,15 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 50.0,
+      "score": 49.0,
       "components": {
-        "gross_percentile": null,
-        "contingent_share": null,
+        "gross_percentile": 0.788,
+        "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
         "lender_reliance": 0.5
       },
       "missing": [
-        "gross_percentile",
-        "contingent_share",
         "circularity_percentile",
         "counterparty_weakness"
       ],
@@ -18608,16 +18652,14 @@
     ],
     "derived": {
       "label": "analysis",
-      "committed_unfunded": null,
-      "gross_exposure": null,
-      "gross_missing": [
-        "funded",
-        "committed_unfunded"
-      ],
-      "gross_lower_bound": true,
-      "ead_base": null,
-      "ead_max": null,
-      "loss_max": null,
+      "committed_unfunded": 2800000000.0,
+      "gross_exposure": 2800000000.0,
+      "gross_missing": [],
+      "gross_lower_bound": false,
+      "funded_split_unknown": true,
+      "ead_base": 2800000000.0,
+      "ead_max": 2800000000.0,
+      "loss_max": 2800000000.0,
       "loss_max_note": "Upper bound. Assumes every contingent amount is drawn and no value is received or recovered.",
       "loss_base": null,
       "loss_base_note": "Not estimated. A base case loss needs a sourced value for what Nvidia receives or recovers.",
@@ -18780,17 +18822,15 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 45.0,
+      "score": 31.9,
       "components": {
-        "gross_percentile": null,
-        "contingent_share": null,
+        "gross_percentile": 0.485,
+        "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
         "lender_reliance": 0.0
       },
       "missing": [
-        "gross_percentile",
-        "contingent_share",
         "circularity_percentile",
         "counterparty_weakness"
       ],
@@ -18803,16 +18843,14 @@
     "notes": "KYEC is not an SEC registrant; kyec.com.tw not searched successfully.",
     "derived": {
       "label": "analysis",
-      "committed_unfunded": null,
-      "gross_exposure": null,
-      "gross_missing": [
-        "funded",
-        "committed_unfunded"
-      ],
-      "gross_lower_bound": true,
-      "ead_base": null,
-      "ead_max": null,
-      "loss_max": null,
+      "committed_unfunded": 1100000000.0,
+      "gross_exposure": 1100000000.0,
+      "gross_missing": [],
+      "gross_lower_bound": false,
+      "funded_split_unknown": true,
+      "ead_base": 1100000000.0,
+      "ead_max": 1100000000.0,
+      "loss_max": 1100000000.0,
       "loss_max_note": "Upper bound. Assumes every contingent amount is drawn and no value is received or recovered.",
       "loss_base": null,
       "loss_base_note": "Not estimated. A base case loss needs a sourced value for what Nvidia receives or recovers.",
@@ -19003,6 +19041,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -19195,6 +19234,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -19387,6 +19427,7 @@
         "committed_unfunded"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -19675,9 +19716,9 @@
     },
     "aggregate_of": null,
     "significance": {
-      "score": 46.3,
+      "score": 45.2,
       "components": {
-        "gross_percentile": 0.846,
+        "gross_percentile": 0.818,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -19713,6 +19754,7 @@
       "gross_exposure": 3000000000.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 3000000000.0,
       "ead_max": 3000000000.0,
       "loss_max": 3000000000.0,
@@ -19951,9 +19993,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 41.2,
+      "score": 39.8,
       "components": {
-        "gross_percentile": 0.154,
+        "gross_percentile": 0.121,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -19984,6 +20026,7 @@
       "gross_exposure": 0.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 0,
       "ead_max": 0,
       "loss_max": 0,
@@ -20240,6 +20283,7 @@
         "contingent_max"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -20472,6 +20516,7 @@
         "contingent_max"
       ],
       "gross_lower_bound": true,
+      "funded_split_unknown": false,
       "ead_base": null,
       "ead_max": null,
       "loss_max": null,
@@ -20708,9 +20753,9 @@
     },
     "aggregate_of": null,
     "significance": {
-      "score": 31.2,
+      "score": 29.8,
       "components": {
-        "gross_percentile": 0.154,
+        "gross_percentile": 0.121,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -20743,6 +20788,7 @@
       "gross_exposure": 0.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 0,
       "ead_max": 0,
       "loss_max": 0,
@@ -20901,6 +20947,7 @@
       "gross_exposure": 0.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 0,
       "ead_max": 0,
       "loss_max": 0,
@@ -21057,6 +21104,7 @@
       "gross_exposure": 0.0,
       "gross_missing": [],
       "gross_lower_bound": false,
+      "funded_split_unknown": false,
       "ead_base": 0,
       "ead_max": 0,
       "loss_max": 0,
