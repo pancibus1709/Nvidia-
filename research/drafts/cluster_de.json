@@ -172,7 +172,7 @@
     {
       "id": "ent_ai_financing_platforms",
       "name": "AI compute infrastructure financing platforms (Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR)",
-      "short_name": "Financing platforms",
+      "short_name": "six financing platforms",
       "cluster": "vehicle",
       "depth": 1,
       "public": false,
@@ -459,7 +459,9 @@
       "from": "ent_nvidia",
       "to": "ent_sb_energy",
       "type_primary": "EQ",
-      "types_secondary": [],
+      "types_secondary": [
+        "EQ-C"
+      ],
       "title": "Nvidia equity in SB Energy (prepaid forward and IPO private placement)",
       "insight_template": "Nvidia paid {funded} for {counterparty} shares and would owe {contingent_max} more only if the listing closes in time, beside its lease guarantee.",
       "definition": "Nvidia prepaid $1.5 billion to SB Energy's parent on 17 August 2026 under a prepaid forward contract that settles into non voting Class N shares at 90% of the IPO price; this is the committed and funded amount. It also signed a share purchase agreement to buy another $1.5 billion of Class N shares at the IPO price, which lapses unless an IPO with at least $1.5 billion of primary proceeds closes by 15 May 2027, so that part is recorded as contingent. Nvidia's own release mentioned only $1.5 billion.",
@@ -595,7 +597,13 @@
               "ent_sb_energy"
             ],
             "direction": "mixed",
-            "text": "If the SB Energy IPO fails, Nvidia's second $1.5 billion is never paid but its funded $1.5 billion stays in an unlisted SoftBank controlled company."
+            "text": "If the SB Energy IPO fails, Nvidia's second $1.5 billion is never paid but its funded $1.5 billion stays in an unlisted SoftBank controlled company.",
+            "evidence": [
+              "ev_40087",
+              "ev_40088",
+              "ev_100023",
+              "ev_100052"
+            ]
           },
           {
             "trigger": "PORTS-Pike rent commencement slips",
@@ -605,7 +613,11 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "A delay at PORTS-Pike, SB Energy's largest asset, would cut the value of Nvidia's shares at the same time as it delays Nvidia's guaranty taking effect."
+            "text": "A delay at PORTS-Pike, SB Energy's largest asset, would cut the value of Nvidia's shares at the same time as it delays Nvidia's guaranty taking effect.",
+            "evidence": [
+              "ev_120036",
+              "ev_120002"
+            ]
           }
         ],
         "second_order": [
@@ -618,7 +630,11 @@
             ],
             "direction": "positive",
             "text": "Nvidia buying SB Energy stock at 90% of the IPO price lends support to the offering, which a withdrawal by Nvidia would remove.",
-            "lens": "signaling"
+            "lens": "signaling",
+            "evidence": [
+              "ev_40087",
+              "ev_100053"
+            ]
           },
           {
             "trigger": "OpenAI fails to pay rent",
@@ -630,7 +646,11 @@
             ],
             "direction": "negative",
             "text": "Because SB Energy has no unaffiliated data center tenants, an OpenAI failure would hit SB Energy, its lenders and Nvidia's stake at once.",
-            "lens": "contagion"
+            "lens": "contagion",
+            "evidence": [
+              "ev_100026",
+              "ev_120036"
+            ]
           },
           {
             "trigger": "SB Energy builds PORTS-Pike",
@@ -641,7 +661,11 @@
             ],
             "direction": "mixed",
             "text": "Nvidia cash in SB Energy funds a campus that must exclusively deploy Nvidia hardware, so part of future Nvidia sales rests on Nvidia's own capital.",
-            "lens": "revenue_quality"
+            "lens": "revenue_quality",
+            "evidence": [
+              "ev_100004",
+              "ev_120004"
+            ]
           }
         ]
       },
@@ -723,7 +747,10 @@
         "ev_100021",
         "ev_100008",
         "ev_40098",
-        "ev_100004"
+        "ev_100004",
+        "ev_120036",
+        "ev_120002",
+        "ev_120004"
       ]
     },
     {
@@ -733,7 +760,7 @@
       "type_primary": "RV",
       "types_secondary": [],
       "title": "Residual value support for AI compute financing platforms (MOUs with six capital providers)",
-      "insight_template": "Nvidia may stand behind part of the value of projects that the {counterparty} fund, so a fall in asset values could become its loss.",
+      "insight_template": "Nvidia may back part of the value of projects that the {counterparty} fund, so a fall in asset values could become its loss.",
       "definition": "In August 2026 Nvidia signed memorandums of understanding with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to set up platforms that would raise over $500 billion of third party capital for AI infrastructure. Nvidia says it may provide residual value support for up to 25% of an opportunity, at its option and project by project. The arrangements are preliminary and subject to final agreements.",
       "status": "loi_or_framework",
       "claim_basis": "filed",
@@ -829,7 +856,7 @@
         "first_order": [
           {
             "trigger": "A project financed by a platform with Nvidia residual value support loses value",
-            "mechanism": "Nvidia pays the shortfall on up to its share of the opportunity under the Financing platforms memorandums",
+            "mechanism": "Nvidia pays the shortfall on up to its share of the opportunity under the six financing platforms memorandums",
             "affected": [
               "ent_nvidia",
               "ent_ai_financing_platforms"
@@ -845,7 +872,7 @@
         "second_order": [
           {
             "trigger": "Capital providers size platform debt against Nvidia support",
-            "mechanism": "Lenders in the Financing platforms could price loans on Nvidia's support once final agreements exist",
+            "mechanism": "Lenders in the six financing platforms could price loans on Nvidia's support once final agreements exist",
             "affected": [
               "ent_apollo",
               "ent_blackrock",
@@ -864,7 +891,7 @@
           },
           {
             "trigger": "Nvidia supports values of GPU heavy projects",
-            "mechanism": "Support under the Financing platforms would prop up the collateral value of Nvidia systems used in other financings",
+            "mechanism": "Support under the six financing platforms would prop up the collateral value of Nvidia systems used in other financings",
             "affected": [
               "ent_ai_financing_platforms"
             ],
@@ -956,7 +983,7 @@
       "type_primary": "LP",
       "types_secondary": [],
       "title": "Nvidia founding investor in Helix Digital Infrastructure (KKR)",
-      "insight_template": "Nvidia has an undisclosed stake in {counterparty}, a KKR fund building data centers and power for its own customers.",
+      "insight_template": "Nvidia has an undisclosed stake in {counterparty}, a KKR fund building data centers and power for hyperscalers.",
       "definition": "Helix Digital Infrastructure was launched by KKR on 11 June 2026 with Kuwait Investment Authority, Nvidia and Vistra as founding investors and more than $10 billion of commitments in total. The vehicle is an open ended fund, KKR Helix C L.P., that invests in hyperscale data centers, power and fiber. Nvidia's commitment is not disclosed.",
       "status": "definitive",
       "claim_basis": "company_announced",
@@ -1153,7 +1180,8 @@
         "ev_100054",
         "ev_100032",
         "ev_100055",
-        "ev_100033"
+        "ev_100033",
+        "ev_200009"
       ]
     },
     {
@@ -1230,7 +1258,7 @@
       },
       "seniority": "lp_interest",
       "reconciliation": {
-        "result": "reconciled",
+        "result": "partial",
         "nvidia_side": "Nvidia's July 2026 NAVER release refers to Nvidia's participation as a founding partner in the Brookfield Global AI Infrastructure Program (ev_30074). No amount.",
         "counterparty_side": "Brookfield's 10-K lists Nvidia among the investors in the fund's $5 billion of commitments (ev_100034, ev_100035) and its 2026 circular calls Nvidia a strategic limited partner (ev_100038). No amount.",
         "nvidia_evidence": [
@@ -1241,7 +1269,19 @@
           "ev_100035",
           "ev_100038"
         ],
-        "differences": []
+        "differences": [
+          {
+            "field": "nature of interest",
+            "nvidia_value": "founding partner in a program, no fund or amount named",
+            "counterparty_value": "investor in the fund's $5 billion of commitments; strategic limited partner",
+            "evidence": [
+              "ev_30074",
+              "ev_100034",
+              "ev_100035",
+              "ev_100038"
+            ]
+          }
+        ]
       },
       "credit": {
         "wwr": "general",
@@ -1331,7 +1371,7 @@
       "id": "rel_meta_eq_2026",
       "from": "ent_nvidia",
       "to": "ent_meta",
-      "type_primary": "EQ",
+      "type_primary": "EQ-C",
       "types_secondary": [],
       "title": "Nvidia indication to buy $3 billion of Meta Class A stock in Meta's October 2026 offering",
       "insight_template": "Nvidia said it would put {headline} into {counterparty} stock while Meta expands Nvidia purchases, yet Meta's prospectus calls the interest not binding.",
@@ -1404,7 +1444,7 @@
         "effective": null,
         "maturity": null
       },
-      "seniority": "common_equity",
+      "seniority": "none",
       "reconciliation": {
         "result": "contradicted",
         "nvidia_side": "Nvidia release: 'NVIDIA will invest $3 billion in Meta's equity offering' (ev_30076, 2026-10-26).",
@@ -1455,7 +1495,11 @@
               "ent_meta"
             ],
             "direction": "mixed",
-            "text": "If Nvidia buys the full $3 billion of Meta stock, its gain or loss tracks Meta's share price, not Meta's credit."
+            "text": "If Nvidia buys the full $3 billion of Meta stock, its gain or loss tracks Meta's share price, not Meta's credit.",
+            "evidence": [
+              "ev_30076",
+              "ev_100041"
+            ]
           }
         ],
         "second_order": [
@@ -1528,7 +1572,7 @@
       },
       "aggregate_of": null,
       "significance": {},
-      "notes": "Instruments: prospectus supplement (424B5) of 28 October 2026 for 40,000,000 Class A shares via forward sale agreements with Morgan Stanley and Goldman Sachs, initial forward price $622.91875 (ev_100044), settlement by 19 November 2027 (ev_100045); proceeds for general corporate purposes (ev_100043). It supersedes the 26 October preliminary supplement. Meta committed to buy: Meta 'intends to expand the deployment' of Nvidia infrastructure, no volume (ev_30077). Gate R: Meta's offering has priced and its prospectus still calls the interest not binding. No filing yet shows whether Nvidia bought shares. Status stays a framework until one does.",
+      "notes": "Instruments: prospectus supplement (424B5) of 28 October 2026 for 40,000,000 Class A shares via forward sale agreements with Morgan Stanley and Goldman Sachs, initial forward price $622.91875 (ev_100044), settlement by 19 November 2027 (ev_100045); proceeds for general corporate purposes (ev_100043). It supersedes the 26 October preliminary supplement. Meta committed to buy: Meta 'intends to expand the deployment' of Nvidia infrastructure, no volume (ev_30077). Gate R: Meta's offering has priced and its prospectus still calls the interest not binding. No filing yet shows whether Nvidia bought shares. Status stays a framework until one does. Critic round 1: typed EQ-C with seniority none until a filing shows shares held, like the other letters of intent.",
       "version": 1,
       "evidence": [
         "ev_30076",
@@ -1857,17 +1901,6 @@
       "summary": "Nvidia signs the SB Energy prepaid forward and share purchase agreement and funds $1.5 billion, the same day as the PORTS-Pike guaranties.",
       "evidence": [
         "ev_40087"
-      ]
-    },
-    {
-      "id": "evt_sbe_s1a3",
-      "date": "2026-11-19",
-      "relationship": "rel_sb_energy_eq_2026",
-      "kind": "filing",
-      "summary": "SB Energy's S-1/A No. 3 states Nvidia will invest $3.0 billion in total and files the executed Building 1 guaranty.",
-      "evidence": [
-        "ev_40086",
-        "ev_100013"
       ]
     },
     {

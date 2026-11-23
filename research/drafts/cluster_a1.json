@@ -896,9 +896,9 @@
       "type_primary": "EQ-C",
       "types_secondary": [],
       "title": "OpenAI letter of intent: up to $100 billion as each gigawatt is deployed",
-      "insight_template": "Nvidia's {headline} letter of intent with {counterparty} produced no disclosed definitive agreement; a separate equity purchase followed, so the headline adds no binding exposure.",
+      "insight_template": "Nvidia's {headline} letter of intent with {counterparty} has no disclosed definitive agreement; a separate equity purchase followed (analysis), adding no binding exposure.",
       "definition": "In September 2025 Nvidia and OpenAI signed a letter of intent under which Nvidia intends to invest up to $100 billion in OpenAI progressively as each gigawatt of Nvidia systems is deployed, alongside OpenAI deploying at least 10 GW. Both sides said details were still to be finalized. No definitive agreement for this structure has been disclosed by either side as of 2026-11-23; in February 2026 Nvidia instead committed equity to OpenAI's funding round, recorded separately.",
-      "status": "restructured",
+      "status": "loi_or_framework",
       "claim_basis": "company_announced",
       "amounts": {
         "headline": {
@@ -969,7 +969,7 @@
       },
       "seniority": "none",
       "reconciliation": {
-        "result": "reconciled",
+        "result": "partial",
         "nvidia_side": "Nvidia release: intends to invest up to $100 billion progressively (ev_30021). Q3 FY26 10-Q: a letter of intent with an opportunity to invest in OpenAI (ev_10156). FY26 10-K (2026-02-25): finalizing an investment and partnership agreement (ev_10125). Q1 and Q2 FY27 10-Qs do not name OpenAI as an investee.",
         "counterparty_side": "OpenAI release of the same date: NVIDIA intends to invest up to $100 billion progressively (ev_120020), details to be finalized (ev_120021). OpenAI has published nothing since that converts the letter of intent into a definitive agreement; its February 2026 round release describes a separate $30B investment.",
         "nvidia_evidence": [
@@ -981,7 +981,17 @@
           "ev_120020",
           "ev_120021"
         ],
-        "differences": []
+        "differences": [
+          {
+            "field": "current status",
+            "nvidia_value": "10-K of 2026-02-25 says an agreement was being finalized; later 10-Qs silent",
+            "counterparty_value": "No statement since September 2025",
+            "evidence": [
+              "ev_10125",
+              "ev_120021"
+            ]
+          }
+        ]
       },
       "credit": {
         "wwr": "general",
@@ -1038,7 +1048,6 @@
         "ev_10156",
         "ev_120020",
         "ev_120021",
-        "ev_140027",
         "ev_30018",
         "ev_30019",
         "ev_30020",
@@ -1046,7 +1055,7 @@
         "ev_30022",
         "ev_30092"
       ],
-      "notes": "Kept separate from rel_openai_eq_2026. No source states that the February 2026 investment replaces or counts against the letter of intent; treat the letter of intent as unexecuted as of 2026-11-23. Gate R: status changed from letter of intent to restructured. Nvidia's annual report filed 2026-02-25 says it was finalizing an investment and partnership agreement with OpenAI (ev_140027); OpenAI's round naming Nvidia followed (rel_openai_eq_2026); Nvidia's two later quarterly reports do not mention the letter of intent. Analysis: no source says the letter of intent was terminated or that the later purchase counts against it."
+      "notes": "Kept separate from rel_openai_eq_2026. No source states that the February 2026 investment replaces or counts against the letter of intent; treat the letter of intent as unexecuted as of 2026-11-23. Status is letter of intent: Nvidia's annual report filed 2026-02-25 says it was finalizing an investment and partnership agreement with OpenAI (ev_10125); OpenAI's round naming Nvidia followed (rel_openai_eq_2026); Nvidia's two later quarterly reports do not mention the letter of intent. Analysis: no source says the letter of intent was terminated, restructured or replaced, or that the later purchase counts against it."
     },
     {
       "id": "rel_openai_eq_2026",
@@ -1199,8 +1208,14 @@
               "ent_coreweave"
             ],
             "direction": "negative",
-            "text": "Microsoft, AWS and CoreWeave hold OpenAI commitments of hundreds of billions, so stress at OpenAI would hit both Nvidia's stake and its biggest cloud buyers.",
-            "lens": "contagion"
+            "text": "OpenAI has contracted about $250 billion of Azure services, $38 billion of AWS compute and up to about $18.4 billion of CoreWeave capacity, so stress at OpenAI would hit Nvidia's stake and those cloud contracts together.",
+            "lens": "contagion",
+            "evidence": [
+              "ev_120111",
+              "ev_120028",
+              "ev_20199",
+              "ev_20102"
+            ]
           }
         ]
       },
@@ -1304,7 +1319,11 @@
         "ev_120104",
         "ev_120033",
         "ev_120112",
-        "ev_120108"
+        "ev_120108",
+        "ev_120111",
+        "ev_120028",
+        "ev_20199",
+        "ev_20102"
       ],
       "notes": "Linked compute: OpenAI's release pairs the investment with 3 GW of dedicated inference capacity and 2 GW of training on Vera Rubin (ev_120105). Tier 2 (CNBC, citing the OpenAI release) says the investment is separate from the September 2025 letter of intent; needs quote. Funded left unknown, see credit notes."
     },
@@ -1317,7 +1336,7 @@
         "RV"
       ],
       "title": "Guaranties of OpenAI's PORTS-Pike leases from SB Energy, capped at $105 billion",
-      "insight_template": "Nvidia guarantees {counterparty}'s rent at an Ohio campus up to {contingent_max}, so Nvidia must pay exactly when {counterparty} cannot.",
+      "insight_template": "Nvidia guarantees {counterparty}'s lease value at an Ohio campus up to {contingent_max} once buildings are ready, so it pays exactly when {counterparty} cannot.",
       "definition": "On 2026-08-17 Nvidia entered into residual value guaranties with SB Energy, the lessor, covering about 4.25 GW of IT load leased for 20 years to an affiliate of OpenAI Group PBC at the PORTS-Pike campus in Ohio. Nvidia pays only if OpenAI's tenant defaults (insolvency or an uncured monetary default); each guaranty takes effect when its building is ready for service, the first expected in Nvidia's fiscal 2029, and the guaranteed amount declines as OpenAI pays rent. The aggregate cap is $105 billion; the guaranties end on OpenAI reaching a designated credit rating, at lease end, or after 20 years, and OpenAI must reimburse Nvidia. The tenant is VELA I Holdings, LLC, whose parent OpenAI Global, LLC guarantees its obligations by joinder; OpenAI's non-payment is the trigger, so the exposure is recorded against OpenAI, and SB Energy's building subsidiaries are the beneficiaries.",
       "status": "definitive",
       "claim_basis": "filed",
@@ -1385,7 +1404,9 @@
             "ev_40089",
             "ev_40090"
           ],
-          "trigger": "Insolvency of the OpenAI tenant or an uncured monetary default under a PORTS-Pike lease, after the building is ready for service; Nvidia pays the shortfall against a guaranteed minimum value that declines over each 20-year lease, net of reletting or sale."
+          "trigger": "Insolvency of the OpenAI tenant or an uncured monetary default under a PORTS-Pike lease, after the building is ready for service; Nvidia pays the shortfall against a guaranteed minimum value that declines over each 20-year lease, net of reletting or sale.",
+          "in_force": false,
+          "effective_note": "Not in force: each guaranty takes effect only when its PORTS-Pike building is completed and ready for service; the first is expected in Nvidia's fiscal 2029 (ev_120002, ev_120009). No payments have been made (ev_30023)."
         }
       },
       "dates": {
@@ -1455,7 +1476,7 @@
         "wwr": "specific",
         "wwr_reason": "Nvidia pays only when OpenAI cannot pay rent, so the exposure is drawn exactly as OpenAI's credit fails; SB Energy states OpenAI is not an investment-grade tenant.",
         "collateral": "No security for Nvidia. The landlord must pursue the tenant parent concurrently (ev_100050) and Nvidia looks solely to the tenant and tenant parent for recoupment (ev_100003). On a trigger Nvidia may assume the tenancy, have the landlord re-let, or sell (ev_40096); recovery depends on reletting a campus purpose-built for Nvidia infrastructure. OpenAI's reimbursement and indemnity is an unsecured claim on the defaulted tenant (ev_30008, ev_120007).",
-        "tenor": "Per building up to 20 years from lease commencement; leases commence in stages from 2028 to 2032, so the last guaranty can run into the early 2050s (analysis).",
+        "tenor": "Over 10 years: up to 20 years per building from each lease commencement, leases commencing 2028 to 2032; no guaranty is in force before the first building is ready, expected in Nvidia's fiscal 2029.",
         "notes": "Not effective yet: no building is ready for service; exposure builds building by building and then declines (ev_120009). The guaranties are limited to defined portions of lease and power payments (ev_120003). Nvidia's option on the remaining capacity is at its sole discretion and carries no stated amount."
       },
       "consequences": {
@@ -1479,7 +1500,7 @@
               "ent_openai"
             ],
             "direction": "positive",
-            "text": "An investment grade rating for OpenAI Group PBC would release Nvidia from the guaranties, so Nvidia's exposure depends directly on OpenAI's credit path.",
+            "text": "If OpenAI Group PBC reaches a credit rating designated in the guaranty, whose level is not disclosed, Nvidia is released, so its exposure depends on OpenAI's credit path.",
             "evidence": [
               "ev_40095"
             ]
@@ -1504,10 +1525,11 @@
               "ent_openai"
             ],
             "direction": "negative",
-            "text": "SB Energy says PORTS-Pike's financeability depends on the Nvidia guaranty of OpenAI's lease, so project lenders are underwriting Nvidia's credit, not OpenAI's.",
+            "text": "SB Energy says PORTS-Pike's financeability depends in significant part on the Nvidia guaranty, so future project lenders would be underwriting Nvidia's credit as much as OpenAI's; no project debt exists yet.",
             "lens": "lender_reliance",
             "evidence": [
-              "ev_120037"
+              "ev_120037",
+              "ev_100020"
             ]
           },
           {
@@ -1644,7 +1666,7 @@
         "ev_100050",
         "ev_100051"
       ],
-      "notes": "Executed Building 1 guaranty and form: see research/reports/R5_cluster_de.md, Guaranty terms (ev_100001 to ev_100051): tenant VELA I Holdings, LLC (ev_100008), tenant parent OpenAI Global, LLC (ev_100009), letter agreement with OpenAI OpCo, LLC (ev_100010), guaranteed minimum value constant then declining (ev_100014), no covered project debt in place yet (ev_100020). Coordinate with the vehicle cluster (SB Energy). Nvidia's separate $3.0 billion equity in SB Energy belongs to that cluster. Seniority recorded as guarantor. Dates: signed and filed 2026-08-17; effective left null because no guaranty is in force until the first building is ready for service, expected in fiscal 2029 (ev_120002, ev_30027); maturity left null because it differs per building (up to 20 years from each lease commencement). Tier 2 history: late July 2026 reports of talks on a backstop of up to $250 billion were cut to the signed $105 billion cap (needs quote, see R5 report)."
+      "notes": "Executed Building 1 guaranty and form: see research/reports/R5_cluster_de.md, Guaranty terms (ev_100001 to ev_100051): tenant VELA I Holdings, LLC (ev_100008), tenant parent OpenAI Global, LLC (ev_100009), letter agreement with OpenAI OpCo, LLC (ev_100010), guaranteed minimum value constant then declining (ev_100014), no covered project debt in place yet (ev_100020). Coordinate with the vehicle cluster (SB Energy). Nvidia's separate $3.0 billion equity in SB Energy belongs to that cluster. Seniority recorded as guarantor. Dates: signed and filed 2026-08-17; effective left null because no guaranty is in force until the first building is ready for service, expected in fiscal 2029 (ev_120002, ev_30027); maturity left null because it differs per building (up to 20 years from each lease commencement). Tier 2 history: late July 2026 reports of talks on a backstop of up to $250 billion were cut to the signed $105 billion cap (needs quote, see R5 report). Critic round 1: contingent_max marked not in force (in_force false) with the date the first guaranty can take effect; effective and maturity stay null because no source gives a calendar date for either."
     },
     {
       "id": "rel_anthropic_eqc_2025",
@@ -1766,7 +1788,10 @@
               "ent_anthropic"
             ],
             "direction": "negative",
-            "text": "Nvidia's Series G shares in Anthropic now trade publicly, so any fall in Anthropic's stock reaches Nvidia's other income directly."
+            "text": "Any Anthropic shares Nvidia received in the Series G converted at the IPO, so their value now follows the listed price; the number is not disclosed.",
+            "evidence": [
+              "ev_120066"
+            ]
           },
           {
             "trigger": "Anthropic shifts compute away from Nvidia GPUs",
@@ -2195,9 +2220,9 @@
       "to": "ent_spacex",
       "type_primary": "EQ",
       "types_secondary": [],
-      "title": "SpaceX Class A shares held by Nvidia, from its xAI Series E investment",
-      "insight_template": "Nvidia holds {counterparty} shares worth {market_value} that began as an xAI investment, in a company that also buys Nvidia systems.",
-      "definition": "Nvidia was a strategic investor in xAI's $20 billion Series E, announced 2026-01-06. SpaceX acquired xAI on 2026-02-02, and each xAI preferred share, including Series E, converted into 0.1433 SpaceX Class A shares before a five-for-one split. After SpaceX listed in June 2026, Nvidia's 13F reported 122,764,805 Class A shares at 2026-06-30 and 130,472,925 shares worth $19.68 billion at 2026-09-30.",
+      "title": "SpaceX Class A shares held by Nvidia (13F); origin in xAI holdings not fully disclosed",
+      "insight_template": "Nvidia holds {counterparty} shares worth {market_value}, at least partly from xAI stakes of undisclosed cost, in a company that also buys Nvidia systems.",
+      "definition": "Nvidia was a strategic investor in xAI's $20 billion Series E, announced 2026-01-06. SpaceX acquired xAI on 2026-02-02, and each xAI preferred share, including Series E, converted into 0.1433 SpaceX Class A shares before a five-for-one split. After SpaceX listed in June 2026, Nvidia's 13F reported 122,764,805 Class A shares at 2026-06-30 and 130,472,925 shares worth $19.68 billion at 2026-09-30. Nvidia was named in the Series E; whether it held earlier xAI shares is not disclosed, and the Series E alone does not explain the share count (analysis).",
       "status": "completed",
       "claim_basis": "filed",
       "amounts": {
@@ -2364,6 +2389,7 @@
             "lens": "lender_reliance",
             "evidence": [
               "ev_120048",
+              "ev_200004",
               "ev_120085"
             ]
           },
@@ -2528,7 +2554,8 @@
         "ev_120094",
         "ev_120095",
         "ev_120047",
-        "ev_120048"
+        "ev_120048",
+        "ev_200004"
       ],
       "notes": "Seed A3 (Nvidia up to $2 billion in an SPV that buys GPUs leased to xAI) is not confirmed: SpaceX discloses the Valor equipment leases but no allowed source quotable here places Nvidia money in the lessor. Recorded as context in depth2_links only."
     }
@@ -2719,10 +2746,11 @@
       "id": "evt_openai_loi_finalizing_2026",
       "date": "2026-02-25",
       "relationship": "rel_openai_eqc_2025",
-      "kind": "restructuring",
-      "summary": "Nvidia's annual report says it is finalizing an investment and partnership agreement with OpenAI, in place of the letter of intent wording.",
+      "kind": "filing",
+      "summary": "Nvidia's annual report says it is finalizing an investment and partnership agreement with OpenAI; its prior quarterly report had described a letter of intent.",
       "evidence": [
-        "ev_140027"
+        "ev_10125",
+        "ev_10156"
       ]
     }
   ]

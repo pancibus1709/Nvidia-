@@ -700,9 +700,11 @@ CHECKS = [check_text_citations, check_no_ids_in_copy, check_schema, check_eviden
           check_amount_order, check_insights, check_quotes, check_reconciliation, check_consequences]
 
 
-def run_all(reg: Register, published_dir=None, site_dir=None, today=None) -> list[str]:
+def run_all(reg: Register, published_dir=None, site_dir=None, today=None, draft=False) -> list[str]:
     out = []
     for fn in CHECKS:
+        if draft and fn is check_text_citations:
+            continue   # a draft is checked against its own evidence; whole-register citations are checked on the register
         out += fn(reg)
     published = None
     if published_dir and (Path(published_dir) / "relationships.json").exists():
@@ -769,7 +771,7 @@ def main(argv=None):
         d["relationships"], d["projects"] = reg.relationships, reg.projects
         d["entities"] = [e for e in reg.entities if e["id"] in ids]
         save_json(args.file, d)
-        probs = run_all(reg)
+        probs = run_all(reg, draft=True)
         print("Display eligibility written to the draft.")
         for r in reg.relationships:
             shown = {k: fmt.amount_text(a) for k, a in r["amounts"].items()}

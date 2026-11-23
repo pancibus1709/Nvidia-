@@ -659,10 +659,11 @@
     "id": "evt_openai_loi_finalizing_2026",
     "date": "2026-02-25",
     "relationship": "rel_openai_eqc_2025",
-    "kind": "restructuring",
-    "summary": "Nvidia's annual report says it is finalizing an investment and partnership agreement with OpenAI, in place of the letter of intent wording.",
+    "kind": "filing",
+    "summary": "Nvidia's annual report says it is finalizing an investment and partnership agreement with OpenAI; its prior quarterly report had described a letter of intent.",
     "evidence": [
-      "ev_140027"
+      "ev_10125",
+      "ev_10156"
     ]
   },
   {
@@ -1361,6 +1362,16 @@
     "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
     "evidence": [
       "ev_130023"
+    ]
+  },
+  {
+    "id": "evt_unattributed_data_center_leases_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_data_center_leases_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_190004"
     ]
   },
   {

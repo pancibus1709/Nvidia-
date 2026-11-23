@@ -211,7 +211,11 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "If Iambic's clinical programs disappoint, Nvidia's $25.0 million cost in Iambic is at risk, which is immaterial to Nvidia."
+            "text": "If Iambic's clinical programs disappoint, Nvidia's $25.0 million cost in Iambic is at risk, which is immaterial to Nvidia.",
+            "evidence": [
+              "ev_170001",
+              "ev_170002"
+            ]
           },
           {
             "trigger": "Iambic runs its NeuralPLexer and Enchant models on Nvidia hardware",

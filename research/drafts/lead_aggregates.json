@@ -167,7 +167,7 @@
         "ev_50099",
         "ev_80030"
       ],
-      "notes": "Named but not quantified (not subtracted): OpenAI Series C preferred (rel_openai_eq_2026; $30B committed in a round closed 2026-03-31, funded amount not disclosed); Anthropic Series G portion of the November 2025 agreement (rel_anthropic_eqc_2025, amount not disclosed); Mistral, Safe Superintelligence, Thinking Machines, Reflection, Cohere, Sakana, Point2, Figure, Wayve, Skild AI, Black Forest Labs, Scale AI, Anysphere, Databricks, Commonwealth Fusion, PsiQuantum, Quantinuum, TerraPower, Lambda, Crusoe (three rounds), Firmus (three), Together AI (three). Analysis: if the OpenAI $30B had been fully paid by 2026-10-25, the remainder would fall to about $29.0B. Excluded: Anthropic IPO placement (closed 2026-11-20, after the date, and a public stake); Nscale convertible notes (debt, not equity); equity method LP interests (Helix, Brookfield) which sit in the Non-marketable securities line of $65,528M (ev_130015) but outside the $61,650M equity table. SB Energy prepaid forward: classification inside this line is analysis. Cost versus carrying value: the aggregate includes cumulative gross unrealized gains of $9.9B (ev_130021) and losses and impairments of $2.2B (ev_130022)."
+      "notes": "Named but not quantified (not subtracted): OpenAI Series C preferred (rel_openai_eq_2026; $30B committed in a round closed 2026-03-31, funded amount not disclosed); Anthropic Series G portion of the November 2025 agreement (rel_anthropic_eqc_2025, amount not disclosed); Mistral, Safe Superintelligence, Thinking Machines, Reflection, Cohere, Sakana, Point2, Figure, Wayve, Skild AI, Black Forest Labs, Scale AI, Anysphere, Databricks, Commonwealth Fusion, PsiQuantum, Quantinuum, TerraPower, Lambda, Crusoe (three rounds), Firmus (three), Together AI (three). Analysis: if the OpenAI $30B had been fully paid by 2026-10-25, the remainder would fall to about $29.0B. Excluded: Anthropic IPO placement (closed 2026-11-20, after the date, and a public stake); Nscale convertible notes (debt, not equity); equity method LP interests (Helix, Brookfield) which sit in the Non-marketable securities line of $65,528M (ev_130015) but outside the $61,650M equity table. SB Energy prepaid forward ($1.5B funded 2026-08-17, settles into non-voting Class N shares): its classification inside this line is analysis. Basis check after the critic review: every subtraction is a cost stated by a source for a private stake (Nscale Series B, SAFE and Series C-4 prices; SB Energy prepaid amount). Cost versus carrying value: the aggregate includes cumulative gross unrealized gains of $9.9B (ev_130021) and losses and impairments of $2.2B (ev_130022)."
     },
     {
       "id": "rel_unattributed_marketable_equity_2026_10_25",
@@ -377,7 +377,7 @@
         "ev_50031",
         "ev_50098"
       ],
-      "notes": "13F covers only US-listed 13(f) securities: it omits warrants, private-placement preferred, convertible debt and non-US listings, and its date (2026-09-30) differs from the balance sheet date (2026-10-25). Named but not quantified at fair value (inside Level 2 but carried in the register only at cost, so not subtracted): Marvell preferred ($2.0B cost, rel_marvell_eq_2026), Lumentum preferred ($2.0B cost, rel_lumentum_eq_2026), Corning warrants ($0.5B, rel_corning_eq_2026), Nebius pre-funded warrant ($2.0B, rel_nebius_eq_2026), IREN investment rights (rel_iren_eq_2026, no value). Analysis: the 13F common total ($48.3B) exceeds Level 1 ($38.4B) by about $10B, so some 13F positions are probably carried in Level 2 or were sold or repriced in October; if the Level 2 items were subtracted at cost the remainder would be negative. Excluded: debt convertible into a public company's equity, $3,471M (ev_50098), which sits in marketable debt securities. Anthropic (public from 2026-11-20) is after the date."
+      "notes": "13F covers only US-listed 13(f) securities: it omits warrants, private-placement preferred, convertible debt and non-US listings, and its date (2026-09-30) differs from the balance sheet date (2026-10-25). Named but not quantified at fair value (inside Level 2 but carried in the register only at cost, so not subtracted): Marvell preferred ($2.0B cost, rel_marvell_eq_2026), Lumentum preferred ($2.0B cost, rel_lumentum_eq_2026), Corning warrants ($0.5B, rel_corning_eq_2026), Nebius pre-funded warrant ($2.0B, rel_nebius_eq_2026), IREN investment rights (rel_iren_eq_2026, no value). Analysis: the 13F common total ($48.3B) exceeds Level 1 ($38.4B) by about $10B, so some 13F positions are probably carried in Level 2 or were sold or repriced in October; if the Level 2 items were subtracted at cost the remainder would be negative. Excluded: debt convertible into a public company's equity, $3,471M (ev_50098), which sits in marketable debt securities. Anthropic (public from 2026-11-20) is after the date. Basis check after the critic review: every subtraction is a fair value stated in Nvidia's 13F, the same measure as the aggregate, at a date 25 days earlier."
     },
     {
       "id": "rel_unattributed_guarantees_2026_10_25",
@@ -526,7 +526,7 @@
         "ev_50044",
         "ev_50045"
       ],
-      "notes": "Named but not quantified: CoreWeave land, power and shell framework (rel_coreweave_gu_2026, framework only, no amount); Firmus credit support (rel_firmus_bk_2026, size not disclosed); SharonAI credit support model (rel_sharonai_bk_2026). Any of these could sit in the remainder, so it is an upper bound on what is truly unattributed. Nvidia had made no guarantee payments to date (ev_50045). The SB Energy cap is counted at its full $105B by Nvidia although no guaranty is effective until a building is ready for service in fiscal 2029; the subtraction uses the same basis."
+      "notes": "Named but not quantified: CoreWeave land, power and shell framework (rel_coreweave_gu_2026, framework only, no amount); Firmus credit support (rel_firmus_bk_2026, size not disclosed); SharonAI credit support model (rel_sharonai_bk_2026). Any of these could sit in the remainder, so it is an upper bound on what is truly unattributed. Nvidia had made no guarantee payments to date (ev_50045). The SB Energy cap is counted at its full $105B by Nvidia although no guaranty is effective until a building is ready for service in fiscal 2029; the subtraction uses the same basis. Basis check after the critic review: both subtractions are caps stated by a source (SB Energy line in Nvidia's own table; Nscale's 'up to' guarantee amount, which matches Nvidia's $860 million single partner figure)."
     },
     {
       "id": "rel_unattributed_neocloud_agreements_2026_10_25",
@@ -536,7 +536,7 @@
       "types_secondary": [],
       "title": "Unattributed neocloud (AI cloud) agreements: capacity Nvidia agreed to buy back at 2026-10-25",
       "insight_template": "Nvidia stands behind up to {contingent_max} of neocloud capacity for unnamed partners, paying when they cannot find other customers.",
-      "definition": "Neoclouds buy Nvidia systems and Nvidia commits to rent the resulting capacity for about six years; the neocloud sells the capacity to others first and Nvidia uses or pays for what is left. The commitments take effect only if the neocloud finances the purchase and Nvidia accepts the capacity. This record subtracts the one named agreement with a disclosed size, SharonAI; what remains are capacity backstops whose counterparties are not named.",
+      "definition": "Neoclouds buy Nvidia systems and Nvidia commits to rent the resulting capacity for about six years; the neocloud sells the capacity to others first and Nvidia uses or pays for what is left. The commitments take effect only if the neocloud finances the purchase and Nvidia accepts the capacity. No named agreement has a disclosed Nvidia maximum; SharonAI (headline up to $4.88 billion) and Firmus are named but not quantified, so the whole disclosed maximum is shown as unattributed.",
       "status": "definitive",
       "claim_basis": "filed",
       "amounts": {
@@ -565,7 +565,7 @@
           "evidence": []
         },
         "contingent_max": {
-          "value": 27120000000.0,
+          "value": 32000000000.0,
           "as_of": "2026-10-25",
           "fiscal_period": "FY2027 Q3",
           "original_currency": "USD",
@@ -576,9 +576,8 @@
           "display_eligible": true,
           "lower_bound": false,
           "label": "analysis",
-          "note": "Analysis. Nvidia's figure is a maximum that assumes financing and acceptance contingencies are met; SharonAI's figure is an up to contract value, the like for like maximum. Upper bound: Firmus is named but not quantified.",
+          "note": "Analysis. Equal to Nvidia's disclosed maximum, which assumes the financing and acceptance contingencies are met. No named agreement has a disclosed Nvidia maximum, so nothing is subtracted. SharonAI's 'up to $4.88 billion' is its headline contract value and its 10-Q says the arrangement has no fixed aggregate value, so it is not a like for like maximum and was removed after the critic review.",
           "evidence": [
-            "ev_40144",
             "ev_50080"
           ],
           "components": [
@@ -588,13 +587,6 @@
                 "ev_50080"
               ],
               "note": "Disclosed: neocloud agreements, maximum commitment at 2026-10-25"
-            },
-            {
-              "value": -4880000000.0,
-              "evidence": [
-                "ev_40144"
-              ],
-              "note": "Less SharonAI reserved capacity, contract value of up to $4.88B (rel_sharonai_bk_2026)"
             }
           ],
           "trigger": "Neoclouds secure financing, deploy and Nvidia accepts the capacity, and the neoclouds then cannot sell it to third parties, so Nvidia must buy it"
@@ -664,7 +656,7 @@
         "ev_50080",
         "ev_50081"
       ],
-      "notes": "Classification: an agreement belongs here when the neocloud buys Nvidia infrastructure, Nvidia commits to rent the capacity for about six years, the neocloud can sell it to third parties first and Nvidia shares revenue; the category appeared in Q2 FY2027 (July 2026) and its schedule shows nothing payable in the rest of FY2027. SharonAI (order of 2026-06-08, six years, five phases, revenue share, credit support model) and Firmus (revenue sharing and credit support model) fit. CoreWeave's residual capacity order (2025-09-09, $6.3B, running since 2025), IREN's five-year contract for Nvidia's internal workloads and Nscale's reserved clusters are ordinary multi-year cloud service agreements and are subtracted in rel_unattributed_cloud_service_agreements_2026_10_25 instead. Caveat: SharonAI's 10-Q of 2026-11-16 says the arrangement does not specify a fixed aggregate contractual value (ev_40146). Named but not quantified: Firmus (rel_firmus_bk_2026). The aggregate was $36B at 2026-07-26 (ev_50079)."
+      "notes": "Named but not quantified (not subtracted): SharonAI (rel_sharonai_bk_2026; order of 2026-06-08, six years, five phases, revenue share; 8-K headline 'up to $4.88 billion' (ev_40144) while its 10-Q of 2026-11-16 says the arrangement does not specify a fixed aggregate contractual value (ev_40146)); CoreWeave (rel_coreweave_bk_2025; residual capacity order with an initial value of $6.3B, classification between this line and cloud service agreements not stated); Firmus (rel_firmus_bk_2026; revenue sharing and credit support model, size not disclosed); IREN (rel_iren_lb_2026) and Nscale (rel_nscale_lb_2025), whose rentals may sit here or in cloud service agreements (analysis). Classification: Nvidia describes these as agreements where the neocloud buys Nvidia infrastructure, Nvidia commits to rent the capacity for about six years, the neocloud can sell to third parties first and Nvidia shares revenue; the category appeared in Q2 FY2027 and its schedule shows nothing payable in the rest of FY2027. Value before the critic review: $27.12B with SharonAI subtracted. The aggregate was $36B at 2026-07-26 (ev_50079)."
     },
     {
       "id": "rel_unattributed_cloud_service_agreements_2026_10_25",
@@ -673,8 +665,8 @@
       "type_primary": "LB",
       "types_secondary": [],
       "title": "Unattributed multi-year cloud service agreements at 2026-10-25",
-      "insight_template": "Nvidia has {committed_total} of cloud rental commitments to providers it does not name, often the same firms that buy its chips.",
-      "definition": "Nvidia rents cloud compute from cloud providers under multi-year agreements to support its research and development, and discloses the remaining commitment. This record subtracts the named rentals with disclosed contract values: CoreWeave, IREN and Nscale. What remains is rented capacity from providers Nvidia does not name.",
+      "insight_template": "Nvidia has {committed_total} of cloud rental commitments and names none of the providers, though some are firms that buy its chips.",
+      "definition": "Nvidia rents cloud compute from cloud providers under multi-year agreements to support its research and development, and discloses the remaining commitment. No named rental has a disclosed remaining commitment at the same date: CoreWeave, IREN and Nscale give only an initial order value or total contract values. Nothing is subtracted, so the whole aggregate is shown as unattributed.",
       "status": "definitive",
       "claim_basis": "filed",
       "amounts": {
@@ -687,7 +679,7 @@
           "evidence": []
         },
         "committed_total": {
-          "value": 17100000000.0,
+          "value": 28000000000.0,
           "as_of": "2026-10-25",
           "fiscal_period": "FY2027 Q3",
           "original_currency": "USD",
@@ -698,12 +690,9 @@
           "display_eligible": true,
           "lower_bound": false,
           "label": "analysis",
-          "note": "Analysis. Nvidia's figure is the unpaid remaining commitment; named figures are total contract values at signing, so the subtraction overstates attribution, while unquantified named rentals understate it. Neither an upper nor a lower bound.",
+          "note": "Analysis. Equal to the disclosed aggregate: no named rental has a stated remaining (unpaid) commitment at 2026-10-25, which is the like for like amount for this line. Removed after the critic review: CoreWeave $6.3B (the order form's initial value, not a commitment balance), IREN $3.4B and Nscale $1.2B (total contract values at signing; payments since are not disclosed). Upper bound on what is truly unattributed, since named rentals may sit inside it.",
           "evidence": [
-            "ev_130013",
-            "ev_20001",
-            "ev_40001",
-            "ev_40109"
+            "ev_130013"
           ],
           "components": [
             {
@@ -711,28 +700,7 @@
               "evidence": [
                 "ev_130013"
               ],
-              "note": "Disclosed: multi-year cloud service agreements at 2026-10-25"
-            },
-            {
-              "value": -6300000000.0,
-              "evidence": [
-                "ev_20001"
-              ],
-              "note": "Less CoreWeave residual capacity order, initial value (rel_coreweave_bk_2025)"
-            },
-            {
-              "value": -3400000000.0,
-              "evidence": [
-                "ev_40109"
-              ],
-              "note": "Less IREN five-year cloud services contract, total contract value (rel_iren_lb_2026)"
-            },
-            {
-              "value": -1200000000.0,
-              "evidence": [
-                "ev_40001"
-              ],
-              "note": "Less Nscale reserved GPU cluster capacity, aggregate amount (rel_nscale_lb_2025)"
+              "note": "Disclosed: multi-year cloud service agreements, remaining commitment at 2026-10-25"
             }
           ]
         },
@@ -816,7 +784,7 @@
         "ev_40001",
         "ev_40109"
       ],
-      "notes": "Named but not quantified: CoreWeave master services agreement order forms other than the $6.3B order (rel_coreweave_lb_2023; payments only disclosed); hyperscaler rentals (rel_microsoft_cx_2025, rel_google_cx_2025 carry no amounts); Lambda leaseback (seed B5, not in the register with an amount). The CoreWeave order is classed here, not under neocloud agreements, because it was signed under an existing MSA in September 2025, before the neocloud category existed, and runs from 2025. The IREN value is as of 2026-08-27 and the Nscale value as of 2026-11-12. Aggregate was $29B at 2026-07-26 (ev_10030)."
+      "notes": "Named but not quantified (not subtracted): CoreWeave residual capacity order of 2025-09-09 (rel_coreweave_bk_2025; the 8-K gives an initial value of $6.3B, not a commitment balance, and neither side says the order sits in this aggregate), CoreWeave master services agreement order forms (rel_coreweave_lb_2023; payments only disclosed); IREN five-year cloud services contract (rel_iren_lb_2026; about $3.4B total contract value, signed May 2026, payments to date not disclosed); Nscale reserved GPU clusters (rel_nscale_lb_2025; aggregate amount $1.2B across order forms with 12 to 48 month terms from July 2025, payments to date not disclosed); hyperscaler rentals (rel_microsoft_cx_2025, rel_google_cx_2025 carry no amounts); Lambda (no amount in the register). Whether CoreWeave, IREN and Nscale sit in this line or in neocloud agreements is not stated by Nvidia (analysis). Values before the critic review: $17.1B with all three subtracted; $23.4B with CoreWeave removed. Aggregate was $29B at 2026-07-26 (ev_10030)."
     },
     {
       "id": "rel_unattributed_equity_investment_commitments_2026_10_25",
@@ -850,7 +818,7 @@
           "display_eligible": true,
           "lower_bound": false,
           "label": "analysis",
-          "note": "Analysis. Nvidia counts commitments subject to contingencies, so named conditional commitments signed before the date are subtracted. Upper bound: OpenAI and Anthropic unfunded portions are not quantified.",
+          "note": "Analysis. Nvidia counts commitments subject to contingencies, so named commitments signed before the date with a stated unfunded amount are subtracted: SB Energy's IPO private placement (about $1.5B, payable only if the IPO closes by 15 May 2027), NAVER ($1B signed 2026-07-24, closing pending) and the Nscale NVIDIA Sale ($1.0B, due to close around 2026-11-16). Upper bound: the unfunded parts of the OpenAI and Anthropic commitments are not disclosed.",
           "evidence": [
             "ev_120011",
             "ev_30072",
@@ -870,14 +838,14 @@
               "evidence": [
                 "ev_40088"
               ],
-              "note": "Less SB Energy IPO private placement, about $1.5B unfunded (rel_sb_energy_eq_2026)"
+              "note": "Less SB Energy IPO concurrent private placement, about $1.5B unfunded, contingent on the IPO closing by 2027-05-15 (rel_sb_energy_eq_2026)"
             },
             {
               "value": -1000000000.0,
               "evidence": [
                 "ev_30072"
               ],
-              "note": "Less NAVER private placement, $1B, signed 2026-07-24 subject to conditions (rel_naver_eq_2026)"
+              "note": "Less NAVER private placement, $1B signed 2026-07-24, precondition met 2026-10-27, closing pending (rel_naver_eq_2026)"
             },
             {
               "value": -1000000000.0,
@@ -982,7 +950,7 @@
       "types_secondary": [],
       "title": "Unattributed supply and capacity commitments at 2026-10-25 (no prepayment aggregate disclosed)",
       "insight_template": "Nvidia has committed {committed_total} to suppliers it does not name, a fixed cost if demand for its systems slows.",
-      "definition": "Nvidia has committed to buy components and manufacturing capacity from suppliers, mostly memory and wafers, and discloses the total. Named supply deals with prepayments, such as Amkor, KYEC and Corning, cannot be subtracted because Nvidia no longer discloses its prepaid supply balance and the paid part of each deal is unknown. The whole aggregate is therefore recorded as unattributed.",
+      "definition": "Nvidia has committed to buy components and manufacturing capacity from suppliers, mostly memory and wafers, and discloses the total. Named supply deals such as Amkor, KYEC and Corning cannot be subtracted: no source states an unpaid amount owed by Nvidia under any of them at the balance sheet date. The whole aggregate is therefore recorded as unattributed.",
       "status": "definitive",
       "claim_basis": "filed",
       "amounts": {
@@ -1103,7 +1071,143 @@
         "ev_30062",
         "ev_60094"
       ],
-      "notes": "Named but not quantified against this aggregate: Amkor advance payments (about $2.8B, rel_amkor_pp_2026), KYEC capacity reservation advance ($1.1B, ev_30062, rel_kyec_pp_2026), Corning customer deposit ($1.0B, ev_60094, rel_corning_pp_2026), Ibiden, Unimicron and SPIL (no amounts). Their paid parts sit in prepaid assets, which Nvidia stopped breaking out after 2025-10-26 (last disclosed: long-term $1,536M, ev_10147; short-term $2.0B, ev_10148). The aggregate was $279B at 2026-07-26 (ev_10029)."
+      "notes": "Named but not quantified against this aggregate: Amkor (rel_amkor_pp_2026; Nvidia says multiyear agreements total nearly $3 billion including prepayments, committed amount not attributable because Amkor does not name the customer); KYEC capacity reservation advance ($1.1B per Nvidia's release, paid part not stated, rel_kyec_pp_2026); Corning customer deposit (rel_corning_pp_2026; Corning does not name the customer, committed amount unknown); Ibiden, Unimicron and SPIL (no amounts). Paid parts sit in prepaid assets, which Nvidia stopped breaking out after 2025-10-26 (last disclosed: long-term $1,536M, ev_10147; short-term $2.0B, ev_10148). The aggregate was $279B at 2026-07-26 (ev_10029)."
+    },
+    {
+      "id": "rel_unattributed_data_center_leases_2026_10_25",
+      "from": "ent_nvidia",
+      "to": "ent_nvidia_unattributed",
+      "type_primary": "LB",
+      "types_secondary": [
+        "GU"
+      ],
+      "title": "Unattributed data center leases not commenced at 2026-10-25",
+      "insight_template": "Nvidia has signed {committed_total} of long data center leases on its own credit, some for capacity it may pass to other companies.",
+      "definition": "Nvidia has signed data center leases with terms of up to twenty years that have not yet started, expected to commence between the fourth quarter of fiscal 2027 and fiscal 2033. Nvidia says it may assign some of these leases to third parties, so it has signed long leases on its own credit for capacity that others may use. Neither the landlords nor the third parties are named, so the whole amount is shown as unattributed.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-10-25",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": []
+        },
+        "committed_total": {
+          "value": 74000000000.0,
+          "as_of": "2026-10-25",
+          "fiscal_period": "FY2027 Q3",
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "label": "analysis",
+          "note": "Analysis. Equal to the disclosed total of data center leases not commenced; no named lease has a disclosed amount, so nothing is subtracted. Lease payments become due only as each lease commences (mostly fiscal 2032 and after).",
+          "evidence": [
+            "ev_190004"
+          ],
+          "components": [
+            {
+              "value": 74000000000.0,
+              "evidence": [
+                "ev_190004"
+              ],
+              "note": "Disclosed: data center leases not commenced at 2026-10-25"
+            }
+          ]
+        },
+        "funded": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-10-25",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": []
+        },
+        "contingent_max": {
+          "value": 0,
+          "not_applicable": true,
+          "as_of": "2026-10-25",
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "evidence": []
+        }
+      },
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "filed": "2026-11-17",
+        "effective": null,
+        "maturity": null
+      },
+      "seniority": "lessee",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "Nvidia discloses the total in Exhibit 99.2 to its Form 8-K of 2026-11-17 and says it may assign some of these leases to third parties; it names no landlord or assignee.",
+        "counterparty_side": "No landlord or assignee disclosure exists for an unattributed remainder. No disclosure found as of 2026-11-23.",
+        "nvidia_evidence": [
+          "ev_190004",
+          "ev_190005",
+          "ev_10031",
+          "ev_10037"
+        ],
+        "counterparty_evidence": [],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Nvidia owes the rent whatever happens to the party it assigns capacity to until an assignment is completed; the burden rises with weaker AI demand, and if an intended assignee weakens before taking the lease Nvidia keeps paying.",
+        "collateral": "Not disclosed",
+        "tenor": "Up to twenty years; commencing Q4 fiscal 2027 to fiscal 2033",
+        "notes": "Analysis. Remainder computed in R7 at one balance sheet date, 2026-10-25; excluded from every total. Secondary type GU because leases signed for others to use work as credit support for them."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Nvidia cannot find third parties to take assignment of the leases",
+            "mechanism": "Nvidia remains the tenant and pays rent on Unattributed data center leases for up to twenty years",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If Unattributed data center leases meant for others are not assigned, Nvidia pays rent for up to twenty years on space it may not need."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Developers finance buildings on the strength of Nvidia as tenant",
+            "mechanism": "Landlords of the Unattributed leases borrow against Nvidia's credit while the eventual user is a weaker company",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "Landlords of the Unattributed leases can finance buildings on Nvidia's credit, so capacity reaches users that could not sign such leases themselves.",
+            "lens": "lender_reliance"
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": "data_center_leases_not_commenced",
+      "significance": {},
+      "version": 1,
+      "evidence": [
+        "ev_190004",
+        "ev_190005",
+        "ev_190006",
+        "ev_190007",
+        "ev_10031",
+        "ev_10037",
+        "ev_190008",
+        "ev_190009",
+        "ev_50130"
+      ],
+      "notes": "At 2026-07-26 Nvidia's 10-Q split this commitment into data center leases not commenced of $25B (ev_10031) and a separate line, data center leases not commenced for third party, of $20B (ev_10037), with terms of about fifteen years that it expected to reassign to third parties (ev_190008); it warned that delays in completing assignments could leave it bearing the lease costs (ev_190009). The October disclosure gives one line of $74B, terms up to twenty years (ev_190006), commencement Q4 FY2027 to FY2033 (ev_190007), and says Nvidia may assign some of these leases to third parties (ev_190005); it no longer splits own use from third party. Analysis: the total rose by $29B in one quarter against the July sum of $45B. Named but not quantified: none; no landlord or assignee is named by Nvidia. Related: the SB Energy PORTS-Pike guaranties (rel_openai_gu_2026) are guarantees of OpenAI's leases, not Nvidia's own leases, and are not part of this line (analysis)."
     }
   ],
   "projects": [],
@@ -1176,6 +1280,16 @@
       "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
       "evidence": [
         "ev_130023"
+      ]
+    },
+    {
+      "id": "evt_unattributed_data_center_leases_2026_10_25",
+      "date": "2026-11-17",
+      "relationship": "rel_unattributed_data_center_leases_2026_10_25",
+      "kind": "filing",
+      "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+      "evidence": [
+        "ev_190004"
       ]
     }
   ]

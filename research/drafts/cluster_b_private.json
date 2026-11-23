@@ -439,7 +439,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia participation in the Lambda Series D",
-      "insight_template": "Nvidia holds an undisclosed stake in {counterparty}, whose loans rest on offtake contracts that a lost data center lease has already weakened.",
+      "insight_template": "Nvidia holds an undisclosed stake in {counterparty}, whose Anthropic compute agreement became terminable after Lambda missed a facility lease deadline.",
       "definition": "Lambda raised a Series D in February 2025 and names NVIDIA among its new investors. Neither Lambda nor Nvidia states how much Nvidia invested, the share class or Nvidia's ownership. Lambda raised a further Series E in November 2025 whose release does not name Nvidia.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -537,7 +537,10 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "If the Anthropic agreement that Lambda could not secure a lease for is terminated, Lambda's backlog shrinks and Nvidia's Lambda stake loses value."
+            "text": "If the Anthropic agreement that Lambda could not secure a lease for is terminated, Lambda's backlog shrinks and Nvidia's Lambda stake loses value.",
+            "evidence": [
+              "ev_110013"
+            ]
           },
           {
             "trigger": "Lambda raises its pre-IPO round or lists",
@@ -553,14 +556,19 @@
           {
             "lens": "lender_reliance",
             "trigger": "An investment-grade offtaker reduces or ends its contract",
-            "mechanism": "Lambda's asset level loans are secured by the GPUs and the contracted cash flows of named deployments",
+            "mechanism": "Lambda's term loan B is repaid from a dedicated investment-grade offtaker's contract, which is not named",
             "affected": [
               "ent_morgan_stanley",
               "ent_jpmorgan",
               "ent_lambda"
             ],
             "direction": "negative",
-            "text": "Lenders to Lambda's term loan B and fixed rate facility are repaid from specific offtake contracts, so a lost offtaker leaves them holding used Nvidia GPUs."
+            "text": "Lambda's term loan is secured on GPUs and an investment-grade offtaker's contract; no source says the terminable Anthropic agreement backs that loan.",
+            "evidence": [
+              "ev_110002",
+              "ev_110003",
+              "ev_110013"
+            ]
           },
           {
             "lens": "signaling",
@@ -720,7 +728,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia participation in the Crusoe Series D",
-      "insight_template": "Nvidia keeps buying into {counterparty} rounds while {counterparty} fills its campuses with Nvidia systems, so the stake tracks GPU demand.",
+      "insight_template": "Nvidia joined {counterparty}'s Series D led by Founders Fund for an undisclosed amount, before Crusoe added credit facilities that now rank ahead of it.",
       "definition": "Crusoe closed a $600 million Series D in December 2024 led by Founders Fund and lists NVIDIA among the participating investors. Neither side states Nvidia's amount or ownership.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -972,7 +980,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia participation in the Crusoe Series E",
-      "insight_template": "Nvidia keeps buying into {counterparty} rounds while {counterparty} fills its campuses with Nvidia systems, so the stake tracks GPU demand.",
+      "insight_template": "Nvidia joined only the initial closing of {counterparty}'s Series E, co-led by Valor and Mubadala Capital, so its share of the final round is unknown.",
       "definition": "Crusoe announced the initial closing of an anticipated $1.375 billion Series E in October 2025, co-led by Valor Equity Partners and Mubadala Capital, and lists NVIDIA among participants. Nvidia's amount is not disclosed.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -1222,7 +1230,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia participation in the Crusoe Series F",
-      "insight_template": "Nvidia keeps buying into {counterparty} rounds while {counterparty} fills its campuses with Nvidia systems, so the stake tracks GPU demand.",
+      "insight_template": "Nvidia joined {counterparty}'s Series F for an undisclosed amount; an earlier Crusoe credit facility must buy Nvidia GPUs, so some capital returns as sales.",
       "definition": "Crusoe announced the initial closing of an anticipated $3.9 billion Series F at a $30.9 billion post-money valuation in September 2026, co-led by Atreides, Mubadala Capital and Valor, and names NVIDIA among new and existing investors. Nvidia's amount is not disclosed and the round total may change at final close.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -1342,7 +1350,11 @@
               "ent_crusoe"
             ],
             "direction": "mixed",
-            "text": "Crusoe's Upper90 facility is used exclusively for NVIDIA GPUs, so some Crusoe capital raised alongside Nvidia returns to Nvidia as chip revenue."
+            "text": "Crusoe's Upper90 facility is used exclusively for NVIDIA GPUs, so some Crusoe capital raised alongside Nvidia returns to Nvidia as chip revenue.",
+            "evidence": [
+              "ev_110025",
+              "ev_110026"
+            ]
           },
           {
             "lens": "lender_reliance",
@@ -1488,7 +1500,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia participation in the Firmus A$330m placement",
-      "insight_template": "Nvidia owns equity in {counterparty}, which withdrew its IPO while most contracted capacity is still unbuilt, so the stake depends on private funding.",
+      "insight_template": "Nvidia joined a {counterparty} share placement for an undisclosed amount, so the size of its stake cannot be stated.",
       "definition": "Firmus closed an A$330m equity placement in September 2025 with a cornerstone investment by Ellerston Capital and participation from NVIDIA. Nvidia's amount is not disclosed. The figure is in Australian dollars.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -1674,7 +1686,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia participation in the Firmus USD505 million round",
-      "insight_template": "Nvidia owns equity in {counterparty}, which withdrew its IPO while most contracted capacity is still unbuilt, so the stake depends on private funding.",
+      "insight_template": "{counterparty} said Nvidia would join its round subject to closing conditions; no source confirms the closing, so this stake may not exist.",
       "definition": "Firmus announced that it expected to secure a further USD505 million strategic equity investment led by Coatue, with NVIDIA participating subject to certain closing conditions. Nikkei Asia reported the raise as including a further infusion from Nvidia. Nvidia's amount is not disclosed.",
       "status": "definitive",
       "claim_basis": "company_announced",
@@ -1879,7 +1891,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia follow-on in the Firmus USD2 billion round",
-      "insight_template": "Nvidia owns equity in {counterparty}, which withdrew its IPO while most contracted capacity is still unbuilt, so the stake depends on private funding.",
+      "insight_template": "Nvidia made a follow-on investment in {counterparty} for an undisclosed amount, ranking behind a large debt facility led by Blackstone.",
       "definition": "Firmus announced full commitments for a USD2 billion strategic equity round in August 2026, with follow-on participation from Coatue and NVIDIA and new investment from Blackstone funds and Jane Street. Firmus says total new equity raised over the past year exceeds USD3 billion at a post-money valuation above USD10.5 billion. Nvidia's amount is not disclosed.",
       "status": "definitive",
       "claim_basis": "company_announced",
@@ -1977,7 +1989,7 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "If Firmus cannot fund its unbuilt sites after the withdrawn IPO, Nvidia's Firmus stake loses value against its private round prices."
+            "text": "If Firmus cannot fund its unbuilt sites, Nvidia's Firmus stake loses value against its private round prices."
           },
           {
             "trigger": "Reported, unconfirmed: Nvidia adds new equity after the IPO withdrawal",
@@ -1987,7 +1999,7 @@
               "ent_firmus"
             ],
             "direction": "negative",
-            "text": "If reported but unconfirmed talks for Nvidia to back Firmus after the withdrawn IPO lead to new equity, Nvidia's exposure would rise when Firmus depends most on it.",
+            "text": "One news report, unconfirmed, says Firmus withdrew its IPO; if talks for Nvidia to back Firmus afterwards lead to new equity, Nvidia's exposure would rise when Firmus depends most on it.",
             "evidence": [
               "ev_110048"
             ]
@@ -2113,7 +2125,7 @@
         "GU"
       ],
       "title": "Nvidia revenue sharing and credit support for the Firmus Batam campus",
-      "insight_template": "Nvidia gives credit support to {counterparty}'s Batam campus in return for a revenue share, so its exposure grows if customers do not take the capacity.",
+      "insight_template": "Nvidia gives credit support to {counterparty}'s Batam campus in return for a revenue share; neither side discloses its size or what triggers it.",
       "definition": "Firmus announced a strategic compute partnership with NVIDIA running through 2034, anchored by a 360 MW NVIDIA DSX campus in Batam, Indonesia, covering up to 170,000 NVIDIA accelerators. Firmus procures NVIDIA infrastructure through a revenue-sharing and credit-support model: NVIDIA earns product revenue plus a share of cloud revenue on the supported capacity. Nvidia's own blog names Firmus as one of the first partners in this model. Neither side discloses the size or trigger of the credit support.",
       "status": "definitive",
       "claim_basis": "company_announced",
@@ -2170,7 +2182,7 @@
           "display_eligible": false,
           "lower_bound": false,
           "evidence": [],
-          "trigger": "Firmus cannot sell the supported Batam capacity to customers (form and cap of the credit support not disclosed)"
+          "trigger": "Assumed from Nvidia's description of the model (ev_50078): Firmus cannot sell the supported Batam capacity to customers (form and cap of the credit support not disclosed)"
         }
       },
       "dates": {
@@ -2224,7 +2236,7 @@
       },
       "credit": {
         "wwr": "specific",
-        "wwr_reason": "Credit support on Batam capacity is called on when Firmus cannot sell that capacity, which is when Firmus is weakest.",
+        "wwr_reason": "Analysis: Credit support on Batam capacity is called on when Firmus cannot sell that capacity, which is when Firmus is weakest.",
         "collateral": "Not disclosed. Nvidia would receive capacity or a revenue share, not security over the campus, as far as the releases say.",
         "tenor": "Partnership runs through 2034; GPU deliveries across 2027 and 2028.",
         "notes": "Nvidia's 10-Q says AI cloud agreements commit Nvidia to buy capacity if AI clouds do not sell it to third parties (ev_50078); whether the Firmus Batam agreement is one of those contracts is analysis, not stated. The Information (single source, 403) reported Nvidia will earn a revenue share and provide credit support for Batam."
@@ -2346,7 +2358,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia participation in the Together AI Series A",
-      "insight_template": "Nvidia holds undisclosed equity in {counterparty}, which rents Nvidia capacity from other clouds, so the stake rides on resale demand.",
+      "insight_template": "Nvidia's first {counterparty} stake came in a Series A led by Kleiner Perkins, with no amount stated by either side.",
       "definition": "Together AI raised a $102.5M Series A in November 2023 led by Kleiner Perkins, with participation from NVIDIA and Emergence Capital. Nvidia's amount is not disclosed.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -2487,7 +2499,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia participation in the Together AI Series B",
-      "insight_template": "Nvidia holds undisclosed equity in {counterparty}, which rents Nvidia capacity from other clouds, so the stake rides on resale demand.",
+      "insight_template": "Nvidia added to {counterparty} in a Series B led by General Catalyst that funds Nvidia Blackwell GPUs, so part of it returns as sales.",
       "definition": "Together AI raised a $305 million Series B in February 2025 led by General Catalyst and co-led by Prosperity7, with NVIDIA among participants. The round funds deployment of NVIDIA Blackwell GPUs. Nvidia's amount is not disclosed.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -2645,7 +2657,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia participation in the Together AI Series C",
-      "insight_template": "Nvidia holds undisclosed equity in {counterparty}, which rents Nvidia capacity from other clouds, so the stake rides on resale demand.",
+      "insight_template": "Nvidia joined {counterparty}'s Series C, whose new investors also agreed to finance compute capacity independently; Nvidia's amount is not disclosed.",
       "definition": "Together AI raised an $800 million Series C in July 2026 with NVIDIA among the investors, and secured commitments for over 500 MW of compute capacity to be capitalized independently by its new investors. Nvidia's amount is not disclosed.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -2743,7 +2755,11 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "If demand for Together AI's open model inference slows, Nvidia's Together AI stake loses value."
+            "text": "If demand for Together AI's open model inference slows, Nvidia's Together AI stake loses value.",
+            "evidence": [
+              "ev_110056",
+              "ev_110057"
+            ]
           },
           {
             "trigger": "Together AI expands capacity",

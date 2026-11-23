@@ -2,7 +2,7 @@
   {
     "id": "loop_sb_energy_openai_ports_pike",
     "title": "PORTS-Pike: Nvidia stands behind OpenAI's rent on a campus that must run Nvidia systems",
-    "summary": "Nvidia buys SB Energy stock and guarantees the landlord against an OpenAI rent default, which SB Energy says is what makes the campus financeable. OpenAI pays rent to SB Energy, pays Nvidia a fee for the guaranty, and the buildings must deploy only Nvidia reference architecture, so the money returns to Nvidia as system sales.",
+    "summary": "Nvidia buys SB Energy stock and guarantees the landlord against an OpenAI rent default. Once buildings are ready, OpenAI will pay rent to SB Energy, and the site must deploy only Nvidia reference architecture. No rent, guaranty or system purchase is in effect yet.",
     "entities": [
       "ent_nvidia",
       "ent_sb_energy",
@@ -27,7 +27,7 @@
         "from": "ent_nvidia",
         "to": "ent_sb_energy",
         "kind": "guaranty",
-        "description": "Residual value guaranties to the PORTS building landlords for leases of about 4.25 GW-IT to an OpenAI affiliate; paid only on tenant insolvency or uncured monetary default",
+        "description": "Residual value guaranties to the PORTS building landlords for leases of about 4.25 GW-IT to an OpenAI affiliate; paid only on tenant insolvency or uncured monetary default; not in force until a building is ready for service, the first expected in Nvidia's fiscal 2029",
         "relationship": "rel_openai_gu_2026",
         "amount": 105000000000,
         "amount_label": "cap",
@@ -37,7 +37,8 @@
           "ev_10040",
           "ev_30009",
           "ev_40090",
-          "ev_100024"
+          "ev_100024",
+          "ev_120002"
         ]
       },
       {
@@ -86,17 +87,17 @@
     "closed": true,
     "closing_leg_sourced": true,
     "circularity_note": "Closing leg is sourced as a contractual obligation (site exclusivity), not as a dollar amount. A ratio needs OpenAI's or SB Energy's disclosed spending on Nvidia systems for PORTS-Pike; neither side discloses it, so the ratio is not computable. The guaranty is contingent, not paid (no payments to date, ev_30023).",
-    "label": "analysis"
+    "label": "analysis",
+    "closing_leg_valued": false
   },
   {
     "id": "loop_openai_equity_compute",
     "title": "OpenAI: Nvidia equity in, Nvidia-based compute contracts out",
-    "summary": "Nvidia commits equity to OpenAI's funding round, and OpenAI pairs the investment with dedicated Vera Rubin capacity and large contracts with clouds that run Nvidia GPUs. CoreWeave, one of those clouds, runs only Nvidia GPUs, so part of the round returns to Nvidia as hardware sales.",
+    "summary": "Nvidia commits equity to OpenAI's funding round, and OpenAI pairs the investment with dedicated Vera Rubin capacity and contracts with clouds that run Nvidia GPUs. CoreWeave, one of those clouds, runs only Nvidia GPUs, so part of the round can return to Nvidia as hardware sales; no amount is disclosed.",
     "entities": [
       "ent_nvidia",
       "ent_openai",
-      "ent_coreweave",
-      "ent_microsoft"
+      "ent_coreweave"
     ],
     "legs": [
       {
@@ -141,19 +142,6 @@
         ]
       },
       {
-        "from": "ent_openai",
-        "to": "ent_microsoft",
-        "kind": "compute_contract",
-        "description": "Incremental Azure services contracted by OpenAI",
-        "relationship": null,
-        "amount": 250000000000,
-        "amount_label": "contract value",
-        "as_of": "2025-10-29",
-        "evidence": [
-          "ev_120111"
-        ]
-      },
-      {
         "from": "ent_coreweave",
         "to": "ent_nvidia",
         "kind": "purchase_of_nvidia_systems",
@@ -170,8 +158,9 @@
     ],
     "closed": true,
     "closing_leg_sourced": true,
-    "circularity_note": "Nvidia's side is sourced only from OpenAI (Nvidia does not name the investment). OpenAI's spending on Nvidia hardware is not disclosed in dollars; the Vera Rubin capacity has no value, and Microsoft's Azure contract does not name Nvidia hardware as use of proceeds, so it does not count under spec/05. Ratio not computable.",
-    "label": "analysis"
+    "circularity_note": "Nvidia's side is sourced only from OpenAI (Nvidia does not name the investment). OpenAI's spending on Nvidia hardware is not disclosed in dollars; the Vera Rubin capacity has no value, and Microsoft's Azure contract does not name Nvidia hardware as use of proceeds, so it does not count under spec/05. Ratio not computable. OpenAI's $250 billion Azure contract (ev_120111, 2025-10-29) predates the February 2026 round, so it is no longer drawn as a leg of this loop.",
+    "label": "analysis",
+    "closing_leg_valued": false
   },
   {
     "id": "loop_anthropic_gpu_clouds",
@@ -273,12 +262,13 @@
     "closed": true,
     "closing_leg_sourced": true,
     "circularity_note": "Nvidia's funded side is sourced (Anthropic 424B4). The return side is sourced only as supplier relationships without dollar values; none of the three clouds discloses Nvidia hardware bought for Anthropic. Ratio not computable. Nvidia's portion of Anthropic's Series G is not disclosed (rel_anthropic_eqc_2025).",
-    "label": "analysis"
+    "label": "analysis",
+    "closing_leg_valued": false
   },
   {
     "id": "loop_coreweave",
     "title": "CoreWeave: shareholder, supplier, renter and buyer of unsold capacity",
-    "summary": "Nvidia owns CoreWeave stock, sells it every GPU in its fleet, rents compute from it and has agreed to buy capacity CoreWeave cannot sell to its own customers. Money flows to CoreWeave as equity and rent and flows back to Nvidia as GPU purchases.",
+    "summary": "Nvidia owns CoreWeave stock, is the maker of every GPU in its fleet, rents compute from it and has agreed to buy capacity CoreWeave cannot sell to its own customers. Money flows to CoreWeave as equity and rent and flows back to Nvidia as GPU purchases, whose dollar value CoreWeave does not disclose.",
     "entities": [
       "ent_nvidia",
       "ent_coreweave"
@@ -317,11 +307,11 @@
         "from": "ent_nvidia",
         "to": "ent_coreweave",
         "kind": "backstop",
-        "description": "Order to buy CoreWeave's residual unsold capacity through 2032-04-13; ends after a 90 day insolvency",
+        "description": "Order to buy CoreWeave's residual unsold capacity through 2032-04-13, initial value of the order form, not a cap; ends after a 90 day insolvency",
         "relationship": "rel_coreweave_bk_2025",
         "amount": 6300000000,
-        "amount_label": "initial value (contingent)",
-        "as_of": "2025-09-15",
+        "amount_label": "initial value (headline)",
+        "as_of": "2025-09-09",
         "evidence": [
           "ev_20001",
           "ev_20002",
@@ -346,7 +336,8 @@
     "closed": true,
     "closing_leg_sourced": true,
     "circularity_note": "Round trip can be shown side by side only partly: Nvidia's rent paid is sourced ($705.9m in components) but CoreWeave gives Nvidia's share of purchases (17%) without a dollar figure, and its $7.4bn of OEM financing names no OEM (ev_20090). Ratio not computable without CoreWeave's dollar purchases from Nvidia.",
-    "label": "analysis"
+    "label": "analysis",
+    "closing_leg_valued": false
   },
   {
     "id": "loop_nscale",
@@ -433,7 +424,8 @@
     "closed": true,
     "closing_leg_sourced": true,
     "circularity_note": "Nvidia's side is sourced from Nscale's S-1/A only (Nvidia names neither the stake nor the notes; the guarantee appears anonymously at $860m). Nscale's purchases go through OEMs, which count under spec/05 only where a filing names Nvidia hardware; the S-1/A names Nvidia as primary GPU manufacturer but gives no dollar value. Ratio not computable.",
-    "label": "analysis"
+    "label": "analysis",
+    "closing_leg_valued": false
   },
   {
     "id": "loop_iren",
@@ -492,7 +484,8 @@
     "closed": true,
     "closing_leg_sourced": true,
     "circularity_note": "Nvidia's payments under the contract are not disclosed (only total contract value). IREN's GPU purchases from Nvidia have no stated dollar total; the $793.4m fair value is a component of cost, not the purchase price. Ratio not computable; a round trip needs IREN's disclosed Nvidia purchases and Nvidia's payments in the same window.",
-    "label": "analysis"
+    "label": "analysis",
+    "closing_leg_valued": false
   },
   {
     "id": "loop_naver_brookfield",
@@ -522,11 +515,11 @@
       {
         "from": "ent_brookfield",
         "to": "ent_naver",
-        "kind": "purchase_of_nvidia_systems",
+        "kind": "compute_contract",
         "description": "Brookfield vehicle to invest in GPUs and data centers and provide computing power to NAVER Cloud; GPU vendor not named in the NAVER release",
         "relationship": null,
         "amount": 9000000000,
-        "amount_label": "up to",
+        "amount_label": "up to (vehicle investment; vendor not named)",
         "as_of": "2026-10-27",
         "evidence": [
           "ev_90070"
@@ -560,10 +553,11 @@
         ]
       }
     ],
-    "closed": true,
+    "closed": false,
     "closing_leg_sourced": false,
     "circularity_note": "Open at the closing leg: the Nvidia release describes the site as an Nvidia DSX AI factory, but no allowed source states that the Brookfield vehicle's GPUs are bought from Nvidia or their value. Needs the vehicle's purchase terms. Nvidia's $1bn is not yet funded.",
-    "label": "analysis"
+    "label": "analysis",
+    "closing_leg_valued": false
   },
   {
     "id": "loop_sharonai",
@@ -608,12 +602,13 @@
     "closed": true,
     "closing_leg_sourced": true,
     "circularity_note": "Both sides are sourced only by SharonAI. Nvidia's committed amount and payments are not disclosed (headline only). The hardware commitment is about $4bn but the share paid to Nvidia is not stated, so the ratio is not computable. SharonAI's going-concern section (ev_80009) matters for the backstop.",
-    "label": "analysis"
+    "label": "analysis",
+    "closing_leg_valued": false
   },
   {
     "id": "loop_firmus",
     "title": "Firmus: Nvidia equity and credit support for an Nvidia-only campus",
-    "summary": "Nvidia joined several Firmus equity rounds and gives the Batam campus revenue-sharing and credit support. The campus is a dedicated Nvidia DSX AI factory, so Nvidia's equity and support return as system sales.",
+    "summary": "Nvidia is named in three Firmus equity rounds, one of them subject to closing, and gives the Batam campus revenue-sharing and credit support. The campus is a dedicated Nvidia DSX AI factory, so Nvidia's equity and support can return as system sales; no amount is disclosed.",
     "entities": [
       "ent_nvidia",
       "ent_firmus"
@@ -664,7 +659,8 @@
     "closed": true,
     "closing_leg_sourced": true,
     "circularity_note": "No dollar amount on either side is disclosed. Needs Nvidia's investment amounts and Firmus's purchases from Nvidia. Firmus withdrew its IPO (single tier 2 source, ev_110048).",
-    "label": "analysis"
+    "label": "analysis",
+    "closing_leg_valued": false
   },
   {
     "id": "loop_nebius",
@@ -706,12 +702,13 @@
     "closed": true,
     "closing_leg_sourced": true,
     "circularity_note": "Nvidia's side is reconciled on both sides. Nebius does not disclose its Nvidia purchases, so the ratio is not computable.",
-    "label": "analysis"
+    "label": "analysis",
+    "closing_leg_valued": false
   },
   {
     "id": "loop_spacex_xai",
-    "title": "SpaceX: xAI stake converted to SpaceX shares, SpaceX buys Nvidia systems",
-    "summary": "Nvidia invested in xAI's Series E, which converted into SpaceX shares when SpaceX acquired xAI, and SpaceX's AI unit is an Nvidia customer. SpaceX finances its GPUs through lessors with no Nvidia money found, and sells the capacity to Anthropic, another Nvidia investee.",
+    "title": "SpaceX: Nvidia holds SpaceX shares partly from xAI stakes, and SpaceX buys Nvidia systems",
+    "summary": "Nvidia holds SpaceX shares that came at least partly from xAI stakes when SpaceX acquired xAI; their cost is not disclosed. SpaceX's AI unit is an Nvidia customer, finances its GPUs through lessors with no Nvidia money found, and sells the capacity to Anthropic, another Nvidia investee.",
     "entities": [
       "ent_nvidia",
       "ent_spacex",
@@ -723,10 +720,10 @@
         "from": "ent_nvidia",
         "to": "ent_spacex",
         "kind": "equity",
-        "description": "xAI Series E participation converted into SpaceX Class A shares; cost not disclosed; value is the 13F market value",
+        "description": "SpaceX Class A shares held by Nvidia, at least partly from xAI holdings including the Series E; cost not disclosed",
         "relationship": "rel_spacex_eq_2026",
-        "amount": 19683145466,
-        "amount_label": "market value",
+        "amount": null,
+        "amount_label": "cost not disclosed; 13F value $19.7 billion at 2026-09-30",
         "as_of": "2026-09-30",
         "evidence": [
           "ev_120096",
@@ -779,6 +776,7 @@
     "closed": true,
     "closing_leg_sourced": true,
     "circularity_note": "Nvidia's money in is not sourced as a cost (only market value). SpaceX's Nvidia purchases have no value. Seed A3's Nvidia stake in a GPU vehicle is unconfirmed (single Bloomberg report). Ratio not computable.",
-    "label": "analysis"
+    "label": "analysis",
+    "closing_leg_valued": false
   }
 ]

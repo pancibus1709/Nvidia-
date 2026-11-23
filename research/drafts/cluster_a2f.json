@@ -1166,8 +1166,12 @@
               "ent_mistral"
             ],
             "direction": "negative",
-            "text": "Mistral's investors, including lead ASML, priced the Series C with Nvidia in the syndicate, so a visible Nvidia exit would raise Mistral's cost of capital.",
-            "lens": "signaling"
+            "text": "ASML led the Mistral Series C with Nvidia in the syndicate, and no source ties the round's price to Nvidia.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_90028",
+              "ev_90026"
+            ]
           },
           {
             "trigger": "Mistral Compute buys Nvidia hardware with round proceeds",
@@ -1948,7 +1952,7 @@
               "ent_sakana"
             ],
             "direction": "negative",
-            "text": "Sakana AI names NVIDIA among Series A participants without an amount, so a lower Sakana AI price reaches Nvidia only inside the unattributed non-marketable equity line.",
+            "text": "Sakana AI names Nvidia beside Translink Capital and 500 Global in its Series A without amounts, so Nvidia's share of the round is unknown.",
             "evidence": [
               "ev_90044"
             ]
@@ -2113,7 +2117,7 @@
       "type_primary": "EQ-C",
       "types_secondary": [],
       "title": "Planned Nvidia investment in Motif Technologies",
-      "insight_template": "Nvidia has only said it plans to invest in {counterparty}, so no money is committed and the plan can lapse without cost.",
+      "insight_template": "Nvidia has only said it plans to invest in {counterparty}, a Seoul lab building foundation models for AI agents, so nothing is committed yet.",
       "definition": "On 9 November 2026 Nvidia said additional investments are planned in Motif Technologies, RLWRLD and Upstage, alongside an investment in Point2. For Motif Technologies no amount, instrument, timing or condition is stated, so this is a plan only.",
       "status": "loi_or_framework",
       "claim_basis": "company_announced",
@@ -2209,9 +2213,10 @@
               "ent_motif"
             ],
             "direction": "mixed",
-            "text": "Nvidia has announced only a plan to invest in Motif Technologies, with no amount or terms, so nothing is owed until terms are signed.",
+            "text": "Nvidia has stated no amount or terms for Motif Technologies, a Seoul lab that develops foundation models for AI agents, so nothing is owed until terms are signed.",
             "evidence": [
-              "ev_30070"
+              "ev_30070",
+              "ev_200001"
             ]
           }
         ],
@@ -2223,10 +2228,11 @@
               "ent_motif"
             ],
             "direction": "negative",
-            "text": "Other investors in Motif Technologies cannot count on Nvidia money until terms are signed, because Nvidia has stated no amount or timing.",
+            "text": "Until terms are signed, other backers of Motif Technologies cannot count on Nvidia money for the compute that training agent foundation models needs (analysis).",
             "lens": "signaling",
             "evidence": [
-              "ev_30070"
+              "ev_30070",
+              "ev_200001"
             ]
           }
         ]
@@ -2237,9 +2243,10 @@
       "significance": {},
       "version": 1,
       "evidence": [
-        "ev_30070"
+        "ev_30070",
+        "ev_200001"
       ],
-      "notes": "Conditional commitment with no terms: full record per brief criterion (b). Korean government (MSIT) co-hosted the forum."
+      "notes": "Conditional commitment with no terms: full record per brief criterion (b). Korean government (MSIT) co-hosted the forum. Critic round 1: consequences rewritten from the company description in Nvidia's blog so the three records no longer share text."
     },
     {
       "id": "rel_rlwrld_eqc_2026",
@@ -2248,7 +2255,7 @@
       "type_primary": "EQ-C",
       "types_secondary": [],
       "title": "Planned Nvidia investment in RLWRLD",
-      "insight_template": "Nvidia has only said it plans to invest in {counterparty}, so no money is committed and the plan can lapse without cost.",
+      "insight_template": "Nvidia's planned investment in {counterparty}, a robotics foundation model startup, has no stated amount or terms, so it creates no exposure yet.",
       "definition": "On 9 November 2026 Nvidia said additional investments are planned in Motif Technologies, RLWRLD and Upstage, alongside an investment in Point2. For RLWRLD no amount, instrument, timing or condition is stated, so this is a plan only.",
       "status": "loi_or_framework",
       "claim_basis": "company_announced",
@@ -2344,9 +2351,10 @@
               "ent_rlwrld"
             ],
             "direction": "mixed",
-            "text": "Nvidia has announced only a plan to invest in RLWRLD, with no amount or terms, so nothing is owed until terms are signed.",
+            "text": "RLWRLD, which builds foundation models for humanoid and industrial robots, has no stated amount or timing from Nvidia, so Nvidia owes nothing until terms are signed.",
             "evidence": [
-              "ev_30070"
+              "ev_30070",
+              "ev_200002"
             ]
           }
         ],
@@ -2358,10 +2366,11 @@
               "ent_rlwrld"
             ],
             "direction": "negative",
-            "text": "Other investors in RLWRLD cannot count on Nvidia money until terms are signed, because Nvidia has stated no amount or timing.",
-            "lens": "signaling",
+            "text": "RLWRLD works in robotics foundation models, the same field as Skild AI, which Nvidia's venture arm already backs, so a robotics funding pullback would reach both (analysis).",
+            "lens": "contagion",
             "evidence": [
-              "ev_30070"
+              "ev_200002",
+              "ev_90061"
             ]
           }
         ]
@@ -2372,9 +2381,11 @@
       "significance": {},
       "version": 1,
       "evidence": [
-        "ev_30070"
+        "ev_30070",
+        "ev_200002",
+        "ev_90061"
       ],
-      "notes": "Conditional commitment with no terms: full record per brief criterion (b). Korean government (MSIT) co-hosted the forum."
+      "notes": "Conditional commitment with no terms: full record per brief criterion (b). Korean government (MSIT) co-hosted the forum. Critic round 1: consequences rewritten from the company description in Nvidia's blog so the three records no longer share text."
     },
     {
       "id": "rel_upstage_eqc_2026",
@@ -2383,7 +2394,7 @@
       "type_primary": "EQ-C",
       "types_secondary": [],
       "title": "Planned Nvidia investment in Upstage",
-      "insight_template": "Nvidia has only said it plans to invest in {counterparty}, so no money is committed and the plan can lapse without cost.",
+      "insight_template": "Nvidia named {counterparty}, maker of Solar language models, as a planned investment without amount or timing, so the plan can lapse at no cost.",
       "definition": "On 9 November 2026 Nvidia said additional investments are planned in Motif Technologies, RLWRLD and Upstage, alongside an investment in Point2. For Upstage no amount, instrument, timing or condition is stated, so this is a plan only.",
       "status": "loi_or_framework",
       "claim_basis": "company_announced",
@@ -2479,9 +2490,10 @@
               "ent_upstage"
             ],
             "direction": "mixed",
-            "text": "Nvidia has announced only a plan to invest in Upstage, with no amount or terms, so nothing is owed until terms are signed.",
+            "text": "Nvidia named Upstage, which develops Solar language models and document AI tools, as a planned investment with no amount or timing, so the plan can lapse without cost to Nvidia.",
             "evidence": [
-              "ev_30070"
+              "ev_30070",
+              "ev_200003"
             ]
           }
         ],
@@ -2493,10 +2505,10 @@
               "ent_upstage"
             ],
             "direction": "negative",
-            "text": "Other investors in Upstage cannot count on Nvidia money until terms are signed, because Nvidia has stated no amount or timing.",
-            "lens": "signaling",
+            "text": "Upstage sells language models and document tools to businesses, so a signed Nvidia stake would tie Nvidia to Korean enterprise AI demand that no source sizes (analysis).",
+            "lens": "revenue_quality",
             "evidence": [
-              "ev_30070"
+              "ev_200003"
             ]
           }
         ]
@@ -2507,9 +2519,10 @@
       "significance": {},
       "version": 1,
       "evidence": [
-        "ev_30070"
+        "ev_30070",
+        "ev_200003"
       ],
-      "notes": "Conditional commitment with no terms: full record per brief criterion (b). Korean government (MSIT) co-hosted the forum."
+      "notes": "Conditional commitment with no terms: full record per brief criterion (b). Korean government (MSIT) co-hosted the forum. Critic round 1: consequences rewritten from the company description in Nvidia's blog so the three records no longer share text."
     },
     {
       "id": "rel_naver_eq_2026",
@@ -2594,7 +2607,7 @@
       },
       "seniority": "common_equity",
       "reconciliation": {
-        "result": "reconciled",
+        "result": "partial",
         "nvidia_side": "Nvidia release: 'NVIDIA plans to invest $1 billion into NAVER Corp.' subject to closing conditions and NAVER finalizing at least $9 billion of committed financing (ev_30072, ev_30075).",
         "counterparty_side": "NAVER: private placement of new shares worth approximately $1 billion (ev_90072); precondition met on 27 October 2026 (ev_90068, ev_90069). NAVER says it signed a strategic investment agreement worth $1 billion with NVIDIA on 24 July 2026 (ev_180001).",
         "nvidia_evidence": [
@@ -2606,7 +2619,17 @@
           "ev_90068",
           "ev_180001"
         ],
-        "differences": []
+        "differences": [
+          {
+            "field": "binding status",
+            "nvidia_value": "plans to invest, subject to closing conditions",
+            "counterparty_value": "signed a strategic investment agreement",
+            "evidence": [
+              "ev_30072",
+              "ev_180001"
+            ]
+          }
+        ]
       },
       "credit": {
         "wwr": "general",
@@ -2647,7 +2670,11 @@
             ],
             "direction": "negative",
             "text": "Brookfield's up to $9 billion vehicle depends on NAVER's guarantee of NAVER Cloud fees, so NAVER's credit links Brookfield, Nvidia and the AI factory.",
-            "lens": "lender_reliance"
+            "lens": "lender_reliance",
+            "evidence": [
+              "ev_90070",
+              "ev_90071"
+            ]
           },
           {
             "trigger": "The Brookfield vehicle buys Nvidia systems",
@@ -2819,14 +2846,18 @@
         ],
         "second_order": [
           {
-            "trigger": "UK startups use Nvidia money to rent GPUs from UK clouds",
-            "mechanism": "UK program cash returns through neocloud GPU rentals",
+            "trigger": "Nvidia deploys less than the announced UK commitment",
+            "mechanism": "The named venture firms co-invest alongside Nvidia's UK startup program",
             "affected": [
               "ent_uk_ai_startup_program"
             ],
             "direction": "mixed",
-            "text": "Startups funded by the UK startup program are likely to rent Nvidia GPUs from UK clouds, so the program also supports demand for Nvidia's own customers.",
-            "lens": "revenue_quality"
+            "text": "Accel, Air Street Capital, Balderton, Hoxton Ventures and Phoenix Court joined the UK startup program, so their UK deal flow depends on how much of the commitment Nvidia actually deploys.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_200005",
+              "ev_140020"
+            ]
           }
         ]
       },
@@ -2838,7 +2869,8 @@
       "evidence": [
         "ev_140020",
         "ev_30084",
-        "ev_50090"
+        "ev_50090",
+        "ev_200005"
       ],
       "notes": "Wayve's Nvidia LOI (ev_90036) was announced the same day; whether it counts toward the GBP 2 billion is not stated by either side."
     },
@@ -2943,7 +2975,10 @@
               "ent_figure"
             ],
             "direction": "negative",
-            "text": "If Figure cannot fund its $3.5 billion compute commitment, Nvidia's Figure stake and expected Vera Rubin demand fall together."
+            "text": "If Figure cannot fund its $3.5 billion compute commitment, Nvidia's Figure stake and expected Vera Rubin demand fall together.",
+            "evidence": [
+              "ev_90065"
+            ]
           },
           {
             "trigger": "Figure's Helix models scale",
@@ -3484,7 +3519,7 @@
               "ent_skild_ai"
             ],
             "direction": "negative",
-            "text": "NVentures joined the Skild AI Series C led by SoftBank without a disclosed amount, so a lower Skild AI price reaches Nvidia only inside the unattributed non-marketable equity line.",
+            "text": "NVentures joined the Skild AI Series C led by SoftBank, beside Macquarie Capital, and Skild AI states no Nvidia amount.",
             "evidence": [
               "ev_90061",
               "ev_90062"
@@ -3646,7 +3681,7 @@
               "ent_black_forest_labs"
             ],
             "direction": "negative",
-            "text": "Nvidia is one of the existing Black Forest Labs investors in a $300M Series B with no amount stated, so the stake is immaterial to Nvidia unless sized.",
+            "text": "Nvidia joined a16z, Northzone and Creandum as existing investors in the $300M Black Forest Labs Series B, and no Nvidia amount is stated.",
             "evidence": [
               "ev_90063",
               "ev_90064"
@@ -3684,7 +3719,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia equity in Scale AI (Series F participation)",
-      "insight_template": "Nvidia invested an undisclosed amount in {counterparty} alongside many other investors in a larger round, so its loss is limited to that cost.",
+      "insight_template": "Nvidia joined {counterparty}'s Series F, led by Accel, with nearly all existing investors; its amount is undisclosed, so the stake cannot be sized.",
       "definition": "Scale AI said on 21 May 2024 that it closed a $1 billion financing at a $13.8 billion valuation, a mix of primary and secondary, led by Accel, with nearly all existing investors including NVIDIA participating. Nvidia's amount is not stated.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -3778,7 +3813,7 @@
               "ent_scale_ai"
             ],
             "direction": "negative",
-            "text": "Scale AI lists NVIDIA among existing investors in its Series F without an amount, so the Scale AI stake is immaterial to Nvidia unless sized.",
+            "text": "Scale AI lists Nvidia beside Thrive Capital, Spark Capital and Tiger Global in its Series F without amounts, so Nvidia's share of the round is unknown.",
             "evidence": [
               "ev_90047"
             ]
@@ -3814,7 +3849,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia equity in Anysphere (Cursor), converted on SpaceX acquisition",
-      "insight_template": "Nvidia invested an undisclosed amount in {counterparty} alongside many other investors in a larger round, so its loss is limited to that cost.",
+      "insight_template": "Nvidia's {counterparty} stake of undisclosed size was caught up in SpaceX's acquisition of {counterparty}; what Nvidia received is not disclosed.",
       "definition": "Cursor announced on 13 November 2025 a $2.3 billion Series D at a $29.3 billion post-money valuation and named NVIDIA among new partners. On 14 August 2026 Cursor said it had been acquired by SpaceX. What Nvidia received for its Cursor shares is not stated in any allowed source on file.",
       "status": "restructured",
       "claim_basis": "company_announced",
@@ -3909,20 +3944,27 @@
               "ent_spacex"
             ],
             "direction": "mixed",
-            "text": "If Cursor holders were paid in SpaceX stock, Nvidia's Cursor stake now sits inside its much larger SpaceX position."
+            "text": "If Cursor holders were paid in SpaceX stock, Nvidia's Cursor stake now sits inside its much larger SpaceX position.",
+            "evidence": [
+              "ev_90049"
+            ]
           }
         ],
         "second_order": [
           {
-            "trigger": "Cursor trains models on SpaceX GPU fleets",
-            "mechanism": "Cursor demand shifts to a SpaceX owned fleet of Nvidia GPUs",
+            "trigger": "SpaceX acquires Cursor",
+            "mechanism": "Any consideration for Cursor holders comes from SpaceX, a company Nvidia already holds",
             "affected": [
               "ent_spacex",
               "ent_anysphere"
             ],
             "direction": "mixed",
-            "text": "Cursor now trains on SpaceX's GPU fleet, so Cursor compute demand flows through SpaceX rather than independent clouds.",
-            "lens": "contagion"
+            "text": "Cursor is now part of SpaceX, in which Nvidia also holds shares, so Nvidia's Cursor exposure can no longer be told apart from its SpaceX stake.",
+            "lens": "contagion",
+            "evidence": [
+              "ev_90049",
+              "ev_50031"
+            ]
           }
         ]
       },
@@ -3933,7 +3975,8 @@
       "version": 1,
       "evidence": [
         "ev_90048",
-        "ev_90049"
+        "ev_90049",
+        "ev_50031"
       ],
       "notes": "Status restructured: the counterparty was acquired by SpaceX on 2026-08-14 (ev_90049). Nvidia's SpaceX 13F holding rose from 122,764,805 shares (2026-06-30) to 130,472,925 shares (2026-09-30) per research/evidence/nvda_13f.txt; whether any of that increase is Cursor consideration is not stated anywhere (open question, analysis only). Series D '$2.3B' not machine grounded in that format."
     },
@@ -3944,7 +3987,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia equity in Databricks (Series I)",
-      "insight_template": "Nvidia invested an undisclosed amount in {counterparty} alongside many other investors in a larger round, so its loss is limited to that cost.",
+      "insight_template": "Nvidia joined the {counterparty} Series I for an undisclosed amount; the stake is visible only inside Nvidia's private holdings total.",
       "definition": "Databricks announced on 14 September 2023 a Series I of over $500 million at a $43 billion valuation led by T. Rowe Price, with NVIDIA as a new strategic investor. Nvidia's amount is not stated. Later Databricks rounds on file do not name Nvidia.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -4038,7 +4081,7 @@
               "ent_databricks"
             ],
             "direction": "negative",
-            "text": "Nvidia's Databricks stake was bought in a Series I at a $43B valuation with no disclosed size, so a lower Databricks price reaches Nvidia only inside the unattributed non-marketable equity line.",
+            "text": "Nvidia joined the Databricks Series I beside Ghisallo Capital and Ontario Teachers' Pension Plan, and Databricks states no Nvidia amount for a round of over $500 million.",
             "evidence": [
               "ev_90050",
               "ev_90051"
@@ -4095,7 +4138,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "NVentures equity in Commonwealth Fusion Systems (Series B2)",
-      "insight_template": "Nvidia invested an undisclosed amount in {counterparty} alongside many other investors in a larger round, so its loss is limited to that cost.",
+      "insight_template": "Nvidia's venture arm is among many backers of a {counterparty} fusion power round, with no amount stated, so its stake cannot be sized.",
       "definition": "Commonwealth Fusion Systems announced on 28 August 2025 an $863 million Series B2; NVentures, Nvidia's venture capital arm, is among the investors. NVentures' amount is not stated.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -4189,7 +4232,7 @@
               "ent_commonwealth_fusion"
             ],
             "direction": "negative",
-            "text": "NVentures is one of many investors in the $863 million CFS Series B2 with no amount stated, so the CFS stake is immaterial to Nvidia unless sized.",
+            "text": "NVentures sits beside investors such as Neva SGR of Intesa Sanpaolo in the $863 million CFS Series B2, and CFS states no Nvidia amount.",
             "evidence": [
               "ev_90052",
               "ev_90053"
@@ -4246,7 +4289,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "NVentures equity in PsiQuantum (Series E)",
-      "insight_template": "Nvidia invested an undisclosed amount in {counterparty} alongside many other investors in a larger round, so its loss is limited to that cost.",
+      "insight_template": "Nvidia's venture arm entered {counterparty}'s Series E as a new investor, tying a quantum bet to joint GPU integration work.",
       "definition": "PsiQuantum announced on 10 September 2025 that it raised $1 billion in its Series E at a $7 billion valuation, led by BlackRock affiliates, Temasek and Baillie Gifford, with NVentures among new investors. NVentures' amount is not stated.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -4340,7 +4383,7 @@
               "ent_psiquantum"
             ],
             "direction": "negative",
-            "text": "NVentures entered PsiQuantum as a new investor in its $1 billion Series E with no amount stated, so a lower PsiQuantum price reaches Nvidia only inside the unattributed non-marketable equity line.",
+            "text": "NVentures entered PsiQuantum's $1 billion Series E beside Ribbit Capital and Adage Capital Management, and PsiQuantum states no Nvidia amount.",
             "evidence": [
               "ev_90054",
               "ev_90060"
@@ -4355,8 +4398,11 @@
               "ent_psiquantum"
             ],
             "direction": "mixed",
-            "text": "PsiQuantum's announced GPU and quantum integration work with Nvidia ties part of its roadmap to its investor.",
-            "lens": "signaling"
+            "text": "PsiQuantum says it is collaborating with Nvidia on areas including GPU and quantum processor integration, so part of its roadmap depends on its investor.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_200008"
+            ]
           }
         ]
       },
@@ -4367,7 +4413,8 @@
       "version": 1,
       "evidence": [
         "ev_90054",
-        "ev_90060"
+        "ev_90060",
+        "ev_200008"
       ],
       "notes": "",
       "measure_inputs": {
@@ -4397,7 +4444,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "NVentures equity in Quantinuum (pre-IPO round)",
-      "insight_template": "Nvidia invested an undisclosed amount in {counterparty} alongside many other investors in a larger round, so its loss is limited to that cost.",
+      "insight_template": "Nvidia's venture arm joined {counterparty}'s pre-listing raise; the company has since listed, but Nvidia's holdings reports do not show the stake.",
       "definition": "Honeywell announced on 4 September 2025 an approximately $600 million equity raise for Quantinuum at a $10 billion pre-money valuation, with NVentures joining as a new investor. Quantinuum completed an IPO in 2026. NVentures' amount is not stated and Quantinuum does not appear in Nvidia's 13F for 30 June or 30 September 2026.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -4491,7 +4538,7 @@
               "ent_quantinuum"
             ],
             "direction": "mixed",
-            "text": "Quantinuum is listed but absent from Nvidia's 13F for 2026-06-30 and 2026-09-30, so whether Nvidia still holds the stake is unknown and no market value can be shown."
+            "text": "Quantinuum is listed but does not appear in Nvidia's two most recent 13F reports, so whether Nvidia still holds the stake is unknown and no market value can be shown."
           }
         ],
         "second_order": [
@@ -4544,7 +4591,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "NVentures equity in TerraPower",
-      "insight_template": "Nvidia invested an undisclosed amount in {counterparty} alongside many other investors in a larger round, so its loss is limited to that cost.",
+      "insight_template": "Nvidia's venture arm took part in a {counterparty} nuclear fundraise for an undisclosed amount, so the size of the stake is unknown.",
       "definition": "TerraPower announced on 18 June 2025 the close of a $650 million fundraise with participation from investors including NVentures. NVentures' amount is not stated.",
       "status": "completed",
       "claim_basis": "company_announced",
@@ -4638,7 +4685,7 @@
               "ent_terrapower"
             ],
             "direction": "negative",
-            "text": "NVentures took part in TerraPower's $650 million fundraise with no amount stated, so the TerraPower stake is immaterial to Nvidia unless sized.",
+            "text": "NVentures took part in TerraPower's $650 million fundraise and TerraPower states no Nvidia amount, so Nvidia's share of the round is unknown.",
             "evidence": [
               "ev_90057",
               "ev_90058"
@@ -4695,7 +4742,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia shareholding in Recursion (13F)",
-      "insight_template": "Nvidia held {counterparty} shares reported in its quarterly holdings filings; the position was small and is now closed, so no exposure remains.",
+      "insight_template": "Nvidia bought {counterparty} shares in a placement tied to DGX Cloud model training, then dropped them from its holdings report; proceeds are undisclosed.",
       "definition": "On 11 July 2023 Recursion sold 7,706,363 Class A shares to Nvidia in a private placement for gross proceeds of about $50 million and announced a collaboration to train foundation models on Nvidia DGX Cloud. Nvidia reported the shares on its 13F from December 2023 to September 2025 and had exited by 31 December 2025.",
       "status": "terminated",
       "claim_basis": "filed",
@@ -4799,7 +4846,11 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Nvidia's Recursion position, bought for about $50 million, was worth $37.6 million at its last 13F before exit (ev_50004)."
+            "text": "Nvidia's Recursion position, bought for about $50 million, was worth $37.6 million at its last 13F before exit.",
+            "evidence": [
+              "ev_90017",
+              "ev_50004"
+            ]
           },
           {
             "trigger": "Recursion trained models on DGX Cloud",
@@ -4856,7 +4907,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia shareholding in SoundHound (13F)",
-      "insight_template": "Nvidia held {counterparty} shares reported in its quarterly holdings filings; the position was small and is now closed, so no exposure remains.",
+      "insight_template": "Nvidia reported {counterparty} shares of undisclosed cost for under a year, then dropped them from its holdings report.",
       "definition": "Nvidia reported 1,730,883 SoundHound AI Class A shares on its 13F from December 2023 to September 2024 and had exited by 31 December 2024. Cost and acquisition date are not disclosed in allowed sources on file.",
       "status": "terminated",
       "claim_basis": "filed",
@@ -4951,7 +5002,10 @@
               "ent_nvidia"
             ],
             "direction": "mixed",
-            "text": "Nvidia's SoundHound position was worth $8.1 million at its last 13F before exit (ev_50006), immaterial to Nvidia."
+            "text": "Nvidia's SoundHound position was worth $8.1 million at its last 13F before exit, immaterial to Nvidia.",
+            "evidence": [
+              "ev_50006"
+            ]
           }
         ],
         "second_order": [
@@ -4999,7 +5053,7 @@
       "types_secondary": [],
       "title": "Nvidia shareholding in TuSimple (13F)",
       "insight_template": "Nvidia reported {counterparty} shares until the company left the exchange; whether Nvidia still holds them is not disclosed.",
-      "definition": "Nvidia reported 3,465,372 TuSimple Class A shares on its first 13F (quarter ended 31 December 2023), worth about $3.0 million, and had exited by 31 March 2024.",
+      "definition": "Nvidia reported 3,465,372 TuSimple Class A shares on its first 13F (quarter ended 31 December 2023), worth about $3.0 million, and the position left the 13F by 31 March 2024, after TuSimple delisted; no sale is shown.",
       "status": "completed",
       "claim_basis": "filed",
       "amounts": {
@@ -5068,7 +5122,7 @@
       "seniority": "common_equity",
       "reconciliation": {
         "result": "one_sided",
-        "nvidia_side": "Nvidia 13F-HR lists the position from 2023-12-31 (ev_50007) to 2023-12-31 (ev_50007).",
+        "nvidia_side": "Nvidia 13F-HR lists the position at 2023-12-31 only (ev_50007).",
         "counterparty_side": "No disclosure found as of 2026-11-23. TuSimple filings reviewed do not describe the Nvidia investment.",
         "nvidia_evidence": [
           "ev_50007"
@@ -5078,9 +5132,9 @@
       },
       "credit": {
         "wwr": "none",
-        "wwr_reason": "Position exited; no remaining exposure.",
+        "wwr_reason": "Not on the 13F since 2024; whether still held is not disclosed.",
         "collateral": "None.",
-        "tenor": "Exited",
+        "tenor": "Unknown",
         "notes": ""
       },
       "consequences": {
@@ -5092,19 +5146,27 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Nvidia's TuSimple position was worth $3.0 million at 2023-12-31 (ev_50007) and was gone a quarter later."
+            "text": "Nvidia's TuSimple position was worth $3.0 million at 2023-12-31 and left the 13F a quarter later when the shares delisted.",
+            "evidence": [
+              "ev_50007",
+              "ev_150021"
+            ]
           }
         ],
         "second_order": [
           {
-            "trigger": "TuSimple used Nvidia automotive chips",
-            "mechanism": "Loss of an autonomy customer",
+            "trigger": "TuSimple delists and deregisters",
+            "mechanism": "Delisted TuSimple shares drop out of the 13F whether or not they are sold",
             "affected": [
               "ent_tusimple"
             ],
-            "direction": "negative",
-            "text": "TuSimple's retreat from US trucking removed a small Nvidia automotive customer.",
-            "lens": "contagion"
+            "direction": "mixed",
+            "text": "TuSimple delisted and ended its SEC registration in early 2024, so Nvidia's holdings report alone cannot show whether TuSimple shares were sold or are still held.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_150021",
+              "ev_150020"
+            ]
           }
         ]
       },
@@ -5136,7 +5198,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia shareholding in Nano-X (13F)",
-      "insight_template": "Nvidia held {counterparty} shares reported in its quarterly holdings filings; the position was small and is now closed, so no exposure remains.",
+      "insight_template": "Nvidia listed a tiny {counterparty} position of undisclosed cost in its holdings reports and dropped it in the same quarter as SoundHound.",
       "definition": "Nvidia reported 59,632 Nano-X ordinary shares on its 13F from December 2023 to September 2024, worth under $0.6 million in every quarter, and had exited by 31 December 2024.",
       "status": "terminated",
       "claim_basis": "filed",
@@ -5231,7 +5293,10 @@
               "ent_nvidia"
             ],
             "direction": "mixed",
-            "text": "Nvidia's Nano-X position was worth $0.36 million at its last 13F (ev_50009), immaterial to Nvidia."
+            "text": "Nvidia's Nano-X position was worth $0.36 million at its last 13F, immaterial to Nvidia.",
+            "evidence": [
+              "ev_50009"
+            ]
           }
         ],
         "second_order": [
@@ -5276,7 +5341,7 @@
         "FC"
       ],
       "title": "Nvidia shareholding in Serve Robotics (13F)",
-      "insight_template": "Nvidia held {counterparty} shares reported in its quarterly holdings filings; the position was small and is now closed, so no exposure remains.",
+      "insight_template": "Nvidia funded {counterparty} through shares and a convertible note, then reported no shares in a later ownership filing; sale proceeds are undisclosed.",
       "definition": "Serve Robotics said that since 2022 NVIDIA has invested over $12 million in Serve, including a $2.5 million convertible note issued on 2 January 2024 that converted into common stock. Nvidia held 3,727,033 shares (10.0 percent) and reported them on its 13F at 30 June and 30 September 2024, then filed a Schedule 13G amendment showing 0.0 percent in February 2025.",
       "status": "terminated",
       "claim_basis": "filed",
@@ -5377,7 +5442,11 @@
               "ent_nvidia"
             ],
             "direction": "positive",
-            "text": "Nvidia's Serve Robotics position was worth $29.6 million at 2024-09-30 (ev_50011) against more than $12 million invested."
+            "text": "Nvidia's Serve Robotics position was worth $29.6 million at 2024-09-30 against more than $12 million invested.",
+            "evidence": [
+              "ev_50011",
+              "ev_90021"
+            ]
           },
           {
             "trigger": "Serve Robotics depends on Nvidia components",
@@ -5391,14 +5460,18 @@
         ],
         "second_order": [
           {
-            "trigger": "Nvidia exited Serve Robotics",
-            "mechanism": "Loss of a 10 percent strategic holder",
+            "trigger": "Nvidia sells its Serve Robotics shares",
+            "mechanism": "Nvidia's Schedule 13G amendment reports no holding",
             "affected": [
               "ent_serve_robotics"
             ],
             "direction": "negative",
-            "text": "Nvidia's exit from Serve Robotics removed its largest strategic holder after Postmates.",
-            "lens": "signaling"
+            "text": "Serve Robotics cited Nvidia's investment in its 2024 prospectus, and Nvidia's ownership filing of February 2025 showed no Serve Robotics shares, ending that public link.",
+            "lens": "signaling",
+            "evidence": [
+              "ev_90021",
+              "ev_50111"
+            ]
           }
         ]
       },
@@ -5437,7 +5510,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia shareholding in WeRide (13F)",
-      "insight_template": "Nvidia held {counterparty} shares reported in its quarterly holdings filings; the position was small and is now closed, so no exposure remains.",
+      "insight_template": "Nvidia was an early private investor in {counterparty}, reported its listed shares for under a year after the listing, then dropped them.",
       "definition": "WeRide says Nvidia became an early stage investor in 2017. Nvidia reported 1,738,563 WeRide American depositary shares on its 13F from December 2024, after WeRide's October 2024 listing, to September 2025, and had exited by 31 December 2025.",
       "status": "terminated",
       "claim_basis": "filed",
@@ -5534,7 +5607,11 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "Nvidia's WeRide position fell from $24.7 million (ev_50016) to $17.2 million (ev_50017) before Nvidia exited."
+            "text": "Nvidia's WeRide position fell from $24.7 million to $17.2 million before Nvidia exited.",
+            "evidence": [
+              "ev_50016",
+              "ev_50017"
+            ]
           }
         ],
         "second_order": [
@@ -5690,7 +5767,10 @@
               "ent_nvidia"
             ],
             "direction": "negative",
-            "text": "A setback in Generate Biomedicines' clinical programs would cut the value of Nvidia's $12.5 million listed stake."
+            "text": "A setback in Generate Biomedicines' clinical programs would cut the value of Nvidia's $12.5 million listed stake.",
+            "evidence": [
+              "ev_50029"
+            ]
           }
         ],
         "second_order": [

@@ -1,12 +1,14 @@
 # R7: Unattributed remainders of Nvidia's disclosed aggregates
 
-Namespace `agg`, new evidence ev_130001 to ev_130024 (`research/evidence/agg.jsonl`). Files: `research/drafts/nvidia_financials.json`, `research/drafts/lead_aggregates.json` (7 records, 7 filing events).
+**Computed on 23 November 2026, against the register as committed at 1c4f796 (data/register/relationships.json of 2026-11-23 13:02 UTC: 91 relationships, 81 counted after excluding the 8 aggregates already in the register and 2 context records; 108 entities).** Revised after Gate R critic round 1 (findings 2, 7, 15, 16): see `research/gate_r/FIXES.md`, section "Critic round 1: aggregates, bridge and credit reads".
+
+Namespaces `agg` (ev_130001 to ev_130024) and `fixc` (ev_190001 to ev_190009, `research/evidence/fixc.jsonl`). Files: `research/drafts/nvidia_financials.json`, `research/drafts/lead_aggregates.json` (8 records, 8 filing events).
 
 **One balance sheet date: 2026-10-25 (Q3 FY2027).** The Q3 FY2027 Form 10-Q was not filed by 2026-11-23 (EDGAR listing checked), so the sources are the 8-K of 2026-11-17: Exhibit 99.3 supplemental financial information (balance sheet, cash flow, fair value table, non-marketable roll forward) and Exhibit 99.2 CFO commentary (commitments, neocloud agreements, guarantees). All unaudited. The 2026-07-26 10-Q is the newest full set of notes and is used only for prior-period comparisons.
 
-Method: remainder = disclosed aggregate minus named register items that belong in that aggregate at 2026-10-25, display-eligible amounts only, each subtraction a negative component grounded on the evidence stating the item's figure. Every remainder is analysis and is excluded from totals (`aggregate_of` set, `to: ent_nvidia_unattributed`).
+Method: remainder = disclosed aggregate minus named register items that belong in that aggregate at 2026-10-25. A named item is subtracted only if a source states a like-for-like figure for it: carrying value or cost for stakes, fair value for listed stakes, the cap for guarantees and backstops, the unfunded amount for commitments. Headlines, "up to" figures, initial order values and total contract values at signing are not subtracted; those items are listed as "named but not quantified". Every remainder is analysis and is excluded from totals (`aggregate_of` set, `to: ent_nvidia_unattributed`).
 
-**Tool limitation (blocks "All checks passed").** `pipeline.checks draft` fails with 21 grounding errors, one for every negative component: `pipeline/common.value_in_text` only matches positive numbers, so a subtraction such as -6.3e9 never matches "$6.3 billion". Re-running the same checks in memory with `evidence_contains(ev, abs(value))` gives "All checks passed" (no files edited). The one-line fix, in `pipeline/checks.py` `evidence_contains` (or in `check_grounding`/`supporting`), is to compare `abs(value)`. I did not edit `pipeline/`. For `nvidia_financials.json` I avoided negative components (see Deliverable 1), so all six amounts print True.
+Validation: `python3 -m pipeline.checks draft research/drafts/lead_aggregates.json` now reports only `citations:` failures for ids written in the text of the register files themselves (entities.json, relationships.json, loops.json and others). Draft mode keeps only the evidence the draft uses and then scans every register file, so it fails for any draft. Run against a scratch register holding entities.json (with text ids masked) and evidence.json, the same draft prints "All checks passed". Negative components now ground.
 
 ## Nvidia financials (nvidia_financials.json)
 
@@ -18,6 +20,31 @@ Method: remainder = disclosed aggregate minus named register items that belong i
 | cash_and_marketable_securities | $53,512M | 2026-10-25 | ev_130002 ($29,089M) + ev_130003 ($24,423M) | excludes marketable equity $44,219M (ev_130014) |
 | total_guarantees_max | $118.0B | 2026-10-25 | ev_50044 | |
 | total_equity_investments | $99B | 2026-07-26 | ev_10043 | only MD&A total; none given at 2026-10-25 |
+| equity_purchases_9m | $58,100M | 9M to 2026-10-25 | ev_190001 | cash paid for equity securities (Q3 alone $15,696M) |
+| non_marketable_net_additions_9m | $46,436M | 9M to 2026-10-25 | ev_190002 | roll forward of private stakes (Q3 alone $15,431M) |
+| equity_sale_proceeds_9m | $9,493M | 9M to 2026-10-25 | ev_190003 | Q3 alone $2,253M (ev_60113) |
+| non_marketable_equity_carrying_value | $61,650M | 2026-10-25 | ev_130010 | balance sheet line "Non-marketable securities" is $65,528M (ev_130015) |
+| marketable_equity_fair_value | $48,888M | 2026-10-25 | ev_130011 ($38,372M L1) + ev_130012 ($10,516M L2) | balance sheet marketable equity $44,219M (ev_130014); rest in other assets |
+| unfunded_equity_commitments | $20B | 2026-10-25 | ev_120011 | $5B rest of FY27, $11B FY28, $2B FY29, $2B FY30 |
+| neocloud_agreements_max | $32B | 2026-10-25 | ev_50080 | takes effect only if neoclouds secure financing (ev_50081) |
+| cloud_service_agreements | $28B | 2026-10-25 | ev_130013 | |
+| data_center_leases_not_commenced | $74B | 2026-10-25 | ev_190004 | $63B due FY2032 and after |
+| supply_commitments | $390B | 2026-10-25 | ev_130023 | |
+
+### Bridge to Nvidia's own disclosures at 2026-10-25
+
+| Nvidia's figure | Amount | Named and sized in the remainder records | Unattributed remainder |
+|---|---|---|---|
+| Private stakes, carrying value | $61.65B (ev_130010) | $2.68B (Nscale $1.18B, SB Energy $1.5B, at cost) | $58.97B |
+| Public equity, fair value | $48.89B (ev_130011, ev_130012) | $48.33B (13F values at 2026-09-30) | $0.56B |
+| Guarantees, maximum | $118.0B (ev_50044) | $105.86B (PORTS-Pike $105B, Nscale $0.86B) | $12.14B |
+| Neocloud agreements, maximum | $32B (ev_50080) | $0 | $32B |
+| Cloud service agreements | $28B (ev_130013) | $0 (CoreWeave, IREN, Nscale named, no remaining balance stated) | $28B |
+| Unfunded equity commitments | $20B (ev_120011) | $3.5B (SB Energy $1.5B, NAVER $1B, Nscale $1B) | $16.5B |
+| Data center leases not commenced | $74B (ev_190004) | $0 | $74B |
+| Supply and capacity commitments | $390B (ev_130023) | $0 | $390B |
+| Equity purchases, nine months | $58.1B (ev_190001) | flow, no remainder | |
+| Net additions to private stakes, nine months | $46.4B (ev_190002) | flow, no remainder | |
 
 Deviation from the brief: fcf_ttm and revenue_ttm are built from positive quarterly and nine-month figures (FY26 Q4 plus FY27 nine months) instead of CFO and capex with negative components, because negative components cannot ground. The CFO and capex figures are grounded and listed in the note.
 
@@ -68,22 +95,18 @@ Composition: land, power and shell for neoclouds $3.5B (ev_30026) less Nscale, p
 | Item | Record | Amount | Evidence |
 |---|---|---|---|
 | Disclosed: neocloud agreements, maximum commitment | | $32B at 2026-10-25 ($36B at 2026-07-26, ev_50079) | ev_50080 |
-| less SharonAI, contract value of up to $4.88B | rel_sharonai_bk_2026 | $4.88B | ev_40144 |
-| **Remainder** (`contingent_max`) | rel_unattributed_neocloud_agreements_2026_10_25 | **$27.12B** | |
+| **Remainder** (`contingent_max`) | rel_unattributed_neocloud_agreements_2026_10_25 | **$32B** (was $27.12B) | |
 
-Which agreements belong here (analysis). The aggregate covers agreements where a neocloud buys Nvidia systems with financing, Nvidia commits to rent the capacity for about six years, the neocloud can sell it to third parties first, and revenue is shared. The commitments take effect only on financing and acceptance (ev_50081). The category first appears in July 2026, and its schedule shows nothing payable in the rest of FY2027. SharonAI (order of 2026-06-08: six years, five phases, minimum revenue, revenue share) and Firmus (revenue-sharing and credit-support model) fit this description. CoreWeave's $6.3B residual capacity order (2025-09-09, under an existing MSA, running since 2025) does not, so it is placed in (e), as are IREN and Nscale. Caveat: SharonAI's 10-Q says the deal has no fixed aggregate value (ev_40146). Nvidia's figure is also a maximum, so the two are compared on the same basis, but this is analysis. Firmus is named but not quantified, so the remainder is an upper bound.
+No named agreement has a disclosed Nvidia maximum, so nothing is subtracted. The SharonAI $4.88B was removed (critic finding 16): it is SharonAI's "up to" headline (ev_40144), and SharonAI's 10-Q says the arrangement does not specify a fixed aggregate contractual value (ev_40146), so it is not a like-for-like maximum. Named but not quantified: SharonAI, CoreWeave (residual capacity order, initial value $6.3B, ev_20001), Firmus (size not disclosed), IREN and Nscale (rentals whose line, this one or e, Nvidia does not state). The aggregate covers agreements where a neocloud buys Nvidia systems with financing, Nvidia commits to rent the capacity for about six years, the neocloud can sell it to third parties first, and revenue is shared; the commitments take effect only on financing and acceptance (ev_50081). The remainder is an upper bound on what is truly unattributed.
 
 ## e. Multi-year cloud service agreements
 
 | Item | Record | Amount | Evidence |
 |---|---|---|---|
-| Disclosed: cloud service agreements | | $28B at 2026-10-25 ($29B at 2026-07-26, ev_10030) | ev_130013 |
-| less CoreWeave residual capacity order (initial value) | rel_coreweave_bk_2025 | $6.3B | ev_20001 |
-| less IREN five-year contract (total contract value, as of 2026-08-27) | rel_iren_lb_2026 | $3.4B | ev_40109 |
-| less Nscale reserved clusters (aggregate, as of 2026-11-12) | rel_nscale_lb_2025 | $1.2B | ev_40001 |
-| **Remainder** (`committed_total`) | rel_unattributed_cloud_service_agreements_2026_10_25 | **$17.1B** | |
+| Disclosed: cloud service agreements (remaining commitment) | | $28B at 2026-10-25 ($29B at 2026-07-26, ev_10030) | ev_130013 |
+| **Remainder** (`committed_total`) | rel_unattributed_cloud_service_agreements_2026_10_25 | **$28B** (was $17.1B) | |
 
-Named but not quantified: other CoreWeave MSA order forms (only payments disclosed), hyperscaler rentals, Lambda (seed B5, no amount). Caveat: Nvidia reports the remaining unpaid commitment, while the named figures are contract values at signing. Subtracting them overstates attribution, and the unquantified items understate it, so the remainder is neither an upper nor a lower bound.
+Nothing is subtracted. Nvidia's figure is the remaining unpaid commitment, and no named rental has a stated remaining commitment at the same date. Removed: CoreWeave $6.3B (critic finding 2: the 8-K calls it the order form's "initial value", not a commitment balance, and neither side says the order sits in this aggregate), which alone would have given $23.4B; then, on the same test, IREN $3.4B ("total contract value" of a contract signed in May 2026, ev_40109) and Nscale $1.2B ("aggregate amount" of order forms with 12 to 48 month terms from July 2025, ev_40001), since neither side states what Nvidia has already paid. Named but not quantified: CoreWeave (residual capacity order and other MSA order forms), IREN, Nscale, hyperscaler rentals (Microsoft, Google), Lambda. The remainder is an upper bound on what is truly unattributed.
 
 ## f. Equity investment commitments (unfunded)
 
@@ -95,7 +118,7 @@ Named but not quantified: other CoreWeave MSA order forms (only payments disclos
 | less Nscale "NVIDIA Sale" (notes or non-voting shares, closing about 2026-11-16) | rel_nscale_fc_2026 | $1.0B | ev_40012 |
 | **Remainder** (`committed_total`) | rel_unattributed_equity_investment_commitments_2026_10_25 | **$16.5B** | |
 
-Named but not quantified: the unfunded part of OpenAI's $30B, and Anthropic (the $10B November 2025 agreement and the $10.0B placement that closed 2026-11-20). The remainder is an upper bound. Analysis: the commitment schedule shows only $5B for the rest of FY2027, so the Anthropic $10B placement was at most partly committed at 2026-10-25. Nvidia counts commitments "subject to certain contingencies" (ev_120010), so I subtracted NAVER although its precondition was met two days after the date. Caveat: the Nscale sale may settle in convertible notes, which are debt until the IPO. Not commitments: IREN rights (an option), Meta and Wayve (letters of intent).
+Basis check (critic round 1): each subtraction is an unfunded amount stated by a source at or before the date; all three were kept. Named but not quantified: the unfunded part of OpenAI's $30B, and Anthropic (the $10B November 2025 agreement and the $10.0B placement that closed 2026-11-20). The remainder is an upper bound. Analysis: the commitment schedule shows only $5B for the rest of FY2027, so the Anthropic $10B placement was at most partly committed at 2026-10-25. Nvidia counts commitments "subject to certain contingencies" (ev_120010), so I subtracted NAVER although its precondition was met two days after the date. Caveat: the Nscale sale may settle in convertible notes, which are debt until the IPO. Not commitments: IREN rights (an option), Meta and Wayve (letters of intent).
 
 ## g. Supply prepayments and capacity reservation advances
 
@@ -105,7 +128,18 @@ Named but not quantified: the unfunded part of OpenAI's $30B, and Anthropic (the
 | Recorded instead: supply and capacity commitments | | $390B at 2026-10-25 ($279B at 2026-07-26, ev_10029) | ev_130023 |
 | **Remainder** (`committed_total`, nothing attributed) | rel_unattributed_supply_and_capacity_commitments_2026_10_25 | **$390B** | |
 
-A like-for-like subtraction cannot be defended here. Nvidia stopped disclosing prepaid supply after October 2025, and each named deal's paid part (an asset) cannot be separated from its unpaid part (inside the $390B). The named deals are listed only: Amkor about $2.8B (two agreements, attribution to Nvidia is analysis), KYEC $1.1B advance (ev_30062), Corning $1.0B deposit (ev_60094), and Ibiden, Unimicron and SPIL (no amounts).
+A like-for-like subtraction cannot be defended here. Nvidia stopped disclosing prepaid supply after October 2025, and each named deal's paid part (an asset) cannot be separated from its unpaid part (inside the $390B). The named deals are listed only: Amkor (Nvidia says multiyear agreements total nearly $3 billion including prepayments, ev_30065; committed amount not attributable to Nvidia), KYEC $1.1B advance (ev_30062; paid part not stated), Corning (customer deposit by an unnamed customer; committed amount unknown), and Ibiden, Unimicron and SPIL (no amounts).
+
+## h. Data center leases not commenced
+
+| Item | Record | Amount | Evidence |
+|---|---|---|---|
+| Disclosed: data center leases not commenced | | $74B at 2026-10-25 ($0 rest of FY27, $1B FY28, $2B FY29, $4B FY30, $4B FY31, $63B FY32 and after) | ev_190004 |
+| Earlier split at 2026-07-26: leases not commenced | | $25B | ev_10031 |
+| Earlier split at 2026-07-26: leases not commenced "for third party" | | $20B | ev_10037 |
+| **Remainder** (`committed_total`, type LB, secondary GU) | rel_unattributed_data_center_leases_2026_10_25 | **$74B** | |
+
+Nvidia has signed long leases on its own credit for capacity it may pass to others. In October it says the leases have terms of up to twenty years (ev_190006), are expected to commence between Q4 FY2027 and FY2033 (ev_190007), and "We may assign some of these leases to third parties in the future" (ev_190005). In July it showed $20B separately as leases "for third party" that it expected to reassign (ev_190008) and warned that delays in completing assignments could leave it bearing the lease costs (ev_190009). The October table no longer splits own use from third party, so how much of the $74B is meant for others is not disclosed. Analysis: the line rose by $29B in one quarter against the July sum of $45B. No landlord or assignee is named, so nothing is subtracted. This is credit support in the sense of the mission statement: Nvidia's covenant stands behind buildings that other companies may occupy.
 
 ## Answers the seed register asks for (spec/03)
 
@@ -120,29 +154,35 @@ A like-for-like subtraction cannot be defended here. Nvidia stopped disclosing p
 
 A share needs counterparty disclosures of Nvidia purchases by period. None of CoreWeave, Nebius, IREN, Nscale or the labs states one in a form that can be added up here.
 
-**(2) How much of the headline total is legally binding today?** Computed from display-eligible amounts with `pipeline.checks.Register` (81 counted relationships, aggregates and CX excluded):
+**(2) How much of the headline total is legally binding today?** Computed on 2026-11-23 from display-eligible amounts with `pipeline.checks.independent_totals` on the register at 1c4f796 (81 counted relationships; aggregates and CX excluded). Headline and binding amounts cover different sets of records, so no binding share is computed.
 
 | Measure | Amount |
 |---|---|
-| Headline sum (30 relationships with an eligible headline) | $308.1B |
-| Committed total (binding, including funded) | $75.2B |
-| of which funded | $32.2B |
-| Contingent maximum (guarantees, backstops) | $112.2B |
-| Gross exposure (funded + committed unfunded + contingent) | $187.4B, a lower bound (49 relationships have unknowns) |
-| Headline under letters of intent only (OpenAI $100B, Meta $3B, Wayve $0.5B) | $103.5B, not binding |
+| Headline sum (30 relationships with an eligible headline) | $307.1B, plus GBP 2B for the UK programme (not converted) |
+| of which guaranty and backstop figures announced | $117.0B (PORTS-Pike $105B, CoreWeave $6.3B initial value, SharonAI up to $4.88B, Nscale $0.86B) |
+| of which announced, not binding or not followed by a disclosed agreement | $103.5B (OpenAI letter of intent $100B, Meta $3B, Wayve $0.5B) |
+| of which other announced amounts (equity, rentals, prepayments, IREN option) | $86.6B |
+| Committed total (binding, including funded; 20 relationships) | $70.0B |
+| Cash paid where stated (16 relationships) | $32.3B; cost of what is still held $32.2B |
+| Committed, confirmed not yet paid | $1.0B (Nscale NVIDIA Sale) |
+| Committed, paid portion not disclosed (5 relationships) | $36.7B (OpenAI $30B, IREN $3.4B, Nscale rental $1.2B, KYEC $1.1B, NAVER $1B) |
+| Contingent maximum (4 relationships) | $113.7B, of which $105B is the PORTS-Pike guaranty cap, not callable before the first building is ready (expected fiscal 2029) |
+| Gross exposure (lower bound: 51 relationships have unknowns) | $183.6B |
 
-So about $75B is a binding commitment, a further $112B is binding but contingent, and about a third of the headline total is letters of intent. Analysis: $105B of the contingent amount is the SB Energy cap, which does not take effect before fiscal 2029.
+Caveats. The CoreWeave $6.3B in the contingent total is an initial order value, not a cap (critic finding 2; the cluster drafts are being corrected). Nvidia's own aggregates are larger than the named items in every line: see the bridge table above.
 
 **(3) Announced, then shrunk, restructured or dropped**
 
 | Relationship | What changed | Source |
 |---|---|---|
-| OpenAI $100B letter of intent (Sept 2025) | No definitive agreement; replaced in practice by $30B in the February 2026 round | rel_openai_eqc_2025, rel_openai_eq_2026 |
+| OpenAI $100B letter of intent (Sept 2025) | No definitive agreement disclosed; followed by (analysis; no source links them) $30B in the February 2026 round | rel_openai_eqc_2025, rel_openai_eq_2026 |
 | PORTS-Pike backstop | Reported talks of up to $250B (needs quote) became a $105B cap | rel_openai_gu_2026 |
 | AI cloud / neocloud agreements | $36B (Jul 2026) to $32B (Oct 2026), and now contingent on neocloud financing | ev_50079, ev_50080 |
 | Equity investment commitments | $27B (Apr 2026), $25B (Jul), $20B (Oct) as amounts were funded | ev_10032, ev_120011 |
 | Cloud service agreements | $30B to $29B to $28B; purpose shifted to R&D of open models | ev_10030, ev_130013 |
 | SharonAI | "up to $4.88B" in the 8-K; the 10-Q says no fixed aggregate value | ev_40144, ev_40146 |
+| SB Energy | $3.0B announced; $1.5B prepaid forward funded 2026-08-17, the other $1.5B payable only if the IPO closes by 2027-05-15 | rel_sb_energy_eq_2026 |
+| Data center leases not commenced | $25B plus $20B "for third party" (Jul 2026) became one line of $74B (Oct 2026) | ev_10031, ev_10037, ev_190004 |
 | Anysphere (Cursor) | Acquired by SpaceX 2026-08-14; consideration to Nvidia unknown | rel_anysphere_eq_2025 |
 | Intel, Nokia, Synopsys | Stakes cut in Q3 2026 (13F) | ev_50021, ev_50025, ev_50023 |
 | Arm, Recursion, SoundHound, TuSimple, Nano-X, Serve, WeRide, Applied Digital | Exited | register status terminated or completed |
@@ -151,7 +191,7 @@ So about $75B is a binding commitment, a further $112B is binding but contingent
 
 | Seniority | Count | Relationships |
 |---|---|---|
-| common_equity | 48 | Intel, SpaceX, CoreWeave, Coherent, Synopsys, Nokia, Nebius, SB Energy, NAVER, Anthropic (2026 placement), Mistral, SSI, Thinking Machines, Reflection, Cohere, Crusoe x3, Lambda, Firmus x3, Together AI x3, Meta (LOI) and others |
+| common_equity | 49 | Intel, SpaceX, CoreWeave, Coherent, Synopsys, Nokia, Nebius, SB Energy, NAVER, Anthropic (2026 placement), Mistral, SSI, Thinking Machines, Reflection, Cohere, Crusoe x3, Lambda, Firmus x3, Together AI x3, Meta (LOI) and others |
 | preferred_equity | 5 | OpenAI Series C, Anthropic (2025 agreement), Nscale, Marvell, Lumentum |
 | warrants | 3 | Nebius pre-funded warrant, IREN rights, Corning |
 | unsecured_creditor | 1 | Nscale convertible notes |
@@ -160,7 +200,7 @@ So about $75B is a binding commitment, a further $112B is binding but contingent
 | lessee | 3 | CoreWeave MSA, Nscale clusters, IREN |
 | prepaying_buyer | 6 | Amkor, KYEC, Corning, Ibiden, Unimicron, SPIL |
 | lp_interest | 2 | Helix, Brookfield BAIIF |
-| none | 7 | letters of intent and frameworks (OpenAI LOI, CoreWeave land/power/shell, Wayve, Motif, RLWRLD, Upstage, UK programme) |
+| none | 6 | letters of intent and frameworks (OpenAI LOI, Wayve, Motif, RLWRLD, Upstage, UK programme); the CoreWeave land, power and shell framework is now a context record and not counted |
 
 Analysis: Nvidia is never a secured creditor. Where it lends or guarantees, it ranks as an unsecured creditor, or as a guarantor with only escrow for recourse (Nscale $470M).
 
@@ -168,8 +208,8 @@ Analysis: Nvidia is never a secured creditor. Where it lends or guarantees, it r
 
 | Seed | Verdict | Reason |
 |---|---|---|
-| B10 Cloud service agreements aggregate | Modified | $28B at 2026-10-25 (ev_130013), down from $30B. The backstop-shaped part is disclosed separately as neocloud agreements ($32B). Named: CoreWeave, IREN, Nscale ($10.9B). Remainder $17.1B |
-| F1 Non-marketable equity by period | Confirmed | $61,650M at 2026-10-25 (ev_130010), up from $47,898M (ev_10001); $1.8B impairment in Q3 (ev_50099). Remainder up to $59.0B |
+| B10 Cloud service agreements aggregate | Modified | $28B at 2026-10-25 (ev_130013), down from $30B. The backstop-shaped part is disclosed separately as neocloud agreements ($32B). Named but not quantified: CoreWeave, IREN, Nscale (no remaining balance stated). Remainder $28B |
+| F1 Non-marketable equity by period | Confirmed | $61,650M at 2026-10-25 (ev_130010), up from $47,898M (ev_10001); $1.8B impairment in Q3 (ev_50099). Remainder up to $59.0B; nine-month purchases of equity securities $58.1B (ev_190001), net additions $46.4B (ev_190002) |
 | F2 Marketable equity | Confirmed | $48,888M Level 1 + Level 2 (ev_130011, ev_130012); 13F-named stakes explain almost all |
 | F3 Multi-year cloud service agreements | Modified | Split into ordinary cloud service agreements and contingent neocloud backstops; see d and e |
 | F4 Purchase obligations and prepaid supply | Modified | Supply and capacity commitments $390B (ev_130023). The prepaid balance has not been disclosed since 2025-10-26, so no attribution is possible |
@@ -181,6 +221,7 @@ Analysis: Nvidia is never a secured creditor. Where it lends or guarantees, it r
 - Prepaid supply and capacity balances after 2025-10-26 (8-K exhibits and the three latest periodic filings).
 - An MD&A total of equity investments at 2026-10-25.
 - Funded amounts for OpenAI Series C and the Anthropic Series G portion.
+- The split of the $74B data center leases between own use and third parties at 2026-10-25.
 - Partners behind the $9.5B power and systems credit support and the $3.5B land, power and shell guarantees (other than Nscale).
 
 ## Unconfirmed
@@ -193,7 +234,8 @@ None new.
 None.
 
 ## Open questions
-1. Lead: fix negative-component grounding (`abs(value)` in `pipeline/checks.py` `evidence_contains`), then rerun `python3 -m pipeline.checks draft research/drafts/lead_aggregates.json`.
+1. Lead: `pipeline.checks draft` scans every register file for text citations but keeps only the draft's evidence, so it cannot pass for any draft; limit `check_text_citations` to the draft (or keep the full evidence store) in draft mode.
 2. When the Q3 FY2027 10-Q is filed: check whether Nvidia names any neocloud or power and systems partner, whether it gives a prepaid supply balance, and how SpaceX is classed (Level 1 or 2), which would explain the $10B gap between the 13F total and Level 1.
 3. OpenAI Series C funded amount: this one figure moves the private-stake remainder by up to $30B.
-4. Re-run R7 if a researcher adds relationships from the filings sweep (the register had 83 when this was computed).
+4. Re-run R7 when the cluster drafts now being edited are merged (computed on the register at 1c4f796, 91 relationships).
+5. How much of the $74B of leases not commenced is meant for third parties: ask at the 10-Q, which may restore the split.

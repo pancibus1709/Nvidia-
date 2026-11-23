@@ -2,25 +2,25 @@
   "as_of": "2026-11-23",
   "label": "analysis",
   "totals": {
-    "funded": 32202399346.78,
+    "funded": 30196314380.28435,
     "funded_cash": 32264399346.78,
     "committed_unfunded": 1000000000.0,
     "committed_split_unknown": 36700000000.0,
-    "contingent_max": 113660340000.0,
-    "contingent_in_force": 113660340000.0,
-    "contingent_not_in_force": 0.0,
+    "contingent_max": 107360340000.0,
+    "contingent_in_force": 2360340000.0,
+    "contingent_not_in_force": 105000000000.0,
     "headline": 307092739346.78,
-    "gross": 183562739346.78,
-    "count": 81,
-    "lower_bound_count": 51,
+    "gross": 175256654380.28436,
+    "count": 80,
+    "lower_bound_count": 50,
     "counts": {
       "funded": 14,
       "funded_cash": 16,
       "committed_unfunded": 1,
       "committed_split_unknown": 5,
-      "contingent_max": 4,
-      "contingent_in_force": 4,
-      "contingent_not_in_force": 0,
+      "contingent_max": 3,
+      "contingent_in_force": 2,
+      "contingent_not_in_force": 1,
       "headline": 30
     },
     "headline_groups": {
@@ -39,14 +39,14 @@
   "bridge": [
     {
       "line": "Private stakes, carrying value",
-      "nvidia": null,
+      "nvidia": 61650000000.0,
       "named": null,
       "key": "non_marketable_equity_carrying_value",
       "note": "The register sizes private stakes at cost only where a source states the cost; see the unattributed remainder."
     },
     {
       "line": "Public equity, fair value",
-      "nvidia": null,
+      "nvidia": 48888000000.0,
       "named": 48330717074.0,
       "key": "marketable_equity_fair_value",
       "note": "Named column is the value in Nvidia's holdings report of 30 September 2026."
@@ -60,35 +60,35 @@
     },
     {
       "line": "Neocloud agreements, maximum",
-      "nvidia": null,
-      "named": 6300000000.0,
+      "nvidia": 32000000000.0,
+      "named": 0,
       "key": "neocloud_agreements_max",
       "note": "No counterparty states its share of this maximum."
     },
     {
       "line": "Cloud service agreements",
-      "nvidia": null,
+      "nvidia": 28000000000.0,
       "named": 4600000000.0,
       "key": "cloud_service_agreements",
       "note": "Named column is contract value at signing, not the balance still owed."
     },
     {
       "line": "Unfunded equity commitments",
-      "nvidia": null,
+      "nvidia": 20000000000.0,
       "named": 1000000000.0,
       "key": "unfunded_equity_commitments",
       "note": "Named column counts only amounts confirmed not yet paid."
     },
     {
       "line": "Equity purchases, nine months",
-      "nvidia": null,
+      "nvidia": 58100000000.0,
       "named": null,
       "key": "equity_purchases_9m",
       "note": "Cash Nvidia paid for equity securities in the period."
     },
     {
       "line": "Data center leases signed, not commenced",
-      "nvidia": null,
+      "nvidia": 74000000000.0,
       "named": null,
       "key": "data_center_leases_not_commenced",
       "note": "Nvidia says it may assign some of these leases to third parties."
@@ -154,11 +154,11 @@
   ],
   "source_mix": {
     "evidence_by_tier": {
-      "1": 951,
+      "1": 972,
       "2": 6
     },
-    "one_sided_relationships": 54,
-    "relationships": 81,
+    "one_sided_relationships": 53,
+    "relationships": 80,
     "note": "Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown."
   },
   "by_type": {
@@ -168,35 +168,23 @@
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
       "contingent_max": 105860340000.0,
-      "contingent_not_in_force": 0.0,
+      "contingent_not_in_force": 105000000000.0,
       "gross": 105860340000.0,
       "headline": 105860340000.0,
       "lower_bound": 1,
       "funded_known": 1
     },
     "EQ": {
-      "count": 56,
-      "funded": 31202399346.78,
+      "count": 55,
+      "funded": 29196314380.28435,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 31000000000.0,
       "contingent_max": 1500000000.0,
       "contingent_not_in_force": 0.0,
-      "gross": 63702399346.78,
-      "headline": 68852399346.78,
+      "gross": 61696314380.28435,
+      "headline": 65852399346.78,
       "lower_bound": 38,
-      "funded_known": 16
-    },
-    "BK": {
-      "count": 3,
-      "funded": 0.0,
-      "committed_unfunded": 0.0,
-      "committed_split_unknown": 0.0,
-      "contingent_max": 6300000000.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 6300000000.0,
-      "headline": 11180000000.0,
-      "lower_bound": 3,
-      "funded_known": 1
+      "funded_known": 15
     },
     "LB": {
       "count": 3,
@@ -223,7 +211,7 @@
       "funded_known": 1
     },
     "PP": {
-      "count": 6,
+      "count": 5,
       "funded": 0.0,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 1100000000.0,
@@ -231,20 +219,32 @@
       "contingent_not_in_force": 0.0,
       "gross": 1100000000.0,
       "headline": 4100000000.0,
-      "lower_bound": 5,
+      "lower_bound": 4,
       "funded_known": 0
     },
     "EQ-C": {
-      "count": 7,
+      "count": 8,
       "funded": 0.0,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
       "contingent_not_in_force": 0.0,
       "gross": 0.0,
-      "headline": 110500000000.0,
+      "headline": 113500000000.0,
       "lower_bound": 1,
-      "funded_known": 6
+      "funded_known": 7
+    },
+    "BK": {
+      "count": 3,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 0.0,
+      "headline": 11180000000.0,
+      "lower_bound": 3,
+      "funded_known": 1
     },
     "RV": {
       "count": 1,
@@ -278,35 +278,35 @@
       "committed_unfunded": 0.0,
       "committed_split_unknown": 30000000000.0,
       "contingent_max": 105000000000.0,
-      "contingent_not_in_force": 0.0,
+      "contingent_not_in_force": 105000000000.0,
       "gross": 145000000000.0,
       "headline": 255000000000.0,
       "lower_bound": 10,
       "funded_known": 5
+    },
+    "semis_supply": {
+      "count": 13,
+      "funded": 12493915033.504353,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 1100000000.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 13593915033.504353,
+      "headline": 18600000000.0,
+      "lower_bound": 5,
+      "funded_known": 7
     },
     "neocloud": {
       "count": 24,
       "funded": 6177399346.78,
       "committed_unfunded": 1000000000.0,
       "committed_split_unknown": 4600000000.0,
-      "contingent_max": 7160340000.0,
+      "contingent_max": 860340000.0,
       "contingent_not_in_force": 0.0,
-      "gross": 18937739346.78,
+      "gross": 12637739346.779999,
       "headline": 25917739346.78,
       "lower_bound": 18,
       "funded_known": 5
-    },
-    "semis_supply": {
-      "count": 14,
-      "funded": 14500000000.0,
-      "committed_unfunded": 0.0,
-      "committed_split_unknown": 1100000000.0,
-      "contingent_max": 0.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 15600000000.0,
-      "headline": 18600000000.0,
-      "lower_bound": 6,
-      "funded_known": 7
     },
     "vehicle": {
       "count": 4,
@@ -347,52 +347,52 @@
   },
   "by_status": {
     "definitive": {
-      "count": 24,
+      "count": 23,
       "funded": 2500000000.0,
       "committed_unfunded": 1000000000.0,
       "committed_split_unknown": 36700000000.0,
-      "contingent_max": 113660340000.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 153860340000.0,
+      "contingent_max": 107360340000.0,
+      "contingent_not_in_force": 105000000000.0,
+      "gross": 147560340000.0,
       "headline": 173840340000.0,
-      "lower_bound": 16,
+      "lower_bound": 15,
       "funded_known": 4
     },
     "completed": {
       "count": 41,
-      "funded": 29702399346.78,
+      "funded": 27696314380.28435,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
       "contingent_not_in_force": 0.0,
-      "gross": 29702399346.78,
+      "gross": 27696314380.28435,
       "headline": 29702399346.78,
       "lower_bound": 29,
       "funded_known": 12
     },
-    "restructured": {
-      "count": 3,
-      "funded": 0.0,
-      "committed_unfunded": 0.0,
-      "committed_split_unknown": 0.0,
-      "contingent_max": 0.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 0.0,
-      "headline": 100500000000.0,
-      "lower_bound": 1,
-      "funded_known": 2
-    },
     "loi_or_framework": {
-      "count": 6,
+      "count": 7,
       "funded": 0.0,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
       "contingent_not_in_force": 0.0,
       "gross": 0.0,
-      "headline": 3000000000.0,
+      "headline": 103000000000.0,
       "lower_bound": 0,
-      "funded_known": 6
+      "funded_known": 7
+    },
+    "restructured": {
+      "count": 2,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 0.0,
+      "headline": 500000000.0,
+      "lower_bound": 1,
+      "funded_known": 1
     },
     "terminated": {
       "count": 7,
@@ -410,63 +410,51 @@
   "by_grade": {
     "Insufficient information": {
       "count": 67,
-      "funded": 21025000000.0,
+      "funded": 20268914707.58435,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 32100000000.0,
       "contingent_max": 106500000000.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 159625000000.0,
-      "headline": 276175000000.0,
+      "contingent_not_in_force": 105000000000.0,
+      "gross": 158868914707.58435,
+      "headline": 281055000000.0,
       "lower_bound": 44,
       "funded_known": 21
+    },
+    "Watch": {
+      "count": 6,
+      "funded": 2177399346.7799997,
+      "committed_unfunded": 1000000000.0,
+      "committed_split_unknown": 4600000000.0,
+      "contingent_max": 860340000.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 8637739346.779999,
+      "headline": 10737739346.779999,
+      "lower_bound": 2,
+      "funded_known": 2
+    },
+    "Adequate": {
+      "count": 3,
+      "funded": 5750000325.92,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 5750000325.92,
+      "headline": 7000000000.0,
+      "lower_bound": 1,
+      "funded_known": 2
     },
     "Weak": {
       "count": 3,
       "funded": 2000000000.0,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
-      "contingent_max": 6300000000.0,
+      "contingent_max": 0.0,
       "contingent_not_in_force": 0.0,
-      "gross": 8300000000.0,
+      "gross": 2000000000.0,
       "headline": 8300000000.0,
       "lower_bound": 2,
       "funded_known": 1
-    },
-    "Adequate": {
-      "count": 3,
-      "funded": 7000000000.0,
-      "committed_unfunded": 0.0,
-      "committed_split_unknown": 0.0,
-      "contingent_max": 0.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 7000000000.0,
-      "headline": 7000000000.0,
-      "lower_bound": 1,
-      "funded_known": 2
-    },
-    "Distressed": {
-      "count": 5,
-      "funded": 2177399346.7799997,
-      "committed_unfunded": 1000000000.0,
-      "committed_split_unknown": 1200000000.0,
-      "contingent_max": 860340000.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 5237739346.78,
-      "headline": 10117739346.779999,
-      "lower_bound": 2,
-      "funded_known": 2
-    },
-    "Watch": {
-      "count": 2,
-      "funded": 0.0,
-      "committed_unfunded": 0.0,
-      "committed_split_unknown": 3400000000.0,
-      "contingent_max": 0.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 3400000000.0,
-      "headline": 5500000000.0,
-      "lower_bound": 1,
-      "funded_known": 0
     },
     "Strong": {
       "count": 1,
@@ -484,27 +472,15 @@
   "by_tenor": {
     "No stated maturity": {
       "count": 76,
-      "funded": 30702399346.78,
+      "funded": 28696314380.28435,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 36700000000.0,
       "contingent_max": 107360340000.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 174762739346.78,
+      "contingent_not_in_force": 105000000000.0,
+      "gross": 172756654380.28436,
       "headline": 296192739346.78,
       "lower_bound": 48,
       "funded_known": 24
-    },
-    "5 to 10 years": {
-      "count": 1,
-      "funded": 0.0,
-      "committed_unfunded": 0.0,
-      "committed_split_unknown": 0.0,
-      "contingent_max": 6300000000.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 6300000000.0,
-      "headline": 6300000000.0,
-      "lower_bound": 1,
-      "funded_known": 0
     },
     "Under 2 years": {
       "count": 1,
@@ -519,7 +495,7 @@
       "funded_known": 1
     },
     "2 to 5 years": {
-      "count": 3,
+      "count": 2,
       "funded": 500000000.0,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
@@ -527,8 +503,20 @@
       "contingent_not_in_force": 0.0,
       "gross": 500000000.0,
       "headline": 2600000000.0,
-      "lower_bound": 2,
+      "lower_bound": 1,
       "funded_known": 1
+    },
+    "5 to 10 years": {
+      "count": 1,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 0.0,
+      "headline": 6300000000.0,
+      "lower_bound": 1,
+      "funded_known": 0
     }
   },
   "by_wwr": {
@@ -537,33 +525,33 @@
       "funded": 0.0,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
-      "contingent_max": 112160340000.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 112160340000.0,
+      "contingent_max": 105860340000.0,
+      "contingent_not_in_force": 105000000000.0,
+      "gross": 105860340000.0,
       "headline": 117040340000.0,
       "lower_bound": 4,
       "funded_known": 3
     },
     "general": {
-      "count": 65,
-      "funded": 31202399346.78,
+      "count": 64,
+      "funded": 29758427276.559788,
       "committed_unfunded": 1000000000.0,
       "committed_split_unknown": 36700000000.0,
       "contingent_max": 1500000000.0,
       "contingent_not_in_force": 0.0,
-      "gross": 70402399346.78,
+      "gross": 68958427276.55978,
       "headline": 186002399346.78,
-      "lower_bound": 41,
+      "lower_bound": 40,
       "funded_known": 19
     },
     "none": {
       "count": 10,
-      "funded": 1000000000.0,
+      "funded": 437887103.7245647,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
       "contingent_not_in_force": 0.0,
-      "gross": 1000000000.0,
+      "gross": 437887103.7245647,
       "headline": 4050000000.0,
       "lower_bound": 6,
       "funded_known": 4
@@ -571,40 +559,40 @@
   },
   "by_reconciliation": {
     "partial": {
-      "count": 9,
+      "count": 12,
       "funded": 2000000000.0,
       "committed_unfunded": 0.0,
-      "committed_split_unknown": 0.0,
+      "committed_split_unknown": 1000000000.0,
       "contingent_max": 107360340000.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 109360340000.0,
-      "headline": 122360340000.0,
-      "lower_bound": 6,
-      "funded_known": 4
+      "contingent_not_in_force": 105000000000.0,
+      "gross": 110360340000.0,
+      "headline": 223360340000.0,
+      "lower_bound": 7,
+      "funded_known": 5
     },
     "one_sided": {
-      "count": 54,
+      "count": 53,
       "funded": 12202399346.78,
       "committed_unfunded": 1000000000.0,
       "committed_split_unknown": 35700000000.0,
-      "contingent_max": 6300000000.0,
+      "contingent_max": 0.0,
       "contingent_not_in_force": 0.0,
-      "gross": 55202399346.78,
+      "gross": 48902399346.78,
       "headline": 60582399346.78,
-      "lower_bound": 40,
+      "lower_bound": 39,
       "funded_known": 10
     },
     "reconciled": {
-      "count": 17,
-      "funded": 18000000000.0,
+      "count": 14,
+      "funded": 15993915033.504353,
       "committed_unfunded": 0.0,
-      "committed_split_unknown": 1000000000.0,
+      "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
       "contingent_not_in_force": 0.0,
-      "gross": 19000000000.0,
-      "headline": 121150000000.0,
-      "lower_bound": 5,
-      "funded_known": 11
+      "gross": 15993915033.504353,
+      "headline": 20150000000.0,
+      "lower_bound": 4,
+      "funded_known": 10
     },
     "contradicted": {
       "count": 1,
@@ -628,12 +616,12 @@
       "committed_unfunded": 0.0,
       "committed_split_unknown": 30000000000.0,
       "contingent_max": 105000000000.0,
-      "contingent_not_in_force": 0.0,
+      "contingent_not_in_force": 105000000000.0,
       "gross": 135000000000.0,
       "headline": 235000000000.0,
       "lower_bound": 0,
       "funded_known": 2,
-      "share_of_gross": 0.7354433720067935
+      "share_of_gross": 0.7702988538573114
     },
     {
       "entity": "ent_anthropic",
@@ -648,22 +636,7 @@
       "headline": 20000000000.0,
       "lower_bound": 1,
       "funded_known": 1,
-      "share_of_gross": 0.05447728681531804
-    },
-    {
-      "entity": "ent_coreweave",
-      "name": "CoreWeave",
-      "count": 3,
-      "funded": 2000000000.0,
-      "committed_unfunded": 0.0,
-      "committed_split_unknown": 0.0,
-      "contingent_max": 6300000000.0,
-      "contingent_not_in_force": 0.0,
-      "gross": 8300000000.0,
-      "headline": 8300000000.0,
-      "lower_bound": 2,
-      "funded_known": 1,
-      "share_of_gross": 0.04521614805671397
+      "share_of_gross": 0.057059174359800846
     },
     {
       "entity": "ent_nscale",
@@ -678,22 +651,37 @@
       "headline": 5237739346.78,
       "lower_bound": 1,
       "funded_known": 2,
-      "share_of_gross": 0.02853378286584106
+      "share_of_gross": 0.02988610826391094
     },
     {
       "entity": "ent_intel",
       "name": "Intel",
       "count": 1,
-      "funded": 5000000000.0,
+      "funded": 3750000325.9200006,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
       "contingent_not_in_force": 0.0,
-      "gross": 5000000000.0,
+      "gross": 3750000325.9200006,
       "headline": 5000000000.0,
       "lower_bound": 0,
       "funded_known": 1,
-      "share_of_gross": 0.02723864340765902
+      "share_of_gross": 0.02139719224459793
+    },
+    {
+      "entity": "ent_iren",
+      "name": "IREN",
+      "count": 2,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 3400000000.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 3400000000.0,
+      "headline": 5500000000.0,
+      "lower_bound": 1,
+      "funded_known": 0,
+      "share_of_gross": 0.019400119282332286
     }
   ],
   "scenarios": {
@@ -1270,15 +1258,15 @@
           {
             "relationship": "rel_openai_eqc_2025",
             "headline": 100000000000.0,
-            "status": "restructured"
+            "status": "loi_or_framework"
           }
         ],
         "guaranties_triggered_by_lab_default": [
           {
             "relationship": "rel_openai_gu_2026",
             "cap": 105000000000,
-            "in_force": true,
-            "effective_note": ""
+            "in_force": false,
+            "effective_note": "Not in force: each guaranty takes effect only when its PORTS-Pike building is completed and ready for service; the first is expected in Nvidia's fiscal 2029 (ev_120002, ev_120009). No payments have been made (ev_30023)."
           }
         ],
         "at_risk_backlog": [

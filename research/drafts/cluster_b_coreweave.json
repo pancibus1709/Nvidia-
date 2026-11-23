@@ -1045,7 +1045,7 @@
       "amounts": {
         "headline": {
           "value": 6300000000,
-          "as_of": "2025-09-15",
+          "as_of": "2025-09-09",
           "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
@@ -1057,7 +1057,7 @@
           "evidence": [
             "ev_20001"
           ],
-          "note": "Stated as the order's initial value."
+          "note": "Initial value of the order form, signed 2025-09-09; not a cap or a floor."
         },
         "committed_total": {
           "value": null,
@@ -1076,21 +1076,19 @@
           "note": "Payments under this order are not disclosed separately. NVIDIA paid $326.3m in FY2025 and $59.6m in Q1 2026 under the MSA and all related order forms (see rel_coreweave_lb_2023)."
         },
         "contingent_max": {
-          "value": 6300000000,
-          "as_of": "2025-09-15",
+          "value": null,
+          "as_of": null,
           "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": "2026-11-23",
-          "display_eligible": true,
+          "last_verified": null,
+          "display_eligible": false,
           "lower_bound": false,
-          "evidence": [
-            "ev_20001"
-          ],
-          "trigger": "CoreWeave does not sell reserved capacity to its customers; Nvidia buys the residual unsold capacity through 2032-04-13, if CoreWeave meets delivery and availability of service requirements",
-          "note": "The 8-K calls $6.3bn the initial value, not a maximum. A landlord's noteholder presentation (Galaxy Digital, ev_170016) describes the order as up to $6.3Bn of residual cloud capacity, which supports reading it as a ceiling but is a third party's description. Whether it is a ceiling, a minimum or an estimate is not disclosed by Nvidia or CoreWeave; treated here as the contingent amount, not a proven ceiling."
+          "evidence": [],
+          "note": "Not disclosed. The 8-K gives an initial order value of $6.3 billion, not a cap or a floor.",
+          "trigger": "CoreWeave does not sell reserved capacity to its customers; Nvidia buys the residual unsold capacity through 2032-04-13, if CoreWeave meets delivery and availability of service requirements"
         }
       },
       "dates": {
@@ -1274,7 +1272,7 @@
         "covered_project_debt": null,
         "window": "2025-09-09 to 2026-09-30"
       },
-      "notes": "nvidia_paid is blank because MSA payments are not split between this order and other order forms. covered_project_debt is blank: no document ties any CoreWeave facility to the capacity this order covers. stress_inputs are not filled: the contracted floor, contracted and merchant shares and capacity value per quarter are not disclosed by either side. Seed B2 confirmed with modifications: the filing says initial value, not a fixed amount, and the order is conditional on delivery and availability requirements.",
+      "notes": "nvidia_paid is blank because MSA payments are not split between this order and other order forms. covered_project_debt is blank: no document ties any CoreWeave facility to the capacity this order covers. stress_inputs are not filled: the contracted floor, contracted and merchant shares and capacity value per quarter are not disclosed by either side. Seed B2 confirmed with modifications: the filing says initial value, not a fixed amount, and the order is conditional on delivery and availability requirements. Critic round 1: contingent_max set to unknown because the only primary source calls $6.3 billion the order's initial value; a landlord's presentation calling it up to $6.3 billion is a third party's description (ev_170016).",
       "projects": [],
       "depth2_links": [
         {
@@ -1735,7 +1733,7 @@
       },
       "seniority": "none",
       "reconciliation": {
-        "result": "reconciled",
+        "result": "partial",
         "nvidia_side": "Nvidia's release and its Q4 FY2026 results release describe a strengthened collaboration to build more than 5 gigawatts of AI factories by 2030 and an intent to use Nvidia's financial strength for land, power and shell. No amount.",
         "counterparty_side": "CoreWeave's 8-K describes the collaboration framework, the same intent, and that it is subject to future agreements or order forms. Its Q3 2026 10-Q mentions the framework but no guarantee or financing from Nvidia.",
         "nvidia_evidence": [
@@ -1772,7 +1770,7 @@
         ]
       },
       "credit": {
-        "wwr": "specific",
+        "wwr": "none",
         "wwr_reason": "No exposure exists yet. If the intent became guarantees of CoreWeave's land, power or shell leases, Nvidia would pay when CoreWeave cannot meet those leases, so the exposure would grow as CoreWeave weakens.",
         "collateral": "None defined.",
         "tenor": "Buildout target to 2030.",

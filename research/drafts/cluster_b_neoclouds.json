@@ -121,8 +121,8 @@
             ]
           }
         ],
-        "grade": "Distressed",
-        "grade_reason": "Rubric applied literally: the audited notes say management's forecast reliance on uncommitted financing 'initially raised substantial doubt' about going concern before management concluded its plan to cut capital spending alleviates it (ev_40045). Going-concern language maps to Distressed in spec/05 section 5. No step adjustment taken because the rubric's Distressed row is a condition, not a column; Thomas may wish to review. On the sourced columns alone: top customer 52% is Watch (ev_40025); debt due within 24 months over cash is at least 0.94 ($3.36bn of convertible notes due 2028-06-15 if not converted over $3.58bn of estimated cash), which is Adequate; liquidity cover and a public rating are not sourced.",
+        "grade": "Watch",
+        "grade_reason": "Weakest sourced column: top customer 52% of revenue in the six months to 2026-06-30 is Watch (ev_40025). Debt due within 24 months over cash is at least 0.94 ($3.36bn of convertible notes due 2028-06-15 if not converted over $3.58bn of estimated cash, ev_40013, ev_40021), which is Adequate and a lower bound. Liquidity cover and a public rating are not sourced. No step adjustment: the audited notes say the going-concern doubt was alleviated by management's plan (ev_40045), but the company says it must obtain additional financing to meet forecast obligations (ev_40049), which keeps the grade from moving up. Pending Thomas's answer to R9 decision 1.",
         "notes": "The company must obtain additional financing to meet forecast 2027 obligations (ev_40049). Material weaknesses in internal control (ev_40048). No binding financing yet for the Anthropic Monarch contract (ev_40030), which needs about $10bn to $10.5bn of data center capex for Building 1 and $21bn to $22bn of GPUs (ev_40031, ev_40032). Customer prepayments of $2.3bn were received in the first half of 2026 (ev_40033). RPO $56.4bn at 2026-06-30 (ev_40024). Microsoft statements of work up to about $43.8bn through December 2033, one $3.22bn statement terminated (ev_40027, ev_40028)."
       }
     },
@@ -521,8 +521,8 @@
             ]
           }
         ],
-        "grade": "Distressed",
-        "grade_reason": "Rubric applied literally: the Q3 2026 10-Q contains a going-concern section in which the conclusion rests on management's discretion to delay expansion if financing does not arrive (ev_80009, ev_80010). Going-concern language maps to Distressed in spec/05 section 5. The company concludes it is a going concern and does not use the words substantial doubt, so this is the weakest Distressed case in the cluster; Thomas may wish to review. On the sourced columns alone: debt due within 24 months over cash is near zero ($20,059 over $1.34bn), which is Strong; customer concentration, liquidity cover and a public rating are not sourced.",
+        "grade": "Insufficient information",
+        "grade_reason": "Only one rubric column is sourced: debt due within 24 months over cash is near zero ($20,059 over $1.34bn, ev_80007, ev_40150), which is Strong. Customer concentration, liquidity cover and a public rating are not sourced, so the rubric gives Insufficient information. The going-concern section is not treated as distress: SharonAI concludes it can continue as a going concern (ev_80009), and that conclusion rests on management's discretion to delay expansion if financing does not arrive (ev_80009, ev_80010). Pending Thomas's answer to R9 decision 1.",
         "notes": "Material weakness at 2026-09-30 (ev_40153). Nine-month net loss driven by a $470.7m fair value loss on convertible notes. New Zealand five-year contract about $1.32bn (ev_40151)."
       }
     },
@@ -870,7 +870,7 @@
         },
         "contingent_max": {
           "value": 860340000,
-          "as_of": "2026-11-12",
+          "as_of": "2025-12-31",
           "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
@@ -885,7 +885,7 @@
             "ev_10159"
           ],
           "trigger": "Nscale fails to pay its obligations under the Ward County, Texas net lease during the first five years of the lease",
-          "note": "Gross maximum. Recourse: $470.0m escrow held by Nscale for Nvidia (ev_40004). Net of escrow about $390m (analysis)."
+          "note": "Gross maximum. Recourse: $470.0m escrow held by Nscale for Nvidia (ev_40004). Net of escrow about $390m (analysis). Dated to the 2025-12-31 audited balance sheet whose notes state the $860.3 million maximum (ev_40046)."
         }
       },
       "dates": {
@@ -1042,9 +1042,10 @@
               "ent_nscale"
             ],
             "direction": "negative",
-            "text": "Nvidia's credit let Nscale sign a large Texas lease while its own going concern assessment was in question, so without such guarantees Nscale would need cash deposits instead.",
+            "text": "Nvidia's credit let Nscale sign a large Texas lease while it relied on financing not yet committed, so without such guarantees Nscale would need cash deposits instead.",
             "evidence": [
               "ev_40045",
+              "ev_40049",
               "ev_10115"
             ],
             "lens": "signaling"
@@ -1133,7 +1134,8 @@
         "ev_50045",
         "ev_50074",
         "ev_170021",
-        "ev_170013"
+        "ev_170013",
+        "ev_40049"
       ],
       "notes": "Seed B8 modified: the Nvidia link to Nscale includes this guarantee, which Nvidia's filings show only anonymously. Nvidia's later land, power and shell guarantee total of $3.5bn (ev_10123) includes this guarantee and others not named."
     },
@@ -1151,7 +1153,7 @@
       "amounts": {
         "headline": {
           "value": 1200000000,
-          "as_of": "2026-11-12",
+          "as_of": "2025-07-31",
           "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
@@ -1163,11 +1165,11 @@
           "evidence": [
             "ev_40001"
           ],
-          "note": "Aggregate amount of the NVIDIA MSA and order forms."
+          "note": "Aggregate amount of the NVIDIA MSA and order forms. Contract value at signing (July 2025; day not disclosed, month end used); amount already delivered and paid is not disclosed."
         },
         "committed_total": {
           "value": 1200000000,
-          "as_of": "2026-11-12",
+          "as_of": "2025-07-31",
           "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
@@ -1179,7 +1181,7 @@
           "evidence": [
             "ev_40001"
           ],
-          "note": "Reserved capacity under signed order forms; termination rights not disclosed."
+          "note": "Reserved capacity under signed order forms; termination rights not disclosed. Contract value at signing (July 2025; day not disclosed, month end used); amount already delivered and paid is not disclosed."
         },
         "funded": {
           "value": null,
@@ -1333,7 +1335,7 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia preferred shares in Nscale (Series B, SAFE converted to Series C-3, Series C-4)",
-      "insight_template": "Nvidia has paid {funded} for preferred shares in {counterparty}, whose accounts carried going concern doubt, and those shares rank behind every lender.",
+      "insight_template": "Nvidia paid {funded} for preferred shares in {counterparty}, which says it relies on financing not yet committed, and those shares rank behind every lender.",
       "definition": "Nvidia bought Nscale preferred shares in three steps: 63,177,840 Series B shares in the Series B Financing of October 2025, a pre-Series C SAFE of $300 million that converted into Series C-3 shares, and 23,410,920 Series C-4 shares at Series C Completion on 27 March 2026. They are recorded together because all are preferred equity of the same company bought for cash; the convertible loan notes are a separate record because they are debt until converted.",
       "status": "completed",
       "claim_basis": "filed",
@@ -1713,7 +1715,7 @@
         },
         "funded": {
           "value": 1000000000,
-          "as_of": "2026-11-12",
+          "as_of": "2026-09-15",
           "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
@@ -1725,7 +1727,7 @@
           "evidence": [
             "ev_40011"
           ],
-          "note": "Notes issued to several investors including Nvidia (ev_80021). The NVIDIA Sale is not counted as funded until its closing is confirmed."
+          "note": "Notes issued to several investors including Nvidia (ev_80021). The NVIDIA Sale is not counted as funded until its closing is confirmed. Dated to the subscription on 2026-09-15."
         },
         "contingent_max": {
           "value": 0,
@@ -2367,7 +2369,7 @@
       "amounts": {
         "headline": {
           "value": 3400000000,
-          "as_of": "2026-08-27",
+          "as_of": "2026-05-31",
           "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
@@ -2379,11 +2381,11 @@
           "evidence": [
             "ev_40109"
           ],
-          "note": "'approximately $3.4 billion of total contract value'."
+          "note": "'approximately $3.4 billion of total contract value'. Contract value at signing (May 2026; day not disclosed, month end used); amount already delivered and paid is not disclosed."
         },
         "committed_total": {
           "value": 3400000000,
-          "as_of": "2026-08-27",
+          "as_of": "2026-05-31",
           "fiscal_period": null,
           "original_currency": "USD",
           "original_value": null,
@@ -2395,7 +2397,7 @@
           "evidence": [
             "ev_40109"
           ],
-          "note": "Total contract value of a signed five-year contract; termination terms not disclosed."
+          "note": "Total contract value of a signed five-year contract; termination terms not disclosed. Contract value at signing (May 2026; day not disclosed, month end used); amount already delivered and paid is not disclosed."
         },
         "funded": {
           "value": null,

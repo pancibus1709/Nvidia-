@@ -1261,8 +1261,8 @@
           ]
         }
       ],
-      "grade": "Distressed",
-      "grade_reason": "Rubric applied literally: the audited notes say management's forecast reliance on uncommitted financing 'initially raised substantial doubt' about going concern before management concluded its plan to cut capital spending alleviates it (ev_40045). Going-concern language maps to Distressed in spec/05 section 5. No step adjustment taken because the rubric's Distressed row is a condition, not a column; Thomas may wish to review. On the sourced columns alone: top customer 52% is Watch (ev_40025); debt due within 24 months over cash is at least 0.94 ($3.36bn of convertible notes due 2028-06-15 if not converted over $3.58bn of estimated cash), which is Adequate; liquidity cover and a public rating are not sourced.",
+      "grade": "Watch",
+      "grade_reason": "Weakest sourced column: top customer 52% of revenue in the six months to 2026-06-30 is Watch (ev_40025). Debt due within 24 months over cash is at least 0.94 ($3.36bn of convertible notes due 2028-06-15 if not converted over $3.58bn of estimated cash, ev_40013, ev_40021), which is Adequate and a lower bound. Liquidity cover and a public rating are not sourced. No step adjustment: the audited notes say the going-concern doubt was alleviated by management's plan (ev_40045), but the company says it must obtain additional financing to meet forecast obligations (ev_40049), which keeps the grade from moving up. Pending Thomas's answer to R9 decision 1.",
       "notes": "The company must obtain additional financing to meet forecast 2027 obligations (ev_40049). Material weaknesses in internal control (ev_40048). No binding financing yet for the Anthropic Monarch contract (ev_40030), which needs about $10bn to $10.5bn of data center capex for Building 1 and $21bn to $22bn of GPUs (ev_40031, ev_40032). Customer prepayments of $2.3bn were received in the first half of 2026 (ev_40033). RPO $56.4bn at 2026-06-30 (ev_40024). Microsoft statements of work up to about $43.8bn through December 2033, one $3.22bn statement terminated (ev_40027, ev_40028)."
     }
   },
@@ -3249,8 +3249,8 @@
           ]
         }
       ],
-      "grade": "Distressed",
-      "grade_reason": "Rubric applied literally: the Q3 2026 10-Q contains a going-concern section in which the conclusion rests on management's discretion to delay expansion if financing does not arrive (ev_80009, ev_80010). Going-concern language maps to Distressed in spec/05 section 5. The company concludes it is a going concern and does not use the words substantial doubt, so this is the weakest Distressed case in the cluster; Thomas may wish to review. On the sourced columns alone: debt due within 24 months over cash is near zero ($20,059 over $1.34bn), which is Strong; customer concentration, liquidity cover and a public rating are not sourced.",
+      "grade": "Insufficient information",
+      "grade_reason": "Only one rubric column is sourced: debt due within 24 months over cash is near zero ($20,059 over $1.34bn, ev_80007, ev_40150), which is Strong. Customer concentration, liquidity cover and a public rating are not sourced, so the rubric gives Insufficient information. The going-concern section is not treated as distress: SharonAI concludes it can continue as a going concern (ev_80009), and that conclusion rests on management's discretion to delay expansion if financing does not arrive (ev_80009, ev_80010). Pending Thomas's answer to R9 decision 1.",
       "notes": "Material weakness at 2026-09-30 (ev_40153). Nine-month net loss driven by a $470.7m fair value loss on convertible notes. New Zealand five-year contract about $1.32bn (ev_40151)."
     }
   },
@@ -4379,7 +4379,7 @@
   {
     "id": "ent_ai_financing_platforms",
     "name": "AI compute infrastructure financing platforms (Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR)",
-    "short_name": "Financing platforms",
+    "short_name": "six financing platforms",
     "cluster": "vehicle",
     "depth": 1,
     "public": false,

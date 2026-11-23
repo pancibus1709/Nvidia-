@@ -5,10 +5,10 @@
       "name": "Liquidity provision",
       "analogue": "Equity into buyers of Nvidia systems.",
       "verdict": "Partly supported",
-      "verdict_reason": "Investees pair Nvidia money with Nvidia compute, but co-investors bought on equal terms.",
+      "verdict_reason": "Investees pair Nvidia money with Nvidia compute; co-investors paid the same terms.",
       "evidence_for": [
         {
-          "text": "Nvidia bought $10.0 billion of Anthropic stock; Anthropic buys Nvidia GPU compute from three clouds.",
+          "text": "Nvidia bought $10.0 billion of Anthropic stock; Anthropic rents Nvidia GPUs from three clouds.",
           "relationships": [
             "rel_anthropic_eq_2026"
           ],
@@ -20,7 +20,7 @@
           ]
         },
         {
-          "text": "Nscale took Nvidia equity and notes despite going-concern doubt.",
+          "text": "Nscale took Nvidia equity and notes while relying on uncommitted financing.",
           "relationships": [
             "rel_nscale_eq_2025",
             "rel_nscale_fc_2026"
@@ -28,7 +28,7 @@
           "evidence": [
             "ev_80030",
             "ev_40011",
-            "ev_40045"
+            "ev_40049"
           ]
         }
       ],
@@ -43,16 +43,13 @@
           ]
         },
         {
-          "text": "Intel, Synopsys and Nokia were well funded, with no linked purchases.",
+          "text": "Intel's Nvidia stake came with a product deal, with no disclosed Intel purchase commitment.",
           "relationships": [
-            "rel_intel_eq_2025",
-            "rel_synopsys_eq_2025",
-            "rel_nokia_eq_2025"
+            "rel_intel_eq_2025"
           ],
           "evidence": [
-            "ev_60004",
-            "ev_60026",
-            "ev_60045"
+            "ev_50065",
+            "ev_30033"
           ]
         }
       ]
@@ -60,16 +57,17 @@
     {
       "id": "collateral",
       "name": "Collateral support",
-      "analogue": "Guaranties that make GPU and data center debt bankable.",
+      "analogue": "Guaranties that make GPU debt bankable.",
       "verdict": "Partly supported",
-      "verdict_reason": "Borrowers and a landlord's noteholders cite Nvidia support, but CoreWeave's own lenders do not.",
+      "verdict_reason": "Borrowers and a landlord's noteholders cite Nvidia support; CoreWeave's lenders do not.",
       "evidence_for": [
         {
-          "text": "SB Energy says PORTS-Pike financing depends on Nvidia's guaranty because OpenAI is not investment grade.",
+          "text": "SB Energy says PORTS-Pike's financeability depends in significant part on Nvidia's guaranty; OpenAI is not investment grade.",
           "relationships": [
             "rel_openai_gu_2026"
           ],
           "evidence": [
+            "ev_120037",
             "ev_100024",
             "ev_30001"
           ]
@@ -82,6 +80,14 @@
           "evidence": [
             "ev_170016",
             "ev_170017"
+          ]
+        },
+        {
+          "text": "Nvidia says some customers outgrow what their credit can support, and it acted in response.",
+          "relationships": [],
+          "evidence": [
+            "ev_200006",
+            "ev_200007"
           ]
         }
       ],
@@ -111,13 +117,13 @@
     {
       "id": "pricing",
       "name": "Pricing of money",
-      "analogue": "Nvidia's entry sets counterparties' cost of capital.",
+      "analogue": "Nvidia's entry sets borrowing costs.",
       "verdict": "Not testable",
       "verdict_reason": "No source ties a round price or loan spread to Nvidia.",
       "evidence_for": [],
       "evidence_against": [
         {
-          "text": "Others led Nvidia's rounds: GIC and Coatue at Anthropic, ASML at Mistral.",
+          "text": "Others led: GIC and Coatue at Anthropic, ASML at Mistral.",
           "relationships": [
             "rel_anthropic_eqc_2025",
             "rel_mistral_eq_2025"
@@ -132,18 +138,18 @@
     {
       "id": "last_resort",
       "name": "Lender of last resort",
-      "analogue": "Nvidia steps in when others will not lend.",
-      "verdict": "Partly supported",
-      "verdict_reason": "Some backed firms show stress, but no rescue deal is sourced.",
+      "analogue": "Nvidia rescues firms others will not fund.",
+      "verdict": "Not supported",
+      "verdict_reason": "No rescue deal is sourced; two backed firms rely on uncommitted financing.",
       "evidence_for": [
         {
-          "text": "Nvidia backstops SharonAI, whose filing has a going-concern section.",
+          "text": "SharonAI says it needs further financing; Nvidia pays minimum revenue on its unsold capacity.",
           "relationships": [
             "rel_sharonai_bk_2026"
           ],
           "evidence": [
-            "ev_40145",
-            "ev_80009"
+            "ev_80010",
+            "ev_40145"
           ]
         }
       ],
@@ -171,7 +177,7 @@
       ]
     }
   ],
-  "where_the_analogy_breaks": "Nvidia cannot create money. It reports guarantees with a $118.0 billion maximum at 25 October 2026, against shareholders' equity of $266,666 million. The OpenAI guaranty alone is capped at $105 billion, recoverable only from OpenAI, unsecured. Its support rests on its own cash flow, which depends on the same AI demand.",
+  "where_the_analogy_breaks": "Nvidia cannot create money. Its guarantees reach a $118.0 billion maximum against $266.7 billion of shareholders' equity at 25 October 2026; the OpenAI guaranty alone is $105 billion, unsecured. Its support depends on the same AI demand.",
   "where_the_analogy_breaks_evidence": [
     "ev_50044",
     "ev_130001",
@@ -183,6 +189,6 @@
     "rel_coreweave_bk_2025",
     "rel_nscale_gu_2025"
   ],
-  "overall": "Nvidia supplies equity and credit support that funds its customers' spending. It is a finite private balance sheet, not a price setter or rescuer.",
+  "overall": "Nvidia gives equity and credit support to its buyers from a finite balance sheet; whether it sets prices or rescues is not shown.",
   "label": "analysis"
 }
