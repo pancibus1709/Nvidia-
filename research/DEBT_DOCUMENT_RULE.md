@@ -17,3 +17,14 @@ When reading indentures, credit agreements or prospectuses for any counterparty:
 Every evidence record carries `source_link`: a link to the source document itself (not a
 search page or a filing index) that scrolls to the quoted passage. The app shows it as
 "Open source" on every citation.
+
+# Neocloud prospectuses (instruction from Thomas, 23 November 2026)
+
+For every neocloud that has a relationship with Nvidia (CoreWeave and its peers), read the 424B
+prospectuses: the IPO final prospectus (424B4) and every later prospectus or prospectus supplement
+(424B5, 424B3, 424B2, 424B7) for equity, convertible or debt offerings. Start with the newest.
+From each, capture: the Nvidia relationship as the issuer describes it (shareholder, customer,
+supplier, agreements), principal stockholder table, related party transactions, description of
+indebtedness (every facility: size, drawn, rate, maturity, collateral, lenders, covenants),
+customer concentration, backlog and remaining performance obligations, risk factors that name Nvidia,
+and use of proceeds. Notes offered under Rule 144A have no 424B: use the 8-K and its indenture exhibit.
