@@ -1,0 +1,152 @@
+{
+  "shareholders_equity": {
+    "value": 266666000000.0,
+    "as_of": "2026-10-25",
+    "fiscal_period": "FY2027 Q3",
+    "original_currency": "USD",
+    "original_value": null,
+    "fx_rate": null,
+    "fx_date": null,
+    "last_verified": "2026-11-23",
+    "display_eligible": true,
+    "lower_bound": false,
+    "evidence": [
+      "ev_130001"
+    ],
+    "note": "Total shareholders' equity on the condensed consolidated balance sheet in Exhibit 99.3 to the 8-K of 2026-11-17 (unaudited; the Q3 FY2027 Form 10-Q was not filed by 2026-11-23)."
+  },
+  "fcf_ttm": {
+    "value": 148574000000.0,
+    "as_of": "2026-10-25",
+    "fiscal_period": "TTM to FY2027 Q3",
+    "original_currency": "USD",
+    "original_value": null,
+    "fx_rate": null,
+    "fx_date": null,
+    "last_verified": "2026-11-23",
+    "display_eligible": true,
+    "lower_bound": false,
+    "evidence": [
+      "ev_130016",
+      "ev_130020"
+    ],
+    "components": [
+      {
+        "value": 34902000000.0,
+        "evidence": [
+          "ev_130016"
+        ],
+        "note": "Free cash flow, three months ended 2026-01-25 (FY2026 Q4), as reported by Nvidia"
+      },
+      {
+        "value": 113672000000.0,
+        "evidence": [
+          "ev_130020"
+        ],
+        "note": "Free cash flow, nine months ended 2026-10-25 (FY2027 Q1 to Q3), as reported by Nvidia"
+      }
+    ],
+    "note": "Analysis. Window: the four quarters ended 2026-10-25 (FY2026 Q4 plus FY2027 Q1 to Q3), built as FY2026 Q4 plus FY2027 nine months so every component is a positive reported figure (the grounding tool cannot match negative component values). Nvidia defines free cash flow as net cash provided by operating activities less purchases related to property and equipment and intangible assets and less principal payments on property and equipment and intangible assets. Cross check from the underlying lines: operating cash flow 36,190M (ev_130017) plus 122,675M (ev_130004) = 158,865M; capital expenditure 1,284M (ev_130018) plus 8,856M (ev_130006) = 10,140M; principal payments 4M plus 147M = 151M (same tables); 158,865M less 10,140M less 151M = 148,574M. Operating cash flow less capital expenditure only would be 148,725M."
+  },
+  "revenue_ttm": {
+    "value": 361808000000.0,
+    "as_of": "2026-10-25",
+    "fiscal_period": "TTM to FY2027 Q3",
+    "original_currency": "USD",
+    "original_value": null,
+    "fx_rate": null,
+    "fx_date": null,
+    "last_verified": "2026-11-23",
+    "display_eligible": true,
+    "lower_bound": false,
+    "evidence": [
+      "ev_130019",
+      "ev_130008"
+    ],
+    "components": [
+      {
+        "value": 68127000000.0,
+        "evidence": [
+          "ev_130019"
+        ],
+        "note": "Revenue, three months ended 2026-01-25 (FY2026 Q4)"
+      },
+      {
+        "value": 293681000000.0,
+        "evidence": [
+          "ev_130008"
+        ],
+        "note": "Revenue, nine months ended 2026-10-25 (FY2027 Q1 to Q3)"
+      }
+    ],
+    "note": "Analysis. Window: the four quarters ended 2026-10-25, built as FY2026 Q4 plus FY2027 nine months. Cross check: FY2026 215,938M (ev_10136) plus 293,681M less nine months FY2026 147,811M (ev_130009) = 361,808M."
+  },
+  "cash_and_marketable_securities": {
+    "value": 53512000000.0,
+    "as_of": "2026-10-25",
+    "fiscal_period": "FY2027 Q3",
+    "original_currency": "USD",
+    "original_value": null,
+    "fx_rate": null,
+    "fx_date": null,
+    "last_verified": "2026-11-23",
+    "display_eligible": true,
+    "lower_bound": false,
+    "evidence": [
+      "ev_130002",
+      "ev_130003"
+    ],
+    "components": [
+      {
+        "value": 29089000000.0,
+        "evidence": [
+          "ev_130002"
+        ],
+        "note": "Cash and cash equivalents"
+      },
+      {
+        "value": 24423000000.0,
+        "evidence": [
+          "ev_130003"
+        ],
+        "note": "Marketable debt securities (includes 3,471M of debt convertible into a public company's equity)"
+      }
+    ],
+    "note": "Cash and cash equivalents plus marketable debt securities (the CFO commentary rounds this to 53.5 billion). Excludes marketable equity securities of 44,219M (ev_130014), which are mostly lock-up restricted stakes and not liquidity."
+  },
+  "total_guarantees_max": {
+    "value": 118000000000.0,
+    "as_of": "2026-10-25",
+    "fiscal_period": "FY2027 Q3",
+    "original_currency": "USD",
+    "original_value": null,
+    "fx_rate": null,
+    "fx_date": null,
+    "last_verified": "2026-11-23",
+    "display_eligible": true,
+    "lower_bound": false,
+    "evidence": [
+      "ev_50044"
+    ],
+    "note": "Maximum gross exposure under all guarantees: land, power and shell 3.5B, SB Energy 105.0B (phased, not yet effective), power and systems credit support 9.5B. No payments made to date (ev_50045)."
+  },
+  "total_equity_investments": {
+    "value": 99000000000.0,
+    "as_of": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "original_currency": "USD",
+    "original_value": null,
+    "fx_rate": null,
+    "fx_date": null,
+    "last_verified": "2026-11-23",
+    "display_eligible": true,
+    "lower_bound": false,
+    "evidence": [
+      "ev_10043"
+    ],
+    "note": "MD&A figure from the Q2 FY2027 10-Q. No equivalent MD&A total was given at 2026-10-25; this is the one item in this file not at the 2026-10-25 balance sheet date. Analysis: at 2026-10-25 the balance sheet lines sum to 114,416M (non-marketable securities 65,528M plus marketable equity 44,219M plus locked public equity in other assets 4,669M), which is not an MD&A figure."
+  },
+  "as_of": "2026-10-25",
+  "fiscal_period": "FY2027 Q3 (quarter ended 2026-10-25)",
+  "source_note": "Balance sheet date 2026-10-25 for every amount except total_equity_investments (2026-07-26, the latest MD&A total). Sources: 8-K filed 2026-11-17, Exhibit 99.3 supplemental financial information and Exhibit 99.2 CFO commentary (unaudited), plus the FY2026 Form 10-K for annual figures. The Q3 FY2027 Form 10-Q had not been filed by 2026-11-23; the 2026-07-26 Form 10-Q is the newest full set of notes."
+}

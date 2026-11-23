@@ -4475,5 +4475,53 @@
       "ev_100034",
       "ev_100038"
     ]
+  },
+  {
+    "id": "ent_iambic",
+    "name": "Iambic Therapeutics, Inc.",
+    "short_name": "Iambic",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": true,
+    "ticker": "IAM",
+    "cik": "0001997038",
+    "country": "US",
+    "description": "AI drug discovery company, listed on Nasdaq in October 2026, with a technology collaboration with Nvidia.",
+    "domains": [],
+    "credit": {
+      "public_ratings": [],
+      "debt_outstanding": null,
+      "maturities_24m": null,
+      "cash_and_undrawn": {
+        "value": 252000000,
+        "as_of": "2026-09-30",
+        "fiscal_period": null,
+        "original_currency": "USD",
+        "original_value": null,
+        "fx_rate": null,
+        "fx_date": null,
+        "last_verified": "2026-11-23",
+        "display_eligible": true,
+        "lower_bound": false,
+        "evidence": [
+          "ev_170008"
+        ],
+        "note": "Cash and cash equivalents before IPO net proceeds of about $156.0 million (ev_170009)."
+      },
+      "committed_spend_12m": null,
+      "top_customer_share": null,
+      "top3_customer_share": null,
+      "collateral_note": "No GPU collateral; clinical stage drug developer.",
+      "market_signals": [],
+      "grade": "Insufficient information",
+      "grade_reason": "Only liquidity is sourced (cash $252.0 million at 2026-09-30, runway into or through Q4 2028); fewer than two rubric columns.",
+      "notes": "Iambic says existing cash funds operations into or through the fourth quarter of 2028 (ev_170011). Subordinated convertible notes of $66.5 million issued Aug to Sep 2026 converted at the IPO.",
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      }
+    },
+    "compute_commitments": []
   }
 ]

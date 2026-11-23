@@ -1,35 +1,35 @@
 seed,counterparty_or_item,hypothesis,status,reason,register_ids
-A1,OpenAI,"Sept 2025 letter of intent: Nvidia to invest up to $100B progressively as OpenAI deploys at least 10 GW of Nvidia systems, first tranche tied to the first gigawatt",unverified,,
-A2,Anthropic,Nov 2025: Nvidia up to $10B and Microsoft up to $5B in Anthropic; Anthropic commits to Azure compute (reported $30B) and up to 1 GW of Nvidia systems,unverified,,
-A3,xAI,Oct 2025 reports: Nvidia up to $2B equity in a roughly $20B vehicle that buys Nvidia GPUs and leases them to xAI,unverified,,
-A4,Mistral AI,Nvidia participation in 2025 funding round,unverified,,
-A5,Reflection AI,Nvidia reported as large investor in a 2025 round of about $2B,unverified,,
-A6,Poolside,Reported Nvidia commitment up to $1B in 2025,unverified,,
-A7,Other labs,"Perplexity, Cohere, Sakana, Thinking Machines, Safe Superintelligence, Figure, Wayve and others with Nvidia participation",unverified,,
-B1,CoreWeave,"Nvidia is a major shareholder (stake from before the March 2025 IPO, anchor order in the IPO)",unverified,,
-B2,CoreWeave,"Sept 2025 8-K: Nvidia order of about $6.3B to purchase CoreWeave capacity not sold to customers, running to 2032",unverified,,
-B3,CoreWeave,Earlier Nvidia agreement to rent CoreWeave capacity (reported about $1.3B over four years),unverified,,
-B4,CoreWeave,Early 2026 reports of an additional Nvidia equity investment (about $2B),unverified,,
-B5,Lambda,"Sept 2025 reports: Nvidia to lease back about 18,000 of its own GPUs from Lambda, about $1.5B over four years; Nvidia also Lambda's largest customer",unverified,,
-B6,Nebius,Nvidia holding (13F and Nebius disclosures),unverified,,
-B7,Crusoe,Nvidia participation in funding rounds,unverified,,
-B8,Nscale,Nvidia participation in 2025 Series B; UK projects,unverified,,
-B9,Applied Digital and others in 13F,Past Nvidia holding,unverified,,
-B10,Nvidia cloud service agreements (aggregate),Nvidia 10-Q discloses multi-year cloud service agreements in the tens of billions,unverified,,
-C1,Intel,"Sept 2025: $5B Nvidia equity at about $23.28 per share, plus product collaboration; closed late 2025 after review",unverified,,
-C2,Nokia,"Oct 2025: $1B Nvidia equity at about $6.01 per share, AI networking partnership",unverified,,
-C3,Synopsys,Dec 2025: $2B Nvidia equity,unverified,,
-C4,Groq,"Dec 2025: non-exclusive license and hiring of leadership, reported about $20B",unverified,,
-C5,Arm,Long-standing Nvidia shareholding (13F),unverified,,
-C6,"Suppliers: TSMC, memory makers, assemblers",Nvidia prepaid supply and capacity agreements and large purchase obligations,unverified,,
-D1,Microsoft,"Co-investor with Nvidia in Anthropic; offtaker of neocloud capacity (Nebius, Nscale, IREN, others)",unverified,,
-D2,Oracle,"Hypothesis: very large compute contract with OpenAI, and large Nvidia purchases funded partly with debt",unverified,,
-D3,"Google, Amazon, Meta",Own chips plus Nvidia purchases; Meta's off-balance-sheet data center vehicle with private credit,unverified,,
-E1,"Stargate entities (OpenAI, Oracle, SoftBank, MGX)","Nvidia as technology partner, not investor",unverified,,
-E2,"Saudi Humain, UAE programs, European industrial AI clouds",Large GPU sales agreements,unverified,,
-F1,"Non-marketable equity securities, carrying value by period",Size of private stakes Nvidia does not name,unverified,,
-F2,Marketable equity securities,Public stakes,unverified,,
-F3,Multi-year cloud service agreements,Nvidia renting compute back from the ecosystem,unverified,,
-F4,Purchase obligations and prepaid supply,Upstream commitments,unverified,,
-F5,"Customer concentration (Customer A, B, C share of revenue and receivables)","Who Nvidia depends on, and whether financed customers are among them",unverified,,
-F6,Any guarantee or indemnification note,Direct contingent liabilities,unverified,,
+A1,OpenAI,"Sept 2025 letter of intent: Nvidia to invest up to $100B progressively as OpenAI deploys at least 10 GW of Nvidia systems, first tranche tied to the first gigawatt",modified,"The up to $100B letter of intent was never made definitive; Nvidia instead committed $30B to OpenAI 2026 round (OpenAI disclosed, funded unknown) and gave $105B-capped guaranties of OpenAI PORTS-Pike rent.",rel_openai_eqc_2025; rel_openai_eq_2026; rel_openai_gu_2026
+A2,Anthropic,Nov 2025: Nvidia up to $10B and Microsoft up to $5B in Anthropic; Anthropic commits to Azure compute (reported $30B) and up to 1 GW of Nvidia systems,modified,Up to $10B agreement confirmed; a portion went into Series G (undisclosed) and Nvidia separately bought $10.0B of Class N stock at the IPO; Azure commitment grew to at least $47.2B.,rel_anthropic_eqc_2025; rel_anthropic_eq_2026; rel_microsoft_cx_2025
+A3,xAI,Oct 2025 reports: Nvidia up to $2B equity in a roughly $20B vehicle that buys Nvidia GPUs and leases them to xAI,modified,"A GPU leasing vehicle exists (Valor) but Nvidia money in it is unconfirmed; Nvidia instead holds SpaceX shares from its xAI Series E stake, $19.68B market value at 2026-09-30.",rel_spacex_eq_2026
+A4,Mistral AI,Nvidia participation in 2025 funding round,confirmed,Mistral names NVIDIA among Series C investors; Nvidia amount undisclosed on both sides.,rel_mistral_eq_2025
+A5,Reflection AI,Nvidia reported as large investor in a 2025 round of about $2B,modified,Reflection names NVIDIA as an investor in a $2B raise; the large investor role and Nvidia portion are tier 2 only.,rel_reflection_eq_2025
+A6,Poolside,Reported Nvidia commitment up to $1B in 2025,killed,"No tier 1 source; the up to $1B investment and a $6B license appear only in Bloomberg and The Information, unfetched; reopen if quotes are pasted.",
+A7,Other labs,"Perplexity, Cohere, Sakana, Thinking Machines, Safe Superintelligence, Figure, Wayve and others with Nvidia participation",modified,"Tier 1 confirms SSI, Thinking Machines, Cohere, Sakana, Figure, Wayve, Skild, Black Forest Labs and others with no Nvidia amounts; Perplexity, Inflection, Nuro not quotable.",rel_ssi_eq_2026; rel_thinking_machines_eq_2026; rel_cohere_eq_2025; rel_sakana_eq_2024; rel_figure_eq_2025; rel_wayve_eq_2024; rel_wayve_eqc_2025; rel_skild_ai_eq_2026; rel_black_forest_labs_eq_2025
+B1,CoreWeave,"Nvidia is a major shareholder (stake from before the March 2025 IPO, anchor order in the IPO)",modified,"Pre-IPO stake and later holdings confirmed (47,213,353 shares now); the IPO anchor order is in no filing and stays needs quote.",rel_coreweave_eq_2025
+B2,CoreWeave,"Sept 2025 8-K: Nvidia order of about $6.3B to purchase CoreWeave capacity not sold to customers, running to 2032",confirmed,8-K states an initial value of $6.3B for residual unsold capacity through 2032-04-13; conditional on delivery and ends after a 90 day insolvency.,rel_coreweave_bk_2025
+B3,CoreWeave,Earlier Nvidia agreement to rent CoreWeave capacity (reported about $1.3B over four years),modified,"The 2023 rental agreement exists, but the $1.3B over four years is not in any allowed source; only $705.9m of payments are disclosed.",rel_coreweave_lb_2023
+B4,CoreWeave,Early 2026 reports of an additional Nvidia equity investment (about $2B),confirmed,"$2B at $87.20 for 22,935,780 shares in January 2026, stated by both sides.",rel_coreweave_eq_2025; rel_coreweave_gu_2026
+B5,Lambda,"Sept 2025 reports: Nvidia to lease back about 18,000 of its own GPUs from Lambda, about $1.5B over four years; Nvidia also Lambda's largest customer",modified,No allowed source shows a Lambda leaseback or Nvidia as largest customer; Nvidia is confirmed only as a Series D equity investor.,rel_lambda_eq_2025
+B6,Nebius,Nvidia holding (13F and Nebius disclosures),confirmed,"13F stake of 1,190,476 shares since 2024 plus a $2.0B pre-funded warrant, both sides disclosed.",rel_nebius_eq_2024; rel_nebius_eq_2026
+B7,Crusoe,Nvidia participation in funding rounds,confirmed,"Crusoe releases name NVIDIA in Series D, E and F; Nvidia amounts not disclosed.",rel_crusoe_eq_2024; rel_crusoe_eq_2025; rel_crusoe_eq_2026
+B8,Nscale,Nvidia participation in 2025 Series B; UK projects,modified,"Series B confirmed with cash, and the relationship is wider: Series C, $2.0B of notes, an $860.34m lease guarantee and a $1.2B capacity rental.",rel_nscale_eq_2025; rel_nscale_fc_2026; rel_nscale_gu_2025; rel_nscale_lb_2025
+B9,Applied Digital and others in 13F,Past Nvidia holding,confirmed,"Applied Digital 7,716,050 shares held 2024-09-30 to 2025-09-30 and exited; other 13F names exited except Generate Biomedicines.",rel_applied_digital_eq_2024; rel_generate_biomedicines_eq_2026
+B10,Nvidia cloud service agreements (aggregate),Nvidia 10-Q discloses multi-year cloud service agreements in the tens of billions,modified,"Cloud service agreements confirmed at $26B to $30B (Oct 2025 to Apr 2026) and $29B at Jul 2026, plus new AI cloud agreements of $36B (later $32B neocloud agreements); no counterparty named.",ev_10151; ev_10085; ev_10030; ev_10035; ev_30090
+C1,Intel,"Sept 2025: $5B Nvidia equity at about $23.28 per share, plus product collaboration; closed late 2025 after review",confirmed,"$5.0B for 214,776,632 shares at $23.28, closed 2025-12-26; holding cut to 161,082,488 by 2026-09-30.",rel_intel_eq_2025
+C2,Nokia,"Oct 2025: $1B Nvidia equity at about $6.01 per share, AI networking partnership",confirmed,"USD 1.0B at USD 6.01, completed 2025-11-13; holding cut to 72,859,751 ADS by 2026-09-30.",rel_nokia_eq_2025
+C3,Synopsys,Dec 2025: $2B Nvidia equity,confirmed,"$2B for 4,821,717 shares at $414.79, stated by both sides.",rel_synopsys_eq_2025
+C4,Groq,"Dec 2025: non-exclusive license and hiring of leadership, reported about $20B",modified,"Filings show $13.0B paid plus $4B payable for a license with no equity; excluded from the map as a purchase, not credit exposure.",
+C5,Arm,Long-standing Nvidia shareholding (13F),modified,Long-standing 13F holding confirmed but exited by 2025-12-31.,rel_arm_eq_2023
+C6,"Suppliers: TSMC, memory makers, assemblers",Nvidia prepaid supply and capacity agreements and large purchase obligations,modified,"Aggregates confirmed; named prepayments found for Amkor, KYEC, IBIDEN, SPIL, Unimicron and a $1.0B Corning deposit; none found for TSMC or memory makers.",rel_amkor_pp_2026; rel_kyec_pp_2026; rel_ibiden_pp_2026; rel_unimicron_pp_2026; rel_spil_pp_2026; rel_corning_pp_2026; rel_corning_eq_2026
+D1,Microsoft,"Co-investor with Nvidia in Anthropic; offtaker of neocloud capacity (Nebius, Nscale, IREN, others)",modified,Co-investor in Anthropic and Azure seller confirmed; no Nvidia capital to Microsoft; recorded as context and as offtaker at depth 2.,rel_microsoft_cx_2025
+D2,Oracle,"Hypothesis: very large compute contract with OpenAI, and large Nvidia purchases funded partly with debt",killed,"No allowed source ties Oracle RPO to OpenAI and no Nvidia capital, guarantee or financing to Oracle was found.",
+D3,"Google, Amazon, Meta",Own chips plus Nvidia purchases; Meta's off-balance-sheet data center vehicle with private credit,modified,"Google backstop of Fluidstack leases confirmed as a comparator; Meta is a direct Nvidia equity indication of $3B, non-binding per Meta; Amazon sales only.",rel_google_cx_2025; rel_meta_eq_2026
+E1,"Stargate entities (OpenAI, Oracle, SoftBank, MGX)","Nvidia as technology partner, not investor",modified,No Nvidia capital in Stargate entities; Nvidia capital in the SoftBank and OpenAI orbit went to SB Energy equity and the PORTS-Pike guaranty.,rel_sb_energy_eq_2026; rel_openai_gu_2026
+E2,"Saudi Humain, UAE programs, European industrial AI clouds",Large GPU sales agreements,killed,"Sales and partnerships only; no Nvidia financing, guarantee or investment found for Humain, UAE or European programs.",
+F1,"Non-marketable equity securities, carrying value by period",Size of private stakes Nvidia does not name,confirmed,"Non-marketable equity carrying value by period from $288M (Jan 2023) to $47,898M (Jul 2026).",ev_10304; ev_10001
+F2,Marketable equity securities,Public stakes,confirmed,"Public equity grew from $381M (Jan 2025) to $42,783M current plus $4,957M long-term (Jul 2026).",ev_10206; ev_10013; ev_10016
+F3,Multi-year cloud service agreements,Nvidia renting compute back from the ecosystem,confirmed,"Multi-year cloud service agreements disclosed every period, $29B at Jul 2026, with a separate $36B AI cloud agreements line.",ev_10030; ev_10035
+F4,Purchase obligations and prepaid supply,Upstream commitments,modified,"Supply and capacity commitments rose to $279B at Jul 2026, but the prepaid supply breakdown stopped being disclosed after Oct 2025.",ev_10029; ev_10147; ev_10148
+F5,"Customer concentration (Customer A, B, C share of revenue and receivables)","Who Nvidia depends on, and whether financed customers are among them",confirmed,"Customer concentration disclosed each period without names, so whether financed customers are among them is not determinable.",ev_10047; ev_10049; ev_10050
+F6,Any guarantee or indemnification note,Direct contingent liabilities,modified,"Standard indemnities only until Oct 2025; then an $860M lease guarantee, $3.5B of land, power and shell guarantees, and $105B for SB Energy.",ev_10159; ev_10123; ev_10040; ev_10041

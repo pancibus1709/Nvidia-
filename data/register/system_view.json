@@ -2,21 +2,21 @@
   "as_of": "2026-11-23",
   "label": "analysis",
   "totals": {
-    "funded": 32239399346.78,
+    "funded": 32264399346.78,
     "committed_unfunded": 43000000000.0,
     "contingent_max": 112160340000.0,
-    "headline": 308067739346.78,
-    "gross": 187399739346.78,
-    "count": 81,
+    "headline": 308092739346.78,
+    "gross": 187424739346.78,
+    "count": 82,
     "lower_bound_count": 49,
     "counts": {
-      "funded": 15,
+      "funded": 16,
       "committed_unfunded": 9,
       "contingent_max": 3,
-      "headline": 30
+      "headline": 31
     }
   },
-  "headline_binding_share": 0.6083069254318489,
+  "headline_binding_share": 0.6083387091307604,
   "by_type": {
     "GU": {
       "count": 3,
@@ -28,12 +28,12 @@
       "lower_bound": 1
     },
     "EQ": {
-      "count": 55,
-      "funded": 31239399346.78,
+      "count": 56,
+      "funded": 31264399346.78,
       "committed_unfunded": 32500000000.0,
       "contingent_max": 0.0,
-      "gross": 63739399346.78,
-      "headline": 68827399346.78,
+      "gross": 63764399346.78,
+      "headline": 68852399346.78,
       "lower_bound": 38
     },
     "BK": {
@@ -147,12 +147,12 @@
       "lower_bound": 0
     },
     "portfolio": {
-      "count": 20,
-      "funded": 62000000.0,
+      "count": 21,
+      "funded": 87000000.0,
       "committed_unfunded": 0.0,
       "contingent_max": 0.0,
-      "gross": 62000000.0,
-      "headline": 550000000.0,
+      "gross": 87000000.0,
+      "headline": 575000000.0,
       "lower_bound": 15
     },
     "hyperscaler": {
@@ -176,12 +176,12 @@
       "lower_bound": 13
     },
     "completed": {
-      "count": 41,
-      "funded": 29677399346.78,
+      "count": 42,
+      "funded": 29702399346.78,
       "committed_unfunded": 0.0,
       "contingent_max": 0.0,
-      "gross": 29677399346.78,
-      "headline": 29677399346.78,
+      "gross": 29702399346.78,
+      "headline": 29702399346.78,
       "lower_bound": 30
     },
     "terminated": {
@@ -214,12 +214,12 @@
   },
   "by_grade": {
     "Insufficient information": {
-      "count": 66,
-      "funded": 21062000000.0,
+      "count": 67,
+      "funded": 21087000000.0,
       "committed_unfunded": 37400000000.0,
       "contingent_max": 105000000000.0,
-      "gross": 163462000000.0,
-      "headline": 277150000000.0,
+      "gross": 163487000000.0,
+      "headline": 277175000000.0,
       "lower_bound": 42
     },
     "Weak": {
@@ -270,12 +270,12 @@
   },
   "by_tenor": {
     "No stated maturity": {
-      "count": 76,
-      "funded": 30739399346.78,
+      "count": 77,
+      "funded": 30764399346.78,
       "committed_unfunded": 41000000000.0,
       "contingent_max": 105860340000.0,
-      "gross": 177599739346.78,
-      "headline": 296167739346.78,
+      "gross": 177624739346.78,
+      "headline": 296192739346.78,
       "lower_bound": 47
     },
     "5 to 10 years": {
@@ -317,12 +317,12 @@
       "lower_bound": 4
     },
     "general": {
-      "count": 64,
-      "funded": 31177399346.78,
+      "count": 65,
+      "funded": 31202399346.78,
       "committed_unfunded": 43000000000.0,
       "contingent_max": 0.0,
-      "gross": 74177399346.78,
-      "headline": 186977399346.78,
+      "gross": 74202399346.78,
+      "headline": 187002399346.78,
       "lower_bound": 39
     },
     "none": {
@@ -346,12 +346,12 @@
       "lower_bound": 3
     },
     "one_sided": {
-      "count": 53,
-      "funded": 12177399346.78,
+      "count": 54,
+      "funded": 12202399346.78,
       "committed_unfunded": 37700000000.0,
       "contingent_max": 6300000000.0,
-      "gross": 56177399346.78,
-      "headline": 61557399346.78,
+      "gross": 56202399346.78,
+      "headline": 61582399346.78,
       "lower_bound": 39
     },
     "reconciled": {
@@ -384,7 +384,7 @@
       "gross": 135000000000.0,
       "headline": 235000000000.0,
       "lower_bound": 0,
-      "share_of_gross": 0.7203852068875337
+      "share_of_gross": 0.7202891169570638
     },
     {
       "entity": "ent_anthropic",
@@ -396,7 +396,7 @@
       "gross": 10000000000.0,
       "headline": 20000000000.0,
       "lower_bound": 1,
-      "share_of_gross": 0.05336186717685435
+      "share_of_gross": 0.053354749404226944
     },
     {
       "entity": "ent_coreweave",
@@ -408,7 +408,7 @@
       "gross": 8300000000.0,
       "headline": 8300000000.0,
       "lower_bound": 2,
-      "share_of_gross": 0.04429034975678911
+      "share_of_gross": 0.044284442005508365
     },
     {
       "entity": "ent_nscale",
@@ -420,7 +420,7 @@
       "gross": 5237739346.78,
       "headline": 5237739346.78,
       "lower_bound": 1,
-      "share_of_gross": 0.02794955513298582
+      "share_of_gross": 0.02794582702921062
     },
     {
       "entity": "ent_intel",
@@ -432,7 +432,7 @@
       "gross": 5000000000.0,
       "headline": 5000000000.0,
       "lower_bound": 0,
-      "share_of_gross": 0.026680933588427175
+      "share_of_gross": 0.026677374702113472
     }
   ],
   "scenarios": {
@@ -637,8 +637,8 @@
       ],
       "ead": 7571436138.78,
       "loss": 3785718069.39,
-      "loss_share_of_equity": null,
-      "loss_share_of_fcf": null,
+      "loss_share_of_equity": 0.014196478251408127,
+      "loss_share_of_fcf": 0.02548035369169572,
       "label": "analysis"
     },
     "S2": {
@@ -760,8 +760,8 @@
         "not_computable": [],
         "ead": 10000000000.0,
         "loss": 5000000000.0,
-        "loss_share_of_equity": null,
-        "loss_share_of_fcf": null,
+        "loss_share_of_equity": 0.018750046875117186,
+        "loss_share_of_fcf": 0.033653263693513,
         "label": "analysis"
       },
       "ent_anysphere": {
@@ -802,8 +802,8 @@
         ],
         "ead": 0,
         "loss": 0,
-        "loss_share_of_equity": null,
-        "loss_share_of_fcf": null,
+        "loss_share_of_equity": 0.0,
+        "loss_share_of_fcf": 0.0,
         "label": "analysis"
       },
       "ent_black_forest_labs": {
@@ -844,8 +844,8 @@
         ],
         "ead": 0,
         "loss": 0,
-        "loss_share_of_equity": null,
-        "loss_share_of_fcf": null,
+        "loss_share_of_equity": 0.0,
+        "loss_share_of_fcf": 0.0,
         "label": "analysis"
       },
       "ent_cohere": {
@@ -886,8 +886,8 @@
         ],
         "ead": 0,
         "loss": 0,
-        "loss_share_of_equity": null,
-        "loss_share_of_fcf": null,
+        "loss_share_of_equity": 0.0,
+        "loss_share_of_fcf": 0.0,
         "label": "analysis"
       },
       "ent_mistral": {
@@ -928,8 +928,8 @@
         ],
         "ead": 0,
         "loss": 0,
-        "loss_share_of_equity": null,
-        "loss_share_of_fcf": null,
+        "loss_share_of_equity": 0.0,
+        "loss_share_of_fcf": 0.0,
         "label": "analysis"
       },
       "ent_motif": {
@@ -971,8 +971,8 @@
         "not_computable": [],
         "ead": 0,
         "loss": 0,
-        "loss_share_of_equity": null,
-        "loss_share_of_fcf": null,
+        "loss_share_of_equity": 0.0,
+        "loss_share_of_fcf": 0.0,
         "label": "analysis"
       },
       "ent_openai": {
@@ -1074,8 +1074,8 @@
         ],
         "ead": 0,
         "loss": 0,
-        "loss_share_of_equity": null,
-        "loss_share_of_fcf": null,
+        "loss_share_of_equity": 0.0,
+        "loss_share_of_fcf": 0.0,
         "label": "analysis"
       },
       "ent_reflection": {
@@ -1116,8 +1116,8 @@
         ],
         "ead": 0,
         "loss": 0,
-        "loss_share_of_equity": null,
-        "loss_share_of_fcf": null,
+        "loss_share_of_equity": 0.0,
+        "loss_share_of_fcf": 0.0,
         "label": "analysis"
       },
       "ent_sakana": {
@@ -1158,8 +1158,8 @@
         ],
         "ead": 0,
         "loss": 0,
-        "loss_share_of_equity": null,
-        "loss_share_of_fcf": null,
+        "loss_share_of_equity": 0.0,
+        "loss_share_of_fcf": 0.0,
         "label": "analysis"
       },
       "ent_spacex": {
@@ -1225,8 +1225,8 @@
         "not_computable": [],
         "ead": 19683145466.0,
         "loss": 9841572733.0,
-        "loss_share_of_equity": null,
-        "loss_share_of_fcf": null,
+        "loss_share_of_equity": 0.036905990013725035,
+        "loss_share_of_fcf": 0.06624020846850727,
         "label": "analysis"
       },
       "ent_ssi": {
@@ -1272,8 +1272,8 @@
         ],
         "ead": 0,
         "loss": 0,
-        "loss_share_of_equity": null,
-        "loss_share_of_fcf": null,
+        "loss_share_of_equity": 0.0,
+        "loss_share_of_fcf": 0.0,
         "label": "analysis"
       },
       "ent_thinking_machines": {
@@ -1319,8 +1319,8 @@
         ],
         "ead": 0,
         "loss": 0,
-        "loss_share_of_equity": null,
-        "loss_share_of_fcf": null,
+        "loss_share_of_equity": 0.0,
+        "loss_share_of_fcf": 0.0,
         "label": "analysis"
       },
       "ent_upstage": {
@@ -1362,8 +1362,8 @@
         "not_computable": [],
         "ead": 0,
         "loss": 0,
-        "loss_share_of_equity": null,
-        "loss_share_of_fcf": null,
+        "loss_share_of_equity": 0.0,
+        "loss_share_of_fcf": 0.0,
         "label": "analysis"
       }
     },
@@ -1461,8 +1461,8 @@
       ],
       "ead": 0.0,
       "loss": 0.0,
-      "loss_share_of_equity": null,
-      "loss_share_of_fcf": null,
+      "loss_share_of_equity": 0.0,
+      "loss_share_of_fcf": 0.0,
       "nvidia_loss_note": "Collateral repricing hits lenders first. Nvidia's loss is indirect and is not estimated here.",
       "label": "analysis"
     }

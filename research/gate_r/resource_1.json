@@ -1,0 +1,624 @@
+[
+ {
+  "n": 1,
+  "id": "rel_openai_eqc_2025",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 100000000000,
+    "result": "verified",
+    "found": 100000000000,
+    "quote": "NVIDIA intends to invest up to $100 billion in OpenAI progressively",
+    "url": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
+    "date": "2025-09-22",
+    "evidence": "ev_140006"
+   },
+   {
+    "field": "status",
+    "claimed": "loi_or_framework",
+    "result": "mismatch",
+    "found": "LOI as of 2025-11-19 (10-Q Q3 FY26); by 2026-02-25 10-K says NVIDIA is 'finalizing an investment and partnership agreement'; the $30B Feb 2026 round followed and NVIDIA's Q1/Q2 FY27 10-Qs no longer mention the LOI",
+    "quote": "We are finalizing an investment and partnership agreement with OpenAI.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+    "date": "2026-02-25",
+    "evidence": "ev_140027"
+   },
+   {
+    "field": "announced",
+    "claimed": "2025-09-22",
+    "result": "verified",
+    "found": "2025-09-22",
+    "quote": "OpenAI and NVIDIA today announced a letter of intent for a landmark strategic partnership",
+    "url": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
+    "date": "2025-09-22",
+    "evidence": "ev_140005"
+   }
+  ],
+  "classification_ok": false,
+  "classification_note": "Headline correctly treated as headline only (committed/funded/contingent blank). But the status is stale: the LOI was replaced by the investment negotiations disclosed in the 10-K and by the $30B equity in the Feb-Mar 2026 round (rel_openai_eq_2026). No primary source says the $100B LOI still stands. CNBC (2026-05-09, single tier 2, not fetchable) reports Huang said $100B is 'not in the cards'. Status should be restructured/superseded (or terminated), not an open loi_or_framework.",
+  "missed_figures": [],
+  "overall": "reopen",
+  "reason": "Status loi_or_framework is out of date; the LOI was superseded by the 2026 definitive investment, and NVIDIA's 2026 10-Qs no longer disclose it."
+ },
+ {
+  "n": 2,
+  "id": "rel_openai_eq_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 30000000000,
+    "result": "verified",
+    "found": 30000000000,
+    "quote": "This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
+    "url": "https://openai.com/index/scaling-ai-for-everyone/",
+    "date": "2026-02-27",
+    "evidence": "ev_140008"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 30000000000,
+    "result": "verified",
+    "found": "$30B NVIDIA share of a round OpenAI says closed as $122B 'committed capital', NVIDIA an anchor",
+    "quote": "we closed our latest funding round with $122 billion in committed capital",
+    "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+    "date": "2026-03-31",
+    "evidence": "ev_140025; ev_140026"
+   },
+   {
+    "field": "status",
+    "claimed": "definitive",
+    "result": "verified",
+    "found": "round closed 2026-03-31; NVIDIA named an anchor",
+    "quote": "The round was anchored by our strategic partners Amazon, NVIDIA, and SoftBank",
+    "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+    "date": "2026-03-31",
+    "evidence": "ev_140026"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-02-27",
+    "result": "verified",
+    "found": "2026-02-27",
+    "quote": "This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
+    "url": "https://openai.com/index/scaling-ai-for-everyone/",
+    "date": "2026-02-27",
+    "evidence": "ev_140008"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "No NVIDIA filing names OpenAI or the $30B (10-Qs give only aggregates: $18.6B private investments in Q1 FY27). The $30B is OpenAI's figure; committed rests on OpenAI's 'committed capital' language. Status could be 'completed' if funding is confirmed.",
+  "missed_figures": [
+   "funded: CNBC 2026-05-09 'Nvidia embraces role of AI investor' says the $30 billion was 'pumped into OpenAI in late February' - single tier 2, fetch blocked (HTTP 403): needs quote and a second independent source before funded can be set"
+  ],
+  "overall": "confirmed",
+  "reason": "Headline, committed, status and date verified on OpenAI's own releases; funded correctly left blank pending a second source."
+ },
+ {
+  "n": 3,
+  "id": "rel_openai_gu_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 105000000000,
+    "result": "verified",
+    "found": 105000000000,
+    "quote": "aggregate payment obligation is cumulatively capped at $105 billion for its initial commitment",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+    "date": "2026-08-17",
+    "evidence": "ev_140001"
+   },
+   {
+    "field": "contingent_max",
+    "claimed": 105000000000,
+    "result": "verified",
+    "found": "105.0 billion maximum gross exposure as of 2026-10-25",
+    "quote": "SB Energy Corp. credit support guarantees 105.0",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+    "date": "2026-11-17",
+    "evidence": "ev_140007; ev_140001"
+   },
+   {
+    "field": "status",
+    "claimed": "definitive",
+    "result": "verified",
+    "found": "8-K Item 1.01 material definitive agreement; guaranties entered 2026-08-17, each effective at lease commencement",
+    "quote": "NVIDIA entered into multiple residual value guaranties (collectively, the “Agreements”) with SB Energy",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+    "date": "2026-08-17",
+    "evidence": "ev_140002"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-08-17",
+    "result": "verified",
+    "found": "2026-08-17",
+    "quote": "NVIDIA entered into multiple residual value guaranties (collectively, the “Agreements”) with SB Energy",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+    "date": "2026-08-17",
+    "evidence": "ev_140002"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Figures right. Two notes: (a) the 8-K calls them 'residual value guaranties', so type RV fits better than GU; (b) the cap covers the initial 4.25 GW only; NVIDIA has an option to support about 3.8 GW more, with no amount. Exposure starts only when buildings are ready for service (first expected FY2029/2028). NVIDIA has made no payments to date (CFO commentary Q3 FY27). OpenAI agreed to reimburse NVIDIA. committed_total blank is defensible for a guaranty.",
+  "missed_figures": [
+   "maturity: each guaranty ends no later than the 20th anniversary of its lease commencement (no calendar date) - 8-K 2026-08-17",
+   "Option for about 3.8 GW of further credit support, no amount (8-K)"
+  ],
+  "overall": "confirmed",
+  "reason": "$105B cap and definitive status verified in the 8-K, 10-Q and Q3 FY27 CFO commentary."
+ },
+ {
+  "n": 4,
+  "id": "rel_anthropic_eqc_2025",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 10000000000,
+    "result": "verified",
+    "found": 10000000000,
+    "quote": "to invest up to $10 billion in Anthropic",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+    "date": "2025-11-19",
+    "evidence": "ev_140004; ev_140009"
+   },
+   {
+    "field": "status",
+    "claimed": "definitive",
+    "result": "verified",
+    "found": "'entered into an agreement, subject to certain closing conditions'",
+    "quote": "to invest up to $10 billion in Anthropic",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+    "date": "2025-11-19",
+    "evidence": "ev_140004"
+   },
+   {
+    "field": "announced",
+    "claimed": "2025-11-18",
+    "result": "verified",
+    "found": "2025-11-18",
+    "quote": "NVIDIA and Microsoft are committing to invest up to $10 billion",
+    "url": "https://blogs.nvidia.com/blog/microsoft-nvidia-anthropic-announce-partnership/",
+    "date": "2025-11-18",
+    "evidence": "ev_140009"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "'Up to' kept as headline, committed/funded blank: correct. Anthropic says Series G (2026-02-12) 'includes a portion' of NVIDIA's investment, amount undisclosed (ev_140010). The 424B4 does not say the Nov 2026 $10B placement satisfies this earlier commitment (it says so for Google and AMD only), so the two should stay separate records. How much of the up-to-$10B remains undrawn is undisclosed.",
+  "missed_figures": [],
+  "overall": "confirmed",
+  "reason": "Up-to $10B, agreement status and date verified on both sides."
+ },
+ {
+  "n": 5,
+  "id": "rel_anthropic_eq_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 10000000000,
+    "result": "verified",
+    "found": 10000000000,
+    "quote": "will purchase 120,481,927 shares of our Class N common stock for approximately $10.0 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "date": "2026-11-19",
+    "evidence": "ev_140011"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 10000000000,
+    "result": "verified",
+    "found": 10000000000,
+    "quote": "will purchase 120,481,927 shares of our Class N common stock for approximately $10.0 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "date": "2026-11-19",
+    "evidence": "ev_140011"
+   },
+   {
+    "field": "funded",
+    "claimed": 10000000000,
+    "result": "verified",
+    "found": "placement closed 2026-11-20 (aggregate 313,253,007 shares for about $26.0B; NVIDIA tranche per 424B4)",
+    "quote": "Microsoft Corporation, NVIDIA Corporation, and TSMC Partners, Ltd. at the public offering price",
+    "url": "https://www.anthropic.com/news/ipo-close",
+    "date": "2026-11-20",
+    "evidence": "ev_140012; ev_140011"
+   },
+   {
+    "field": "contingent_max",
+    "claimed": 10000000000,
+    "result": "mismatch",
+    "found": "The purchase closed on 2026-11-20, so NVIDIA has no remaining contingent payment obligation; the prospectus contingency (IPO completion) is satisfied",
+    "quote": "Microsoft Corporation, NVIDIA Corporation, and TSMC Partners, Ltd. at the public offering price",
+    "url": "https://www.anthropic.com/news/ipo-close",
+    "date": "2026-11-20",
+    "evidence": "ev_140012"
+   },
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "closing of concurrent private placement announced 2026-11-20",
+    "quote": "Microsoft Corporation, NVIDIA Corporation, and TSMC Partners, Ltd. at the public offering price",
+    "url": "https://www.anthropic.com/news/ipo-close",
+    "date": "2026-11-20",
+    "evidence": "ev_140012"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-11-19",
+    "result": "verified",
+    "found": "424B4 dated 2026-11-19 (placement also in earlier S-1/A)",
+    "quote": "will purchase 120,481,927 shares of our Class N common stock for approximately $10.0 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "date": "2026-11-19",
+    "evidence": "ev_140011"
+   }
+  ],
+  "classification_ok": false,
+  "classification_note": "contingent_max should be blank or 0. A completed cash equity purchase leaves no maximum future payment; filling it double-counts the $10B as contingent exposure as well as funded. The funded figure for NVIDIA alone comes from the 424B4 tranche plus Anthropic's aggregate closing release. No NVIDIA-side document yet (the Q3 FY27 10-Q was not on EDGAR as of 2026-11-23).",
+  "missed_figures": [],
+  "overall": "reopen",
+  "reason": "contingent_max = $10B is a misclassification for a closed purchase; all other fields verified."
+ },
+ {
+  "n": 6,
+  "id": "rel_thinking_machines_eq_2026",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "'NVIDIA has also made a significant investment' (amount undisclosed)",
+    "quote": "NVIDIA has also made a significant investment in Thinking Machines Lab",
+    "url": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/",
+    "date": "2026-03-10",
+    "evidence": "ev_140013"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-03-10",
+    "result": "verified",
+    "found": "2026-03-10",
+    "quote": "NVIDIA has also made a significant investment in Thinking Machines Lab",
+    "url": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/",
+    "date": "2026-03-10",
+    "evidence": "ev_140013"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Same wording on thinkingmachines.ai/news/nvidia-partnership. No amount disclosed by either side or in the tier 2 reports seen (CNBC, Axios 2026-03-10). Blank amounts are correct.",
+  "missed_figures": [],
+  "overall": "confirmed",
+  "reason": "Investment made and date verified; amount undisclosed."
+ },
+ {
+  "n": 7,
+  "id": "rel_cohere_eq_2025",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "Aug 2025 $500M round with NVIDIA participating; Series E 'initial close' 2026-10-29 with NVIDIA participating",
+    "quote": "existing investors including AMD Ventures, NVIDIA, PSP Investments, and Salesforce Ventures",
+    "url": "https://cohere.com/blog/august-2025-funding-round",
+    "date": "2025-08-14",
+    "evidence": "ev_140015; ev_140014"
+   },
+   {
+    "field": "announced",
+    "claimed": "2025-08-14",
+    "result": "verified",
+    "found": "2025-08-14",
+    "quote": "existing investors including AMD Ventures, NVIDIA, PSP Investments, and Salesforce Ventures",
+    "url": "https://cohere.com/blog/august-2025-funding-round",
+    "date": "2025-08-14",
+    "evidence": "ev_140015"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "NVIDIA amount undisclosed in both rounds. The Series E is only at 'initial close' (round targets up to CAD 7B), so 'completed' is accurate for the 2025 round and for NVIDIA's part of the initial close, but the Series E itself is still open.",
+  "missed_figures": [
+   "Series E date: initial close announced 2026-10-29 (cohere.com)"
+  ],
+  "overall": "confirmed",
+  "reason": "Participation in both rounds verified on Cohere's own site; amounts correctly blank."
+ },
+ {
+  "n": 8,
+  "id": "rel_motif_eqc_2026",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "loi_or_framework",
+    "result": "verified",
+    "found": "planned investment (no amount, no LOI document cited)",
+    "quote": "additional investments planned in Motif Technologies, RLWRLD and Upstage",
+    "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+    "date": "2026-11-09",
+    "evidence": "ev_140016"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-11-09",
+    "result": "verified",
+    "found": "2026-11-09",
+    "quote": "additional investments planned in Motif Technologies, RLWRLD and Upstage",
+    "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+    "date": "2026-11-09",
+    "evidence": "ev_140016"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "NVIDIA blog states the Motif Technologies investment is 'planned'; no amount, no LOI or agreement disclosed. 'loi_or_framework' is acceptable as the closest status, but no signed LOI is evidenced. No counterparty release found.",
+  "missed_figures": [
+   "Same release: NVIDIA 'announced an investment in Korean startup Point2' (completed, no amount) - separate relationship, check it is in the register."
+  ],
+  "overall": "confirmed",
+  "reason": "Planned investment and date verified on NVIDIA's own blog; amounts correctly blank."
+ },
+ {
+  "n": 9,
+  "id": "rel_rlwrld_eqc_2026",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "loi_or_framework",
+    "result": "verified",
+    "found": "planned investment (no amount, no LOI document cited)",
+    "quote": "additional investments planned in Motif Technologies, RLWRLD and Upstage",
+    "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+    "date": "2026-11-09",
+    "evidence": "ev_140016"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-11-09",
+    "result": "verified",
+    "found": "2026-11-09",
+    "quote": "additional investments planned in Motif Technologies, RLWRLD and Upstage",
+    "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+    "date": "2026-11-09",
+    "evidence": "ev_140016"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "NVIDIA blog states the RLWRLD investment is 'planned'; no amount, no LOI or agreement disclosed. 'loi_or_framework' is acceptable as the closest status, but no signed LOI is evidenced. No counterparty release found.",
+  "missed_figures": [
+   "Same release: NVIDIA 'announced an investment in Korean startup Point2' (completed, no amount) - separate relationship, check it is in the register."
+  ],
+  "overall": "confirmed",
+  "reason": "Planned investment and date verified on NVIDIA's own blog; amounts correctly blank."
+ },
+ {
+  "n": 10,
+  "id": "rel_upstage_eqc_2026",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "loi_or_framework",
+    "result": "verified",
+    "found": "planned investment (no amount, no LOI document cited)",
+    "quote": "additional investments planned in Motif Technologies, RLWRLD and Upstage",
+    "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+    "date": "2026-11-09",
+    "evidence": "ev_140016"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-11-09",
+    "result": "verified",
+    "found": "2026-11-09",
+    "quote": "additional investments planned in Motif Technologies, RLWRLD and Upstage",
+    "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+    "date": "2026-11-09",
+    "evidence": "ev_140016"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "NVIDIA blog states the Upstage investment is 'planned'; no amount, no LOI or agreement disclosed. 'loi_or_framework' is acceptable as the closest status, but no signed LOI is evidenced. No counterparty release found.",
+  "missed_figures": [
+   "Same release: NVIDIA 'announced an investment in Korean startup Point2' (completed, no amount) - separate relationship, check it is in the register."
+  ],
+  "overall": "confirmed",
+  "reason": "Planned investment and date verified on NVIDIA's own blog; amounts correctly blank."
+ },
+ {
+  "n": 11,
+  "id": "rel_naver_eq_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 1000000000,
+    "result": "verified",
+    "found": 1000000000,
+    "quote": "NVIDIA plans to invest $1 billion into NAVER Corp.",
+    "url": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout",
+    "date": "2026-07-24",
+    "evidence": "ev_140017"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 1000000000,
+    "result": "verified",
+    "found": "signed 'strategic investment agreement worth $1 billion' (NAVER), but subject to closing conditions incl. NAVER finalizing at least $9B financing",
+    "quote": "signed a strategic investment agreement worth $1 billion with NVIDIA",
+    "url": "https://www.navercorp.com/en/story/storyDetail?seq=10034603",
+    "date": "2026-07-24",
+    "evidence": "ev_140019; ev_140018"
+   },
+   {
+    "field": "status",
+    "claimed": "definitive",
+    "result": "verified",
+    "found": "signed agreement, conditional",
+    "quote": "NVIDIA’s planned investment is subject to customary closing conditions and NAVER finalizing",
+    "url": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout",
+    "date": "2026-07-24",
+    "evidence": "ev_140018"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-07-24",
+    "result": "verified",
+    "found": "2026-07-24",
+    "quote": "NVIDIA plans to invest $1 billion into NAVER Corp.",
+    "url": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout",
+    "date": "2026-07-24",
+    "evidence": "ev_140017"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Definitive but conditional: closing depends on NAVER securing at least $9B of committed financing, and Brookfield's $9B is only a nonbinding term sheet. NVIDIA calls it a 'planned investment'. Committed $1B is acceptable under a signed agreement but should carry the condition. Funded is correctly blank: no closing or share-issuance notice found (navercorp.com; DART not checked).",
+  "missed_figures": [],
+  "overall": "confirmed",
+  "reason": "$1B, signed agreement and date verified on both sides; closing not confirmed."
+ },
+ {
+  "n": 12,
+  "id": "rel_uk_ai_startup_program_eqc_2025",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": null,
+    "result": "verified",
+    "found": "GBP 2,000,000,000 (non-USD) - team left headline blank",
+    "quote": "NVIDIA commits £2 billion to catalyze the U.K.’s AI startup ecosystem",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-investment-in-the-united-kingdom-ai-startup-ecosystem",
+    "date": "2025-09-18",
+    "evidence": "ev_140020"
+   },
+   {
+    "field": "status",
+    "claimed": "loi_or_framework",
+    "result": "verified",
+    "found": "programme pledge with partner VCs; no agreement or allocation disclosed",
+    "quote": "NVIDIA commits £2 billion to catalyze the U.K.’s AI startup ecosystem",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-investment-in-the-united-kingdom-ai-startup-ecosystem",
+    "date": "2025-09-18",
+    "evidence": "ev_140020"
+   },
+   {
+    "field": "announced",
+    "claimed": "2025-09-18",
+    "result": "verified",
+    "found": "2025-09-18",
+    "quote": "NVIDIA commits £2 billion to catalyze the U.K.’s AI startup ecosystem",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-investment-in-the-united-kingdom-ai-startup-ecosystem",
+    "date": "2025-09-18",
+    "evidence": "ev_140020"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Framework status is right: a pledge with no counterparty agreement. But the headline is blank although NVIDIA's own release states GBP 2 billion. Record it as a GBP headline (or convert, saying so), not as 'not disclosed'.",
+  "missed_figures": [
+   "headline GBP 2 billion: 'NVIDIA commits £2 billion to catalyze the U.K.’s AI startup ecosystem' (nvidianews.nvidia.com, 2025-09-18, ev_140020)"
+  ],
+  "overall": "reopen",
+  "reason": "A primary-source headline figure (GBP 2B) is missing."
+ },
+ {
+  "n": 13,
+  "id": "rel_figure_eq_2025",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "Series C 'exceeded more than $1 billion in committed capital'; NVIDIA a 'significant' investor",
+    "quote": "significant investment from Brookfield Asset Management, NVIDIA, Macquarie Capital, Intel Capital",
+    "url": "https://www.figure.ai/news/series-c",
+    "date": "2025-09-16",
+    "evidence": "ev_140023"
+   },
+   {
+    "field": "announced",
+    "claimed": "2025-09-16",
+    "result": "verified",
+    "found": "2025-09-16",
+    "quote": "significant investment from Brookfield Asset Management, NVIDIA, Macquarie Capital, Intel Capital",
+    "url": "https://www.figure.ai/news/series-c",
+    "date": "2025-09-16",
+    "evidence": "ev_140023"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Figure describes the round as 'committed capital', not funded. 'Completed' is reasonable, but funding of NVIDIA's part is not separately confirmed. The NVIDIA amount is undisclosed.",
+  "missed_figures": [],
+  "overall": "confirmed",
+  "reason": "Participation and date verified on Figure's own site."
+ },
+ {
+  "n": 14,
+  "id": "rel_wayve_eqc_2025",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 500000000,
+    "result": "verified",
+    "found": 500000000,
+    "quote": "signed a letter of intent with NVIDIA to evaluate a $500 million strategic investment",
+    "url": "https://wayve.ai/press/wayve-nvidia-announcement/",
+    "date": "2025-09-18",
+    "evidence": "ev_140021"
+   },
+   {
+    "field": "status",
+    "claimed": "loi_or_framework",
+    "result": "mismatch",
+    "found": "Superseded: Wayve 'closed a $1.2B Series D' (2026-02-25) with NVIDIA participating; NVIDIA amount undisclosed",
+    "quote": "Closed a $1.2B Series D led by financial investors, with participation from Microsoft, NVIDIA",
+    "url": "https://wayve.ai/press/series-d/",
+    "date": "2026-02-25",
+    "evidence": "ev_140022"
+   },
+   {
+    "field": "announced",
+    "claimed": "2025-09-18",
+    "result": "verified",
+    "found": "2025-09-18",
+    "quote": "signed a letter of intent with NVIDIA to evaluate a $500 million strategic investment",
+    "url": "https://wayve.ai/press/wayve-nvidia-announcement/",
+    "date": "2025-09-18",
+    "evidence": "ev_140021"
+   }
+  ],
+  "classification_ok": false,
+  "classification_note": "The LOI was for 'Wayve's next funding round', and that round (Series D) closed on 2026-02-25 with NVIDIA participating. The relationship is now a completed equity investment of undisclosed size, not an open LOI. Do not carry the $500M as funded: no source confirms NVIDIA's Series D amount.",
+  "missed_figures": [
+   "Series D closed 2026-02-25, NVIDIA a participant (wayve.ai/press/series-d, ev_140022); NVIDIA's own amount undisclosed"
+  ],
+  "overall": "reopen",
+  "reason": "Status is stale: the LOI resolved into NVIDIA's participation in the closed Series D."
+ },
+ {
+  "n": 15,
+  "id": "rel_skild_ai_eq_2026",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "Skild 'raised $1.4 billion' with NVentures participating",
+    "quote": "led by SoftBank with participation from NVentures (NVIDIA)",
+    "url": "https://www.skild.ai/blogs/series-c",
+    "date": "2026-01-14",
+    "evidence": "ev_140024"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-01-14",
+    "result": "verified",
+    "found": "2026-01-14",
+    "quote": "led by SoftBank with participation from NVentures (NVIDIA)",
+    "url": "https://www.skild.ai/blogs/series-c",
+    "date": "2026-01-14",
+    "evidence": "ev_140024"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "NVentures amount undisclosed; blank amounts correct.",
+  "missed_figures": [],
+  "overall": "confirmed",
+  "reason": "Participation and date verified on Skild's own site."
+ }
+]

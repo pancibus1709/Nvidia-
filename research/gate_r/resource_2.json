@@ -1,0 +1,673 @@
+[
+ {
+  "n": 16,
+  "id": "rel_anysphere_eq_2025",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "restructured",
+    "result": "verified",
+    "found": "Cursor merged into SpaceX 2026-08-14; holders converted into SpaceX Class A shares",
+    "quote": "on August 14, 2026 (the “Effective Time”), the Merger became effective",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm",
+    "date": "2026-08-14",
+    "evidence": "ev_150047"
+   },
+   {
+    "field": "announced",
+    "claimed": "2025-11-13",
+    "result": "verified",
+    "found": "Series D announced 2025-11-13 with NVIDIA as new investor",
+    "quote": "welcome new partners Coatue, NVIDIA, and Google",
+    "url": "https://cursor.com/blog/series-d",
+    "date": "2025-11-13",
+    "evidence": "ev_150044"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "EQ, restructured is right. Nvidia's 13F SpaceX line rose from 122,764,805 sh (Q2 2026, ev_150050) to 130,472,925 sh (Q3 2026, ev_150049), which fits conversion of Cursor shares (analysis: about 7.7M SpaceX shares). No source states Nvidia's Cursor amount or how many SpaceX shares it received.",
+  "missed_figures": [
+   "Round size $2.3B at $29.3B post-money (Cursor blog, round total, not Nvidia's share)",
+   "SpaceX 13F holding increase of 7,708,120 shares Q2->Q3 2026 (ev_150049, ev_150050; analysis, attribution to Cursor not stated)",
+   "Tier 2 reports (CNBC, Bloomberg, Apr 2026) say Nvidia planned to join a ~$2B Cursor round at >$50B value: not fetched (CNBC 403), unconfirmed"
+  ],
+  "overall": "confirmed",
+  "reason": "Status and date confirmed from Cursor's own release and SpaceX 8-K; no amounts claimed or found."
+ },
+ {
+  "n": 17,
+  "id": "rel_databricks_eq_2023",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "NVIDIA joined Series I as strategic investor",
+    "quote": "Ontario Teachers’ Pension Plan and strategic investor NVIDIA",
+    "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-series-i-investment-43b-valuation",
+    "date": "2023-09-14",
+    "evidence": "ev_150045"
+   },
+   {
+    "field": "announced",
+    "claimed": "2023-09-14",
+    "result": "verified",
+    "found": "2023-09-14",
+    "quote": "today announced its Series I funding, raising over $500 million",
+    "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-series-i-investment-43b-valuation",
+    "date": "2023-09-14",
+    "evidence": "ev_150046"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Nvidia's own amount not disclosed; round total 'over $500 million' must not be used as Nvidia's figure. Current holding status after later Databricks rounds not checked.",
+  "missed_figures": [
+   "Series I round total over $500M at $73.50/share (ev_150046) - round size only"
+  ],
+  "overall": "confirmed",
+  "reason": "Participation and date confirmed in Databricks' own release."
+ },
+ {
+  "n": 18,
+  "id": "rel_tusimple_eq_2023",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "terminated",
+    "result": "mismatch",
+    "found": "Last 13F line Q4 2023: 3,465,372 sh, $3,041,904. Absent from Q1 2024 13F, but TuSimple voluntarily delisted (Form 25, 2024-01-29) and deregistered (Form 15, 2024-02-08), so it stopped being a 13(f) security. The drop does not prove a sale.",
+    "quote": "intention to voluntarily delist its Common Stock from Nasdaq and to terminate the registration",
+    "url": "https://www.sec.gov/Archives/edgar/data/1823593/000119312524017451/d104340d8k.htm",
+    "date": "2024-01-29",
+    "evidence": "ev_150021;ev_150020"
+   }
+  ],
+  "classification_ok": false,
+  "classification_note": "'terminated' is inferred from 13F absence. Absence follows delisting, not a disclosed disposal. Should be 'completed, holding unknown since Q1 2024' unless a sale document is found.",
+  "missed_figures": [
+   "13F Q4 2023: 3,465,372 shares, value $3,041,904 (ev_150020)"
+  ],
+  "overall": "reopen",
+  "reason": "Exit status unsupported: the 13F gap is explained by delisting and deregistration."
+ },
+ {
+  "n": 19,
+  "id": "rel_generate_biomedicines_eq_2026",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "Held 833,325 shares in 13F Q1, Q2 and Q3 2026; $12,516,542 at 2026-09-30",
+    "quote": "GENERATE BIOMEDICINES INC COM SHS 370920100 12516542 833325",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000084/information_table.xml",
+    "date": "2026-11-16",
+    "evidence": "ev_150030;ev_150031"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Nvidia is not named in the 424B4 (holding under 5%). Cost and original round (and announced date) not found; blank amounts are right.",
+  "missed_figures": [
+   "13F market value $12,516,542 at 2026-09-30, 833,325 shares (market value, not cost)"
+  ],
+  "overall": "confirmed",
+  "reason": "Holding confirmed in Nvidia 13F; no amounts claimed."
+ },
+ {
+  "n": 20,
+  "id": "rel_coreweave_eq_2025",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "NVIDIA has invested $2 billion in CoreWeave Class A common stock",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/ex991pressrelease_final.htm",
+    "date": "2026-01-26",
+    "evidence": "ev_150003"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "for an aggregate purchase price of $2 billion in cash",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/crwv-20260123.htm",
+    "date": "2026-01-26",
+    "evidence": "ev_150007"
+   },
+   {
+    "field": "funded",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "for an aggregate purchase price of $2 billion in cash",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/crwv-20260123.htm",
+    "date": "2026-01-26",
+    "evidence": "ev_150007"
+   },
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "22,935,780 shares issued 2026-01-23; Nvidia 13G/A shows 47,213,353 shares (11.5%)",
+    "quote": "47213353.00",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000008/primary_doc.xml",
+    "date": "2026-01-26",
+    "evidence": "ev_150006"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-01-26",
+    "result": "verified",
+    "found": "Press release 2026-01-26 (purchase agreement and closing 2026-01-23)",
+    "quote": "NVIDIA has invested $2 billion in CoreWeave Class A common stock",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/ex991pressrelease_final.htm",
+    "date": "2026-01-26",
+    "evidence": "ev_150003"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Correct for the January 2026 tranche. The title 'Nvidia common stake' and id suffix _2025 suggest the whole stake, but the $2B covers only the 2026 purchase. Nvidia already held 24,182,460 shares at 2025-03-31 (13G) and 24,277,573 at 2025-12-31 (13F), with no cost given here.",
+  "missed_figures": [
+   "Pre-existing holding 24,277,573 shares at 2025-12-31 (13F); total 47,213,353 shares at 2026-09-30, value $4,113,227,313 (13F Q3 2026)"
+  ],
+  "overall": "confirmed",
+  "reason": "All figures match the 8-K and joint release."
+ },
+ {
+  "n": 21,
+  "id": "rel_coreweave_bk_2025",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 6300000000,
+    "result": "verified",
+    "found": 6300000000,
+    "quote": "which has an initial value of $6.3 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000047/crwv-20250909.htm",
+    "date": "2025-09-15",
+    "evidence": "ev_150001"
+   },
+   {
+    "field": "contingent_max",
+    "claimed": 6300000000,
+    "result": "verified",
+    "found": "$6.3B is the order form's 'initial value'; Nvidia must buy residual unsold capacity, so payment depends on utilisation",
+    "quote": "which has an initial value of $6.3 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000047/crwv-20250909.htm",
+    "date": "2025-09-15",
+    "evidence": "ev_150001"
+   },
+   {
+    "field": "status",
+    "claimed": "definitive",
+    "result": "verified",
+    "found": "Order Form under MSA dated 2023-04-10, entered 2025-09-09",
+    "quote": "NVIDIA is obligated to purchase the residual unsold capacity through April 13, 2032",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000047/crwv-20250909.htm",
+    "date": "2025-09-15",
+    "evidence": "ev_150002"
+   },
+   {
+    "field": "announced",
+    "claimed": "2025-09-15",
+    "result": "verified",
+    "found": "8-K filed 2025-09-15; agreement dated 2025-09-09",
+    "quote": "which has an initial value of $6.3 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000047/crwv-20250909.htm",
+    "date": "2025-09-15",
+    "evidence": "ev_150001"
+   },
+   {
+    "field": "maturity",
+    "claimed": "2032-04-13",
+    "result": "verified",
+    "found": "2032-04-13",
+    "quote": "NVIDIA is obligated to purchase the residual unsold capacity through April 13, 2032",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000047/crwv-20250909.htm",
+    "date": "2025-09-15",
+    "evidence": "ev_150002"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Contingent, not committed, is right. Caveat: 'initial value' means the value can change; the filing does not say $6.3B is a cap, so treating it as contingent_max is an inference. Neither the CoreWeave Q3 2026 10-Q nor Nvidia's 10-Q gives an updated figure. The order form itself was not found as a filed exhibit.",
+  "missed_figures": [],
+  "overall": "confirmed",
+  "reason": "Figure, dates and status match the 8-K; label 6.3B as 'initial value', not a hard cap."
+ },
+ {
+  "n": 22,
+  "id": "rel_coreweave_gu_2026",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "loi_or_framework",
+    "result": "verified",
+    "found": "Collaboration framework; companies 'intend to' use Nvidia's financial strength for land, power and shell",
+    "quote": "accelerate CoreWeave’s procurement of land, power and shell to build AI factories",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/ex991pressrelease_final.htm",
+    "date": "2026-01-26",
+    "evidence": "ev_150004"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-01-26",
+    "result": "verified",
+    "found": "2026-01-26",
+    "quote": "The Company and NVIDIA entered into a collaboration framework to expand",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/crwv-20260123.htm",
+    "date": "2026-01-26",
+    "evidence": "ev_150005"
+   }
+  ],
+  "classification_ok": false,
+  "classification_note": "Type GU is not supported. No guarantee instrument, amount or beneficiary is disclosed. The release says the companies 'intend to' leverage Nvidia's financial strength, and the 8-K says it is subject to future agreements. CoreWeave's 10-K and Q3 2026 10-Q mention only the 'collaboration framework', with no guarantee. Record it as a framework with type unknown or credit support (intended), not GU.",
+  "missed_figures": [],
+  "overall": "reopen",
+  "reason": "Status and date are fine, but labelling it as a guarantee is unsupported."
+ },
+ {
+  "n": 23,
+  "id": "rel_nscale_lb_2025",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 1200000000,
+    "result": "verified",
+    "found": 1200000000,
+    "quote": "for an aggregate amount of $1.2 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150009"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 1200000000,
+    "result": "verified",
+    "found": "$1.2B aggregate under NVIDIA MSA and order forms, terms 12-48 months",
+    "quote": "for an aggregate amount of $1.2 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150009"
+   },
+   {
+    "field": "status",
+    "claimed": "definitive",
+    "result": "verified",
+    "found": "NVIDIA MSA and order forms",
+    "quote": "reserved GPU cluster capacity with initial service terms ranging from 12 to 48 months",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150008"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "LB, definitive, committed $1.2B is right. 'Funded' is not disclosed; how much Nvidia has paid so far is unknown.",
+  "missed_figures": [
+   "announced: July 2025 (MSA date), ev_150010",
+   "maturity: terms 12-48 months from service start (no single date)"
+  ],
+  "overall": "confirmed",
+  "reason": "$1.2B confirmed in Nscale S-1/A related-party section."
+ },
+ {
+  "n": 24,
+  "id": "rel_nscale_eq_2025",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 1177399346.78,
+    "result": "verified",
+    "found": "Sum of $399,999,964.32 (Series B) + $300,000,000 (SAFE to C-3) + $477,399,382.46 (C-4) = $1,177,399,346.78",
+    "quote": "NVIDIA N/A N/A 63,177,840 $ 399,999,964.32",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150011;ev_150012;ev_150013"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 1177399346.78,
+    "result": "verified",
+    "found": "same sum",
+    "quote": "for an aggregate subscription price of $477,399,382.46",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150011;ev_150012;ev_150013"
+   },
+   {
+    "field": "funded",
+    "claimed": 1177399346.78,
+    "result": "verified",
+    "found": "Shares issued (Series B 2025-10-08; C-3/C-4 at Series C Completion March 2026)",
+    "quote": "NVIDIA’s SAFE, with a principal amount of $300,000,000, converted into 16,346,160 Series C-3",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150011;ev_150012;ev_150013"
+   },
+   {
+    "field": "contingent_max",
+    "claimed": 1177399346.78,
+    "result": "mismatch",
+    "found": "Fully paid purchase; no further contingent payment is disclosed for these shares. contingent_max should be blank or not applicable, not equal to the funded amount.",
+    "quote": "for an aggregate subscription price of $477,399,382.46",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150013"
+   }
+  ],
+  "classification_ok": false,
+  "classification_note": "Amounts are exact. contingent_max duplicates funded for a completed purchase, which double counts if summed with contingent exposures. The figure excludes the $60M Series B warrants granted for the lease guarantee.",
+  "missed_figures": [
+   "Warrants over 9,476,700 Series B shares, aggregate value $60,000,000, consideration for the guarantee",
+   "Ward County lease guarantee by NVIDIA up to $860,340,000 (ev_150018): a GU that should be its own record if not already",
+   "announced dates: Series B 2025-10-08; Follow-on Subscription Agreement 2026-03-09"
+  ],
+  "overall": "reopen",
+  "reason": "contingent_max misclassified (equals funded on a completed purchase); figures otherwise exact."
+ },
+ {
+  "n": 25,
+  "id": "rel_nscale_fc_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": "$1.0B notes subscribed by NVIDIA + $1.0B NVIDIA Sale",
+    "quote": "$1.0 billion of which was subscribed by NVIDIA",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150014;ev_150015"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": "$2.0B under the 2026-09-15 Subscription Agreement",
+    "quote": "a further $1.0 billion of unsecured convertible loan notes or Non-Voting Shares",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150014;ev_150015"
+   },
+   {
+    "field": "funded",
+    "claimed": 1000000000,
+    "result": "verified",
+    "found": "$1.0B Convertible Loan Notes issued; NVIDIA Sale ($1.0B) due to close on or around 2026-11-16",
+    "quote": "$1.0 billion of which was subscribed by NVIDIA",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150014;ev_150019"
+   },
+   {
+    "field": "status",
+    "claimed": "definitive",
+    "result": "verified",
+    "found": "Subscription Agreement signed 2026-09-15; NVIDIA Sale pending at filing date",
+    "quote": "The NVIDIA Sale will close on or around November 16, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150017"
+   },
+   {
+    "field": "maturity",
+    "claimed": "2028-06-15",
+    "result": "verified",
+    "found": "2028-06-15, but notes convert automatically on IPO completion",
+    "quote": "the convertible loan notes mature on June 15, 2028",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150016"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Correct as of the 2026-11-12 S-1/A. Open: whether the NVIDIA Sale closed around 2026-11-16 (no later Nscale filing found as of 2026-11-23). The second $1.0B may be settled in Non-Voting Shares (equity), not notes. On IPO, all of it becomes equity, so FC is temporary. The 'funded' $1.0B relies on 'subscribed' plus 'issued to several investors (including NVIDIA)'; no cash receipt figure was found.",
+  "missed_figures": [
+   "announced: 2026-09-15 (Subscription Agreement), not recorded",
+   "Total round $3.36B ($2.36B notes + $1.0B NVIDIA Sale) - round size"
+  ],
+  "overall": "confirmed",
+  "reason": "All figures match; flag that the NVIDIA Sale closing is unconfirmed and will turn into equity."
+ },
+ {
+  "n": 26,
+  "id": "rel_nebius_eq_2024",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "1,190,476 Class A shares in every 13F from Q4 2024 to Q3 2026 ($280,809,479 at 2026-09-30)",
+    "quote": "NEBIUS GROUP N.V. SHS CLASS A N97284108 32976185 1190476",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000013/information_table.xml",
+    "date": "2025-02-14",
+    "evidence": "ev_150026;ev_150027"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Held since Q4 2024, as stated. Came from the December 2024 $700M private placement at $21.00 per share that NVIDIA joined.",
+  "missed_figures": [
+   "announced: 2024-12-02 (Nebius release naming NVIDIA, ev_150028)",
+   "price $21.00/share (ev_150029); implied cost 1,190,476 x $21.00 = about $25.0M (analysis, not stated in a source)"
+  ],
+  "overall": "confirmed",
+  "reason": "Holding and timing confirmed in 13F; cost is only implied."
+ },
+ {
+  "n": 27,
+  "id": "rel_nebius_eq_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "in a private placement for aggregate gross proceeds of approximately $2 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926026163/tm268532d1_6k.htm",
+    "date": "2026-03-11",
+    "evidence": "ev_150022"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "in a private placement for aggregate gross proceeds of approximately $2 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926026163/tm268532d1_6k.htm",
+    "date": "2026-03-11",
+    "evidence": "ev_150022"
+   },
+   {
+    "field": "funded",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": "$2,000.0M proceeds from issuance of pre-funded warrants (9M 2026 cash flow)",
+    "quote": "Proceeds from issuance of pre-funded warrants — 2,000.0",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150024"
+   },
+   {
+    "field": "contingent_max",
+    "claimed": 2000000000,
+    "result": "mismatch",
+    "found": "Fully paid pre-funded warrant; remaining exercise price is only $0.0001 per share (about $2,107). No contingent payment of $2B exists.",
+    "quote": "Proceeds from issuance of pre-funded warrants — 2,000.0",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
+    "date": "2026-11-12",
+    "evidence": "ev_150024"
+   },
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "Warrant over 21,065,936 shares acquired 2026-03-11",
+    "quote": "acquired by NVIDIA on March 11, 2026 pursuant to a Securities Purchase Agreement",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000062/primary_doc.xml",
+    "date": "2026-07-20",
+    "evidence": "ev_150025;ev_150023"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-03-11",
+    "result": "verified",
+    "found": "2026-03-11",
+    "quote": "in a private placement for aggregate gross proceeds of approximately $2 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926026163/tm268532d1_6k.htm",
+    "date": "2026-03-11",
+    "evidence": "ev_150022"
+   }
+  ],
+  "classification_ok": false,
+  "classification_note": "contingent_max should be blank or not applicable for a fully paid instrument. Share count 21,065,936 (title says 21.1 million, which is fine). The warrant was not yet exercised in 13F terms: the Q3 2026 13F still shows only 1,190,476 Nebius shares.",
+  "missed_figures": [
+   "Nvidia 13G (2026-07-20): 22,256,412 shares beneficially owned, 9.3%"
+  ],
+  "overall": "reopen",
+  "reason": "contingent_max misclassified; other figures confirmed on both sides."
+ },
+ {
+  "n": 28,
+  "id": "rel_iren_lb_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 3400000000,
+    "result": "verified",
+    "found": 3400000000,
+    "quote": "representing approximately $3.4 billion of total contract value",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm",
+    "date": "2026-08-27",
+    "evidence": "ev_150033;ev_150034"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 3400000000,
+    "result": "verified",
+    "found": "approximately $3.4B total contract value, five-year cloud services contract",
+    "quote": "representing approximately $3.4 billion of total contract value",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm",
+    "date": "2026-08-27",
+    "evidence": "ev_150033"
+   },
+   {
+    "field": "status",
+    "claimed": "definitive",
+    "result": "verified",
+    "found": "Executed May 2026 cloud services contract",
+    "quote": "cloud services contract with NVIDIA to support its internal AI and research workloads",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm",
+    "date": "2026-08-27",
+    "evidence": "ev_150032"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Treating total contract value as committed is acceptable for an executed take-or-pay style contract, but the 10-K does not state termination rights; the value is 'approximately'. Service ramps from early 2027, so nothing is funded yet (blank is right).",
+  "missed_figures": [
+   "announced: 2026-05-07 (IREN Q3 FY26 release, ev_150034)",
+   "maturity: five-year term from ramp (targeting early 2027), no exact date"
+  ],
+  "overall": "confirmed",
+  "reason": "$3.4B confirmed in IREN 10-K and release."
+ },
+ {
+  "n": 29,
+  "id": "rel_iren_eq_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 2100000000,
+    "result": "verified",
+    "found": 2100000000,
+    "quote": "resulting in a right to invest up to $2.1 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000025/irenreportsq3fy26results.htm",
+    "date": "2026-05-07",
+    "evidence": "ev_150035"
+   },
+   {
+    "field": "status",
+    "claimed": "definitive",
+    "result": "verified",
+    "found": "Investment Rights granted 2026-05-07; Nvidia's option, vesting in tranches based on GPU volume supplied",
+    "quote": "on May 7, 2026 the Group granted NVIDIA rights to acquire up to 30,000,000",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm",
+    "date": "2026-08-27",
+    "evidence": "ev_150036"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-05-07",
+    "result": "verified",
+    "found": "2026-05-07",
+    "quote": "on May 7, 2026 the Group granted NVIDIA rights to acquire up to 30,000,000",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm",
+    "date": "2026-08-27",
+    "evidence": "ev_150036"
+   },
+   {
+    "field": "maturity",
+    "claimed": "2031-05-07",
+    "result": "verified",
+    "found": "2031-05-07",
+    "quote": "and expire on May 7, 2031",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm",
+    "date": "2026-08-27",
+    "evidence": "ev_150038"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Right to recording the $2.1B as headline only: it is Nvidia's option, not an obligation, so committed and contingent stay blank. The rights are tied to GPU supply (they effectively reward Nvidia's sales), with a grant-date fair value of $793.4M on IREN's side. Type EQ with status 'definitive' is acceptable; 'option, unexercised' would be clearer.",
+  "missed_figures": [
+   "Grant-date fair value $793.4M, capitalised into GPU cost by IREN (ev_150037)",
+   "30,000,000 Investment Rights shown as anti-dilutive in IREN Q3 2026 10-Q"
+  ],
+  "overall": "confirmed",
+  "reason": "All figures and dates match IREN filings."
+ },
+ {
+  "n": 30,
+  "id": "rel_sharonai_bk_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 4880000000,
+    "result": "verified",
+    "found": "'contract value of up to $4.88 billion'",
+    "quote": "which has a contract value of up to $4.88 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226028370/form8-k.htm",
+    "date": "2026-06-12",
+    "evidence": "ev_150039"
+   },
+   {
+    "field": "status",
+    "claimed": "definitive",
+    "result": "verified",
+    "found": "Master Cloud Services Agreement and Order Form 1 dated 2026-06-08",
+    "quote": "Master Cloud Services Agreement and Order Form 1 dated June 8, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226028370/form8-k.htm",
+    "date": "2026-06-12",
+    "evidence": "ev_150042"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-06-12",
+    "result": "verified",
+    "found": "8-K and release 2026-06-12 (agreement dated 2026-06-08)",
+    "quote": "which has a contract value of up to $4.88 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226028370/form8-k.htm",
+    "date": "2026-06-12",
+    "evidence": "ev_150039"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Headline only, which is correct. The Q3 2026 10-Q says the arrangement 'does not specify a fixed aggregate contractual value' and its minimum revenue is subject to third-party use (ev_150040, ev_150041), so the $4.88B must stay an 'up to' figure. No committed, funded or contingent amount is disclosed. BK fits (revenue share, minimum revenue).",
+  "missed_figures": [
+   "SharonAI committed about $4B of hardware and infrastructure purchases for this deal (SharonAI-side capex, not Nvidia exposure; ev_150043, recorded with a placeholder title)",
+   "term: six years from phased delivery (maturity not dated)"
+  ],
+  "overall": "confirmed",
+  "reason": "Headline and status confirmed; later 10-Q supports keeping it headline-only."
+ }
+]

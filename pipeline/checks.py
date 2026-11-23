@@ -134,7 +134,11 @@ def ground_evidence(ev: dict) -> list[str]:
 
 
 def evidence_contains(ev: dict, value: float) -> bool:
-    """True if the number appears in the quote or within 300 characters of the locator."""
+    """True if the number appears in the quote or within 300 characters of the locator.
+
+    A negative value is a component being subtracted (unattributed remainders): the source states it as a positive figure.
+    """
+    value = abs(value)
     path = ROOT / ev["cache_path"]
     if not path.exists():
         return False

@@ -1,0 +1,325 @@
+{
+  "entities": [
+    {
+      "id": "ent_iambic",
+      "name": "Iambic Therapeutics, Inc.",
+      "short_name": "Iambic",
+      "cluster": "portfolio",
+      "depth": 1,
+      "public": true,
+      "ticker": "IAM",
+      "cik": "0001997038",
+      "country": "US",
+      "description": "AI drug discovery company, listed on Nasdaq in October 2026, with a technology collaboration with Nvidia.",
+      "domains": [],
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": null,
+        "maturities_24m": null,
+        "cash_and_undrawn": {
+          "value": 252000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_170008"
+          ],
+          "note": "Cash and cash equivalents before IPO net proceeds of about $156.0 million (ev_170009)."
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "No GPU collateral; clinical stage drug developer.",
+        "market_signals": [],
+        "grade": "Insufficient information",
+        "grade_reason": "Only liquidity is sourced (cash $252.0 million at 2026-09-30, runway into or through Q4 2028); fewer than two rubric columns.",
+        "notes": "Iambic says existing cash funds operations into or through the fourth quarter of 2028 (ev_170011). Subordinated convertible notes of $66.5 million issued Aug to Sep 2026 converted at the IPO."
+      },
+      "compute_commitments": []
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel_iambic_eq_2023",
+      "from": "ent_nvidia",
+      "to": "ent_iambic",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia preferred stock in Iambic Therapeutics (Series B 2023 and Series B-4 2026)",
+      "insight_template": "Nvidia put {funded} into {counterparty}, a drug developer that also optimizes its models on Nvidia hardware; the loss is capped at cost.",
+      "definition": "Nvidia bought Iambic Series B convertible preferred stock for $20.0 million in the round sold from September to December 2023, and Series B-4 preferred for $5.0 million in May 2026. Iambic's prospectus names Nvidia as a holder of more than 5% at the time of the Series B and as a party to its investors' rights and voting agreements. The preferred converted into common stock at Iambic's October 2026 IPO at $16.00 per share. Nvidia is also a technology collaboration partner of Iambic.",
+      "status": "completed",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 25000000,
+          "as_of": "2026-10-15",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [],
+          "components": [
+            {
+              "value": 20000000,
+              "evidence": [
+                "ev_170001"
+              ],
+              "note": "Series B, 1,536,034 shares, 2023"
+            },
+            {
+              "value": 5000000,
+              "evidence": [
+                "ev_170002"
+              ],
+              "note": "Series B-4, 291,658 shares, May 2026"
+            }
+          ],
+          "note": "Sum of disclosed purchases."
+        },
+        "committed_total": {
+          "value": 25000000,
+          "as_of": "2026-10-15",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [],
+          "components": [
+            {
+              "value": 20000000,
+              "evidence": [
+                "ev_170001"
+              ],
+              "note": "Series B"
+            },
+            {
+              "value": 5000000,
+              "evidence": [
+                "ev_170002"
+              ],
+              "note": "Series B-4"
+            }
+          ]
+        },
+        "funded": {
+          "value": 25000000,
+          "as_of": "2026-10-15",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [],
+          "components": [
+            {
+              "value": 20000000,
+              "evidence": [
+                "ev_170001"
+              ],
+              "note": "Series B purchase price"
+            },
+            {
+              "value": 5000000,
+              "evidence": [
+                "ev_170002"
+              ],
+              "note": "Series B-4 purchase price"
+            }
+          ]
+        },
+        "contingent_max": {
+          "value": 0,
+          "as_of": "2026-10-15",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "not_applicable": true
+        },
+        "market_value": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "filed": "2026-09-21",
+        "effective": "2023-09",
+        "maturity": null
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-23. Iambic is absent from Nvidia's 13F-HR through the quarter ended 2026-09-30, which predates Iambic's October 2026 listing; Nvidia's filings do not name private investees of this size.",
+        "counterparty_side": "Iambic's 424B4 of 2026-10-15 lists Nvidia's Series B purchase ($20.0 million, 1,536,034 shares) and Series B-4 purchase ($5.0 million, 291,658 shares), and names Nvidia as a former 5% holder and a party to the investors' rights and voting agreements (ev_170001, ev_170002, ev_170004).",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_170001",
+          "ev_170002",
+          "ev_170003",
+          "ev_170004",
+          "ev_170007"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "Equity loss is capped at cost and tracks biotech and AI sentiment; it does not grow as Iambic weakens.",
+        "collateral": "None.",
+        "tenor": "Perpetual equity",
+        "notes": "Preferred converted to common at the IPO; Nvidia's current share count and stake after the IPO are not disclosed in the prospectus."
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "Iambic's drug candidates fail or the stock falls below the Series B price",
+            "mechanism": "Mark to market loss on a listed stake",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "If Iambic's clinical programs disappoint, Nvidia's $25.0 million cost in Iambic is at risk, which is immaterial to Nvidia."
+          },
+          {
+            "trigger": "Iambic runs its NeuralPLexer and Enchant models on Nvidia hardware",
+            "mechanism": "Investee spending on Nvidia platforms",
+            "affected": [
+              "ent_nvidia",
+              "ent_iambic"
+            ],
+            "direction": "mixed",
+            "text": "Iambic's collaboration to optimize its models on Nvidia hardware ties part of Nvidia's investment to future Nvidia platform use."
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Nvidia's name in Iambic's prospectus",
+            "mechanism": "Strategic investor signal at IPO",
+            "affected": [
+              "ent_iambic"
+            ],
+            "direction": "positive",
+            "lens": "signaling",
+            "text": "Iambic lists Nvidia as an investor and partner in its IPO prospectus, so a later Nvidia sale would remove a visible backer of Iambic."
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "evidence": [
+        "ev_170001",
+        "ev_170002",
+        "ev_170003",
+        "ev_170004",
+        "ev_170005",
+        "ev_170006",
+        "ev_170007",
+        "ev_170008",
+        "ev_170009",
+        "ev_170010",
+        "ev_170011"
+      ],
+      "measure_inputs": {
+        "counterparty_equity_raised": {
+          "value": 461800000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_170010"
+          ],
+          "note": "Preferred stock, convertible notes and SAFEs combined, before the IPO."
+        },
+        "window": "Inception to 2026-09-30"
+      },
+      "notes": "Found by R2 (Q9 beneficial owner hit on the S-1 investors' rights agreement exhibit). Nvidia is also a co-owner of a NeuralPLexer patent family with Caltech (S-1/A). IPO at $16.00 (ev_170006). Not in Nvidia's 13F through 2026-09-30; check the 13F for the quarter ending 2026-12-31.",
+      "holding": {
+        "shares": 1827692,
+        "as_of": "2026-05-31",
+        "ticker": "IAM",
+        "evidence": [
+          "ev_170001",
+          "ev_170002"
+        ],
+        "note": "Preferred shares bought (1,536,034 Series B plus 291,658 Series B-4) as stated in the prospectus; holdings after conversion not disclosed."
+      }
+    }
+  ],
+  "projects": [],
+  "events": [
+    {
+      "id": "evt_iambic_series_b_2023",
+      "date": "2023-12-31",
+      "relationship": "rel_iambic_eq_2023",
+      "kind": "closing",
+      "summary": "Iambic completes its Series B, sold from September to December 2023, with Nvidia buying $20.0 million of preferred stock.",
+      "evidence": [
+        "ev_170001",
+        "ev_170007"
+      ]
+    },
+    {
+      "id": "evt_iambic_series_b4_2026",
+      "date": "2026-05-31",
+      "relationship": "rel_iambic_eq_2023",
+      "kind": "closing",
+      "summary": "Nvidia buys 291,658 Series B-4 preferred shares of Iambic for $5.0 million in May 2026.",
+      "evidence": [
+        "ev_170002",
+        "ev_170003"
+      ]
+    },
+    {
+      "id": "evt_iambic_ipo_2026",
+      "date": "2026-10-15",
+      "relationship": "rel_iambic_eq_2023",
+      "kind": "filing",
+      "summary": "Iambic files its final IPO prospectus at $16.00 per share; Nvidia's preferred converts to common stock.",
+      "evidence": [
+        "ev_170006"
+      ]
+    }
+  ]
+}

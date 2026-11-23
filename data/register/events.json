@@ -41,6 +41,17 @@
     ]
   },
   {
+    "id": "evt_iambic_series_b_2023",
+    "date": "2023-12-31",
+    "relationship": "rel_iambic_eq_2023",
+    "kind": "closing",
+    "summary": "Iambic completes its Series B, sold from September to December 2023, with Nvidia buying $20.0 million of preferred stock.",
+    "evidence": [
+      "ev_170001",
+      "ev_170007"
+    ]
+  },
+  {
     "id": "evt_recursion_13f_first",
     "date": "2024-02-14",
     "relationship": "rel_recursion_eq_2023",
@@ -808,6 +819,17 @@
     ]
   },
   {
+    "id": "evt_iambic_series_b4_2026",
+    "date": "2026-05-31",
+    "relationship": "rel_iambic_eq_2023",
+    "kind": "closing",
+    "summary": "Nvidia buys 291,658 Series B-4 preferred shares of Iambic for $5.0 million in May 2026.",
+    "evidence": [
+      "ev_170002",
+      "ev_170003"
+    ]
+  },
+  {
     "id": "evt_sharonai_signing_2026",
     "date": "2026-06-08",
     "relationship": "rel_sharonai_bk_2026",
@@ -1086,6 +1108,16 @@
     ]
   },
   {
+    "id": "evt_iambic_ipo_2026",
+    "date": "2026-10-15",
+    "relationship": "rel_iambic_eq_2023",
+    "kind": "filing",
+    "summary": "Iambic files its final IPO prospectus at $16.00 per share; Nvidia's preferred converts to common stock.",
+    "evidence": [
+      "ev_170006"
+    ]
+  },
+  {
     "id": "evt_kyec_announced",
     "date": "2026-10-21",
     "relationship": "rel_kyec_pp_2026",
@@ -1236,6 +1268,76 @@
     "summary": "Nvidia described multibillion-dollar funding for SPIL capacity.",
     "evidence": [
       "ev_30067"
+    ]
+  },
+  {
+    "id": "evt_unattributed_non_marketable_equity_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_non_marketable_equity_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_130010"
+    ]
+  },
+  {
+    "id": "evt_unattributed_marketable_equity_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_marketable_equity_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_130011"
+    ]
+  },
+  {
+    "id": "evt_unattributed_guarantees_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_guarantees_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_50044"
+    ]
+  },
+  {
+    "id": "evt_unattributed_neocloud_agreements_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_neocloud_agreements_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_50080"
+    ]
+  },
+  {
+    "id": "evt_unattributed_cloud_service_agreements_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_cloud_service_agreements_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_130013"
+    ]
+  },
+  {
+    "id": "evt_unattributed_equity_investment_commitments_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_equity_investment_commitments_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_120011"
+    ]
+  },
+  {
+    "id": "evt_unattributed_supply_and_capacity_commitments_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_supply_and_capacity_commitments_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_130023"
     ]
   },
   {
