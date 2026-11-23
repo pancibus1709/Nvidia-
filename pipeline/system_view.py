@@ -248,7 +248,7 @@ def main():
         for x in nc_eq:
             lines.append(f"- {x.get('title', x['relationship'])}: {x['reason']}")
         for x in g:
-            lines.append(f"- Guaranty this lab's default would trigger: {fmt.money(x['cap'])} cap" + ("" if x["in_force"] else f", not yet in force ({x['effective_note']})" if x["effective_note"] else ", not yet in force"))
+            lines.append(f"- Guaranty this lab's default would trigger: {fmt.money(x['cap'])} cap" + ("" if x["in_force"] else f", not yet in force ({strip_ids(x['effective_note'])})" if x["effective_note"] else ", not yet in force"))
         for x in s2["lapsed_commitments"]:
             lines.append(f"- Other Nvidia commitment to this lab: {x['title']}" + (f" (headline {fmt.money(x['headline'])}, not counted as exposure)" if x["headline"] else ""))
         contracts = [x for x in s2["at_risk_backlog"] if x["kind"] == "contract"]
@@ -261,11 +261,14 @@ def main():
                          + (f" (includes {fmt.money(soft)} stated as up to, cancellable or terminable)" if soft else ""))
         if leases:
             lines.append(f"- Lease obligations of this lab: {fmt.money(sum(x['amount'] for x in leases))} across {len(leases)} " + ("lessor" if len(leases) == 1 else "lessors"))
+        unsized = [x for x in s2["not_computable"] if "entity" in x]
+        if unsized:
+            lines.append(f"- {len(unsized)} further commitment" + ("s" if len(unsized) > 1 else "") + " of this lab " + ("have" if len(unsized) > 1 else "has") + " no confirmed amount and " + ("are" if len(unsized) > 1 else "is") + " not in the figures above")
         if other:
             lines.append(f"- Commitments not yet classified as contract or lease: {fmt.money(sum(x['amount'] for x in other))} across {len(other)}")
         md += lines + [""]
     if quiet:
-        md += ["### S2 Lab funding gap: other labs", "- Not computable (no confirmed value for Nvidia's stake and no sourced commitments): " + ", ".join(quiet), ""]
+        md += ["### S2 Lab funding gap: other labs", "- Nothing sized for these labs (Nvidia's stake has no confirmed value and no dollar commitment is on file; some have unsized compute arrangements recorded on their relationship): " + ", ".join(quiet), ""]
     if loops:
         open_loops = [l for l in loops if not l.get("closed")]
         md += ["## Loops", "", f"{len(loops) - len(open_loops)} loops close through a supplier relationship and {len(open_loops)} " + ("is" if len(open_loops) == 1 else "are") + " open at the closing leg. None has a disclosed dollar value on the return leg, so no circularity ratio is computable.", ""]

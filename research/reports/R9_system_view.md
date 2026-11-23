@@ -156,16 +156,17 @@ These illustrate how losses would travel, not forecasts.
 
 ### S2 Lab funding gap: OpenAI
 - OpenAI 2026 funding round: Nvidia named for $30 billion: Equity loss not computable: $30 billion committed, paid amount not disclosed. At least $10 billion by 25 October 2026 (analysis: at least this much had been paid by that date if the commitment sits in Nvidia's $20 billion unfunded equity commitments total.)
-- Guaranty this lab's default would trigger: $105 billion cap, not yet in force (Not in force: each guaranty takes effect only when its PORTS-Pike building is completed and ready for service; the first is expected in Nvidia's fiscal 2029 (ev_120002, ev_120009). No payments have been made (ev_30023).)
+- Guaranty this lab's default would trigger: $105 billion cap, not yet in force (Not in force: each guaranty takes effect only when its PORTS-Pike building is completed and ready for service; the first is expected in Nvidia's fiscal 2029. No payments have been made.)
 - Other Nvidia commitment to this lab: OpenAI letter of intent: up to $100 billion as each gigawatt is deployed (headline $100 billion, not counted as exposure)
 - Counterparty contracts that depend on this lab: up to $306.4 billion in 4 contracts with 3 counterparties (includes $18.4 billion stated as up to, cancellable or terminable)
+- 3 further commitments of this lab have no confirmed amount and are not in the figures above
 
 ### S2 Lab funding gap: SpaceX
 - Equity loss after haircut: $9.84 billion on stakes with a confirmed value
 - Lease obligations of this lab: $60.2 billion across 2 lessors
 
 ### S2 Lab funding gap: other labs
-- Not computable (no confirmed value for Nvidia's stake and no sourced commitments): Cursor, Black Forest Labs, Cohere, Mistral, Motif Technologies, Reflection, Sakana AI, SSI, Thinking Machines, Upstage
+- Nothing sized for these labs (Nvidia's stake has no confirmed value and no dollar commitment is on file; some have unsized compute arrangements recorded on their relationship): Cursor, Black Forest Labs, Cohere, Mistral, Motif Technologies, Reflection, Sakana AI, SSI, Thinking Machines, Upstage
 
 ## Loops
 

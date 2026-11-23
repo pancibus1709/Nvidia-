@@ -150,3 +150,15 @@ Files: drafts cluster_a1, cluster_a2f, cluster_b_coreweave, cluster_b_neoclouds,
 - 15 (d): R7 bridge: the two flow rows read "See the system view bridge"; the public equity row is split into the Level 1 and Level 2 rows; section b remainder "Not computable" with the like-for-like conclusion; F2 line and seed_status F2 row no longer say "explain almost all".
 - 18 (a): `lower_bound` true on Anthropic `maturities_24m` in lead_credit.json.
 - Left for the lead: the draft-mode `grades` check failure above; R9_system_view "Largest positions" prints Iambic (common) with "warrant or preferred stock, not in the holdings report" (Iambic listed in October 2026 and is common stock); the OpenAI S2 line counts "across 4" entries where the critic expected 3 counterparties (two CoreWeave contracts); findings 15 (a) to (c), 16, 17 are pipeline.
+
+## Critic closing check (23 November 2026): PASSED, no open critical finding
+
+Fifteen of the eighteen round 3 findings were resolved and three were partly resolved. The lead then closed the three partial items and the two new minor defects:
+
+- Finding 9: the Quantinuum second order consequence no longer cites a SpaceX holdings line.
+- Finding 14: money written as "$2bn" or "$505m" in loops.json now reads "$2 billion" and "$505 million".
+- Finding 15a: evidence ids are stripped from the guaranty line in the scenario summary.
+- The "other labs" scenario line no longer says no commitments exist; it says none is sized.
+- The OpenAI scenario line now states that three further commitments have no confirmed amount.
+
+Carried into the application's copy pass: the 48 sentences listed above whose attached quote does not share a noun with the product or site named in the text.
