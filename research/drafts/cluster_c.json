@@ -763,7 +763,11 @@
           "ev_30034",
           "ev_30035",
           "ev_10155",
+          "ev_50061",
+          "ev_50063",
           "ev_10111",
+          "ev_50064",
+          "ev_50065",
           "ev_50020",
           "ev_50021"
         ],
@@ -901,6 +905,10 @@
         "ev_30035",
         "ev_50020",
         "ev_50021",
+        "ev_50061",
+        "ev_50063",
+        "ev_50064",
+        "ev_50065",
         "ev_60001",
         "ev_60002",
         "ev_60003",
@@ -1040,6 +1048,7 @@
           "ev_30038",
           "ev_30036",
           "ev_30037",
+          "ev_50142",
           "ev_50024",
           "ev_50025"
         ],
@@ -1118,6 +1127,7 @@
         "ev_30038",
         "ev_50024",
         "ev_50025",
+        "ev_50142",
         "ev_60029",
         "ev_60033",
         "ev_60034",
@@ -1246,6 +1256,7 @@
         "nvidia_evidence": [
           "ev_30039",
           "ev_30040",
+          "ev_50141",
           "ev_50022",
           "ev_50023"
         ],
@@ -1313,6 +1324,7 @@
         "ev_30040",
         "ev_50022",
         "ev_50023",
+        "ev_50141",
         "ev_60042",
         "ev_60043",
         "ev_60044",
@@ -1631,7 +1643,8 @@
         "counterparty_side": "Lumentum's 8-K (2026-03-02) reports 2,876,415 Series A convertible preferred shares sold to Nvidia at $695.31 for $2,000,000,000 in cash; its September 2026 10-Q repeats the terms.",
         "nvidia_evidence": [
           "ev_30046",
-          "ev_30047"
+          "ev_30047",
+          "ev_50140"
         ],
         "counterparty_evidence": [
           "ev_60064",
@@ -1698,6 +1711,7 @@
       "evidence": [
         "ev_30046",
         "ev_30047",
+        "ev_50140",
         "ev_60064",
         "ev_60065",
         "ev_60066",
@@ -1824,6 +1838,7 @@
         "nvidia_evidence": [
           "ev_30048",
           "ev_30049",
+          "ev_50140",
           "ev_50026",
           "ev_50027"
         ],
@@ -1894,6 +1909,7 @@
         "ev_30049",
         "ev_50026",
         "ev_50027",
+        "ev_50140",
         "ev_60075",
         "ev_60076",
         "ev_60077",
@@ -2161,10 +2177,12 @@
       },
       "seniority": "warrants",
       "reconciliation": {
-        "result": "one_sided",
-        "nvidia_side": "No disclosure found as of 2026-11-23 that names Corning warrants; Nvidia's release of 2026-05-06 describes the partnership without an investment amount (R3).",
+        "result": "partial",
+        "nvidia_side": "Nvidia's Q1 FY2027 results release names multi-year strategic agreements with Coherent, Corning and Lumentum; no Nvidia filing or release names the Corning warrants or the $500 million paid.",
         "counterparty_side": "Corning's 8-K (2026-05-06) reports the warrants, exercise prices and the $500 million purchase price; its September 2026 10-Q shows $500M proceeds from warrants and links a warrant to a customer deposit.",
-        "nvidia_evidence": [],
+        "nvidia_evidence": [
+          "ev_50140"
+        ],
         "counterparty_evidence": [
           "ev_60085",
           "ev_60086",
@@ -2177,7 +2195,17 @@
           "ev_60097",
           "ev_60102"
         ],
-        "differences": []
+        "differences": [
+          {
+            "field": "investment",
+            "nvidia_value": "Agreements named, no investment or warrant described",
+            "counterparty_value": "Warrants for up to 18 million shares sold to Nvidia for $500 million",
+            "evidence": [
+              "ev_50140",
+              "ev_60088"
+            ]
+          }
+        ]
       },
       "credit": {
         "wwr": "general",
@@ -2219,6 +2247,7 @@
       "version": 1,
       "notes": "",
       "evidence": [
+        "ev_50140",
         "ev_60085",
         "ev_60086",
         "ev_60087",
