@@ -138,7 +138,7 @@ def build(ns, path, quote, supports, section="", published="", title="", publish
         "id": _next_id(ns),
         "tier": info["tier"],
         "kind": kind,
-        "publisher": publisher or info.get("publisher", ""),
+        "publisher": publisher or info.get("publisher") or ("SEC EDGAR" if info.get("group") == "sec" else info["domain"]),
         "title": title,
         "url": url,
         "source_link": deep_link(url, quote),

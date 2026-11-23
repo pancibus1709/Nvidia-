@@ -505,6 +505,18 @@
         "ev_20188",
         "ev_20187"
       ]
+    },
+    {
+      "id": "ent_galaxy_digital",
+      "name": "Galaxy Digital Inc.",
+      "short_name": "Galaxy Digital",
+      "cluster": "lender",
+      "depth": 2,
+      "public": true,
+      "ticker": "GLXY",
+      "cik": null,
+      "country": "US",
+      "description": "Owner of a data center campus leased to CoreWeave and issuer of notes secured on it."
     }
   ],
   "relationships": [
@@ -1343,6 +1355,15 @@
             "ev_20163",
             "ev_20156"
           ]
+        },
+        {
+          "entity": "ent_galaxy_digital",
+          "role": "bondholder",
+          "description": "Galaxy Digital's presentation for notes secured on a CoreWeave leased campus cites Nvidia's obligation to buy CoreWeave's residual capacity.",
+          "amount": null,
+          "evidence": [
+            "ev_170016"
+          ]
         }
       ],
       "aggregate_of": null,
@@ -1351,6 +1372,7 @@
       "evidence": [
         "ev_10039",
         "ev_10151",
+        "ev_170016",
         "ev_20001",
         "ev_20002",
         "ev_20003",
@@ -1640,8 +1662,9 @@
       "id": "rel_coreweave_gu_2026",
       "from": "ent_nvidia",
       "to": "ent_coreweave",
-      "type_primary": "GU",
+      "type_primary": "CX",
       "types_secondary": [
+        "GU",
         "FC"
       ],
       "title": "Nvidia and CoreWeave collaboration framework for land, power and shell",
@@ -1802,7 +1825,7 @@
           }
         ]
       },
-      "notes": "Recorded separately because it carries an intent beyond the equity purchase: credit support for land, power and shell. Seed B4 confirmed for the equity part, which is in rel_coreweave_eq_2025.",
+      "notes": "Recorded separately because it carries an intent beyond the equity purchase: credit support for land, power and shell. Seed B4 confirmed for the equity part, which is in rel_coreweave_eq_2025. Gate R: reclassified from guarantee to context. The January 2026 release states an intent only; no guarantee, instrument or amount exists (ev_150004).",
       "projects": [
         "proj_coreweave_kenilworth_nj"
       ],
@@ -1823,6 +1846,7 @@
       "version": 1,
       "evidence": [
         "ev_10123",
+        "ev_150004",
         "ev_20011",
         "ev_20012",
         "ev_20013",

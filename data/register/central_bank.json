@@ -62,7 +62,7 @@
       "name": "Collateral support",
       "analogue": "Guaranties that make GPU and data center debt bankable.",
       "verdict": "Partly supported",
-      "verdict_reason": "One borrower relies on Nvidia's guaranty, but that debt is not raised yet.",
+      "verdict_reason": "Borrowers and a landlord's noteholders cite Nvidia support, but CoreWeave's own lenders do not.",
       "evidence_for": [
         {
           "text": "SB Energy says PORTS-Pike financing depends on Nvidia's guaranty because OpenAI is not investment grade.",
@@ -73,11 +73,21 @@
             "ev_100024",
             "ev_30001"
           ]
+        },
+        {
+          "text": "Galaxy's CoreWeave-tenanted notes cite Nvidia's capacity order and stake.",
+          "relationships": [
+            "rel_coreweave_bk_2025"
+          ],
+          "evidence": [
+            "ev_170016",
+            "ev_170017"
+          ]
         }
       ],
       "evidence_against": [
         {
-          "text": "No CoreWeave credit agreement read names the Nvidia order.",
+          "text": "No CoreWeave credit agreement read names the order.",
           "relationships": [
             "rel_coreweave_bk_2025"
           ],
@@ -88,7 +98,7 @@
           ]
         },
         {
-          "text": "No PORTS-Pike debt is in place.",
+          "text": "PORTS-Pike has no debt yet.",
           "relationships": [
             "rel_openai_gu_2026"
           ],
@@ -161,13 +171,12 @@
       ]
     }
   ],
-  "where_the_analogy_breaks": "Nvidia cannot create money. Its contingent maximum is $112 billion, against shareholders' equity of $228,984 million and cash and marketable debt of $56,586 million at 26 July 2026. The OpenAI guaranty alone is capped at $105 billion, recoverable only from OpenAI, unsecured. Its support rests on its own cash flow, which depends on the same AI demand.",
+  "where_the_analogy_breaks": "Nvidia cannot create money. It reports guarantees with a $118.0 billion maximum at 25 October 2026, against shareholders' equity of $266,666 million. The OpenAI guaranty alone is capped at $105 billion, recoverable only from OpenAI, unsecured. Its support rests on its own cash flow, which depends on the same AI demand.",
   "where_the_analogy_breaks_evidence": [
-    "ev_10052",
-    "ev_10053",
+    "ev_50044",
+    "ev_130001",
     "ev_30001",
-    "ev_30008",
-    "ev_30024"
+    "ev_30008"
   ],
   "where_the_analogy_breaks_relationships": [
     "rel_openai_gu_2026",

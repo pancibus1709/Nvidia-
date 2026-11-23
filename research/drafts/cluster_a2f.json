@@ -2693,16 +2693,17 @@
       "amounts": {
         "headline": {
           "value": null,
-          "as_of": null,
+          "as_of": "2025-09-18",
           "fiscal_period": null,
           "original_currency": "GBP",
           "original_value": 2000000000,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": null,
-          "display_eligible": false,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
           "lower_bound": false,
           "evidence": [
+            "ev_140020",
             "ev_30084",
             "ev_50090"
           ],
@@ -2809,6 +2810,7 @@
       "significance": {},
       "version": 1,
       "evidence": [
+        "ev_140020",
         "ev_30084",
         "ev_50090"
       ],
@@ -3226,7 +3228,7 @@
       "title": "Nvidia letter of intent to evaluate a $500 million investment in Wayve",
       "insight_template": "Nvidia signed a letter of intent to evaluate {headline} for {counterparty}, which is a headline only; the amount later invested was never stated.",
       "definition": "On 18 September 2025 Wayve said it had signed a letter of intent with Nvidia to evaluate a $500 million strategic investment in its next funding round. That round, the Series D, closed in February 2026 with Nvidia participating, but Wayve did not state Nvidia's amount, so whether the letter converted in full is unknown.",
-      "status": "loi_or_framework",
+      "status": "restructured",
       "claim_basis": "company_announced",
       "amounts": {
         "headline": {
@@ -3345,10 +3347,11 @@
       "significance": {},
       "version": 1,
       "evidence": [
+        "ev_140022",
         "ev_90036",
         "ev_90040"
       ],
-      "notes": "Brief criterion (b): letter of intent, full record. Outcome reconciliation: Series D participation confirmed (ev_90040), amount not stated."
+      "notes": "Brief criterion (b): letter of intent, full record. Outcome reconciliation: Series D participation confirmed (ev_90040), amount not stated. Gate R: status changed to restructured. Wayve closed its Series D on 2026-02-25 with Nvidia participating (ev_140022); Nvidia's amount is not disclosed, so the letter of intent figure stays a headline only."
     },
     {
       "id": "rel_skild_ai_eq_2026",
@@ -4926,9 +4929,9 @@
       "type_primary": "EQ",
       "types_secondary": [],
       "title": "Nvidia shareholding in TuSimple (13F)",
-      "insight_template": "Nvidia held {counterparty} shares reported in its quarterly holdings filings; the position was small and is now closed, so no exposure remains.",
+      "insight_template": "Nvidia reported {counterparty} shares until the company left the exchange; whether Nvidia still holds them is not disclosed.",
       "definition": "Nvidia reported 3,465,372 TuSimple Class A shares on its first 13F (quarter ended 31 December 2023), worth about $3.0 million, and had exited by 31 March 2024.",
-      "status": "terminated",
+      "status": "completed",
       "claim_basis": "filed",
       "amounts": {
         "headline": {
@@ -5043,10 +5046,12 @@
       "significance": {},
       "version": 1,
       "evidence": [
+        "ev_150020",
+        "ev_150021",
         "ev_50007",
         "ev_90014"
       ],
-      "notes": "Exited: absent from the 13F-HR for the quarter ended 2024-03-31 (filed 2024-05-15). ",
+      "notes": "Exited: absent from the 13F-HR for the quarter ended 2024-03-31 (filed 2024-05-15). Gate R: status changed from terminated to completed. The position leaves Nvidia's holdings report after TuSimple delisted and deregistered in early 2024 (ev_150020, ev_150021), which by itself removes it from that report, so no sale is shown.",
       "holding": {
         "shares": 3465372,
         "as_of": "2023-12-31",
@@ -5897,6 +5902,16 @@
       "summary": "Generate Biomedicines first appears on Nvidia's 13F-HR, for the quarter ended 2026-03-31.",
       "evidence": [
         "ev_50028"
+      ]
+    },
+    {
+      "id": "evt_wayve_series_d_close_2026",
+      "date": "2026-02-25",
+      "relationship": "rel_wayve_eqc_2025",
+      "kind": "restructuring",
+      "summary": "Wayve closes its Series D with Nvidia participating; the amount Nvidia invested is not stated.",
+      "evidence": [
+        "ev_140022"
       ]
     }
   ]

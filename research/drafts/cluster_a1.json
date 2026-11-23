@@ -896,9 +896,9 @@
       "type_primary": "EQ-C",
       "types_secondary": [],
       "title": "OpenAI letter of intent: up to $100 billion as each gigawatt is deployed",
-      "insight_template": "Nvidia's {headline} for {counterparty} remains a letter of intent, so it adds no binding exposure until a definitive agreement exists.",
+      "insight_template": "Nvidia's {headline} letter of intent with {counterparty} produced no disclosed definitive agreement; a separate equity purchase followed, so the headline adds no binding exposure.",
       "definition": "In September 2025 Nvidia and OpenAI signed a letter of intent under which Nvidia intends to invest up to $100 billion in OpenAI progressively as each gigawatt of Nvidia systems is deployed, alongside OpenAI deploying at least 10 GW. Both sides said details were still to be finalized. No definitive agreement for this structure has been disclosed by either side as of 2026-11-23; in February 2026 Nvidia instead committed equity to OpenAI's funding round, recorded separately.",
-      "status": "loi_or_framework",
+      "status": "restructured",
       "claim_basis": "company_announced",
       "amounts": {
         "headline": {
@@ -1034,18 +1034,19 @@
       "significance": {},
       "version": 1,
       "evidence": [
-        "ev_30021",
+        "ev_10125",
+        "ev_10156",
+        "ev_120020",
+        "ev_120021",
+        "ev_140027",
         "ev_30018",
         "ev_30019",
         "ev_30020",
+        "ev_30021",
         "ev_30022",
-        "ev_30092",
-        "ev_10156",
-        "ev_10125",
-        "ev_120020",
-        "ev_120021"
+        "ev_30092"
       ],
-      "notes": "Kept separate from rel_openai_eq_2026. No source states that the February 2026 investment replaces or counts against the letter of intent; treat the letter of intent as unexecuted as of 2026-11-23."
+      "notes": "Kept separate from rel_openai_eq_2026. No source states that the February 2026 investment replaces or counts against the letter of intent; treat the letter of intent as unexecuted as of 2026-11-23. Gate R: status changed from letter of intent to restructured. Nvidia's annual report filed 2026-02-25 says it was finalizing an investment and partnership agreement with OpenAI (ev_140027); OpenAI's round naming Nvidia followed (rel_openai_eq_2026); Nvidia's two later quarterly reports do not mention the letter of intent. Analysis: no source says the letter of intent was terminated or that the later purchase counts against it."
     },
     {
       "id": "rel_openai_eq_2026",
@@ -2701,6 +2702,16 @@
       "summary": "Nvidia's 13F shows 130,472,925 SpaceX Class A shares worth $19.68 billion at 2026-09-30.",
       "evidence": [
         "ev_50031"
+      ]
+    },
+    {
+      "id": "evt_openai_loi_finalizing_2026",
+      "date": "2026-02-25",
+      "relationship": "rel_openai_eqc_2025",
+      "kind": "restructuring",
+      "summary": "Nvidia's annual report says it is finalizing an investment and partnership agreement with OpenAI, in place of the letter of intent wording.",
+      "evidence": [
+        "ev_140027"
       ]
     }
   ]

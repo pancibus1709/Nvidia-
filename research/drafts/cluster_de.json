@@ -1491,7 +1491,7 @@
       },
       "aggregate_of": null,
       "significance": {},
-      "notes": "Instruments: prospectus supplement (424B5) of 28 October 2026 for 40,000,000 Class A shares via forward sale agreements with Morgan Stanley and Goldman Sachs, initial forward price $622.91875 (ev_100044), settlement by 19 November 2027 (ev_100045); proceeds for general corporate purposes (ev_100043). It supersedes the 26 October preliminary supplement. Meta committed to buy: Meta 'intends to expand the deployment' of Nvidia infrastructure, no volume (ev_30077).",
+      "notes": "Instruments: prospectus supplement (424B5) of 28 October 2026 for 40,000,000 Class A shares via forward sale agreements with Morgan Stanley and Goldman Sachs, initial forward price $622.91875 (ev_100044), settlement by 19 November 2027 (ev_100045); proceeds for general corporate purposes (ev_100043). It supersedes the 26 October preliminary supplement. Meta committed to buy: Meta 'intends to expand the deployment' of Nvidia infrastructure, no volume (ev_30077). Gate R: Meta's offering has priced and its prospectus still calls the interest not binding. No filing yet shows whether Nvidia bought shares. Status stays a framework until one does.",
       "version": 1,
       "evidence": [
         "ev_30076",

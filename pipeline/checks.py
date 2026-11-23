@@ -171,6 +171,11 @@ def amount_parts(a: dict) -> list[tuple[float, list[str]]]:
     return [(v, a.get("evidence") or [])]
 
 
+def native_only(a: dict) -> bool:
+    """A non-USD amount with no sourced exchange rate: shown in its own currency, never added to a USD total."""
+    return a.get("value") is None and a.get("original_value") is not None and a.get("original_currency", "USD") != "USD"
+
+
 def supporting(reg: Register, value, ids) -> list[dict]:
     """Evidence records among `ids` that are grounded and contain the value."""
     out = []
@@ -194,7 +199,9 @@ def _independent_pair(evs: list[dict]) -> bool:
 
 def eligible(reg: Register, field: str, a: dict) -> bool:
     """The display rule (spec/04). Tier 1, or two independent tier 2, or market data for market_value only."""
-    if a.get("value") is None or a.get("not_applicable"):
+    if a.get("not_applicable"):
+        return False
+    if a.get("value") is None and not native_only(a):
         return False
     if not a.get("as_of"):
         return False
@@ -345,12 +352,12 @@ def check_grounding(reg):
         for p in ground_evidence(ev):
             out.append(f"grounding: {ev['id']}: {p}")
     for path, field, a, _ in iter_amounts(reg):
-        if a.get("value") is None or a.get("not_applicable"):
+        if a.get("not_applicable") or (a.get("value") is None and not native_only(a)):
             continue
         parts = amount_parts(a)
         if a.get("components"):
             total = sum(c["value"] for c in a["components"])
-            if abs(total - a["value"]) > 5e-4 * max(abs(a["value"]), 1):
+            if a.get("value") is not None and abs(total - a["value"]) > 5e-4 * max(abs(a["value"]), 1):
                 out.append(f"grounding: {path}: components sum to {total}, value is {a['value']}")
         for value, ids in parts:
             for i in ids:

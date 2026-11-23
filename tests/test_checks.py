@@ -234,3 +234,11 @@ def test_committed_with_undisclosed_paid_portion_counts_once(reg, helpers):
     assert r["derived"]["committed_unfunded"] == 250e6 and r["derived"]["funded_split_unknown"] is True
     assert r["derived"]["gross_exposure"] == 250e6 and r["derived"]["gross_missing"] == []
     assert after["gross"] == before["gross"] + 250e6 and after["funded"] == before["funded"]
+
+
+def test_non_usd_amount_without_fx_shows_in_own_currency_and_stays_out_of_totals(reg, helpers):
+    a = helpers.amt(None, ["ev_2"], original_currency="GBP", original_value=250e6, as_of="2025-03-03", last_verified="2025-03-04")
+    assert checks.eligible(reg, "headline", a) is True
+    a["display_eligible"] = True
+    assert fmt.amount_text(a) == "£250 million"
+    assert checks.elig_value(a) is None

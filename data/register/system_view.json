@@ -7,7 +7,7 @@
     "contingent_max": 112160340000.0,
     "headline": 308092739346.78,
     "gross": 187424739346.78,
-    "count": 82,
+    "count": 81,
     "lower_bound_count": 49,
     "counts": {
       "funded": 16,
@@ -19,7 +19,7 @@
   "headline_binding_share": 0.6083387091307604,
   "by_type": {
     "GU": {
-      "count": 3,
+      "count": 2,
       "funded": 0.0,
       "committed_unfunded": 0.0,
       "contingent_max": 105860340000.0,
@@ -120,7 +120,7 @@
       "lower_bound": 4
     },
     "neocloud": {
-      "count": 25,
+      "count": 24,
       "funded": 6177399346.78,
       "committed_unfunded": 5600000000.0,
       "contingent_max": 7160340000.0,
@@ -176,40 +176,40 @@
       "lower_bound": 13
     },
     "completed": {
-      "count": 42,
+      "count": 43,
       "funded": 29702399346.78,
       "committed_unfunded": 0.0,
       "contingent_max": 0.0,
       "gross": 29702399346.78,
       "headline": 29702399346.78,
-      "lower_bound": 30
+      "lower_bound": 31
     },
     "terminated": {
-      "count": 7,
+      "count": 6,
       "funded": 62000000.0,
       "committed_unfunded": 0.0,
       "contingent_max": 0.0,
       "gross": 62000000.0,
       "headline": 50000000.0,
-      "lower_bound": 5
-    },
-    "loi_or_framework": {
-      "count": 9,
-      "funded": 0.0,
-      "committed_unfunded": 0.0,
-      "contingent_max": 0.0,
-      "gross": 0.0,
-      "headline": 103500000000.0,
-      "lower_bound": 0
+      "lower_bound": 4
     },
     "restructured": {
-      "count": 1,
+      "count": 3,
       "funded": 0.0,
       "committed_unfunded": 0.0,
       "contingent_max": 0.0,
       "gross": 0.0,
-      "headline": 0.0,
+      "headline": 100500000000.0,
       "lower_bound": 1
+    },
+    "loi_or_framework": {
+      "count": 6,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "contingent_max": 0.0,
+      "gross": 0.0,
+      "headline": 3000000000.0,
+      "lower_bound": 0
     }
   },
   "by_grade": {
@@ -223,7 +223,7 @@
       "lower_bound": 42
     },
     "Weak": {
-      "count": 4,
+      "count": 3,
       "funded": 2000000000.0,
       "committed_unfunded": 0.0,
       "contingent_max": 6300000000.0,
@@ -270,7 +270,7 @@
   },
   "by_tenor": {
     "No stated maturity": {
-      "count": 77,
+      "count": 76,
       "funded": 30764399346.78,
       "committed_unfunded": 41000000000.0,
       "contingent_max": 105860340000.0,
@@ -308,7 +308,7 @@
   },
   "by_wwr": {
     "specific": {
-      "count": 7,
+      "count": 6,
       "funded": 0.0,
       "committed_unfunded": 0.0,
       "contingent_max": 112160340000.0,
@@ -355,7 +355,7 @@
       "lower_bound": 39
     },
     "reconciled": {
-      "count": 20,
+      "count": 19,
       "funded": 18062000000.0,
       "committed_unfunded": 1000000000.0,
       "contingent_max": 860340000.0,
@@ -401,7 +401,7 @@
     {
       "entity": "ent_coreweave",
       "name": "CoreWeave",
-      "count": 4,
+      "count": 3,
       "funded": 2000000000.0,
       "committed_unfunded": 0.0,
       "contingent_max": 6300000000.0,
@@ -1003,7 +1003,7 @@
           {
             "relationship": "rel_openai_eqc_2025",
             "headline": 100000000000.0,
-            "status": "loi_or_framework"
+            "status": "restructured"
           }
         ],
         "at_risk_backlog": [

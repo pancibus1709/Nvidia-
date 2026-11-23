@@ -656,6 +656,16 @@
     ]
   },
   {
+    "id": "evt_openai_loi_finalizing_2026",
+    "date": "2026-02-25",
+    "relationship": "rel_openai_eqc_2025",
+    "kind": "restructuring",
+    "summary": "Nvidia's annual report says it is finalizing an investment and partnership agreement with OpenAI, in place of the letter of intent wording.",
+    "evidence": [
+      "ev_140027"
+    ]
+  },
+  {
     "id": "evt_wayve_series_d_2026",
     "date": "2026-02-25",
     "relationship": "rel_wayve_eq_2024",
@@ -663,6 +673,16 @@
     "summary": "Wayve closes a $1.2 billion Series D with Nvidia participating.",
     "evidence": [
       "ev_90040"
+    ]
+  },
+  {
+    "id": "evt_wayve_series_d_close_2026",
+    "date": "2026-02-25",
+    "relationship": "rel_wayve_eqc_2025",
+    "kind": "restructuring",
+    "summary": "Wayve closes its Series D with Nvidia participating; the amount Nvidia invested is not stated.",
+    "evidence": [
+      "ev_140022"
     ]
   },
   {

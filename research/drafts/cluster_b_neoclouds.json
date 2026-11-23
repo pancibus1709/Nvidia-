@@ -806,6 +806,18 @@
       "evidence": [
         "ev_80026"
       ]
+    },
+    {
+      "id": "ent_ionic_digital",
+      "name": "Ionic Digital Inc.",
+      "short_name": "Ionic Digital",
+      "cluster": "other",
+      "depth": 2,
+      "public": true,
+      "ticker": "IOND",
+      "cik": "0002007691",
+      "country": "US",
+      "description": "Landlord of Nscale's Ward County, Texas site, whose rent Nvidia guarantees."
     }
   ],
   "relationships": [
@@ -1064,27 +1076,37 @@
           "evidence": [
             "ev_40035"
           ]
+        },
+        {
+          "entity": "ent_ionic_digital",
+          "role": "landlord",
+          "description": "Ionic Digital is the landlord of the Ward County lease to Nscale; its filing describes Nvidia's guarantee of the early rent.",
+          "amount": null,
+          "evidence": [
+            "ev_170012"
+          ]
         }
       ],
       "aggregate_of": null,
       "significance": {},
       "version": 1,
       "evidence": [
+        "ev_10115",
+        "ev_10123",
+        "ev_10159",
+        "ev_10160",
+        "ev_10161",
+        "ev_170012",
         "ev_40003",
         "ev_40004",
         "ev_40005",
         "ev_40006",
         "ev_40007",
+        "ev_40035",
         "ev_40045",
         "ev_40046",
-        "ev_40035",
-        "ev_10159",
-        "ev_10160",
-        "ev_10161",
-        "ev_10115",
-        "ev_10123",
-        "ev_50074",
-        "ev_50045"
+        "ev_50045",
+        "ev_50074"
       ],
       "notes": "Seed B8 modified: the Nvidia link to Nscale includes this guarantee, which Nvidia's filings show only anonymously. Nvidia's later land, power and shell guarantee total of $3.5bn (ev_10123) includes this guarantee and others not named."
     },

@@ -1,0 +1,719 @@
+[
+ {
+  "n": 31,
+  "id": "rel_intel_eq_2025",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 5000000000,
+    "result": "verified",
+    "found": 5000000000,
+    "quote": "representing an aggregate purchase price in cash of $5.0 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000155/intc-20250915.htm",
+    "date": "2025-09-18",
+    "evidence": "ev_160001"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 5000000000,
+    "result": "verified",
+    "found": 5000000000,
+    "quote": "for an aggregate purchase price in cash of $5.0 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000204/intc-20251226.htm",
+    "date": "2025-12-29",
+    "evidence": "ev_160003"
+   },
+   {
+    "field": "funded",
+    "claimed": 5000000000,
+    "result": "verified",
+    "found": 5000000000,
+    "quote": "for an aggregate purchase price in cash of $5.0 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000204/intc-20251226.htm",
+    "date": "2025-12-29",
+    "evidence": "ev_160003"
+   },
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "completed 2025-12-26",
+    "quote": "completed the issuance and sale of 214,776,632 shares of the Company’s common stock",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000204/intc-20251226.htm",
+    "date": "2025-12-29",
+    "evidence": "ev_160002"
+   },
+   {
+    "field": "announced",
+    "claimed": "2025-09-18",
+    "result": "verified",
+    "found": "press release 2025-09-18 (agreement signed 2025-09-15)",
+    "quote": "representing an aggregate purchase price in cash of $5.0 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000155/intc-20250915.htm",
+    "date": "2025-09-18",
+    "evidence": "ev_160001"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Purchase closed 2025-12-26 (ev_160002, ev_160004). Since then Nvidia sold part of the stake: 13F shows 214,776,632 shares at 2026-06-30 (ev_160006) but 161,082,488 at 2026-09-30 (ev_160005), about 25% sold in Q3 2026. Funded figure is historical cost, not current holding.",
+  "missed_figures": [
+   {
+    "figure": "Holding reduced to 161,082,488 shares (13F value $19,366,947,532) at 2026-09-30",
+    "quote": "INTEL CORP COM 458140100 19366947532 161082488 SH SOLE",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000084/information_table.xml",
+    "date": "2026-11-16",
+    "evidence": "ev_160005"
+   }
+  ],
+  "overall": "reopen",
+  "reason": "All amounts, status and date confirmed; reopen only to record the Q3 2026 partial disposal (53.7m shares sold) so the stake is not shown at full size."
+ },
+ {
+  "n": 32,
+  "id": "rel_nokia_eq_2025",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 1000000000,
+    "result": "verified",
+    "found": 1000000000,
+    "quote": "NVIDIA to make USD 1.0 billion equity investment in Nokia",
+    "url": "https://www.sec.gov/Archives/edgar/data/924613/000110465925103038/tm2529638d1_6k.htm",
+    "date": "2025-10-28",
+    "evidence": "ev_160013"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 1000000000,
+    "result": "verified",
+    "found": 1000000000,
+    "quote": "to enable NVIDIA Corporation to make a USD 1.0 billion equity investment in Nokia",
+    "url": "https://www.sec.gov/Archives/edgar/data/924613/000162828026015034/nok-20251231.htm",
+    "date": "2026-03-05",
+    "evidence": "ev_160016"
+   },
+   {
+    "field": "funded",
+    "claimed": 1000000000,
+    "result": "verified",
+    "found": 1000000000,
+    "quote": "to enable NVIDIA Corporation to make a USD 1.0 billion equity investment in Nokia",
+    "url": "https://www.sec.gov/Archives/edgar/data/924613/000162828026015034/nok-20251231.htm",
+    "date": "2026-03-05",
+    "evidence": "ev_160016"
+   },
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "completed, shares delivered November 2025",
+    "quote": "delivered to NVIDIA Corporation in the form of American Depositary Shares in November 2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/924613/000162828026015034/nok-20251231.htm",
+    "date": "2026-03-05",
+    "evidence": "ev_160015"
+   },
+   {
+    "field": "announced",
+    "claimed": "2025-10-28",
+    "result": "verified",
+    "found": "2025-10-28",
+    "quote": "Stock exchange release 28 October 2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/924613/000110465925103038/tm2529638d1_6k.htm",
+    "date": "2025-10-28",
+    "evidence": "ev_160014"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "166,389,351 shares at USD 6.01 issued and delivered November 2025. 13F: 166,389,351 ADRs at 2026-06-30 (ev_160008) but 72,859,751 at 2026-09-30 (ev_160007), so about 56% sold in Q3 2026.",
+  "missed_figures": [
+   {
+    "figure": "Holding reduced to 72,859,751 ADRs (13F value $738,797,875) at 2026-09-30",
+    "quote": "NOKIA CORP SPONSORED ADR 654902204 738797875 72859751 SH SOLE",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000084/information_table.xml",
+    "date": "2026-11-16",
+    "evidence": "ev_160007"
+   }
+  ],
+  "overall": "reopen",
+  "reason": "Figures confirmed; reopen to record that more than half the stake was sold in Q3 2026."
+ },
+ {
+  "n": 33,
+  "id": "rel_synopsys_eq_2025",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "for an aggregate purchase price of $2 billion in cash",
+    "url": "https://www.sec.gov/Archives/edgar/data/883241/000119312525303209/d36680d8k.htm",
+    "date": "2025-12-01",
+    "evidence": "ev_160017"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "for an aggregate purchase price of $2 billion in cash",
+    "url": "https://www.sec.gov/Archives/edgar/data/883241/000119312525303209/d36680d8k.htm",
+    "date": "2025-12-01",
+    "evidence": "ev_160017"
+   },
+   {
+    "field": "funded",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "for net proceeds of $2.0 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
+    "date": "2026-08-26",
+    "evidence": "ev_160019"
+   },
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "completed 2025-12-01 (signed and purchased same day)",
+    "quote": "NVIDIA purchased 4,821,717 shares of Synopsys’ common stock",
+    "url": "https://www.sec.gov/Archives/edgar/data/883241/000119312525303209/d36680d8k.htm",
+    "date": "2025-12-01",
+    "evidence": "ev_160018"
+   },
+   {
+    "field": "announced",
+    "claimed": "2025-12-01",
+    "result": "verified",
+    "found": "2025-12-01",
+    "quote": "for an aggregate purchase price of $2 billion in cash",
+    "url": "https://www.sec.gov/Archives/edgar/data/883241/000119312525303209/d36680d8k.htm",
+    "date": "2025-12-01",
+    "evidence": "ev_160017"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "4,821,717 shares at $414.79. 13F shows 4,821,717 at 2026-06-30 (ev_160010) and 4,354,077 at 2026-09-30 (ev_160009): about 10% sold in Q3 2026.",
+  "missed_figures": [
+   {
+    "figure": "Holding reduced to 4,354,077 shares (13F value $1,893,762,250) at 2026-09-30",
+    "quote": "SYNOPSYS INC COM 871607107 1893762250 4354077 SH SOLE",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000084/information_table.xml",
+    "date": "2026-11-16",
+    "evidence": "ev_160009"
+   }
+  ],
+  "overall": "reopen",
+  "reason": "Figures confirmed; reopen to record the small Q3 2026 partial sale (467,640 shares)."
+ },
+ {
+  "n": 34,
+  "id": "rel_marvell_eq_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "were sold for an aggregate purchase price of $2,000,000,000.00 in cash",
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526134462/d113606d8k.htm",
+    "date": "2026-03-31",
+    "evidence": "ev_160020"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "were sold for an aggregate purchase price of $2,000,000,000.00 in cash",
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526134462/d113606d8k.htm",
+    "date": "2026-03-31",
+    "evidence": "ev_160020"
+   },
+   {
+    "field": "funded",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "were sold for an aggregate purchase price of $2,000,000,000.00 in cash",
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526134462/d113606d8k.htm",
+    "date": "2026-03-31",
+    "evidence": "ev_160020"
+   },
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "completed 2026-03-31; still described in 10-Q filed 2026-08-28",
+    "quote": "we completed the issuance of Series A Convertible Preferred Stock to NVIDIA",
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
+    "date": "2026-08-28",
+    "evidence": "ev_160022"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-03-31",
+    "result": "verified",
+    "found": "2026-03-31",
+    "quote": "On March 31, 2026, Marvell Technology, Inc. (the “Company”) completed the issuance and sale",
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526134462/d113606d8k.htm",
+    "date": "2026-03-31",
+    "evidence": "ev_160021"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "2,000,000 Series A Convertible Preferred shares, convertible into at most 21,778,000 common shares (~$91.84). No Marvell common on Nvidia's 2026-09-30 13F, consistent with no conversion yet.",
+  "missed_figures": [],
+  "overall": "confirmed",
+  "reason": "All fields match Marvell's 8-K and 10-Q."
+ },
+ {
+  "n": 35,
+  "id": "rel_lumentum_eq_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "for an aggregate purchase price of $2,000,000,000 in cash",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526085412/d41019d8k.htm",
+    "date": "2026-03-02",
+    "evidence": "ev_160023"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "for an aggregate purchase price of $2,000,000,000 in cash",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526085412/d41019d8k.htm",
+    "date": "2026-03-02",
+    "evidence": "ev_160023"
+   },
+   {
+    "field": "funded",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "for an aggregate purchase price of $2.0 billion in cash",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026069615/lite-20260926.htm",
+    "date": "2026-11-03",
+    "evidence": "ev_160025"
+   },
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "completed 2026-03-02",
+    "quote": "On March 2, 2026, Lumentum Holdings Inc. (the “Company”) completed the issuance and sale",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526085412/d41019d8k.htm",
+    "date": "2026-03-02",
+    "evidence": "ev_160024"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-03-02",
+    "result": "verified",
+    "found": "2026-03-02",
+    "quote": "On March 2, 2026, Lumentum Holdings Inc. (the “Company”) completed the issuance and sale",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526085412/d41019d8k.htm",
+    "date": "2026-03-02",
+    "evidence": "ev_160024"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "2,876,415 Series A Convertible Preferred at $695.31, convertible one-for-one. Still outstanding per 10-Q for quarter ended 2026-09-26.",
+  "missed_figures": [],
+  "overall": "confirmed",
+  "reason": "All fields match Lumentum 8-K and latest 10-Q."
+ },
+ {
+  "n": 36,
+  "id": "rel_coherent_eq_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "for an aggregate purchase price of $2 billion in cash",
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526084366/d42735d8k.htm",
+    "date": "2026-03-02",
+    "evidence": "ev_160028"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "for an aggregate purchase price of $2 billion in cash",
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526084366/d42735d8k.htm",
+    "date": "2026-03-02",
+    "evidence": "ev_160028"
+   },
+   {
+    "field": "funded",
+    "claimed": 2000000000,
+    "result": "verified",
+    "found": 2000000000,
+    "quote": "for aggregate gross proceeds of $2 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000023/iivi-20260930.htm",
+    "date": "2026-11-04",
+    "evidence": "ev_160027"
+   },
+   {
+    "field": "status",
+    "claimed": "completed",
+    "result": "verified",
+    "found": "completed 2026-03-02",
+    "quote": "Coherent completed the issuance and sale of 7,788,161 shares of the Company’s common stock",
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526084366/d42735d8k.htm",
+    "date": "2026-03-02",
+    "evidence": "ev_160026"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-03-02",
+    "result": "verified",
+    "found": "2026-03-02",
+    "quote": "Coherent completed the issuance and sale of 7,788,161 shares of the Company’s common stock",
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526084366/d42735d8k.htm",
+    "date": "2026-03-02",
+    "evidence": "ev_160026"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "7,788,161 shares at $256.80; full position still held at 2026-09-30 per 13F (ev_160011). Six-month lock-up has expired.",
+  "missed_figures": [],
+  "overall": "confirmed",
+  "reason": "All fields match Coherent 8-K, 10-Q and Nvidia 13F."
+ },
+ {
+  "n": 37,
+  "id": "rel_arm_eq_2023",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "terminated",
+    "result": "verified",
+    "found": "exited: 1,101,249 ADS held 2025-09-30, none on 2025-12-31 13F",
+    "quote": "ARM HOLDINGS PLC SPONSORED ADS 042068205 155815721 1101249 SH SOLE",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000219/information_table.xml",
+    "date": "2025-11-14",
+    "evidence": "ev_160012"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Nvidia was one of ten Cornerstone Investors in Arm's Sept 2023 IPO, non-binding, aggregate up to $735m not split by investor (ev_160030). Held 1,960,784 ADS at 2023-12-31 (ev_160029) and 1,101,249 at 2025-09-30 (ev_160012); Arm absent from the 2025-12-31 13F, so exit happened in Q4 2025. 'terminated' is acceptable; 'exited (sold)' is more precise. Blank amounts are right: there is no Nvidia-specific purchase figure.",
+  "missed_figures": [
+   {
+    "figure": "13F value $147,343,114 for 1,960,784 ADS at 2023-12-31",
+    "quote": "ARM HOLDINGS PLC SPONSORED ADR 042068205 147343114 1960784 SH SOLE",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000021/information_table.xml",
+    "date": "2024-02-14",
+    "evidence": "ev_160029"
+   },
+   {
+    "figure": "Cornerstone indication, aggregate up to $735 million across ten investors (non-binding)",
+    "quote": "indicated an interest in purchasing up to an aggregate of $735 million",
+    "url": "https://www.sec.gov/Archives/edgar/data/1973239/000119312523235320/d550931d424b4.htm",
+    "date": "2023-09-14",
+    "evidence": "ev_160030"
+   }
+  ],
+  "overall": "confirmed",
+  "reason": "Exit confirmed from 13F sequence; no amounts to check."
+ },
+ {
+  "n": 38,
+  "id": "rel_corning_pp_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 1000000000,
+    "result": "verified",
+    "found": 1000000000,
+    "quote": "customer deposit under a long-term supply agreement extending through December 31, 2029",
+    "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000279/glw-20260930.htm",
+    "date": "2026-10-29",
+    "evidence": "ev_160033"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 1000000000,
+    "result": "verified",
+    "found": 1000000000,
+    "quote": "customer deposit under a long-term supply agreement extending through December 31, 2029",
+    "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000279/glw-20260930.htm",
+    "date": "2026-10-29",
+    "evidence": "ev_160033"
+   },
+   {
+    "field": "maturity",
+    "claimed": "2029-12-31",
+    "result": "verified",
+    "found": "2029-12-31",
+    "quote": "customer deposit under a long-term supply agreement extending through December 31, 2029",
+    "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000279/glw-20260930.htm",
+    "date": "2026-10-29",
+    "evidence": "ev_160033"
+   }
+  ],
+  "classification_ok": false,
+  "classification_note": "Funded was left blank but Corning's 10-Q reports the $1.0bn upfront deposit as received (ev_160031): funded should be 1.0bn. Announced was left blank: partnership and warrants announced 2026-05-06 (ev_160032). Corning never names the depositor; the link to Nvidia is inference (analysis): the deposit is netted against 'a warrant issued to the customer' (ev_160034) and Corning's only warrants were issued to NVIDIA on 2026-05-06 (8-K Item 3.02). Separately Nvidia paid $500m for the warrants (Corning cash flow 'Proceeds from warrants 500'), which is equity, not this deposit.",
+  "missed_figures": [
+   {
+    "figure": "funded $1.0 billion (deposit received)",
+    "quote": "the receipt of an upfront customer deposit of $1.0 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000279/glw-20260930.htm",
+    "date": "2026-10-29",
+    "evidence": "ev_160031"
+   },
+   {
+    "figure": "announced 2026-05-06",
+    "quote": "entered into a securities purchase agreement (the “Purchase Agreement”) with NVIDIA",
+    "url": "https://www.sec.gov/Archives/edgar/data/24741/000120677426000273/glw4631061-8k.htm",
+    "date": "2026-05-06",
+    "evidence": "ev_160032"
+   }
+  ],
+  "overall": "reopen",
+  "reason": "Funded ($1.0bn received) and announced date (2026-05-06) missed; depositor identity rests on the warrant link, not a named disclosure."
+ },
+ {
+  "n": 39,
+  "id": "rel_amkor_pp_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 3000000000,
+    "result": "verified",
+    "found": "nearly $3 billion",
+    "quote": "multiyear agreements announced in July and October 2026, totaling nearly $3 billion",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+    "date": "2026-11-17",
+    "evidence": "ev_160035"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 2800000000,
+    "result": "verified",
+    "found": "1.5bn (July 2026) + 1.3bn (October 2026) = 2.8bn, derived; Amkor does not name the customer",
+    "quote": "pursuant to which we expect to receive approximately $1.3 billion in 2027",
+    "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000052/amkr-20260930.htm",
+    "date": "2026-10-27",
+    "evidence": "ev_160037, ev_160038"
+   },
+   {
+    "field": "status",
+    "claimed": "definitive",
+    "result": "verified",
+    "found": "advance payment agreements entered July and October 2026",
+    "quote": "The agreements include prepayments to help Amkor scale manufacturing capacity",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+    "date": "2026-11-17",
+    "evidence": "ev_160036"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-07",
+    "result": "verified",
+    "found": "July 2026, with a second agreement October 2026",
+    "quote": "multiyear agreements announced in July and October 2026, totaling nearly $3 billion",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+    "date": "2026-11-17",
+    "evidence": "ev_160035"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Headline is 'nearly $3 billion', not exactly $3bn. Committed 2.8bn is a sum of two Amkor 10-Q figures for an unnamed customer, matched to Nvidia by timing (analysis). Both amounts are 'expect to receive ... in 2027', so funded correctly blank. Announced should note the October 2026 agreement as well.",
+  "missed_figures": [],
+  "overall": "confirmed",
+  "reason": "Figures supported; committed is a derived sum and should be labelled so."
+ },
+ {
+  "n": 40,
+  "id": "rel_kyec_pp_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 1100000000,
+    "result": "verified",
+    "found": 1100000000,
+    "quote": "NVIDIA’s $1.1 billion capacity reservation advance to KYEC",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+    "date": "2026-10-21",
+    "evidence": "ev_160039"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 1100000000,
+    "result": "verified",
+    "found": 1100000000,
+    "quote": "NVIDIA’s $1.1 billion capacity reservation advance to KYEC",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+    "date": "2026-10-21",
+    "evidence": "ev_160039"
+   },
+   {
+    "field": "status",
+    "claimed": "definitive",
+    "result": "not_found",
+    "found": "Nvidia release only; no KYEC disclosure fetched",
+    "quote": "KYEC will build new facilities in the U.S., supported by a $1.1 billion",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+    "date": "2026-10-21",
+    "evidence": "ev_160039"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-10-21",
+    "result": "verified",
+    "found": "2026-10-21",
+    "quote": "October 21, 2026",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+    "date": "2026-10-21",
+    "evidence": "ev_160040"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Only Nvidia's own release (tier 1) supports the figure. No counterparty-side document (KYEC is Taiwan-listed; TWSE/MOPS filings not checked) and no statement of signing date or payment timing, so 'definitive' and committed rest on Nvidia's wording.",
+  "missed_figures": [],
+  "overall": "confirmed",
+  "reason": "Amount and date confirmed from Nvidia tier 1; counterparty confirmation still missing."
+ },
+ {
+  "n": 41,
+  "id": "rel_sb_energy_eq_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 3000000000,
+    "result": "verified",
+    "found": 3000000000,
+    "quote": "In total, NVIDIA will invest $3.0 billion in our Company",
+    "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026075026/sbenergy-sx1a3.htm",
+    "date": "2026-11-19",
+    "evidence": "ev_160043"
+   },
+   {
+    "field": "committed_total",
+    "claimed": 3000000000,
+    "result": "verified",
+    "found": 3000000000,
+    "quote": "In total, NVIDIA will invest $3.0 billion in our Company",
+    "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026075026/sbenergy-sx1a3.htm",
+    "date": "2026-11-19",
+    "evidence": "ev_160043"
+   },
+   {
+    "field": "funded",
+    "claimed": 1500000000,
+    "result": "verified",
+    "found": 1500000000,
+    "quote": "NVIDIA funded the full $1.5 billion under the Prepaid Forward Contract",
+    "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026075026/sbenergy-sx1a3.htm",
+    "date": "2026-11-19",
+    "evidence": "ev_160044"
+   },
+   {
+    "field": "status",
+    "claimed": "definitive",
+    "result": "verified",
+    "found": "Prepaid forward and Share Purchase Agreement signed 2026-08-17; IPO not yet priced (S-1/A No. 3, 2026-11-19)",
+    "quote": "This commitment is contingent upon, and is expected to close simultaneously with",
+    "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026075026/sbenergy-sx1a3.htm",
+    "date": "2026-11-19",
+    "evidence": "ev_160041"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-08-17",
+    "result": "verified",
+    "found": "2026-08-17",
+    "quote": "NVIDIA to invest $1.5B in SB Energy now",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm",
+    "date": "2026-08-17",
+    "evidence": "ev_160042"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "The second $1.5bn (private placement) is a contractual commitment contingent on the IPO closing, so committed_total includes a conditional $1.5bn. Nvidia's 2026-08-17 release only stated $1.5B; the $3.0bn total comes from SB Energy's S-1. Not the same as Nvidia's $105bn residual value guaranties with SB Energy (separate relationship).",
+  "missed_figures": [],
+  "overall": "confirmed",
+  "reason": "All fields match SB Energy S-1/A and Nvidia's release; flag the IPO condition on half the commitment."
+ },
+ {
+  "n": 42,
+  "id": "rel_ai_financing_platforms_rv_2026",
+  "fields": [
+   {
+    "field": "status",
+    "claimed": "loi_or_framework",
+    "result": "verified",
+    "found": "MOUs, subject to final agreements",
+    "quote": "These partnerships remain subject to execution of the final agreements.",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+    "date": "2026-08-10",
+    "evidence": "ev_160046"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-08-10",
+    "result": "verified",
+    "found": "2026-08-10",
+    "quote": "August 10, 2026 NVIDIA today announced strategic partnerships to establish independent compute financing platforms",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+    "date": "2026-08-10",
+    "evidence": "ev_160045"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "The $500bn is third-party capital to be mobilized (ev_160047), not an Nvidia amount, so blank amounts are correct. Residual value support is optional and unquantified: 'we may provide limited residual-value support' (10-Q, ev_160049); 10-Q also says preliminary arrangements may not lead to definitive agreements (ev_160048). No definitive agreement found as of the Q3 FY27 release (2026-11-17).",
+  "missed_figures": [],
+  "overall": "confirmed",
+  "reason": "Status and date confirmed by Nvidia release and 10-Q."
+ },
+ {
+  "n": 43,
+  "id": "rel_meta_eq_2026",
+  "fields": [
+   {
+    "field": "headline",
+    "claimed": 3000000000,
+    "result": "verified",
+    "found": 3000000000,
+    "quote": "In addition, NVIDIA will invest $3 billion in Meta’s equity offering.",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+    "date": "2026-10-26",
+    "evidence": "ev_160050"
+   },
+   {
+    "field": "status",
+    "claimed": "loi_or_framework",
+    "result": "verified",
+    "found": "non-binding indication of interest (Meta 424B5); offering settled 2026-10-29, Nvidia's allocation not disclosed",
+    "quote": "these indications of interest are not binding agreements or commitments to purchase",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526436410/d94886d424b5.htm",
+    "date": "2026-10-28",
+    "evidence": "ev_160052"
+   },
+   {
+    "field": "announced",
+    "claimed": "2026-10-26",
+    "result": "verified",
+    "found": "2026-10-26",
+    "quote": "In addition, NVIDIA will invest $3 billion in Meta’s equity offering.",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+    "date": "2026-10-26",
+    "evidence": "ev_160050"
+   }
+  ],
+  "classification_ok": true,
+  "classification_note": "Meta's prospectus gives only an aggregate up to $5.0bn for Nvidia, AMD and Broadcom (ev_160051), non-binding; the $3bn Nvidia figure is from Nvidia's release. The common stock offering settled 2026-10-29 (ev_160053), so the indication has resolved one way or the other, but no filing yet shows whether Nvidia bought (Q3 FY27 ended 2026-10-25; next 13F due Feb 2027). Tier 2 reports (CNBC, Axios, The Information, 2026-10-27) could not be fetched (HTTP 403).",
+  "missed_figures": [],
+  "overall": "reopen",
+  "reason": "Figures confirmed, but status is stale: the offering closed 2026-10-29 and Nvidia's actual purchase is unconfirmed."
+ }
+]

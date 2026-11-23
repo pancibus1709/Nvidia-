@@ -4,7 +4,7 @@ Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattri
 
 ## Totals
 
-- Relationships counted: 82 (49 are lower bounds because at least one component is not disclosed or not confirmed)
+- Relationships counted: 81 (49 are lower bounds because at least one component is not disclosed or not confirmed)
 - Funded: $32.3 billion across 16 relationships
 - Committed, not yet paid (or paid portion not disclosed): $43 billion across 9
 - Contingent maximum: $112 billion across 3
@@ -15,7 +15,7 @@ Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattri
 
 | Group | Relationships | Funded | Committed, not yet paid | Contingent maximum | Gross | Headline | Lower bounds |
 |---|---|---|---|---|---|---|---|
-| GU Guarantee | 3 | $0 | $0 | $106 billion | $106 billion | $106 billion | 1 |
+| GU Guarantee | 2 | $0 | $0 | $106 billion | $106 billion | $106 billion | 1 |
 | EQ Direct equity | 56 | $31.3 billion | $32.5 billion | $0 | $63.8 billion | $68.9 billion | 38 |
 | BK Capacity backstop | 3 | $0 | $0 | $6.3 billion | $6.3 billion | $11.2 billion | 3 |
 | PP Supply prepayment | 6 | $0 | $4.9 billion | $0 | $4.9 billion | $5.1 billion | 3 |
@@ -31,7 +31,7 @@ Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattri
 |---|---|---|---|---|---|---|---|
 | ai_lab | 16 | $10 billion | $30 billion | $105 billion | $145 billion | $255 billion | 10 |
 | semis_supply | 14 | $14.5 billion | $4.9 billion | $0 | $19.4 billion | $19.6 billion | 4 |
-| neocloud | 25 | $6.18 billion | $5.6 billion | $7.16 billion | $18.9 billion | $25.9 billion | 18 |
+| neocloud | 24 | $6.18 billion | $5.6 billion | $7.16 billion | $18.9 billion | $25.9 billion | 18 |
 | vehicle | 4 | $1.5 billion | $1.5 billion | $0 | $3 billion | $3 billion | 2 |
 | other | 1 | $0 | $1 billion | $0 | $1 billion | $1 billion | 0 |
 | portfolio | 21 | $87 million | $0 | $0 | $87 million | $575 million | 15 |
@@ -42,17 +42,17 @@ Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattri
 | Group | Relationships | Funded | Committed, not yet paid | Contingent maximum | Gross | Headline | Lower bounds |
 |---|---|---|---|---|---|---|---|
 | definitive | 23 | $2.5 billion | $43 billion | $112 billion | $158 billion | $175 billion | 13 |
-| completed | 42 | $29.7 billion | $0 | $0 | $29.7 billion | $29.7 billion | 30 |
-| terminated | 7 | $62 million | $0 | $0 | $62 million | $50 million | 5 |
-| loi_or_framework | 9 | $0 | $0 | $0 | $0 | $104 billion | 0 |
-| restructured | 1 | $0 | $0 | $0 | $0 | $0 | 1 |
+| completed | 43 | $29.7 billion | $0 | $0 | $29.7 billion | $29.7 billion | 31 |
+| terminated | 6 | $62 million | $0 | $0 | $62 million | $50 million | 4 |
+| restructured | 3 | $0 | $0 | $0 | $0 | $100 billion | 1 |
+| loi_or_framework | 6 | $0 | $0 | $0 | $0 | $3 billion | 0 |
 
 ### By counterparty grade (internal)
 
 | Group | Relationships | Funded | Committed, not yet paid | Contingent maximum | Gross | Headline | Lower bounds |
 |---|---|---|---|---|---|---|---|
 | Insufficient information | 67 | $21.1 billion | $37.4 billion | $105 billion | $163 billion | $277 billion | 42 |
-| Weak | 4 | $2 billion | $0 | $6.3 billion | $8.3 billion | $8.3 billion | 2 |
+| Weak | 3 | $2 billion | $0 | $6.3 billion | $8.3 billion | $8.3 billion | 2 |
 | Adequate | 3 | $7 billion | $0 | $0 | $7 billion | $7 billion | 1 |
 | Distressed | 5 | $2.18 billion | $2.2 billion | $860 million | $5.24 billion | $10.1 billion | 2 |
 | Watch | 2 | $0 | $3.4 billion | $0 | $3.4 billion | $5.5 billion | 1 |
@@ -62,7 +62,7 @@ Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattri
 
 | Group | Relationships | Funded | Committed, not yet paid | Contingent maximum | Gross | Headline | Lower bounds |
 |---|---|---|---|---|---|---|---|
-| No stated maturity | 77 | $30.8 billion | $41 billion | $106 billion | $178 billion | $296 billion | 47 |
+| No stated maturity | 76 | $30.8 billion | $41 billion | $106 billion | $178 billion | $296 billion | 47 |
 | 5 to 10 years | 1 | $0 | $0 | $6.3 billion | $6.3 billion | $6.3 billion | 1 |
 | Under 2 years | 1 | $1 billion | $1 billion | $0 | $2 billion | $2 billion | 0 |
 | 2 to 5 years | 3 | $500 million | $1 billion | $0 | $1.5 billion | $3.6 billion | 1 |
@@ -71,7 +71,7 @@ Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattri
 
 | Group | Relationships | Funded | Committed, not yet paid | Contingent maximum | Gross | Headline | Lower bounds |
 |---|---|---|---|---|---|---|---|
-| specific | 7 | $0 | $0 | $112 billion | $112 billion | $117 billion | 4 |
+| specific | 6 | $0 | $0 | $112 billion | $112 billion | $117 billion | 4 |
 | general | 65 | $31.2 billion | $43 billion | $0 | $74.2 billion | $187 billion | 39 |
 | none | 10 | $1.06 billion | $0 | $0 | $1.06 billion | $4.05 billion | 6 |
 
@@ -81,7 +81,7 @@ Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattri
 |---|---|---|---|---|---|---|---|
 | partial | 7 | $2 billion | $4.3 billion | $105 billion | $111 billion | $122 billion | 3 |
 | one_sided | 54 | $12.2 billion | $37.7 billion | $6.3 billion | $56.2 billion | $61.6 billion | 39 |
-| reconciled | 20 | $18.1 billion | $1 billion | $860 million | $19.9 billion | $122 billion | 7 |
+| reconciled | 19 | $18.1 billion | $1 billion | $860 million | $19.9 billion | $122 billion | 7 |
 | contradicted | 1 | $0 | $0 | $0 | $0 | $3 billion | 0 |
 
 ### Top five concentrations by gross exposure
@@ -90,7 +90,7 @@ Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattri
 |---|---|---|---|
 | OpenAI | $135 billion | 72.0% | 3 |
 | Anthropic | $10 billion | 5.3% | 2 |
-| CoreWeave | $8.3 billion | 4.4% | 4 |
+| CoreWeave | $8.3 billion | 4.4% | 3 |
 | Nscale | $5.24 billion | 2.8% | 4 |
 | Intel | $5 billion | 2.7% | 1 |
 

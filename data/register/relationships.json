@@ -6,9 +6,9 @@
     "type_primary": "EQ-C",
     "types_secondary": [],
     "title": "OpenAI letter of intent: up to $100 billion as each gigawatt is deployed",
-    "insight_template": "Nvidia's {headline} for {counterparty} remains a letter of intent, so it adds no binding exposure until a definitive agreement exists.",
+    "insight_template": "Nvidia's {headline} letter of intent with {counterparty} produced no disclosed definitive agreement; a separate equity purchase followed, so the headline adds no binding exposure.",
     "definition": "In September 2025 Nvidia and OpenAI signed a letter of intent under which Nvidia intends to invest up to $100 billion in OpenAI progressively as each gigawatt of Nvidia systems is deployed, alongside OpenAI deploying at least 10 GW. Both sides said details were still to be finalized. No definitive agreement for this structure has been disclosed by either side as of 2026-11-23; in February 2026 Nvidia instead committed equity to OpenAI's funding round, recorded separately.",
-    "status": "loi_or_framework",
+    "status": "restructured",
     "claim_basis": "company_announced",
     "amounts": {
       "headline": {
@@ -142,9 +142,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 29.7,
+      "score": 29.2,
       "components": {
-        "gross_percentile": 0.118,
+        "gross_percentile": 0.106,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -159,18 +159,19 @@
     },
     "version": 1,
     "evidence": [
-      "ev_30021",
+      "ev_10125",
+      "ev_10156",
+      "ev_120020",
+      "ev_120021",
+      "ev_140027",
       "ev_30018",
       "ev_30019",
       "ev_30020",
+      "ev_30021",
       "ev_30022",
-      "ev_30092",
-      "ev_10156",
-      "ev_10125",
-      "ev_120020",
-      "ev_120021"
+      "ev_30092"
     ],
-    "notes": "Kept separate from rel_openai_eq_2026. No source states that the February 2026 investment replaces or counts against the letter of intent; treat the letter of intent as unexecuted as of 2026-11-23.",
+    "notes": "Kept separate from rel_openai_eq_2026. No source states that the February 2026 investment replaces or counts against the letter of intent; treat the letter of intent as unexecuted as of 2026-11-23. Gate R: status changed from letter of intent to restructured. Nvidia's annual report filed 2026-02-25 says it was finalizing an investment and partnership agreement with OpenAI (ev_140027); OpenAI's round naming Nvidia followed (rel_openai_eq_2026); Nvidia's two later quarterly reports do not mention the letter of intent. Analysis: no source says the letter of intent was terminated or that the later purchase counts against it.",
     "derived": {
       "label": "analysis",
       "committed_unfunded": 0.0,
@@ -466,7 +467,7 @@
     "significance": {
       "score": 51.3,
       "components": {
-        "gross_percentile": 0.971,
+        "gross_percentile": 0.97,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -1550,7 +1551,7 @@
     "significance": {
       "score": 55.1,
       "components": {
-        "gross_percentile": 0.941,
+        "gross_percentile": 0.939,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -3694,9 +3695,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 29.7,
+      "score": 29.2,
       "components": {
-        "gross_percentile": 0.118,
+        "gross_percentile": 0.106,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -3896,9 +3897,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 29.7,
+      "score": 29.2,
       "components": {
-        "gross_percentile": 0.118,
+        "gross_percentile": 0.106,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -4098,9 +4099,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 29.7,
+      "score": 29.2,
       "components": {
-        "gross_percentile": 0.118,
+        "gross_percentile": 0.106,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -4355,9 +4356,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 40.1,
+      "score": 39.5,
       "components": {
-        "gross_percentile": 0.441,
+        "gross_percentile": 0.424,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -4454,16 +4455,17 @@
     "amounts": {
       "headline": {
         "value": null,
-        "as_of": null,
+        "as_of": "2025-09-18",
         "fiscal_period": null,
         "original_currency": "GBP",
         "original_value": 2000000000,
         "fx_rate": null,
         "fx_date": null,
-        "last_verified": null,
-        "display_eligible": false,
+        "last_verified": "2026-11-23",
+        "display_eligible": true,
         "lower_bound": false,
         "evidence": [
+          "ev_140020",
           "ev_30084",
           "ev_50090"
         ],
@@ -4568,9 +4570,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 29.7,
+      "score": 29.2,
       "components": {
-        "gross_percentile": 0.118,
+        "gross_percentile": 0.106,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -4585,6 +4587,7 @@
     },
     "version": 1,
     "evidence": [
+      "ev_140020",
       "ev_30084",
       "ev_50090"
     ],
@@ -5188,7 +5191,7 @@
     "title": "Nvidia letter of intent to evaluate a $500 million investment in Wayve",
     "insight_template": "Nvidia signed a letter of intent to evaluate {headline} for {counterparty}, which is a headline only; the amount later invested was never stated.",
     "definition": "On 18 September 2025 Wayve said it had signed a letter of intent with Nvidia to evaluate a $500 million strategic investment in its next funding round. That round, the Series D, closed in February 2026 with Nvidia participating, but Wayve did not state Nvidia's amount, so whether the letter converted in full is unknown.",
-    "status": "loi_or_framework",
+    "status": "restructured",
     "claim_basis": "company_announced",
     "amounts": {
       "headline": {
@@ -5305,9 +5308,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 29.7,
+      "score": 29.2,
       "components": {
-        "gross_percentile": 0.118,
+        "gross_percentile": 0.106,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -5322,10 +5325,11 @@
     },
     "version": 1,
     "evidence": [
+      "ev_140022",
       "ev_90036",
       "ev_90040"
     ],
-    "notes": "Brief criterion (b): letter of intent, full record. Outcome reconciliation: Series D participation confirmed (ev_90040), amount not stated.",
+    "notes": "Brief criterion (b): letter of intent, full record. Outcome reconciliation: Series D participation confirmed (ev_90040), amount not stated. Gate R: status changed to restructured. Wayve closed its Series D on 2026-02-25 with Nvidia participating (ev_140022); Nvidia's amount is not disclosed, so the letter of intent figure stays a headline only.",
     "derived": {
       "label": "analysis",
       "committed_unfunded": 0.0,
@@ -7372,9 +7376,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 25.4,
+      "score": 24.6,
       "components": {
-        "gross_percentile": 0.324,
+        "gross_percentile": 0.303,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -7673,9 +7677,9 @@
     "type_primary": "EQ",
     "types_secondary": [],
     "title": "Nvidia shareholding in TuSimple (13F)",
-    "insight_template": "Nvidia held {counterparty} shares reported in its quarterly holdings filings; the position was small and is now closed, so no exposure remains.",
+    "insight_template": "Nvidia reported {counterparty} shares until the company left the exchange; whether Nvidia still holds them is not disclosed.",
     "definition": "Nvidia reported 3,465,372 TuSimple Class A shares on its first 13F (quarter ended 31 December 2023), worth about $3.0 million, and had exited by 31 March 2024.",
-    "status": "terminated",
+    "status": "completed",
     "claim_basis": "filed",
     "amounts": {
       "headline": {
@@ -7806,10 +7810,12 @@
     },
     "version": 1,
     "evidence": [
+      "ev_150020",
+      "ev_150021",
       "ev_50007",
       "ev_90014"
     ],
-    "notes": "Exited: absent from the 13F-HR for the quarter ended 2024-03-31 (filed 2024-05-15). ",
+    "notes": "Exited: absent from the 13F-HR for the quarter ended 2024-03-31 (filed 2024-05-15). Gate R: status changed from terminated to completed. The position leaves Nvidia's holdings report after TuSimple delisted and deregistered in early 2024 (ev_150020, ev_150021), which by itself removes it from that report, so no sale is shown.",
     "holding": {
       "shares": 3465372,
       "as_of": "2023-12-31",
@@ -8208,9 +8214,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 23.1,
+      "score": 22.2,
       "components": {
-        "gross_percentile": 0.265,
+        "gross_percentile": 0.242,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -9181,9 +9187,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 41.2,
+      "score": 40.8,
       "components": {
-        "gross_percentile": 0.676,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.66,
@@ -9646,13 +9652,22 @@
           "ev_20163",
           "ev_20156"
         ]
+      },
+      {
+        "entity": "ent_galaxy_digital",
+        "role": "bondholder",
+        "description": "Galaxy Digital's presentation for notes secured on a CoreWeave leased campus cites Nvidia's obligation to buy CoreWeave's residual capacity.",
+        "amount": null,
+        "evidence": [
+          "ev_170016"
+        ]
       }
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 85.6,
+      "score": 85.5,
       "components": {
-        "gross_percentile": 0.912,
+        "gross_percentile": 0.909,
         "contingent_share": 1.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.66,
@@ -9667,6 +9682,7 @@
     "evidence": [
       "ev_10039",
       "ev_10151",
+      "ev_170016",
       "ev_20001",
       "ev_20002",
       "ev_20003",
@@ -10081,8 +10097,9 @@
     "id": "rel_coreweave_gu_2026",
     "from": "ent_nvidia",
     "to": "ent_coreweave",
-    "type_primary": "GU",
+    "type_primary": "CX",
     "types_secondary": [
+      "GU",
       "FC"
     ],
     "title": "Nvidia and CoreWeave collaboration framework for land, power and shell",
@@ -10243,7 +10260,7 @@
         }
       ]
     },
-    "notes": "Recorded separately because it carries an intent beyond the equity purchase: credit support for land, power and shell. Seed B4 confirmed for the equity part, which is in rel_coreweave_eq_2025.",
+    "notes": "Recorded separately because it carries an intent beyond the equity purchase: credit support for land, power and shell. Seed B4 confirmed for the equity part, which is in rel_coreweave_eq_2025. Gate R: reclassified from guarantee to context. The January 2026 release states an intent only; no guarantee, instrument or amount exists (ev_150004).",
     "projects": [
       "proj_coreweave_kenilworth_nj"
     ],
@@ -10261,23 +10278,14 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 36.3,
-      "components": {
-        "gross_percentile": 0.118,
-        "contingent_share": null,
-        "circularity_percentile": null,
-        "counterparty_weakness": 0.66,
-        "lender_reliance": 0.5
-      },
-      "missing": [
-        "contingent_share",
-        "circularity_percentile"
-      ],
-      "label": "analysis"
+      "score": null,
+      "components": {},
+      "missing": []
     },
     "version": 1,
     "evidence": [
       "ev_10123",
+      "ev_150004",
       "ev_20011",
       "ev_20012",
       "ev_20013",
@@ -10604,13 +10612,22 @@
         "evidence": [
           "ev_40035"
         ]
+      },
+      {
+        "entity": "ent_ionic_digital",
+        "role": "landlord",
+        "description": "Ionic Digital is the landlord of the Ward County lease to Nscale; its filing describes Nvidia's guarantee of the early rent.",
+        "amount": null,
+        "evidence": [
+          "ev_170012"
+        ]
       }
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 64.4,
+      "score": 63.6,
       "components": {
-        "gross_percentile": 0.382,
+        "gross_percentile": 0.364,
         "contingent_share": 1.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.66,
@@ -10623,21 +10640,22 @@
     },
     "version": 1,
     "evidence": [
+      "ev_10115",
+      "ev_10123",
+      "ev_10159",
+      "ev_10160",
+      "ev_10161",
+      "ev_170012",
       "ev_40003",
       "ev_40004",
       "ev_40005",
       "ev_40006",
       "ev_40007",
+      "ev_40035",
       "ev_40045",
       "ev_40046",
-      "ev_40035",
-      "ev_10159",
-      "ev_10160",
-      "ev_10161",
-      "ev_10115",
-      "ev_10123",
-      "ev_50074",
-      "ev_50045"
+      "ev_50045",
+      "ev_50074"
     ],
     "notes": "Seed B8 modified: the Nvidia link to Nscale includes this guarantee, which Nvidia's filings show only anonymously. Nvidia's later land, power and shell guarantee total of $3.5bn (ev_10123) includes this guarantee and others not named.",
     "derived": {
@@ -10900,9 +10918,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 46.5,
+      "score": 45.9,
       "components": {
-        "gross_percentile": 0.559,
+        "gross_percentile": 0.545,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.66,
@@ -11287,9 +11305,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 35.3,
+      "score": 34.7,
       "components": {
-        "gross_percentile": 0.529,
+        "gross_percentile": 0.515,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.66,
@@ -11580,9 +11598,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 51.2,
+      "score": 50.8,
       "components": {
-        "gross_percentile": 0.676,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.66,
@@ -12202,9 +12220,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 37.9,
+      "score": 37.5,
       "components": {
-        "gross_percentile": 0.676,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.33,
@@ -12478,9 +12496,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 49.9,
+      "score": 49.7,
       "components": {
-        "gross_percentile": 0.853,
+        "gross_percentile": 0.848,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.33,
@@ -16691,9 +16709,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 42.8,
+      "score": 42.7,
       "components": {
-        "gross_percentile": 0.882,
+        "gross_percentile": 0.879,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": 0.0,
@@ -16986,9 +17004,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 30.1,
+      "score": 29.5,
       "components": {
-        "gross_percentile": 0.441,
+        "gross_percentile": 0.424,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -17256,9 +17274,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 39.6,
+      "score": 39.2,
       "components": {
-        "gross_percentile": 0.676,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -17527,9 +17545,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 39.6,
+      "score": 39.2,
       "components": {
-        "gross_percentile": 0.676,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -17789,9 +17807,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 39.6,
+      "score": 39.2,
       "components": {
-        "gross_percentile": 0.676,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -18057,9 +18075,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 39.6,
+      "score": 39.2,
       "components": {
-        "gross_percentile": 0.676,
+        "gross_percentile": 0.667,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -18535,9 +18553,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 26.6,
+      "score": 25.8,
       "components": {
-        "gross_percentile": 0.353,
+        "gross_percentile": 0.333,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -18694,7 +18712,7 @@
       }
     },
     "dates": {
-      "announced": null,
+      "announced": "2026-05-06",
       "signed": "2026-05",
       "filed": "2026-07-29",
       "effective": null,
@@ -18758,9 +18776,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 30.1,
+      "score": 29.5,
       "components": {
-        "gross_percentile": 0.441,
+        "gross_percentile": 0.424,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -19029,9 +19047,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 49.3,
+      "score": 49.0,
       "components": {
-        "gross_percentile": 0.794,
+        "gross_percentile": 0.788,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -19242,9 +19260,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 32.5,
+      "score": 31.9,
       "components": {
-        "gross_percentile": 0.5,
+        "gross_percentile": 0.485,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -20149,9 +20167,9 @@
     },
     "aggregate_of": null,
     "significance": {
-      "score": 45.4,
+      "score": 45.2,
       "components": {
-        "gross_percentile": 0.824,
+        "gross_percentile": 0.818,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -20439,9 +20457,9 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 39.7,
+      "score": 39.2,
       "components": {
-        "gross_percentile": 0.118,
+        "gross_percentile": 0.106,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -21212,9 +21230,9 @@
     },
     "aggregate_of": null,
     "significance": {
-      "score": 29.7,
+      "score": 29.2,
       "components": {
-        "gross_percentile": 0.118,
+        "gross_percentile": 0.106,
         "contingent_share": null,
         "circularity_percentile": null,
         "counterparty_weakness": null,
@@ -21227,7 +21245,7 @@
       ],
       "label": "analysis"
     },
-    "notes": "Instruments: prospectus supplement (424B5) of 28 October 2026 for 40,000,000 Class A shares via forward sale agreements with Morgan Stanley and Goldman Sachs, initial forward price $622.91875 (ev_100044), settlement by 19 November 2027 (ev_100045); proceeds for general corporate purposes (ev_100043). It supersedes the 26 October preliminary supplement. Meta committed to buy: Meta 'intends to expand the deployment' of Nvidia infrastructure, no volume (ev_30077).",
+    "notes": "Instruments: prospectus supplement (424B5) of 28 October 2026 for 40,000,000 Class A shares via forward sale agreements with Morgan Stanley and Goldman Sachs, initial forward price $622.91875 (ev_100044), settlement by 19 November 2027 (ev_100045); proceeds for general corporate purposes (ev_100043). It supersedes the 26 October preliminary supplement. Meta committed to buy: Meta 'intends to expand the deployment' of Nvidia infrastructure, no volume (ev_30077). Gate R: Meta's offering has priced and its prospectus still calls the interest not binding. No filing yet shows whether Nvidia bought shares. Status stays a framework until one does.",
     "version": 1,
     "evidence": [
       "ev_30076",
@@ -21838,9 +21856,9 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 24.3,
+      "score": 23.4,
       "components": {
-        "gross_percentile": 0.294,
+        "gross_percentile": 0.273,
         "contingent_share": 0.0,
         "circularity_percentile": null,
         "counterparty_weakness": null,

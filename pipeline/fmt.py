@@ -8,6 +8,7 @@ NUMBER_WORDS = {"zero", "one", "two", "three", "four", "five", "six", "seven", "
                 "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty", "thirty", "forty",
                 "fifty", "sixty", "seventy", "eighty", "ninety", "hundred", "thousand", "million", "billion", "trillion",
                 "half", "double", "triple", "dozen", "twice"}
+CURRENCY_SYMBOLS = {"GBP": "\u00a3", "EUR": "\u20ac", "JPY": "\u00a5", "KRW": "\u20a9", "AUD": "A$", "CAD": "C$"}
 PLACEHOLDER = re.compile(r"\{([a-z_.]+)(?::([a-z_]+))?\}")
 AMOUNT_KEYS = ("headline", "committed_total", "funded", "contingent_max", "annual_obligation", "market_value", "carrying_value")
 
@@ -57,6 +58,10 @@ def amount_text(a: dict | None) -> str:
     if a.get("not_applicable"):
         return "Not applicable"
     if a.get("value") is None:
+        if a.get("original_value") is not None and a.get("original_currency", "USD") != "USD":
+            if not a.get("display_eligible"):
+                return "Not confirmed"
+            return money(a["original_value"], CURRENCY_SYMBOLS.get(a["original_currency"], a["original_currency"] + " "))
         return "Not disclosed"
     if not a.get("display_eligible"):
         return "Not confirmed"

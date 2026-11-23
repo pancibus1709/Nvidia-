@@ -2841,6 +2841,18 @@
     ]
   },
   {
+    "id": "ent_galaxy_digital",
+    "name": "Galaxy Digital Inc.",
+    "short_name": "Galaxy Digital",
+    "cluster": "lender",
+    "depth": 2,
+    "public": true,
+    "ticker": "GLXY",
+    "cik": null,
+    "country": "US",
+    "description": "Owner of a data center campus leased to CoreWeave and issuer of notes secured on it."
+  },
+  {
     "id": "ent_nebius",
     "name": "Nebius Group N.V.",
     "short_name": "Nebius",
@@ -3400,6 +3412,18 @@
     "evidence": [
       "ev_80026"
     ]
+  },
+  {
+    "id": "ent_ionic_digital",
+    "name": "Ionic Digital Inc.",
+    "short_name": "Ionic Digital",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": "IOND",
+    "cik": "0002007691",
+    "country": "US",
+    "description": "Landlord of Nscale's Ward County, Texas site, whose rent Nvidia guarantees."
   },
   {
     "id": "ent_crusoe",
