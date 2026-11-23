@@ -1,0 +1,504 @@
+[
+ {
+  "date": "2026-11-17",
+  "counterparty": "Amkor Technology",
+  "title": "NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+  "type_guess": "PP",
+  "binding_status": "definitive",
+  "amount_wording": "NVIDIA is supporting Amkor's expansion ... through multiyear agreements announced in July and October 2026, totaling nearly $3 billion. The agreements include prepayments",
+  "headline_value": 3000000000,
+  "conditions": "Prepaid portion of the ~$3B not stated. July and October 2026 Amkor announcements not found on NVIDIA domains.",
+  "counterparty_commitment": "Amkor to expand advanced packaging capacity in Arizona and South Korea for NVIDIA (>300% interposer wafer capacity in Korea by end 2028 per Oct 21 release)",
+  "evidence": [
+   "ev_30065",
+   "ev_30066"
+  ]
+ },
+ {
+  "date": "2026-11-17",
+  "counterparty": "Siliconware Precision Industries (SPIL)",
+  "title": "NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+  "type_guess": "PP",
+  "binding_status": "definitive",
+  "amount_wording": "under a multiyear agreement supported by multibillion-dollar funding from NVIDIA",
+  "headline_value": null,
+  "conditions": "Amount unquantified ('multibillion-dollar'); form of funding (prepayment, loan, capex funding) not stated",
+  "counterparty_commitment": "Increase contracted advanced packaging capacity dedicated to NVIDIA by mid-2029",
+  "evidence": [
+   "ev_30067"
+  ]
+ },
+ {
+  "date": "2026-11-09",
+  "counterparty": "Point2 Technology",
+  "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+  "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+  "type_guess": "EQ",
+  "binding_status": "completed",
+  "amount_wording": "NVIDIA also announced an investment in Korean startup Point2",
+  "headline_value": null,
+  "conditions": "Amount not disclosed; 'announced an investment' (treated as made)",
+  "counterparty_commitment": "None stated",
+  "evidence": [
+   "ev_30069"
+  ]
+ },
+ {
+  "date": "2026-11-09",
+  "counterparty": "Motif Technologies; RLWRLD; Upstage",
+  "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+  "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+  "type_guess": "EQ-C",
+  "binding_status": "loi_or_framework",
+  "amount_wording": "with additional investments planned in Motif Technologies, RLWRLD and Upstage",
+  "headline_value": null,
+  "conditions": "Planned only; no amounts or terms",
+  "counterparty_commitment": "None stated",
+  "evidence": [
+   "ev_30070"
+  ]
+ },
+ {
+  "date": "2026-10-26",
+  "counterparty": "Meta Platforms",
+  "title": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+  "type_guess": "EQ",
+  "binding_status": "definitive",
+  "amount_wording": "In addition, NVIDIA will invest $3 billion in Meta's equity offering.",
+  "headline_value": 3000000000,
+  "conditions": "Release does not say whether a definitive agreement was signed, the security, price or closing date",
+  "counterparty_commitment": "Meta intends to expand deployment of NVIDIA Vera Rubin and Vera CPUs, Spectrum-X and BlueField-4 (no volume stated)",
+  "evidence": [
+   "ev_30076",
+   "ev_30077"
+  ]
+ },
+ {
+  "date": "2026-10-21",
+  "counterparty": "King Yuan Electronics (KYEC)",
+  "title": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+  "type_guess": "PP",
+  "binding_status": "definitive",
+  "amount_wording": "NVIDIA's $1.1 billion capacity reservation advance to KYEC will support new U.S. testing facilities",
+  "headline_value": 1100000000,
+  "conditions": "Advance against reserved capacity; high-volume production targeted April 2027",
+  "counterparty_commitment": "New U.S. testing facilities and equipment for NVIDIA",
+  "evidence": [
+   "ev_30062"
+  ]
+ },
+ {
+  "date": "2026-10-21",
+  "counterparty": "IBIDEN",
+  "title": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+  "type_guess": "PP",
+  "binding_status": "definitive",
+  "amount_wording": "NVIDIA is providing a multibillion-dollar capacity reservation advance to support IBIDEN's Ono Plant",
+  "headline_value": null,
+  "conditions": "Agreement 'signed and announced earlier this year by IBIDEN'; amount unquantified",
+  "counterparty_commitment": "Ono Plant capacity to 3x current levels; ramp from Q1 2028",
+  "evidence": [
+   "ev_30063"
+  ]
+ },
+ {
+  "date": "2026-10-21",
+  "counterparty": "Unimicron Technology",
+  "title": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+  "type_guess": "PP",
+  "binding_status": "definitive",
+  "amount_wording": "NVIDIA is supporting Unimicron's KF substrate manufacturing expansion in Taiwan with a capacity reservation agreement",
+  "headline_value": null,
+  "conditions": "No amount; release does not say whether any advance is paid",
+  "counterparty_commitment": "Capacity additions from Q2 2027, full by mid-2028",
+  "evidence": [
+   "ev_30064"
+  ]
+ },
+ {
+  "date": "2026-09-02",
+  "counterparty": "Hugging Face",
+  "title": "NVIDIA Form 8-K (Item 8.01) and blog 'NVIDIA to Acquire Hugging Face'",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
+  "type_guess": "LI",
+  "binding_status": "definitive",
+  "amount_wording": "approximately $11.9 billion purchase price ... and an equity-based retention program of up to approximately $1.0 billion (8-K); 'agreed to acquire Hugging Face for $12,930,300,000' (blog)",
+  "headline_value": 12930300000,
+  "conditions": "Full acquisition, not credit exposure. Expected close H1 2027, subject to regulatory approvals. Blog total ($12.93B) differs from 8-K components (~$11.9B + up to ~$1.0B).",
+  "counterparty_commitment": "NVIDIA commits to keep Hugging Face platform open and support other silicon vendors",
+  "evidence": [
+   "ev_30080",
+   "ev_30081",
+   "ev_30082",
+   "ev_30083",
+   "ev_30079"
+  ]
+ },
+ {
+  "date": "2026-08-17",
+  "counterparty": "SB Energy (lessor); OpenAI (tenant)",
+  "title": "NVIDIA Form 8-K Items 1.01/2.03 and press release 'NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio'",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+  "type_guess": "GU",
+  "binding_status": "definitive",
+  "amount_wording": "NVIDIA's aggregate payment obligation is cumulatively capped at $105 billion for its initial commitment under the Agreements",
+  "headline_value": 105000000000,
+  "conditions": "Residual value guaranties on leases for ~4.25 GW IT load; each effective at lease commencement / building ready-for-service (first expected 2028, fiscal 2029); trigger = OpenAI insolvency default or payment failure; NVIDIA pays shortfall vs guaranteed minimum value after reletting/sale; ends at earliest of 20 years from lease commencement, OpenAI lease termination, OpenAI achieving satisfactory credit rating; OpenAI to reimburse and indemnify NVIDIA. Option for ~3.8 GW more (8-K) / 3.75 IT-GW (press release). No payments made to date (Q3 FY27).",
+  "counterparty_commitment": "OpenAI tenant under 20-year leases, to deploy NVIDIA DSX platform on ~4.25 GW; SB Energy builds/owns/operates; campus exclusive to NVIDIA compute",
+  "evidence": [
+   "ev_30001",
+   "ev_30002",
+   "ev_30003",
+   "ev_30004",
+   "ev_30005",
+   "ev_30006",
+   "ev_30007",
+   "ev_30008",
+   "ev_30009",
+   "ev_30011",
+   "ev_30012",
+   "ev_30023",
+   "ev_30024",
+   "ev_30027",
+   "ev_30028"
+  ]
+ },
+ {
+  "date": "2026-08-17",
+  "counterparty": "SB Energy",
+  "title": "NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute (Ex. 99.1)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm",
+  "type_guess": "EQ",
+  "binding_status": "definitive",
+  "amount_wording": "NVIDIA will invest $1.5 billion in SB Energy, joining existing investors SoftBank Group and OpenAI",
+  "headline_value": 1500000000,
+  "conditions": "No price, security or closing terms stated; summary says 'invest $1.5B in SB Energy now'",
+  "counterparty_commitment": "SB Energy/SoftBank to build >=10 GW generation and invest >=$4.2B in grid infrastructure",
+  "evidence": [
+   "ev_30010"
+  ]
+ },
+ {
+  "date": "2026-08-10",
+  "counterparty": "Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR (financing platforms)",
+  "title": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+  "type_guess": "GU",
+  "binding_status": "loi_or_framework",
+  "amount_wording": "to mobilize over $500 billion of third-party capital (MOUs); blog: 'NVIDIA may provide a residual-value support mechanism for up to 25% of an opportunity'",
+  "headline_value": null,
+  "conditions": "Memorandums of understanding; 'remain subject to execution of the final agreements'. $500B is third-party capital, not NVIDIA's. NVIDIA residual-value support up to 25% per opportunity, project by project.",
+  "counterparty_commitment": "Financial institutions to create dedicated pools of capital for NVIDIA customers",
+  "evidence": [
+   "ev_30014",
+   "ev_30015",
+   "ev_30016",
+   "ev_30013"
+  ]
+ },
+ {
+  "date": "2026-08-10",
+  "counterparty": "Helix Digital Infrastructure (KKR)",
+  "title": "NVIDIA Partners With Apollo, BlackRock, ... KKR (KKR quote)",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+  "type_guess": "EQ-SPV",
+  "binding_status": "completed",
+  "amount_wording": "NVIDIA, a founding investor in Helix Digital Infrastructure",
+  "headline_value": null,
+  "conditions": "Stated only in a KKR executive quote; no amount, date or form",
+  "counterparty_commitment": "None stated",
+  "evidence": [
+   "ev_30017"
+  ]
+ },
+ {
+  "date": "2026-07-27",
+  "counterparty": "Safe Superintelligence Inc. (SSI)",
+  "title": "Ilya Sutskever's Safe Superintelligence Inc. and NVIDIA Announce Long-Term Strategic Partnership",
+  "url": "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership",
+  "type_guess": "EQ",
+  "binding_status": "completed",
+  "amount_wording": "NVIDIA has additionally made an investment in SSI ... NVIDIA's substantial investment",
+  "headline_value": null,
+  "conditions": "Amount not disclosed",
+  "counterparty_commitment": "SSI to use NVIDIA Vera Rubin platform to increase compute by an order of magnitude",
+  "evidence": [
+   "ev_30059",
+   "ev_30060"
+  ]
+ },
+ {
+  "date": "2026-07-24",
+  "counterparty": "NAVER Corp.",
+  "title": "NAVER, NVIDIA and Brookfield to Expand Korea's National AI Factory Infrastructure Buildout",
+  "url": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout",
+  "type_guess": "EQ-C",
+  "binding_status": "loi_or_framework",
+  "amount_wording": "NVIDIA plans to invest $1 billion into NAVER Corp.",
+  "headline_value": 1000000000,
+  "conditions": "Subject to customary closing conditions and NAVER finalizing at least $9B of committed project financing; Brookfield only has a nonbinding term sheet for up to $9B",
+  "counterparty_commitment": "Expand GAK Sejong NVIDIA DSX AI factory from 55 MW to 200 MW by 2028; intends 1 GW",
+  "evidence": [
+   "ev_30072",
+   "ev_30075",
+   "ev_30073"
+  ]
+ },
+ {
+  "date": "2026-07-24",
+  "counterparty": "Brookfield Global AI Infrastructure Program",
+  "title": "NAVER, NVIDIA and Brookfield to Expand Korea's National AI Factory Infrastructure Buildout",
+  "url": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout",
+  "type_guess": "EQ-SPV",
+  "binding_status": "completed",
+  "amount_wording": "NVIDIA's participation as a founding partner in the Brookfield Global AI Infrastructure Program",
+  "headline_value": null,
+  "conditions": "No amount or form (possibly an LP commitment); original program announcement not found on NVIDIA domains",
+  "counterparty_commitment": "None stated",
+  "evidence": [
+   "ev_30074"
+  ]
+ },
+ {
+  "date": "2026-05-07",
+  "counterparty": "IREN Limited",
+  "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+  "type_guess": "EQ-C",
+  "binding_status": "definitive",
+  "amount_wording": "IREN issued to NVIDIA a five-year right to purchase up to 30 million shares ... at an exercise price of $70 per share, resulting in a right to invest up to $2.1 billion",
+  "headline_value": 2100000000,
+  "conditions": "Right (option) at NVIDIA's election, 5 years, subject to certain conditions including regulatory; no obligation to invest stated",
+  "counterparty_commitment": "Companies 'intend to support' up to 5 GW NVIDIA DSX-aligned infrastructure over time; Sweetwater 2 GW flagship",
+  "evidence": [
+   "ev_30043",
+   "ev_30044",
+   "ev_30045",
+   "ev_30051"
+  ]
+ },
+ {
+  "date": "2026-03-31",
+  "counterparty": "Marvell Technology",
+  "title": "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-ai-ecosystem-expands-as-marvell-joins-forces-through-nvlink-fusion",
+  "type_guess": "EQ",
+  "binding_status": "completed",
+  "amount_wording": "In addition, NVIDIA has invested $2 billion in Marvell.",
+  "headline_value": 2000000000,
+  "conditions": "Security and price not stated",
+  "counterparty_commitment": "Marvell to provide custom XPUs/NVLink Fusion products; silicon photonics collaboration",
+  "evidence": [
+   "ev_30078"
+  ]
+ },
+ {
+  "date": "2026-03-11",
+  "counterparty": "Nebius Group",
+  "title": "NVIDIA and Nebius Partner to Scale Full-Stack AI Cloud",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-and-nebius-partner-to-scale-full-stack-ai-cloud",
+  "type_guess": "EQ",
+  "binding_status": "definitive",
+  "amount_wording": "NVIDIA will invest $2 billion in Nebius",
+  "headline_value": 2000000000,
+  "conditions": "No price, security or closing terms stated",
+  "counterparty_commitment": "Nebius to deploy more than 5 GW of NVIDIA systems by end of 2030",
+  "evidence": [
+   "ev_30052",
+   "ev_30061"
+  ]
+ },
+ {
+  "date": "2026-03-10",
+  "counterparty": "Thinking Machines Lab",
+  "title": "NVIDIA and Thinking Machines Lab Announce Long-Term Gigawatt-Scale Strategic Partnership",
+  "url": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/",
+  "type_guess": "EQ",
+  "binding_status": "completed",
+  "amount_wording": "NVIDIA has also made a significant investment in Thinking Machines Lab",
+  "headline_value": null,
+  "conditions": "Amount not disclosed",
+  "counterparty_commitment": "Deploy at least 1 GW of NVIDIA Vera Rubin systems (multiyear)",
+  "evidence": [
+   "ev_30057",
+   "ev_30058"
+  ]
+ },
+ {
+  "date": "2026-03-02",
+  "counterparty": "Lumentum Holdings",
+  "title": "NVIDIA Announces Strategic Partnership With Lumentum to Develop State-of-the-Art Optics Technology",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology",
+  "type_guess": "EQ",
+  "binding_status": "definitive",
+  "amount_wording": "NVIDIA is investing $2 billion in Lumentum to support R&D, future capacity and operations",
+  "headline_value": 2000000000,
+  "conditions": "Also 'an NVIDIA multibillion purchase commitment and future capacity access rights' (unquantified); price not stated",
+  "counterparty_commitment": "Build U.S. fab; supply advanced laser components with NVIDIA capacity access rights",
+  "evidence": [
+   "ev_30046",
+   "ev_30047"
+  ]
+ },
+ {
+  "date": "2026-03-02",
+  "counterparty": "Coherent Corp.",
+  "title": "NVIDIA and Coherent Announce Strategic Partnership to Develop Optics Technology to Scale Next-Generation Data Center Architecture",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture",
+  "type_guess": "EQ",
+  "binding_status": "definitive",
+  "amount_wording": "NVIDIA is investing $2 billion in Coherent to support research and development, future capacity and operations",
+  "headline_value": 2000000000,
+  "conditions": "Also 'an NVIDIA multibillion-dollar purchase commitment' (unquantified); price not stated",
+  "counterparty_commitment": "U.S. manufacturing build-out; future access and capacity rights for NVIDIA",
+  "evidence": [
+   "ev_30048",
+   "ev_30049"
+  ]
+ },
+ {
+  "date": "2026-01-26",
+  "counterparty": "CoreWeave",
+  "title": "NVIDIA and CoreWeave Strengthen Collaboration to Accelerate Buildout of AI Factories",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-and-coreweave-strengthen-collaboration-to-accelerate-buildout-of-ai-factories",
+  "type_guess": "EQ",
+  "binding_status": "completed",
+  "amount_wording": "NVIDIA has invested $2 billion in CoreWeave Class A common stock at a purchase price of $87.20 per share",
+  "headline_value": 2000000000,
+  "conditions": "Separately the companies 'intend to' leverage NVIDIA's financial strength to accelerate CoreWeave's procurement of land, power and shell (credit support, unquantified)",
+  "counterparty_commitment": "CoreWeave to build >5 GW of AI factories by 2030 on NVIDIA platforms",
+  "evidence": [
+   "ev_30053",
+   "ev_30054",
+   "ev_30055",
+   "ev_30056"
+  ]
+ },
+ {
+  "date": "2026-02-25",
+  "counterparty": "Groq, Inc.",
+  "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026 (Ex. 99.1 to 8-K)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm",
+  "type_guess": "LI",
+  "binding_status": "completed",
+  "amount_wording": "Entered into a non-exclusive licensing agreement with Groq; cash flow line 'Groq, Inc. (13,000)' (in millions) Q4 FY26 investing; '(2,944)' Q2 FY27 financing",
+  "headline_value": 13000000000,
+  "conditions": "Purchase of technology/talent, not credit exposure. No standalone NVIDIA press release found; deal signed Dec 2025 per searches of 10-K (R1 to confirm).",
+  "counterparty_commitment": "None stated",
+  "evidence": [
+   "ev_30030",
+   "ev_30029",
+   "ev_30032"
+  ]
+ },
+ {
+  "date": "2025-12-01",
+  "counterparty": "Synopsys",
+  "title": "NVIDIA and Synopsys Announce Strategic Partnership to Revolutionize Engineering and Design",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-and-synopsys-announce-strategic-partnership-to-revolutionize-engineering-and-design",
+  "type_guess": "EQ",
+  "binding_status": "completed",
+  "amount_wording": "NVIDIA invested $2 billion in Synopsys common stock at a purchase price of $414.79 per share",
+  "headline_value": 2000000000,
+  "conditions": "Stated in past tense (completed)",
+  "counterparty_commitment": "Engineering and marketing collaboration on GPU-accelerated engineering",
+  "evidence": [
+   "ev_30039",
+   "ev_30040"
+  ]
+ },
+ {
+  "date": "2025-11-18",
+  "counterparty": "Anthropic",
+  "title": "Microsoft, NVIDIA and Anthropic Announce Strategic Partnerships",
+  "url": "https://blogs.nvidia.com/blog/microsoft-nvidia-anthropic-announce-partnership/",
+  "type_guess": "EQ-C",
+  "binding_status": "loi_or_framework",
+  "amount_wording": "NVIDIA and Microsoft are committing to invest up to $10 billion and up to $5 billion respectively in Anthropic",
+  "headline_value": 10000000000,
+  "conditions": "'Up to'; no definitive agreement, tranche schedule or price described. Q4 FY26 results release calls it 'an investment' with no amount.",
+  "counterparty_commitment": "Anthropic to purchase $30B of Azure compute (Microsoft) and contract additional compute up to 1 GW; to adopt NVIDIA architecture",
+  "evidence": [
+   "ev_30050",
+   "ev_30041",
+   "ev_30042",
+   "ev_30031"
+  ]
+ },
+ {
+  "date": "2025-10-28",
+  "counterparty": "Nokia",
+  "title": "NVIDIA and Nokia to Pioneer the AI Platform for 6G",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-nokia-ai-telecommunications",
+  "type_guess": "EQ",
+  "binding_status": "definitive",
+  "amount_wording": "NVIDIA will also invest $1 billion in Nokia at a subscription price of $6.01 per share",
+  "headline_value": 1000000000,
+  "conditions": "Subject to customary closing conditions. No NVIDIA closing release found (Nokia 6-K reportedly states completion 13 Nov 2025: R2/R5 to confirm).",
+  "counterparty_commitment": "Add NVIDIA-powered AI-RAN products to Nokia RAN portfolio",
+  "evidence": [
+   "ev_30038",
+   "ev_30036",
+   "ev_30037"
+  ]
+ },
+ {
+  "date": "2025-09-22",
+  "counterparty": "OpenAI",
+  "title": "OpenAI and NVIDIA Announce Strategic Partnership to Deploy 10 Gigawatts of NVIDIA Systems",
+  "url": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
+  "type_guess": "EQ-C",
+  "binding_status": "loi_or_framework",
+  "amount_wording": "NVIDIA intends to invest up to $100 billion in OpenAI progressively as each gigawatt is deployed",
+  "headline_value": 100000000000,
+  "conditions": "Letter of intent; details to be finalized 'in the coming weeks'; investment tied to each gigawatt deployed; first GW H2 2026 on Vera Rubin. No NVIDIA release found announcing a definitive agreement; April 2026 blog restates 10 GW only.",
+  "counterparty_commitment": "OpenAI to deploy at least 10 GW of NVIDIA systems; NVIDIA as preferred strategic compute and networking partner",
+  "evidence": [
+   "ev_30021",
+   "ev_30018",
+   "ev_30019",
+   "ev_30020",
+   "ev_30022",
+   "ev_30092"
+  ]
+ },
+ {
+  "date": "2025-09-18",
+  "counterparty": "UK AI startup ecosystem (with Accel, Air Street Capital, Balderton, Hoxton Ventures, Phoenix Court)",
+  "title": "NVIDIA Announces £2 Billion Investment in the United Kingdom AI Startup Ecosystem",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-announces-investment-in-the-united-kingdom-ai-startup-ecosystem",
+  "type_guess": "EQ-C",
+  "binding_status": "loi_or_framework",
+  "amount_wording": "NVIDIA commits £2 billion to catalyze the U.K.'s AI startup ecosystem",
+  "headline_value": null,
+  "conditions": "GBP 2 billion (not converted); program, no named investees, terms or schedule",
+  "counterparty_commitment": "VC firms to join NVIDIA's investment (amounts not stated)",
+  "evidence": [
+   "ev_30084"
+  ]
+ },
+ {
+  "date": "2025-09-18",
+  "counterparty": "Intel",
+  "title": "NVIDIA and Intel to Develop AI Infrastructure and Personal Computing Products",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-and-intel-to-develop-ai-infrastructure-and-personal-computing-products",
+  "type_guess": "EQ",
+  "binding_status": "definitive",
+  "amount_wording": "NVIDIA will invest $5 billion in Intel's common stock at a purchase price of $23.28 per share",
+  "headline_value": 5000000000,
+  "conditions": "Subject to customary closing conditions including required regulatory approvals. Q4 FY26 CFO commentary reports gains on 'our previously announced investment in Intel's common stock' (analysis: implies closed by 25 Jan 2026).",
+  "counterparty_commitment": "Intel to build custom x86 CPUs for NVIDIA and x86 RTX SoCs",
+  "evidence": [
+   "ev_30033",
+   "ev_30034",
+   "ev_30035",
+   "ev_30089"
+  ]
+ }
+]

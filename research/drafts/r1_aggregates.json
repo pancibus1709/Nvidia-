@@ -1,0 +1,1933 @@
+{
+ "meta": {
+  "namespace": "r1a",
+  "cik": "0001045810",
+  "units": "USD (customer concentration values are percent)",
+  "generated": "2026-11-23",
+  "note": "null = not disclosed in that filing. Values are as quoted; fields named derived_*_analysis are arithmetic by the researcher."
+ },
+ "series": {
+  "non_marketable_equity": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 47898000000,
+    "evidence": "ev_10001",
+    "accession": "0001045810-26-000075"
+   },
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": 42336000000,
+    "evidence": "ev_10064",
+    "accession": "0001045810-26-000052"
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": 22251000000,
+    "evidence": "ev_10099",
+    "accession": "0001045810-26-000021"
+   },
+   {
+    "period_end": "2025-10-26",
+    "fiscal_period": "FY2026 Q3",
+    "value": 8187000000,
+    "evidence": "ev_10138",
+    "accession": "0001045810-25-000230"
+   },
+   {
+    "period_end": "2025-07-27",
+    "fiscal_period": "FY2026 Q2",
+    "value": 3799000000,
+    "evidence": "ev_10167",
+    "accession": "0001045810-25-000209"
+   },
+   {
+    "period_end": "2025-04-27",
+    "fiscal_period": "FY2026 Q1",
+    "value": 3240000000,
+    "evidence": "ev_10183",
+    "accession": "0001045810-25-000116"
+   },
+   {
+    "period_end": "2025-01-26",
+    "fiscal_period": "FY2025 Q4 (FY end)",
+    "value": 3387000000,
+    "evidence": "ev_10200",
+    "accession": "0001045810-25-000023"
+   },
+   {
+    "period_end": "2024-10-27",
+    "fiscal_period": "FY2025 Q3",
+    "value": 2237000000,
+    "evidence": "ev_10217",
+    "accession": "0001045810-24-000316"
+   },
+   {
+    "period_end": "2024-07-28",
+    "fiscal_period": "FY2025 Q2",
+    "value": 1819000000,
+    "evidence": "ev_10228",
+    "accession": "0001045810-24-000264"
+   },
+   {
+    "period_end": "2024-04-28",
+    "fiscal_period": "FY2025 Q1",
+    "value": 1463000000,
+    "evidence": "ev_10240",
+    "accession": "0001045810-24-000124"
+   },
+   {
+    "period_end": "2024-01-28",
+    "fiscal_period": "FY2024 Q4 (FY end)",
+    "value": 1321000000,
+    "evidence": "ev_10253",
+    "accession": "0001045810-24-000029"
+   },
+   {
+    "period_end": "2023-10-29",
+    "fiscal_period": "FY2024 Q3",
+    "value": 1019000000,
+    "evidence": "ev_10268",
+    "accession": "0001045810-23-000227",
+    "label": "Privately-held equity securities, Level 3"
+   },
+   {
+    "period_end": "2023-07-30",
+    "fiscal_period": "FY2024 Q2",
+    "value": 676000000,
+    "evidence": "ev_10280",
+    "accession": "0001045810-23-000175",
+    "label": "Privately-held equity securities, Level 3"
+   },
+   {
+    "period_end": "2023-04-30",
+    "fiscal_period": "FY2024 Q1",
+    "value": 496000000,
+    "evidence": "ev_10293",
+    "accession": "0001045810-23-000093",
+    "label": "Privately-held equity securities, Level 3"
+   },
+   {
+    "period_end": "2023-01-29",
+    "fiscal_period": "FY2023 Q4 (FY end)",
+    "value": 288000000,
+    "evidence": "ev_10304",
+    "accession": "0001045810-23-000017",
+    "label": "Privately-held equity securities, Level 3"
+   }
+  ],
+  "non_marketable_net_additions": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 13106000000,
+    "evidence": "ev_10002",
+    "accession": "0001045810-26-000075",
+    "period": "three months",
+    "six_month_value": 31005000000,
+    "six_month_evidence": "ev_10003"
+   },
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": 17899000000,
+    "evidence": "ev_10065",
+    "accession": "0001045810-26-000052"
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": 17444000000,
+    "evidence": "ev_10100",
+    "accession": "0001045810-26-000021",
+    "period": "fiscal year"
+   },
+   {
+    "period_end": "2025-10-26",
+    "fiscal_period": "FY2026 Q3",
+    "value": 3704000000,
+    "evidence": "ev_10139",
+    "accession": "0001045810-25-000230",
+    "nine_month_value": 4652000000,
+    "nine_month_evidence": "ev_10140"
+   },
+   {
+    "period_end": "2025-07-27",
+    "fiscal_period": "FY2026 Q2",
+    "value": 299000000,
+    "evidence": "ev_10168",
+    "accession": "0001045810-25-000209"
+   },
+   {
+    "period_end": "2025-04-27",
+    "fiscal_period": "FY2026 Q1",
+    "value": 649000000,
+    "evidence": "ev_10184",
+    "accession": "0001045810-25-000116"
+   },
+   {
+    "period_end": "2025-01-26",
+    "fiscal_period": "FY2025 Q4 (FY end)",
+    "value": 1309000000,
+    "evidence": "ev_10201",
+    "accession": "0001045810-25-000023",
+    "period": "fiscal year"
+   },
+   {
+    "period_end": "2024-10-27",
+    "fiscal_period": "FY2025 Q3",
+    "value": 409000000,
+    "evidence": "ev_10218",
+    "accession": "0001045810-24-000316"
+   },
+   {
+    "period_end": "2024-07-28",
+    "fiscal_period": "FY2025 Q2",
+    "value": 294000000,
+    "evidence": "ev_10229",
+    "accession": "0001045810-24-000264"
+   },
+   {
+    "period_end": "2024-04-28",
+    "fiscal_period": "FY2025 Q1",
+    "value": 127000000,
+    "evidence": "ev_10241",
+    "accession": "0001045810-24-000124"
+   },
+   {
+    "period_end": "2024-01-28",
+    "fiscal_period": "FY2024 Q4 (FY end)",
+    "value": 859000000,
+    "evidence": "ev_10254",
+    "accession": "0001045810-24-000029",
+    "period": "fiscal year"
+   }
+  ],
+  "non_marketable_cumulative_gross_unrealized_gains": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 9100000000.0,
+    "evidence": "ev_10008",
+    "accession": "0001045810-26-000075",
+    "cum_losses_impairments": 250000000,
+    "loss_evidence": "ev_10009"
+   },
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": 5300000000.0,
+    "evidence": "ev_10068",
+    "accession": "0001045810-26-000052",
+    "cum_losses_impairments": 199000000,
+    "loss_evidence": "ev_10069"
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": 2700000000.0,
+    "evidence": "ev_10104",
+    "accession": "0001045810-26-000021",
+    "cum_losses_impairments": 176000000,
+    "loss_evidence": "ev_10105"
+   },
+   {
+    "period_end": "2025-10-26",
+    "fiscal_period": "FY2026 Q3",
+    "value": 1400000000.0,
+    "evidence": "ev_10143",
+    "accession": "0001045810-25-000230",
+    "cum_losses_impairments": 167000000,
+    "loss_evidence": "ev_10144"
+   },
+   {
+    "period_end": "2025-07-27",
+    "fiscal_period": "FY2026 Q2",
+    "value": 661000000,
+    "evidence": "ev_10170",
+    "accession": "0001045810-25-000209",
+    "cum_losses_impairments": 93000000,
+    "loss_evidence": "ev_10171"
+   },
+   {
+    "period_end": "2025-04-27",
+    "fiscal_period": "FY2026 Q1",
+    "value": 396000000,
+    "evidence": "ev_10189",
+    "accession": "0001045810-25-000116",
+    "cum_losses_impairments": 110000000,
+    "loss_evidence": "ev_10190"
+   },
+   {
+    "period_end": "2025-01-26",
+    "fiscal_period": "FY2025 Q4 (FY end)",
+    "value": 1100000000.0,
+    "evidence": "ev_10203",
+    "accession": "0001045810-25-000023",
+    "cum_losses_impairments": 105000000,
+    "loss_evidence": "ev_10204"
+   },
+   {
+    "period_end": "2024-10-27",
+    "fiscal_period": "FY2025 Q3",
+    "value": 374000000,
+    "evidence": "ev_10219",
+    "accession": "0001045810-24-000316"
+   },
+   {
+    "period_end": "2024-07-28",
+    "fiscal_period": "FY2025 Q2",
+    "value": 362000000,
+    "evidence": "ev_10230",
+    "accession": "0001045810-24-000264"
+   },
+   {
+    "period_end": "2024-01-28",
+    "fiscal_period": "FY2024 Q4 (FY end)",
+    "value": 270000000,
+    "evidence": "ev_10256",
+    "accession": "0001045810-24-000029"
+   }
+  ],
+  "investments_in_non_affiliated_entities_other_assets": [
+   {
+    "period_end": "2024-04-28",
+    "fiscal_period": "FY2025 Q1",
+    "value": 1750000000,
+    "evidence": "ev_10243",
+    "accession": "0001045810-24-000124"
+   },
+   {
+    "period_end": "2024-01-28",
+    "fiscal_period": "FY2024 Q4 (FY end)",
+    "value": 1546000000,
+    "evidence": "ev_10258",
+    "accession": "0001045810-24-000029"
+   },
+   {
+    "period_end": "2023-10-29",
+    "fiscal_period": "FY2024 Q3",
+    "value": 1172000000,
+    "evidence": "ev_10270",
+    "accession": "0001045810-23-000227"
+   },
+   {
+    "period_end": "2023-07-30",
+    "fiscal_period": "FY2024 Q2",
+    "value": 800000000,
+    "evidence": "ev_10282",
+    "accession": "0001045810-23-000175"
+   },
+   {
+    "period_end": "2023-04-30",
+    "fiscal_period": "FY2024 Q1",
+    "value": 505000000,
+    "evidence": "ev_10295",
+    "accession": "0001045810-23-000093"
+   },
+   {
+    "period_end": "2023-01-29",
+    "fiscal_period": "FY2023 Q4 (FY end)",
+    "value": 299000000,
+    "evidence": "ev_10306",
+    "accession": "0001045810-23-000017"
+   }
+  ],
+  "marketable_equity": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 42783000000,
+    "evidence": "ev_10013",
+    "accession": "0001045810-26-000075",
+    "label": "Marketable equity securities (current, balance sheet)",
+    "long_term_portion_in_other_assets": 4957000000,
+    "long_term_evidence": "ev_10016",
+    "level1_fair_value": 36934000000,
+    "level1_evidence": "ev_10014",
+    "level2_fair_value_warrants_convertible_preferred": 10806000000,
+    "level2_evidence": "ev_10015",
+    "short_term_lockup": 36900000000.0,
+    "lockup_evidence": "ev_10017",
+    "derived_total_public_equity_analysis": 47740000000
+   },
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": 30237000000,
+    "evidence": "ev_10074",
+    "accession": "0001045810-26-000052",
+    "label": "Marketable equity securities (current, balance sheet)",
+    "long_term_portion_in_other_assets": 8900000000.0,
+    "long_term_evidence": "ev_10077",
+    "level1_fair_value": 29887000000,
+    "level1_evidence": "ev_10075",
+    "level2_fair_value_warrants_convertible_preferred": 9214000000,
+    "level2_evidence": "ev_10076",
+    "short_term_lockup": 27400000000.0,
+    "lockup_evidence": "ev_10078",
+    "derived_total_public_equity_analysis": 39101000000
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": 17726000000,
+    "evidence": "ev_10106",
+    "accession": "0001045810-26-000021",
+    "label": "Publicly-held equity securities, total fair value (12,886 current + 4,840 other assets)",
+    "long_term_portion_in_other_assets": 4800000000.0,
+    "long_term_evidence": "ev_10108",
+    "short_term_lockup": 10500000000.0,
+    "lockup_evidence": "ev_10107",
+    "issuer_named": "Intel (common stock), ev_10111"
+   },
+   {
+    "period_end": "2025-10-26",
+    "fiscal_period": "FY2026 Q3",
+    "value": 3869000000,
+    "evidence": "ev_10145",
+    "accession": "0001045810-25-000230"
+   },
+   {
+    "period_end": "2025-07-27",
+    "fiscal_period": "FY2026 Q2",
+    "value": 3199000000,
+    "evidence": "ev_10172",
+    "accession": "0001045810-25-000209",
+    "of_which_reclassified_investment_fv": 2800000000.0,
+    "of_which_evidence": "ev_10173"
+   },
+   {
+    "period_end": "2025-04-27",
+    "fiscal_period": "FY2026 Q1",
+    "value": 1251000000,
+    "evidence": "ev_10188",
+    "accession": "0001045810-25-000116",
+    "issuer_named": "CoreWeave, Inc., fair value $1 billion, ev_10187"
+   },
+   {
+    "period_end": "2025-01-26",
+    "fiscal_period": "FY2025 Q4 (FY end)",
+    "value": 381000000,
+    "evidence": "ev_10206",
+    "accession": "0001045810-25-000023"
+   },
+   {
+    "period_end": "2024-10-27",
+    "fiscal_period": "FY2025 Q3",
+    "value": 472000000,
+    "evidence": "ev_10220",
+    "accession": "0001045810-24-000316"
+   },
+   {
+    "period_end": "2024-07-28",
+    "fiscal_period": "FY2025 Q2",
+    "value": 419000000,
+    "evidence": "ev_10231",
+    "accession": "0001045810-24-000264"
+   },
+   {
+    "period_end": "2024-04-28",
+    "fiscal_period": "FY2025 Q1",
+    "value": 287000000,
+    "evidence": "ev_10242",
+    "accession": "0001045810-24-000124",
+    "label": "in Other assets (investments in non-affiliated entities)"
+   },
+   {
+    "period_end": "2024-01-28",
+    "fiscal_period": "FY2024 Q4 (FY end)",
+    "value": 225000000,
+    "evidence": "ev_10257",
+    "accession": "0001045810-24-000029",
+    "label": "in Other assets"
+   },
+   {
+    "period_end": "2023-10-29",
+    "fiscal_period": "FY2024 Q3",
+    "value": 153000000,
+    "evidence": "ev_10269",
+    "accession": "0001045810-23-000227",
+    "label": "in Other assets"
+   },
+   {
+    "period_end": "2023-07-30",
+    "fiscal_period": "FY2024 Q2",
+    "value": 124000000,
+    "evidence": "ev_10281",
+    "accession": "0001045810-23-000175",
+    "label": "in Other assets"
+   },
+   {
+    "period_end": "2023-04-30",
+    "fiscal_period": "FY2024 Q1",
+    "value": 9000000,
+    "evidence": "ev_10294",
+    "accession": "0001045810-23-000093",
+    "label": "in Other assets"
+   },
+   {
+    "period_end": "2023-01-29",
+    "fiscal_period": "FY2023 Q4 (FY end)",
+    "value": 11000000,
+    "evidence": "ev_10305",
+    "accession": "0001045810-23-000017",
+    "label": "in Other assets"
+   }
+  ],
+  "equity_method_investments": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 3300000000.0,
+    "evidence": "ev_10010",
+    "accession": "0001045810-26-000075",
+    "vie_max_loss_exposure": 4700000000.0,
+    "vie_evidence": "ev_10011",
+    "label": "infrastructure financiers; not primary beneficiary, not consolidated"
+   },
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": 1000000000.0,
+    "evidence": "ev_10070",
+    "accession": "0001045810-26-000052",
+    "max_loss_exposure": 2300000000.0,
+    "max_loss_evidence": "ev_10071",
+    "label": "infrastructure funds"
+   }
+  ],
+  "total_equity_investments_mdna": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 99000000000,
+    "evidence": "ev_10043",
+    "accession": "0001045810-26-000075",
+    "label": "equity investments (MD&A)"
+   }
+  ],
+  "investments_made_in_period": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 42404000000,
+    "evidence": "ev_10022",
+    "accession": "0001045810-26-000075",
+    "label": "cash purchases of equity securities (marketable + non-marketable), FY2027 H1"
+   },
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": 18600000000.0,
+    "evidence": "ev_10083",
+    "accession": "0001045810-26-000052",
+    "label": "private companies and infrastructure funds, FY2027 Q1",
+    "cash_purchases_non_marketable": 18582000000,
+    "cash_evidence": "ev_10081"
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": 17500000000.0,
+    "evidence": "ev_10114",
+    "accession": "0001045810-26-000021",
+    "label": "private companies and infrastructure funds, FY2026",
+    "cash_purchases_non_marketable": 17502000000,
+    "cash_evidence": "ev_10116"
+   }
+  ],
+  "equity_gains_in_income": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 7771000000,
+    "evidence": "ev_10020",
+    "accession": "0001045810-26-000075",
+    "label": "Gains from equity securities, net, Q2",
+    "h1_value": 23707000000,
+    "h1_evidence": "ev_10021"
+   },
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": 15929000000,
+    "evidence": "ev_10080",
+    "accession": "0001045810-26-000052",
+    "label": "Other income (expense), net, Q1 (mainly equity gains)"
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": 9022000000,
+    "evidence": "ev_10110",
+    "accession": "0001045810-26-000021",
+    "label": "Other income, net, FY2026"
+   }
+  ],
+  "cloud_service_agreements": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 29000000000,
+    "evidence": "ev_10030",
+    "accession": "0001045810-26-000075",
+    "schedule_by_fiscal_year": {
+     "rem_FY2027": 3000000000,
+     "FY2028": 8000000000,
+     "FY2029": 7000000000,
+     "FY2030": 6000000000,
+     "FY2031": 4000000000,
+     "FY2032+": 1000000000
+    },
+    "purpose": "R&D of open models (Nemotron, Cosmos, GR00T) and autonomous vehicle software"
+   },
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": 30000000000,
+    "evidence": "ev_10085",
+    "accession": "0001045810-26-000052",
+    "schedule_by_fiscal_year": {
+     "rem_FY2027": 6000000000,
+     "FY2028": 7000000000,
+     "FY2029": 7000000000,
+     "FY2030": 5000000000,
+     "FY2031": 3000000000,
+     "FY2032+": 2000000000
+    },
+    "schedule_evidence": "ev_10086"
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": 27000000000,
+    "evidence": "ev_10119",
+    "accession": "0001045810-26-000021",
+    "schedule_by_fiscal_year": {
+     "FY2027": 7000000000,
+     "FY2028": 6000000000,
+     "FY2029": 5000000000,
+     "FY2030": 5000000000,
+     "FY2031": 2000000000,
+     "FY2032+": 2000000000
+    },
+    "schedule_evidence": "ev_10120"
+   },
+   {
+    "period_end": "2025-10-26",
+    "fiscal_period": "FY2026 Q3",
+    "value": 26000000000,
+    "evidence": "ev_10151",
+    "accession": "0001045810-25-000230",
+    "schedule_by_fiscal_year": {
+     "FY2026_Q4": 1000000000,
+     "FY2027": 6000000000,
+     "FY2028": 6000000000,
+     "FY2029": 5000000000,
+     "FY2030": 4000000000,
+     "FY2031+": 4000000000
+    },
+    "schedule_evidence": "ev_10152",
+    "purpose": "R&D and DGX Cloud offerings"
+   },
+   {
+    "period_end": "2025-07-27",
+    "fiscal_period": "FY2026 Q2",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-25-000209",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2025-04-27",
+    "fiscal_period": "FY2026 Q1",
+    "value": 10600000000.0,
+    "evidence": "ev_10195",
+    "accession": "0001045810-25-000116"
+   },
+   {
+    "period_end": "2025-01-26",
+    "fiscal_period": "FY2025 Q4 (FY end)",
+    "value": 10900000000.0,
+    "evidence": "ev_10212",
+    "accession": "0001045810-25-000023"
+   },
+   {
+    "period_end": "2024-10-27",
+    "fiscal_period": "FY2025 Q3",
+    "value": 11300000000.0,
+    "evidence": "ev_10225",
+    "accession": "0001045810-24-000316"
+   },
+   {
+    "period_end": "2024-07-28",
+    "fiscal_period": "FY2025 Q2",
+    "value": 9800000000.0,
+    "evidence": "ev_10236",
+    "accession": "0001045810-24-000264"
+   },
+   {
+    "period_end": "2024-04-28",
+    "fiscal_period": "FY2025 Q1",
+    "value": 8800000000.0,
+    "evidence": "ev_10248",
+    "accession": "0001045810-24-000124"
+   },
+   {
+    "period_end": "2024-01-28",
+    "fiscal_period": "FY2024 Q4 (FY end)",
+    "value": 3500000000.0,
+    "evidence": "ev_10263",
+    "accession": "0001045810-24-000029"
+   },
+   {
+    "period_end": "2023-10-29",
+    "fiscal_period": "FY2024 Q3",
+    "value": 3600000000.0,
+    "evidence": "ev_10276",
+    "accession": "0001045810-23-000227"
+   },
+   {
+    "period_end": "2023-07-30",
+    "fiscal_period": "FY2024 Q2",
+    "value": 3500000000.0,
+    "evidence": "ev_10288",
+    "accession": "0001045810-23-000175"
+   },
+   {
+    "period_end": "2023-04-30",
+    "fiscal_period": "FY2024 Q1",
+    "value": 2430000000.0,
+    "evidence": "ev_10300",
+    "accession": "0001045810-23-000093"
+   },
+   {
+    "period_end": "2023-01-29",
+    "fiscal_period": "FY2023 Q4 (FY end)",
+    "value": 2230000000.0,
+    "evidence": "ev_10311",
+    "accession": "0001045810-23-000017"
+   }
+  ],
+  "ai_cloud_agreements": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 36000000000,
+    "evidence": "ev_10035",
+    "accession": "0001045810-26-000075",
+    "schedule_by_fiscal_year": {
+     "rem_FY2027": 0,
+     "FY2028": 6000000000,
+     "FY2029": 8000000000,
+     "FY2030": 7000000000,
+     "FY2031": 6000000000,
+     "FY2032+": 9000000000
+    },
+    "schedule_evidence": "ev_10036",
+    "terms": "typically six years; AI clouds can unilaterally stop providing to Nvidia and sell to third parties; commitment decreases as capacity used by third parties or Nvidia; revenue share if criteria met",
+    "terms_evidence": "ev_10039"
+   }
+  ],
+  "purchase_obligations": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 279000000000,
+    "evidence": "ev_10029",
+    "accession": "0001045810-26-000075",
+    "label": "Supply and capacity",
+    "schedule_by_fiscal_year": {
+     "rem_FY2027": 92000000000,
+     "FY2028": 87000000000,
+     "FY2029": 88000000000,
+     "FY2030": 6000000000,
+     "FY2031": 5000000000,
+     "FY2032+": 1000000000
+    },
+    "schedule_evidence": "ev_10097"
+   },
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": 119000000000,
+    "evidence": "ev_10084",
+    "accession": "0001045810-26-000052",
+    "label": "Manufacturing, supply, and capacity commitments; $95B in rem. FY2027"
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": 95200000000.0,
+    "evidence": "ev_10118",
+    "accession": "0001045810-26-000021",
+    "label": "Manufacturing, supply, and capacity commitments"
+   },
+   {
+    "period_end": "2025-10-26",
+    "fiscal_period": "FY2026 Q3",
+    "value": 50300000000.0,
+    "evidence": "ev_10150",
+    "accession": "0001045810-25-000230",
+    "label": "Manufacturing production, long-term supply and capacity commitments"
+   },
+   {
+    "period_end": "2025-07-27",
+    "fiscal_period": "FY2026 Q2",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-25-000209",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2025-04-27",
+    "fiscal_period": "FY2026 Q1",
+    "value": 29800000000.0,
+    "evidence": "ev_10193",
+    "accession": "0001045810-25-000116"
+   },
+   {
+    "period_end": "2025-01-26",
+    "fiscal_period": "FY2025 Q4 (FY end)",
+    "value": 30800000000.0,
+    "evidence": "ev_10210",
+    "accession": "0001045810-25-000023"
+   },
+   {
+    "period_end": "2024-10-27",
+    "fiscal_period": "FY2025 Q3",
+    "value": 28900000000.0,
+    "evidence": "ev_10223",
+    "accession": "0001045810-24-000316"
+   },
+   {
+    "period_end": "2024-07-28",
+    "fiscal_period": "FY2025 Q2",
+    "value": 27800000000.0,
+    "evidence": "ev_10234",
+    "accession": "0001045810-24-000264"
+   },
+   {
+    "period_end": "2024-04-28",
+    "fiscal_period": "FY2025 Q1",
+    "value": 18800000000.0,
+    "evidence": "ev_10246",
+    "accession": "0001045810-24-000124"
+   },
+   {
+    "period_end": "2024-01-28",
+    "fiscal_period": "FY2024 Q4 (FY end)",
+    "value": 16100000000.000002,
+    "evidence": "ev_10261",
+    "accession": "0001045810-24-000029"
+   },
+   {
+    "period_end": "2023-10-29",
+    "fiscal_period": "FY2024 Q3",
+    "value": 17110000000.0,
+    "evidence": "ev_10274",
+    "accession": "0001045810-23-000227"
+   },
+   {
+    "period_end": "2023-07-30",
+    "fiscal_period": "FY2024 Q2",
+    "value": 11150000000.0,
+    "evidence": "ev_10286",
+    "accession": "0001045810-23-000175"
+   },
+   {
+    "period_end": "2023-04-30",
+    "fiscal_period": "FY2024 Q1",
+    "value": 7270000000.0,
+    "evidence": "ev_10298",
+    "accession": "0001045810-23-000093"
+   },
+   {
+    "period_end": "2023-01-29",
+    "fiscal_period": "FY2023 Q4 (FY end)",
+    "value": 4920000000.0,
+    "evidence": "ev_10308",
+    "accession": "0001045810-23-000017",
+    "note": "inclusive of $810M unpaid under prepaid long-term supply agreements",
+    "unpaid_evidence": "ev_10309"
+   }
+  ],
+  "total_commitments": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 366000000000,
+    "evidence": "ev_10034",
+    "accession": "0001045810-26-000075",
+    "label": "Total future commitments, main table (supply 279 + cloud 29 + DC leases 25 + equity investments 25 + capex 8)",
+    "additional_commitments_total": 56000000000,
+    "additional_evidence": "ev_10038"
+   },
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-26-000052",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-26-000021",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2025-10-26",
+    "fiscal_period": "FY2026 Q3",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-25-000230",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2025-07-27",
+    "fiscal_period": "FY2026 Q2",
+    "value": 45774000000,
+    "evidence": "ev_10177",
+    "accession": "0001045810-25-000209",
+    "label": "Total future commitments (includes investments and cloud service agreements, not broken out)",
+    "definition_evidence": "ev_10179"
+   },
+   {
+    "period_end": "2025-04-27",
+    "fiscal_period": "FY2026 Q1",
+    "value": 43520000000,
+    "evidence": "ev_10196",
+    "accession": "0001045810-25-000116"
+   },
+   {
+    "period_end": "2025-01-26",
+    "fiscal_period": "FY2025 Q4 (FY end)",
+    "value": 45079000000,
+    "evidence": "ev_10213",
+    "accession": "0001045810-25-000023"
+   },
+   {
+    "period_end": "2024-10-27",
+    "fiscal_period": "FY2025 Q3",
+    "value": 42044000000,
+    "evidence": "ev_10226",
+    "accession": "0001045810-24-000316"
+   },
+   {
+    "period_end": "2024-07-28",
+    "fiscal_period": "FY2025 Q2",
+    "value": 39781000000,
+    "evidence": "ev_10237",
+    "accession": "0001045810-24-000264"
+   },
+   {
+    "period_end": "2024-04-28",
+    "fiscal_period": "FY2025 Q1",
+    "value": 29373000000,
+    "evidence": "ev_10249",
+    "accession": "0001045810-24-000124"
+   },
+   {
+    "period_end": "2024-01-28",
+    "fiscal_period": "FY2024 Q4 (FY end)",
+    "value": 20707000000,
+    "evidence": "ev_10264",
+    "accession": "0001045810-24-000029"
+   },
+   {
+    "period_end": "2023-10-29",
+    "fiscal_period": "FY2024 Q3",
+    "value": 21540000000,
+    "evidence": "ev_10277",
+    "accession": "0001045810-23-000227"
+   },
+   {
+    "period_end": "2023-07-30",
+    "fiscal_period": "FY2024 Q2",
+    "value": 15460000000,
+    "evidence": "ev_10289",
+    "accession": "0001045810-23-000175"
+   },
+   {
+    "period_end": "2023-04-30",
+    "fiscal_period": "FY2024 Q1",
+    "value": 10527000000,
+    "evidence": "ev_10301",
+    "accession": "0001045810-23-000093"
+   },
+   {
+    "period_end": "2023-01-29",
+    "fiscal_period": "FY2023 Q4 (FY end)",
+    "value": 8063000000,
+    "evidence": "ev_10312",
+    "accession": "0001045810-23-000017"
+   }
+  ],
+  "other_non_inventory_obligations": [
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": 6000000000,
+    "evidence": "ev_10087",
+    "accession": "0001045810-26-000052",
+    "label": "Other vendor commitments"
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": 3400000000.0,
+    "evidence": "ev_10122",
+    "accession": "0001045810-26-000021",
+    "label": "Other commitments"
+   },
+   {
+    "period_end": "2025-10-26",
+    "fiscal_period": "FY2026 Q3",
+    "value": 2100000000.0,
+    "evidence": "ev_10158",
+    "accession": "0001045810-25-000230",
+    "label": "Other commitments"
+   },
+   {
+    "period_end": "2025-07-27",
+    "fiscal_period": "FY2026 Q2",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-25-000209",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2025-04-27",
+    "fiscal_period": "FY2026 Q1",
+    "value": 13700000000.0,
+    "evidence": "ev_10194",
+    "accession": "0001045810-25-000116"
+   },
+   {
+    "period_end": "2025-01-26",
+    "fiscal_period": "FY2025 Q4 (FY end)",
+    "value": 14300000000.0,
+    "evidence": "ev_10211",
+    "accession": "0001045810-25-000023"
+   },
+   {
+    "period_end": "2024-10-27",
+    "fiscal_period": "FY2025 Q3",
+    "value": 13200000000.0,
+    "evidence": "ev_10224",
+    "accession": "0001045810-24-000316"
+   },
+   {
+    "period_end": "2024-07-28",
+    "fiscal_period": "FY2025 Q2",
+    "value": 12000000000.0,
+    "evidence": "ev_10235",
+    "accession": "0001045810-24-000264"
+   },
+   {
+    "period_end": "2024-04-28",
+    "fiscal_period": "FY2025 Q1",
+    "value": 10600000000.0,
+    "evidence": "ev_10247",
+    "accession": "0001045810-24-000124"
+   },
+   {
+    "period_end": "2024-01-28",
+    "fiscal_period": "FY2024 Q4 (FY end)",
+    "value": 4600000000.0,
+    "evidence": "ev_10262",
+    "accession": "0001045810-24-000029"
+   },
+   {
+    "period_end": "2023-10-29",
+    "fiscal_period": "FY2024 Q3",
+    "value": 4430000000.0,
+    "evidence": "ev_10275",
+    "accession": "0001045810-23-000227"
+   },
+   {
+    "period_end": "2023-07-30",
+    "fiscal_period": "FY2024 Q2",
+    "value": 4310000000.0,
+    "evidence": "ev_10287",
+    "accession": "0001045810-23-000175"
+   },
+   {
+    "period_end": "2023-04-30",
+    "fiscal_period": "FY2024 Q1",
+    "value": 3260000000.0,
+    "evidence": "ev_10299",
+    "accession": "0001045810-23-000093"
+   },
+   {
+    "period_end": "2023-01-29",
+    "fiscal_period": "FY2023 Q4 (FY end)",
+    "value": 3140000000.0,
+    "evidence": "ev_10310",
+    "accession": "0001045810-23-000017"
+   }
+  ],
+  "prepaid_supply": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-26-000075",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-26-000052",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-26-000021",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2025-10-26",
+    "fiscal_period": "FY2026 Q3",
+    "value": 1536000000,
+    "evidence": "ev_10147",
+    "accession": "0001045810-25-000230",
+    "short_term": 2000000000.0,
+    "short_term_evidence": "ev_10148"
+   },
+   {
+    "period_end": "2025-07-27",
+    "fiscal_period": "FY2026 Q2",
+    "value": 1776000000,
+    "evidence": "ev_10175",
+    "accession": "0001045810-25-000209",
+    "short_term": 1800000000.0,
+    "short_term_evidence": "ev_10176"
+   },
+   {
+    "period_end": "2025-04-27",
+    "fiscal_period": "FY2026 Q1",
+    "value": 2079000000,
+    "evidence": "ev_10191",
+    "accession": "0001045810-25-000116",
+    "short_term": 2100000000.0,
+    "short_term_evidence": "ev_10192"
+   },
+   {
+    "period_end": "2025-01-26",
+    "fiscal_period": "FY2025 Q4 (FY end)",
+    "value": 1747000000,
+    "evidence": "ev_10208",
+    "accession": "0001045810-25-000023",
+    "short_term": 3300000000.0,
+    "short_term_evidence": "ev_10209"
+   },
+   {
+    "period_end": "2024-10-27",
+    "fiscal_period": "FY2025 Q3",
+    "value": 2041000000,
+    "evidence": "ev_10221",
+    "accession": "0001045810-24-000316",
+    "short_term": 3200000000.0,
+    "short_term_evidence": "ev_10222"
+   },
+   {
+    "period_end": "2024-07-28",
+    "fiscal_period": "FY2025 Q2",
+    "value": 1313000000,
+    "evidence": "ev_10232",
+    "accession": "0001045810-24-000264",
+    "short_term": 3300000000.0,
+    "short_term_evidence": "ev_10233"
+   },
+   {
+    "period_end": "2024-04-28",
+    "fiscal_period": "FY2025 Q1",
+    "value": 2232000000,
+    "evidence": "ev_10244",
+    "accession": "0001045810-24-000124",
+    "short_term": 3300000000.0,
+    "short_term_evidence": "ev_10245"
+   },
+   {
+    "period_end": "2024-01-28",
+    "fiscal_period": "FY2024 Q4 (FY end)",
+    "value": 2458000000,
+    "evidence": "ev_10259",
+    "accession": "0001045810-24-000029",
+    "short_term": 2500000000.0,
+    "short_term_evidence": "ev_10260"
+   },
+   {
+    "period_end": "2023-10-29",
+    "fiscal_period": "FY2024 Q3",
+    "value": 2927000000,
+    "evidence": "ev_10271",
+    "accession": "0001045810-23-000227",
+    "short_term": 743000000,
+    "short_term_evidence": "ev_10272"
+   },
+   {
+    "period_end": "2023-07-30",
+    "fiscal_period": "FY2024 Q2",
+    "value": 3008000000,
+    "evidence": "ev_10283",
+    "accession": "0001045810-23-000175",
+    "short_term": 799000000,
+    "short_term_evidence": "ev_10284"
+   },
+   {
+    "period_end": "2023-04-30",
+    "fiscal_period": "FY2024 Q1",
+    "value": 3002000000,
+    "evidence": "ev_10296",
+    "accession": "0001045810-23-000093",
+    "short_term": null
+   },
+   {
+    "period_end": "2023-01-29",
+    "fiscal_period": "FY2023 Q4 (FY end)",
+    "value": 2989000000,
+    "evidence": "ev_10307",
+    "accession": "0001045810-23-000017",
+    "short_term": 458000000,
+    "short_term_evidence": "ev_10323"
+   }
+  ],
+  "prepaid_cloud_services": [
+   {
+    "period_end": "2023-10-29",
+    "fiscal_period": "FY2024 Q3",
+    "value": 60000000,
+    "evidence": "ev_10273",
+    "accession": "0001045810-23-000227"
+   },
+   {
+    "period_end": "2023-07-30",
+    "fiscal_period": "FY2024 Q2",
+    "value": 170000000,
+    "evidence": "ev_10285",
+    "accession": "0001045810-23-000175"
+   },
+   {
+    "period_end": "2023-04-30",
+    "fiscal_period": "FY2024 Q1",
+    "value": 171000000,
+    "evidence": "ev_10297",
+    "accession": "0001045810-23-000093"
+   }
+  ],
+  "investment_commitments": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 25000000000,
+    "evidence": "ev_10032",
+    "accession": "0001045810-26-000075",
+    "schedule_by_fiscal_year": {
+     "rem_FY2027": 18000000000,
+     "FY2028": 3000000000,
+     "FY2029": 2000000000,
+     "FY2030": 2000000000
+    },
+    "conditions": "equity investments in AI model makers, infrastructure financiers, and other private companies, subject to certain contingencies",
+    "mdna_evidence": "ev_10044"
+   },
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": 27000000000,
+    "evidence": "ev_10072",
+    "accession": "0001045810-26-000052",
+    "conditions": "subject to certain contingencies, expected through remainder of FY2027"
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": 11400000000.0,
+    "evidence": "ev_10121",
+    "accession": "0001045810-26-000021",
+    "conditions": "subject to certain contingencies, substantially all through FY2027"
+   },
+   {
+    "period_end": "2025-10-26",
+    "fiscal_period": "FY2026 Q3",
+    "value": 6500000000.0,
+    "evidence": "ev_10154",
+    "accession": "0001045810-25-000230",
+    "of_which": "Intel Corporation $5B subject to regulatory approval",
+    "of_which_evidence": "ev_10155",
+    "post_period": "Nov 2025 agreement to invest up to $10B in Anthropic (ev_10157); Q3 letter of intent with an opportunity to invest in OpenAI, no amount (ev_10156)"
+   },
+   {
+    "period_end": "2025-07-27",
+    "fiscal_period": "FY2026 Q2",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-25-000209",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2025-04-27",
+    "fiscal_period": "FY2026 Q1",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-25-000116",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2025-01-26",
+    "fiscal_period": "FY2025 Q4 (FY end)",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-25-000023",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2024-10-27",
+    "fiscal_period": "FY2025 Q3",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-24-000316",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2024-07-28",
+    "fiscal_period": "FY2025 Q2",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-24-000264",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2024-04-28",
+    "fiscal_period": "FY2025 Q1",
+    "value": 1200000000.0,
+    "evidence": "ev_10250",
+    "accession": "0001045810-24-000124",
+    "label": "commitments to complete business combinations and acquire land and buildings (not equity investments)"
+   },
+   {
+    "period_end": "2024-01-28",
+    "fiscal_period": "FY2024 Q4 (FY end)",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-24-000029",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2023-10-29",
+    "fiscal_period": "FY2024 Q3",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-23-000227",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2023-07-30",
+    "fiscal_period": "FY2024 Q2",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-23-000175",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2023-04-30",
+    "fiscal_period": "FY2024 Q1",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-23-000093",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2023-01-29",
+    "fiscal_period": "FY2023 Q4 (FY end)",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-23-000017",
+    "note": "not disclosed in this filing"
+   }
+  ],
+  "guarantees": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 3500000000.0,
+    "evidence": "ev_10042",
+    "accession": "0001045810-26-000075",
+    "label": "Land, power, and shell guarantees for AI clouds, max gross exposure (notional $3,529M)",
+    "notional_evidence": "ev_10025",
+    "escrow": 712000000,
+    "escrow_evidence": "ev_10028",
+    "post_period_sb_energy_cap": 105000000000,
+    "sb_energy_evidence": "ev_10040",
+    "total_incl_sb_energy": 108500000000.0,
+    "total_evidence": "ev_10041"
+   },
+   {
+    "period_end": "2026-04-26",
+    "fiscal_period": "FY2027 Q1",
+    "value": 3500000000.0,
+    "evidence": "ev_10088",
+    "accession": "0001045810-26-000052",
+    "escrow": 712000000,
+    "escrow_evidence": "ev_10089"
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": 3500000000.0,
+    "evidence": "ev_10123",
+    "accession": "0001045810-26-000021",
+    "escrow": 712000000,
+    "escrow_evidence": "ev_10124"
+   },
+   {
+    "period_end": "2025-10-26",
+    "fiscal_period": "FY2026 Q3",
+    "value": 860000000,
+    "evidence": "ev_10159",
+    "accession": "0001045810-25-000230",
+    "escrow": 470000000,
+    "escrow_evidence": "ev_10160",
+    "note": "first facility lease guarantee, in exchange for warrants"
+   },
+   {
+    "period_end": "2025-07-27",
+    "fiscal_period": "FY2026 Q2",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-25-000209",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2025-04-27",
+    "fiscal_period": "FY2026 Q1",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-25-000116",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2025-01-26",
+    "fiscal_period": "FY2025 Q4 (FY end)",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-25-000023",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2024-10-27",
+    "fiscal_period": "FY2025 Q3",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-24-000316",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2024-07-28",
+    "fiscal_period": "FY2025 Q2",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-24-000264",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2024-04-28",
+    "fiscal_period": "FY2025 Q1",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-24-000124",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2024-01-28",
+    "fiscal_period": "FY2024 Q4 (FY end)",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-24-000029",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2023-10-29",
+    "fiscal_period": "FY2024 Q3",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-23-000227",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2023-07-30",
+    "fiscal_period": "FY2024 Q2",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-23-000175",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2023-04-30",
+    "fiscal_period": "FY2024 Q1",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-23-000093",
+    "note": "not disclosed in this filing"
+   },
+   {
+    "period_end": "2023-01-29",
+    "fiscal_period": "FY2023 Q4 (FY end)",
+    "value": null,
+    "evidence": null,
+    "accession": "0001045810-23-000017",
+    "note": "not disclosed in this filing"
+   }
+  ],
+  "warrants_and_equity_derivatives": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 4800000000,
+    "evidence": "ev_10026",
+    "accession": "0001045810-26-000075",
+    "label": "Public company warrants notional",
+    "fair_value": 824000000,
+    "fair_value_evidence": "ev_10024",
+    "equity_forward_notional": 1000000000,
+    "equity_forward_evidence": "ev_10027"
+   }
+  ],
+  "data_center_leases_not_commenced": [
+   {
+    "period_end": "2026-07-26",
+    "fiscal_period": "FY2027 Q2",
+    "value": 25000000000,
+    "evidence": "ev_10031",
+    "accession": "0001045810-26-000075",
+    "third_party_leases_not_commenced": 20000000000,
+    "third_party_evidence": "ev_10037"
+   },
+   {
+    "period_end": "2026-01-25",
+    "fiscal_period": "FY2026 Q4 (FY end)",
+    "value": 22700000000.0,
+    "evidence": "ev_10126",
+    "accession": "0001045810-26-000021"
+   },
+   {
+    "period_end": "2025-01-26",
+    "fiscal_period": "FY2025 Q4 (FY end)",
+    "value": 7600000000.0,
+    "evidence": "ev_10214",
+    "accession": "0001045810-25-000023"
+   }
+  ]
+ },
+ "nvidia_financials": {
+  "as_of": "2026-07-26",
+  "fiscal_period": "FY2027 Q2",
+  "accession": "0001045810-26-000075",
+  "shareholders_equity": {
+   "value": 228984000000,
+   "evidence": "ev_10052",
+   "period_end": "2026-07-26"
+  },
+  "cash_and_securities": {
+   "cash_equivalents_and_marketable_debt": 56586000000,
+   "evidence": "ev_10053",
+   "marketable_equity_current": 42783000000,
+   "marketable_equity_evidence": "ev_10013",
+   "derived_total_incl_marketable_equity_analysis": 99369000000,
+   "period_end": "2026-07-26"
+  },
+  "fcf_ttm_components": [
+   {
+    "label": "CFO FY2026 (52 weeks to 2026-01-25)",
+    "value": 102718000000,
+    "sign": 1,
+    "evidence": "ev_10134"
+   },
+   {
+    "label": "CFO FY2027 H1 (to 2026-07-26)",
+    "value": 74421000000,
+    "sign": 1,
+    "evidence": "ev_10055"
+   },
+   {
+    "label": "CFO FY2026 H1 (to 2025-07-27)",
+    "value": 42779000000,
+    "sign": -1,
+    "evidence": "ev_10056"
+   },
+   {
+    "label": "Purchases related to property and equipment and intangible assets FY2026",
+    "value": 6042000000,
+    "sign": -1,
+    "evidence": "ev_10135"
+   },
+   {
+    "label": "Purchases related to PP&E and intangibles FY2027 H1",
+    "value": 4434000000,
+    "sign": -1,
+    "evidence": "ev_10057"
+   },
+   {
+    "label": "Purchases related to PP&E and intangibles FY2026 H1",
+    "value": 3122000000,
+    "sign": 1,
+    "evidence": "ev_10058"
+   }
+  ],
+  "fcf_ttm_derived_analysis": {
+   "cfo_ttm": 134360000000,
+   "capex_ttm": 7354000000,
+   "fcf_ttm": 127006000000,
+   "window": "2025-07-28 to 2026-07-26 (FY2026 Q3, Q4, FY2027 Q1, Q2)"
+  },
+  "revenue_ttm_components": [
+   {
+    "label": "Revenue FY2026",
+    "value": 215938000000,
+    "sign": 1,
+    "evidence": "ev_10136"
+   },
+   {
+    "label": "Revenue FY2027 H1",
+    "value": 177837000000,
+    "sign": 1,
+    "evidence": "ev_10059"
+   },
+   {
+    "label": "Revenue FY2026 H1",
+    "value": 90805000000,
+    "sign": -1,
+    "evidence": "ev_10060"
+   }
+  ],
+  "revenue_ttm_derived_analysis": 302970000000,
+  "revenue_q2_fy2027": {
+   "value": 96221000000,
+   "evidence": "ev_10061"
+  },
+  "accounts_receivable_net": {
+   "value": 63059000000,
+   "evidence": "ev_10063"
+  }
+ },
+ "customer_concentration": [
+  {
+   "period_end": "2026-07-26",
+   "fiscal_period": "FY2027 Q2",
+   "accession": "0001045810-26-000075",
+   "receivables": "Five direct customers 22%, 14%, 13%, 11%, 10% of AR",
+   "receivables_evidence": [
+    "ev_10047"
+   ],
+   "revenue_direct_customers": "Q2: one direct customer 16%; H1: 16%, 15%, 13%",
+   "revenue_evidence": [
+    "ev_10048",
+    "ev_10049"
+   ],
+   "indirect": "one AI research and deployment company contributed a meaningful amount via cloud purchases",
+   "indirect_evidence": [
+    "ev_10050"
+   ]
+  },
+  {
+   "period_end": "2026-04-26",
+   "fiscal_period": "FY2027 Q1",
+   "accession": "0001045810-26-000052",
+   "receivables": "Three direct customers 30%, 18%, 16% of AR",
+   "receivables_evidence": [
+    "ev_10090"
+   ],
+   "revenue_direct_customers": "Three direct customers 21%, 17%, 16%",
+   "revenue_evidence": [
+    "ev_10091"
+   ],
+   "indirect": null,
+   "indirect_evidence": []
+  },
+  {
+   "period_end": "2026-01-25",
+   "fiscal_period": "FY2026 Q4 (FY end)",
+   "accession": "0001045810-26-000021",
+   "receivables": "Three direct customers 25%, 18%, 13% of AR",
+   "receivables_evidence": [
+    "ev_10128"
+   ],
+   "revenue_direct_customers": "FY2026: 22% and 14%",
+   "revenue_evidence": [
+    "ev_10129",
+    "ev_10130"
+   ],
+   "indirect": "one AI research and deployment company contributed a meaningful amount via cloud",
+   "indirect_evidence": [
+    "ev_10131"
+   ]
+  },
+  {
+   "period_end": "2025-10-26",
+   "fiscal_period": "FY2026 Q3",
+   "accession": "0001045810-25-000230",
+   "receivables": "Four direct customers 22%, 17%, 14%, 12% of AR",
+   "receivables_evidence": [
+    "ev_10162"
+   ],
+   "revenue_direct_customers": "Customer A 22%, B 15%, C 13%, D 11%",
+   "revenue_evidence": [
+    "ev_10163",
+    "ev_10164"
+   ],
+   "indirect": null,
+   "indirect_evidence": []
+  },
+  {
+   "period_end": "2025-07-27",
+   "fiscal_period": "FY2026 Q2",
+   "accession": "0001045810-25-000209",
+   "receivables": "Three direct customers 23%, 19%, 14% of AR",
+   "receivables_evidence": [
+    "ev_10180"
+   ],
+   "revenue_direct_customers": "Customer A 23%, Customer B 16%",
+   "revenue_evidence": [
+    "ev_10181",
+    "ev_10182"
+   ],
+   "indirect": null,
+   "indirect_evidence": []
+  },
+  {
+   "period_end": "2025-04-27",
+   "fiscal_period": "FY2026 Q1",
+   "accession": "0001045810-25-000116",
+   "receivables": "Three direct customers 27%, 18%, 12% of AR",
+   "receivables_evidence": [
+    "ev_10197"
+   ],
+   "revenue_direct_customers": "Customer A 16%, Customer B 14%",
+   "revenue_evidence": [
+    "ev_10198",
+    "ev_10199"
+   ],
+   "indirect": null,
+   "indirect_evidence": []
+  },
+  {
+   "period_end": "2025-01-26",
+   "fiscal_period": "FY2025 Q4 (FY end)",
+   "accession": "0001045810-25-000023",
+   "receivables": "Two direct customers 17%, 16% of AR",
+   "receivables_evidence": [
+    "ev_10215"
+   ],
+   "revenue_direct_customers": "FY2025: Customers A, B, C 12%, 11%, 11%",
+   "revenue_evidence": [
+    "ev_10216"
+   ],
+   "indirect": null,
+   "indirect_evidence": []
+  },
+  {
+   "period_end": "2024-10-27",
+   "fiscal_period": "FY2025 Q3",
+   "accession": "0001045810-24-000316",
+   "receivables": "Four direct customers 18%, 13%, 11%, 11% of AR",
+   "receivables_evidence": [
+    "ev_10227"
+   ],
+   "revenue_direct_customers": "Customers A, B, C 12% each (Q3)",
+   "revenue_evidence": [
+    "ev_10316"
+   ],
+   "indirect": null,
+   "indirect_evidence": []
+  },
+  {
+   "period_end": "2024-07-28",
+   "fiscal_period": "FY2025 Q2",
+   "accession": "0001045810-24-000264",
+   "receivables": "Three customers 23%, 15%, 11% of AR",
+   "receivables_evidence": [
+    "ev_10238"
+   ],
+   "revenue_direct_customers": "Q2: A 14%, B 11%, C 11%, D 10%",
+   "revenue_evidence": [
+    "ev_10239"
+   ],
+   "indirect": null,
+   "indirect_evidence": []
+  },
+  {
+   "period_end": "2024-04-28",
+   "fiscal_period": "FY2025 Q1",
+   "accession": "0001045810-24-000124",
+   "receivables": "Two customers 16%, 15% of AR",
+   "receivables_evidence": [
+    "ev_10251"
+   ],
+   "revenue_direct_customers": "Customer A 13%, Customer B 11%",
+   "revenue_evidence": [
+    "ev_10252"
+   ],
+   "indirect": null,
+   "indirect_evidence": []
+  },
+  {
+   "period_end": "2024-01-28",
+   "fiscal_period": "FY2024 Q4 (FY end)",
+   "accession": "0001045810-24-000029",
+   "receivables": "Two customers 24%, 11% of AR",
+   "receivables_evidence": [
+    "ev_10265"
+   ],
+   "revenue_direct_customers": "Customer A 13% (FY2024)",
+   "revenue_evidence": [
+    "ev_10266"
+   ],
+   "indirect": "one indirect customer est. ~19% of FY2024 revenue",
+   "indirect_evidence": [
+    "ev_10267"
+   ]
+  },
+  {
+   "period_end": "2023-10-29",
+   "fiscal_period": "FY2024 Q3",
+   "accession": "0001045810-23-000227",
+   "receivables": "Two customers 11% each of AR",
+   "receivables_evidence": [
+    "ev_10278"
+   ],
+   "revenue_direct_customers": "Customer A 12% (Q3); Customer B 11% (9M)",
+   "revenue_evidence": [
+    "ev_10279"
+   ],
+   "indirect": null,
+   "indirect_evidence": []
+  },
+  {
+   "period_end": "2023-07-30",
+   "fiscal_period": "FY2024 Q2",
+   "accession": "0001045810-23-000175",
+   "receivables": "Two customers 16%, 13% of AR",
+   "receivables_evidence": [
+    "ev_10290"
+   ],
+   "revenue_direct_customers": "one data center distributor ~17% (Q2)",
+   "revenue_evidence": [
+    "ev_10291"
+   ],
+   "indirect": "one indirect customer est. ~22% (Q2), 19% (H1)",
+   "indirect_evidence": [
+    "ev_10292"
+   ]
+  },
+  {
+   "period_end": "2023-04-30",
+   "fiscal_period": "FY2024 Q1",
+   "accession": "0001045810-23-000093",
+   "receivables": "Two customers 12%, 10% of AR",
+   "receivables_evidence": [
+    "ev_10302"
+   ],
+   "revenue_direct_customers": "no customer >=10%",
+   "revenue_evidence": [
+    "ev_10303"
+   ],
+   "indirect": null,
+   "indirect_evidence": []
+  },
+  {
+   "period_end": "2023-01-29",
+   "fiscal_period": "FY2023 Q4 (FY end)",
+   "accession": "0001045810-23-000017",
+   "receivables": "Two customers 14%, 11% of AR",
+   "receivables_evidence": [
+    "ev_10314"
+   ],
+   "revenue_direct_customers": "no customer >=10%",
+   "revenue_evidence": [
+    "ev_10315"
+   ],
+   "indirect": null,
+   "indirect_evidence": []
+  }
+ ],
+ "subsequent_events": [
+  {
+   "filing": "10-Q FY2027 Q2 (0001045810-26-000075, filed 2026-08-26)",
+   "text_summary": "No Subsequent Events note. Note 10 and MD&A disclose August 2026 events: guarantees with SB Energy Corp. capped at $105B for leases (~4.25 GW) to an OpenAI affiliate at PORTS campus, Pike County, Ohio; effective as each of nine phases commences (first expected FY2029); total guarantee max gross exposure $108.5B incl. $3.5B existing; option for ~3.8 GW more. Also MOUs with several large capital providers for independent financing platforms to mobilize >$500B of third-party capital (preliminary; may not lead to definitive agreements); optional limited residual-value support.",
+   "evidence": [
+    "ev_10040",
+    "ev_10041",
+    "ev_10045",
+    "ev_10046"
+   ]
+  },
+  {
+   "filing": "10-Q FY2027 Q1 (0001045810-26-000052, filed 2026-05-20)",
+   "text_summary": "No Subsequent Events note and no post-period investment items found.",
+   "evidence": []
+  },
+  {
+   "filing": "10-K FY2026 (0001045810-26-000021, filed 2026-02-25)",
+   "text_summary": "No Subsequent Events note. MD&A: \"We are finalizing an investment and partnership agreement with OpenAI\" (no amount).",
+   "evidence": [
+    "ev_10125"
+   ]
+  },
+  {
+   "filing": "10-Q FY2026 Q3 (0001045810-25-000230, filed 2025-11-19)",
+   "text_summary": "No Subsequent Events note. Note 11: in November 2025 Nvidia entered an agreement, subject to closing conditions, to invest up to $10B in Anthropic; Q3 letter of intent with an opportunity to invest in OpenAI (no amount).",
+   "evidence": [
+    "ev_10157",
+    "ev_10156"
+   ]
+  },
+  {
+   "filing": "10-Q FY2025 Q1 (0001045810-24-000124, filed 2024-05-29)",
+   "text_summary": "Note 15 Subsequent Events: ten-for-one stock split and dividend increase announced May 22, 2024. No investment content.",
+   "evidence": [
+    "ev_10324"
+   ]
+  },
+  {
+   "filing": "All other 10 filings",
+   "text_summary": "No Subsequent Events note found (grep for \"subsequent event\" returned no note heading).",
+   "evidence": []
+  }
+ ],
+ "xbrl_crosscheck": {
+  "concepts_used": [
+   "us-gaap:EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
+   "us-gaap:EquitySecuritiesFVNINoncurrent",
+   "us-gaap:EquitySecuritiesFvNi",
+   "us-gaap:PurchaseObligation",
+   "us-gaap:OtherCommitment",
+   "us-gaap:GuaranteeObligationsMaximumExposure",
+   "us-gaap:UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount",
+   "us-gaap:OtherAssetsNoncurrent",
+   "us-gaap:PrepaidExpenseAndOtherAssetsCurrent",
+   "us-gaap:AccountsReceivableNetCurrent"
+  ],
+  "evidence": [
+   "ev_10318",
+   "ev_10319",
+   "ev_10320",
+   "ev_10321",
+   "ev_10322"
+  ]
+ }
+}
