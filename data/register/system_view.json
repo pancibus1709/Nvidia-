@@ -154,7 +154,7 @@
   ],
   "source_mix": {
     "evidence_by_tier": {
-      "1": 972,
+      "1": 1052,
       "2": 6
     },
     "one_sided_relationships": 53,
@@ -409,40 +409,40 @@
   },
   "by_grade": {
     "Insufficient information": {
-      "count": 67,
-      "funded": 20268914707.58435,
+      "count": 58,
+      "funded": 10025000000.0,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 32100000000.0,
-      "contingent_max": 106500000000.0,
+      "contingent_max": 105000000000.0,
       "contingent_not_in_force": 105000000000.0,
-      "gross": 158868914707.58435,
-      "headline": 281055000000.0,
-      "lower_bound": 44,
-      "funded_known": 21
+      "gross": 147125000000.0,
+      "headline": 262555000000.0,
+      "lower_bound": 43,
+      "funded_known": 13
     },
     "Watch": {
-      "count": 6,
-      "funded": 2177399346.7799997,
+      "count": 8,
+      "funded": 5677399346.78,
       "committed_unfunded": 1000000000.0,
       "committed_split_unknown": 4600000000.0,
-      "contingent_max": 860340000.0,
+      "contingent_max": 2360340000.0,
       "contingent_not_in_force": 0.0,
-      "gross": 8637739346.779999,
-      "headline": 10737739346.779999,
+      "gross": 13637739346.779999,
+      "headline": 15737739346.779999,
       "lower_bound": 2,
-      "funded_known": 2
+      "funded_known": 4
     },
     "Adequate": {
-      "count": 3,
-      "funded": 5750000325.92,
+      "count": 9,
+      "funded": 10687887429.644566,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
       "contingent_not_in_force": 0.0,
-      "gross": 5750000325.92,
-      "headline": 7000000000.0,
-      "lower_bound": 1,
-      "funded_known": 2
+      "gross": 10687887429.644566,
+      "headline": 18500000000.0,
+      "lower_bound": 2,
+      "funded_known": 7
     },
     "Weak": {
       "count": 3,
@@ -457,16 +457,16 @@
       "funded_known": 1
     },
     "Strong": {
-      "count": 1,
-      "funded": 0.0,
+      "count": 2,
+      "funded": 1806027603.859787,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
       "contingent_max": 0.0,
       "contingent_not_in_force": 0.0,
-      "gross": 0.0,
-      "headline": 0.0,
+      "gross": 1806027603.859787,
+      "headline": 2000000000.0,
       "lower_bound": 1,
-      "funded_known": 0
+      "funded_known": 1
     }
   },
   "by_tenor": {

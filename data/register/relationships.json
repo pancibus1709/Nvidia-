@@ -17474,12 +17474,11 @@
         "gross_percentile": 0.367,
         "contingent_share": 0.0,
         "circularity_percentile": null,
-        "counterparty_weakness": null,
+        "counterparty_weakness": 0.5,
         "lender_reliance": 0.0
       },
       "missing": [
-        "circularity_percentile",
-        "counterparty_weakness"
+        "circularity_percentile"
       ],
       "label": "analysis"
     },
@@ -17745,17 +17744,16 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 36.5,
+      "score": 31.5,
       "components": {
         "gross_percentile": 0.6,
         "contingent_share": 0.0,
         "circularity_percentile": null,
-        "counterparty_weakness": null,
+        "counterparty_weakness": 0.0,
         "lender_reliance": 0.0
       },
       "missing": [
-        "circularity_percentile",
-        "counterparty_weakness"
+        "circularity_percentile"
       ],
       "label": "analysis"
     },
@@ -18020,17 +18018,16 @@
     ],
     "aggregate_of": null,
     "significance": {
-      "score": 41.2,
+      "score": 39.5,
       "components": {
         "gross_percentile": 0.717,
         "contingent_share": 0.0,
         "circularity_percentile": null,
-        "counterparty_weakness": null,
+        "counterparty_weakness": 0.33,
         "lender_reliance": 0.0
       },
       "missing": [
-        "circularity_percentile",
-        "counterparty_weakness"
+        "circularity_percentile"
       ],
       "label": "analysis"
     },
@@ -18291,17 +18288,16 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 41.2,
+      "score": 39.5,
       "components": {
         "gross_percentile": 0.717,
         "contingent_share": 0.0,
         "circularity_percentile": null,
-        "counterparty_weakness": null,
+        "counterparty_weakness": 0.33,
         "lender_reliance": 0.0
       },
       "missing": [
-        "circularity_percentile",
-        "counterparty_weakness"
+        "circularity_percentile"
       ],
       "label": "analysis"
     },
@@ -18567,17 +18563,16 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 41.2,
+      "score": 42.8,
       "components": {
         "gross_percentile": 0.717,
         "contingent_share": 0.0,
         "circularity_percentile": null,
-        "counterparty_weakness": null,
+        "counterparty_weakness": 0.66,
         "lender_reliance": 0.0
       },
       "missing": [
-        "circularity_percentile",
-        "counterparty_weakness"
+        "circularity_percentile"
       ],
       "label": "analysis"
     },
@@ -19057,17 +19052,16 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 28.5,
+      "score": 23.5,
       "components": {
         "gross_percentile": 0.4,
         "contingent_share": 0.0,
         "circularity_percentile": null,
-        "counterparty_weakness": null,
+        "counterparty_weakness": 0.0,
         "lender_reliance": 0.0
       },
       "missing": [
-        "circularity_percentile",
-        "counterparty_weakness"
+        "circularity_percentile"
       ],
       "label": "analysis"
     },
@@ -19506,19 +19500,18 @@
     "depth2_links": [],
     "aggregate_of": null,
     "significance": {
-      "score": 50.0,
+      "score": 48.3,
       "components": {
         "gross_percentile": null,
         "contingent_share": null,
         "circularity_percentile": null,
-        "counterparty_weakness": null,
+        "counterparty_weakness": 0.33,
         "lender_reliance": 0.5
       },
       "missing": [
         "gross_percentile",
         "contingent_share",
-        "circularity_percentile",
-        "counterparty_weakness"
+        "circularity_percentile"
       ],
       "label": "analysis"
     },
@@ -20669,17 +20662,16 @@
     },
     "aggregate_of": null,
     "significance": {
-      "score": 58.3,
+      "score": 56.6,
       "components": {
         "gross_percentile": 0.833,
         "contingent_share": 0.5,
         "circularity_percentile": null,
-        "counterparty_weakness": null,
+        "counterparty_weakness": 0.33,
         "lender_reliance": 0.0
       },
       "missing": [
-        "circularity_percentile",
-        "counterparty_weakness"
+        "circularity_percentile"
       ],
       "label": "analysis"
     },
@@ -21802,18 +21794,17 @@
     },
     "aggregate_of": null,
     "significance": {
-      "score": 31.0,
+      "score": 36.0,
       "components": {
         "gross_percentile": 0.15,
         "contingent_share": null,
         "circularity_percentile": null,
-        "counterparty_weakness": null,
+        "counterparty_weakness": 1.0,
         "lender_reliance": 0.0
       },
       "missing": [
         "contingent_share",
-        "circularity_percentile",
-        "counterparty_weakness"
+        "circularity_percentile"
       ],
       "label": "analysis"
     },

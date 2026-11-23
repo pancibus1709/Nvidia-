@@ -1,6 +1,6 @@
 # R7: Unattributed remainders of Nvidia's disclosed aggregates
 
-**Computed on 23 November 2026, against the register as committed at 1c4f796 (data/register/relationships.json of 2026-11-23 13:02 UTC: 91 relationships, 81 counted after excluding the 8 aggregates already in the register and 2 context records; 108 entities).** Revised after Gate R critic round 1 (findings 2, 7, 15, 16): see `research/gate_r/FIXES.md`, section "Critic round 1: aggregates, bridge and credit reads".
+**Computed on 23 November 2026, against the register as committed at 1c4f796 (data/register/relationships.json of 2026-11-23 13:02 UTC: 91 relationships, 81 counted after excluding the 7 aggregate records already in the register and 3 context records; 108 entities).** Revised after Gate R critic round 1 (findings 2, 7, 15, 16): see `research/gate_r/FIXES.md`, section "Critic round 1: aggregates, bridge and credit reads".
 
 Namespaces `agg` (ev_130001 to ev_130024) and `fixc` (ev_190001 to ev_190009, `research/evidence/fixc.jsonl`). Files: `research/drafts/nvidia_financials.json`, `research/drafts/lead_aggregates.json` (8 records, 8 filing events).
 

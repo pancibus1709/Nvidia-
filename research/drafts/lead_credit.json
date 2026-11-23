@@ -1,0 +1,1781 @@
+{
+  "entities": [
+    {
+      "id": "ent_anthropic",
+      "name": "Anthropic, PBC",
+      "short_name": "Anthropic",
+      "cluster": "ai_lab",
+      "depth": 1,
+      "public": true,
+      "ticker": "ANT",
+      "cik": "0002130357",
+      "country": "US",
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 6200000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_120059"
+          ],
+          "note": "Amazon convertible notes principal, expected to be settled in shares. Convertible notes are carried at a fair value far above principal; the $15.0 billion secured revolver was undrawn (ev_120060, ev_120061)."
+        },
+        "maturities_24m": {
+          "value": 559000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190011",
+            "ev_190012"
+          ],
+          "components": [
+            {
+              "value": 121000000.0,
+              "evidence": [
+                "ev_190011"
+              ],
+              "note": "Finance lease payments, remainder of 2026"
+            },
+            {
+              "value": 438000000.0,
+              "evidence": [
+                "ev_190012"
+              ],
+              "note": "Finance lease payments, 2027"
+            }
+          ],
+          "note": "Finance lease payments due in Q4 2026 and calendar 2027 (15 months). No notes mature within 24 months: the Amazon notes mature in 2034 and 2035 (ev_190016) and are expected to be settled in shares. Instrument: final prospectus (424B4) of 2026-11-19, which supersedes S-1/A No. 3 of 2026-11-17."
+        },
+        "cash_and_undrawn": {
+          "value": 146700000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_120054",
+            "ev_120055",
+            "ev_120056"
+          ],
+          "components": [
+            {
+              "value": 95600000000,
+              "evidence": [
+                "ev_120054"
+              ],
+              "note": "cash and cash equivalents"
+            },
+            {
+              "value": 36300000000,
+              "evidence": [
+                "ev_120055"
+              ],
+              "note": "short-term investments"
+            },
+            {
+              "value": 14800000000,
+              "evidence": [
+                "ev_120056"
+              ],
+              "note": "available under the A&R Credit Facility"
+            }
+          ],
+          "note": "Before the IPO and concurrent private placement of November 2026 (about $119.5 billion gross, company release)."
+        },
+        "committed_spend_12m": {
+          "value": 51796000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190013",
+            "ev_190014",
+            "ev_190015"
+          ],
+          "components": [
+            {
+              "value": 5231000000.0,
+              "evidence": [
+                "ev_190013"
+              ],
+              "note": "Contractual obligations, remainder of 2026"
+            },
+            {
+              "value": 29165000000.0,
+              "evidence": [
+                "ev_190014"
+              ],
+              "note": "Contractual obligations, 2027"
+            },
+            {
+              "value": 17400000000.0,
+              "evidence": [
+                "ev_190015"
+              ],
+              "note": "Minimum payments under contracts of one year or less"
+            }
+          ],
+          "note": "Contractual obligations due in Q4 2026 and calendar 2027 (15 months, so this overstates a 12 month figure), plus about $17.4 billion of minimum payments under contracts of one year or less that the table excludes. Excludes compute arrangements without a fixed dollar commitment."
+        },
+        "top_customer_share": {
+          "value": 0.1,
+          "as_of": "2026-09-30",
+          "evidence": [
+            "ev_190017"
+          ],
+          "note": "Upper bound: no single customer exceeded 10% of revenue in the nine months to 2026-09-30. Top five customers were about 25% (ev_190018).",
+          "last_verified": "2026-11-23"
+        },
+        "top3_customer_share": null,
+        "collateral_note": "Compute is contracted, not owned, in the main: CSP hosting agreements and five-year Broadcom equipment finance leases (ev_120051). The revolver is senior secured (ev_120060).",
+        "market_signals": [],
+        "grade": "Adequate",
+        "grade_reason": "Three columns sourced from the 424B4. Liquidity cover about 34 months ($146.7 billion of cash, short-term investments and undrawn revolver against $51.8 billion due over the next 15 months), Strong. Debt due within 24 months is finance lease payments of $0.56 billion against $146.7 billion, Strong. No customer above 10% of revenue, Strong. No public rating. Weakest column Strong, moved down one step to Adequate: purchase commitments of $313.8 billion, most due from 2028, are about nine times nine-month revenue of $33.2 billion and the company is loss making before fair value changes on its notes.",
+        "notes": "Instrument: Anthropic final prospectus (424B4) filed 2026-11-19, figures at 2026-09-30, before the IPO and concurrent private placements (Nvidia about $10.0 billion). Supersedes the S-1/A amendments of 2 to 17 November 2026. Amazon convertible notes of $6.2 billion principal mature in 2034 and 2035 (ev_190016). Top five customers about 25% of revenue (ev_190018). Revenue nine months to 2026-09-30: $33,242 million (ev_120058). Purchase commitments $313.8 billion (ev_120052).",
+        "evidence": [
+          "ev_120052",
+          "ev_120054",
+          "ev_120055",
+          "ev_120056",
+          "ev_120058",
+          "ev_120059",
+          "ev_190011",
+          "ev_190012",
+          "ev_190013",
+          "ev_190014",
+          "ev_190015",
+          "ev_190016",
+          "ev_190017",
+          "ev_190018"
+        ]
+      }
+    },
+    {
+      "id": "ent_spacex",
+      "name": "Space Exploration Technologies Corp.",
+      "short_name": "SpaceX",
+      "cluster": "ai_lab",
+      "depth": 1,
+      "public": true,
+      "ticker": "SPCX",
+      "cik": "0001181412",
+      "country": "US",
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 38006000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_120088"
+          ],
+          "note": "Principal. Includes $25.0 billion senior unsecured notes (ev_120084) and $12.9 billion of Valor GPU failed sale-leaseback debt (ev_120085, ev_120086)."
+        },
+        "maturities_24m": {
+          "value": 2920000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_120092",
+            "ev_120093"
+          ],
+          "components": [
+            {
+              "value": 495000000,
+              "evidence": [
+                "ev_120092"
+              ],
+              "note": "remaining three months of 2026"
+            },
+            {
+              "value": 2425000000,
+              "evidence": [
+                "ev_120093"
+              ],
+              "note": "calendar 2027"
+            }
+          ],
+          "note": "Covers October 2026 to December 2027 only; the 2028 maturities that fall inside 24 months are excluded."
+        },
+        "cash_and_undrawn": {
+          "value": 94855000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_120081",
+            "ev_120082",
+            "ev_120083"
+          ],
+          "components": [
+            {
+              "value": 51294000000,
+              "evidence": [
+                "ev_120081"
+              ],
+              "note": "cash and cash equivalents"
+            },
+            {
+              "value": 38561000000,
+              "evidence": [
+                "ev_120082"
+              ],
+              "note": "short-term marketable securities"
+            },
+            {
+              "value": 5000000000,
+              "evidence": [
+                "ev_120083"
+              ],
+              "note": "undrawn SpaceX Credit Facility"
+            }
+          ]
+        },
+        "committed_spend_12m": {
+          "value": 27878000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_120090",
+            "ev_120091"
+          ],
+          "components": [
+            {
+              "value": 2309000000,
+              "evidence": [
+                "ev_120091"
+              ],
+              "note": "remaining three months of 2026"
+            },
+            {
+              "value": 25569000000,
+              "evidence": [
+                "ev_120090"
+              ],
+              "note": "calendar 2027"
+            }
+          ],
+          "note": "Non-cancelable commitments for October 2026 to December 2027 (15 months), so this overstates a 12 month figure. Excludes the Apollo GPU lease, which commences in 2027."
+        },
+        "top_customer_share": {
+          "value": 0.345,
+          "as_of": "2026-09-30",
+          "evidence": [
+            "ev_190019"
+          ],
+          "note": "Customer B, SI segment, 34.5% of revenue in the quarter to 2026-09-30 (24.2% over nine months). Customer A was 16.6% of the quarter (ev_190020). Customers are not named; that Customer B is Anthropic, which leases about 325,000 Nvidia GPUs from SpaceX's AI segment, is analysis.",
+          "last_verified": "2026-11-23"
+        },
+        "top3_customer_share": null,
+        "collateral_note": "GPU hardware financed through Valor equipment leases recorded as failed sale-leasebacks (ev_120087) and, from 2027, an Apollo-managed lessor finance lease of about $40 billion principal with terms of five to five and a quarter years (ev_120094).",
+        "market_signals": [],
+        "grade": "Adequate",
+        "grade_reason": "Three columns sourced from the 10-Q for the quarter ended 2026-09-30. Liquidity cover about 41 months ($94.9 billion of cash and undrawn facilities against $27.9 billion due over 15 months), Strong. Debt due by end 2027 $2.9 billion against $94.9 billion (ratio under 0.1, a lower bound for 24 months), Strong. Top customer 34.5% of quarterly revenue, Adequate. No public rating. Weakest column Adequate; no adjustment. Previously graded Strong on two columns; the customer column lowers it.",
+        "notes": "SpaceX's 10-Q for the quarter ended 2026-09-30 does not name NVIDIA. Its AI segment leases about 325,000 NVIDIA GPUs to Anthropic at $1.25 billion per month through May 2029 (424B4, ev_120079). Customer concentration added from Note 3 of the same 10-Q (ev_190019, ev_190020): the two disclosed customers were 51.1% of quarterly revenue (analysis). Instruments: 10-Q of 2026-10-22, which supersedes the 424B4 of 2026-06-12 for balance sheet figures.",
+        "evidence": [
+          "ev_120081",
+          "ev_120082",
+          "ev_120083",
+          "ev_120087",
+          "ev_120088",
+          "ev_120090",
+          "ev_120091",
+          "ev_120092",
+          "ev_120093",
+          "ev_120094",
+          "ev_190019",
+          "ev_190020"
+        ]
+      }
+    },
+    {
+      "id": "ent_sb_energy",
+      "name": "SB Energy, Inc.",
+      "short_name": "SB Energy",
+      "cluster": "vehicle",
+      "depth": 1,
+      "public": false,
+      "ticker": null,
+      "cik": "0002133037",
+      "country": "US",
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 4623463000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190026"
+          ],
+          "note": "Total principal of debt at 2026-09-30 (S-1/A No. 3, Note 10). Most is project-level and secured; the SE Cosmos 8.875% senior secured notes due 2031 are $999.0 million. The S-1/A says the Hickory Facilities will be repaid from an initial draw under a new corporate Credit Facility at the IPO."
+        },
+        "maturities_24m": {
+          "value": 2805895000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190021",
+            "ev_190022",
+            "ev_190023",
+            "ev_190024",
+            "ev_190025"
+          ],
+          "components": [
+            {
+              "value": 1096310000.0,
+              "evidence": [
+                "ev_190021"
+              ],
+              "note": "Libra construction and bridge loan, matures by 2028-03-31"
+            },
+            {
+              "value": 286600000.0,
+              "evidence": [
+                "ev_190022"
+              ],
+              "note": "Athos Storage construction loan, matures by 2027-02-26"
+            },
+            {
+              "value": 75250000.0,
+              "evidence": [
+                "ev_190023"
+              ],
+              "note": "Athos Storage bridge loan, matures by 2027-02-26"
+            },
+            {
+              "value": 874750000.0,
+              "evidence": [
+                "ev_190024"
+              ],
+              "note": "Pelicans Jaw construction and bridge loan, matures by 2027-03-31"
+            },
+            {
+              "value": 472985000.0,
+              "evidence": [
+                "ev_190025"
+              ],
+              "note": "Global Borrower term and revolving loans, mature October 2027"
+            }
+          ],
+          "note": "Facilities with stated maturities on or before 2028-09-30. Construction and bridge loans are usually repaid at term conversion or from tax equity funding (analysis), so this is a gross figure. Amortization of the term loans is excluded, so it is not an upper bound."
+        },
+        "cash_and_undrawn": {
+          "value": 2896700000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190027",
+            "ev_190028"
+          ],
+          "components": [
+            {
+              "value": 996700000.0,
+              "evidence": [
+                "ev_190027"
+              ],
+              "note": "Unrestricted cash and cash equivalents"
+            },
+            {
+              "value": 1900000000.0,
+              "evidence": [
+                "ev_190028"
+              ],
+              "note": "Undrawn committed borrowing capacity"
+            }
+          ],
+          "note": "Unrestricted cash plus undrawn committed borrowing capacity, mostly construction and bridge loans tied to specific projects. Excludes restricted cash of $1,155.6 million, the $1.5 billion Nvidia prepaid forward already received in August 2026 is inside cash only to the extent unspent, and the IPO proceeds are not yet received."
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": {
+          "value": 0.28,
+          "as_of": "2026-09-30",
+          "evidence": [
+            "ev_190029"
+          ],
+          "note": "Largest customer 28% of revenue (excluding swap settlements), nine months to 2026-09-30; a power offtaker, not the data center tenant.",
+          "last_verified": "2026-11-23"
+        },
+        "top3_customer_share": {
+          "value": 0.56,
+          "as_of": "2026-09-30",
+          "evidence": [
+            "ev_190029",
+            "ev_190031",
+            "ev_190030"
+          ],
+          "note": "Analysis: 28% + 17% + 11%.",
+          "last_verified": "2026-11-23"
+        },
+        "collateral_note": "Project-level debt secured on solar, storage and data center project companies and membership interests; no GPU collateral. PORTS-Pike financeability depends in significant part on the Nvidia residual value guaranty (ev_120037).",
+        "market_signals": [],
+        "grade": "Watch",
+        "grade_reason": "Two columns sourced from S-1/A No. 3. Debt with stated maturity within 24 months is $2.81 billion against $2.90 billion of unrestricted cash and undrawn committed capacity, a ratio of 0.97, Adequate. Top customer 28% of revenue, Adequate. No liquidity cover (12 month committed spend not disclosed; purchase commitments are $6.79 billion through 2028) and no public rating. Weakest column Adequate, moved down one step to Watch: the ratio is at the edge of Watch, the undrawn capacity is project-specific, and SB Energy states it is substantially dependent on OpenAI as tenant of PORTS-Pike, which is most of its backlog.",
+        "notes": "Instrument: S-1/A Amendment No. 3 filed 2026-11-19 (no 424B4 yet), figures at 2026-09-30; supersedes the S-1 of 2026-09-01 and amendments of 4 and 21 September 2026. Purchase commitments $6.79 billion for the remainder of 2026 through 2028 (ev_190032). Dependence on OpenAI: ev_190033. Pre-IPO; the planned corporate Credit Facility and IPO proceeds would change both columns.",
+        "evidence": [
+          "ev_120037",
+          "ev_190021",
+          "ev_190022",
+          "ev_190023",
+          "ev_190024",
+          "ev_190025",
+          "ev_190026",
+          "ev_190027",
+          "ev_190028",
+          "ev_190029",
+          "ev_190030",
+          "ev_190031",
+          "ev_190032",
+          "ev_190033"
+        ]
+      }
+    },
+    {
+      "id": "ent_intel",
+      "name": "Intel Corporation",
+      "short_name": "Intel",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "INTC",
+      "cik": "0000050863",
+      "country": "US",
+      "credit": {
+        "public_ratings": [
+          {
+            "agency": "Not named (\"a major credit rating agency\", Intel 10-K)",
+            "rating": "BBB",
+            "date": "2025-08",
+            "evidence": [
+              "ev_60026"
+            ]
+          }
+        ],
+        "debt_outstanding": {
+          "value": 50134000000,
+          "as_of": "2026-09-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_60017"
+          ]
+        },
+        "maturities_24m": {
+          "value": 3817000000,
+          "as_of": "2026-09-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_60018"
+          ],
+          "note": "Short-term debt due within 12 months only; debt due in months 13 to 24 not found, so this is a lower bound."
+        },
+        "cash_and_undrawn": {
+          "value": 69005000000,
+          "as_of": "2026-10-01",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Cash and short-term investments at 2026-09-26 plus revolving credit capacity at 2026-10-01 (analysis: sum of two quoted figures).",
+          "components": [
+            {
+              "value": 54005000000,
+              "evidence": [
+                "ev_60016"
+              ],
+              "note": "Cash and short-term investments, 2026-09-26"
+            },
+            {
+              "value": 15000000000,
+              "evidence": [
+                "ev_60019"
+              ],
+              "note": "Undrawn revolving facilities, total capacity from 2026-10-01"
+            }
+          ]
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": {
+          "value": 0.19,
+          "as_of": "2025-12-27",
+          "evidence": [
+            "ev_190112"
+          ],
+          "note": "Customer A 19% of 2025 net revenue (10-K); the 10-Q for the quarter ended 2026-09-26 gives no customer split.",
+          "last_verified": "2026-11-23"
+        },
+        "top3_customer_share": {
+          "value": 0.43,
+          "as_of": "2025-12-27",
+          "evidence": [
+            "ev_190110"
+          ],
+          "note": "Three largest customers 43% of 2025 net revenue.",
+          "last_verified": "2026-11-23"
+        },
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Adequate",
+        "grade_reason": "Three columns sourced. Public rating BBB (investment grade), Strong. Debt due within 12 months $3.8 billion against $69.0 billion of cash, short-term investments and undrawn revolvers (ratio under 0.1; the 24 month figure is a lower bound, and the 10-K schedule adds $3.8 billion due in 2027), Strong. Top customer 19% of 2025 revenue, Strong. Weakest column Strong, moved down one step to Adequate: the rating was cut in August 2025 and the agency is not named, and Intel carries a $13.7 billion liability for shares escrowed for the US government.",
+        "notes": "Rating agency not named in the 10-K (ev_60026). Debt $50.1B and cash plus short-term investments $54.0B at 2026-09-26. August 2026 common stock offering raised $23.0B gross (ev_60015). Revolving facilities of $15.0B undrawn from 2026-10-01 (ev_60019, ev_60020). Customer concentration from the 10-K for 2025 (ev_190112, ev_190110).",
+        "evidence": [
+          "ev_190110",
+          "ev_190112",
+          "ev_60017",
+          "ev_60018",
+          "ev_60026"
+        ]
+      }
+    },
+    {
+      "id": "ent_meta",
+      "name": "Meta Platforms, Inc.",
+      "short_name": "Meta",
+      "cluster": "hyperscaler",
+      "depth": 1,
+      "public": true,
+      "ticker": "META",
+      "cik": "0001326801",
+      "country": "US",
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 83669000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190035",
+            "ev_190036"
+          ],
+          "components": [
+            {
+              "value": 80922000000.0,
+              "evidence": [
+                "ev_190035"
+              ],
+              "note": "Long-term debt, non-current"
+            },
+            {
+              "value": 2747000000.0,
+              "evidence": [
+                "ev_190036"
+              ],
+              "note": "Long-term debt, current"
+            }
+          ],
+          "note": "Senior unsecured notes, carrying value; principal $84.0 billion."
+        },
+        "maturities_24m": {
+          "value": 4250000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190037",
+            "ev_190038"
+          ],
+          "components": [
+            {
+              "value": 2750000000.0,
+              "evidence": [
+                "ev_190037"
+              ],
+              "note": "Notes principal due 2027"
+            },
+            {
+              "value": 1500000000.0,
+              "evidence": [
+                "ev_190038"
+              ],
+              "note": "Notes principal due 2028 (whole year, so the window runs to 27 months)"
+            }
+          ],
+          "note": "Nothing is due in the remainder of 2026 (ev_190043). Covers October 2026 to December 2028, so it is an upper bound for 24 months."
+        },
+        "cash_and_undrawn": {
+          "value": 82449000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_190010",
+            "ev_190034"
+          ],
+          "components": [
+            {
+              "value": 11222000000.0,
+              "evidence": [
+                "ev_190010"
+              ],
+              "note": "Cash and cash equivalents"
+            },
+            {
+              "value": 71227000000.0,
+              "evidence": [
+                "ev_190034"
+              ],
+              "note": "Marketable securities"
+            }
+          ],
+          "note": "No committed revolving facility is disclosed in the 10-Q."
+        },
+        "committed_spend_12m": {
+          "value": 167260000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190039",
+            "ev_190040"
+          ],
+          "components": [
+            {
+              "value": 45850000000.0,
+              "evidence": [
+                "ev_190039"
+              ],
+              "note": "Non-cancelable contractual commitments due in the remainder of 2026"
+            },
+            {
+              "value": 121410000000.0,
+              "evidence": [
+                "ev_190040"
+              ],
+              "note": "Non-cancelable contractual commitments due in 2027"
+            }
+          ],
+          "note": "Covers 15 months, so it overstates a 12 month figure; pro rata 12 months is about $137 billion (analysis). Total non-cancelable commitments $454.52 billion (ev_190041), plus $355.73 billion of leases not yet commenced (ev_190042) and up to $14.72 billion of contingent cloud capacity purchases."
+        },
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: unsecured issuer; owns and leases data center capacity, no GPU-backed debt disclosed.",
+        "market_signals": [],
+        "grade": "Adequate",
+        "grade_reason": "Two columns sourced from the 10-Q for the quarter ended 2026-09-30. Debt due by end 2028 is $4.25 billion against $82.4 billion of cash and marketable securities, a ratio of 0.05, Strong. Liquidity cover is about 7 months on a pro rata 12 month basis ($82.4 billion against about $137 billion of commitments; 5.9 months on the full 15 month figure), Watch. No customer concentration disclosed (advertising revenue) and no rating stated in the filings. Weakest column Watch, moved up one step to Adequate: operating cash flow was $96.9 billion in the nine months to 2026-09-30 (ev_190044), so commitments are paid from cash flow, not from the balance sheet alone.",
+        "notes": "Instrument: 10-Q filed 2026-10-22 for the quarter ended 2026-09-30; supersedes the 10-K for 2025. Debt principal schedule: nothing in the rest of 2026, $2.75 billion in 2027, $1.5 billion in 2028 (ev_190043). Commitments of $454.52 billion are mostly third-party cloud capacity and servers (ev_190041). Nvidia's link to Meta is a non-binding indication (rel_meta_eq_2026).",
+        "evidence": [
+          "ev_190010",
+          "ev_190034",
+          "ev_190035",
+          "ev_190036",
+          "ev_190037",
+          "ev_190038",
+          "ev_190039",
+          "ev_190040",
+          "ev_190041",
+          "ev_190042",
+          "ev_190043",
+          "ev_190044"
+        ]
+      }
+    },
+    {
+      "id": "ent_nokia",
+      "name": "Nokia Corporation",
+      "short_name": "Nokia",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "NOK",
+      "cik": "0000924613",
+      "country": "FI",
+      "credit": {
+        "public_ratings": [
+          {
+            "agency": "Fitch",
+            "rating": "BBB- (stable)",
+            "date": "2025-12-31",
+            "evidence": [
+              "ev_190056"
+            ]
+          },
+          {
+            "agency": "Moody's",
+            "rating": "Ba1 (positive)",
+            "date": "2025-12-31",
+            "evidence": [
+              "ev_190056"
+            ]
+          },
+          {
+            "agency": "S&P Global",
+            "rating": "BBB- (stable)",
+            "date": "2025-12-31",
+            "evidence": [
+              "ev_190056"
+            ]
+          }
+        ],
+        "debt_outstanding": {
+          "value": null,
+          "as_of": "2025-12-31",
+          "fiscal_period": null,
+          "original_currency": "EUR",
+          "original_value": 3413000000.0,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190048"
+          ],
+          "note": "Borrowings in EUR at 2025-12-31 (20-F XBRL), shown in EUR because no sourced exchange rate is recorded. At 2026-09-30 the Q3 report shows long-term interest-bearing liabilities of EUR 1,865 million and short-term of EUR 574 million (ev_190047, ev_190046), which the evidence tool cannot ground as numbers because the report writes thousands with spaces."
+        },
+        "maturities_24m": {
+          "value": null,
+          "as_of": "2025-12-31",
+          "fiscal_period": null,
+          "original_currency": "EUR",
+          "original_value": 1084000000.0,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_190049"
+          ],
+          "note": "Current borrowings in EUR at 2025-12-31, so 12 months only; a lower bound. USD 500 million of notes fall due in June 2027 (ev_190055). At 2026-09-30 short-term interest-bearing liabilities were EUR 574 million (ev_190046)."
+        },
+        "cash_and_undrawn": {
+          "value": null,
+          "as_of": "2025-12-31",
+          "fiscal_period": null,
+          "original_currency": "EUR",
+          "original_value": 6423000000.0,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_190050",
+            "ev_190051"
+          ],
+          "components": [
+            {
+              "value": 5462000000.0,
+              "evidence": [
+                "ev_190050"
+              ],
+              "note": "Cash and cash equivalents, EUR"
+            },
+            {
+              "value": 961000000.0,
+              "evidence": [
+                "ev_190051"
+              ],
+              "note": "Current investments, EUR"
+            }
+          ],
+          "note": "EUR at 2025-12-31. Excludes the undrawn EUR 1,500 million revolving facility maturing June 2030 (ev_190057; the separate EUR 500 million facility was cancelled in March 2026, ev_190053), so a lower bound. At 2026-09-30 total cash was EUR 5,023 million (ev_190045)."
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": {
+          "value": 0.1,
+          "as_of": "2025-12-31",
+          "evidence": [
+            "ev_190054"
+          ],
+          "note": "Upper bound: no single customer above 10% of net sales in 2025, 2024 or 2023.",
+          "last_verified": "2026-11-23"
+        },
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Adequate",
+        "grade_reason": "Three columns sourced, ratios computed in EUR. Debt due within 12 months EUR 1,084 million against EUR 6,423 million of cash and current investments at 2025-12-31 (0.17; at 2026-09-30 EUR 574 million against EUR 5,023 million, 0.11), Strong. No customer above 10% of net sales, Strong. Ratings BBB- from Fitch and S&P Global (investment grade, Strong) and Ba1 from Moody's (BB range, Adequate). Weakest column Adequate, taking the lowest rating; no adjustment.",
+        "notes": "Instruments: 20-F for 2025 filed 2026-03-05 (ratings, facilities, customers, XBRL balances) and the Q3 2026 interim report furnished on Form 6-K on 2026-10-22 (balances at 2026-09-30, cited as text). Net cash and interest-bearing financial investments EUR 2,584 million at 2026-09-30 (Q3 report). Undrawn revolving facilities EUR 2,000 million at 2025-12-31 (ev_190052). Ratings are as stated in the 20-F at 2025-12-31; later rating actions were not checked.",
+        "evidence": [
+          "ev_190045",
+          "ev_190046",
+          "ev_190047",
+          "ev_190048",
+          "ev_190049",
+          "ev_190050",
+          "ev_190051",
+          "ev_190052",
+          "ev_190053",
+          "ev_190054",
+          "ev_190055",
+          "ev_190056",
+          "ev_190057"
+        ]
+      }
+    },
+    {
+      "id": "ent_synopsys",
+      "name": "Synopsys, Inc.",
+      "short_name": "Synopsys",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "SNPS",
+      "cik": "0000883241",
+      "country": "US",
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 10037360000.0,
+          "as_of": "2026-07-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190059"
+          ],
+          "note": "Total long-term debt including current portion, mainly senior notes issued for the Ansys acquisition; the term loans were repaid by 2026-07-31."
+        },
+        "maturities_24m": {
+          "value": 2060753000.0,
+          "as_of": "2026-07-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190060",
+            "ev_190061",
+            "ev_190062"
+          ],
+          "components": [
+            {
+              "value": 11057000.0,
+              "evidence": [
+                "ev_190060"
+              ],
+              "note": "Remainder of fiscal 2026"
+            },
+            {
+              "value": 1024848000.0,
+              "evidence": [
+                "ev_190061"
+              ],
+              "note": "Fiscal 2027"
+            },
+            {
+              "value": 1024848000.0,
+              "evidence": [
+                "ev_190062"
+              ],
+              "note": "Fiscal 2028"
+            }
+          ],
+          "note": "Through fiscal 2028 (to October 2028, 27 months), so an upper bound for 24 months."
+        },
+        "cash_and_undrawn": {
+          "value": 4457669000.0,
+          "as_of": "2026-07-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190058",
+            "ev_190063"
+          ],
+          "components": [
+            {
+              "value": 3607669000.0,
+              "evidence": [
+                "ev_190058"
+              ],
+              "note": "Cash, cash equivalents and short-term investments"
+            },
+            {
+              "value": 850000000.0,
+              "evidence": [
+                "ev_190063"
+              ],
+              "note": "Committed revolving credit facility, undrawn (ev_190073), matures 2027-12-14"
+            }
+          ]
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": {
+          "value": 0.1,
+          "as_of": "2025-10-31",
+          "evidence": [
+            "ev_190064"
+          ],
+          "note": "Analysis: the 10-K for fiscal 2025 discloses one customer above 10% only for fiscal 2024 (12.6%) and 2023 (13.5%), implying none above 10% in fiscal 2025.",
+          "last_verified": "2026-11-23"
+        },
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Strong",
+        "grade_reason": "Two columns sourced. Debt due through fiscal 2028 is $2.06 billion against $4.46 billion of cash, short-term investments and the undrawn $850 million revolver, a ratio of 0.46, Strong (near the 0.5 boundary). Top customer below 10% of fiscal 2025 revenue (inferred from the 10-K), Strong. No liquidity cover or public rating stated. Weakest column Strong; no adjustment, but the debt ratio is close to Adequate and the revolver matures in December 2027.",
+        "notes": "Instruments: 10-Q for the quarter ended 2026-07-31 (filed 2026-08-26); the 10-K for fiscal 2026 (year ending October 2026) was not filed by 2026-11-23. Customer figure from the 10-K for fiscal 2025 filed 2025-12-22.",
+        "evidence": [
+          "ev_190058",
+          "ev_190059",
+          "ev_190060",
+          "ev_190061",
+          "ev_190062",
+          "ev_190063",
+          "ev_190064",
+          "ev_190073"
+        ]
+      }
+    },
+    {
+      "id": "ent_marvell",
+      "name": "Marvell Technology, Inc.",
+      "short_name": "Marvell",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "MRVL",
+      "cik": "0001835632",
+      "country": "US",
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 4962900000.0,
+          "as_of": "2026-08-01",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190066"
+          ]
+        },
+        "maturities_24m": {
+          "value": 1249900000.0,
+          "as_of": "2026-08-01",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190067"
+          ],
+          "note": "Principal due in fiscal 2029 (February 2028 to January 2029); nothing is due in the rest of fiscal 2027 or in fiscal 2028 (ev_190068). Fiscal 2029 runs past the 24 month window, so an upper bound."
+        },
+        "cash_and_undrawn": {
+          "value": 5432800000.0,
+          "as_of": "2026-08-01",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190065",
+            "ev_190069"
+          ],
+          "components": [
+            {
+              "value": 3932800000.0,
+              "evidence": [
+                "ev_190065"
+              ],
+              "note": "Cash and cash equivalents"
+            },
+            {
+              "value": 1500000000.0,
+              "evidence": [
+                "ev_190069"
+              ],
+              "note": "2025 Revolving Credit Facility, undrawn (ev_190070), available to 2030-06-30"
+            }
+          ]
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": {
+          "value": 0.37,
+          "as_of": "2026-01-31",
+          "evidence": [
+            "ev_190071"
+          ],
+          "note": "Distributor A, 37% of fiscal 2026 revenue; the largest direct customer was 14%. A distributor resells to many end customers.",
+          "last_verified": "2026-11-23"
+        },
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Adequate",
+        "grade_reason": "Two columns sourced. Debt due within 24 months at most $1.25 billion against $5.43 billion of cash and undrawn revolver, a ratio of 0.23, Strong. Top customer 37% of fiscal 2026 revenue (a distributor), Adequate. No liquidity cover or public rating stated. Weakest column Adequate; no adjustment. The largest direct customer is 14% and the ten largest customers 82% (ev_190072).",
+        "notes": "Instruments: 10-Q for the quarter ended 2026-08-01 (filed 2026-08-28) for balances; 10-K for fiscal 2026 (filed 2026-03-11) for customers. The 10-Q for the quarter ending October 2026 was not filed by 2026-11-23.",
+        "evidence": [
+          "ev_190065",
+          "ev_190066",
+          "ev_190067",
+          "ev_190068",
+          "ev_190069",
+          "ev_190070",
+          "ev_190071",
+          "ev_190072"
+        ]
+      }
+    },
+    {
+      "id": "ent_lumentum",
+      "name": "Lumentum Holdings Inc.",
+      "short_name": "Lumentum",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "LITE",
+      "cik": "0001633978",
+      "country": "US",
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 1399600000.0,
+          "as_of": "2026-09-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190077"
+          ]
+        },
+        "maturities_24m": {
+          "value": 1360300000.0,
+          "as_of": "2026-09-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_190076"
+          ],
+          "note": "Current portion of debt, 12 months only, so a lower bound; mostly convertible notes, which may be settled partly in shares."
+        },
+        "cash_and_undrawn": {
+          "value": 2379600000.0,
+          "as_of": "2026-09-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190074",
+            "ev_190075",
+            "ev_190078"
+          ],
+          "components": [
+            {
+              "value": 1272200000.0,
+              "evidence": [
+                "ev_190074"
+              ],
+              "note": "Cash and cash equivalents"
+            },
+            {
+              "value": 707400000.0,
+              "evidence": [
+                "ev_190075"
+              ],
+              "note": "Short-term investments"
+            },
+            {
+              "value": 400000000.0,
+              "evidence": [
+                "ev_190078"
+              ],
+              "note": "Senior secured revolving credit facility, undrawn (ev_190079)"
+            }
+          ]
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": {
+          "value": 0.37,
+          "as_of": "2026-09-26",
+          "evidence": [
+            "ev_190080"
+          ],
+          "note": "Largest end customer 37% of revenue in the quarter to 2026-09-26; a second was 11%. Customers not named.",
+          "last_verified": "2026-11-23"
+        },
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Adequate",
+        "grade_reason": "Two columns sourced from the 10-Q for the quarter ended 2026-09-26. Debt due within 12 months $1.36 billion against $2.38 billion of cash, short-term investments and undrawn revolver, a ratio of 0.57 (a lower bound for 24 months), Adequate. Top end customer 37%, Adequate. No liquidity cover or public rating stated. Weakest column Adequate; no adjustment.",
+        "notes": "Instrument: 10-Q filed 2026-11-03, which supersedes the 10-K for fiscal 2026 (filed 2026-08-17).",
+        "evidence": [
+          "ev_190074",
+          "ev_190075",
+          "ev_190076",
+          "ev_190077",
+          "ev_190078",
+          "ev_190079",
+          "ev_190080"
+        ]
+      }
+    },
+    {
+      "id": "ent_coherent",
+      "name": "Coherent Corp.",
+      "short_name": "Coherent",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "COHR",
+      "cik": "0000820318",
+      "country": "US",
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 4000598000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190083"
+          ]
+        },
+        "maturities_24m": {
+          "value": 54262000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190084",
+            "ev_190085"
+          ],
+          "components": [
+            {
+              "value": 19887000.0,
+              "evidence": [
+                "ev_190084"
+              ],
+              "note": "Current portion of long-term debt at 2026-09-30"
+            },
+            {
+              "value": 34375000.0,
+              "evidence": [
+                "ev_190085"
+              ],
+              "note": "Principal due in fiscal 2028 per the 10-K schedule at 2026-06-30"
+            }
+          ],
+          "note": "Mixes the 10-Q current portion with the 10-K second-year amount (analysis). The $350 million revolver matures 2027-07-01 but is undrawn; term facilities mature 2029."
+        },
+        "cash_and_undrawn": {
+          "value": 2421929000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190081",
+            "ev_190082",
+            "ev_190087"
+          ],
+          "components": [
+            {
+              "value": 1552929000.0,
+              "evidence": [
+                "ev_190081"
+              ],
+              "note": "Cash and cash equivalents"
+            },
+            {
+              "value": 200000000.0,
+              "evidence": [
+                "ev_190082"
+              ],
+              "note": "Short-term investments"
+            },
+            {
+              "value": 669000000.0,
+              "evidence": [
+                "ev_190087"
+              ],
+              "note": "Available borrowing capacity under the Revolving Credit Facility"
+            }
+          ]
+        },
+        "committed_spend_12m": {
+          "value": 3400000000.0,
+          "as_of": "2026-06-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190086"
+          ],
+          "note": "Purchase obligations due within 12 months of 2026-06-30 (10-K); a quarter older than the cash figure."
+        },
+        "top_customer_share": {
+          "value": 0.2,
+          "as_of": "2026-06-30",
+          "evidence": [
+            "ev_190088"
+          ],
+          "note": "Largest customer 20% of fiscal 2026 revenue; a second customer 12% (ev_190089). Customers not named.",
+          "last_verified": "2026-11-23"
+        },
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Watch",
+        "grade_reason": "Three columns sourced. Liquidity cover about 8.5 months ($2.42 billion of cash, short-term investments and revolver availability against $3.4 billion of purchase obligations due within 12 months), Watch. Debt due within 24 months about $54 million against $2.42 billion, Strong. Top customer 20%, Strong. No public rating stated. Weakest column Watch; no upward adjustment because operating cash flow was $79.5 million for fiscal 2026 and negative $92.7 million in the quarter to 2026-09-30 (ev_190114, ev_190115).",
+        "notes": "Instruments: 10-Q for the quarter ended 2026-09-30 (filed 2026-11-04) for balances; 10-K for fiscal 2026 (filed 2026-08-14) for purchase obligations, debt schedule and customers. Purchase obligations due within 12 months rose from $945 million at 2025-06-30 to $3.4 billion at 2026-06-30 (10-K XBRL).",
+        "evidence": [
+          "ev_190081",
+          "ev_190082",
+          "ev_190083",
+          "ev_190084",
+          "ev_190085",
+          "ev_190086",
+          "ev_190087",
+          "ev_190088",
+          "ev_190089",
+          "ev_190114",
+          "ev_190115"
+        ]
+      }
+    },
+    {
+      "id": "ent_corning",
+      "name": "Corning Incorporated",
+      "short_name": "Corning",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "GLW",
+      "cik": "0000024741",
+      "country": "US",
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 8200000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190091",
+            "ev_190092"
+          ],
+          "components": [
+            {
+              "value": 7267000000.0,
+              "evidence": [
+                "ev_190092"
+              ],
+              "note": "Long-term debt and finance leases"
+            },
+            {
+              "value": 933000000.0,
+              "evidence": [
+                "ev_190091"
+              ],
+              "note": "Current portion of debt"
+            }
+          ]
+        },
+        "maturities_24m": {
+          "value": 933000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_190091"
+          ],
+          "note": "Current portion of debt, 12 months only; a lower bound. The 10-K schedule at 2025-12-31 showed $804 million due in 2026 and $401 million in 2027 (XBRL)."
+        },
+        "cash_and_undrawn": {
+          "value": 4037000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190090",
+            "ev_190093"
+          ],
+          "components": [
+            {
+              "value": 2537000000.0,
+              "evidence": [
+                "ev_190090"
+              ],
+              "note": "Cash and cash equivalents"
+            },
+            {
+              "value": 1500000000.0,
+              "evidence": [
+                "ev_190093"
+              ],
+              "note": "Committed revolving credit facility, undrawn (ev_190094), expires 2030-07-28"
+            }
+          ]
+        },
+        "committed_spend_12m": {
+          "value": 283000000.0,
+          "as_of": "2025-12-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190095"
+          ],
+          "note": "Purchase obligations due within one year at 2025-12-31 (raw materials and energy take-or-pay). Excludes capital spending on the new plants Corning committed to build, so it understates committed outflows."
+        },
+        "top_customer_share": null,
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Adequate",
+        "grade_reason": "Two columns sourced. Liquidity cover far above 24 months ($4.04 billion of cash and undrawn revolver against $283 million of purchase obligations), Strong. Debt due within 12 months $0.93 billion against $4.04 billion, a ratio of 0.23 (a lower bound for 24 months), Strong. Customer share is disclosed only by segment (two end customers 28% of Optical Communications, three 59% of Display, ev_190096), and no rating is stated. Weakest column Strong, moved down one step to Adequate: the purchase obligations exclude capital commitments for the three new plants, so liquidity cover is overstated.",
+        "notes": "Instruments: 10-Q for the quarter ended 2026-09-30 (filed 2026-10-29) for balances; 10-K for 2025 (filed 2026-02-12) for purchase obligations and segment concentration.",
+        "evidence": [
+          "ev_190090",
+          "ev_190091",
+          "ev_190092",
+          "ev_190093",
+          "ev_190094",
+          "ev_190095",
+          "ev_190096"
+        ]
+      }
+    },
+    {
+      "id": "ent_amkor",
+      "name": "Amkor Technology, Inc.",
+      "short_name": "Amkor",
+      "cluster": "semis_supply",
+      "depth": 1,
+      "public": true,
+      "ticker": "AMKR",
+      "cik": "0001047127",
+      "country": "US",
+      "credit": {
+        "public_ratings": [],
+        "debt_outstanding": {
+          "value": 2495821000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190100"
+          ]
+        },
+        "maturities_24m": {
+          "value": 295213000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190099",
+            "ev_190101"
+          ],
+          "components": [
+            {
+              "value": 149502000.0,
+              "evidence": [
+                "ev_190099"
+              ],
+              "note": "Current debt at 2026-09-30"
+            },
+            {
+              "value": 145711000.0,
+              "evidence": [
+                "ev_190101"
+              ],
+              "note": "Principal due in 2027 per the 10-K schedule at 2025-12-31"
+            }
+          ],
+          "note": "Mixes the 10-Q current portion with the 10-K second-year amount (analysis); about 24 months."
+        },
+        "cash_and_undrawn": {
+          "value": 3376196000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190097",
+            "ev_190098",
+            "ev_190102"
+          ],
+          "components": [
+            {
+              "value": 1603015000.0,
+              "evidence": [
+                "ev_190097"
+              ],
+              "note": "Cash and cash equivalents"
+            },
+            {
+              "value": 773181000.0,
+              "evidence": [
+                "ev_190098"
+              ],
+              "note": "Short-term investments"
+            },
+            {
+              "value": 1000000000.0,
+              "evidence": [
+                "ev_190102"
+              ],
+              "note": "Availability under the 2025 Revolving Credit Facility"
+            }
+          ]
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": {
+          "value": 0.298,
+          "as_of": "2025-12-31",
+          "evidence": [
+            "ev_190111"
+          ],
+          "note": "Apple, direct sales 29.8% of 2025 net sales; Qualcomm 11.1%.",
+          "last_verified": "2026-11-23"
+        },
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+        "market_signals": [],
+        "grade": "Adequate",
+        "grade_reason": "Two columns sourced. Debt due within about 24 months $0.30 billion against $3.38 billion of cash, short-term investments and revolver availability, a ratio of 0.09, Strong. Top customer Apple 29.8% of 2025 net sales, Adequate. No liquidity cover or public rating stated. Weakest column Adequate; no adjustment. Ten largest customers 72% (ev_190113).",
+        "notes": "Instruments: 10-Q for the quarter ended 2026-09-30 (filed 2026-10-27); 10-K for 2025 (filed 2026-02-20) for customers and the debt schedule. Amkor issued $1.15 billion of 2031 notes in May 2026 (10-Q).",
+        "evidence": [
+          "ev_190097",
+          "ev_190098",
+          "ev_190099",
+          "ev_190100",
+          "ev_190101",
+          "ev_190102",
+          "ev_190111",
+          "ev_190113"
+        ]
+      }
+    },
+    {
+      "id": "ent_microsoft",
+      "name": "Microsoft Corporation",
+      "short_name": "Microsoft",
+      "cluster": "hyperscaler",
+      "depth": 1,
+      "public": true,
+      "ticker": "MSFT",
+      "cik": "0000789019",
+      "country": "US",
+      "credit": {
+        "public_ratings": [
+          {
+            "agency": "Not named (Microsoft 10-Q)",
+            "rating": "AAA",
+            "date": "2026-09-30",
+            "evidence": [
+              "ev_190108"
+            ]
+          }
+        ],
+        "debt_outstanding": {
+          "value": 35481000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190104"
+          ]
+        },
+        "maturities_24m": {
+          "value": 6388000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_190105",
+            "ev_190106"
+          ],
+          "components": [
+            {
+              "value": 4400000000.0,
+              "evidence": [
+                "ev_190105"
+              ],
+              "note": "Remainder of fiscal 2027"
+            },
+            {
+              "value": 1988000000.0,
+              "evidence": [
+                "ev_190106"
+              ],
+              "note": "Fiscal 2029 (July 2028 to June 2029)"
+            }
+          ],
+          "note": "Nothing is due in fiscal 2028 (ev_190107). Includes all of fiscal 2029, so an upper bound for 24 months."
+        },
+        "cash_and_undrawn": {
+          "value": 64509000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": true,
+          "evidence": [
+            "ev_190103"
+          ],
+          "note": "Cash, cash equivalents and short-term investments; no undrawn facility recorded."
+        },
+        "committed_spend_12m": null,
+        "top_customer_share": {
+          "value": 0.1,
+          "as_of": "2026-06-30",
+          "evidence": [
+            "ev_190109"
+          ],
+          "note": "Upper bound: no individual customer above 10% of revenue in fiscal 2026.",
+          "last_verified": "2026-11-23"
+        },
+        "top3_customer_share": null,
+        "collateral_note": "Not applicable: unsecured issuer; no GPU-backed debt disclosed.",
+        "market_signals": [],
+        "grade": "Strong",
+        "grade_reason": "Three columns sourced. Long-term unsecured debt rated AAA (agency not named), Strong. Debt due through fiscal 2029 $6.39 billion against $64.5 billion of cash and short-term investments, a ratio of 0.10, Strong. No customer above 10% of revenue, Strong. Liquidity cover not computed (12 month commitments not taken from the 10-Q). Weakest column Strong; no adjustment.",
+        "notes": "Instruments: 10-Q for the quarter ended 2026-09-30 (filed 2026-10-28); 10-K for fiscal 2026 (filed 2026-07-29) for customers. Nvidia's relationship with Microsoft is a context record without amounts (rel_microsoft_cx_2025).",
+        "evidence": [
+          "ev_190103",
+          "ev_190104",
+          "ev_190105",
+          "ev_190106",
+          "ev_190107",
+          "ev_190108",
+          "ev_190109"
+        ]
+      }
+    }
+  ],
+  "relationships": [],
+  "projects": [],
+  "events": []
+}

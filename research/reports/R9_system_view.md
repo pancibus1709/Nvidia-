@@ -2,7 +2,7 @@
 
 Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattributed remainders and context records are excluded.
 
-**How far the sources reach.** Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown. The register holds 978 citations: 972 from filings, company releases and other primary sources, 6 from news publications. 53 of 80 relationships are disclosed by one side only.
+**How far the sources reach.** Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown. The register holds 1058 citations: 1052 from filings, company releases and other primary sources, 6 from news publications. 53 of 80 relationships are disclosed by one side only.
 
 ## Totals
 
@@ -83,11 +83,11 @@ Value in Nvidia's holdings report. A position whose cost is not disclosed adds n
 
 | Group | Relationships | Funded and still held (cost) | Committed, confirmed not yet paid | Committed, paid portion not disclosed | Contingent maximum | of which not yet in force | Gross | Headline | Lower bounds |
 |---|---|---|---|---|---|---|---|---|---|
-| Insufficient information | 67 | $20.3 billion | $0 | $32.1 billion | $106.5 billion | $105 billion | $158.9 billion | $281.1 billion | 44 |
-| Watch | 6 | $2.18 billion | $1 billion | $4.6 billion | $860.3 million | $0 | $8.64 billion | $10.7 billion | 2 |
-| Adequate | 3 | $5.75 billion | $0 | $0 | $0 | $0 | $5.75 billion | $7 billion | 1 |
+| Insufficient information | 58 | $10 billion | $0 | $32.1 billion | $105 billion | $105 billion | $147.1 billion | $262.6 billion | 43 |
+| Watch | 8 | $5.68 billion | $1 billion | $4.6 billion | $2.36 billion | $0 | $13.6 billion | $15.7 billion | 2 |
+| Adequate | 9 | $10.7 billion | $0 | $0 | $0 | $0 | $10.7 billion | $18.5 billion | 2 |
 | Weak | 3 | $2 billion | $0 | $0 | $0 | $0 | $2 billion | $8.3 billion | 2 |
-| Strong | 1 | $0 | $0 | $0 | $0 | $0 | $0 | $0 | 1 |
+| Strong | 2 | $1.81 billion | $0 | $0 | $0 | $0 | $1.81 billion | $2 billion | 1 |
 
 ### By tenor
 
