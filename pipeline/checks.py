@@ -60,6 +60,7 @@ class Register:
         self.projects = load_json(d / "projects.json", [])
         self.events = load_json(d / "events.json", [])
         self.financials = load_json(d / "nvidia_financials.json", {})
+        self.complex = load_json(d / "complex_links.json", [])
         if extra_evidence:
             self.evidence = self.evidence + extra_evidence
         self.index()
@@ -70,6 +71,8 @@ class Register:
         self.rel = {r["id"]: r for r in self.relationships}
 
     def save(self):
+        if self.complex:
+            save_json(self.dir / "complex_links.json", self.complex)
         save_json(self.dir / "relationships.json", self.relationships)
         save_json(self.dir / "entities.json", self.entities)
         save_json(self.dir / "projects.json", self.projects)
@@ -101,6 +104,10 @@ def iter_amounts(reg: Register):
             for k in ("balance", "collateral_value"):
                 if isinstance(f.get(k), dict):
                     yield f"{p['id']}.financing[{i}].{k}", k, f[k], p
+    for c in getattr(reg, "complex", []) or []:
+        for k, a in (c.get("amounts") or {}).items():
+            if isinstance(a, dict):
+                yield f"{c['id']}.amounts.{k}", k, a, c
     for k, a in (reg.financials or {}).items():
         if isinstance(a, dict) and "value" in a and "evidence" in a:
             yield f"nvidia_financials.{k}", k, a, reg.financials
@@ -325,7 +332,7 @@ def independent_totals(reg: Register, rel_filter=None) -> dict:
 
 def check_schema(reg):
     out = []
-    for name, rows in (("entity", reg.entities), ("relationship", reg.relationships), ("evidence", reg.evidence), ("project", reg.projects), ("event", reg.events)):
+    for name, rows in (("entity", reg.entities), ("relationship", reg.relationships), ("evidence", reg.evidence), ("project", reg.projects), ("event", reg.events), ("complex_link", getattr(reg, "complex", []))):
         v = jsonschema.Draft202012Validator(schema(name))
         seen = set()
         for row in rows:
@@ -344,6 +351,13 @@ def check_schema(reg):
         for l in r.get("depth2_links") or []:
             if l["entity"] not in reg.ent:
                 out.append(f"schema: {r['id']}: depth-2 entity {l['entity']} does not exist")
+    for c in getattr(reg, "complex", []) or []:
+        for end in ("provider", "beneficiary", "obligor"):
+            if c[end] not in reg.ent:
+                out.append(f"schema: {c['id']}: {end} entity {c[end]} does not exist")
+        for rid in c.get("nvidia_links") or []:
+            if rid not in reg.rel:
+                out.append(f"schema: {c['id']}: nvidia link {rid} does not exist")
     for p in reg.projects:
         if p["entity"] not in reg.ent:
             out.append(f"schema: {p['id']}: entity {p['entity']} does not exist")
@@ -370,7 +384,7 @@ def _ev_ids(node):
 
 def check_evidence_resolution(reg):
     out = []
-    for coll in (reg.relationships, reg.entities, reg.projects, reg.events):
+    for coll in (reg.relationships, reg.entities, reg.projects, reg.events, getattr(reg, "complex", [])):
         for row in coll:
             for i in _ev_ids(row):
                 if i not in reg.ev:
@@ -572,7 +586,7 @@ def copy_problems(text: str, banned: list[str]) -> list[str]:
 def check_copy(reg, published_dir=None, site_dir=None):
     out = []
     banned = load_json(CONFIG / "banned_words.json")["words"]
-    for name, coll in (("relationships", reg.relationships), ("entities", reg.entities), ("projects", reg.projects), ("events", reg.events)):
+    for name, coll in (("relationships", reg.relationships), ("entities", reg.entities), ("projects", reg.projects), ("events", reg.events), ("complex", getattr(reg, "complex", []))):
         for row in coll:
             for path, s in _walk_strings(row):
                 for p in copy_problems(s, banned):
@@ -674,7 +688,7 @@ def check_published(reg, published_dir):
 def check_text_citations(reg):
     """Every evidence id written anywhere in the register (notes, reconciliation text, loops, verdict) must exist."""
     out = []
-    files = ["relationships.json", "entities.json", "projects.json", "events.json", "loops.json", "central_bank.json", "nvidia_financials.json"]
+    files = ["relationships.json", "entities.json", "projects.json", "events.json", "loops.json", "central_bank.json", "nvidia_financials.json", "complex_links.json"]
     for name in files:
         f = reg.dir / name
         if not f.exists():
@@ -819,14 +833,21 @@ def main(argv=None):
         reg.relationships = d.get("relationships", [])
         reg.projects = d.get("projects", [])
         reg.events = d.get("events", [])
+        reg.complex = d.get("complex_links", [])
+        known_rel = {r["id"] for r in Register(args.register).relationships}
+        reg.relationships += [r for r in Register(args.register).relationships if r["id"] not in {x["id"] for x in reg.relationships}] if reg.complex else []
         used = set()
-        for coll in (reg.relationships, reg.entities, reg.projects, reg.events):
+        for coll in (reg.relationships, reg.entities, reg.projects, reg.events, reg.complex):
             for row in coll:
                 used |= set(_ev_ids(row))
         reg.evidence = [e for e in reg.evidence if e["id"] in used]
         reg.index()
         set_eligibility(reg)
+        if reg.complex:
+            reg.relationships = [r for r in reg.relationships if r["id"] not in known_rel or r["id"] in {x["id"] for x in d.get("relationships", [])}]
         d["relationships"], d["projects"] = reg.relationships, reg.projects
+        if reg.complex:
+            d["complex_links"] = reg.complex
         d["entities"] = [e for e in reg.entities if e["id"] in ids]
         save_json(args.file, d)
         probs = run_all(reg, draft=True)

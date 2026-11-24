@@ -46,8 +46,8 @@ def merge_entity(a: dict, b: dict) -> dict:
 
 def main():
     ents = {e["id"]: e for e in BASE_ENTITIES}
-    rels, projs, evts, log = {}, {}, {}, []
-    files = sorted(DRAFTS.glob("cluster_*.json")) + sorted(DRAFTS.glob("lead_*.json"))
+    rels, projs, evts, cx, log = {}, {}, {}, {}, []
+    files = sorted(DRAFTS.glob("cluster_*.json")) + sorted(DRAFTS.glob("lead_*.json")) + sorted(DRAFTS.glob("complex_*.json"))
     for f in files:
         d = load_json(f)
         for e in d.get("entities", []):
@@ -59,7 +59,7 @@ def main():
                 log.append(f"entity {e['id']} merged from {f.name}")
             elif e["id"] not in ents:
                 ents[e["id"]] = e
-        for name, store in (("relationships", rels), ("projects", projs), ("events", evts)):
+        for name, store in (("relationships", rels), ("projects", projs), ("events", evts), ("complex_links", cx)):
             for r in d.get(name, []):
                 if r["id"] in store:
                     log.append(f"DUPLICATE {name[:-1]} {r['id']} in {f.name}: kept the first")
@@ -72,8 +72,16 @@ def main():
     save_json(REGISTER / "relationships.json", list(rels.values()))
     save_json(REGISTER / "projects.json", list(projs.values()))
     save_json(REGISTER / "events.json", sorted(evts.values(), key=lambda e: e["date"]))
+    save_json(REGISTER / "complex_links.json", list(cx.values()))
     if fin:
         save_json(REGISTER / "nvidia_financials.json", fin)
+    # display eligibility is set by the checks module and nowhere else; do it now so the register is never left stale
+    from .checks import Register, set_eligibility
+    from . import merge_evidence
+    merge_evidence.main()
+    reg = Register()
+    set_eligibility(reg)
+    reg.save()
     print(f"{len(ents)} entities, {len(rels)} relationships, {len(projs)} projects, {len(evts)} events from {len(files)} drafts")
     for l in log:
         if l.startswith("DUPLICATE"):

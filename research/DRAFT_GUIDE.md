@@ -123,3 +123,22 @@ maturity}, `seniority`, `reconciliation`, `credit`, `consequences`, `projects` [
   A single-payment funded amount with no components uses `amounts.funded.as_of` as its payment date only if `paid_on_is_as_of` is true... do not rely on that: give it one component with `paid_on`.
 - `amounts.funded.floor`, `floor_as_of`, `floor_note`: a sourced lower bound when the value itself is not disclosed. Never display eligible, never in a total; `floor_note` says what it rests on and is labeled analysis.
 - `holding.instrument`: "common", "preferred", "warrant", "convertible note", for positions in listed companies.
+
+## Guarantees and credit support between other parties (complex sweep, 24 November 2026)
+
+Write `research/drafts/complex_<topic>.json` = {"entities": [...], "relationships": [], "projects": [], "events": [], "complex_links": [...]}.
+A complex link records credit support or demand support where the provider is NOT Nvidia (Nvidia's own guarantees are
+relationships). Schema: `schema/complex_link.schema.json`. Fields:
+
+- `id` "cx_<provider>_<obligor>_<kind>_<year>"; `kind` one of guarantee, backstop, residual_value_guarantee, lease_guarantee,
+  parent_guarantee, credit_support, vendor_financing, share_option_or_warrant, minimum_revenue, compute_contract.
+- `provider` (who stands behind it), `beneficiary` (lender, landlord or supplier protected), `obligor` (whose obligation is
+  supported): entity ids. Create minimal depth 2 entities for parties not yet in data/register/entities.json (check first:
+  reuse existing ids such as ent_microsoft, ent_google, ent_meta, ent_oracle if present, ent_openai, ent_coreweave).
+- `instrument`: the document's name for it. `description`: two to four plain sentences. `trigger`: what makes the provider pay.
+- `amounts`: `headline`, `maximum`, `drawn_or_paid`, each an amount object exactly as for relationships (unknown = value null;
+  every figure grounded by evidence that contains it).
+- `status`, `claim_basis` as for relationships. `dates`: announced, signed, effective, maturity.
+- `same_capacity_as_nvidia`: true when the supported lease, loan or contract is for capacity that also carries an Nvidia
+  relationship (for example Microsoft's contract with a neocloud Nvidia backstops); `nvidia_links`: those relationship ids.
+- `evidence`: every id used. Validate with `python3 -m pipeline.checks draft <file>` until "All checks passed".

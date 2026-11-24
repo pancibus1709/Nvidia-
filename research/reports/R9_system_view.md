@@ -1,6 +1,6 @@
 # R9 system view
 
-Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattributed remainders and context records are excluded.
+Computed 2026-11-24 from display-eligible amounts only. Label: analysis. Unattributed remainders and context records are excluded.
 
 **How far the sources reach.** Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown. The register holds 1094 citations: 1088 from filings, company releases and other primary sources, 6 from news publications. 53 of 80 relationships are disclosed by one side only.
 
@@ -14,7 +14,7 @@ Computed 2026-11-23 from display-eligible amounts only. Label: analysis. Unattri
 - Gross exposure: at least $175.3 billion
 - Headline announced (never added to exposure): $307.1 billion across 30, in three unlike groups: guaranty and backstop figures $117 billion; announced but not binding or not followed by a disclosed agreement $103.5 billion; other announced amounts (equity, rentals, prepayments, options Nvidia holds) $86.6 billion; excludes GBP 2 billion (UK startup program), not converted (1 figure is stated by the source with a qualifier such as 'nearly')
 
-Totals are struck at 2026-11-23. The bridge below compares against Nvidia's figures at 25 October 2026, so purchases after that date (for example Anthropic's November placement) are in the totals but in no Nvidia figure yet.
+Totals are struck at 2026-11-24. The bridge below compares against Nvidia's figures at 25 October 2026, so purchases after that date (for example Anthropic's November placement) are in the totals but in no Nvidia figure yet.
 
 ## Bridge to Nvidia's own disclosures
 
