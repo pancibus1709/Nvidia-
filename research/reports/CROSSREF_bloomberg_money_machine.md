@@ -42,3 +42,8 @@ Nothing in the register is contradicted. Two gaps are confirmed and added to the
 
 - OpenAI's contract with Oracle: find the amount in an allowed source (an OpenAI or Oracle release or filing), and any guarantee behind Oracle's data center leases for it.
 - AMD's share option to OpenAI: record it as a comparator, as Google's backstop of Fluidstack already is, because it shows a second chipmaker underwriting a lab's demand.
+
+## Update, 24 November 2026: the two gaps
+
+- **OpenAI and Oracle:** OpenAI's own release of 23 September 2025 says the Oracle partnership "exceeds $300 billion". No Oracle filing names OpenAI, and no guarantee behind the contract was found. The figure is now sourced from OpenAI's side only.
+- **AMD and OpenAI:** recorded. AMD granted OpenAI a warrant for up to 160 million AMD shares, vesting as OpenAI buys AMD GPUs; none had vested at 26 September 2026. AMD gave Meta the same warrant in 2026. AMD also guarantees $7.7 billion of partner leases and backstops $6.2 billion of cloud capacity: the chart's AMD node is a second underwriter, not only a supplier. See `GS_SUMMARY.md`.

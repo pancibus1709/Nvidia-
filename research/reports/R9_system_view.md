@@ -2,7 +2,7 @@
 
 Computed 2026-11-24 from display-eligible amounts only. Label: analysis. Unattributed remainders and context records are excluded.
 
-**How far the sources reach.** Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown. The register holds 1094 citations: 1088 from filings, company releases and other primary sources, 6 from news publications. 53 of 80 relationships are disclosed by one side only.
+**How far the sources reach.** Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown. The register holds 1301 citations: 1295 from filings, company releases and other primary sources, 6 from news publications. 53 of 80 relationships are disclosed by one side only.
 
 ## Totals
 

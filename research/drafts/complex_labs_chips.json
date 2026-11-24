@@ -1,0 +1,2104 @@
+{
+  "entities": [
+    {
+      "id": "ent_vela_i",
+      "name": "VELA I Holdings, LLC",
+      "short_name": "VELA I",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "OpenAI affiliate that is the tenant under the PORTS-Pike leases from SB Energy subsidiaries.",
+      "domains": [],
+      "evidence": [
+        "ev_100008"
+      ]
+    },
+    {
+      "id": "ent_orion_dc",
+      "name": "Orion DC I, LLC",
+      "short_name": "Orion DC I",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "OpenAI affiliate that is the tenant under SB Energy's two Milam County, Texas data center leases.",
+      "domains": [],
+      "evidence": [
+        "ev_250055"
+      ]
+    },
+    {
+      "id": "ent_spacexai",
+      "name": "SpaceX.AI LLC (formerly X.AI LLC) and its subsidiaries",
+      "short_name": "SpaceXAI",
+      "cluster": "ai_lab",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "SpaceX's AI subsidiary group (formerly xAI); its subsidiaries lease computing equipment from Valor.",
+      "domains": [],
+      "evidence": [
+        "ev_120072",
+        "ev_120075"
+      ]
+    },
+    {
+      "id": "ent_anthropic_lease_spvs",
+      "name": "Anthropic special purpose lease subsidiaries",
+      "short_name": "Anthropic lease SPVs",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Two special purpose subsidiaries of Anthropic that are lessees under the Broadcom master equipment leases.",
+      "domains": [],
+      "evidence": [
+        "ev_250001"
+      ]
+    },
+    {
+      "id": "ent_broadcom_xpv_partners",
+      "name": "Financial partners and special purpose vehicle under Broadcom's AI XPV platform (not named)",
+      "short_name": "Broadcom XPV financiers",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Unnamed financial partner and special purpose vehicle that took on Broadcom's AI rack purchase and lease agreements with a customer.",
+      "domains": [],
+      "evidence": [
+        "ev_250041",
+        "ev_250046"
+      ]
+    },
+    {
+      "id": "ent_amd_commercial_partners",
+      "name": "AMD commercial partners (not named)",
+      "short_name": "AMD partners",
+      "cluster": "other",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Unnamed commercial partners whose data center leases and borrowings AMD guarantees.",
+      "domains": [],
+      "evidence": [
+        "ev_250023"
+      ]
+    },
+    {
+      "id": "ent_amd_partner_counterparties",
+      "name": "Landlords and lenders of AMD commercial partners (not named)",
+      "short_name": "AMD partners' landlords and lenders",
+      "cluster": "other",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Unnamed third-party landlords and lenders protected by AMD's guarantees of its commercial partners.",
+      "domains": [],
+      "evidence": [
+        "ev_250023"
+      ]
+    },
+    {
+      "id": "ent_amd_cloud_providers",
+      "name": "Cloud service providers under AMD cloud compute capacity commitments (not named)",
+      "short_name": "AMD cloud partners",
+      "cluster": "neocloud",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Unnamed cloud service providers whose unsold GPU capacity AMD has committed to buy.",
+      "domains": [],
+      "evidence": [
+        "ev_250026"
+      ]
+    },
+    {
+      "id": "ent_anthropic_dc_developers",
+      "name": "Data center developers under Anthropic cost reimbursement arrangements (not named)",
+      "short_name": "Anthropic developers",
+      "cluster": "other",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Unnamed data center developers whose equipment procurement Anthropic supports through cost reimbursement arrangements.",
+      "domains": [],
+      "evidence": [
+        "ev_250009"
+      ]
+    },
+    {
+      "id": "ent_anthropic_dc_provider",
+      "name": "Data center provider whose power purchase contract Anthropic guarantees (not named)",
+      "short_name": "Anthropic data center provider",
+      "cluster": "other",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Unnamed data center provider whose payment obligations under a power purchase contract Anthropic guarantees.",
+      "domains": [],
+      "evidence": [
+        "ev_250010"
+      ]
+    },
+    {
+      "id": "ent_anthropic_ppa_counterparty",
+      "name": "Power purchase contract counterparty (not named)",
+      "short_name": "Power seller",
+      "cluster": "other",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Unnamed counterparty to a power purchase contract guaranteed by Anthropic.",
+      "domains": [],
+      "evidence": [
+        "ev_250010"
+      ]
+    },
+    {
+      "id": "ent_softbank_cosmos_tenant",
+      "name": "SoftBank affiliate tenant at the Cosmos Research Campus (not named)",
+      "short_name": "Cosmos tenant",
+      "cluster": "other",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Unnamed SoftBank affiliate that leases SB Energy's Cosmos Research Campus in Travis County, Texas.",
+      "domains": [],
+      "evidence": [
+        "ev_250051"
+      ]
+    }
+  ],
+  "relationships": [],
+  "projects": [],
+  "events": [],
+  "complex_links": [
+    {
+      "id": "cx_openai_vela_i_parent_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_openai",
+      "beneficiary": "ent_sb_energy",
+      "obligor": "ent_vela_i",
+      "instrument": "Joinder by OpenAI Global, LLC as tenant parent guarantor to the PORTS-Pike leases",
+      "description": "OpenAI Global, LLC joined each PORTS-Pike lease as guarantor of all obligations of the tenant, VELA I Holdings, LLC, owed to SB Energy's building subsidiaries. The 17 leases cover about 8.0 GW-IT for 20 years. Nvidia's residual value guaranties on the first nine buildings sit behind this parent guaranty: the landlord must pursue OpenAI as tenant parent at the same time as it calls on Nvidia.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "VELA I Holdings fails to pay or perform under a PORTS-Pike lease.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-08-17",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_openai_gu_2026",
+        "rel_sb_energy_eq_2026"
+      ],
+      "evidence": [
+        "ev_100008",
+        "ev_100009",
+        "ev_100050",
+        "ev_40098",
+        "ev_120025",
+        "ev_120034"
+      ],
+      "notes": "No cap or rent total is disclosed for the parent guaranty. SB Energy says OpenAI is not an investment grade tenant (ev_120034). Same capacity as Nvidia: the first nine buildings carry Nvidia's guaranties."
+    },
+    {
+      "id": "cx_openai_orion_dc_parent_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_openai",
+      "beneficiary": "ent_sb_energy",
+      "obligor": "ent_orion_dc",
+      "instrument": "Joinder by OpenAI Global, LLC as guarantor to the Milam County Building 1 and Building 2 leases",
+      "description": "An OpenAI affiliate, OpenAI Global, LLC, unconditionally guaranteed all obligations of the tenant Orion DC I, LLC under SB Energy's two Milam County, Texas data center leases, about 753 MW of IT capacity on 15 year terms. No Nvidia guaranty covers Milam County; Nvidia's link is its equity in SB Energy, the landlord.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Orion DC I fails to pay or perform under either Milam County lease.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-01-09",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_sb_energy_eq_2026"
+      ],
+      "evidence": [
+        "ev_250055",
+        "ev_250056",
+        "ev_250057",
+        "ev_250058"
+      ],
+      "notes": "Building 1 lease amended and restated 2026-07-22; Building 2 lease dated 2026-01-09. Company level link to Nvidia only (equity in the landlord)."
+    },
+    {
+      "id": "cx_sb_energy_openai_share_option_or_warrant_2026",
+      "kind": "share_option_or_warrant",
+      "provider": "ent_sb_energy",
+      "beneficiary": "ent_openai",
+      "obligor": "ent_openai",
+      "instrument": "OpenAI Warrants under the Amended and Restated OpenAI Warrant Agreement",
+      "description": "SB Energy issued 3,991,809 warrants at a nominal exercise price to OpenAI as a material inducement to sign its data center leases, treated as a discount against rent. Some vested at the IPO; the rest vest on Milam County project financing or on SB Energy equity value thresholds. Fair value was about $4.603 billion at issuance and about $2.3 billion at 30 September 2026.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 4603000000,
+          "as_of": "2026-01-09",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_250061"
+          ],
+          "qualifier": "about",
+          "note": "Fair value of the warrant liability at issuance"
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Not a payment obligation: warrants vest on Milam County financing conditions or share value thresholds.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-01-09",
+        "effective": null,
+        "maturity": "2036-01-09"
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_sb_energy_eq_2026"
+      ],
+      "evidence": [
+        "ev_250060",
+        "ev_250061",
+        "ev_250062",
+        "ev_250063"
+      ],
+      "notes": "Fair value at 2026-09-30 about $2.3 billion (ev_250062). Expiry is the later of 2036-01-09 and regulatory approval dates."
+    },
+    {
+      "id": "cx_sb_energy_orion_dc_guarantee_2026",
+      "kind": "guarantee",
+      "provider": "ent_sb_energy",
+      "beneficiary": "ent_orion_dc",
+      "obligor": "ent_sb_energy",
+      "instrument": "Completion guaranties approved by an SB Energy parent entity for the Milam County leases",
+      "description": "One of SB Energy's parent entities approved completion guaranties for the benefit of OpenAI's tenant under the Milam County leases. They protect the tenant against late or failed delivery of the buildings, the reverse of a rent guaranty.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "SB Energy's landlord subsidiary fails to complete the Milam County buildings as the leases require.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_sb_energy_eq_2026"
+      ],
+      "evidence": [
+        "ev_250059",
+        "ev_250055"
+      ],
+      "notes": "Amount not disclosed."
+    },
+    {
+      "id": "cx_sb_energy_cosmos_guarantee_2026",
+      "kind": "guarantee",
+      "provider": "ent_sb_energy",
+      "beneficiary": "ent_softbank_cosmos_tenant",
+      "obligor": "ent_sb_energy",
+      "instrument": "Completion guaranty by an SB Energy parent entity for the Cosmos Research Campus",
+      "description": "An SB Energy parent entity gave a completion guaranty for the Cosmos Research Campus for the benefit of the holders of $999.0 million of 8.875% senior secured notes due 2031 and the SoftBank affiliate tenant.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "The Cosmos project is not completed as required by the notes and the lease.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-05-01",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_sb_energy_eq_2026"
+      ],
+      "evidence": [
+        "ev_250073",
+        "ev_250054"
+      ],
+      "notes": "Signed date is the month the notes were issued (May 2026); exact day not stated. Beneficiaries also include the noteholders."
+    },
+    {
+      "id": "cx_softbank_cosmos_tenant_lease_guarantee_2026",
+      "kind": "lease_guarantee",
+      "provider": "ent_softbank",
+      "beneficiary": "ent_sb_energy",
+      "obligor": "ent_softbank_cosmos_tenant",
+      "instrument": "Guaranty by SoftBank Group Capital Limited of the Cosmos tenant's lease obligations",
+      "description": "SoftBank Group Capital Limited, a SoftBank Group affiliate, guaranteed the obligations of the SoftBank affiliate that leases SB Energy's Cosmos Research Campus, about 50 MW of IT capacity on a 15 year lease with expected rent of about $2.5 billion. Anticipated guaranty exposure is about $2.9 billion.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 2900000000,
+          "as_of": "2026-11-19",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_250052"
+          ],
+          "qualifier": "about",
+          "note": "Anticipated aggregate guaranty exposure"
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "The SoftBank affiliate tenant fails to pay or perform under the Cosmos lease.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_sb_energy_eq_2026"
+      ],
+      "evidence": [
+        "ev_250051",
+        "ev_250052",
+        "ev_250053"
+      ],
+      "notes": "Company level link only: Nvidia holds equity in SB Energy, the landlord."
+    },
+    {
+      "id": "cx_anthropic_nscale_compute_contract_2026",
+      "kind": "compute_contract",
+      "provider": "ent_anthropic",
+      "beneficiary": "ent_nscale",
+      "obligor": "ent_nscale",
+      "instrument": "Nscale Services Agreements (GPU services agreements with Nscale subsidiaries)",
+      "description": "Anthropic agreed to spend up to about $44.6 billion with Nscale for NVIDIA GPU compute into 2033, with fees accruing only as capacity is delivered. Nscale must use best efforts to obtain financing for the NVIDIA GPUs, and had no binding financing commitments when it filed. Once in force the commitment is non-cancelable except for Nscale's delivery failures or breach.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 44600000000,
+          "as_of": "2026-11-19",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_120049",
+            "ev_40029"
+          ],
+          "qualifier": "up to"
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Anthropic pays as capacity is delivered; Nscale's lenders would rely on these payments.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-08-25",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_nscale_gu_2025",
+        "rel_nscale_lb_2025",
+        "rel_nscale_eq_2025",
+        "rel_nscale_fc_2026"
+      ],
+      "evidence": [
+        "ev_120049",
+        "ev_40029",
+        "ev_40030",
+        "ev_250071"
+      ],
+      "notes": "Nvidia guarantees Nscale's Ward County lease, rents capacity from Nscale and holds its shares and notes; same company, different site."
+    },
+    {
+      "id": "cx_anthropic_google_minimum_revenue_2026",
+      "kind": "minimum_revenue",
+      "provider": "ent_anthropic",
+      "beneficiary": "ent_google",
+      "obligor": "ent_google",
+      "instrument": "CSP hosting agreement with Google (March 2026, amended May to October 2026)",
+      "description": "Anthropic committed to spend at least about $121.3 billion with Google between April 2026 and July 2033 regardless of actual usage, paying any shortfall as a true-up. It is non-cancelable except for Google's uncured material breach. The capacity is Google TPUs, not Nvidia.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 121300000000,
+          "as_of": "2026-11-19",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_120045"
+          ],
+          "qualifier": "about",
+          "note": "Minimum committed spend"
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Anthropic's spend falls short of the minimum; it pays Google the difference.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-03-01",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "evidence": [
+        "ev_120045",
+        "ev_250016"
+      ],
+      "notes": "Signed date: month only stated (March 2026)."
+    },
+    {
+      "id": "cx_anthropic_amazon_minimum_revenue_2026",
+      "kind": "minimum_revenue",
+      "provider": "ent_anthropic",
+      "beneficiary": "ent_amazon",
+      "obligor": "ent_amazon",
+      "instrument": "Agreement with Amazon (April 2026)",
+      "description": "Anthropic committed to spend at least $110.0 billion with Amazon between May 2026 and April 2036 regardless of actual usage, paying any shortfall as a true-up. It is non-cancelable except for Amazon's uncured material breach.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 110000000000,
+          "as_of": "2026-11-19",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_120046"
+          ],
+          "note": "Minimum committed spend"
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Anthropic's spend falls short of the minimum; it pays Amazon the difference.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-04-01",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "evidence": [
+        "ev_120046",
+        "ev_250017"
+      ],
+      "notes": "Signed date: month only stated (April 2026)."
+    },
+    {
+      "id": "cx_anthropic_microsoft_minimum_revenue_2025",
+      "kind": "minimum_revenue",
+      "provider": "ent_anthropic",
+      "beneficiary": "ent_microsoft",
+      "obligor": "ent_microsoft",
+      "instrument": "Agreement with Microsoft (November 2025, amended February to November 2026)",
+      "description": "Anthropic committed to spend at least $47.2 billion and up to $49.2 billion on Azure between November 2026 and June 2033 regardless of actual usage. It is non-cancelable except for Microsoft's uncured material breach or undelivered tranches. It grew out of the November 2025 agreement in which Nvidia and Microsoft agreed to invest and Anthropic took up to one gigawatt of Nvidia systems.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 47200000000,
+          "as_of": "2026-11-19",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_120044"
+          ],
+          "note": "Minimum committed spend"
+        },
+        "maximum": {
+          "value": 49200000000,
+          "as_of": "2026-11-19",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_120044"
+          ],
+          "qualifier": "up to"
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Anthropic's usage falls short; it still owes the minimum.",
+      "dates": {
+        "announced": null,
+        "signed": "2025-11-18",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_anthropic_eqc_2025",
+        "rel_microsoft_cx_2025"
+      ],
+      "evidence": [
+        "ev_120044",
+        "ev_250018",
+        "ev_120064",
+        "ev_120065"
+      ],
+      "notes": "Signed date taken as the November 2025 announcement; the prospectus says November 2025."
+    },
+    {
+      "id": "cx_anthropic_lease_spvs_parent_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_anthropic",
+      "beneficiary": "ent_broadcom",
+      "obligor": "ent_anthropic_lease_spvs",
+      "instrument": "Guarantee by Anthropic, PBC of its two special purpose subsidiaries' obligations under the Broadcom Lease Arrangements",
+      "description": "Anthropic's two special purpose subsidiaries lease Broadcom TPU hardware under five year master equipment leases, and Anthropic, PBC guarantees their obligations. The leases are secured by the equipment, non-cancelable by either party, and parts have been assigned by Broadcom to a third party and a new special purpose financing entity.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "A lease subsidiary fails to pay rent or defaults; the lessor accelerates and calls on Anthropic.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_anthropic_eq_2026",
+        "rel_anthropic_eqc_2025"
+      ],
+      "evidence": [
+        "ev_250001",
+        "ev_250002",
+        "ev_250003",
+        "ev_250004",
+        "ev_120051"
+      ],
+      "notes": "Guaranteed rent totals about $161.2 billion excluding interest (recorded on the vendor financing link). Company level link to Nvidia only: the capacity is TPU based."
+    },
+    {
+      "id": "cx_broadcom_anthropic_vendor_financing_2026",
+      "kind": "vendor_financing",
+      "provider": "ent_broadcom",
+      "beneficiary": "ent_anthropic",
+      "obligor": "ent_anthropic_lease_spvs",
+      "instrument": "Five-year master equipment leases including the 2026 Lease Arrangement (the Lease Arrangements)",
+      "description": "Broadcom leases its own TPU based AI hardware to Anthropic's lease subsidiaries instead of selling it, on five year finance leases with rent of about $161.2 billion excluding interest, payable from ready for service. Anthropic posted restricted cash for Broadcom's benefit and may have to post more.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 161200000000,
+          "as_of": "2026-11-19",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_120051"
+          ],
+          "qualifier": "about",
+          "note": "Aggregate rent excluding interest"
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Anthropic's subsidiaries pay rent from ready for service; on default the lessor may accelerate.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_anthropic_eq_2026",
+        "rel_anthropic_eqc_2025"
+      ],
+      "evidence": [
+        "ev_120051",
+        "ev_250001",
+        "ev_250002"
+      ]
+    },
+    {
+      "id": "cx_broadcom_anthropic_credit_support_2026",
+      "kind": "credit_support",
+      "provider": "ent_broadcom",
+      "beneficiary": "ent_broadcom_xpv_partners",
+      "obligor": "ent_anthropic",
+      "instrument": "Infrastructure Partner 2026 NPA (convertible promissory note facility)",
+      "description": "Broadcom agreed in March 2026 to buy up to $42.0 billion of Anthropic convertible notes, issued only to pay quarterly rent under the 2026 Lease Arrangement, at 9.00% paid in kind, convertible at 90% of the share price. In effect Broadcom lends Anthropic the rent it owes on Broadcom's own equipment. No notes were outstanding at 30 September 2026.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 42000000000,
+          "as_of": "2026-11-19",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_250005",
+            "ev_250072"
+          ]
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Anthropic elects to issue notes to meet rent, subject to revenue growth, liquidity and lease performance conditions.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-03-01",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_anthropic_eq_2026",
+        "rel_anthropic_eqc_2025"
+      ],
+      "evidence": [
+        "ev_250005",
+        "ev_250006",
+        "ev_250007",
+        "ev_250072"
+      ],
+      "notes": "Beneficiary: the lessors (Broadcom and the financing entities it assigned leases to). Broadcom's 10-Q states the same $42 billion for an unnamed customer (ev_250072)."
+    },
+    {
+      "id": "cx_broadcom_anthropic_backstop_2026",
+      "kind": "backstop",
+      "provider": "ent_broadcom",
+      "beneficiary": "ent_broadcom_xpv_partners",
+      "obligor": "ent_anthropic_lease_spvs",
+      "instrument": "Backstop agreement with a financial partner under the AI XPV platform (June 2026)",
+      "description": "Broadcom arranged for a financial partner to take over AI rack purchase and lease agreements with a customer, and backstops the customer's lease payments over five years. On default Broadcom pays the gap between 85% of the amount owed and the sale value of the racks; maximum about $29 billion once all racks are deployed. Broadcom does not name the customer. Analysis: the lease structure and the $42 billion note facility match Anthropic's 424B4.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 29000000000,
+          "as_of": "2026-08-02",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_250043"
+          ],
+          "qualifier": "about",
+          "in_force": false,
+          "effective_note": "Builds as racks are delivered and deployed; maximum applies once all racks are deployed"
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Customer lease default; Broadcom pays any gap between 85% of the amount owed and rack sale proceeds.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_anthropic_eq_2026",
+        "rel_anthropic_eqc_2025"
+      ],
+      "evidence": [
+        "ev_250041",
+        "ev_250042",
+        "ev_250043",
+        "ev_250044",
+        "ev_250045",
+        "ev_250072",
+        "ev_250004"
+      ],
+      "notes": "No amounts paid at 2026-08-02 (ev_250044). Customer identity is analysis, not stated by Broadcom."
+    },
+    {
+      "id": "cx_broadcom_anthropic_residual_value_guarantee_2026",
+      "kind": "residual_value_guarantee",
+      "provider": "ent_broadcom",
+      "beneficiary": "ent_broadcom_xpv_partners",
+      "obligor": "ent_anthropic_lease_spvs",
+      "instrument": "Residual value support (Backstop) to a newly formed special purpose vehicle (October 2026)",
+      "description": "Broadcom arranged for financial partners to take on a further portion of the AI rack purchase and lease agreements with its customer and gives residual value support to a new special purpose vehicle. On default Broadcom pays the gap between 72.5% of the amount owed and rack sale proceeds; maximum about $43 billion once racks are deployed. Analysis: Anthropic's prospectus records that Broadcom assigned part of the 2026 Lease Arrangement to a new special purpose financing entity in October 2026.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 43000000000,
+          "as_of": "2026-10-27",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_250047"
+          ],
+          "qualifier": "about",
+          "in_force": false,
+          "effective_note": "Builds as racks are delivered and deployed"
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Customer lease default; Broadcom pays any gap between 72.5% of the amount owed and rack sale proceeds.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-10-26",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_anthropic_eq_2026",
+        "rel_anthropic_eqc_2025"
+      ],
+      "evidence": [
+        "ev_250046",
+        "ev_250047",
+        "ev_250048",
+        "ev_250003"
+      ],
+      "notes": "Customer identity is analysis, not stated by Broadcom."
+    },
+    {
+      "id": "cx_amd_openai_share_option_or_warrant_2025",
+      "kind": "share_option_or_warrant",
+      "provider": "ent_amd",
+      "beneficiary": "ent_openai",
+      "obligor": "ent_openai",
+      "instrument": "Warrant to purchase up to 160 million AMD shares issued to OpenAI OpCo, LLC",
+      "description": "AMD granted OpenAI a warrant for up to 160 million AMD shares at $0.01 alongside a GPU purchase agreement. The first tranche vests after delivery of the first gigawatt of MI450 GPUs and full vesting needs six gigawatts plus AMD share price targets up to $600. OpenAI made a binding commitment for the first gigawatt. No shares had vested at 26 September 2026.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Not a payment: tranches vest as OpenAI buys AMD GPUs and AMD's share price targets are met.",
+      "dates": {
+        "announced": "2025-10-06",
+        "signed": "2025-10-05",
+        "effective": null,
+        "maturity": "2030-10-05"
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_openai_eq_2026",
+        "rel_openai_eqc_2025"
+      ],
+      "evidence": [
+        "ev_250074",
+        "ev_250075",
+        "ev_250033",
+        "ev_250034",
+        "ev_250035",
+        "ev_250036",
+        "ev_250037",
+        "ev_250029",
+        "ev_250032",
+        "ev_120029"
+      ],
+      "notes": "AMD reports only combined figures for its two customer warrants: liability $1.2 billion and unrecognized grant-date value $4.5 billion at 2026-09-26 (ev_250030, ev_250031). Company level link to Nvidia only."
+    },
+    {
+      "id": "cx_amd_meta_share_option_or_warrant_2026",
+      "kind": "share_option_or_warrant",
+      "provider": "ent_amd",
+      "beneficiary": "ent_meta",
+      "obligor": "ent_meta",
+      "instrument": "Performance-based warrant to purchase up to 160 million AMD shares issued to Meta",
+      "description": "AMD granted Meta a warrant for up to 160 million AMD shares at $0.01 alongside an amended GPU purchase agreement, on the same model as OpenAI's: vesting from the first gigawatt equivalent up to six, plus share price thresholds up to $600. Meta made a binding commitment for the first gigawatt equivalent.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Not a payment: tranches vest as Meta buys AMD GPUs and AMD's share price thresholds are met.",
+      "dates": {
+        "announced": "2026-02-24",
+        "signed": "2026-02-23",
+        "effective": null,
+        "maturity": "2031-02-23"
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_meta_eq_2026"
+      ],
+      "evidence": [
+        "ev_250038",
+        "ev_250039",
+        "ev_250040",
+        "ev_250029",
+        "ev_250032"
+      ],
+      "notes": "See the AMD OpenAI warrant for the combined accounting figures."
+    },
+    {
+      "id": "cx_amd_commercial_partners_lease_guarantee_2026",
+      "kind": "lease_guarantee",
+      "provider": "ent_amd",
+      "beneficiary": "ent_amd_partner_counterparties",
+      "obligor": "ent_amd_commercial_partners",
+      "instrument": "Data center lease guarantees (accounted for as credit derivatives)",
+      "description": "AMD guarantees certain commercial partners' data center lease obligations to third-party landlords, to support their data center development. Maximum gross exposure was $7.7 billion at 26 September 2026 over terms of up to 15 years, falling as partners pay. On default AMD may take the leases for its own use or assign or sublease them. Partners are not named.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 7700000000,
+          "as_of": "2026-09-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_250021"
+          ]
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "A commercial partner defaults on its data center lease.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "evidence": [
+        "ev_250021",
+        "ev_250023",
+        "ev_250024",
+        "ev_250025"
+      ],
+      "notes": "No partner in default and nothing paid at 2026-09-26 (ev_250024)."
+    },
+    {
+      "id": "cx_amd_commercial_partners_guarantee_2026",
+      "kind": "guarantee",
+      "provider": "ent_amd",
+      "beneficiary": "ent_amd_partner_counterparties",
+      "obligor": "ent_amd_commercial_partners",
+      "instrument": "Commercial partner debt guarantees (accounted for as credit derivatives)",
+      "description": "AMD guarantees certain commercial partners' borrowings used to finance data center infrastructure. Maximum gross exposure was $750 million at 26 September 2026 with remaining terms of up to six months. On default AMD repays the borrowings and may recover from the partner or the assets. Partners are not named.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 750000000,
+          "as_of": "2026-09-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_250022"
+          ]
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "A commercial partner defaults on the guaranteed borrowing.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "evidence": [
+        "ev_250022",
+        "ev_250023",
+        "ev_250024"
+      ],
+      "notes": "A single news report (The Information, February 2026) said AMD would backstop a Crusoe loan; AMD names no partner, so it is not attributed here."
+    },
+    {
+      "id": "cx_amd_cloud_providers_backstop_2026",
+      "kind": "backstop",
+      "provider": "ent_amd",
+      "beneficiary": "ent_amd_cloud_providers",
+      "obligor": "ent_amd_cloud_providers",
+      "instrument": "Cloud compute capacity arrangements",
+      "description": "AMD commits to buy GPU compute capacity from cloud providers to the extent third-party customers do not buy it, or reserves capacity it may sell or assign. Maximum commitments were $6,175 million at 26 September 2026, reduced as customers pay. This is the same tool as Nvidia's backstop of CoreWeave's unsold capacity.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 6175000000,
+          "as_of": "2026-09-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_250027"
+          ]
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Capacity is not bought by third-party customers; AMD pays for it.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "evidence": [
+        "ev_250026",
+        "ev_250027"
+      ]
+    },
+    {
+      "id": "cx_amd_commercial_partners_credit_support_2026",
+      "kind": "credit_support",
+      "provider": "ent_amd",
+      "beneficiary": "ent_amd_partner_counterparties",
+      "obligor": "ent_amd_commercial_partners",
+      "instrument": "Data center leases not yet commenced, to be assigned or subleased to commercial partners",
+      "description": "AMD signed data center leases on its own credit that it expects to assign or sublease to commercial partners: aggregate future payments $13.3 billion over 10 to 15 years, commencing from the second quarter of fiscal 2027. AMD remains the lessee if partners do not take them.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 13300000000,
+          "as_of": "2026-09-26",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_250028"
+          ],
+          "note": "Aggregate future lease payments"
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Partners do not take or do not pay under the subleases; AMD pays the landlords.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "evidence": [
+        "ev_250028"
+      ]
+    },
+    {
+      "id": "cx_amd_anthropic_vendor_financing_2026",
+      "kind": "vendor_financing",
+      "provider": "ent_amd",
+      "beneficiary": "ent_anthropic",
+      "obligor": "ent_anthropic",
+      "instrument": "AMD Equity Commitment under the Hardware Supply Agreement",
+      "description": "Under its July 2026 supply agreement for AMD Helios rack-scale systems, AMD committed to buy up to $5.0 billion of Anthropic stock, drawn as AMD GPU delivery and deployment milestones are met. AMD's $2.5 billion purchase in the IPO private placement counts against it. Anthropic expects to spend more than $20.0 billion on the initial AMD capacity, so AMD funds part of its own sale.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 5000000000,
+          "as_of": "2026-11-19",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_250070"
+          ],
+          "qualifier": "up to"
+        },
+        "drawn_or_paid": {
+          "value": 2500000000,
+          "as_of": "2026-11-20",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_250013"
+          ],
+          "qualifier": "about"
+        }
+      },
+      "trigger": "Anthropic draws as AMD GPU delivery and deployment milestones are met.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-07-01",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_anthropic_eq_2026",
+        "rel_anthropic_eqc_2025"
+      ],
+      "evidence": [
+        "ev_250070",
+        "ev_250013",
+        "ev_250014",
+        "ev_250015",
+        "ev_120069"
+      ],
+      "notes": "Signed date: month only stated (July 2026). Paid on the private placement close (ev_120069)."
+    },
+    {
+      "id": "cx_anthropic_dc_developers_credit_support_2026",
+      "kind": "credit_support",
+      "provider": "ent_anthropic",
+      "beneficiary": "ent_anthropic_dc_developers",
+      "obligor": "ent_anthropic_dc_developers",
+      "instrument": "Cost reimbursement arrangements with data center developers",
+      "description": "Anthropic agreed to pay to or for developers if trigger events occur, including failure to sign the definitive lease or the developer's failure to obtain construction financing, to support their purchase of long-lead equipment. Maximum potential payments were up to $4.2 billion at 30 September 2026, with terms generally under one year.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 4200000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_250008"
+          ],
+          "qualifier": "up to"
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "The definitive lease is not executed, or the developer fails to obtain construction financing.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "evidence": [
+        "ev_250008",
+        "ev_250009"
+      ]
+    },
+    {
+      "id": "cx_anthropic_dc_provider_guarantee_2026",
+      "kind": "guarantee",
+      "provider": "ent_anthropic",
+      "beneficiary": "ent_anthropic_ppa_counterparty",
+      "obligor": "ent_anthropic_dc_provider",
+      "instrument": "Guaranty of a data center provider's payment obligations under a power purchase contract",
+      "description": "Anthropic guaranteed a data center provider's payments under a power purchase contract, payable on written demand after the provider fails to pay. Maximum potential payments were $500 million at 30 September 2026; it expires no later than 31 December 2038.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 500000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_250011"
+          ]
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "The data center provider fails to pay under the power purchase contract and the counterparty demands payment.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": "2038-12-31"
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "evidence": [
+        "ev_250010",
+        "ev_250011",
+        "ev_250012"
+      ]
+    },
+    {
+      "id": "cx_spacex_spacexai_lease_guarantee_2025",
+      "kind": "lease_guarantee",
+      "provider": "ent_spacex",
+      "beneficiary": "ent_valor",
+      "obligor": "ent_spacexai",
+      "instrument": "Guarantee by Space Exploration Technologies Corp. or a subsidiary of the Valor equipment leases",
+      "description": "Three leases under which an xAI subsidiary leases computing equipment from Valor, with aggregate payments of $6,986 million, $6,633 million and $6,587 million, are guaranteed by SpaceX or a subsidiary. SpaceX accounts for them as a failed sale-leaseback, with $12,897 million of debt at 30 September 2026. The lessee paid $885 million in 2025 and $1,917 million from January to April 2026.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 20206000000,
+          "as_of": "2026-06-12",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [],
+          "note": "Aggregate payments over the life of the three guaranteed leases",
+          "components": [
+            {
+              "value": 6986000000,
+              "evidence": [
+                "ev_120075"
+              ],
+              "note": "Lease 1"
+            },
+            {
+              "value": 6633000000,
+              "evidence": [
+                "ev_120076"
+              ],
+              "note": "Lease 2"
+            },
+            {
+              "value": 6587000000,
+              "evidence": [
+                "ev_120077"
+              ],
+              "note": "Lease 3"
+            }
+          ]
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "The xAI lessee fails to pay or perform under a Valor lease.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [
+        "rel_spacex_eq_2026"
+      ],
+      "evidence": [
+        "ev_120075",
+        "ev_120076",
+        "ev_120077",
+        "ev_120078",
+        "ev_120085",
+        "ev_120086",
+        "ev_120087",
+        "ev_250049",
+        "ev_250050"
+      ],
+      "notes": "Payments by the lessee, not by the guarantor. The filings do not say whose GPUs the equipment is. Company level link to Nvidia only (Nvidia holds SpaceX shares)."
+    },
+    {
+      "id": "cx_dell_financial_services_nscale_vendor_financing_2026",
+      "kind": "vendor_financing",
+      "provider": "ent_dell_financial_services",
+      "beneficiary": "ent_nscale",
+      "obligor": "ent_nscale",
+      "instrument": "DFS Framework Agreements (Global Framework Agreements) with Dell Financial Services L.L.C. as funder",
+      "description": "Dell Financial Services, Dell's captive finance arm, funds equipment leases of computing and data center equipment to Nscale under two framework agreements signed in April 2026. By 4 September 2026 Nscale had signed 40 payment schedules with aggregate initial-term rent of about $2.54 billion.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 2540000000,
+          "as_of": "2026-09-04",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_40040"
+          ],
+          "qualifier": "about",
+          "note": "Aggregate initial-term rent"
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Nscale pays rent under each payment schedule; DFS holds the equipment.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-04-01",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_nscale_gu_2025",
+        "rel_nscale_lb_2025",
+        "rel_nscale_eq_2025",
+        "rel_nscale_fc_2026"
+      ],
+      "evidence": [
+        "ev_40040"
+      ],
+      "notes": "Signed date: month only stated (April 2026)."
+    }
+  ]
+}

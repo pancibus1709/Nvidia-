@@ -835,7 +835,9 @@ def main(argv=None):
         reg.events = d.get("events", [])
         reg.complex = d.get("complex_links", [])
         known_rel = {r["id"] for r in Register(args.register).relationships}
-        reg.relationships += [r for r in Register(args.register).relationships if r["id"] not in {x["id"] for x in reg.relationships}] if reg.complex else []
+        draft_rel_ids = {x["id"] for x in d.get("relationships", [])}
+        if reg.complex:   # complex links may point at register relationships; load them for checking only, never write them back
+            reg.relationships = list(reg.relationships) + [r for r in Register(args.register).relationships if r["id"] not in draft_rel_ids]
         used = set()
         for coll in (reg.relationships, reg.entities, reg.projects, reg.events, reg.complex):
             for row in coll:
@@ -844,7 +846,7 @@ def main(argv=None):
         reg.index()
         set_eligibility(reg)
         if reg.complex:
-            reg.relationships = [r for r in reg.relationships if r["id"] not in known_rel or r["id"] in {x["id"] for x in d.get("relationships", [])}]
+            reg.relationships = [r for r in reg.relationships if r["id"] in draft_rel_ids]
         d["relationships"], d["projects"] = reg.relationships, reg.projects
         if reg.complex:
             d["complex_links"] = reg.complex

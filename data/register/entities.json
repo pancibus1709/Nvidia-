@@ -234,12 +234,7 @@
         "ev_120015",
         "ev_120016",
         "ev_120026"
-      ],
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      ]
     }
   },
   {
@@ -415,33 +410,7 @@
         "ev_190016",
         "ev_190017",
         "ev_190018"
-      ],
-      "liquidity_months": {
-        "value": 34.0,
-        "label": "analysis",
-        "inputs": [
-          {
-            "field": "credit.cash_and_undrawn",
-            "value": 146700000000,
-            "as_of": "2026-09-30",
-            "evidence": [
-              "ev_120054",
-              "ev_120055",
-              "ev_120056"
-            ]
-          },
-          {
-            "field": "credit.committed_spend_12m",
-            "value": 51796000000.0,
-            "as_of": "2026-09-30",
-            "evidence": [
-              "ev_190013",
-              "ev_190014",
-              "ev_190015"
-            ]
-          }
-        ]
-      }
+      ]
     },
     "description": "Developer of the Claude models; listed on Nasdaq on 2026-11-19.",
     "domains": [
@@ -769,32 +738,7 @@
         "ev_120094",
         "ev_190019",
         "ev_190020"
-      ],
-      "liquidity_months": {
-        "value": 40.8,
-        "label": "analysis",
-        "inputs": [
-          {
-            "field": "credit.cash_and_undrawn",
-            "value": 94855000000,
-            "as_of": "2026-09-30",
-            "evidence": [
-              "ev_120081",
-              "ev_120082",
-              "ev_120083"
-            ]
-          },
-          {
-            "field": "credit.committed_spend_12m",
-            "value": 27878000000,
-            "as_of": "2026-09-30",
-            "evidence": [
-              "ev_120090",
-              "ev_120091"
-            ]
-          }
-        ]
-      }
+      ]
     },
     "description": "Launch, satellite and AI company; owns xAI (Grok, Colossus data centers, now SpaceX Super Intelligence) since 2026-02-02; listed on Nasdaq in June 2026.",
     "domains": [
@@ -1045,12 +989,7 @@
         "ev_190031",
         "ev_190032",
         "ev_190033"
-      ],
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      ]
     }
   },
   {
@@ -1200,12 +1139,7 @@
         "ev_190107",
         "ev_190108",
         "ev_190109"
-      ],
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      ]
     }
   },
   {
@@ -1337,8 +1271,8 @@
       },
       "liquidity_months": {
         "value": null,
-        "inputs": [],
-        "label": "analysis"
+        "label": "analysis",
+        "note": "Not computable by the rubric because committed 12-month spend is not disclosed. Analysis: $9,837m of liquidity against nine-month capex of $23,558m (about $2.6bn a month) covers about 3.8 months of gross capex, before operating cash flow of $5,638m (ev_20112) and new financing."
       },
       "top_customer_share": {
         "value": 0.33,
@@ -1543,8 +1477,8 @@
       },
       "liquidity_months": {
         "value": null,
-        "inputs": [],
-        "label": "analysis"
+        "label": "analysis",
+        "note": "Not computable by the rubric because 12-month committed spend is not disclosed. Analysis: estimated cash of $3.6bn against $27.5bn of equipment and construction commitments payable mostly in 2026 and 2027 implies heavy reliance on new financing, which the company itself states (ev_40049)."
       },
       "top_customer_share": {
         "value": 0.52,
@@ -1646,12 +1580,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "No issuer liquidity, drawn debt or customer concentration is published; only facility sizes and facility ratings. Fewer than two rubric columns sourced.",
-      "notes": "Facilities (company releases): $1 billion syndicated senior secured credit facility closed 2026-05-07, upsized from $275 million (Aug 2025), J.P. Morgan lead arranger (ev_110009); $926 million senior secured term loan B priced 2026-08-12, SOFR + 3.00%, matures 2030-12-31, Morgan Stanley lead left, funds GPUs dedicated to one unnamed investment-grade offtaker (ev_110002, ev_110003, ev_110004); $1.008 billion fixed rate delayed draw term loan closed 2026-10-01, 6.78%, matures 2033-05-30, J.P. Morgan sole coordinator, backed by two unnamed investment-grade offtakers (ev_110006, ev_110007, ev_110008). Drawn balances not disclosed. Customers: Microsoft multibillion multi-year agreement (ev_110010); Anthropic agreed to spend about $41.3 billion under the Lambda Agreements (ev_110011), of which about $34.9 billion (August 2026 agreement) is terminable by either party because Lambda did not secure the facility lease by the required date (ev_110012, ev_110013). Equity: Series D $480M (Feb 2025, NVIDIA a participant, ev_110059, ev_110001) and Series E over $1.5B (Nov 2025, ev_110060); both figures are written with M or B suffixes that the grounding tool does not parse, so they are not grounded as values.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Facilities (company releases): $1 billion syndicated senior secured credit facility closed 2026-05-07, upsized from $275 million (Aug 2025), J.P. Morgan lead arranger (ev_110009); $926 million senior secured term loan B priced 2026-08-12, SOFR + 3.00%, matures 2030-12-31, Morgan Stanley lead left, funds GPUs dedicated to one unnamed investment-grade offtaker (ev_110002, ev_110003, ev_110004); $1.008 billion fixed rate delayed draw term loan closed 2026-10-01, 6.78%, matures 2033-05-30, J.P. Morgan sole coordinator, backed by two unnamed investment-grade offtakers (ev_110006, ev_110007, ev_110008). Drawn balances not disclosed. Customers: Microsoft multibillion multi-year agreement (ev_110010); Anthropic agreed to spend about $41.3 billion under the Lambda Agreements (ev_110011), of which about $34.9 billion (August 2026 agreement) is terminable by either party because Lambda did not secure the facility lease by the required date (ev_110012, ev_110013). Equity: Series D $480M (Feb 2025, NVIDIA a participant, ev_110059, ev_110001) and Series E over $1.5B (Nov 2025, ev_110060); both figures are written with M or B suffixes that the grounding tool does not parse, so they are not grounded as values."
     }
   },
   {
@@ -1739,13 +1668,7 @@
       "ev_110024"
     ],
     "compute_commitments": [],
-    "credit": {
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
-    }
+    "credit": {}
   },
   {
     "id": "ent_mistral",
@@ -1773,12 +1696,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -1808,12 +1726,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": [
       {
@@ -1863,12 +1776,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": [
       {
@@ -1918,12 +1826,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -1953,12 +1856,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -1988,12 +1886,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2021,12 +1914,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2054,12 +1942,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2087,12 +1970,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2120,12 +1998,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2155,12 +2028,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": [
       {
@@ -2208,12 +2076,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2243,12 +2106,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": [
       {
@@ -2300,12 +2158,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2335,12 +2188,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2370,12 +2218,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2405,12 +2248,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2440,12 +2278,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2475,12 +2308,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2510,12 +2338,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2545,12 +2368,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2580,12 +2398,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2615,12 +2428,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2648,12 +2456,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2681,12 +2484,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2714,12 +2512,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2747,12 +2540,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2780,12 +2568,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2813,12 +2596,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2846,12 +2624,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Fewer than two rubric columns are sourced from allowed sources as of 2026-11-23.",
-      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
     },
     "compute_commitments": []
   },
@@ -2893,13 +2666,7 @@
       "ev_70021"
     ],
     "compute_commitments": [],
-    "credit": {
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
-    }
+    "credit": {}
   },
   {
     "id": "ent_jpmorgan",
@@ -3308,31 +3075,7 @@
         "ev_190042",
         "ev_190043",
         "ev_190044"
-      ],
-      "liquidity_months": {
-        "value": 5.9,
-        "label": "analysis",
-        "inputs": [
-          {
-            "field": "credit.cash_and_undrawn",
-            "value": 82449000000.0,
-            "as_of": "2026-09-30",
-            "evidence": [
-              "ev_190010",
-              "ev_190034"
-            ]
-          },
-          {
-            "field": "credit.committed_spend_12m",
-            "value": 167260000000.0,
-            "as_of": "2026-09-30",
-            "evidence": [
-              "ev_190039",
-              "ev_190040"
-            ]
-          }
-        ]
-      }
+      ]
     }
   },
   {
@@ -3442,8 +3185,8 @@
       },
       "liquidity_months": {
         "value": null,
-        "inputs": [],
-        "label": "analysis"
+        "label": "analysis",
+        "note": "Not computable: 12-month committed spend is not disclosed."
       },
       "top_customer_share": {
         "value": 0.33,
@@ -3614,8 +3357,8 @@
       },
       "liquidity_months": {
         "value": null,
-        "inputs": [],
-        "label": "analysis"
+        "label": "analysis",
+        "note": "Not computable by the rubric. Analysis: commitments of $18.9bn are about 2.8 times cash plus undrawn of $6.7bn; IREN states cash, operating cash flow and normal-course financing will meet obligations for at least 12 months."
       },
       "top_customer_share": {
         "value": 0.28,
@@ -3732,8 +3475,8 @@
       },
       "liquidity_months": {
         "value": null,
-        "inputs": [],
-        "label": "analysis"
+        "label": "analysis",
+        "note": "Not computable by the rubric. Analysis: $1.34bn of cash against $5.3bn of commitments; SharonAI says it must keep access to further financing (ev_80010)."
       },
       "top_customer_share": {
         "value": null,
@@ -3836,12 +3579,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "No rubric column sourced. Nvidia exited the stake by 2025-12-31, so no credit work was done; the latest 10-K (fiscal year ended May 2026) and 10-Q (August 2026) do not mention Nvidia.",
-      "notes": "Historical relationship only.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Historical relationship only."
     }
   },
   {
@@ -3974,12 +3712,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "No issuer liquidity, drawn debt or customer concentration is published. Fewer than two rubric columns sourced.",
-      "notes": "Debt (company releases): $750 million credit facility from Brookfield infrastructure debt, 2025-06-11 (ev_110024); about $225 million credit facility led by Upper90, page dated 2025-03-27 (ev_110025). Equity: Series D $600 million (2024-12-12, ev_110015), Series E $1.375 billion initial close (2025-10-24, ev_110017), Series F $3.9 billion anticipated, initial close at $30.9 billion post-money (2026-09-17, ev_110019, ev_110021); NVIDIA named in all three. Contracted value over $140 billion and over 6 GW gross contracted capacity per the Series F release (ev_110022, ev_110023). Customers named in releases include Together AI, Cursor, Fireworks; no customer share disclosed.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Debt (company releases): $750 million credit facility from Brookfield infrastructure debt, 2025-06-11 (ev_110024); about $225 million credit facility led by Upper90, page dated 2025-03-27 (ev_110025). Equity: Series D $600 million (2024-12-12, ev_110015), Series E $1.375 billion initial close (2025-10-24, ev_110017), Series F $3.9 billion anticipated, initial close at $30.9 billion post-money (2026-09-17, ev_110019, ev_110021); NVIDIA named in all three. Contracted value over $140 billion and over 6 GW gross contracted capacity per the Series F release (ev_110022, ev_110023). Customers named in releases include Together AI, Cursor, Fireworks; no customer share disclosed."
     }
   },
   {
@@ -4034,12 +3767,7 @@
       ],
       "grade": "Insufficient information",
       "grade_reason": "No issuer liquidity, drawn debt or customer concentration is published. Fewer than two rubric columns sourced. Withdrawn IPO is a market signal, not a rubric column.",
-      "notes": "Debt: US$10 billion debt financing facility led by Blackstone funds, supported by Coatue, 2026-02-09 (ev_110035; also reported by Nikkei Asia, ev_110050); drawn balance not disclosed. Equity: A$330m placement with NVIDIA participation (2025-09-16, ev_110062); USD505m led by Coatue with NVIDIA participation subject to closing conditions (2026-04-07, ev_110029, ev_110030); USD2 billion fully committed with NVIDIA follow-on (2026-08-07, ev_110032, ev_110033); more than USD3 billion new equity in the year to August 2026 (ev_110034). Contracted capacity more than 900 MW (2026-09-08, ev_110047). Customers named: OpenAI (Malaysia anchor, ev_110046); Meta and Thinking Machines Lab agreements are listed in the newsroom but were not read.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Debt: US$10 billion debt financing facility led by Blackstone funds, supported by Coatue, 2026-02-09 (ev_110035; also reported by Nikkei Asia, ev_110050); drawn balance not disclosed. Equity: A$330m placement with NVIDIA participation (2025-09-16, ev_110062); USD505m led by Coatue with NVIDIA participation subject to closing conditions (2026-04-07, ev_110029, ev_110030); USD2 billion fully committed with NVIDIA follow-on (2026-08-07, ev_110032, ev_110033); more than USD3 billion new equity in the year to August 2026 (ev_110034). Contracted capacity more than 900 MW (2026-09-08, ev_110047). Customers named: OpenAI (Malaysia anchor, ev_110046); Meta and Thinking Machines Lab agreements are listed in the newsroom but were not read."
     }
   },
   {
@@ -4097,12 +3825,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "No credit facts published.",
-      "notes": "Series C $800 million (2026-07-01, ev_110056) with NVIDIA among investors (ev_110057); commitments for over 500 MW of compute capacity to be capitalized independently by its new investors (ev_110058). Series B $305 million (2025-02-20, ev_110054, ev_110055). Series A $102.5M (2023-11-29, ev_110064 unparsed suffix, ev_110053). Customer of IREN (ev_40120, aggregate with others) and named by Crusoe as a Crusoe Cloud customer (Series E release).",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Series C $800 million (2026-07-01, ev_110056) with NVIDIA among investors (ev_110057); commitments for over 500 MW of compute capacity to be capitalized independently by its new investors (ev_110058). Series B $305 million (2025-02-20, ev_110054, ev_110055). Series A $102.5M (2023-11-29, ev_110064 unparsed suffix, ev_110053). Customer of IREN (ev_40120, aggregate with others) and named by Crusoe as a Crusoe Cloud customer (Series E release)."
     }
   },
   {
@@ -4122,13 +3845,7 @@
       "ev_110033"
     ],
     "compute_commitments": [],
-    "credit": {
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
-    }
+    "credit": {}
   },
   {
     "id": "ent_upper90",
@@ -4146,13 +3863,7 @@
       "ev_110025"
     ],
     "compute_commitments": [],
-    "credit": {
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
-    }
+    "credit": {}
   },
   {
     "id": "ent_blue_owl",
@@ -4170,13 +3881,7 @@
       "ev_110061"
     ],
     "compute_commitments": [],
-    "credit": {
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
-    }
+    "credit": {}
   },
   {
     "id": "ent_intel",
@@ -4312,12 +4017,7 @@
         "ev_60017",
         "ev_60018",
         "ev_60026"
-      ],
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      ]
     },
     "evidence": []
   },
@@ -4457,12 +4157,7 @@
         "ev_190055",
         "ev_190056",
         "ev_190057"
-      ],
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      ]
     },
     "evidence": []
   },
@@ -4596,12 +4291,7 @@
         "ev_190063",
         "ev_190064",
         "ev_190073"
-      ],
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      ]
     },
     "evidence": []
   },
@@ -4709,12 +4399,7 @@
         "ev_190070",
         "ev_190071",
         "ev_190072"
-      ],
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      ]
     },
     "evidence": []
   },
@@ -4829,12 +4514,7 @@
         "ev_190078",
         "ev_190079",
         "ev_190080"
-      ],
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      ]
     },
     "evidence": []
   },
@@ -4985,31 +4665,7 @@
         "ev_190089",
         "ev_190114",
         "ev_190115"
-      ],
-      "liquidity_months": {
-        "value": 8.5,
-        "label": "analysis",
-        "inputs": [
-          {
-            "field": "credit.cash_and_undrawn",
-            "value": 2421929000.0,
-            "as_of": "2026-09-30",
-            "evidence": [
-              "ev_190081",
-              "ev_190082",
-              "ev_190087"
-            ]
-          },
-          {
-            "field": "credit.committed_spend_12m",
-            "value": 3400000000.0,
-            "as_of": "2026-06-30",
-            "evidence": [
-              "ev_190086"
-            ]
-          }
-        ]
-      }
+      ]
     },
     "evidence": []
   },
@@ -5039,12 +4695,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Not assessed: Nvidia has exited the position.",
-      "notes": "",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": ""
     }
   },
   {
@@ -5191,30 +4842,7 @@
         "ev_190094",
         "ev_190095",
         "ev_190096"
-      ],
-      "liquidity_months": {
-        "value": 171.2,
-        "label": "analysis",
-        "inputs": [
-          {
-            "field": "credit.cash_and_undrawn",
-            "value": 4037000000.0,
-            "as_of": "2026-09-30",
-            "evidence": [
-              "ev_190090",
-              "ev_190093"
-            ]
-          },
-          {
-            "field": "credit.committed_spend_12m",
-            "value": 283000000.0,
-            "as_of": "2025-12-31",
-            "evidence": [
-              "ev_190095"
-            ]
-          }
-        ]
-      }
+      ]
     },
     "evidence": []
   },
@@ -5347,12 +4975,7 @@
         "ev_190102",
         "ev_190111",
         "ev_190113"
-      ],
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      ]
     },
     "evidence": []
   },
@@ -5382,12 +5005,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "No counterparty financial data collected.",
-      "notes": "",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": ""
     }
   },
   {
@@ -5416,12 +5034,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "No counterparty financial data collected.",
-      "notes": "",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": ""
     }
   },
   {
@@ -5450,12 +5063,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "No counterparty financial data collected.",
-      "notes": "",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": ""
     }
   },
   {
@@ -5484,12 +5092,7 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Private subsidiary; parent ASE files a 20-F, not reviewed for SPIL figures.",
-      "notes": "",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": ""
     }
   },
   {
@@ -5700,13 +5303,773 @@
       "market_signals": [],
       "grade": "Insufficient information",
       "grade_reason": "Only liquidity is sourced (cash $252.0 million at 2026-09-30, runway into or through Q4 2028); fewer than two rubric columns.",
-      "notes": "Iambic says existing cash funds operations into or through the fourth quarter of 2028 (ev_170011). Subordinated convertible notes of $66.5 million issued Aug to Sep 2026 converted at the IPO.",
-      "liquidity_months": {
-        "value": null,
-        "inputs": [],
-        "label": "analysis"
-      }
+      "notes": "Iambic says existing cash funds operations into or through the fourth quarter of 2028 (ev_170011). Subordinated convertible notes of $66.5 million issued Aug to Sep 2026 converted at the IPO."
     },
     "compute_commitments": []
+  },
+  {
+    "id": "ent_oracle",
+    "name": "Oracle Corporation",
+    "short_name": "Oracle",
+    "cluster": "hyperscaler",
+    "depth": 2,
+    "public": true,
+    "ticker": "ORCL",
+    "cik": "0001341439",
+    "country": "US",
+    "description": "Cloud provider building data center capacity for OpenAI under Stargate; tenant of developer-owned data center campuses.",
+    "domains": [
+      "oracle.com"
+    ],
+    "evidence": [
+      "ev_240064",
+      "ev_240067"
+    ]
+  },
+  {
+    "id": "ent_fluidstack",
+    "name": "Fluidstack Ltd",
+    "short_name": "Fluidstack",
+    "cluster": "neocloud",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "GB",
+    "description": "AI cloud provider that leases data center capacity from former bitcoin miners, with Google backstopping its rent.",
+    "domains": [
+      "fluidstack.io"
+    ],
+    "evidence": [
+      "ev_240001",
+      "ev_240017",
+      "ev_240027"
+    ]
+  },
+  {
+    "id": "ent_terawulf",
+    "name": "TeraWulf Inc.",
+    "short_name": "TeraWulf",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": "WULF",
+    "cik": "0001083301",
+    "country": "US",
+    "description": "Data center developer and landlord to Fluidstack and Anthropic at Lake Mariner, New York, and Justified, Kentucky.",
+    "domains": [
+      "terawulf.com"
+    ],
+    "evidence": [
+      "ev_240001",
+      "ev_240013"
+    ]
+  },
+  {
+    "id": "ent_abernathy_jv",
+    "name": "FS CS I LLC (Abernathy joint venture)",
+    "short_name": "Abernathy JV",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Joint venture building a 168 MW data center in Abernathy, Texas, leased to Fluidstack and financed with secured notes.",
+    "domains": [],
+    "evidence": [
+      "ev_240009",
+      "ev_240010"
+    ]
+  },
+  {
+    "id": "ent_cipher_digital",
+    "name": "Cipher Digital Inc. (formerly Cipher Mining Inc.)",
+    "short_name": "Cipher",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": "CIFR",
+    "cik": "0001819989",
+    "country": "US",
+    "description": "Data center developer leasing Barber Lake, Texas, to Fluidstack and Black Pearl, Texas, to Amazon Web Services.",
+    "domains": [
+      "cipherdigital.com"
+    ],
+    "evidence": [
+      "ev_240019",
+      "ev_240024"
+    ]
+  },
+  {
+    "id": "ent_hut_8",
+    "name": "Hut 8 Corp.",
+    "short_name": "Hut 8",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": "HUT",
+    "cik": "0001964789",
+    "country": "US",
+    "description": "Data center developer leasing its River Bend, Louisiana, campus to Fluidstack under a Google-backstopped lease.",
+    "domains": [
+      "hut8.com"
+    ],
+    "evidence": [
+      "ev_240027",
+      "ev_240030"
+    ]
+  },
+  {
+    "id": "ent_google_backstop_counterparties",
+    "name": "Third-party data center providers backstopped by Google (unnamed)",
+    "short_name": "Google backstop counterparties",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "The data center providers whose lease and energy payments Google backstops; Alphabet discloses the total but not the names.",
+    "domains": [],
+    "evidence": [
+      "ev_240033"
+    ]
+  },
+  {
+    "id": "ent_crux_ai",
+    "name": "Crux AI (Google and Blackstone joint venture)",
+    "short_name": "Crux AI",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Compute-as-a-service joint venture formed by Google and Blackstone; Google holds a minority interest.",
+    "domains": [],
+    "evidence": [
+      "ev_240037",
+      "ev_240038"
+    ]
+  },
+  {
+    "id": "ent_google_tpu_counterparties",
+    "name": "Buyers and assignees of Google TPU systems (unnamed)",
+    "short_name": "TPU buyers",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Customers that bought Google TPU systems, and parties to whom they assigned them, holding repurchase rights against Google.",
+    "domains": [],
+    "evidence": [
+      "ev_240039",
+      "ev_240040"
+    ]
+  },
+  {
+    "id": "ent_meta_louisiana_venture",
+    "name": "Meta Louisiana data center venture (Richland Parish)",
+    "short_name": "Meta Louisiana venture",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Off-balance-sheet venture, 80% owned by a Blue Owl fund affiliate and 20% by Meta, building a Louisiana data center campus leased to Meta.",
+    "domains": [],
+    "evidence": [
+      "ev_240050",
+      "ev_240046"
+    ]
+  },
+  {
+    "id": "ent_meta_texas_venture",
+    "name": "Meta Texas data center venture (El Paso)",
+    "short_name": "Meta Texas venture",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Off-balance-sheet venture, 20% owned by Meta, building a data center campus in El Paso, Texas, leased to Meta; the other owner is not named.",
+    "domains": [],
+    "evidence": [
+      "ev_240047"
+    ]
+  },
+  {
+    "id": "ent_iren_gpu_financing_lenders",
+    "name": "IREN GPU Financing 1.0 lenders and noteholders",
+    "short_name": "IREN GPU lenders",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Bank lenders under a delayed draw term loan and private placement noteholders funding GPUs for IREN's Microsoft contract.",
+    "domains": [],
+    "evidence": [
+      "ev_240061"
+    ]
+  },
+  {
+    "id": "ent_oracle_lessor",
+    "name": "Unnamed lessor of an Oracle data center lease",
+    "short_name": "Oracle lessor",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Lessor of a data center leased to Oracle whose borrowing Oracle guaranteed; Oracle does not name it.",
+    "domains": [],
+    "evidence": [
+      "ev_240062"
+    ]
+  },
+  {
+    "id": "ent_aws",
+    "name": "Amazon Web Services, Inc.",
+    "short_name": "AWS",
+    "cluster": "hyperscaler",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Amazon's cloud subsidiary; tenant of Cipher's Black Pearl data center.",
+    "domains": [
+      "aws.amazon.com"
+    ],
+    "evidence": [
+      "ev_240024"
+    ]
+  },
+  {
+    "id": "ent_vela_i",
+    "name": "VELA I Holdings, LLC",
+    "short_name": "VELA I",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "OpenAI affiliate that is the tenant under the PORTS-Pike leases from SB Energy subsidiaries.",
+    "domains": [],
+    "evidence": [
+      "ev_100008"
+    ]
+  },
+  {
+    "id": "ent_orion_dc",
+    "name": "Orion DC I, LLC",
+    "short_name": "Orion DC I",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "OpenAI affiliate that is the tenant under SB Energy's two Milam County, Texas data center leases.",
+    "domains": [],
+    "evidence": [
+      "ev_250055"
+    ]
+  },
+  {
+    "id": "ent_spacexai",
+    "name": "SpaceX.AI LLC (formerly X.AI LLC) and its subsidiaries",
+    "short_name": "SpaceXAI",
+    "cluster": "ai_lab",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "SpaceX's AI subsidiary group (formerly xAI); its subsidiaries lease computing equipment from Valor.",
+    "domains": [],
+    "evidence": [
+      "ev_120072",
+      "ev_120075"
+    ]
+  },
+  {
+    "id": "ent_anthropic_lease_spvs",
+    "name": "Anthropic special purpose lease subsidiaries",
+    "short_name": "Anthropic lease SPVs",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Two special purpose subsidiaries of Anthropic that are lessees under the Broadcom master equipment leases.",
+    "domains": [],
+    "evidence": [
+      "ev_250001"
+    ]
+  },
+  {
+    "id": "ent_broadcom_xpv_partners",
+    "name": "Financial partners and special purpose vehicle under Broadcom's AI XPV platform (not named)",
+    "short_name": "Broadcom XPV financiers",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Unnamed financial partner and special purpose vehicle that took on Broadcom's AI rack purchase and lease agreements with a customer.",
+    "domains": [],
+    "evidence": [
+      "ev_250041",
+      "ev_250046"
+    ]
+  },
+  {
+    "id": "ent_amd_commercial_partners",
+    "name": "AMD commercial partners (not named)",
+    "short_name": "AMD partners",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Unnamed commercial partners whose data center leases and borrowings AMD guarantees.",
+    "domains": [],
+    "evidence": [
+      "ev_250023"
+    ]
+  },
+  {
+    "id": "ent_amd_partner_counterparties",
+    "name": "Landlords and lenders of AMD commercial partners (not named)",
+    "short_name": "AMD partners' landlords and lenders",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Unnamed third-party landlords and lenders protected by AMD's guarantees of its commercial partners.",
+    "domains": [],
+    "evidence": [
+      "ev_250023"
+    ]
+  },
+  {
+    "id": "ent_amd_cloud_providers",
+    "name": "Cloud service providers under AMD cloud compute capacity commitments (not named)",
+    "short_name": "AMD cloud partners",
+    "cluster": "neocloud",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Unnamed cloud service providers whose unsold GPU capacity AMD has committed to buy.",
+    "domains": [],
+    "evidence": [
+      "ev_250026"
+    ]
+  },
+  {
+    "id": "ent_anthropic_dc_developers",
+    "name": "Data center developers under Anthropic cost reimbursement arrangements (not named)",
+    "short_name": "Anthropic developers",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Unnamed data center developers whose equipment procurement Anthropic supports through cost reimbursement arrangements.",
+    "domains": [],
+    "evidence": [
+      "ev_250009"
+    ]
+  },
+  {
+    "id": "ent_anthropic_dc_provider",
+    "name": "Data center provider whose power purchase contract Anthropic guarantees (not named)",
+    "short_name": "Anthropic data center provider",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Unnamed data center provider whose payment obligations under a power purchase contract Anthropic guarantees.",
+    "domains": [],
+    "evidence": [
+      "ev_250010"
+    ]
+  },
+  {
+    "id": "ent_anthropic_ppa_counterparty",
+    "name": "Power purchase contract counterparty (not named)",
+    "short_name": "Power seller",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Unnamed counterparty to a power purchase contract guaranteed by Anthropic.",
+    "domains": [],
+    "evidence": [
+      "ev_250010"
+    ]
+  },
+  {
+    "id": "ent_softbank_cosmos_tenant",
+    "name": "SoftBank affiliate tenant at the Cosmos Research Campus (not named)",
+    "short_name": "Cosmos tenant",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Unnamed SoftBank affiliate that leases SB Energy's Cosmos Research Campus in Travis County, Texas.",
+    "domains": [],
+    "evidence": [
+      "ev_250051"
+    ]
+  },
+  {
+    "id": "ent_wulf_compute",
+    "name": "Wulf Compute LLC",
+    "short_name": "Wulf Compute",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "TeraWulf subsidiary that issued 7.75% senior secured notes due 2030 to build the Lake Mariner HPC campus.",
+    "domains": []
+  },
+  {
+    "id": "ent_wulf_compute_noteholders",
+    "name": "Holders of Wulf Compute 7.75% Senior Secured Notes due 2030",
+    "short_name": "Wulf Compute noteholders",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Investors in the notes secured on TeraWulf's Lake Mariner HPC campus.",
+    "domains": []
+  },
+  {
+    "id": "ent_coreweave_ccac",
+    "name": "CoreWeave Compute Acquisition Co. borrowers (DDTL special purpose vehicles)",
+    "short_name": "CoreWeave DDTL SPVs",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "CoreWeave subsidiaries that borrow under the DDTL 1.0 to 4.0 GPU facilities.",
+    "domains": []
+  },
+  {
+    "id": "ent_coreweave_cw_spv",
+    "name": "CW SPV (CoreWeave subsidiary)",
+    "short_name": "CoreWeave CW SPV",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "CoreWeave special purpose subsidiary that took assignment of certain Core Scientific license agreements in 2026.",
+    "domains": []
+  },
+  {
+    "id": "ent_galaxy_helios",
+    "name": "Galaxy Helios Data Centers II LLC",
+    "short_name": "Galaxy Helios II",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Galaxy subsidiary that issued notes secured on the Helios campus leased to CoreWeave.",
+    "domains": []
+  },
+  {
+    "id": "ent_helios_noteholders",
+    "name": "Holders of Galaxy Helios II 9.875% Senior Secured Notes due 2031",
+    "short_name": "Helios noteholders",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Investors in notes secured on the CoreWeave leased Helios Phase II buildings.",
+    "domains": []
+  },
+  {
+    "id": "ent_core_scientific_finance",
+    "name": "Core Scientific Finance (issuer of 7.75% Senior Secured Notes due 2031)",
+    "short_name": "Core Scientific Finance",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Core Scientific subsidiary that owns specified data center projects and issued secured notes.",
+    "domains": []
+  },
+  {
+    "id": "ent_core_scientific_noteholders",
+    "name": "Holders of Core Scientific Finance 7.75% Senior Secured Notes due 2031",
+    "short_name": "Core Scientific noteholders",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Investors in notes secured on Core Scientific data center projects.",
+    "domains": []
+  },
+  {
+    "id": "ent_apld_computeco3",
+    "name": "APLD ComputeCo 3 LLC",
+    "short_name": "APLD ComputeCo 3",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Applied Digital subsidiary that issued 7.000% senior secured notes due 2031 for the ELN-04 building.",
+    "domains": []
+  },
+  {
+    "id": "ent_apld_computeco3_noteholders",
+    "name": "Holders of APLD ComputeCo 3 7.000% Senior Secured Notes due 2031",
+    "short_name": "APLD ComputeCo 3 noteholders",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Investors in notes secured on Applied Digital's ELN-04 data center project.",
+    "domains": []
+  },
+  {
+    "id": "ent_nscale_ward_county",
+    "name": "Nscale Ward County, LLC",
+    "short_name": "Nscale Ward County",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Nscale subsidiary that is tenant of Ionic Digital's Ward County, Texas site and guarantor of the Ward County GPU Facility.",
+    "domains": []
+  },
+  {
+    "id": "ent_nscale_ward_county_spv",
+    "name": "Nscale Ward County Borrower SPV, LLC",
+    "short_name": "Nscale Ward County SPV",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Borrower under the Ward County GPU Facility.",
+    "domains": []
+  },
+  {
+    "id": "ent_nscale_nc_spv",
+    "name": "Nscale NC Borrower SPV, LLC",
+    "short_name": "Nscale NC SPV",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Borrower under the North Carolina GPU Facility.",
+    "domains": []
+  },
+  {
+    "id": "ent_nscale_services_uk",
+    "name": "Nscale Services UK Limited",
+    "short_name": "Nscale Services UK",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "GB",
+    "description": "Borrower under Nscale's GPU Financing Facility.",
+    "domains": []
+  },
+  {
+    "id": "ent_nscale_dfs_customers",
+    "name": "Nscale subsidiaries party to the DFS Framework Agreements",
+    "short_name": "Nscale DFS lessees",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Nscale subsidiaries that lease GPU equipment from Dell Financial Services.",
+    "domains": []
+  },
+  {
+    "id": "ent_iren_hardware_3",
+    "name": "IE US Hardware 3 LLC",
+    "short_name": "IREN Hardware 3",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "IREN financing subsidiary that borrows under GPU Financing 1.0 for the Microsoft Agreement.",
+    "domains": []
+  },
+  {
+    "id": "ent_iren_mackenzie",
+    "name": "IE Mackenzie Compute Ltd.",
+    "short_name": "IREN Mackenzie Compute",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "CA",
+    "description": "IREN subsidiary that borrows under GPU Financing 2.0 for GPUs at Mackenzie, British Columbia.",
+    "domains": []
+  },
+  {
+    "id": "ent_iren_hardware_5_6",
+    "name": "IE US Hardware 5 LLC and IE US Hardware 6 LLC",
+    "short_name": "IREN Hardware 5 and 6",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "IREN subsidiaries that placed about $6.7 billion of GPU purchase orders with Dell in September 2026.",
+    "domains": []
+  },
+  {
+    "id": "ent_csc_delaware_trust",
+    "name": "CSC Delaware Trust Company",
+    "short_name": "CSC Delaware Trust",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Administrative, intercreditor and collateral agent for IREN's GPU Financing 1.0 lenders and noteholders.",
+    "domains": []
+  },
+  {
+    "id": "ent_dell",
+    "name": "Dell Marketing L.P.",
+    "short_name": "Dell",
+    "cluster": "semis_supply",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "US",
+    "description": "Dell entity that supplies GPU servers to IREN under purchase orders IREN guarantees.",
+    "domains": []
+  },
+  {
+    "id": "ent_sharonai_au_borrowers",
+    "name": "SAI AU No. 1 Pty Ltd and SAI AU No. 3 Pty Ltd",
+    "short_name": "SharonAI AU borrowers",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "AU",
+    "description": "SharonAI subsidiaries that borrow under the US$356 million facility.",
+    "domains": []
+  },
+  {
+    "id": "ent_glas",
+    "name": "Global Loan Agency Services",
+    "short_name": "GLAS",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": "AU",
+    "description": "Agent and security trustee for lenders under SharonAI's facility.",
+    "domains": []
+  },
+  {
+    "id": "ent_bitdeer",
+    "name": "Bitdeer Technologies Group",
+    "short_name": "Bitdeer",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": "BTDR",
+    "cik": "0001899123",
+    "country": "SG",
+    "description": "Data center landlord of the Tydal, Norway campus leased to a Volta subsidiary.",
+    "domains": []
+  },
+  {
+    "id": "ent_volta",
+    "name": "Volta (AI cloud provider)",
+    "short_name": "Volta",
+    "cluster": "neocloud",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": null,
+    "description": "AI cloud provider whose subsidiary leases Bitdeer's Tydal campus; an Nvidia stake is reported by one tier 2 source only.",
+    "domains": []
+  },
+  {
+    "id": "ent_tydal_lc_banks",
+    "name": "Two unnamed global banks arranging letters of credit for the Tydal lease",
+    "short_name": "Tydal LC banks",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "cik": null,
+    "country": null,
+    "description": "Affiliates of two global financial institutions expected to issue letters of credit backing Volta's Tydal lease.",
+    "domains": []
   }
 ]

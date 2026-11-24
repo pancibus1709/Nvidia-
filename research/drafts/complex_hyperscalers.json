@@ -1,0 +1,1130 @@
+{
+  "entities": [
+    {
+      "id": "ent_oracle",
+      "name": "Oracle Corporation",
+      "short_name": "Oracle",
+      "cluster": "hyperscaler",
+      "depth": 2,
+      "public": true,
+      "ticker": "ORCL",
+      "cik": "0001341439",
+      "country": "US",
+      "description": "Cloud provider building data center capacity for OpenAI under Stargate; tenant of developer-owned data center campuses.",
+      "domains": [
+        "oracle.com"
+      ],
+      "evidence": [
+        "ev_240064",
+        "ev_240067"
+      ]
+    },
+    {
+      "id": "ent_fluidstack",
+      "name": "Fluidstack Ltd",
+      "short_name": "Fluidstack",
+      "cluster": "neocloud",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "GB",
+      "description": "AI cloud provider that leases data center capacity from former bitcoin miners, with Google backstopping its rent.",
+      "domains": [],
+      "evidence": [
+        "ev_240001",
+        "ev_240017",
+        "ev_240027"
+      ]
+    },
+    {
+      "id": "ent_terawulf",
+      "name": "TeraWulf Inc.",
+      "short_name": "TeraWulf",
+      "cluster": "other",
+      "depth": 2,
+      "public": true,
+      "ticker": "WULF",
+      "cik": "0001083301",
+      "country": "US",
+      "description": "Data center developer and landlord to Fluidstack and Anthropic at Lake Mariner, New York, and Justified, Kentucky.",
+      "domains": [],
+      "evidence": [
+        "ev_240001",
+        "ev_240013"
+      ]
+    },
+    {
+      "id": "ent_abernathy_jv",
+      "name": "FS CS I LLC (Abernathy joint venture)",
+      "short_name": "Abernathy JV",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Joint venture building a 168 MW data center in Abernathy, Texas, leased to Fluidstack and financed with secured notes.",
+      "domains": [],
+      "evidence": [
+        "ev_240009",
+        "ev_240010"
+      ]
+    },
+    {
+      "id": "ent_cipher_digital",
+      "name": "Cipher Digital Inc. (formerly Cipher Mining Inc.)",
+      "short_name": "Cipher",
+      "cluster": "other",
+      "depth": 2,
+      "public": true,
+      "ticker": "CIFR",
+      "cik": "0001819989",
+      "country": "US",
+      "description": "Data center developer leasing Barber Lake, Texas, to Fluidstack and Black Pearl, Texas, to Amazon Web Services.",
+      "domains": [],
+      "evidence": [
+        "ev_240019",
+        "ev_240024"
+      ]
+    },
+    {
+      "id": "ent_hut_8",
+      "name": "Hut 8 Corp.",
+      "short_name": "Hut 8",
+      "cluster": "other",
+      "depth": 2,
+      "public": true,
+      "ticker": "HUT",
+      "cik": "0001964789",
+      "country": "US",
+      "description": "Data center developer leasing its River Bend, Louisiana, campus to Fluidstack under a Google-backstopped lease.",
+      "domains": [],
+      "evidence": [
+        "ev_240027",
+        "ev_240030"
+      ]
+    },
+    {
+      "id": "ent_google_backstop_counterparties",
+      "name": "Third-party data center providers backstopped by Google (unnamed)",
+      "short_name": "Google backstop counterparties",
+      "cluster": "other",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "The data center providers whose lease and energy payments Google backstops; Alphabet discloses the total but not the names.",
+      "domains": [],
+      "evidence": [
+        "ev_240033"
+      ]
+    },
+    {
+      "id": "ent_crux_ai",
+      "name": "Crux AI (Google and Blackstone joint venture)",
+      "short_name": "Crux AI",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Compute-as-a-service joint venture formed by Google and Blackstone; Google holds a minority interest.",
+      "domains": [],
+      "evidence": [
+        "ev_240037",
+        "ev_240038"
+      ]
+    },
+    {
+      "id": "ent_google_tpu_counterparties",
+      "name": "Buyers and assignees of Google TPU systems (unnamed)",
+      "short_name": "TPU buyers",
+      "cluster": "other",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Customers that bought Google TPU systems, and parties to whom they assigned them, holding repurchase rights against Google.",
+      "domains": [],
+      "evidence": [
+        "ev_240039",
+        "ev_240040"
+      ]
+    },
+    {
+      "id": "ent_meta_louisiana_venture",
+      "name": "Meta Louisiana data center venture (Richland Parish)",
+      "short_name": "Meta Louisiana venture",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Off-balance-sheet venture, 80% owned by a Blue Owl fund affiliate and 20% by Meta, building a Louisiana data center campus leased to Meta.",
+      "domains": [],
+      "evidence": [
+        "ev_240050",
+        "ev_240046"
+      ]
+    },
+    {
+      "id": "ent_meta_texas_venture",
+      "name": "Meta Texas data center venture (El Paso)",
+      "short_name": "Meta Texas venture",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Off-balance-sheet venture, 20% owned by Meta, building a data center campus in El Paso, Texas, leased to Meta; the other owner is not named.",
+      "domains": [],
+      "evidence": [
+        "ev_240047"
+      ]
+    },
+    {
+      "id": "ent_iren_gpu_financing_lenders",
+      "name": "IREN GPU Financing 1.0 lenders and noteholders",
+      "short_name": "IREN GPU lenders",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Bank lenders under a delayed draw term loan and private placement noteholders funding GPUs for IREN's Microsoft contract.",
+      "domains": [],
+      "evidence": [
+        "ev_240061"
+      ]
+    },
+    {
+      "id": "ent_oracle_lessor",
+      "name": "Unnamed lessor of an Oracle data center lease",
+      "short_name": "Oracle lessor",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Lessor of a data center leased to Oracle whose borrowing Oracle guaranteed; Oracle does not name it.",
+      "domains": [],
+      "evidence": [
+        "ev_240062"
+      ]
+    },
+    {
+      "id": "ent_aws",
+      "name": "Amazon Web Services, Inc.",
+      "short_name": "AWS",
+      "cluster": "hyperscaler",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Amazon's cloud subsidiary; tenant of Cipher's Black Pearl data center.",
+      "domains": [
+        "aws.amazon.com"
+      ],
+      "evidence": [
+        "ev_240024"
+      ]
+    }
+  ],
+  "relationships": [],
+  "projects": [],
+  "events": [],
+  "complex_links": [
+    {
+      "id": "cx_google_anthropic_terawulf_credit_support_2026",
+      "kind": "credit_support",
+      "provider": "ent_google",
+      "beneficiary": "ent_terawulf",
+      "obligor": "ent_anthropic",
+      "instrument": "Google Credit Support Agreements (Justified CB-1, CB-2 and CB-3)",
+      "description": "Google agreed to backstop Anthropic's obligations under its leases of about 401 MW at TeraWulf's Justified campus in Kentucky, to support TeraWulf's project financing. Google may pay rent and take over a lease, or pay a capped termination fee and take equity in the landlord. The backstop ends once Anthropic holds investment-grade ratings for three months.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 19000000000.0,
+          "as_of": "2026-11-04",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_240012"
+          ],
+          "qualifier": "about"
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "in_force": false,
+          "effective_note": "Effective at commencement of the last data hall under each lease; ready-for-service expected from late 2027 to the second quarter of 2028."
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "An Anthropic payment default or insolvency under a Justified lease, after notice from the landlord.",
+      "dates": {
+        "announced": "2026-11-04",
+        "signed": "2026-11-04",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_anthropic_eq_2026",
+        "rel_anthropic_eqc_2025"
+      ],
+      "notes": "Headline is the lease commitments the support covers, not Google's cap. The termination fee cap equals the lesser of a maximum project debt amount and a share of total uses of funds; both are blank in the filed form (ev_240016). The buildings are fitted with Google TPU pods (ev_240015), so the capacity is not Nvidia hardware: same capacity is set because Anthropic itself carries Nvidia relationships in the register (company-level link).",
+      "evidence": [
+        "ev_240012",
+        "ev_240013",
+        "ev_240014",
+        "ev_240015",
+        "ev_240016",
+        "ev_240031"
+      ]
+    },
+    {
+      "id": "cx_google_datacenter_backstops_aggregate_2026",
+      "kind": "backstop",
+      "provider": "ent_google",
+      "beneficiary": "ent_google_backstop_counterparties",
+      "obligor": "ent_google_backstop_counterparties",
+      "instrument": "Data center backstop obligations accounted for as credit derivatives",
+      "description": "Alphabet reports $75.7 billion of backstop obligations on data center lease payments and related energy costs at 30 September 2026. Of that, $48.0 billion is executed with third-party data center providers; $27.7 billion is an obligation to put future backstops in place, including $10.0 billion for Crux AI. The named Fluidstack and Anthropic backstops sit inside this total.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 75700000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_240032"
+          ]
+        },
+        "maximum": {
+          "value": 48000000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_240033"
+          ],
+          "note": "Executed backstops only; credit derivative notional equals maximum potential exposure."
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Specified default scenarios by the underlying tenants; Google may then assume the leases or, after a set period, pay a termination amount.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "Aggregate record: do not add to the named Google links. Remaining terms up to 15 years (ev_240036). The $27.7 billion of future backstops (ev_240034) is not yet in force. Credit derivative notional was $16,940 million at 31 December 2025 (same table as the $48,012 million figure), so executed backstops nearly tripled in nine months.",
+      "evidence": [
+        "ev_240032",
+        "ev_240033",
+        "ev_240034",
+        "ev_240035",
+        "ev_240036"
+      ]
+    },
+    {
+      "id": "cx_google_crux_ai_backstop_commitment_2026",
+      "kind": "backstop",
+      "provider": "ent_google",
+      "beneficiary": "ent_crux_ai",
+      "obligor": "ent_crux_ai",
+      "instrument": "Commitment to provide data center and energy infrastructure backstops to the Crux AI joint venture",
+      "description": "Google committed to provide future data center and energy infrastructure backstops of up to $10.0 billion in support of agreements the Crux AI joint venture may sign. Blackstone committed up to $5.0 billion of capital to the venture. Google also has a multi-year commercial agreement with it.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 10000000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_240037"
+          ],
+          "qualifier": "up to",
+          "in_force": false,
+          "effective_note": "A commitment to put backstops in place, subject to conditions; none are stated as executed."
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Crux AI signing data center or energy agreements that call for Google backstops.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "Part of the $27.7 billion of future backstops in the aggregate record.",
+      "evidence": [
+        "ev_240037",
+        "ev_240038"
+      ]
+    },
+    {
+      "id": "cx_google_tpu_repurchase_guarantee_2026",
+      "kind": "residual_value_guarantee",
+      "provider": "ent_google",
+      "beneficiary": "ent_google_tpu_counterparties",
+      "obligor": "ent_google_tpu_counterparties",
+      "instrument": "TPU repurchase obligations accounted for as financial guarantees",
+      "description": "Some Google contracts require it to repurchase previously sold TPU hardware at preset prices over a multi-year term. Where a customer assigns the TPUs to another party but keeps the right to make Google repurchase them, Google accounts for it as a financial guarantee. Maximum potential payments were $6.6 billion at 30 September 2026.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 6600000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_240039"
+          ]
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "The holder exercising its right to require Google to repurchase the TPUs, with the hardware returned in working order.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "This is the TPU analogue of residual value support on GPUs: lenders financing assigned TPUs can rely on a Google buyback price (analysis). Buyers are not named.",
+      "evidence": [
+        "ev_240039",
+        "ev_240040"
+      ]
+    },
+    {
+      "id": "cx_terawulf_google_warrants_2025",
+      "kind": "share_option_or_warrant",
+      "provider": "ent_terawulf",
+      "beneficiary": "ent_google",
+      "obligor": "ent_terawulf",
+      "instrument": "Google Warrants (73,580,000 TeraWulf shares at $0.01)",
+      "description": "TeraWulf granted Google warrants over 73,580,000 shares at $0.01 each as payment for the Lake Mariner backstop. Google pledged the warrants to TeraWulf's construction lenders until the backstop takes effect. TeraWulf recorded the warrants at $515.5 million at issuance.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 515500000.0,
+          "as_of": "2025-08-17",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_240005"
+          ],
+          "note": "Fair value at issuance."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Exercisable from lease commencement, or 180 days after target commencement; expire in August 2030.",
+      "dates": {
+        "announced": "2025-08-14",
+        "signed": "2025-08-13",
+        "effective": null,
+        "maturity": "2030-08-17"
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "About 14% pro forma ownership per TeraWulf (ev_240004). 8,443,606 warrants became exercisable when the first lease commenced in the third quarter of 2026.",
+      "evidence": [
+        "ev_240005",
+        "ev_240006",
+        "ev_240004"
+      ]
+    },
+    {
+      "id": "cx_cipher_google_warrants_2025",
+      "kind": "share_option_or_warrant",
+      "provider": "ent_cipher_digital",
+      "beneficiary": "ent_google",
+      "obligor": "ent_cipher_digital",
+      "instrument": "Google Warrant Agreement (24,178,576 Cipher shares)",
+      "description": "Cipher granted Google a warrant over 24,178,576 shares as payment for the Barber Lake backstop. If the warrant shares are worth less than $435.0 million when the exercise period starts, Cipher must issue more shares or pay cash for the shortfall. Cipher booked $544.5 million as the value of the backstop.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 544500000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_240022"
+          ],
+          "note": "Initial fair value of the warrants, carried as an asset."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "floor": 435000000.0,
+          "floor_as_of": "2026-09-30",
+          "floor_note": "Analysis: Cipher guarantees the warrant shares are worth at least $435.0 million at the start of the exercise period (ev_240020)."
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Exercisable from commencement of the Fluidstack lease; expires 20 November 2030.",
+      "dates": {
+        "announced": "2025-09-25",
+        "signed": "2025-09-24",
+        "effective": null,
+        "maturity": "2030-11-20"
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "Amended and restated on 20 November 2025.",
+      "evidence": [
+        "ev_240020",
+        "ev_240021",
+        "ev_240022"
+      ]
+    },
+    {
+      "id": "cx_meta_louisiana_venture_rvg_2025",
+      "kind": "residual_value_guarantee",
+      "provider": "ent_meta",
+      "beneficiary": "ent_blue_owl",
+      "obligor": "ent_meta_louisiana_venture",
+      "instrument": "Residual value guarantees to the Louisiana Venture",
+      "description": "Meta sold 80% of its Louisiana data center campus to a venture owned by a Blue Owl fund affiliate and leases the campus back from 2029 on four-year terms renewable to 20 years. If Meta ends or does not renew a lease, it pays any shortfall between the property's fair value and a guaranteed threshold. The venture is off Meta's balance sheet.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 28000000000.0,
+          "as_of": "2025-12-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_240052"
+          ],
+          "qualifier": "about",
+          "note": "Aggregate RVG threshold; decreases over time."
+        },
+        "maximum": {
+          "value": 28091000000.0,
+          "as_of": "2025-12-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_240043"
+          ],
+          "in_force": false,
+          "effective_note": "Can be called only when Meta terminates or does not renew a lease; leases commence in 2029 with initial four-year terms."
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Meta terminating or not renewing a lease when the campus is worth less than the RVG threshold, if certain other conditions are met.",
+      "dates": {
+        "announced": "2025-10-30",
+        "signed": "2025-10-01",
+        "effective": "2029-01-01",
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "Blue Owl affiliate paid $7.0 billion cash for 80% (ev_240051); total development cost about $27 billion (ev_240046); initial lease commitment about $12.31 billion (ev_240053). Meta's 10-Q table gives combined maximum exposure to both ventures of $68,404 million at 30 September 2026 (ev_240045). The venture's debt: fund holdings reports show Beignet Investor LLC fixed-rate notes due 30 May 2049 (ev_240056); no filing read ties Beignet to this venture or states its size, so the bond size is not recorded (needs quote). Effective date set to the first day of the 2029 commencement year (the filing gives the year only). No Nvidia link: nothing in the register ties this campus to Nvidia.",
+      "evidence": [
+        "ev_240043",
+        "ev_240048",
+        "ev_240049",
+        "ev_240050",
+        "ev_240051",
+        "ev_240052",
+        "ev_240053",
+        "ev_240046",
+        "ev_240044",
+        "ev_240045",
+        "ev_240056"
+      ]
+    },
+    {
+      "id": "cx_meta_texas_venture_rvg_2026",
+      "kind": "residual_value_guarantee",
+      "provider": "ent_meta",
+      "beneficiary": "ent_meta_texas_venture",
+      "obligor": "ent_meta_texas_venture",
+      "instrument": "Residual value guarantees to the Texas Venture",
+      "description": "In July 2026 Meta put its El Paso, Texas, data center campus into a venture in which it keeps 20% and leases the campus back from 2028, on the same terms as Louisiana. Meta gives the venture the same kind of residual value guarantee. The other owner is not named.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "floor": 13402000000.0,
+          "floor_as_of": "2026-09-30",
+          "floor_note": "Analysis: combined maximum RVG of $41,493 million at 30 September 2026 (ev_240042) less the Louisiana maximum of $28,091 million at 31 December 2025 (ev_240043); the Louisiana figure only falls over time, so the Texas guarantee is at least the difference.",
+          "in_force": false,
+          "effective_note": "Can be called only when Meta terminates or does not renew a lease; the lease commences in 2028."
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Meta terminating or not renewing a lease when the campus is worth less than the RVG threshold, if certain other conditions are met.",
+      "dates": {
+        "announced": "2026-10-22",
+        "signed": "2026-07-01",
+        "effective": "2028-01-01",
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "Development cost about $14 billion (ev_240047). Effective date set to the first day of the 2028 commencement year (year only in the filing); signed date set to 1 July 2026 (month only).",
+      "evidence": [
+        "ev_240042",
+        "ev_240043",
+        "ev_240047",
+        "ev_240048",
+        "ev_240049"
+      ]
+    },
+    {
+      "id": "cx_microsoft_iren_compute_contract_2025",
+      "kind": "compute_contract",
+      "provider": "ent_microsoft",
+      "beneficiary": "ent_iren_gpu_financing_lenders",
+      "obligor": "ent_iren",
+      "instrument": "Microsoft Agreement (Horizon 1 to 4, Childress) as security for GPU Financing 1.0",
+      "description": "IREN's five-year contract with Microsoft is what its GPU Financing 1.0 lenders rely on: the loans fund GPUs deployed for the contract and are drawn in tranches matched to its delivery milestones. Commitments total $3,645 million of bank loans and private notes held in a separate financing vehicle.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 9700000000.0,
+          "as_of": "2026-08-27",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_40118"
+          ],
+          "qualifier": "about"
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Microsoft not accepting or paying for capacity under the contract, leaving the financing vehicle without its source of repayment.",
+      "dates": {
+        "announced": "2025-11-03",
+        "signed": null,
+        "effective": null,
+        "maturity": "2031-12-31"
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_iren_lb_2026",
+        "rel_iren_eq_2026"
+      ],
+      "notes": "Microsoft gives no guarantee; it is the contract counterparty the lenders rely on. Maturity is the financing's 31 December 2031 maturity per the neocloud colleagues (ev_40131 context). Nvidia separately has a $3.4 billion five-year cloud contract with IREN (rel_iren_lb_2026), on different hardware, so the overlap is at company level.",
+      "evidence": [
+        "ev_40118",
+        "ev_40131",
+        "ev_240059",
+        "ev_240060",
+        "ev_240061"
+      ]
+    },
+    {
+      "id": "cx_oracle_lessor_borrowing_guarantee_2026",
+      "kind": "guarantee",
+      "provider": "ent_oracle",
+      "beneficiary": "ent_oracle_lessor",
+      "obligor": "ent_oracle_lessor",
+      "instrument": "Guarantee of a lessor's borrowing under a data center lease not yet commenced",
+      "description": "Oracle guaranteed part of the borrowing of a lessor that is building a data center Oracle will lease. The guarantee was up to $2.2 billion at 28 February 2026 and up to $3.3 billion at 31 May 2026, and the borrowing matured in September 2026. Oracle does not name the lessor or the site.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 3300000000.0,
+          "as_of": "2026-05-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_240062"
+          ],
+          "qualifier": "up to"
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "The lessor failing to repay its borrowing.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": "2026-09-30"
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "Not mentioned in the 10-Q for the quarter ended 31 August 2026 (ev_240064 is that filing's lease note), so whether it was repaid, refinanced or extended is not disclosed. Maturity set to the end of September 2026 (month only in the filing). Whether the site serves OpenAI is not stated.",
+      "evidence": [
+        "ev_240062",
+        "ev_240063",
+        "ev_240064"
+      ]
+    },
+    {
+      "id": "cx_amazon_aws_cipher_parent_guarantee_2025",
+      "kind": "parent_guarantee",
+      "provider": "ent_amazon",
+      "beneficiary": "ent_cipher_digital",
+      "obligor": "ent_aws",
+      "instrument": "Amazon.com, Inc. guarantee of the AWS lease at Black Pearl",
+      "description": "Amazon.com, Inc. guarantees all base rent and operating expenses owed by its subsidiary AWS under a 15-year lease of Cipher's 300 MW Black Pearl data center in Texas. Cipher financed the site with a $2.0 billion high-yield bond.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 5500000000.0,
+          "as_of": "2026-02-24",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_240025"
+          ],
+          "qualifier": "about",
+          "note": "Contracted revenue over the base term, not a stated cap."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "AWS failing to pay base rent or operating expenses under the Black Pearl lease.",
+      "dates": {
+        "announced": "2025-11-03",
+        "signed": null,
+        "effective": "2026-08-01",
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "Source is Cipher's business update filed as an 8-K exhibit; the guarantee text itself was not read. Phased delivery to the tenant began in August 2026 (effective date set to the first of that month). Black Pearl bond $2.0 billion at 6.125% (ev_240026).",
+      "evidence": [
+        "ev_240024",
+        "ev_240025",
+        "ev_240026"
+      ]
+    },
+    {
+      "id": "cx_amazon_anthropic_financing_facility_2026",
+      "kind": "vendor_financing",
+      "provider": "ent_amazon",
+      "beneficiary": "ent_anthropic",
+      "obligor": "ent_anthropic",
+      "instrument": "Financing arrangement for Anthropic, aggregate facility not to exceed $20.0 billion",
+      "description": "Amazon agreed to make up to $20.0 billion available to Anthropic, released as AWS reaches delivery milestones for compute under their amended commercial agreement. Draws are Anthropic convertible notes or, after an IPO, Anthropic shares. Amazon used $5.0 billion of it for Anthropic Series H stock, leaving $15.0 billion.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 20000000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_240070"
+          ],
+          "qualifier": "up to"
+        },
+        "drawn_or_paid": {
+          "value": 5000000000.0,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_240072"
+          ]
+        }
+      },
+      "trigger": "Anthropic choosing to draw once AWS reaches compute delivery milestones.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_anthropic_eq_2026",
+        "rel_anthropic_eqc_2025"
+      ],
+      "notes": "Expires 30 months after an Anthropic liquidity event such as its IPO. Undrawn $15.0 billion (ev_240071). The compute is AWS's own chips, not Nvidia's; same capacity is set at company level because Anthropic carries Nvidia relationships. Amazon's $50.0 billion of OpenAI preferred stock is equity, not credit support, and is not recorded.",
+      "evidence": [
+        "ev_240070",
+        "ev_240071",
+        "ev_240072",
+        "ev_240073"
+      ]
+    }
+  ]
+}

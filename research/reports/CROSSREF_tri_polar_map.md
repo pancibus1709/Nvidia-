@@ -46,3 +46,7 @@ Figures are the register's confirmed figures (`research/reports/R9_system_view.m
 ## Bottom line
 
 The map places Nvidia at the centre with a small "bank" box beside it. The register says the bank is the centre: 83% of the sized exposure sits with the two labs the map casts as Nvidia's rivals on open models. Its largest listed holding sits in the Musk pole. The map's three poles are better read as three groups of Nvidia borrowers.
+
+## Update, 24 November 2026: other guarantors
+
+A sweep of guarantees by parties other than Nvidia (`GS_SUMMARY.md`) changes two rows above. Google is not only a comparator: it reports $75.7 billion of data center backstops, $48.0 billion executed, so the "Pragmatic Pipes" pole holds a second large underwriter. Meta, the map's "swing vote", stands behind capacity too: it must buy up to $15 billion of unsold Nebius capacity and guarantees $28.1 billion of residual value at its Louisiana venture. AVGO, shown as a bystander, backstops about $29 billion and about $43 billion of leases on its own racks.

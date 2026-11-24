@@ -75,15 +75,22 @@ Nvidia gives equity and credit support to its buyers from a finite balance sheet
 - **Critic review, three rounds:** the critic found real faults each round and the totals changed as a result (gross fell from $187 billion to $175.3 billion). By round three every total tied to the critic's own recomputation and no fabricated quote was found in any round. The remaining faults were in generated summary text, now driven by explicit fields with tests. The closing check result is in `research/gate_r/critic_closing_check.md`.
 - **Evidence pack:** `research/Nvidia_Exposure_Datapack.xlsx` ties to the register to the dollar.
 
+## Added 24 November 2026: guarantees across the complex
+
+A sweep of guarantees given by parties other than Nvidia found 65 links among 79 parties (`research/reports/GS_SUMMARY.md`). Nvidia is the largest underwriter of AI capacity but not the only one. Google reports $75.7 billion of data center backstops ($48.0 billion executed). Broadcom backstops about $72 billion of leases on its own racks (the sum of two disclosures, about $29 billion and about $43 billion). Meta guarantees $28.1 billion of residual value at its Louisiana venture and must buy up to $15 billion of unsold Nebius capacity. AMD guarantees $7.7 billion of partner leases and backstops $6.2 billion of cloud capacity. In each large case the provider underwrites demand for its own product. Anthropic is the most heavily supported borrower: Nvidia, Google, Amazon, Broadcom and AMD all stand behind it.
+
+Two map reviews are also filed: `research/reports/CROSSREF_tri_polar_map.md` and `research/reports/CROSSREF_bloomberg_money_machine.md`.
+
 ## Decisions needed from you
 
 1. **Approve the register** so the application build can start. The approval date becomes the Gate R cutoff.
 2. **Is this GitHub repository private?** If yes, I will also commit the six short news excerpts used for verification.
 3. **The $105 billion guaranty:** show it at full value with a "not yet in force" label (current treatment), or show it on its effectiveness schedule?
 4. **Paywalled news:** will you paste the ten priority quotes listed in `research/reports/R4.md` so those private-company figures can be shown, or should they stay "Not confirmed"?
-5. **Letter grades on the public page:** off by default, as the spec recommends. Keep off?
-6. **Groq and Hugging Face:** left off the map as purchases, not credit exposure. Confirm.
-7. **Legal read:** the CoreWeave order's insolvency termination clause should be reviewed before the Stress view relies on it.
+5. **Central bank verdict:** add "Google, Broadcom and AMD give the same support for their own products" to the evidence against the liquidity and collateral functions? Recommended.
+6. **Letter grades on the public page:** off by default, as the spec recommends. Keep off?
+7. **Groq and Hugging Face:** left off the map as purchases, not credit exposure. Confirm.
+8. **Legal read:** the CoreWeave order's insolvency termination clause should be reviewed before the Stress view relies on it.
 
 ## Where things are
 
