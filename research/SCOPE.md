@@ -18,4 +18,12 @@
 
 **Depth.** Depth 1 is a direct Nvidia relationship. Depth 2 is a party whose position relies on one. Nothing beyond depth 2 in this release.
 
-**Gate R cutoff.** Not yet set. It is the date Thomas approves the register.
+**Gate R cutoff.** 25 November 2026. Thomas approved the register in chat on this date ("Go ahead and build the application") and asked that the data be checked against the most recent documents and releases before publishing.
+
+**Defaults applied for the open decisions** (Thomas did not answer them; each is the recommended option and can be changed in config):
+- The $105 billion PORTS-Pike guaranty is shown at full value with a "not yet in force" label.
+- Paywalled news stays "Not confirmed" until a reviewer pastes the quote.
+- Letter grades stay off on the public page (`config/display.json`, `show_grades: false`).
+- Groq and Hugging Face stay off the exposure map as purchases.
+- The central bank verdict gains the evidence that Google, Broadcom and AMD give the same support for their own products.
+- The CoreWeave insolvency termination clause is described as written, with a note that it has not been reviewed by counsel.

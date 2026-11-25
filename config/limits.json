@@ -1,0 +1,1 @@
+{"_note": "Monthly spend cap for the headless triage job (spec/11 U2). Thomas sets the value; the job stops and alerts when it is reached.", "monthly_usd_cap": null, "max_queue_items_per_run": 50}
