@@ -8,10 +8,12 @@ Built by Resolute Business Development. Not investment advice.
 
 | Phase | State |
 |---|---|
-| R0 research tooling and checks | Done |
-| R1 to R9 research | Done: 92 records, 1,094 citations, three critic rounds |
-| Gate R | Waiting for Thomas's approval. See `research/GATE_R_SUMMARY.md` |
-| B, U, Q | Not started. No application code is written before approval |
+| R research | Done: 93 records, about 1,300 citations, three critic rounds, independent re-sourcing |
+| Gate R | Approved by Thomas, 25 November 2026 |
+| B application | Built: `site/index.html`, generated from `data/published/` |
+| U continuous update | Built: watchers, triage, review page, apply, workflows (`SCHEDULE.md`) |
+| Q final checks | Freshness check against filings to 25 November 2026; design critique fixed and re-tested in the browser |
+| Go live | Needs Thomas's one-time setup in `SCHEDULE.md` (public repository, DNS, secrets, scheduler) |
 
 ## Layout
 
