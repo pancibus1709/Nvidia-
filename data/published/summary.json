@@ -42,7 +42,9 @@
       "figures": [
         {
           "value": 81,
-          "eligible_only": true
+          "eligible_only": true,
+          "text": "81",
+          "measure": "count"
         }
       ]
     },
@@ -51,15 +53,21 @@
       "figures": [
         {
           "value": 30196314380.28435,
-          "eligible_only": true
+          "eligible_only": true,
+          "text": "$30.2 billion",
+          "measure": "funded"
         },
         {
           "value": 37700000000.0,
-          "eligible_only": true
+          "eligible_only": true,
+          "text": "$37.7 billion",
+          "measure": "committed"
         },
         {
           "value": 107360340000.0,
-          "eligible_only": true
+          "eligible_only": true,
+          "text": "$107.4 billion",
+          "measure": "contingent"
         }
       ]
     },
@@ -68,7 +76,12 @@
       "figures": [
         {
           "value": 105000000000.0,
-          "eligible_only": true
+          "eligible_only": true,
+          "text": "$105 billion",
+          "measure": "contingent",
+          "rels": [
+            "rel_openai_gu_2026"
+          ]
         }
       ]
     },
@@ -77,11 +90,20 @@
       "figures": [
         {
           "value": 307092739346.78,
-          "eligible_only": true
+          "eligible_only": true,
+          "text": "$307.1 billion",
+          "measure": "headline"
         },
         {
           "value": 103500000000.0,
-          "eligible_only": true
+          "eligible_only": true,
+          "text": "$103.5 billion",
+          "measure": "headline",
+          "rels": [
+            "rel_openai_eqc_2025",
+            "rel_wayve_eqc_2025",
+            "rel_meta_eq_2026"
+          ]
         }
       ]
     },
@@ -90,11 +112,42 @@
       "figures": [
         {
           "value": 58100000000.0,
-          "eligible_only": true
+          "eligible_only": true,
+          "text": "$58.1 billion",
+          "evidence": [
+            "ev_190001"
+          ]
         },
         {
           "value": 10482399382.46,
-          "eligible_only": true
+          "eligible_only": true,
+          "text": "$10.5 billion",
+          "measure": "funded",
+          "rels": [
+            "rel_nscale_eq_2025",
+            "rel_nebius_eq_2026",
+            "rel_marvell_eq_2026",
+            "rel_lumentum_eq_2026",
+            "rel_coherent_eq_2026",
+            "rel_corning_eq_2026",
+            "rel_sb_energy_eq_2026",
+            "rel_iambic_eq_2023"
+          ],
+          "evidence": [
+            "ev_40009",
+            "ev_40055",
+            "ev_40057",
+            "ev_60052",
+            "ev_60059",
+            "ev_60066",
+            "ev_60072",
+            "ev_60077",
+            "ev_60081",
+            "ev_60088",
+            "ev_60097",
+            "ev_40087",
+            "ev_170002"
+          ]
         }
       ]
     }
@@ -188,7 +241,17 @@
       "nvidia": 61650000000.0,
       "named": 2677399346.7799997,
       "aggregate": "non_marketable_equity_securities",
-      "note": "Named column is the cost of the few private stakes whose cost a source states."
+      "note": "Named column is the cost of the few private stakes whose cost a source states.",
+      "evidence": [
+        "ev_130010"
+      ],
+      "named_evidence": [
+        "ev_80030",
+        "ev_40008",
+        "ev_40009",
+        "ev_40087"
+      ],
+      "named_rels": []
     },
     {
       "line": "Warrants and convertible preferred (Level 2)",
@@ -196,7 +259,17 @@
       "named": 6500000000,
       "aggregate": "publicly_held_equity_securities",
       "named_text": null,
-      "note": "Marvell and Lumentum convertible preferred ($2 billion each), the Nebius pre-funded warrant ($2 billion) and the Corning warrants ($500 million), at cost, not fair value. IREN's investment rights carry no value. Named column is cost, not fair value."
+      "note": "Marvell and Lumentum convertible preferred ($2 billion each), the Nebius pre-funded warrant ($2 billion) and the Corning warrants ($500 million), at cost, not fair value. IREN's investment rights carry no value. Named column is cost, not fair value.",
+      "evidence": [
+        "ev_130012"
+      ],
+      "named_evidence": [
+        "ev_60052",
+        "ev_60066",
+        "ev_40057",
+        "ev_60088"
+      ],
+      "named_rels": []
     },
     {
       "line": "Listed shares (Level 1)",
@@ -204,56 +277,126 @@
       "named": null,
       "aggregate": "publicly_held_equity_securities",
       "named_text": "not comparable",
-      "note": "Not comparable. Nvidia's holdings report of 30 September 2026 shows $48.3 billion of named common stock, $10 billion more than Level 1 at 25 October 2026; the dates differ and Nvidia does not say in which level the SpaceX shares sit."
+      "note": "Not comparable. Nvidia's holdings report of 30 September 2026 shows $48.3 billion of named common stock, $10 billion more than Level 1 at 25 October 2026; the dates differ and Nvidia does not say in which level the SpaceX shares sit.",
+      "evidence": [
+        "ev_130011"
+      ],
+      "named_evidence": [],
+      "named_rels": []
     },
     {
       "line": "Guarantees, maximum",
       "nvidia": 118000000000.0,
       "named": 105860340000.0,
       "aggregate": "guarantees_maximum_gross_exposure",
-      "note": ""
+      "note": "",
+      "evidence": [
+        "ev_50044"
+      ],
+      "named_evidence": [
+        "ev_30024",
+        "ev_40003"
+      ],
+      "named_rels": []
     },
     {
       "line": "Neocloud agreements, maximum",
       "nvidia": 32000000000.0,
       "named": 0,
       "aggregate": "neocloud_agreements",
-      "note": "Partners are known (SharonAI, Firmus and others) but no partner's share is disclosed."
+      "note": "Partners are known (SharonAI, Firmus and others) but no partner's share is disclosed.",
+      "evidence": [
+        "ev_50080"
+      ],
+      "named_evidence": [],
+      "named_rels": []
     },
     {
       "line": "Cloud service agreements",
       "nvidia": 28000000000.0,
       "named": 0,
       "aggregate": "cloud_service_agreements",
-      "note": "IREN and Nscale state contract values at signing of $4.6 billion; the balance still owed is not disclosed."
+      "note": "IREN and Nscale state contract values at signing of $4.6 billion; the balance still owed is not disclosed.",
+      "evidence": [
+        "ev_130013"
+      ],
+      "named_evidence": [],
+      "named_rels": []
     },
     {
       "line": "Unfunded equity commitments",
       "nvidia": 20000000000.0,
       "named": 3500000000.0,
       "aggregate": "equity_investment_commitments",
-      "note": "Named column counts amounts a source shows as signed and unpaid at that date."
+      "note": "Named column counts amounts a source shows as signed and unpaid at that date.",
+      "evidence": [
+        "ev_120011"
+      ],
+      "named_evidence": [
+        "ev_40088",
+        "ev_30072",
+        "ev_40012"
+      ],
+      "named_rels": []
     },
     {
       "line": "Data center leases signed, not commenced",
       "nvidia": 74000000000.0,
       "named": 0,
       "aggregate": "data_center_leases_not_commenced",
-      "note": "Nvidia says it may assign some of these leases to third parties."
+      "note": "Nvidia says it may assign some of these leases to third parties.",
+      "evidence": [
+        "ev_190004"
+      ],
+      "named_evidence": [],
+      "named_rels": []
     },
     {
       "line": "Supply and capacity commitments",
       "nvidia": 390000000000.0,
       "named": 0,
       "aggregate": "supply_and_capacity_commitments",
-      "note": "Upstream commitments to suppliers; none is attributed."
+      "note": "Upstream commitments to suppliers; none is attributed.",
+      "evidence": [
+        "ev_130023"
+      ],
+      "named_evidence": [],
+      "named_rels": []
     },
     {
       "line": "Equity purchases, nine months to 25 October 2026",
       "nvidia": 58100000000.0,
       "named": 10482399382.46,
       "aggregate": null,
-      "note": "Named column is equity cost in this register with a sourced payment date inside the period, 18% of Nvidia's figure; a further $312 million of funded cost in the register has no sourced payment date. The rest of Nvidia's purchases are not attributed."
+      "note": "Named column is equity cost in this register with a sourced payment date inside the period, 18% of Nvidia's figure; a further $312 million of funded cost in the register has no sourced payment date. The rest of Nvidia's purchases are not attributed.",
+      "evidence": [
+        "ev_190001"
+      ],
+      "named_evidence": [
+        "ev_40009",
+        "ev_40055",
+        "ev_40057",
+        "ev_60052",
+        "ev_60059",
+        "ev_60066",
+        "ev_60072",
+        "ev_60077",
+        "ev_60081",
+        "ev_60088",
+        "ev_60097",
+        "ev_40087",
+        "ev_170002"
+      ],
+      "named_rels": [
+        "rel_nscale_eq_2025",
+        "rel_nebius_eq_2026",
+        "rel_marvell_eq_2026",
+        "rel_lumentum_eq_2026",
+        "rel_coherent_eq_2026",
+        "rel_corning_eq_2026",
+        "rel_sb_energy_eq_2026",
+        "rel_iambic_eq_2023"
+      ]
     }
   ],
   "positions_by_value": [

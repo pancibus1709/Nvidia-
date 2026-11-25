@@ -121,25 +121,79 @@ def public_complex(c: dict, reg: Register) -> dict:
     return out
 
 
+def bridge_sources(reg: Register, bridge: list[dict]) -> list[dict]:
+    """Attach to each bridge row the citations behind Nvidia's figure and behind the named column, so the page can open them."""
+    rem = {r["aggregate_of"]: r for r in reg.relationships if r.get("aggregate_of")}
+    fin = reg.financials or {}
+    out = []
+    for b in bridge:
+        row = dict(b)
+        nv, named, rels = [], [], []
+        r = rem.get(b.get("aggregate"))
+        br = next((x for x in (r or {}).get("bridge_rows") or [] if x.get("line") == b["line"]), None)
+        if br:
+            nv = list(br.get("nvidia_evidence") or [])
+            named = list(br.get("named_evidence") or [])
+            if not named and b.get("named"):
+                named = list(r.get("evidence") or [])
+        elif r:
+            for k in ("funded", "committed_total", "contingent_max"):
+                a = r["amounts"].get(k) or {}
+                if a.get("value") is not None and not a.get("not_applicable") and a.get("display_eligible"):
+                    comps = a.get("components") or []
+                    nv = [i for c in comps if c["value"] > 0 for i in c.get("evidence") or []] or list(a.get("evidence") or [])
+                    named = [i for c in comps if c["value"] < 0 for i in c.get("evidence") or []]
+                    break
+        elif b["line"].startswith("Equity purchases"):
+            nv = list((fin.get("equity_purchases_9m") or {}).get("evidence") or [])
+            for q in reg.relationships:
+                fa = q["amounts"].get("funded") or {}
+                if q.get("aggregate_of") or q["type_primary"] not in ("EQ", "EQ-SPV") or elig_value(fa) is None or fa.get("not_applicable"):
+                    continue
+                if any(c.get("paid_on") and "2026-01-26" <= c["paid_on"] <= "2026-10-25" for c in fa.get("components") or []):
+                    rels.append(q["id"])
+                    named += [i for c in fa["components"] if c.get("paid_on") and "2026-01-26" <= c["paid_on"] <= "2026-10-25" for i in c.get("evidence") or []] or list(fa.get("evidence") or [])
+        row["evidence"] = list(dict.fromkeys(nv))
+        row["named_evidence"] = list(dict.fromkeys(named))
+        row["named_rels"] = rels
+        out.append(row)
+    return out
+
+
 def summary_sentences(reg: Register, t: dict, sv: dict) -> list[dict]:
+    """Each figure carries the words it appears as (text) and where its sources are: a measure the page can list
+    relationship by relationship, a list of relationships, or citations (evidence)."""
     m = fmt.money
     hg = t["headline_groups"]
+    core = [r for r in reg.relationships if not r.get("aggregate_of") and r["type_primary"] != "CX"]
     s = []
     s.append({"text": f"This register finds {t['count']} financial relationships in which Nvidia has put money, credit or demand behind companies in the AI buildout, and every number on this page links to its source.",
-              "figures": [{"value": t["count"], "eligible_only": True}]})
-    s.append({"text": f"Of the amounts that can be confirmed, {m(t['funded'])} is invested and still held, {m(t['committed_unfunded'] + t['committed_split_unknown'])} is committed, and {m(t['contingent_max'])} is contingent on events such as a tenant's default.",
-              "figures": [{"value": t["funded"], "eligible_only": True}, {"value": t["committed_unfunded"] + t["committed_split_unknown"], "eligible_only": True}, {"value": t["contingent_max"], "eligible_only": True}]})
-    nif = [r for r in reg.relationships if not r.get("aggregate_of") and independent_gross(r)["contingent_not_in_force"]]
+              "figures": [{"value": t["count"], "eligible_only": True, "text": str(t["count"]), "measure": "count"}]})
+    com = t["committed_unfunded"] + t["committed_split_unknown"]
+    s.append({"text": f"Of the amounts that can be confirmed, {m(t['funded'])} is invested and still held, {m(com)} is committed, and {m(t['contingent_max'])} is contingent on events such as a tenant's default.",
+              "figures": [{"value": t["funded"], "eligible_only": True, "text": m(t["funded"]), "measure": "funded"},
+                          {"value": com, "eligible_only": True, "text": m(com), "measure": "committed"},
+                          {"value": t["contingent_max"], "eligible_only": True, "text": m(t["contingent_max"]), "measure": "contingent"}]})
+    nif = [r for r in core if independent_gross(r)["contingent_not_in_force"]]
     if nif:
         big = max(nif, key=lambda r: independent_gross(r)["contingent_not_in_force"])
         s.append({"text": f"{m(t['contingent_not_in_force'])} of the contingent amount is a guaranty of {reg.ent[big['to']]['short_name']}'s rent that is signed but not yet in force.",
-                  "figures": [{"value": t["contingent_not_in_force"], "eligible_only": True}]})
+                  "figures": [{"value": t["contingent_not_in_force"], "eligible_only": True, "text": m(t["contingent_not_in_force"]), "measure": "contingent",
+                               "rels": [r["id"] for r in nif]}]})
+    nb = []
+    for r in core:
+        ha = r["amounts"].get("headline") or {}
+        if elig_value(ha) and not ha.get("not_applicable") and checks.headline_group(r) == "not_binding":
+            nb.append(r["id"])
     s.append({"text": f"Announcements add up to {m(t['headline'])}, which is never counted as exposure; {m(hg['not_binding'])} of it is letters of intent or deals with no disclosed agreement.",
-              "figures": [{"value": t["headline"], "eligible_only": True}, {"value": hg["not_binding"], "eligible_only": True}]})
+              "figures": [{"value": t["headline"], "eligible_only": True, "text": m(t["headline"]), "measure": "headline"},
+                          {"value": hg["not_binding"], "eligible_only": True, "text": m(hg["not_binding"]), "measure": "headline", "rels": nb}]})
     eqrow = next((b for b in sv.get("bridge", []) if b["line"].startswith("Equity purchases")), None)
     if eqrow and eqrow.get("nvidia"):
         s.append({"text": f"Nvidia's own accounts show more than any outsider can name: it paid {m(eqrow['nvidia'])} for equity in the nine months to 25 October 2026, and this register can tie {m(eqrow['named'])} of that to named deals.",
-                  "figures": [{"value": eqrow["nvidia"], "eligible_only": True}, {"value": eqrow["named"], "eligible_only": True}]})
+                  "figures": [{"value": eqrow["nvidia"], "eligible_only": True, "text": m(eqrow["nvidia"]), "evidence": eqrow.get("evidence") or []},
+                              {"value": eqrow["named"], "eligible_only": True, "text": m(eqrow["named"]), "measure": "funded", "rels": eqrow.get("named_rels") or [],
+                               "evidence": eqrow.get("named_evidence") or []}]})
     return s
 
 
@@ -214,10 +268,12 @@ def build(out_dir: Path, today: date | None = None) -> dict:
     for coll in (rels, ents, reg.projects, reg.events, cx, loops, [cb]):
         cited |= set(checks._ev_ids(coll))
     cited |= set(__import__("re").findall(r"ev_\d+", json.dumps([loops, cb, rels])))
+    cited |= set(checks._ev_ids([reg.financials])) | {i for b in bridge_sources(reg, sv["bridge"]) for i in b["evidence"] + b["named_evidence"]}
     evid = [{k: e.get(k) for k in EV_PUBLIC} for e in reg.evidence if e["id"] in cited]
 
     log = seed_changelog(reg)
     pub_log = public_changelog(log, reg)
+    sv["bridge"] = bridge_sources(reg, sv["bridge"])
     sentences = summary_sentences(reg, t, sv)
     last_change = max((e["timestamp"] for e in log), default=None)
     totals_pub = {k: t[k] for k in ("funded", "funded_cash", "committed_unfunded", "committed_split_unknown", "contingent_max",

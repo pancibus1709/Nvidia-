@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "proj_coreweave_ddtl1",
+    "entity": "ent_coreweave",
+    "name": "DDTL 1.0 financed capacity",
+    "location": "Not disclosed",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [
+      {
+        "facility": "DDTL 1.0 (up to $2.3 billion, July 2023)",
+        "lenders": [
+          "ent_us_bank"
+        ],
+        "balance": {
+          "value": 1139000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20045"
+          ]
+        },
+        "collateral_value": null,
+        "secured_by": "SPV holding GPU infrastructure and related customer contracts; final payment 2028-03-28; effective rate 15%",
+        "covenant_ltv": null,
+        "evidence": [
+          "ev_20133",
+          "ev_20045",
+          "ev_20143",
+          "ev_70013",
+          "ev_20087"
+        ]
+      }
+    ],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "Sites not named. U.S. Bank is the administrative agent; other lenders are not named in the documents read. No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+    "evidence": [
+      "ev_20133",
+      "ev_20045",
+      "ev_20143",
+      "ev_70013"
+    ]
+  },
+  {
+    "id": "proj_coreweave_ddtl2",
+    "entity": "ent_coreweave",
+    "name": "DDTL 2.0 and 2.1 financed capacity",
+    "location": "Not disclosed",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [
+      {
+        "facility": "DDTL 2.0 (up to $7.6 billion, May 2024)",
+        "lenders": [
+          "ent_blackstone",
+          "ent_magnetar"
+        ],
+        "balance": {
+          "value": 2796000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20046"
+          ]
+        },
+        "collateral_value": null,
+        "secured_by": "SPV; sized on depreciable cost of GPU servers; matures August 2030",
+        "covenant_ltv": null,
+        "evidence": [
+          "ev_20134",
+          "ev_20046",
+          "ev_20147",
+          "ev_20144",
+          "ev_20038"
+        ]
+      },
+      {
+        "facility": "DDTL 2.1 tranche (up to $3 billion, September 2025)",
+        "lenders": [],
+        "balance": {
+          "value": 2494000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20047"
+          ]
+        },
+        "collateral_value": null,
+        "secured_by": "As DDTL 2.0; SOFR plus 4.25%; matures March 2031",
+        "covenant_ltv": null,
+        "evidence": [
+          "ev_20135",
+          "ev_20047",
+          "ev_20140"
+        ]
+      }
+    ],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "Blackstone and Magnetar led DDTL 2.0; DDTL 2.1 lenders not named. $500m of IPO proceeds were to be held as restricted cash securing DDTL 2.0 (ev_20038). No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+    "evidence": [
+      "ev_20134",
+      "ev_20135",
+      "ev_20046",
+      "ev_20047",
+      "ev_20147"
+    ]
+  },
+  {
+    "id": "proj_coreweave_ddtl3_phoenix1",
+    "entity": "ent_coreweave",
+    "name": "DDTL 3.0, OpenAI order form Phoenix 1",
+    "location": "Not disclosed",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": "OpenAI",
+    "contract_years": null,
+    "financing": [
+      {
+        "facility": "DDTL 3.0 (up to $2.6 billion, July 2025; First Amendment 2025-12-31)",
+        "lenders": [
+          "ent_mufg",
+          "ent_us_bank"
+        ],
+        "balance": {
+          "value": 2323000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20048"
+          ]
+        },
+        "collateral_value": null,
+        "secured_by": "OpenAI master services agreement of 2025-03-07 and Reserved Compute Instance Order Form #1 (Phoenix 1), and the GPU infrastructure; SOFR plus 4.00%; matures August 2030",
+        "covenant_ltv": null,
+        "covenant": "Minimum liquidity cut to $100 million (from up to $175 million); first debt service coverage test postponed; unlimited equity cures before 2026-10-28; contract realization ratio",
+        "evidence": [
+          "ev_20136",
+          "ev_20048",
+          "ev_20141",
+          "ev_20207",
+          "ev_20208",
+          "ev_20205",
+          "ev_20202",
+          "ev_20203",
+          "ev_20204",
+          "ev_20209",
+          "ev_20211"
+        ]
+      }
+    ],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "Phoenix 1 is the order form name; the site location is not disclosed. Covenant relief in December 2025 followed data center delivery delays. No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+    "evidence": [
+      "ev_20136",
+      "ev_20048",
+      "ev_20207",
+      "ev_20208",
+      "ev_20205",
+      "ev_20201"
+    ]
+  },
+  {
+    "id": "proj_coreweave_ddtl4",
+    "entity": "ent_coreweave",
+    "name": "DDTL 4.0, single AI enterprise contract (non-recourse)",
+    "location": "Four data center sites, names redacted",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": "A leading AI enterprise (not named)",
+    "contract_years": null,
+    "financing": [
+      {
+        "facility": "DDTL 4.0 (up to $8.5 billion, $7.5 billion initially, March 2026)",
+        "lenders": [
+          "ent_mufg",
+          "ent_morgan_stanley"
+        ],
+        "balance": {
+          "value": 4583000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20064"
+          ]
+        },
+        "collateral_value": {
+          "value": 5200000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20080"
+          ]
+        },
+        "secured_by": "Equity of CCAC VIII and substantially all its assets, including one customer contract; parent liable only for bad acts; SOFR plus 2.25% and about 5.9% fixed; matures 2032-03-31; rated A3 and A (low)",
+        "covenant_ltv": null,
+        "covenant": "Debt service coverage of at least 1.15x",
+        "evidence": [
+          "ev_20075",
+          "ev_20170",
+          "ev_20064",
+          "ev_20079",
+          "ev_20080",
+          "ev_20167",
+          "ev_20076",
+          "ev_20171",
+          "ev_20165",
+          "ev_20166",
+          "ev_20168",
+          "ev_20169"
+        ]
+      }
+    ],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "Analysis: balance over collateral is about 0.88 at 2026-09-30. No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+    "evidence": [
+      "ev_20075",
+      "ev_20064",
+      "ev_20172",
+      "ev_70011",
+      "ev_20169"
+    ]
+  },
+  {
+    "id": "proj_coreweave_ddtl5",
+    "entity": "ent_coreweave",
+    "name": "DDTL 5.0, two non-investment grade customers",
+    "location": "Four data center sites, names redacted",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": "Two large non-investment grade customers (not named)",
+    "contract_years": null,
+    "financing": [
+      {
+        "facility": "DDTL 5.0 ($3.1 billion, May 2026)",
+        "lenders": [
+          "ent_morgan_stanley",
+          "ent_mufg"
+        ],
+        "balance": {
+          "value": 2749000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20049"
+          ]
+        },
+        "collateral_value": null,
+        "secured_by": "SPV GPU servers and contracts with two large non-investment grade customers; SOFR plus 4.50%; matures 2031-11-15; rated Ba2 and BB+",
+        "covenant_ltv": null,
+        "covenant": "Debt service coverage of at least 1.35x",
+        "evidence": [
+          "ev_20081",
+          "ev_20082",
+          "ev_20049",
+          "ev_20175",
+          "ev_20174",
+          "ev_20176",
+          "ev_20177",
+          "ev_20178",
+          "ev_20085"
+        ]
+      }
+    ],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "MUFG named as lender in the researcher's facts file; the agent is Morgan Stanley Senior Funding. No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+    "evidence": [
+      "ev_20081",
+      "ev_20049",
+      "ev_20178"
+    ]
+  },
+  {
+    "id": "proj_coreweave_ddtl55",
+    "entity": "ent_coreweave",
+    "name": "DDTL 5.5, five customer MSAs",
+    "location": "Data center sites, names redacted",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": "Five customers (names redacted)",
+    "contract_years": 3,
+    "financing": [
+      {
+        "facility": "DDTL 5.5 ($2.6 billion, August 2026)",
+        "lenders": [
+          "ent_jpmorgan",
+          "ent_mufg",
+          "ent_citigroup",
+          "ent_credit_agricole",
+          "ent_deutsche_bank",
+          "ent_goldman_sachs",
+          "ent_morgan_stanley",
+          "ent_pnc",
+          "ent_societe_generale",
+          "ent_smbc",
+          "ent_td",
+          "ent_us_bank",
+          "ent_wells_fargo"
+        ],
+        "balance": {
+          "value": 1555000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20050"
+          ]
+        },
+        "collateral_value": null,
+        "secured_by": "SPV GPU servers and five customer MSAs (names redacted); SOFR plus 5.50%; matures 2031-09-01; rated Ba2 and BB+; mandatory prepayment on events affecting the customer contracts",
+        "covenant_ltv": null,
+        "covenant": "Debt service coverage of at least 1.35x; cross-default above $35 million; Qualified Customer test met by borrower certification",
+        "evidence": [
+          "ev_20083",
+          "ev_20084",
+          "ev_20154",
+          "ev_20161",
+          "ev_70020",
+          "ev_70021",
+          "ev_70022",
+          "ev_20050",
+          "ev_20149",
+          "ev_20150",
+          "ev_20155",
+          "ev_20162",
+          "ev_20160",
+          "ev_20158",
+          "ev_20094"
+        ]
+      }
+    ],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "Underlying customer contracts average about three years (ev_20156) against a roughly five year loan; replacement contracts need only six months of tenor (ev_20159). No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+    "evidence": [
+      "ev_20083",
+      "ev_20050",
+      "ev_20163",
+      "ev_70010",
+      "ev_20156"
+    ]
+  },
+  {
+    "id": "proj_coreweave_kenilworth_nj",
+    "entity": "ent_coreweave",
+    "name": "Kenilworth, New Jersey joint venture campus",
+    "location": "Kenilworth, New Jersey",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [],
+    "expected_completion": null,
+    "nvidia_link": [
+      "rel_coreweave_gu_2026"
+    ],
+    "role": "context",
+    "notes": "Multi-phase campus developed through a joint venture; the third-party developer obtained an 85% equity interest and CoreWeave holds 15%. No financing, power figures or tenant disclosed. The January 2026 framework (land, power and shell) is linked here only as the type of site it targets; no document ties them.",
+    "evidence": [
+      "ev_20197",
+      "ev_20212"
+    ]
+  },
+  {
+    "id": "proj_coreweave_core_scientific_hosting",
+    "entity": "ent_coreweave",
+    "name": "Core Scientific hosted capacity",
+    "location": "Not disclosed",
+    "power_mw_contracted": {
+      "value": 500,
+      "as_of": "2024-10-31",
+      "evidence": [
+        "ev_20188"
+      ],
+      "note": "About 500 MW provided by Core Scientific as of October 2024.",
+      "last_verified": "2026-11-23"
+    },
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "Landlord relationship. The planned merger was terminated on 2025-10-30 after Core Scientific holders voted against it. No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+    "evidence": [
+      "ev_20188",
+      "ev_20187"
+    ]
+  },
+  {
+    "id": "proj_coreweave_undelivered_leases",
+    "entity": "ent_coreweave",
+    "name": "Leased sites with undelivered power",
+    "location": "Not disclosed",
+    "power_mw_contracted": {
+      "value": 807,
+      "as_of": "2026-09-30",
+      "evidence": [
+        "ev_20191",
+        "ev_20192"
+      ],
+      "note": "Undelivered power: 453 MW at one leased site (phases in 2026 and 2028) plus 354 MW at other sites; sum is analysis.",
+      "last_verified": "2026-11-23"
+    },
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "Leases not yet commenced carry $47.4bn of undiscounted payments (ev_20196). No filing ties the Nvidia residual capacity order, the MSA rentals or the framework to this facility; marked context.",
+    "evidence": [
+      "ev_20191",
+      "ev_20192",
+      "ev_20196"
+    ]
+  },
+  {
+    "id": "proj_nscale_ward_county",
+    "entity": "ent_nscale",
+    "name": "Ward County, Texas leased facility",
+    "location": "Ward County, Texas, US",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [
+      {
+        "facility": "Ward County GPU Facility (delayed draw term loan, August 2026; $630 million fixed plus $1.22 billion floating; SOFR plus 2.375%; matures February 2033)",
+        "lenders": [
+          "ent_jpmorgan",
+          "ent_goldman_sachs",
+          "U.S. Bank Trust Company (agent)"
+        ],
+        "balance": null,
+        "collateral_value": null,
+        "secured_by": "Borrower SPV assets; facility rated investment grade, agency not named",
+        "covenant_ltv": null,
+        "evidence": [
+          "ev_40035",
+          "ev_40036",
+          "ev_40050"
+        ]
+      }
+    ],
+    "expected_completion": null,
+    "nvidia_link": [
+      "rel_nscale_gu_2025"
+    ],
+    "role": "covered",
+    "notes": "Nvidia guarantees the lease for the first five years, up to $860.3m. MW, rent and landlord are not disclosed. Drawn balance of the GPU facility not disclosed ($1.85bn commitments).",
+    "evidence": [
+      "ev_40003",
+      "ev_40046",
+      "ev_40035",
+      "ev_40036",
+      "ev_40050"
+    ]
+  },
+  {
+    "id": "proj_nscale_north_carolina",
+    "entity": "ent_nscale",
+    "name": "North Carolina GPU deployment",
+    "location": "North Carolina, US",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [
+      {
+        "facility": "North Carolina GPU Facility (delayed draw term loan, August 2026; $370 million fixed plus $830 million floating; SOFR plus 2.375%; matures December 2031)",
+        "lenders": [
+          "ent_goldman_sachs",
+          "ent_jpmorgan",
+          "U.S. Bank Trust Company (agent)"
+        ],
+        "balance": null,
+        "collateral_value": null,
+        "secured_by": "Borrower SPV assets",
+        "covenant_ltv": null,
+        "evidence": [
+          "ev_40034"
+        ]
+      }
+    ],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "No Nvidia relationship tied to this site in the documents read. Drawn balance not disclosed.",
+    "evidence": [
+      "ev_40034"
+    ]
+  },
+  {
+    "id": "proj_nscale_monarch",
+    "entity": "ent_nscale",
+    "name": "Monarch Compute Campus",
+    "location": "Mason County, West Virginia, US",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": "Vera Rubin NVL72",
+    "gpu_count": null,
+    "anchor_tenant": "Anthropic (GPU Services Agreements of 2026-08-25, up to about $44.6 billion)",
+    "contract_years": null,
+    "financing": [],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "No binding financing obtained yet (ev_40030). Expected capex for Building 1: about $10bn to $10.5bn for data center and power (ev_40031) and $21bn to $22bn for GPUs and compute (ev_40032).",
+    "evidence": [
+      "ev_80035",
+      "ev_40029",
+      "ev_40030",
+      "ev_40031",
+      "ev_40032"
+    ]
+  },
+  {
+    "id": "proj_nscale_iceland",
+    "entity": "ent_nscale",
+    "name": "Iceland GPU deployment",
+    "location": "Iceland",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [
+      {
+        "facility": "Macquarie Iceland Facility (delayed draw term loan, July 2026; $331.9 million; SOFR plus 5.50% plus a MOIC feature; 46 months)",
+        "lenders": [
+          "ent_macquarie"
+        ],
+        "balance": null,
+        "collateral_value": null,
+        "secured_by": "GPU assets",
+        "covenant_ltv": null,
+        "evidence": [
+          "ev_40037"
+        ]
+      }
+    ],
+    "expected_completion": null,
+    "nvidia_link": [
+      "rel_nscale_lb_2025"
+    ],
+    "role": "context",
+    "notes": "The NVIDIA MSA covers capacity across Iceland, the UK and Norway (ev_40002); which Iceland site serves it is not disclosed, so marked context.",
+    "evidence": [
+      "ev_40037",
+      "ev_40002"
+    ]
+  },
+  {
+    "id": "proj_nscale_kvandal_south",
+    "entity": "ent_nscale",
+    "name": "Kvandal South data center",
+    "location": "Norway",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [
+      {
+        "facility": "Kvandal South DC term loan ($725 million, SOFR plus 3.00% to 3.75%) and VAT facility ($65 million), July 2026",
+        "lenders": [
+          "DNB (agent)",
+          "ABN AMRO",
+          "Nordea",
+          "Export Finance Norway",
+          "SEB"
+        ],
+        "balance": null,
+        "collateral_value": null,
+        "secured_by": "Project assets",
+        "covenant_ltv": null,
+        "evidence": [
+          "ev_40038",
+          "ev_40039"
+        ]
+      }
+    ],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "No Nvidia relationship tied to this site; the NVIDIA MSA covers Norway capacity without naming sites.",
+    "evidence": [
+      "ev_40038",
+      "ev_40039"
+    ]
+  },
+  {
+    "id": "proj_nscale_glomfjord",
+    "entity": "ent_nscale",
+    "name": "Glomfjord data center",
+    "location": "Glomfjord, Norway",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [
+      {
+        "facility": "Macquarie Senior Facility (June 2025; term loan and letter of credit facility)",
+        "lenders": [
+          "ent_macquarie"
+        ],
+        "balance": {
+          "value": 105000000,
+          "as_of": "2026-01-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_40042"
+          ],
+          "note": "Fully drawn: $70.1m on 2025-08-01 and $34.9m on 2026-01-30 (ev_80036). Repayments since are not disclosed."
+        },
+        "collateral_value": null,
+        "secured_by": "GPU equipment financed at Glomfjord",
+        "covenant_ltv": null,
+        "evidence": [
+          "ev_40042",
+          "ev_80036"
+        ]
+      }
+    ],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "No Nvidia relationship tied to this site in the documents read.",
+    "evidence": [
+      "ev_40042",
+      "ev_80036"
+    ]
+  },
+  {
+    "id": "proj_nebius_vineland",
+    "entity": "ent_nebius",
+    "name": "Vineland, New Jersey data center",
+    "location": "Vineland, New Jersey, US",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": "Microsoft (five-year agreement, up to about $17.4 billion)",
+    "contract_years": 5,
+    "financing": [],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "No site-level debt disclosed; the Term Loan Facility and the Citi Facility are corporate. No Nvidia relationship tied to this site.",
+    "evidence": [
+      "ev_40084"
+    ]
+  },
+  {
+    "id": "proj_iren_childress",
+    "entity": "ent_iren",
+    "name": "Childress campus (Horizon 1 to 4)",
+    "location": "Childress, Texas, US",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": "GB300 NVL72 (Horizon 1)",
+    "gpu_count": null,
+    "anchor_tenant": "Microsoft (Horizon 1 to 4, about $9.7 billion)",
+    "contract_years": 5,
+    "financing": [
+      {
+        "facility": "GPU Financing 1.0 (May 2026; DDTL $1.5 billion at SOFR plus 2.25% and $2.1 billion US private placement notes; non-recourse; matures 2031-12-31)",
+        "lenders": [
+          "Lenders and noteholders not named; CSC Delaware Trust (collateral agent)"
+        ],
+        "balance": {
+          "value": 1980000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-23",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_80039"
+          ],
+          "note": "Non-recourse principal at 2026-09-30: DDTL $409m plus USPP notes $1,571m."
+        },
+        "collateral_value": null,
+        "secured_by": "GPUs and related assets for the Microsoft contract",
+        "covenant_ltv": null,
+        "evidence": [
+          "ev_40131",
+          "ev_80039",
+          "ev_40129",
+          "ev_40130"
+        ]
+      }
+    ],
+    "expected_completion": null,
+    "nvidia_link": [
+      "rel_iren_lb_2026"
+    ],
+    "role": "context",
+    "notes": "Dell GPUs of about $1.6bn bought in May 2026 will be deployed at Childress to service a $3.4bn managed services AI cloud contract (ev_40121); that the contract is Nvidia's is analysis from the matching value, so marked context.",
+    "evidence": [
+      "ev_40118",
+      "ev_40121",
+      "ev_80038",
+      "ev_40131"
+    ]
+  },
+  {
+    "id": "proj_iren_sweetwater",
+    "entity": "ent_iren",
+    "name": "Sweetwater campus",
+    "location": "Sweetwater, Texas, US",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [],
+    "expected_completion": null,
+    "nvidia_link": [
+      "rel_iren_eq_2026"
+    ],
+    "role": "context",
+    "notes": "Nvidia's release says future DSX deployments are expected to focus on IREN's 2-gigawatt Sweetwater campus; no contract or financing disclosed.",
+    "evidence": [
+      "ev_80027",
+      "ev_30051"
+    ]
+  },
+  {
+    "id": "proj_sharonai_australia_72mw",
+    "entity": "ent_sharonai",
+    "name": "Nvidia collaboration capacity, 72 MW (Australia)",
+    "location": "Australia",
+    "power_mw_contracted": {
+      "value": 72,
+      "as_of": "2026-09-30",
+      "evidence": [
+        "ev_80033"
+      ],
+      "last_verified": "2026-11-23",
+      "note": "NEXTDC service order for 72 MW; the Nvidia release names 72 MW for the collaboration (ev_80017). Site match is analysis."
+    },
+    "power_mw_energized": null,
+    "gpu_generation": "Grace Blackwell GB300",
+    "gpu_count": 40000,
+    "anchor_tenant": "Nvidia (reserved capacity resold to third parties)",
+    "contract_years": 6,
+    "financing": [],
+    "expected_completion": "NEXTDC capacity deployed in five phases from 2027",
+    "nvidia_link": [
+      "rel_sharonai_bk_2026"
+    ],
+    "role": "covered",
+    "notes": "Up to 40,000 GB300 GPUs (ev_80017). No financing for this site disclosed; SharonAI committed about $4bn of hardware and infrastructure for the Nvidia agreement (ev_40155).",
+    "evidence": [
+      "ev_80017",
+      "ev_80033",
+      "ev_80034",
+      "ev_40155"
+    ]
+  },
+  {
+    "id": "proj_sharonai_new_zealand",
+    "entity": "ent_sharonai",
+    "name": "New Zealand deployment",
+    "location": "New Zealand",
+    "power_mw_contracted": null,
+    "power_mw_energized": null,
+    "gpu_generation": null,
+    "gpu_count": null,
+    "anchor_tenant": "Unnamed customer (five-year arrangement, about $1.32 billion)",
+    "contract_years": 5,
+    "financing": [],
+    "expected_completion": "Phases during 2027",
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "Capex commitments estimated at $746m for this contract; 14 MW of New Zealand capacity secured (10-Q Note 20).",
+    "evidence": [
+      "ev_40151"
+    ]
+  },
+  {
+    "id": "proj_firmus_batam",
+    "entity": "ent_firmus",
+    "name": "Firmus Batam NVIDIA DSX AI factory campus",
+    "location": "Batam, Indonesia",
+    "power_mw_contracted": {
+      "value": 360,
+      "as_of": "2026-06-28",
+      "evidence": [
+        "ev_110039",
+        "ev_110045"
+      ],
+      "note": "Planned dedicated campus capacity"
+    },
+    "power_mw_energized": {
+      "value": null,
+      "as_of": null,
+      "evidence": []
+    },
+    "gpu_generation": "Grace Blackwell, Vera Rubin and Vera platforms (2027 and 2028)",
+    "gpu_count": 170000,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [],
+    "expected_completion": null,
+    "nvidia_link": [
+      "rel_firmus_bk_2026"
+    ],
+    "role": "covered",
+    "notes": "Partnership runs through 2034 (no day or month given, so dates.maturity is left null); GPU count is an up to figure. Developed with DayOne. Customer names not disclosed; Firmus expects US$25 to 30 billion of committed offtake over six years.",
+    "evidence": [
+      "ev_110039",
+      "ev_110040",
+      "ev_110042",
+      "ev_110041",
+      "ev_110045"
+    ]
+  },
+  {
+    "id": "proj_firmus_southgate",
+    "entity": "ent_firmus",
+    "name": "Project Southgate",
+    "location": "Tasmania and other Australian sites",
+    "power_mw_contracted": {
+      "value": null,
+      "as_of": null,
+      "evidence": []
+    },
+    "power_mw_energized": {
+      "value": null,
+      "as_of": null,
+      "evidence": []
+    },
+    "gpu_generation": "NVIDIA GPUs on the DSX reference design",
+    "gpu_count": 36000,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [
+      {
+        "facility": "US$10 billion debt financing facility led by Blackstone funds, supported by Coatue",
+        "lenders": [
+          "ent_blackstone",
+          "ent_coatue"
+        ],
+        "balance": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "collateral_value": null,
+        "secured_by": "Not disclosed",
+        "covenant_ltv": null,
+        "evidence": [
+          "ev_110035",
+          "ev_110050"
+        ]
+      }
+    ],
+    "expected_completion": "Scale up to 1.6 GW through 2028 (company target)",
+    "nvidia_link": [
+      "rel_firmus_eq_2025",
+      "rel_firmus_eq_2026a",
+      "rel_firmus_eq_2026b"
+    ],
+    "role": "context",
+    "notes": "GPU count 36,000 is the Tasmania campus over two stages. Facility size is US$10 billion; drawn balance unknown so balance is left null.",
+    "evidence": [
+      "ev_110028",
+      "ev_110035",
+      "ev_110036"
+    ]
+  },
+  {
+    "id": "proj_firmus_malaysia",
+    "entity": "ent_firmus",
+    "name": "Firmus Malaysia AI factory sites (two)",
+    "location": "Malaysia",
+    "power_mw_contracted": {
+      "value": null,
+      "as_of": null,
+      "evidence": []
+    },
+    "power_mw_energized": {
+      "value": null,
+      "as_of": null,
+      "evidence": []
+    },
+    "gpu_generation": "NVIDIA Vera Rubin NVL72",
+    "gpu_count": null,
+    "anchor_tenant": "ent_openai",
+    "contract_years": null,
+    "financing": [],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "OpenAI contract is multi-year (length not stated). Firmus total contracted capacity more than 900 MW across customers.",
+    "evidence": [
+      "ev_110046",
+      "ev_110047"
+    ]
+  },
+  {
+    "id": "proj_crusoe_abilene",
+    "entity": "ent_crusoe",
+    "name": "Abilene AI data center campus",
+    "location": "Abilene, Texas, US",
+    "power_mw_contracted": {
+      "value": 1200,
+      "as_of": "2025-05-21",
+      "evidence": [
+        "ev_110061"
+      ],
+      "note": "1.2 GW campus, eight buildings"
+    },
+    "power_mw_energized": {
+      "value": null,
+      "as_of": null,
+      "evidence": []
+    },
+    "gpu_generation": "NVIDIA GB200 NVL72",
+    "gpu_count": null,
+    "anchor_tenant": null,
+    "contract_years": null,
+    "financing": [
+      {
+        "facility": "Joint venture with Blue Owl Real Assets funds and Primary Digital Infrastructure (second phase of a $15 billion joint venture)",
+        "lenders": [
+          "ent_blue_owl"
+        ],
+        "balance": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "collateral_value": null,
+        "secured_by": "Not disclosed",
+        "covenant_ltv": null,
+        "evidence": [
+          "ev_110061"
+        ]
+      }
+    ],
+    "expected_completion": "Second phase energization expected mid 2026 (as of May 2025)",
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "Each building designed for up to 50,000 NVIDIA GB200 NVL72s. Tenant not named in the Crusoe release. No Nvidia credit support found for this site.",
+    "evidence": [
+      "ev_110061",
+      "ev_110027"
+    ]
+  },
+  {
+    "id": "proj_lambda_anthropic_aug2026",
+    "entity": "ent_lambda",
+    "name": "Facility for the August 2026 Lambda and Anthropic agreement",
+    "location": "Not disclosed",
+    "power_mw_contracted": {
+      "value": null,
+      "as_of": null,
+      "evidence": []
+    },
+    "power_mw_energized": {
+      "value": null,
+      "as_of": null,
+      "evidence": []
+    },
+    "gpu_generation": "NVIDIA GPUs (generation not stated)",
+    "gpu_count": null,
+    "anchor_tenant": "ent_anthropic",
+    "contract_years": null,
+    "financing": [],
+    "expected_completion": null,
+    "nvidia_link": [],
+    "role": "context",
+    "notes": "Terms extend into 2034. Lambda did not secure the facility lease by the contractual date, so the agreement (about $34.9 billion of Anthropic's commitment) is terminable by either party; neither had given notice as of 2026-11-19.",
+    "evidence": [
+      "ev_110012",
+      "ev_110013"
+    ]
+  },
+  {
+    "id": "proj_sb_energy_ports_pike_b1_9",
+    "entity": "ent_sb_energy",
+    "name": "PORTS-Pike Technology Campus, Buildings 1 to 9 (Nvidia guaranteed)",
+    "location": "Piketon, Pike County, Ohio, US (former DOE Portsmouth Gaseous Diffusion Plant site)",
+    "power_mw_contracted": {
+      "value": 4250,
+      "as_of": "2026-11-19",
+      "evidence": [
+        "ev_40089",
+        "ev_30003"
+      ]
+    },
+    "power_mw_energized": {
+      "value": null,
+      "as_of": null,
+      "evidence": []
+    },
+    "gpu_generation": "Nvidia DSX AI factory platform; generation not specified (each generation about 1.5 million GPUs per Nvidia, ev_30028)",
+    "gpu_count": null,
+    "anchor_tenant": "VELA I Holdings, LLC (OpenAI affiliate); OpenAI Global, LLC guarantees the tenant",
+    "contract_years": 20,
+    "financing": [],
+    "expected_completion": "First building ready for service expected 2028 (Nvidia fiscal 2029); leases commence in stages 2028 to 2032",
+    "nvidia_link": [
+      "rel_openai_gu_2026",
+      "rel_sb_energy_eq_2026"
+    ],
+    "role": "covered",
+    "notes": "Nine leases (PORTS Building 1 to 9, LLC as landlords) each about 472 MW-IT (ev_100016), covered by nine residual value guaranties capped at $105 billion in total, about $24.7 billion per GW-IT (ev_100051, ev_100013). No project debt in place: construction pending local approval and financing (ev_100020); SB Energy targets up to 90% debt of $8 to $9 billion capex per building (ev_100019, ev_100018). Interconnection credit support could exceed $6 billion (ev_100022). AEP Ohio grid capex about $5.1 billion (ev_100021). Leases not commenced at 30 Sept 2026 (ev_100015).",
+    "evidence": [
+      "ev_40089",
+      "ev_30003",
+      "ev_100016",
+      "ev_100051",
+      "ev_100013",
+      "ev_100020",
+      "ev_100019",
+      "ev_100018",
+      "ev_100022",
+      "ev_100021",
+      "ev_100015",
+      "ev_40099",
+      "ev_100008",
+      "ev_100009",
+      "ev_30005"
+    ]
+  },
+  {
+    "id": "proj_sb_energy_ports_pike_b10_17",
+    "entity": "ent_sb_energy",
+    "name": "PORTS-Pike Technology Campus, Buildings 10 to 17 (Nvidia option)",
+    "location": "Piketon, Pike County, Ohio, US",
+    "power_mw_contracted": {
+      "value": 3780,
+      "as_of": "2026-11-19",
+      "evidence": [
+        "ev_40092",
+        "ev_100025"
+      ]
+    },
+    "power_mw_energized": {
+      "value": null,
+      "as_of": null,
+      "evidence": []
+    },
+    "gpu_generation": "Nvidia reference architecture required only where guaranteed; not specified",
+    "gpu_count": null,
+    "anchor_tenant": "VELA I Holdings, LLC (OpenAI affiliate)",
+    "contract_years": 20,
+    "financing": [],
+    "expected_completion": "Later phases to 2032",
+    "nvidia_link": [
+      "rel_openai_gu_2026"
+    ],
+    "role": "context",
+    "notes": "Eight leases with floating yield rent. Nvidia may, at its sole discretion, guarantee these buildings; if it does not by a date certain OpenAI must provide an A- rated replacement guarantor (ev_100025), and certain leases give SB Energy termination rights if credit support is not provided. Campus total 17 buildings, about 8.0 GW-IT (ev_100029), about 10 GW gross load (ev_100017).",
+    "evidence": [
+      "ev_40092",
+      "ev_100025",
+      "ev_100029",
+      "ev_100017"
+    ]
+  }
+]

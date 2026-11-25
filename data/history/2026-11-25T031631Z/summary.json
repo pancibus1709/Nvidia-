@@ -1,0 +1,1006 @@
+{
+  "data_as_of": "2026-11-25",
+  "last_change": "2026-11-25T00:00:00Z",
+  "totals": {
+    "funded": 30196314380.28435,
+    "funded_cash": 32264399346.78,
+    "committed_unfunded": 1000000000.0,
+    "committed_split_unknown": 36700000000.0,
+    "contingent_max": 107360340000.0,
+    "contingent_in_force": 2360340000.0,
+    "contingent_not_in_force": 105000000000.0,
+    "headline": 307092739346.78,
+    "gross": 175256654380.28436,
+    "count": 81,
+    "lower_bound_count": 51,
+    "counts": {
+      "funded": 14,
+      "funded_cash": 16,
+      "committed_unfunded": 1,
+      "committed_split_unknown": 5,
+      "contingent_max": 3,
+      "contingent_in_force": 2,
+      "contingent_not_in_force": 1,
+      "headline": 30
+    },
+    "headline_groups": {
+      "guaranty_backstop": 117040340000.0,
+      "not_binding": 103500000000.0,
+      "other": 86552399346.78
+    },
+    "headline_not_converted": [
+      {
+        "relationship": "rel_uk_ai_startup_program_eqc_2025",
+        "currency": "GBP",
+        "value": 2000000000
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "text": "This register finds 81 financial relationships in which Nvidia has put money, credit or demand behind companies in the AI buildout, and every number on this page links to its source.",
+      "figures": [
+        {
+          "value": 81,
+          "eligible_only": true,
+          "text": "81",
+          "measure": "count"
+        }
+      ]
+    },
+    {
+      "text": "Of the amounts that can be confirmed, $30.2 billion is invested and still held, $37.7 billion is committed, and $107.4 billion is contingent on events such as a tenant's default.",
+      "figures": [
+        {
+          "value": 30196314380.28435,
+          "eligible_only": true,
+          "text": "$30.2 billion",
+          "measure": "funded"
+        },
+        {
+          "value": 37700000000.0,
+          "eligible_only": true,
+          "text": "$37.7 billion",
+          "measure": "committed"
+        },
+        {
+          "value": 107360340000.0,
+          "eligible_only": true,
+          "text": "$107.4 billion",
+          "measure": "contingent"
+        }
+      ]
+    },
+    {
+      "text": "$105 billion of the contingent amount is a guaranty of OpenAI's rent that is signed but not yet in force.",
+      "figures": [
+        {
+          "value": 105000000000.0,
+          "eligible_only": true,
+          "text": "$105 billion",
+          "measure": "contingent",
+          "rels": [
+            "rel_openai_gu_2026"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Announcements add up to $307.1 billion, which is never counted as exposure; $103.5 billion of it is letters of intent or deals with no disclosed agreement.",
+      "figures": [
+        {
+          "value": 307092739346.78,
+          "eligible_only": true,
+          "text": "$307.1 billion",
+          "measure": "headline"
+        },
+        {
+          "value": 103500000000.0,
+          "eligible_only": true,
+          "text": "$103.5 billion",
+          "measure": "headline",
+          "rels": [
+            "rel_openai_eqc_2025",
+            "rel_wayve_eqc_2025",
+            "rel_meta_eq_2026"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Nvidia's own accounts show more than any outsider can name: it paid $58.1 billion for equity in the nine months to 25 October 2026, and this register can tie $10.5 billion of that to named deals.",
+      "figures": [
+        {
+          "value": 58100000000.0,
+          "eligible_only": true,
+          "text": "$58.1 billion",
+          "evidence": [
+            "ev_190001"
+          ]
+        },
+        {
+          "value": 10482399382.46,
+          "eligible_only": true,
+          "text": "$10.5 billion",
+          "measure": "funded",
+          "rels": [
+            "rel_nscale_eq_2025",
+            "rel_nebius_eq_2026",
+            "rel_marvell_eq_2026",
+            "rel_lumentum_eq_2026",
+            "rel_coherent_eq_2026",
+            "rel_corning_eq_2026",
+            "rel_sb_energy_eq_2026",
+            "rel_iambic_eq_2023"
+          ],
+          "evidence": [
+            "ev_40009",
+            "ev_40055",
+            "ev_40057",
+            "ev_60052",
+            "ev_60059",
+            "ev_60066",
+            "ev_60072",
+            "ev_60077",
+            "ev_60081",
+            "ev_60088",
+            "ev_60097",
+            "ev_40087",
+            "ev_170002"
+          ]
+        }
+      ]
+    }
+  ],
+  "included_ids": [
+    "rel_openai_eqc_2025",
+    "rel_openai_eq_2026",
+    "rel_openai_gu_2026",
+    "rel_anthropic_eqc_2025",
+    "rel_anthropic_eq_2026",
+    "rel_spacex_eq_2026",
+    "rel_mistral_eq_2025",
+    "rel_ssi_eq_2026",
+    "rel_thinking_machines_eq_2026",
+    "rel_reflection_eq_2025",
+    "rel_cohere_eq_2025",
+    "rel_sakana_eq_2024",
+    "rel_point2_eq_2026",
+    "rel_motif_eqc_2026",
+    "rel_rlwrld_eqc_2026",
+    "rel_upstage_eqc_2026",
+    "rel_naver_eq_2026",
+    "rel_uk_ai_startup_program_eqc_2025",
+    "rel_figure_eq_2025",
+    "rel_wayve_eq_2024",
+    "rel_wayve_eqc_2025",
+    "rel_skild_ai_eq_2026",
+    "rel_black_forest_labs_eq_2025",
+    "rel_scale_ai_eq_2024",
+    "rel_anysphere_eq_2025",
+    "rel_databricks_eq_2023",
+    "rel_commonwealth_fusion_eq_2025",
+    "rel_psiquantum_eq_2025",
+    "rel_quantinuum_eq_2025",
+    "rel_terrapower_eq_2025",
+    "rel_recursion_eq_2023",
+    "rel_soundhound_eq_2023",
+    "rel_tusimple_eq_2023",
+    "rel_nano_x_eq_2023",
+    "rel_serve_robotics_eq_2022",
+    "rel_weride_eq_2017",
+    "rel_generate_biomedicines_eq_2026",
+    "rel_coreweave_eq_2025",
+    "rel_coreweave_bk_2025",
+    "rel_coreweave_lb_2023",
+    "rel_nscale_gu_2025",
+    "rel_nscale_lb_2025",
+    "rel_nscale_eq_2025",
+    "rel_nscale_fc_2026",
+    "rel_nebius_eq_2024",
+    "rel_nebius_eq_2026",
+    "rel_iren_lb_2026",
+    "rel_iren_eq_2026",
+    "rel_sharonai_bk_2026",
+    "rel_applied_digital_eq_2024",
+    "rel_lambda_eq_2025",
+    "rel_crusoe_eq_2024",
+    "rel_crusoe_eq_2025",
+    "rel_crusoe_eq_2026",
+    "rel_firmus_eq_2025",
+    "rel_firmus_eq_2026a",
+    "rel_firmus_eq_2026b",
+    "rel_firmus_bk_2026",
+    "rel_together_ai_eq_2023",
+    "rel_together_ai_eq_2025",
+    "rel_together_ai_eq_2026",
+    "rel_intel_eq_2025",
+    "rel_nokia_eq_2025",
+    "rel_synopsys_eq_2025",
+    "rel_marvell_eq_2026",
+    "rel_lumentum_eq_2026",
+    "rel_coherent_eq_2026",
+    "rel_arm_eq_2023",
+    "rel_corning_eq_2026",
+    "rel_amkor_pp_2026",
+    "rel_kyec_pp_2026",
+    "rel_ibiden_pp_2026",
+    "rel_unimicron_pp_2026",
+    "rel_spil_pp_2026",
+    "rel_amd_eq_2026",
+    "rel_sb_energy_eq_2026",
+    "rel_ai_financing_platforms_rv_2026",
+    "rel_helix_lp_2026",
+    "rel_brookfield_baiif_lp_2025",
+    "rel_meta_eq_2026",
+    "rel_iambic_eq_2023"
+  ],
+  "bridge": [
+    {
+      "line": "Private stakes, carrying value",
+      "nvidia": 61650000000.0,
+      "named": 2677399346.7799997,
+      "aggregate": "non_marketable_equity_securities",
+      "note": "Named column is the cost of the few private stakes whose cost a source states.",
+      "evidence": [
+        "ev_130010"
+      ],
+      "named_evidence": [
+        "ev_80030",
+        "ev_40008",
+        "ev_40009",
+        "ev_40087"
+      ],
+      "named_rels": []
+    },
+    {
+      "line": "Warrants and convertible preferred (Level 2)",
+      "nvidia": 10516000000,
+      "named": 6500000000,
+      "aggregate": "publicly_held_equity_securities",
+      "named_text": null,
+      "note": "Marvell and Lumentum convertible preferred ($2 billion each), the Nebius pre-funded warrant ($2 billion) and the Corning warrants ($500 million), at cost, not fair value. IREN's investment rights carry no value. Named column is cost, not fair value.",
+      "evidence": [
+        "ev_130012"
+      ],
+      "named_evidence": [
+        "ev_60052",
+        "ev_60066",
+        "ev_40057",
+        "ev_60088"
+      ],
+      "named_rels": []
+    },
+    {
+      "line": "Listed shares (Level 1)",
+      "nvidia": 38372000000,
+      "named": null,
+      "aggregate": "publicly_held_equity_securities",
+      "named_text": "not comparable",
+      "note": "Not comparable. Nvidia's holdings report of 30 September 2026 shows $48.3 billion of named common stock, $10 billion more than Level 1 at 25 October 2026; the dates differ and Nvidia does not say in which level the SpaceX shares sit.",
+      "evidence": [
+        "ev_130011"
+      ],
+      "named_evidence": [],
+      "named_rels": []
+    },
+    {
+      "line": "Guarantees, maximum",
+      "nvidia": 118000000000.0,
+      "named": 105860340000.0,
+      "aggregate": "guarantees_maximum_gross_exposure",
+      "note": "",
+      "evidence": [
+        "ev_50044"
+      ],
+      "named_evidence": [
+        "ev_30024",
+        "ev_40003"
+      ],
+      "named_rels": []
+    },
+    {
+      "line": "Neocloud agreements, maximum",
+      "nvidia": 32000000000.0,
+      "named": 0,
+      "aggregate": "neocloud_agreements",
+      "note": "Partners are known (SharonAI, Firmus and others) but no partner's share is disclosed.",
+      "evidence": [
+        "ev_50080"
+      ],
+      "named_evidence": [],
+      "named_rels": []
+    },
+    {
+      "line": "Cloud service agreements",
+      "nvidia": 28000000000.0,
+      "named": 0,
+      "aggregate": "cloud_service_agreements",
+      "note": "IREN and Nscale state contract values at signing of $4.6 billion; the balance still owed is not disclosed.",
+      "evidence": [
+        "ev_130013"
+      ],
+      "named_evidence": [],
+      "named_rels": []
+    },
+    {
+      "line": "Unfunded equity commitments",
+      "nvidia": 20000000000.0,
+      "named": 3500000000.0,
+      "aggregate": "equity_investment_commitments",
+      "note": "Named column counts amounts a source shows as signed and unpaid at that date.",
+      "evidence": [
+        "ev_120011"
+      ],
+      "named_evidence": [
+        "ev_40088",
+        "ev_30072",
+        "ev_40012"
+      ],
+      "named_rels": []
+    },
+    {
+      "line": "Data center leases signed, not commenced",
+      "nvidia": 74000000000.0,
+      "named": 0,
+      "aggregate": "data_center_leases_not_commenced",
+      "note": "Nvidia says it may assign some of these leases to third parties.",
+      "evidence": [
+        "ev_190004"
+      ],
+      "named_evidence": [],
+      "named_rels": []
+    },
+    {
+      "line": "Supply and capacity commitments",
+      "nvidia": 390000000000.0,
+      "named": 0,
+      "aggregate": "supply_and_capacity_commitments",
+      "note": "Upstream commitments to suppliers; none is attributed.",
+      "evidence": [
+        "ev_130023"
+      ],
+      "named_evidence": [],
+      "named_rels": []
+    },
+    {
+      "line": "Equity purchases, nine months to 25 October 2026",
+      "nvidia": 58100000000.0,
+      "named": 10482399382.46,
+      "aggregate": null,
+      "note": "Named column is equity cost in this register with a sourced payment date inside the period, 18% of Nvidia's figure; a further $312 million of funded cost in the register has no sourced payment date. The rest of Nvidia's purchases are not attributed.",
+      "evidence": [
+        "ev_190001"
+      ],
+      "named_evidence": [
+        "ev_40009",
+        "ev_40055",
+        "ev_40057",
+        "ev_60052",
+        "ev_60059",
+        "ev_60066",
+        "ev_60072",
+        "ev_60077",
+        "ev_60081",
+        "ev_60088",
+        "ev_60097",
+        "ev_40087",
+        "ev_170002"
+      ],
+      "named_rels": [
+        "rel_nscale_eq_2025",
+        "rel_nebius_eq_2026",
+        "rel_marvell_eq_2026",
+        "rel_lumentum_eq_2026",
+        "rel_coherent_eq_2026",
+        "rel_corning_eq_2026",
+        "rel_sb_energy_eq_2026",
+        "rel_iambic_eq_2023"
+      ]
+    }
+  ],
+  "positions_by_value": [
+    {
+      "relationship": "rel_spacex_eq_2026",
+      "name": "SpaceX (common)",
+      "value": 19683145466.0,
+      "as_of": "2026-09-30",
+      "cost_known": false
+    },
+    {
+      "relationship": "rel_intel_eq_2025",
+      "name": "Intel (common)",
+      "value": 19366947532.0,
+      "as_of": "2026-09-30",
+      "cost_known": true
+    },
+    {
+      "relationship": "rel_coreweave_eq_2025",
+      "name": "CoreWeave (common)",
+      "value": 4113227313.0,
+      "as_of": "2026-09-30",
+      "cost_known": true
+    },
+    {
+      "relationship": "rel_coherent_eq_2026",
+      "name": "Coherent (common)",
+      "value": 2241510617.0,
+      "as_of": "2026-09-30",
+      "cost_known": true
+    },
+    {
+      "relationship": "rel_synopsys_eq_2025",
+      "name": "Synopsys (common)",
+      "value": 1893762250.0,
+      "as_of": "2026-09-30",
+      "cost_known": true
+    },
+    {
+      "relationship": "rel_nokia_eq_2025",
+      "name": "Nokia (common)",
+      "value": 738797875.0,
+      "as_of": "2026-09-30",
+      "cost_known": true
+    },
+    {
+      "relationship": "rel_nebius_eq_2024",
+      "name": "Nebius (common)",
+      "value": 280809479.0,
+      "as_of": "2026-09-30",
+      "cost_known": false
+    },
+    {
+      "relationship": "rel_generate_biomedicines_eq_2026",
+      "name": "Generate Biomedicines (common)",
+      "value": 12516542.0,
+      "as_of": "2026-09-30",
+      "cost_known": false
+    }
+  ],
+  "positions_not_yet_valued": [
+    {
+      "relationship": "rel_anthropic_eq_2026",
+      "name": "Anthropic (common)",
+      "cost": 10000000000.0,
+      "reason": "bought after 30 September 2026"
+    },
+    {
+      "relationship": "rel_nebius_eq_2026",
+      "name": "Nebius (warrant)",
+      "cost": 2000000000.0,
+      "reason": "warrant, not in the holdings report"
+    },
+    {
+      "relationship": "rel_marvell_eq_2026",
+      "name": "Marvell (preferred)",
+      "cost": 2000000000.0,
+      "reason": "preferred, not in the holdings report"
+    },
+    {
+      "relationship": "rel_lumentum_eq_2026",
+      "name": "Lumentum (preferred)",
+      "cost": 2000000000.0,
+      "reason": "preferred, not in the holdings report"
+    },
+    {
+      "relationship": "rel_corning_eq_2026",
+      "name": "Corning (warrant)",
+      "cost": 500000000.0,
+      "reason": "warrant, not in the holdings report"
+    },
+    {
+      "relationship": "rel_iambic_eq_2023",
+      "name": "Iambic (common)",
+      "cost": 25000000.0,
+      "reason": "not in Nvidia's holdings report of 30 September 2026"
+    }
+  ],
+  "source_mix": {
+    "evidence_by_tier": {
+      "1": 1295,
+      "2": 6
+    },
+    "one_sided_relationships": 54,
+    "relationships": 81,
+    "note": "Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown."
+  },
+  "top_concentrations": [
+    {
+      "entity": "ent_openai",
+      "name": "OpenAI",
+      "count": 3,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 30000000000.0,
+      "contingent_max": 105000000000.0,
+      "contingent_not_in_force": 105000000000.0,
+      "gross": 135000000000.0,
+      "headline": 235000000000.0,
+      "lower_bound": 0,
+      "funded_known": 2,
+      "share_of_gross": 0.7702988538573114
+    },
+    {
+      "entity": "ent_anthropic",
+      "name": "Anthropic",
+      "count": 2,
+      "funded": 10000000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 10000000000.0,
+      "headline": 20000000000.0,
+      "lower_bound": 1,
+      "funded_known": 1,
+      "share_of_gross": 0.057059174359800846
+    },
+    {
+      "entity": "ent_nscale",
+      "name": "Nscale",
+      "count": 4,
+      "funded": 2177399346.7799997,
+      "committed_unfunded": 1000000000.0,
+      "committed_split_unknown": 1200000000.0,
+      "contingent_max": 860340000.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 5237739346.78,
+      "headline": 5237739346.78,
+      "lower_bound": 1,
+      "funded_known": 2,
+      "share_of_gross": 0.02988610826391094
+    },
+    {
+      "entity": "ent_intel",
+      "name": "Intel",
+      "count": 1,
+      "funded": 3750000325.9200006,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 3750000325.9200006,
+      "headline": 5000000000.0,
+      "lower_bound": 0,
+      "funded_known": 1,
+      "share_of_gross": 0.02139719224459793
+    },
+    {
+      "entity": "ent_iren",
+      "name": "IREN",
+      "count": 2,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 3400000000.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 3400000000.0,
+      "headline": 5500000000.0,
+      "lower_bound": 1,
+      "funded_known": 0,
+      "share_of_gross": 0.019400119282332286
+    }
+  ],
+  "by_type": {
+    "GU": {
+      "count": 2,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 105860340000.0,
+      "contingent_not_in_force": 105000000000.0,
+      "gross": 105860340000.0,
+      "headline": 105860340000.0,
+      "lower_bound": 1,
+      "funded_known": 1
+    },
+    "EQ": {
+      "count": 56,
+      "funded": 29196314380.28435,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 31000000000.0,
+      "contingent_max": 1500000000.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 61696314380.28435,
+      "headline": 65852399346.78,
+      "lower_bound": 39,
+      "funded_known": 15
+    },
+    "LB": {
+      "count": 3,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 4600000000.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 4600000000.0,
+      "headline": 4600000000.0,
+      "lower_bound": 1,
+      "funded_known": 0
+    },
+    "FC": {
+      "count": 1,
+      "funded": 1000000000.0,
+      "committed_unfunded": 1000000000.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 2000000000.0,
+      "headline": 2000000000.0,
+      "lower_bound": 0,
+      "funded_known": 1
+    },
+    "PP": {
+      "count": 5,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 1100000000.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 1100000000.0,
+      "headline": 4100000000.0,
+      "lower_bound": 4,
+      "funded_known": 0
+    },
+    "EQ-C": {
+      "count": 8,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 0.0,
+      "headline": 113500000000.0,
+      "lower_bound": 1,
+      "funded_known": 7
+    },
+    "BK": {
+      "count": 3,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 0.0,
+      "headline": 11180000000.0,
+      "lower_bound": 3,
+      "funded_known": 1
+    },
+    "RV": {
+      "count": 1,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 0.0,
+      "headline": 0.0,
+      "lower_bound": 0,
+      "funded_known": 1
+    },
+    "LP": {
+      "count": 2,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 0.0,
+      "headline": 0.0,
+      "lower_bound": 2,
+      "funded_known": 0
+    }
+  },
+  "by_cluster": {
+    "ai_lab": {
+      "count": 16,
+      "funded": 10000000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 30000000000.0,
+      "contingent_max": 105000000000.0,
+      "contingent_not_in_force": 105000000000.0,
+      "gross": 145000000000.0,
+      "headline": 255000000000.0,
+      "lower_bound": 10,
+      "funded_known": 5
+    },
+    "semis_supply": {
+      "count": 14,
+      "funded": 12493915033.504353,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 1100000000.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 13593915033.504353,
+      "headline": 18600000000.0,
+      "lower_bound": 6,
+      "funded_known": 7
+    },
+    "neocloud": {
+      "count": 24,
+      "funded": 6177399346.78,
+      "committed_unfunded": 1000000000.0,
+      "committed_split_unknown": 4600000000.0,
+      "contingent_max": 860340000.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 12637739346.779999,
+      "headline": 25917739346.78,
+      "lower_bound": 18,
+      "funded_known": 5
+    },
+    "vehicle": {
+      "count": 4,
+      "funded": 1500000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 1500000000.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 3000000000.0,
+      "headline": 3000000000.0,
+      "lower_bound": 2,
+      "funded_known": 2
+    },
+    "hyperscaler": {
+      "count": 2,
+      "funded": 0.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 1000000000.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 1000000000.0,
+      "headline": 4000000000.0,
+      "lower_bound": 0,
+      "funded_known": 1
+    },
+    "portfolio": {
+      "count": 21,
+      "funded": 25000000.0,
+      "committed_unfunded": 0.0,
+      "committed_split_unknown": 0.0,
+      "contingent_max": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 25000000.0,
+      "headline": 575000000.0,
+      "lower_bound": 15,
+      "funded_known": 6
+    }
+  },
+  "financials": {
+    "shareholders_equity": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "FY2027 Q3",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_130001"
+      ],
+      "text": "$266.7 billion",
+      "value": 266666000000.0,
+      "note": "Total shareholders' equity on the condensed consolidated balance sheet in Exhibit 99.3 to the 8-K of 2026-11-17 (unaudited; the Q3 FY2027 Form 10-Q was not filed by 2026-11-23)."
+    },
+    "fcf_ttm": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "TTM to FY2027 Q3",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_130016",
+        "ev_130020"
+      ],
+      "text": "$148.6 billion",
+      "value": 148574000000.0,
+      "note": "Analysis. Window: the four quarters ended 2026-10-25 (FY2026 Q4 plus FY2027 Q1 to Q3), built as FY2026 Q4 plus FY2027 nine months so every component is a positive reported figure (the grounding tool cannot match negative component values). Nvidia defines free cash flow as net cash provided by operating activities less purchases related to property and equipment and intangible assets and less principal payments on property and equipment and intangible assets. Cross check from the underlying lines: operating cash flow 36,190M (ev_130017) plus 122,675M (ev_130004) = 158,865M; capital expenditure 1,284M (ev_130018) plus 8,856M (ev_130006) = 10,140M; principal payments 4M plus 147M = 151M (same tables); 158,865M less 10,140M less 151M = 148,574M. Operating cash flow less capital expenditure only would be 148,725M."
+    },
+    "revenue_ttm": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "TTM to FY2027 Q3",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_130019",
+        "ev_130008"
+      ],
+      "text": "$361.8 billion",
+      "value": 361808000000.0,
+      "note": "Analysis. Window: the four quarters ended 2026-10-25, built as FY2026 Q4 plus FY2027 nine months. Cross check: FY2026 215,938M (ev_10136) plus 293,681M less nine months FY2026 147,811M (ev_130009) = 361,808M."
+    },
+    "cash_and_marketable_securities": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "FY2027 Q3",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_130002",
+        "ev_130003"
+      ],
+      "text": "$53.5 billion",
+      "value": 53512000000.0,
+      "note": "Cash and cash equivalents plus marketable debt securities (the CFO commentary rounds this to 53.5 billion). Excludes marketable equity securities of 44,219M (ev_130014), which are mostly lock-up restricted stakes and not liquidity."
+    },
+    "total_guarantees_max": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "FY2027 Q3",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_50044"
+      ],
+      "text": "$118 billion",
+      "value": 118000000000.0,
+      "note": "Maximum gross exposure under all guarantees: land, power and shell 3.5B, SB Energy 105.0B (phased, not yet effective), power and systems credit support 9.5B. No payments made to date (ev_50045)."
+    },
+    "total_equity_investments": {
+      "as_of": "2026-07-26",
+      "fiscal_period": "FY2027 Q2",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_10043"
+      ],
+      "text": "$99 billion",
+      "value": 99000000000.0,
+      "note": "MD&A figure from the Q2 FY2027 10-Q. No equivalent MD&A total was given at 2026-10-25; this is the one item in this file not at the 2026-10-25 balance sheet date. Analysis: at 2026-10-25 the balance sheet lines sum to 114,416M (non-marketable securities 65,528M plus marketable equity 44,219M plus locked public equity in other assets 4,669M), which is not an MD&A figure."
+    },
+    "equity_purchases_9m": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "FY2027 nine months to 2026-10-25",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_190001"
+      ],
+      "text": "$58.1 billion",
+      "value": 58100000000.0,
+      "note": "Purchases of equity securities in the cash flow statement, nine months ended 2026-10-25 (three months: 15,696M). Cash paid for marketable and non-marketable equity together, before any sales. Exhibit 99.3 to the 8-K of 2026-11-17."
+    },
+    "non_marketable_net_additions_9m": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "FY2027 nine months to 2026-10-25",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_190002"
+      ],
+      "text": "$46.4 billion",
+      "value": 46436000000.0,
+      "note": "Net additions to non-marketable equity securities in the roll forward of privately held securities, nine months ended 2026-10-25 (three months: 15,431M). Carrying value rose from 22,251M to 61,650M over the period after unrealized gains of 8,308M, reclassifications of (13,349)M (stakes that became public) and impairments and unrealized losses of (1,996)M. Exhibit 99.3."
+    },
+    "equity_sale_proceeds_9m": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "FY2027 nine months to 2026-10-25",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_190003"
+      ],
+      "text": "$9.49 billion",
+      "value": 9493000000.0,
+      "note": "Proceeds from sales of equity securities, nine months ended 2026-10-25 (three months: 2,253M, ev_60113). Exhibit 99.3."
+    },
+    "non_marketable_equity_carrying_value": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "FY2027 Q3",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_130010"
+      ],
+      "text": "$61.6 billion",
+      "value": 61650000000.0,
+      "note": "Carrying value of privately held (non-marketable) equity securities at 2026-10-25, end of the roll forward in Exhibit 99.3. The balance sheet line 'Non-marketable securities' is 65,528M (ev_130015), which is broader than the privately held equity roll forward."
+    },
+    "marketable_equity_fair_value": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "FY2027 Q3",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_130011",
+        "ev_130012"
+      ],
+      "text": "$48.9 billion",
+      "value": 48888000000.0,
+      "note": "Publicly held equity securities at fair value, Level 1 38,372M plus Level 2 10,516M (unregistered warrants, convertible preferred and restricted shares), at 2026-10-25. The balance sheet line 'Marketable equity securities' is 44,219M (ev_130014); the other 4,669M is reported in other assets (analysis from the fair value table columns). Excludes 3,471M of debt securities convertible into public equity (ev_50098), which sit in marketable debt securities."
+    },
+    "unfunded_equity_commitments": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "FY2027 Q3",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_120011"
+      ],
+      "text": "$20 billion",
+      "value": 20000000000.0,
+      "note": "Equity investments row of Nvidia's future commitments table at 2026-10-25: 5B remainder of FY2027, 11B FY2028, 2B FY2029, 2B FY2030. Nvidia says these are subject to certain contingencies and focused on frontier labs, infrastructure financiers and other private companies (ev_120010). Exhibit 99.2."
+    },
+    "neocloud_agreements_max": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "FY2027 Q3",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_50080"
+      ],
+      "text": "$32 billion",
+      "value": 32000000000.0,
+      "note": "Neocloud agreements (formerly AI cloud agreements), maximum future additional commitment at 2026-10-25, by fiscal year 0, 6, 7, 6, 5, 8. Nvidia's commitments take effect only if the neoclouds secure financing (ev_50081). Was 36B at 2026-07-26. Exhibit 99.2."
+    },
+    "cloud_service_agreements": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "FY2027 Q3",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_130013"
+      ],
+      "text": "$28 billion",
+      "value": 28000000000.0,
+      "note": "Multi-year cloud service agreements, remaining commitment at 2026-10-25 (29B at 2026-07-26, ev_10030). Exhibit 99.2."
+    },
+    "data_center_leases_not_commenced": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "FY2027 Q3",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_190004"
+      ],
+      "text": "$74 billion",
+      "value": 74000000000.0,
+      "note": "Data center leases not commenced at 2026-10-25, by fiscal year 0, 1, 2, 4, 4, 63. Terms up to twenty years, commencing between Q4 FY2027 and FY2033 (ev_190006, ev_190007); Nvidia may assign some of these leases to third parties (ev_190005). At 2026-07-26 the 10-Q split this into 25B (ev_10031) and a separate 20B 'for third party' line that Nvidia expected to reassign (ev_10037, ev_190008); the October disclosure gives one line and no split. Exhibit 99.2."
+    },
+    "supply_commitments": {
+      "as_of": "2026-10-25",
+      "fiscal_period": "FY2027 Q3",
+      "original_currency": "USD",
+      "last_verified": "2026-11-23",
+      "display_eligible": true,
+      "lower_bound": false,
+      "evidence": [
+        "ev_130023"
+      ],
+      "text": "$390 billion",
+      "value": 390000000000.0,
+      "note": "Supply and capacity commitments at 2026-10-25, by fiscal year 69, 203, 92, 10, 8, 8. Exhibit 99.2."
+    }
+  },
+  "display": {
+    "show_grades": false,
+    "site_title": "Is Nvidia the Central Bank of AI?",
+    "subtitle": "Every dollar Nvidia has put behind the companies that buy its chips, with sources.",
+    "built_by": "Built By Resolute Business Development",
+    "built_by_url": "https://resolute-bd.com",
+    "public_url": "https://nvidia.resolute-bd.com"
+  }
+}
