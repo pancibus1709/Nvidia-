@@ -290,6 +290,22 @@ def amount_field_of(path: str) -> str | None:
     return None
 
 
+def touched_amounts(diff: list[dict]) -> list[str]:
+    """Paths of the amount objects a diff touches: the ones a person approving it has re-checked."""
+    out = []
+    for ch in diff:
+        parts = ch["path"].strip("/").split("/")
+        if amount_field_of(ch["path"]):
+            p = "/".join(parts[: parts.index("amounts") + 2])
+        elif parts[-1] in ("last_verified", "value") and len(parts) > 2:
+            p = "/".join(parts[:-1])
+        else:
+            continue
+        if p not in out:
+            out.append(p)
+    return out
+
+
 # ---------------------------------------------------------------- approval rule (spec/11 U3)
 
 def needs_human(item: dict, auto_cfg: dict) -> tuple[bool, str]:
@@ -311,7 +327,7 @@ def needs_human(item: dict, auto_cfg: dict) -> tuple[bool, str]:
             ok = (field == "market_value") or (parts[0] == "evidence" and len(parts) == 2 and ch.get("old") is None)
             if not ok:
                 return True, f"a market value update may only touch market_value: {ch['path']}"
-            if field == "market_value" and parts[-1] == "market_value" and ch.get("old") is None:
+            if field == "market_value" and parts[-1] in ("market_value", "value") and ch.get("old") is None:
                 return True, "a first market value needs a person to check and date it"
             if parts[-1] == "last_verified":
                 return True, "an automatic change never sets last_verified"
@@ -330,6 +346,8 @@ def queue_items(paths: Paths, include_held: bool = True) -> list[dict]:
     if not paths.queue.exists():
         return out
     for f in sorted(paths.queue.glob("*.json")):
+        if f.name.startswith("_"):
+            continue            # _spend.json and other bookkeeping files are not queue items
         it = load_json(f)
         if not include_held and it.get("state") == "hold":
             continue

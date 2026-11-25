@@ -69,7 +69,8 @@ def proposal(rel: dict, q: dict, ev: dict) -> list[dict]:
     base_path = f"relationships/{rel['id']}/amounts/market_value"
     old = (rel.get("amounts") or {}).get("market_value")
     new_fields = {"value": value, "as_of": q["timestamp"].strftime("%Y-%m-%d"), "price_source": SOURCE, "price_timestamp": stamp,
-                  "price": q["price"], "shares": shares, "evidence": ["new:1"]}
+                  "price": q["price"], "shares": shares, "evidence": ["new:1"],
+                  "note": f"{shares:,.0f} shares held as of {rel['holding'].get('as_of') or 'an undisclosed date'}, at the last regular market price of {q['price']:,.2f} per share."}
     diff = []
     if isinstance(old, dict):
         diff += [{"path": f"{base_path}/{k}", "old": old.get(k), "new": v} for k, v in new_fields.items() if old.get(k) != v]

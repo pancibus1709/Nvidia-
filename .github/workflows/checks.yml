@@ -1,0 +1,58 @@
+# Checks (spec/09): fixture tests and every automated check on the register and the published build.
+#
+# Runs on pull requests, by workflow_dispatch, and on a GitHub cron as backup (publish.yml runs the same
+# checks before every publish, so a push to main does not start this workflow as well):
+#   6:30 am Eastern daily = 11:30 UTC in standard time (UTC-5), 10:30 UTC in daylight time (UTC-4)
+#   the weekly link check, Mondays 6:40 am Eastern = 11:40 UTC in standard time
+# The cron lines are written for standard time. This workflow writes nothing to the repository. It shares
+# the concurrency group so that it always checks a settled tree, never one in the middle of a publish.
+name: checks
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      links:
+        description: "Also run the link check (true or false)"
+        default: "false"
+  schedule:
+    - cron: "30 11 * * *"   # backup: 6:30 am Eastern (standard time)
+    - cron: "40 11 * * 1"   # weekly link check, Mondays 6:40 am Eastern (standard time)
+
+concurrency:
+  group: nvidia-update
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Fixture tests
+        run: python3 -m pytest -q tests
+      - name: Every automated check
+        run: python3 -m pipeline.checks
+      - name: Approved items still apply (writes nothing)
+        run: python3 -m pipeline.apply_approved --dry-run
+      - name: Weekly link check
+        if: github.event.schedule == '40 11 * * 1' || inputs.links == 'true'
+        run: |
+          set +e
+          python3 -m pipeline.checks links | tee links.txt
+          if [ "${PIPESTATUS[0]}" != "0" ]; then
+            gh issue create --title "Link check: sources that no longer load, $(date -u +%Y-%m-%d)" --body-file links.txt || true
+          fi

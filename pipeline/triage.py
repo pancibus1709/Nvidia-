@@ -7,6 +7,7 @@
   python3 -m pipeline.triage --summary        the pending items summary, watcher alerts first; prints nothing if there is nothing
   python3 -m pipeline.triage --budget         exit 0 if the paid extraction step may run, 3 if the cap is unset or reached
   python3 -m pipeline.triage --record-spend <claude result json>
+  python3 -m pipeline.triage --cited-cache    cached files that evidence cites (the workflows commit these by name)
 
 What this module does without any API key:
 1. Discards hits that show no money, commitment or credit support between Nvidia and another party.
@@ -38,7 +39,7 @@ from pathlib import Path
 from . import checks
 from .common import classify_domain, load_json, save_json
 from .update_common import (DiffError, Paths, amount_field_of, append_jsonl, apply_diff, get_path, inbox_hits, load_collections,
-                            needs_human, now_iso, queue_items, read_jsonl, save_item, sha, subject_of)
+                            needs_human, now_iso, queue_items, read_jsonl, save_item, sha, subject_of, touched_amounts)
 
 STATES = ("needs extraction", "needs quote", "ready", "failed grounding", "failed checks", "hold")
 MONEY = re.compile(r"\$\s?\d|\b(?:million|billion|trillion)\b|\bshares\b|\bcommit|\bwarrants?\b", re.I)
@@ -213,11 +214,6 @@ def evaluate(item: dict, paths: Paths, today: date | None = None, data: dict | N
     new_ev = resolve_ids(item.get("evidence") or [], mapping)
     known = {e["id"] for e in data["evidence"]}
     new_ev = [e for e in new_ev if e.get("id") not in known]
-    for ch in diff_r:
-        # a whole new amount is dated by the person who approves it (apply_approved sets last_verified); check it as it will be applied
-        if amount_field_of(ch["path"]) and ch.get("old") is None and isinstance(ch.get("new"), dict) and "last_verified" in ch["new"] \
-                and ch["new"]["last_verified"] is None and ch["new"].get("value") is not None:
-            ch["new"]["last_verified"] = (today or datetime.now(timezone.utc).date()).isoformat()
     try:
         patched = apply_diff(data, diff_r)
     except DiffError as err:
@@ -225,6 +221,13 @@ def evaluate(item: dict, paths: Paths, today: date | None = None, data: dict | N
     except (KeyError, TypeError, ValueError) as err:
         return [{"check": "applies", "result": "fail", "detail": f"malformed change: {err}"}]
     results.append({"check": "applies", "result": "pass", "detail": f"{len(diff)} change(s) apply to the register as it stands"})
+    day = (today or datetime.now(timezone.utc).date()).isoformat()
+    for p in touched_amounts(diff_r):
+        # an amount that gains its first value is dated by the person who approves it (apply_approved sets last_verified,
+        # and the approval rule sends every such change to a person); check it as it will be applied
+        a = get_path(patched, p)
+        if isinstance(a, dict) and a.get("value") is not None and a.get("last_verified") is None and "last_verified" in a:
+            a["last_verified"] = day
     touched: dict = {}
     for ch in diff_r:
         coll, rid = subject_of(ch["path"])
@@ -516,6 +519,20 @@ def pending_summary(paths: Paths | None = None) -> str:
     return "\n".join(lines)
 
 
+def cited_cache(paths: Paths | None = None) -> list[str]:
+    """Cached files cited by evidence in the queue, the approved items, the register and research/evidence/upd.jsonl.
+    The cache directories are ignored by git, so the workflows add these files by name: CI needs them to ground quotes."""
+    paths = paths or Paths()
+    evs = list(load_json(paths.register / "evidence.json", []))
+    evs += read_jsonl(paths.evidence_dir / "upd.jsonl")
+    for d in (paths.queue, paths.approved):
+        if d.exists():
+            for f in d.glob("q_*.json"):
+                evs += load_json(f).get("evidence") or []
+    out = sorted({e["cache_path"] for e in evs if e.get("cache_path") and "/_tmp/" not in e["cache_path"] and (paths.root / e["cache_path"]).exists()})
+    return out + [p + ".meta.json" for p in out if (paths.root / (p + ".meta.json")).exists()]
+
+
 def spend_file(paths: Paths) -> Path:
     return paths.queue / "_spend.json"
 
@@ -562,8 +579,12 @@ def main(argv=None) -> int:
     ap.add_argument("--summary", action="store_true")
     ap.add_argument("--budget", action="store_true")
     ap.add_argument("--record-spend", metavar="FILE")
+    ap.add_argument("--cited-cache", action="store_true", help="print the cached files that evidence cites, for `git add -f`")
     args = ap.parse_args(argv)
     paths = Paths()
+    if args.cited_cache:
+        print("\n".join(cited_cache(paths)))
+        return 0
     if args.summary:
         s = pending_summary(paths)
         if s:

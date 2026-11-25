@@ -27,4 +27,6 @@ python3 -m pipeline.system_view      totals, bridge, concentrations, scenarios
 python3 -m pipeline.datapack         Excel evidence pack
 ```
 
+Continuous update (spec/11): `make watch`, `make triage`, `make review`, `make apply`, `make publish`, `make site`. The timetable, how to run each part by hand and the one-time setup are in `SCHEDULE.md`.
+
 SEC requests need the environment variable `SEC_USER_AGENT` (a name and an email). It is never stored in this repository.

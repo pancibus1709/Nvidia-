@@ -1,0 +1,79 @@
+# News ingest (spec/11 U1, last paragraph): commits hits from the scheduled Claude news task to
+# data/inbox/YYYY-MM-DD/news.jsonl. The inbox publishes nothing, so no review is skipped.
+#
+# The news task itself runs at 7:37 am and 5:37 pm Eastern and starts this workflow through
+# workflow_dispatch when it has hits. Its prompt is pipeline/tasks/news_watch.md. The GitHub cron is a
+# backup that picks up any uploaded file a failed dispatch left behind:
+#   7:45 am and 5:45 pm Eastern = 12:45 and 22:45 UTC in standard time (UTC-5); 11:45 and 21:45 UTC in daylight time (UTC-4).
+# The cron lines are written for standard time.
+#
+# How the file arrives: the task uploads its JSON lines file to the branch `news-uploads` at
+# uploads/<name>.jsonl and passes that path in `upload_path`. A small batch may be passed inline in
+# `hits_jsonl` instead. Lines from a domain outside the tier 2 list are refused by pipeline.ingest_news.
+name: ingest_news
+on:
+  workflow_dispatch:
+    inputs:
+      upload_path:
+        description: "Path of the uploaded file on the news-uploads branch, for example uploads/news_20261125T0737.jsonl"
+        default: ""
+      hits_jsonl:
+        description: "Or: the JSON lines themselves (small batches only)"
+        default: ""
+  schedule:
+    - cron: "45 12 * * *"   # backup: 7:45 am Eastern (standard time)
+    - cron: "45 22 * * *"   # backup: 5:45 pm Eastern (standard time)
+
+concurrency:
+  group: nvidia-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Read the hits and add them to the inbox
+        env:
+          UPLOAD_PATH: ${{ inputs.upload_path }}
+          HITS_JSONL: ${{ inputs.hits_jsonl }}
+        run: |
+          DONE=data/inbox/_news_uploads.txt
+          touch "$DONE"
+          if [ -n "$HITS_JSONL" ]; then
+            printf '%s\n' "$HITS_JSONL" > "$RUNNER_TEMP/inline.jsonl"
+            python3 -m pipeline.ingest_news "$RUNNER_TEMP/inline.jsonl"
+          fi
+          case "$UPLOAD_PATH" in
+            "") ;;
+            *..*) echo "::error::upload_path may not contain .."; exit 1 ;;
+            uploads/*.jsonl) ;;
+            *) echo "::error::upload_path must be uploads/<name>.jsonl"; exit 1 ;;
+          esac
+          if ! git fetch -q origin news-uploads 2>/dev/null; then echo "No news-uploads branch yet."; exit 0; fi
+          # every uploaded file not yet ingested, so a file whose dispatch failed is still picked up
+          git ls-tree -r --name-only origin/news-uploads uploads/ | grep '\.jsonl$' | sort | while read -r F; do
+            if grep -qxF "$F" "$DONE"; then continue; fi
+            git show "origin/news-uploads:$F" > "$RUNNER_TEMP/hits.jsonl"
+            python3 -m pipeline.ingest_news "$RUNNER_TEMP/hits.jsonl"
+            echo "$F" >> "$DONE"
+          done
+      - name: Commit inbox
+        run: |
+          git config user.name "nvidia-update-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/inbox
+          if ! git diff --cached --quiet; then
+            git commit -q -m "News hits: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull -q --rebase origin "${GITHUB_REF_NAME}"
+            git push -q origin "HEAD:${GITHUB_REF_NAME}"
+          fi

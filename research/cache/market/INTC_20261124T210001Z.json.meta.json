@@ -1,6 +1,0 @@
-{
-  "url": "https://query2.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&range=5d",
-  "retrieved": "2026-11-25T02:13:18Z",
-  "status": 200,
-  "content_hash": "9c03853ff0ea9da3388a63563c614471a3ca740b6d688789c03107dbfcc6618c"
-}

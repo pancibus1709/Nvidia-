@@ -1,0 +1,103 @@
+# Publish (spec/11 U4): apply approved changes, rebuild, check, snapshot, deploy.
+#
+# Triggers: a commit that touches data/approved/ (an approval pushed from the review page), a
+# workflow_dispatch (triage.yml starts one after approving by rule, because a push made by a workflow
+# does not start another workflow), and a GitHub cron as backup:
+#   8:45 am Eastern daily, after the 8:15 triage   = 13:45 UTC in standard time (UTC-5), 12:45 UTC in daylight time (UTC-4)
+#   5:45 pm Eastern weekdays, after market values   = 22:45 UTC in standard time, 21:45 UTC in daylight time
+# The cron lines are written for standard time. A backup run with nothing approved does nothing.
+#
+# `python3 -m pipeline.apply_approved` applies the diffs, then runs pipeline.build_register,
+# pipeline.system_view, pipeline.publish (every check; refuses on any failure) and pipeline.build_site.
+# On the first failure it puts everything back and exits non-zero, so nothing below runs and the public
+# site keeps the last good publish.
+#
+# Deploy: only site/ and data/published/ are copied to the public repository named by the repository
+# variable PUBLIC_REPO (owner/name), using the secret PUBLIC_REPO_TOKEN (a fine-grained token with
+# contents write on that repository). The research cache, the register and the queue never leave this repository.
+name: publish
+on:
+  push:
+    branches: [main]
+    paths: ["data/approved/*.json"]
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Rebuild and publish even if nothing is approved (true or false)"
+        default: "false"
+  schedule:
+    - cron: "45 13 * * *"     # backup: 8:45 am Eastern (standard time)
+    - cron: "45 22 * * 1-5"   # backup: 5:45 pm Eastern weekdays (standard time)
+
+concurrency:
+  group: nvidia-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+      GH_TOKEN: ${{ github.token }}
+      PUBLIC_REPO: ${{ vars.PUBLIC_REPO }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Apply approved changes, rebuild, check, publish, build the page
+        id: apply
+        env:
+          FORCE: ${{ inputs.force }}
+        run: |
+          if [ "$FORCE" = "true" ]; then FLAG="--publish-anyway"; else FLAG=""; fi
+          python3 -m pipeline.apply_approved $FLAG 2>&1 | tee publish.log
+          test "${PIPESTATUS[0]}" = "0"
+          if [ -n "$(git status --porcelain data site research/drafts research/evidence)" ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; fi
+      - name: Report a stopped publish
+        if: failure() && steps.apply.outcome == 'failure'
+        run: |
+          { echo "The publish stopped and the public site is unchanged. Last lines of the log:"; echo; echo '```'; tail -40 publish.log; echo '```'; } > stopped.md
+          gh issue create --title "Publish stopped $(date -u +%Y-%m-%dT%H:%MZ)" --body-file stopped.md || true
+      - name: Commit the applied change, the published build and the snapshot
+        if: steps.apply.outputs.changed == 'true'
+        run: |
+          git config user.name "nvidia-update-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/register data/published data/history data/changelog.json data/approved research/drafts research/evidence site
+          python3 -m pipeline.triage --cited-cache | xargs -r git add -f
+          git commit -q -m "Publish: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull -q --rebase origin "${GITHUB_REF_NAME}"
+          git push -q origin "HEAD:${GITHUB_REF_NAME}"
+      - name: Deploy site/ and data/published/ to the public repository
+        if: steps.apply.outputs.changed == 'true'
+        env:
+          PUBLIC_REPO_TOKEN: ${{ secrets.PUBLIC_REPO_TOKEN }}
+        run: |
+          if [ -z "$PUBLIC_REPO" ] || [ -z "$PUBLIC_REPO_TOKEN" ]; then
+            echo "::error::Set the repository variable PUBLIC_REPO and the secret PUBLIC_REPO_TOKEN (see SCHEDULE.md). Nothing was deployed."
+            exit 1
+          fi
+          git clone -q --depth 1 "https://x-access-token:${PUBLIC_REPO_TOKEN}@github.com/${PUBLIC_REPO}.git" public
+          find public -mindepth 1 -maxdepth 1 ! -name .git ! -name CNAME ! -name README.md ! -name LICENSE -exec rm -rf {} +
+          cp -R site/. public/
+          mkdir -p public/data
+          cp -R data/published public/data/published
+          touch public/.nojekyll
+          if [ ! -f public/CNAME ]; then python3 -c "import json;print(json.load(open('config/display.json'))['public_url'].split('//')[1].strip('/'))" > public/CNAME; fi
+          cd public
+          git config user.name "nvidia-update-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Public site already up to date."; exit 0; fi
+          git commit -q -m "Publish $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -q origin HEAD

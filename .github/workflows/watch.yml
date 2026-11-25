@@ -1,0 +1,87 @@
+# Watchers (spec/11 U1): raw hits into data/inbox/. Never touches data/register or data/published.
+#
+# Timetable. Every time in spec/11 is Eastern. GitHub cron is UTC and does not follow daylight saving,
+# so this workflow is triggered once an hour and `pipeline.watchers.run --due` works out, in Eastern
+# time, which watchers are due (see SCHEDULE in pipeline/watchers/run.py):
+#   nvda_filings          every 2 hours, weekdays 6 am to 10 pm; hourly for ten days after Nvidia earnings
+#   counterparty_filings  every 4 hours, weekdays        ir_releases   every 4 hours
+#   fulltext_nvidia       daily, 7:10 am                 ownership_filings, ratings, staleness   daily
+#   nvda_13f              daily for 45 days after each quarter end, else weekly
+#   market_values         weekdays after the close (first run after 4:30 pm)
+#   earnings_calendar     weekly                         liens   monthly
+# The cron below fires at ten past every hour UTC, which is ten past every hour Eastern in both
+# standard time (UTC-5) and daylight time (UTC-4). 7:10 am Eastern is 12:10 UTC in winter, 11:10 UTC in summer.
+# GitHub's scheduler can skip runs; cron-job.org calls workflow_dispatch on the same timetable and is
+# the primary trigger (SCHEDULE.md). A run that finds nothing due does nothing.
+name: watch
+on:
+  workflow_dispatch:
+    inputs:
+      watchers:
+        description: "due, all, or a comma-separated list (for example nvda_filings,ir_releases)"
+        default: due
+      since:
+        description: "Backfill start date YYYY-MM-DD (blank for the normal lookback)"
+        default: ""
+  schedule:
+    - cron: "10 * * * *"   # backup: hourly at ten past, UTC and Eastern alike
+
+concurrency:
+  group: nvidia-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run watchers
+        env:
+          WATCHERS: ${{ inputs.watchers || 'due' }}
+          SINCE: ${{ inputs.since }}
+        run: |
+          case "$WATCHERS" in *[!a-z0-9_,]*) echo "::error::watchers may hold only names and commas"; exit 1;; esac
+          case "$SINCE" in ""|[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]) ;; *) echo "::error::since must be YYYY-MM-DD"; exit 1;; esac
+          if [ -n "$SINCE" ]; then python3 -m pipeline.watchers.run --only "$WATCHERS" --since "$SINCE"; else python3 -m pipeline.watchers.run --only "$WATCHERS"; fi
+      - name: Commit inbox
+        id: commit
+        run: |
+          git config user.name "nvidia-update-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/inbox
+          if [ -d research/cache/market ]; then git add -f research/cache/market; fi
+          if git diff --cached --name-only | grep -q "market_values.jsonl"; then echo "market=true" >> "$GITHUB_OUTPUT"; fi
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Watchers: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull -q --rebase origin "${GITHUB_REF_NAME}"
+            git push -q origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+      - name: Alert on three failures in a row
+        run: |
+          python3 - <<'PY' > alerts.txt
+          from pipeline.watchers.run import alerts
+          print("\n".join(alerts()))
+          PY
+          if [ -s alerts.txt ] && [ -n "$(tr -d '[:space:]' < alerts.txt)" ]; then
+            echo "::error::Watcher alert: $(tr '\n' ' ' < alerts.txt)"
+            gh issue create --title "Watcher alert $(date -u +%Y-%m-%d)" --body-file alerts.txt || true
+          fi
+      - name: Start triage for new market values (auto rule, no paid step)
+        if: steps.commit.outputs.market == 'true'
+        run: gh workflow run triage.yml --ref "${GITHUB_REF_NAME}" -f extract=false

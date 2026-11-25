@@ -30,7 +30,7 @@ from urllib.parse import parse_qs, urlparse
 
 from . import triage
 from .common import load_json, norm, sha256_file, word_count
-from .update_common import Paths, amount_field_of, get_path, load_collections, needs_human, now_iso, queue_items, save_item
+from .update_common import Paths, get_path, load_collections, needs_human, now_iso, queue_items, save_item, touched_amounts
 
 APPROVABLE = ("ready",)
 
@@ -39,18 +39,7 @@ APPROVABLE = ("ready",)
 
 def rechecked_amounts(item: dict) -> list[str]:
     """Amount objects the diff touches: the ones a person approving this item has re-checked."""
-    out = []
-    for ch in item.get("diff", []):
-        if amount_field_of(ch["path"]):
-            parts = ch["path"].strip("/").split("/")
-            p = "/".join(parts[: parts.index("amounts") + 2])
-            if p not in out:
-                out.append(p)
-        elif ch["path"].endswith("/last_verified"):
-            p = ch["path"].rsplit("/", 1)[0]
-            if p not in out:
-                out.append(p)
-    return out
+    return touched_amounts(item.get("diff", []))
 
 
 def _git(paths: Paths, message: str, git: bool) -> None:

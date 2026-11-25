@@ -1,6 +1,0 @@
-{
-  "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?interval=1d&range=5d",
-  "retrieved": "2026-11-25T02:13:19Z",
-  "status": 200,
-  "content_hash": "170fd42e33c479327be5e0eda14661379ad39060634eb743c27d45c206648ec7"
-}

@@ -10,3 +10,9 @@ research/cache/web/
 research/cache/news/
 research/evidence/*.log
 research/evidence/.lock
+data/inbox/*/
+data/queue/*.json
+data/approved/*.json
+data/approved/_applied/
+data/published.tmp/
+research/cache/market/

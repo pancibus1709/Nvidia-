@@ -34,7 +34,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from . import triage
-from .common import load_json, save_json
+from .common import ROOT, load_json, save_json
 from .update_common import (DICT_COLLECTIONS, DiffError, LIST_COLLECTIONS, Paths, amount_field_of, append_jsonl, get_path, load_collections,
                             needs_human, now_iso, read_jsonl, save_item, set_path, subject_of)
 
@@ -79,7 +79,7 @@ def ensure_sources(item: dict, paths: Paths) -> None:
     """Every new evidence record must point at a cached file that exists. A missing one is fetched; failure blocks the item."""
     for ev in item.get("evidence") or []:
         target = paths.root / ev["cache_path"]
-        if target.exists():
+        if target.exists() or (ROOT / ev["cache_path"]).exists():
             continue
         if ev.get("tier") == "2":
             raise Blocked(item["id"], f"source unreachable: the grounding window {ev['cache_path']} is missing and news is never fetched again")
@@ -227,7 +227,9 @@ class Writer:
         self.data["evidence"] += records
         self.dirty.add("evidence")
         if self.paths.evidence_dir.exists():
-            append_jsonl(self.paths.evidence_dir / f"{EVIDENCE_NS}.jsonl", records)
+            # records the extraction job made with `pipeline.evidence add` are already in research/evidence/
+            have = {r.get("id") for f in self.paths.evidence_dir.glob("*.jsonl") for r in read_jsonl(f)}
+            append_jsonl(self.paths.evidence_dir / f"{EVIDENCE_NS}.jsonl", [r for r in records if r["id"] not in have])
 
     def save(self) -> None:
         for coll in sorted(self.dirty):
@@ -352,7 +354,7 @@ class Backup:
 def approved_items(paths: Paths) -> list[dict]:
     if not paths.approved.exists():
         return []
-    items = [load_json(f) for f in sorted(paths.approved.glob("*.json"))]
+    items = [load_json(f) for f in sorted(paths.approved.glob("*.json")) if not f.name.startswith("_")]
     return sorted(items, key=lambda i: ((i.get("approval_record") or {}).get("at") or "", i["id"]))
 
 

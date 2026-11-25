@@ -1,0 +1,135 @@
+# Triage and extraction (spec/11 U2): inbox to review queue.
+#
+# Timetable (Eastern, converted to UTC for GitHub cron; GitHub cron does not follow daylight saving):
+#   8:15 am Eastern daily, after the 7:10 full-text run and the 7:37 news task
+#       = 13:15 UTC in standard time (UTC-5, November to March), 12:15 UTC in daylight time (UTC-4).
+#   8:57 am Eastern on weekdays: the pending items summary, sent only when the queue is not empty
+#       = 13:57 UTC in standard time, 12:57 UTC in daylight time.
+# The cron lines are written for standard time; in daylight time they land one hour later by the
+# Eastern clock. cron-job.org is set to America/New_York and is the primary trigger (SCHEDULE.md).
+#
+# Steps: 1. deterministic triage (no API key). 2. Claude Code headless drafts diffs for items marked
+# "needs extraction", inside the monthly spend cap in config/limits.json: a null cap means the paid step
+# does not run; a reached cap stops it and raises an alert. 3. Extracted diffs are checked. 4. Items the
+# auto rule covers (market_value, link_repair) are approved and publish.yml is started. Everything else
+# waits for a person on the review page.
+name: triage
+on:
+  workflow_dispatch:
+    inputs:
+      extract:
+        description: "Run the paid extraction step (true or false)"
+        default: "true"
+      summary_only:
+        description: "Only send the pending items summary (true or false)"
+        default: "false"
+  schedule:
+    - cron: "15 13 * * *"     # backup: 8:15 am Eastern (standard time)
+    - cron: "57 13 * * 1-5"   # backup: 8:57 am Eastern weekdays (standard time), summary only
+
+concurrency:
+  group: nvidia-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+  issues: write
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+      GH_TOKEN: ${{ github.token }}
+      SUMMARY_ONLY: ${{ github.event.schedule == '57 13 * * 1-5' || inputs.summary_only == 'true' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Pending items summary
+        if: env.SUMMARY_ONLY == 'true'
+        run: |
+          python3 -m pipeline.triage --summary > summary.txt
+          if [ -s summary.txt ]; then
+            cat summary.txt
+            gh issue create --title "Review queue: pending items, $(date -u +%Y-%m-%d)" --body-file summary.txt
+          else
+            echo "Queue empty and no watcher alerts: nothing sent."
+          fi
+      - name: Triage (no API key needed)
+        if: env.SUMMARY_ONLY != 'true'
+        run: python3 -m pipeline.triage
+      - name: Spend cap
+        id: budget
+        if: env.SUMMARY_ONLY != 'true' && inputs.extract != 'false'
+        run: |
+          set +e
+          python3 -m pipeline.triage --budget | tee budget.txt
+          RC=${PIPESTATUS[0]}
+          set -e
+          PENDING=$(python3 -m pipeline.triage --pending | wc -l)
+          echo "pending=$PENDING" >> "$GITHUB_OUTPUT"
+          if [ "$RC" = "0" ] && [ "$PENDING" -gt 0 ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "remaining=$(grep -o 'remaining_usd=.*' budget.txt | cut -d= -f2)" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+          if grep -q "^ALERT" budget.txt; then
+            echo "::error::$(head -1 budget.txt)"
+            gh issue create --title "Extraction stopped: monthly spend cap reached" --body-file budget.txt || true
+          fi
+      - uses: actions/setup-node@v4
+        if: steps.budget.outputs.run == 'true'
+        with:
+          node-version: "22"
+      - name: Extraction (Claude Code headless, inside the spend cap)
+        if: steps.budget.outputs.run == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then echo "::warning::ANTHROPIC_API_KEY is not set; extraction skipped."; exit 0; fi
+          npm install -g @anthropic-ai/claude-code
+          mkdir -p data/queue/_extracted
+          set +e
+          claude -p "$(cat pipeline/tasks/triage_extract.md)" \
+            --output-format json \
+            --max-turns 200 \
+            --max-budget-usd "${{ steps.budget.outputs.remaining }}" \
+            --allowedTools "Read" "Grep" "Glob" "Write" "WebFetch" "Skill" \
+              "Bash(python3 -m pipeline.triage:*)" "Bash(python3 -m pipeline.cache:*)" "Bash(python3 -m pipeline.edgar:*)" \
+              "Bash(python3 -m pipeline.evidence:*)" "Bash(python3 -m pipeline.checks draft:*)" "Bash(rm research/cache/_tmp/:*)" \
+            > claude_result.json
+          echo "claude exit code: $?"
+          set -e
+          python3 -m pipeline.triage --record-spend claude_result.json
+          python3 -m pipeline.triage --merge
+          python3 -m pipeline.triage --budget || true
+      - name: Approve by rule (market_value and link_repair only)
+        id: auto
+        if: env.SUMMARY_ONLY != 'true'
+        run: |
+          python3 -m pipeline.review --auto | tee auto.txt
+          if ls data/approved/*.json >/dev/null 2>&1; then echo "approved=true" >> "$GITHUB_OUTPUT"; fi
+      - name: Commit queue
+        if: env.SUMMARY_ONLY != 'true'
+        run: |
+          git config user.name "nvidia-update-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/inbox data/queue data/approved research/evidence
+          python3 -m pipeline.triage --cited-cache | xargs -r git add -f
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Triage: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull -q --rebase origin "${GITHUB_REF_NAME}"
+            git push -q origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+      - name: Start publish for approved items
+        if: steps.auto.outputs.approved == 'true'
+        run: gh workflow run publish.yml --ref "${GITHUB_REF_NAME}"
