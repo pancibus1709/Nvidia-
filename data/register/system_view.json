@@ -11,8 +11,8 @@
     "contingent_not_in_force": 105000000000.0,
     "headline": 307092739346.78,
     "gross": 175256654380.28436,
-    "count": 80,
-    "lower_bound_count": 50,
+    "count": 81,
+    "lower_bound_count": 51,
     "counts": {
       "funded": 14,
       "funded_cash": 16,
@@ -208,11 +208,11 @@
   ],
   "source_mix": {
     "evidence_by_tier": {
-      "1": 1289,
+      "1": 1295,
       "2": 6
     },
-    "one_sided_relationships": 53,
-    "relationships": 80,
+    "one_sided_relationships": 54,
+    "relationships": 81,
     "note": "Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown."
   },
   "by_type": {
@@ -229,7 +229,7 @@
       "funded_known": 1
     },
     "EQ": {
-      "count": 55,
+      "count": 56,
       "funded": 29196314380.28435,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 31000000000.0,
@@ -237,7 +237,7 @@
       "contingent_not_in_force": 0.0,
       "gross": 61696314380.28435,
       "headline": 65852399346.78,
-      "lower_bound": 38,
+      "lower_bound": 39,
       "funded_known": 15
     },
     "LB": {
@@ -339,7 +339,7 @@
       "funded_known": 5
     },
     "semis_supply": {
-      "count": 13,
+      "count": 14,
       "funded": 12493915033.504353,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 1100000000.0,
@@ -347,7 +347,7 @@
       "contingent_not_in_force": 0.0,
       "gross": 13593915033.504353,
       "headline": 18600000000.0,
-      "lower_bound": 5,
+      "lower_bound": 6,
       "funded_known": 7
     },
     "neocloud": {
@@ -413,7 +413,7 @@
       "funded_known": 4
     },
     "completed": {
-      "count": 41,
+      "count": 42,
       "funded": 27696314380.28435,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 0.0,
@@ -421,7 +421,7 @@
       "contingent_not_in_force": 0.0,
       "gross": 27696314380.28435,
       "headline": 29702399346.78,
-      "lower_bound": 29,
+      "lower_bound": 30,
       "funded_known": 12
     },
     "loi_or_framework": {
@@ -463,7 +463,7 @@
   },
   "by_grade": {
     "Insufficient information": {
-      "count": 57,
+      "count": 58,
       "funded": 1831027603.859787,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 32100000000.0,
@@ -471,7 +471,7 @@
       "contingent_not_in_force": 105000000000.0,
       "gross": 138931027603.8598,
       "headline": 244555000000.0,
-      "lower_bound": 42,
+      "lower_bound": 43,
       "funded_known": 13
     },
     "Adequate": {
@@ -525,7 +525,7 @@
       "funded_known": 1
     },
     "Equity or no stated maturity": {
-      "count": 71,
+      "count": 72,
       "funded": 27196314380.28435,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 33300000000.0,
@@ -533,7 +533,7 @@
       "contingent_not_in_force": 0.0,
       "gross": 60496314380.28435,
       "headline": 179052399346.78,
-      "lower_bound": 46,
+      "lower_bound": 47,
       "funded_known": 22
     },
     "Under 2 years": {
@@ -587,7 +587,7 @@
       "funded_known": 3
     },
     "general": {
-      "count": 64,
+      "count": 65,
       "funded": 29758427276.559788,
       "committed_unfunded": 1000000000.0,
       "committed_split_unknown": 36700000000.0,
@@ -595,7 +595,7 @@
       "contingent_not_in_force": 0.0,
       "gross": 68958427276.55978,
       "headline": 186002399346.78,
-      "lower_bound": 40,
+      "lower_bound": 41,
       "funded_known": 19
     },
     "none": {
@@ -625,7 +625,7 @@
       "funded_known": 5
     },
     "one_sided": {
-      "count": 53,
+      "count": 54,
       "funded": 12202399346.78,
       "committed_unfunded": 1000000000.0,
       "committed_split_unknown": 35700000000.0,
@@ -633,7 +633,7 @@
       "contingent_not_in_force": 0.0,
       "gross": 48902399346.78,
       "headline": 60582399346.78,
-      "lower_bound": 39,
+      "lower_bound": 40,
       "funded_known": 10
     },
     "reconciled": {
