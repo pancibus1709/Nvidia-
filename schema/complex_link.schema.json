@@ -280,6 +280,18 @@
         },
         "floor_note": {
           "type": "string"
+        },
+        "price": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "shares": {
+          "type": [
+            "number",
+            "null"
+          ]
         }
       }
     }

@@ -442,13 +442,13 @@
           "original_value": null,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": "2026-11-23",
+          "last_verified": "2026-11-25",
           "display_eligible": true,
           "lower_bound": false,
           "evidence": [
             "ev_80006"
           ],
-          "note": "Carrying amount of convertible notes at 2026-09-30 (some at fair value). Principal of the 2026 series: $350m 6.00% due 2031-05-01 (ev_80012) and $700m 4.75% due 2032-06-15 (ev_80013). After the quarter SharonAI completed a $356m secured SPV facility, 42-month bullet (ev_40152)."
+          "note": "Carrying amount of convertible notes at 2026-09-30 (some at fair value). Principal of the 2026 series: $350m 6.00% due 2031-05-01 (ev_80012) and $700m 4.75% due 2032-06-15 (ev_80013). After the quarter SharonAI completed a $356m secured SPV facility, 42-month bullet (ev_40152). On 2026-11-24, after holder consents, a First Supplemental Indenture removed the covenant restricting repayment of indebtedness from the 4.75% notes and aligned them with the 6.00% notes (ev_260001); principal and maturity unchanged."
         },
         "maturities_24m": {
           "value": 20059,
@@ -1678,7 +1678,7 @@
           "original_value": null,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": "2026-11-23",
+          "last_verified": "2026-11-25",
           "display_eligible": true,
           "lower_bound": false,
           "evidence": [
@@ -1694,7 +1694,7 @@
           "original_value": null,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": "2026-11-23",
+          "last_verified": "2026-11-25",
           "display_eligible": true,
           "lower_bound": false,
           "evidence": [
@@ -1725,7 +1725,7 @@
           "original_value": null,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": "2026-11-23",
+          "last_verified": "2026-11-25",
           "display_eligible": true,
           "lower_bound": false,
           "evidence": [
@@ -1737,7 +1737,7 @@
           "value": 0,
           "not_applicable": true,
           "as_of": "2026-11-12",
-          "last_verified": "2026-11-23",
+          "last_verified": "2026-11-25",
           "display_eligible": false,
           "evidence": [],
           "note": "No contingent term disclosed."
@@ -1874,7 +1874,7 @@
         "ev_40017",
         "ev_40015"
       ],
-      "notes": "Classification: FC with EQ secondary. The notes are unsecured debt until the IPO and become non-voting equity on conversion; recorded separately from the preferred shares because ranking and tenor differ."
+      "notes": "Classification: FC with EQ secondary. The notes are unsecured debt until the IPO and become non-voting equity on conversion; recorded separately from the preferred shares because ranking and tenor differ. Freshness check 2026-11-25: no Nscale filing or release confirms that the second $1.0 billion (the NVIDIA Sale, due on or around 16 November 2026) closed; the newest documents are the S-1/A of 2026-11-12 and Nscale's release of 2026-11-18, which does not mention it. Funded stays at the first $1.0 billion."
     },
     {
       "id": "rel_nebius_eq_2024",
@@ -2581,7 +2581,7 @@
           "original_value": null,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": "2026-11-23",
+          "last_verified": "2026-11-25",
           "display_eligible": true,
           "lower_bound": false,
           "evidence": [
@@ -2594,7 +2594,7 @@
           "value": 0,
           "not_applicable": true,
           "as_of": "2026-05-07",
-          "last_verified": "2026-11-23",
+          "last_verified": "2026-11-25",
           "display_eligible": false,
           "evidence": [],
           "note": "Nvidia has a right, not an obligation, to invest."
@@ -2611,7 +2611,7 @@
           "value": 0,
           "not_applicable": true,
           "as_of": "2026-05-07",
-          "last_verified": "2026-11-23",
+          "last_verified": "2026-11-25",
           "display_eligible": false,
           "evidence": [],
           "note": "Nvidia cannot be required to pay; exercise is at its election."
@@ -2758,7 +2758,7 @@
         "ev_40116",
         "ev_40117"
       ],
-      "notes": "Not a seed in spec/03; found in R3 and the IREN 10-K."
+      "notes": "Not a seed in spec/03; found in R3 and the IREN 10-K. Freshness check 2026-11-25: the 13G filings on IREN of 10 to 19 November are by Goldman Sachs, G1 Execution, Jane Street and Citadel Securities; none by Nvidia, so no exercise of the rights is shown."
     },
     {
       "id": "rel_sharonai_bk_2026",
@@ -2782,7 +2782,7 @@
           "original_value": null,
           "fx_rate": null,
           "fx_date": null,
-          "last_verified": "2026-11-23",
+          "last_verified": "2026-11-25",
           "display_eligible": true,
           "lower_bound": false,
           "evidence": [
@@ -2990,7 +2990,7 @@
         "ev_80034",
         "ev_30090"
       ],
-      "notes": "Classification: BK with LB secondary. The 10-Q calls Nvidia a customer, but Nvidia uses the capacity only when third parties do not and pays minimum revenue, which is a capacity backstop. stress_inputs are empty: the contracted floor, merchant share and rate are not disclosed."
+      "notes": "Classification: BK with LB secondary. The 10-Q calls Nvidia a customer, but Nvidia uses the capacity only when third parties do not and pays minimum revenue, which is a capacity backstop. stress_inputs are empty: the contracted floor, merchant share and rate are not disclosed. Freshness check 2026-11-25: SharonAI's 8-K of 2026-11-24 amends its 4.75% convertible notes indenture (ev_260001); it does not change the Nvidia agreement."
     },
     {
       "id": "rel_applied_digital_eq_2024",

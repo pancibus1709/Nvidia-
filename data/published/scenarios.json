@@ -1,0 +1,1092 @@
+{
+  "note": "These illustrate how losses would travel, not forecasts.",
+  "config": {
+    "_note": "Parameters for S1 to S3 (spec/05 section 7). Every default is labeled illustrative until anchored to a cited, dated observed move from an allowed source. Sliders on the Stress view edit these values.",
+    "S1": {
+      "name": "Demand pause",
+      "parameters": {
+        "d": {
+          "value": -0.3,
+          "min": -0.8,
+          "max": 0.0,
+          "step": 0.05,
+          "label": "Merchant demand shock",
+          "basis": "illustrative"
+        },
+        "p": {
+          "value": -0.2,
+          "min": -0.6,
+          "max": 0.0,
+          "step": 0.05,
+          "label": "Rental price change",
+          "basis": "illustrative"
+        },
+        "e": {
+          "value": -0.5,
+          "min": -2.0,
+          "max": 0.0,
+          "step": 0.1,
+          "label": "Price elasticity of demand",
+          "basis": "illustrative"
+        },
+        "quarters": {
+          "value": 4,
+          "min": 1,
+          "max": 12,
+          "step": 1,
+          "label": "Duration in quarters",
+          "basis": "illustrative"
+        },
+        "h1": {
+          "value": 0.5,
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.05,
+          "label": "Neocloud equity haircut",
+          "basis": "illustrative"
+        }
+      }
+    },
+    "S2": {
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": {
+          "value": null,
+          "label": "Which lab",
+          "basis": "user choice"
+        },
+        "months": {
+          "value": 12,
+          "min": 3,
+          "max": 36,
+          "step": 3,
+          "label": "Months of delay",
+          "basis": "illustrative"
+        },
+        "h2": {
+          "value": 0.5,
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.05,
+          "label": "Lab equity haircut",
+          "basis": "illustrative"
+        }
+      }
+    },
+    "S3": {
+      "name": "Collateral repricing",
+      "parameters": {
+        "v": {
+          "value": -0.4,
+          "min": -0.9,
+          "max": 0.0,
+          "step": 0.05,
+          "label": "Prior generation GPU value change",
+          "basis": "illustrative"
+        }
+      }
+    }
+  },
+  "S1": {
+    "id": "S1",
+    "name": "Demand pause",
+    "parameters": {
+      "d": -0.3,
+      "p": -0.2,
+      "e": -0.5,
+      "quarters": 4,
+      "h1": 0.5
+    },
+    "backstop_draws": [],
+    "equity_losses": [
+      {
+        "relationship": "rel_coreweave_eq_2025",
+        "basis": "market_value",
+        "value": 4113227313.0,
+        "loss": 2056613656.5
+      },
+      {
+        "relationship": "rel_nscale_eq_2025",
+        "basis": "funded_remaining",
+        "value": 1177399346.78,
+        "loss": 588699673.39
+      },
+      {
+        "relationship": "rel_nebius_eq_2024",
+        "basis": "market_value",
+        "value": 280809479.0,
+        "loss": 140404739.5
+      },
+      {
+        "relationship": "rel_nebius_eq_2026",
+        "basis": "funded_remaining",
+        "value": 2000000000.0,
+        "loss": 1000000000.0
+      }
+    ],
+    "liquidity_below_12_months": [],
+    "affected": [
+      "ent_applied_digital",
+      "ent_coreweave",
+      "ent_crusoe",
+      "ent_firmus",
+      "ent_iren",
+      "ent_lambda",
+      "ent_nebius",
+      "ent_nscale",
+      "ent_sharonai",
+      "ent_together_ai"
+    ],
+    "not_computable": [
+      {
+        "relationship": "rel_coreweave_bk_2025",
+        "reason": "Backstop draw needs a sourced contracted floor, contracted and merchant shares, and the quarterly value of the capacity. Missing: contracted_share, merchant_share, contracted_floor, capacity_value_per_quarter"
+      },
+      {
+        "relationship": "rel_iren_eq_2026",
+        "reason": "No confirmed value for this stake."
+      },
+      {
+        "relationship": "rel_sharonai_bk_2026",
+        "reason": "Backstop draw needs a sourced contracted floor, contracted and merchant shares, and the quarterly value of the capacity. Missing: contracted_share, merchant_share, contracted_floor, capacity_value_per_quarter"
+      },
+      {
+        "relationship": "rel_applied_digital_eq_2024",
+        "reason": "No confirmed value for this stake."
+      },
+      {
+        "relationship": "rel_lambda_eq_2025",
+        "reason": "No confirmed value for this stake."
+      },
+      {
+        "relationship": "rel_crusoe_eq_2024",
+        "reason": "No confirmed value for this stake."
+      },
+      {
+        "relationship": "rel_crusoe_eq_2025",
+        "reason": "No confirmed value for this stake."
+      },
+      {
+        "relationship": "rel_crusoe_eq_2026",
+        "reason": "No confirmed value for this stake."
+      },
+      {
+        "relationship": "rel_firmus_eq_2025",
+        "reason": "No confirmed value for this stake."
+      },
+      {
+        "relationship": "rel_firmus_eq_2026a",
+        "reason": "No confirmed value for this stake."
+      },
+      {
+        "relationship": "rel_firmus_eq_2026b",
+        "reason": "No confirmed value for this stake."
+      },
+      {
+        "relationship": "rel_firmus_bk_2026",
+        "reason": "Backstop draw needs a sourced contracted floor, contracted and merchant shares, and the quarterly value of the capacity. Missing: contracted_share, merchant_share, contracted_floor, capacity_value_per_quarter"
+      },
+      {
+        "relationship": "rel_together_ai_eq_2023",
+        "reason": "No confirmed value for this stake."
+      },
+      {
+        "relationship": "rel_together_ai_eq_2025",
+        "reason": "No confirmed value for this stake."
+      },
+      {
+        "relationship": "rel_together_ai_eq_2026",
+        "reason": "No confirmed value for this stake."
+      }
+    ],
+    "ead": 7571436138.78,
+    "loss": 3785718069.39,
+    "loss_share_of_equity": 0.014196478251408127,
+    "loss_share_of_fcf": 0.02548035369169572,
+    "label": "analysis"
+  },
+  "S2": {
+    "ent_anthropic": {
+      "id": "S2",
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": "ent_anthropic",
+        "months": 12,
+        "h2": 0.5
+      },
+      "labs": [
+        "ent_anthropic",
+        "ent_anysphere",
+        "ent_black_forest_labs",
+        "ent_cohere",
+        "ent_mistral",
+        "ent_motif",
+        "ent_openai",
+        "ent_reflection",
+        "ent_sakana",
+        "ent_spacex",
+        "ent_ssi",
+        "ent_thinking_machines",
+        "ent_upstage"
+      ],
+      "equity_losses": [
+        {
+          "relationship": "rel_anthropic_eq_2026",
+          "basis": "funded_remaining",
+          "value": 10000000000.0,
+          "loss": 5000000000.0
+        }
+      ],
+      "lapsed_commitments": [
+        {
+          "relationship": "rel_anthropic_eqc_2025",
+          "title": "Anthropic: agreement to invest up to $10 billion (November 2025), partly funded in Series G",
+          "headline": 10000000000.0,
+          "status": "definitive"
+        }
+      ],
+      "guaranties_triggered_by_lab_default": [],
+      "at_risk_backlog": [
+        {
+          "counterparty": "ent_google",
+          "description": "Google CSP hosting agreement, minimum spend April 2026 to July 2033 regardless of usage, with a true-up.",
+          "amount": 121300000000.0,
+          "kind": "contract",
+          "soft_amount": 0.0,
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120045"
+          ]
+        },
+        {
+          "counterparty": "ent_amazon",
+          "description": "Amazon agreement, minimum spend May 2026 to April 2036 regardless of usage.",
+          "amount": 110000000000.0,
+          "kind": "contract",
+          "soft_amount": 0.0,
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120046"
+          ]
+        },
+        {
+          "counterparty": "ent_microsoft",
+          "description": "Microsoft agreement of November 2025 as amended to November 2026: at least $47.2 billion and up to $49.2 billion, November 2026 to June 2033 (minimum shown). Grew from the $30 billion Azure commitment announced in November 2025 (ev_120065).",
+          "amount": 47200000000.0,
+          "kind": "contract",
+          "soft_amount": 0.0,
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120044"
+          ]
+        },
+        {
+          "counterparty": "ent_spacex",
+          "description": "SpaceXAI arrangements for NVIDIA GPU compute, up to this amount into 2029, about $3.1 billion a month at full delivery; cancellable on 90 days notice after initial periods ending January and March 2027 (ev_120048).",
+          "amount": 120500000000.0,
+          "kind": "contract",
+          "soft_amount": 120500000000.0,
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120047"
+          ]
+        },
+        {
+          "counterparty": "ent_nscale",
+          "description": "Nscale GPU services agreements for NVIDIA GPU compute into 2033; fees accrue only on delivery; Nscale must obtain financing (ev_40030).",
+          "amount": 44600000000.0,
+          "kind": "contract",
+          "soft_amount": 44600000000.0,
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120049",
+            "ev_40029"
+          ]
+        },
+        {
+          "counterparty": "ent_lambda",
+          "description": "Lambda agreements for NVIDIA GPU compute into 2034; the August 2026 agreement (about $34.9 billion of the total) is currently terminable because Lambda did not secure the facility lease.",
+          "amount": 41300000000.0,
+          "kind": "contract",
+          "soft_amount": 34900000000,
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120050"
+          ]
+        },
+        {
+          "counterparty": "ent_broadcom",
+          "description": "Five-year Broadcom master equipment leases (finance leases), rent excluding interest.",
+          "amount": 161200000000.0,
+          "kind": "lease",
+          "soft_amount": 0.0,
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120051"
+          ]
+        }
+      ],
+      "at_risk_backlog_total": 646100000000.0,
+      "affected": [
+        "ent_amazon",
+        "ent_anthropic",
+        "ent_broadcom",
+        "ent_google",
+        "ent_lambda",
+        "ent_microsoft",
+        "ent_nscale",
+        "ent_spacex"
+      ],
+      "not_computable": [],
+      "ead": 10000000000.0,
+      "loss": 5000000000.0,
+      "loss_share_of_equity": 0.018750046875117186,
+      "loss_share_of_fcf": 0.033653263693513,
+      "label": "analysis"
+    },
+    "ent_anysphere": {
+      "id": "S2",
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": "ent_anysphere",
+        "months": 12,
+        "h2": 0.5
+      },
+      "labs": [
+        "ent_anthropic",
+        "ent_anysphere",
+        "ent_black_forest_labs",
+        "ent_cohere",
+        "ent_mistral",
+        "ent_motif",
+        "ent_openai",
+        "ent_reflection",
+        "ent_sakana",
+        "ent_spacex",
+        "ent_ssi",
+        "ent_thinking_machines",
+        "ent_upstage"
+      ],
+      "equity_losses": [],
+      "lapsed_commitments": [],
+      "guaranties_triggered_by_lab_default": [],
+      "at_risk_backlog": [],
+      "at_risk_backlog_total": 0,
+      "affected": [
+        "ent_anysphere"
+      ],
+      "not_computable": [
+        {
+          "relationship": "rel_anysphere_eq_2025",
+          "title": "Nvidia equity in Anysphere (Cursor), converted on SpaceX acquisition",
+          "reason": "No confirmed value for this stake."
+        }
+      ],
+      "ead": 0,
+      "loss": 0,
+      "loss_share_of_equity": 0.0,
+      "loss_share_of_fcf": 0.0,
+      "label": "analysis"
+    },
+    "ent_black_forest_labs": {
+      "id": "S2",
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": "ent_black_forest_labs",
+        "months": 12,
+        "h2": 0.5
+      },
+      "labs": [
+        "ent_anthropic",
+        "ent_anysphere",
+        "ent_black_forest_labs",
+        "ent_cohere",
+        "ent_mistral",
+        "ent_motif",
+        "ent_openai",
+        "ent_reflection",
+        "ent_sakana",
+        "ent_spacex",
+        "ent_ssi",
+        "ent_thinking_machines",
+        "ent_upstage"
+      ],
+      "equity_losses": [],
+      "lapsed_commitments": [],
+      "guaranties_triggered_by_lab_default": [],
+      "at_risk_backlog": [],
+      "at_risk_backlog_total": 0,
+      "affected": [
+        "ent_black_forest_labs"
+      ],
+      "not_computable": [
+        {
+          "relationship": "rel_black_forest_labs_eq_2025",
+          "title": "Nvidia equity in Black Forest Labs",
+          "reason": "No confirmed value for this stake."
+        }
+      ],
+      "ead": 0,
+      "loss": 0,
+      "loss_share_of_equity": 0.0,
+      "loss_share_of_fcf": 0.0,
+      "label": "analysis"
+    },
+    "ent_cohere": {
+      "id": "S2",
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": "ent_cohere",
+        "months": 12,
+        "h2": 0.5
+      },
+      "labs": [
+        "ent_anthropic",
+        "ent_anysphere",
+        "ent_black_forest_labs",
+        "ent_cohere",
+        "ent_mistral",
+        "ent_motif",
+        "ent_openai",
+        "ent_reflection",
+        "ent_sakana",
+        "ent_spacex",
+        "ent_ssi",
+        "ent_thinking_machines",
+        "ent_upstage"
+      ],
+      "equity_losses": [],
+      "lapsed_commitments": [],
+      "guaranties_triggered_by_lab_default": [],
+      "at_risk_backlog": [],
+      "at_risk_backlog_total": 0,
+      "affected": [
+        "ent_cohere"
+      ],
+      "not_computable": [
+        {
+          "relationship": "rel_cohere_eq_2025",
+          "title": "Nvidia equity in Cohere (repeat participation, 2025 and Series E 2026)",
+          "reason": "No confirmed value for this stake."
+        }
+      ],
+      "ead": 0,
+      "loss": 0,
+      "loss_share_of_equity": 0.0,
+      "loss_share_of_fcf": 0.0,
+      "label": "analysis"
+    },
+    "ent_mistral": {
+      "id": "S2",
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": "ent_mistral",
+        "months": 12,
+        "h2": 0.5
+      },
+      "labs": [
+        "ent_anthropic",
+        "ent_anysphere",
+        "ent_black_forest_labs",
+        "ent_cohere",
+        "ent_mistral",
+        "ent_motif",
+        "ent_openai",
+        "ent_reflection",
+        "ent_sakana",
+        "ent_spacex",
+        "ent_ssi",
+        "ent_thinking_machines",
+        "ent_upstage"
+      ],
+      "equity_losses": [],
+      "lapsed_commitments": [],
+      "guaranties_triggered_by_lab_default": [],
+      "at_risk_backlog": [],
+      "at_risk_backlog_total": 0,
+      "affected": [
+        "ent_mistral"
+      ],
+      "not_computable": [
+        {
+          "relationship": "rel_mistral_eq_2025",
+          "title": "Nvidia equity in Mistral AI (Series C participation)",
+          "reason": "No confirmed value for this stake."
+        }
+      ],
+      "ead": 0,
+      "loss": 0,
+      "loss_share_of_equity": 0.0,
+      "loss_share_of_fcf": 0.0,
+      "label": "analysis"
+    },
+    "ent_motif": {
+      "id": "S2",
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": "ent_motif",
+        "months": 12,
+        "h2": 0.5
+      },
+      "labs": [
+        "ent_anthropic",
+        "ent_anysphere",
+        "ent_black_forest_labs",
+        "ent_cohere",
+        "ent_mistral",
+        "ent_motif",
+        "ent_openai",
+        "ent_reflection",
+        "ent_sakana",
+        "ent_spacex",
+        "ent_ssi",
+        "ent_thinking_machines",
+        "ent_upstage"
+      ],
+      "equity_losses": [],
+      "lapsed_commitments": [
+        {
+          "relationship": "rel_motif_eqc_2026",
+          "title": "Planned Nvidia investment in Motif Technologies",
+          "headline": null,
+          "status": "loi_or_framework"
+        }
+      ],
+      "guaranties_triggered_by_lab_default": [],
+      "at_risk_backlog": [],
+      "at_risk_backlog_total": 0,
+      "affected": [
+        "ent_motif"
+      ],
+      "not_computable": [],
+      "ead": 0,
+      "loss": 0,
+      "loss_share_of_equity": 0.0,
+      "loss_share_of_fcf": 0.0,
+      "label": "analysis"
+    },
+    "ent_openai": {
+      "id": "S2",
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": "ent_openai",
+        "months": 12,
+        "h2": 0.5
+      },
+      "labs": [
+        "ent_anthropic",
+        "ent_anysphere",
+        "ent_black_forest_labs",
+        "ent_cohere",
+        "ent_mistral",
+        "ent_motif",
+        "ent_openai",
+        "ent_reflection",
+        "ent_sakana",
+        "ent_spacex",
+        "ent_ssi",
+        "ent_thinking_machines",
+        "ent_upstage"
+      ],
+      "equity_losses": [],
+      "lapsed_commitments": [
+        {
+          "relationship": "rel_openai_eqc_2025",
+          "title": "OpenAI letter of intent: up to $100 billion as each gigawatt is deployed",
+          "headline": 100000000000.0,
+          "status": "loi_or_framework"
+        }
+      ],
+      "guaranties_triggered_by_lab_default": [
+        {
+          "relationship": "rel_openai_gu_2026",
+          "cap": 105000000000,
+          "in_force": false,
+          "effective_note": "Not in force: each guaranty takes effect only when its PORTS-Pike building is completed and ready for service; the first is expected in Nvidia's fiscal 2029 (ev_120002, ev_120009). No payments have been made (ev_30023)."
+        }
+      ],
+      "at_risk_backlog": [
+        {
+          "counterparty": "ent_microsoft",
+          "description": "Incremental Azure services contracted under the October 2025 restructured Microsoft agreement (Microsoft 10-Q; same figure in OpenAI release ev_120102).",
+          "amount": 250000000000.0,
+          "kind": "contract",
+          "soft_amount": 0.0,
+          "as_of": "2025-10-28",
+          "evidence": [
+            "ev_120111"
+          ]
+        },
+        {
+          "counterparty": "ent_amazon",
+          "description": "AWS compute agreement announced 2025-11-03, with continued growth over seven years.",
+          "amount": 38000000000.0,
+          "kind": "contract",
+          "soft_amount": 0.0,
+          "as_of": "2025-11-03",
+          "evidence": [
+            "ev_120028"
+          ]
+        },
+        {
+          "counterparty": "ent_coreweave",
+          "description": "CoreWeave master services agreement of March 2025, up to about this amount through October 2030 (CoreWeave 10-K).",
+          "amount": 11900000000.0,
+          "kind": "contract",
+          "soft_amount": 11900000000.0,
+          "as_of": "2026-03-02",
+          "evidence": [
+            "ev_20199"
+          ]
+        },
+        {
+          "counterparty": "ent_coreweave",
+          "description": "CoreWeave order form of September 2025, up to about this amount through 31 May 2031 (CoreWeave 10-Q for Q3 2026).",
+          "amount": 6500000000.0,
+          "kind": "contract",
+          "soft_amount": 6500000000.0,
+          "as_of": "2026-11-12",
+          "evidence": [
+            "ev_20102"
+          ]
+        }
+      ],
+      "at_risk_backlog_total": 306400000000.0,
+      "affected": [
+        "ent_amazon",
+        "ent_amd",
+        "ent_broadcom",
+        "ent_coreweave",
+        "ent_microsoft",
+        "ent_openai",
+        "ent_sb_energy"
+      ],
+      "not_computable": [
+        {
+          "relationship": "rel_openai_eq_2026",
+          "title": "OpenAI 2026 funding round: Nvidia named for $30 billion",
+          "reason": "Equity loss not computable: $30 billion committed, paid amount not disclosed. At least $10 billion by 25 October 2026 (analysis: at least this much had been paid by that date if the commitment sits in Nvidia's $20 billion unfunded equity commitments total.)"
+        },
+        {
+          "entity": "ent_sb_energy",
+          "reason": "Commitment amount not confirmed: PORTS-Pike, Ohio: about 8 GW-IT under 17 leases of 20 years each, commencing in stages 2028 to 2032, rent payable only as completed capacity is delivered (ev_120022, ev_120023, ev_40098, ev_40099). SB Energy reports about $430 billion of data center backlog, a substantial majority from PORTS-Pike (ev_120109, ev_120036); the OpenAI rent total is not separately disclosed."
+        },
+        {
+          "entity": "ent_amd",
+          "reason": "Commitment amount not confirmed: 6 GW of AMD Instinct GPUs from the second half of 2026; no dollar amount disclosed (ev_120029)."
+        },
+        {
+          "entity": "ent_broadcom",
+          "reason": "Commitment amount not confirmed: 10 GW of OpenAI-designed accelerators with Broadcom through 2029; no dollar amount disclosed (ev_120030)."
+        }
+      ],
+      "ead": 0,
+      "loss": 0,
+      "loss_share_of_equity": 0.0,
+      "loss_share_of_fcf": 0.0,
+      "label": "analysis"
+    },
+    "ent_reflection": {
+      "id": "S2",
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": "ent_reflection",
+        "months": 12,
+        "h2": 0.5
+      },
+      "labs": [
+        "ent_anthropic",
+        "ent_anysphere",
+        "ent_black_forest_labs",
+        "ent_cohere",
+        "ent_mistral",
+        "ent_motif",
+        "ent_openai",
+        "ent_reflection",
+        "ent_sakana",
+        "ent_spacex",
+        "ent_ssi",
+        "ent_thinking_machines",
+        "ent_upstage"
+      ],
+      "equity_losses": [],
+      "lapsed_commitments": [],
+      "guaranties_triggered_by_lab_default": [],
+      "at_risk_backlog": [],
+      "at_risk_backlog_total": 0,
+      "affected": [
+        "ent_reflection"
+      ],
+      "not_computable": [
+        {
+          "relationship": "rel_reflection_eq_2025",
+          "title": "Nvidia equity in Reflection AI",
+          "reason": "No confirmed value for this stake."
+        }
+      ],
+      "ead": 0,
+      "loss": 0,
+      "loss_share_of_equity": 0.0,
+      "loss_share_of_fcf": 0.0,
+      "label": "analysis"
+    },
+    "ent_sakana": {
+      "id": "S2",
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": "ent_sakana",
+        "months": 12,
+        "h2": 0.5
+      },
+      "labs": [
+        "ent_anthropic",
+        "ent_anysphere",
+        "ent_black_forest_labs",
+        "ent_cohere",
+        "ent_mistral",
+        "ent_motif",
+        "ent_openai",
+        "ent_reflection",
+        "ent_sakana",
+        "ent_spacex",
+        "ent_ssi",
+        "ent_thinking_machines",
+        "ent_upstage"
+      ],
+      "equity_losses": [],
+      "lapsed_commitments": [],
+      "guaranties_triggered_by_lab_default": [],
+      "at_risk_backlog": [],
+      "at_risk_backlog_total": 0,
+      "affected": [
+        "ent_sakana"
+      ],
+      "not_computable": [
+        {
+          "relationship": "rel_sakana_eq_2024",
+          "title": "Nvidia equity in Sakana AI (Series A participation)",
+          "reason": "No confirmed value for this stake."
+        }
+      ],
+      "ead": 0,
+      "loss": 0,
+      "loss_share_of_equity": 0.0,
+      "loss_share_of_fcf": 0.0,
+      "label": "analysis"
+    },
+    "ent_spacex": {
+      "id": "S2",
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": "ent_spacex",
+        "months": 12,
+        "h2": 0.5
+      },
+      "labs": [
+        "ent_anthropic",
+        "ent_anysphere",
+        "ent_black_forest_labs",
+        "ent_cohere",
+        "ent_mistral",
+        "ent_motif",
+        "ent_openai",
+        "ent_reflection",
+        "ent_sakana",
+        "ent_spacex",
+        "ent_ssi",
+        "ent_thinking_machines",
+        "ent_upstage"
+      ],
+      "equity_losses": [
+        {
+          "relationship": "rel_spacex_eq_2026",
+          "basis": "market_value",
+          "value": 19683145466.0,
+          "loss": 9841572733.0
+        }
+      ],
+      "lapsed_commitments": [],
+      "guaranties_triggered_by_lab_default": [],
+      "at_risk_backlog": [
+        {
+          "counterparty": "ent_valor",
+          "description": "Three equipment leases of computing equipment from Valor, guaranteed by SpaceX; aggregate cash payments over the lease lives (424B4). Recorded as failed sale-leaseback debt.",
+          "amount": 20206000000.0,
+          "kind": "lease",
+          "soft_amount": 0.0,
+          "as_of": "2026-06-12",
+          "evidence": [
+            "ev_120075",
+            "ev_120076",
+            "ev_120077"
+          ]
+        },
+        {
+          "counterparty": "ent_apollo",
+          "description": "Binding commitment letter of 2026-10-24 for a master finance lease of GPU pods from an Apollo-managed lessor; aggregate principal payments; subject to closing conditions; schedules commence in the first half of 2027.",
+          "amount": 40000000000.0,
+          "kind": "lease",
+          "soft_amount": 0.0,
+          "as_of": "2026-10-26",
+          "evidence": [
+            "ev_120094"
+          ]
+        }
+      ],
+      "at_risk_backlog_total": 60206000000.0,
+      "affected": [
+        "ent_apollo",
+        "ent_spacex",
+        "ent_valor"
+      ],
+      "not_computable": [],
+      "ead": 19683145466.0,
+      "loss": 9841572733.0,
+      "loss_share_of_equity": 0.036905990013725035,
+      "loss_share_of_fcf": 0.06624020846850727,
+      "label": "analysis"
+    },
+    "ent_ssi": {
+      "id": "S2",
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": "ent_ssi",
+        "months": 12,
+        "h2": 0.5
+      },
+      "labs": [
+        "ent_anthropic",
+        "ent_anysphere",
+        "ent_black_forest_labs",
+        "ent_cohere",
+        "ent_mistral",
+        "ent_motif",
+        "ent_openai",
+        "ent_reflection",
+        "ent_sakana",
+        "ent_spacex",
+        "ent_ssi",
+        "ent_thinking_machines",
+        "ent_upstage"
+      ],
+      "equity_losses": [],
+      "lapsed_commitments": [],
+      "guaranties_triggered_by_lab_default": [],
+      "at_risk_backlog": [],
+      "at_risk_backlog_total": 0,
+      "affected": [
+        "ent_nvidia",
+        "ent_ssi"
+      ],
+      "not_computable": [
+        {
+          "relationship": "rel_ssi_eq_2026",
+          "title": "Nvidia equity investment in Safe Superintelligence",
+          "reason": "No confirmed value for this stake."
+        },
+        {
+          "entity": "ent_nvidia",
+          "reason": "Commitment amount not confirmed: Access to Nvidia Vera Rubin systems to increase SSI's compute by an order of magnitude (ev_30060); amount and provider not stated."
+        }
+      ],
+      "ead": 0,
+      "loss": 0,
+      "loss_share_of_equity": 0.0,
+      "loss_share_of_fcf": 0.0,
+      "label": "analysis"
+    },
+    "ent_thinking_machines": {
+      "id": "S2",
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": "ent_thinking_machines",
+        "months": 12,
+        "h2": 0.5
+      },
+      "labs": [
+        "ent_anthropic",
+        "ent_anysphere",
+        "ent_black_forest_labs",
+        "ent_cohere",
+        "ent_mistral",
+        "ent_motif",
+        "ent_openai",
+        "ent_reflection",
+        "ent_sakana",
+        "ent_spacex",
+        "ent_ssi",
+        "ent_thinking_machines",
+        "ent_upstage"
+      ],
+      "equity_losses": [],
+      "lapsed_commitments": [],
+      "guaranties_triggered_by_lab_default": [],
+      "at_risk_backlog": [],
+      "at_risk_backlog_total": 0,
+      "affected": [
+        "ent_nvidia",
+        "ent_thinking_machines"
+      ],
+      "not_computable": [
+        {
+          "relationship": "rel_thinking_machines_eq_2026",
+          "title": "Nvidia equity in Thinking Machines Lab, tied to a gigawatt Vera Rubin deployment",
+          "reason": "No confirmed value for this stake."
+        },
+        {
+          "entity": "ent_nvidia",
+          "reason": "Commitment amount not confirmed: Multiyear partnership to deploy at least one gigawatt of Nvidia Vera Rubin systems, targeted for early 2027 (ev_30058, ev_90046). No dollar amount stated."
+        }
+      ],
+      "ead": 0,
+      "loss": 0,
+      "loss_share_of_equity": 0.0,
+      "loss_share_of_fcf": 0.0,
+      "label": "analysis"
+    },
+    "ent_upstage": {
+      "id": "S2",
+      "name": "Lab funding gap",
+      "parameters": {
+        "lab": "ent_upstage",
+        "months": 12,
+        "h2": 0.5
+      },
+      "labs": [
+        "ent_anthropic",
+        "ent_anysphere",
+        "ent_black_forest_labs",
+        "ent_cohere",
+        "ent_mistral",
+        "ent_motif",
+        "ent_openai",
+        "ent_reflection",
+        "ent_sakana",
+        "ent_spacex",
+        "ent_ssi",
+        "ent_thinking_machines",
+        "ent_upstage"
+      ],
+      "equity_losses": [],
+      "lapsed_commitments": [
+        {
+          "relationship": "rel_upstage_eqc_2026",
+          "title": "Planned Nvidia investment in Upstage",
+          "headline": null,
+          "status": "loi_or_framework"
+        }
+      ],
+      "guaranties_triggered_by_lab_default": [],
+      "at_risk_backlog": [],
+      "at_risk_backlog_total": 0,
+      "affected": [
+        "ent_upstage"
+      ],
+      "not_computable": [],
+      "ead": 0,
+      "loss": 0,
+      "loss_share_of_equity": 0.0,
+      "loss_share_of_fcf": 0.0,
+      "label": "analysis"
+    }
+  },
+  "S3": {
+    "id": "S3",
+    "name": "Collateral repricing",
+    "parameters": {
+      "v": -0.4
+    },
+    "facilities": [
+      {
+        "project": "proj_coreweave_ddtl4",
+        "entity": "ent_coreweave",
+        "facility": "DDTL 4.0 (up to $8.5 billion, $7.5 billion initially, March 2026)",
+        "ltv_before": 0.8813461538461539,
+        "ltv_after": 1.4689102564102565,
+        "covenant_ltv": null,
+        "over_covenant": null
+      }
+    ],
+    "affected": [
+      "ent_coreweave"
+    ],
+    "not_computable": [
+      {
+        "project": "proj_coreweave_ddtl1",
+        "facility": "DDTL 1.0 (up to $2.3 billion, July 2023)",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      },
+      {
+        "project": "proj_coreweave_ddtl2",
+        "facility": "DDTL 2.0 (up to $7.6 billion, May 2024)",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      },
+      {
+        "project": "proj_coreweave_ddtl2",
+        "facility": "DDTL 2.1 tranche (up to $3 billion, September 2025)",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      },
+      {
+        "project": "proj_coreweave_ddtl3_phoenix1",
+        "facility": "DDTL 3.0 (up to $2.6 billion, July 2025; First Amendment 2025-12-31)",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      },
+      {
+        "project": "proj_coreweave_ddtl5",
+        "facility": "DDTL 5.0 ($3.1 billion, May 2026)",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      },
+      {
+        "project": "proj_coreweave_ddtl55",
+        "facility": "DDTL 5.5 ($2.6 billion, August 2026)",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      },
+      {
+        "project": "proj_nscale_ward_county",
+        "facility": "Ward County GPU Facility (delayed draw term loan, August 2026; $630 million fixed plus $1.22 billion floating; SOFR plus 2.375%; matures February 2033)",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      },
+      {
+        "project": "proj_nscale_north_carolina",
+        "facility": "North Carolina GPU Facility (delayed draw term loan, August 2026; $370 million fixed plus $830 million floating; SOFR plus 2.375%; matures December 2031)",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      },
+      {
+        "project": "proj_nscale_iceland",
+        "facility": "Macquarie Iceland Facility (delayed draw term loan, July 2026; $331.9 million; SOFR plus 5.50% plus a MOIC feature; 46 months)",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      },
+      {
+        "project": "proj_nscale_kvandal_south",
+        "facility": "Kvandal South DC term loan ($725 million, SOFR plus 3.00% to 3.75%) and VAT facility ($65 million), July 2026",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      },
+      {
+        "project": "proj_nscale_glomfjord",
+        "facility": "Macquarie Senior Facility (June 2025; term loan and letter of credit facility)",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      },
+      {
+        "project": "proj_iren_childress",
+        "facility": "GPU Financing 1.0 (May 2026; DDTL $1.5 billion at SOFR plus 2.25% and $2.1 billion US private placement notes; non-recourse; matures 2031-12-31)",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      },
+      {
+        "project": "proj_firmus_southgate",
+        "facility": "US$10 billion debt financing facility led by Blackstone funds, supported by Coatue",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      },
+      {
+        "project": "proj_crusoe_abilene",
+        "facility": "Joint venture with Blue Owl Real Assets funds and Primary Digital Infrastructure (second phase of a $15 billion joint venture)",
+        "reason": "Needs both a sourced balance and a sourced collateral value."
+      }
+    ],
+    "ead": 0.0,
+    "loss": 0.0,
+    "loss_share_of_equity": 0.0,
+    "loss_share_of_fcf": 0.0,
+    "nvidia_loss_note": "Collateral repricing hits lenders first. Nvidia's loss is indirect and is not estimated here.",
+    "label": "analysis"
+  }
+}

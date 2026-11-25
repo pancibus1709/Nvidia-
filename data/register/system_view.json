@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "label": "analysis",
   "totals": {
     "funded": 30196314380.28435,
@@ -208,7 +208,7 @@
   ],
   "source_mix": {
     "evidence_by_tier": {
-      "1": 1295,
+      "1": 1289,
       "2": 6
     },
     "one_sided_relationships": 53,

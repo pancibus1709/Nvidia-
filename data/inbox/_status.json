@@ -1,0 +1,111 @@
+{
+  "staleness": {
+    "consecutive_failures": 0,
+    "last_run": "2026-11-25T02:13:09Z",
+    "last_ok": "2026-11-25T02:13:09Z",
+    "last_hits": 0,
+    "last_new": 0,
+    "warnings": [],
+    "manual_checks": [],
+    "since": "2026-11-24",
+    "alert": false
+  },
+  "ratings": {
+    "consecutive_failures": 0,
+    "last_run": "2026-11-25T02:13:09Z",
+    "last_ok": "2026-11-25T02:13:09Z",
+    "last_hits": 0,
+    "last_new": 0,
+    "warnings": [],
+    "manual_checks": [
+      "Moody's: no public page configured; check rating actions by hand for Intel, Lambda, Microsoft, Nokia",
+      "S&P Global Ratings: no public page configured; check rating actions by hand for Intel, Lambda, Microsoft, Nokia",
+      "Fitch: no public page configured; check rating actions by hand for Intel, Lambda, Microsoft, Nokia"
+    ],
+    "since": "2026-11-23",
+    "alert": false
+  },
+  "liens": {
+    "consecutive_failures": 0,
+    "last_run": "2026-11-25T02:13:09Z",
+    "last_ok": "2026-11-25T02:13:09Z",
+    "last_hits": 0,
+    "last_new": 0,
+    "warnings": [],
+    "manual_checks": [
+      "Delaware UCC search needs a login: search the counterparties by hand at https://icis.corp.delaware.gov/",
+      "California UCC search needs a login: search the counterparties by hand at https://bizfileonline.sos.ca.gov/",
+      "no Companies House numbers are configured in config/watch_sources.json (companies_house)"
+    ],
+    "since": "2026-10-21",
+    "alert": false
+  },
+  "ir_releases": {
+    "consecutive_failures": 0,
+    "last_run": "2026-11-25T02:13:09Z",
+    "last_ok": "2026-11-25T02:13:09Z",
+    "last_hits": 2,
+    "last_new": 2,
+    "warnings": [],
+    "manual_checks": [
+      "no release feed is configured for 65 counterparties; check their newsrooms by hand: Amkor, Anthropic, Applied Digital, Arm, Black Forest Labs, Brookfield AI Infrastructure Fund, CFS, Cohere, Coherent, CoreWeave, Corning, Crusoe, Cursor, Databricks, Figure, Firmus, Generate Biomedicines, Google, Helix, IBIDEN, IREN, Iambic, Intel, KYEC, Lambda, Lumentum, Marvell, Meta, Microsoft, Mistral, Motif Technologies, NAVER, Nano-X, Nebius, Nokia, Nscale, OpenAI, Point2, PsiQuantum, Quantinuum, RLWRLD, Recursion, Reflection, SB Energy, SPIL, SSI, Sakana AI, Scale AI, Serve Robotics, SharonAI, Skild AI, SoundHound, SpaceX, Synopsys, TerraPower, Thinking Machines, Together AI, TuSimple, UK startup program, Unattributed, Unimicron, Upstage, Wayve, WeRide, six financing platforms"
+    ],
+    "since": "2026-11-22",
+    "alert": false
+  },
+  "market_values": {
+    "consecutive_failures": 0,
+    "last_run": "2026-11-25T02:13:17Z",
+    "last_ok": "2026-11-25T02:13:17Z",
+    "last_hits": 10,
+    "last_new": 10,
+    "warnings": [],
+    "manual_checks": [],
+    "since": "2026-11-24",
+    "alert": false
+  },
+  "nvda_filings": {
+    "consecutive_failures": 0,
+    "last_run": "2026-11-25T02:13:20Z",
+    "last_ok": "2026-11-25T02:13:20Z",
+    "last_hits": 1,
+    "last_new": 1,
+    "warnings": [],
+    "manual_checks": [],
+    "since": "2026-11-20",
+    "alert": false
+  },
+  "ownership_filings": {
+    "consecutive_failures": 0,
+    "last_run": "2026-11-25T02:13:20Z",
+    "last_ok": "2026-11-25T02:13:20Z",
+    "last_hits": 1,
+    "last_new": 1,
+    "warnings": [],
+    "manual_checks": [],
+    "since": "2026-11-20",
+    "alert": false
+  },
+  "nvda_13f": {
+    "consecutive_failures": 0,
+    "last_run": "2026-11-25T02:13:23Z",
+    "last_ok": "2026-11-25T02:13:23Z",
+    "last_hits": 1,
+    "last_new": 1,
+    "warnings": [],
+    "manual_checks": [],
+    "since": "2026-11-11",
+    "alert": false
+  },
+  "earnings_calendar": {
+    "consecutive_failures": 0,
+    "last_run": "2026-11-25T02:13:23Z",
+    "last_ok": "2026-11-25T02:13:23Z",
+    "last_hits": 41,
+    "last_new": 41,
+    "warnings": [],
+    "manual_checks": [],
+    "since": "2026-08-17",
+    "alert": false
+  }
+}

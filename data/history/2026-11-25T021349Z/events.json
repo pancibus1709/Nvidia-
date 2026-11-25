@@ -1,0 +1,1419 @@
+[
+  {
+    "id": "evt_coreweave_msa_2023",
+    "date": "2023-04-10",
+    "relationship": "rel_coreweave_lb_2023",
+    "kind": "signing",
+    "summary": "CoreWeave and Nvidia sign the master services agreement under which Nvidia rents CoreWeave capacity.",
+    "evidence": [
+      "ev_20003",
+      "ev_20146"
+    ]
+  },
+  {
+    "id": "evt_recursion_pipe_2023",
+    "date": "2023-07-11",
+    "relationship": "rel_recursion_eq_2023",
+    "kind": "closing",
+    "summary": "Recursion sells 7,706,363 shares to Nvidia for about $50 million in a private placement.",
+    "evidence": [
+      "ev_90017"
+    ]
+  },
+  {
+    "id": "evt_together_series_a",
+    "date": "2023-11-29",
+    "relationship": "rel_together_ai_eq_2023",
+    "kind": "announcement",
+    "summary": "Together AI announces its Series A with NVIDIA participating.",
+    "evidence": [
+      "ev_110053"
+    ]
+  },
+  {
+    "id": "evt_arm_first_13f",
+    "date": "2023-12-31",
+    "relationship": "rel_arm_eq_2023",
+    "kind": "holding_change",
+    "summary": "Nvidia's first 13F listed 1,960,784 Arm ADS.",
+    "evidence": [
+      "ev_50001"
+    ]
+  },
+  {
+    "id": "evt_iambic_series_b_2023",
+    "date": "2023-12-31",
+    "relationship": "rel_iambic_eq_2023",
+    "kind": "closing",
+    "summary": "Iambic completes its Series B, sold from September to December 2023, with Nvidia buying $20.0 million of preferred stock.",
+    "evidence": [
+      "ev_170001",
+      "ev_170007"
+    ]
+  },
+  {
+    "id": "evt_recursion_13f_first",
+    "date": "2024-02-14",
+    "relationship": "rel_recursion_eq_2023",
+    "kind": "holding_change",
+    "summary": "Recursion first appears on Nvidia's 13F-HR, for the quarter ended 2023-12-31.",
+    "evidence": [
+      "ev_50003"
+    ]
+  },
+  {
+    "id": "evt_soundhound_13f_first",
+    "date": "2024-02-14",
+    "relationship": "rel_soundhound_eq_2023",
+    "kind": "holding_change",
+    "summary": "SoundHound first appears on Nvidia's 13F-HR, for the quarter ended 2023-12-31.",
+    "evidence": [
+      "ev_50005"
+    ]
+  },
+  {
+    "id": "evt_tusimple_13f_first",
+    "date": "2024-02-14",
+    "relationship": "rel_tusimple_eq_2023",
+    "kind": "holding_change",
+    "summary": "TuSimple first appears on Nvidia's 13F-HR, for the quarter ended 2023-12-31.",
+    "evidence": [
+      "ev_50007"
+    ]
+  },
+  {
+    "id": "evt_nano_x_13f_first",
+    "date": "2024-02-14",
+    "relationship": "rel_nano_x_eq_2023",
+    "kind": "holding_change",
+    "summary": "Nano-X first appears on Nvidia's 13F-HR, for the quarter ended 2023-12-31.",
+    "evidence": [
+      "ev_50008"
+    ]
+  },
+  {
+    "id": "evt_wayve_series_c_2024",
+    "date": "2024-05-07",
+    "relationship": "rel_wayve_eq_2024",
+    "kind": "closing",
+    "summary": "Wayve announces a $1.05 billion Series C with Nvidia as a new investor.",
+    "evidence": [
+      "ev_90038",
+      "ev_90039"
+    ]
+  },
+  {
+    "id": "evt_tusimple_13f_exit",
+    "date": "2024-05-15",
+    "relationship": "rel_tusimple_eq_2023",
+    "kind": "holding_change",
+    "summary": "TuSimple no longer appears on Nvidia's 13F-HR for the quarter ended 2024-03-31, an exit.",
+    "evidence": [
+      "ev_90014"
+    ]
+  },
+  {
+    "id": "evt_serve_robotics_13f_first",
+    "date": "2024-08-14",
+    "relationship": "rel_serve_robotics_eq_2022",
+    "kind": "holding_change",
+    "summary": "Serve Robotics first appears on Nvidia's 13F-HR, for the quarter ended 2024-06-30.",
+    "evidence": [
+      "ev_50010"
+    ]
+  },
+  {
+    "id": "evt_apld_placement_2024",
+    "date": "2024-09-10",
+    "relationship": "rel_applied_digital_eq_2024",
+    "kind": "announcement",
+    "summary": "Applied Digital announces a $160 million private placement with investors including Nvidia and Related Companies.",
+    "evidence": [
+      "ev_40138",
+      "ev_80026"
+    ]
+  },
+  {
+    "id": "evt_apld_13f_first_2024",
+    "date": "2024-09-30",
+    "relationship": "rel_applied_digital_eq_2024",
+    "kind": "holding_change",
+    "summary": "Applied Digital first appears in Nvidia's 13F with 7,716,050 shares.",
+    "evidence": [
+      "ev_50012"
+    ]
+  },
+  {
+    "id": "evt_crusoe_series_d",
+    "date": "2024-12-12",
+    "relationship": "rel_crusoe_eq_2024",
+    "kind": "closing",
+    "summary": "Crusoe closes its Series D with NVIDIA participating.",
+    "evidence": [
+      "ev_110016"
+    ]
+  },
+  {
+    "id": "evt_nebius_13f_first_2024",
+    "date": "2024-12-31",
+    "relationship": "rel_nebius_eq_2024",
+    "kind": "holding_change",
+    "summary": "Nebius first appears in Nvidia's 13F with 1,190,476 Class A shares.",
+    "evidence": [
+      "ev_50014"
+    ]
+  },
+  {
+    "id": "evt_soundhound_13f_exit",
+    "date": "2025-02-14",
+    "relationship": "rel_soundhound_eq_2023",
+    "kind": "holding_change",
+    "summary": "SoundHound no longer appears on Nvidia's 13F-HR for the quarter ended 2024-12-31, an exit.",
+    "evidence": [
+      "ev_90015"
+    ]
+  },
+  {
+    "id": "evt_nano_x_13f_exit",
+    "date": "2025-02-14",
+    "relationship": "rel_nano_x_eq_2023",
+    "kind": "holding_change",
+    "summary": "Nano-X no longer appears on Nvidia's 13F-HR for the quarter ended 2024-12-31, an exit.",
+    "evidence": [
+      "ev_90015"
+    ]
+  },
+  {
+    "id": "evt_serve_robotics_13f_exit",
+    "date": "2025-02-14",
+    "relationship": "rel_serve_robotics_eq_2022",
+    "kind": "holding_change",
+    "summary": "Serve Robotics no longer appears on Nvidia's 13F-HR for the quarter ended 2024-12-31, an exit.",
+    "evidence": [
+      "ev_50111"
+    ]
+  },
+  {
+    "id": "evt_weride_13f_first",
+    "date": "2025-02-14",
+    "relationship": "rel_weride_eq_2017",
+    "kind": "holding_change",
+    "summary": "WeRide first appears on Nvidia's 13F-HR, for the quarter ended 2024-12-31.",
+    "evidence": [
+      "ev_50016"
+    ]
+  },
+  {
+    "id": "evt_lambda_series_d",
+    "date": "2025-02-19",
+    "relationship": "rel_lambda_eq_2025",
+    "kind": "announcement",
+    "summary": "Lambda announces its Series D with NVIDIA among new investors.",
+    "evidence": [
+      "ev_110001"
+    ]
+  },
+  {
+    "id": "evt_together_series_b",
+    "date": "2025-02-20",
+    "relationship": "rel_together_ai_eq_2025",
+    "kind": "announcement",
+    "summary": "Together AI announces its Series B with NVIDIA participating.",
+    "evidence": [
+      "ev_110055"
+    ]
+  },
+  {
+    "id": "evt_coreweave_ipo_2025",
+    "date": "2025-03-31",
+    "relationship": "rel_coreweave_eq_2025",
+    "kind": "filing",
+    "summary": "CoreWeave's IPO prospectus lists Nvidia as holder of 17,932,460 Class A shares before the offering, with $320 million paid under the MSA to date.",
+    "evidence": [
+      "ev_20030",
+      "ev_20033"
+    ]
+  },
+  {
+    "id": "evt_coreweave_13g_2025",
+    "date": "2025-05-15",
+    "relationship": "rel_coreweave_eq_2025",
+    "kind": "holding_change",
+    "summary": "Nvidia's first 13G and 13F report 24,182,460 CoreWeave shares, 7.0% of Class A, at 31 March 2025.",
+    "evidence": [
+      "ev_20017",
+      "ev_20018",
+      "ev_50018"
+    ]
+  },
+  {
+    "id": "evt_coreweave_reclass_2025",
+    "date": "2025-05-28",
+    "relationship": "rel_coreweave_eq_2025",
+    "kind": "filing",
+    "summary": "Nvidia's 10-Q reports its CoreWeave stake moved from non-marketable to marketable securities, at fair value of $1 billion.",
+    "evidence": [
+      "ev_10186",
+      "ev_10187",
+      "ev_10185"
+    ]
+  },
+  {
+    "id": "evt_google_backstop",
+    "date": "2025-08-13",
+    "relationship": "rel_google_cx_2025",
+    "kind": "signing",
+    "summary": "Google agrees to backstop Fluidstack lease obligations at TeraWulf.",
+    "evidence": [
+      "ev_100047"
+    ]
+  },
+  {
+    "id": "evt_cohere_aug2025_round",
+    "date": "2025-08-14",
+    "relationship": "rel_cohere_eq_2025",
+    "kind": "closing",
+    "summary": "Cohere announces a $500 million round with Nvidia among participating existing investors.",
+    "evidence": [
+      "ev_90031",
+      "ev_90032"
+    ]
+  },
+  {
+    "id": "evt_coreweave_13f_q2_2025",
+    "date": "2025-08-14",
+    "relationship": "rel_coreweave_eq_2025",
+    "kind": "holding_change",
+    "summary": "Nvidia's 13F reports 24,277,573 CoreWeave shares at 30 June 2025, up 95,113 from March.",
+    "evidence": [
+      "ev_70014"
+    ]
+  },
+  {
+    "id": "evt_mistral_series_c_2025",
+    "date": "2025-09-09",
+    "relationship": "rel_mistral_eq_2025",
+    "kind": "closing",
+    "summary": "Mistral announces its Series C with Nvidia among participating existing investors.",
+    "evidence": [
+      "ev_90026"
+    ]
+  },
+  {
+    "id": "evt_coreweave_order_2025",
+    "date": "2025-09-09",
+    "relationship": "rel_coreweave_bk_2025",
+    "kind": "signing",
+    "summary": "Nvidia signs an order form with an initial value of $6.3 billion to purchase CoreWeave's residual unsold capacity through 13 April 2032.",
+    "evidence": [
+      "ev_20001",
+      "ev_20002",
+      "ev_20004"
+    ]
+  },
+  {
+    "id": "evt_coreweave_order_8k_2025",
+    "date": "2025-09-15",
+    "relationship": "rel_coreweave_bk_2025",
+    "kind": "filing",
+    "summary": "CoreWeave files an 8-K disclosing the Nvidia order and its insolvency termination terms.",
+    "evidence": [
+      "ev_20006",
+      "ev_20007"
+    ]
+  },
+  {
+    "id": "evt_intel_spa_signed",
+    "date": "2025-09-15",
+    "relationship": "rel_intel_eq_2025",
+    "kind": "signing",
+    "summary": "Intel and Nvidia signed a securities purchase agreement for 214,776,632 Intel shares at $23.28.",
+    "evidence": [
+      "ev_60001"
+    ]
+  },
+  {
+    "id": "evt_firmus_placement",
+    "date": "2025-09-16",
+    "relationship": "rel_firmus_eq_2025",
+    "kind": "closing",
+    "summary": "Firmus closes an Australian dollar placement with NVIDIA participation.",
+    "evidence": [
+      "ev_110062"
+    ]
+  },
+  {
+    "id": "evt_wayve_loi_2025",
+    "date": "2025-09-18",
+    "relationship": "rel_wayve_eqc_2025",
+    "kind": "announcement",
+    "summary": "Wayve signs a letter of intent with Nvidia to evaluate a $500 million investment.",
+    "evidence": [
+      "ev_90036"
+    ]
+  },
+  {
+    "id": "evt_intel_announced",
+    "date": "2025-09-18",
+    "relationship": "rel_intel_eq_2025",
+    "kind": "announcement",
+    "summary": "Intel and Nvidia announced the $5 billion investment and joint x86 and RTX product plans.",
+    "evidence": [
+      "ev_60023",
+      "ev_30033"
+    ]
+  },
+  {
+    "id": "evt_openai_loi_announced",
+    "date": "2025-09-22",
+    "relationship": "rel_openai_eqc_2025",
+    "kind": "announcement",
+    "summary": "Nvidia and OpenAI sign a letter of intent: Nvidia intends to invest up to $100 billion as each gigawatt is deployed.",
+    "evidence": [
+      "ev_30021",
+      "ev_120020"
+    ]
+  },
+  {
+    "id": "evt_coreweave_msa_filed_2025",
+    "date": "2025-09-25",
+    "relationship": "rel_coreweave_lb_2023",
+    "kind": "filing",
+    "summary": "CoreWeave files the Nvidia master services agreement as an exhibit to its S-4/A.",
+    "evidence": [
+      "ev_20016",
+      "ev_20015"
+    ]
+  },
+  {
+    "id": "evt_arm_last_13f",
+    "date": "2025-09-30",
+    "relationship": "rel_arm_eq_2023",
+    "kind": "holding_change",
+    "summary": "Nvidia's 13F listed 1,101,249 Arm ADS for the last time before its exit.",
+    "evidence": [
+      "ev_50002"
+    ]
+  },
+  {
+    "id": "evt_nscale_series_b_2025",
+    "date": "2025-10-08",
+    "relationship": "rel_nscale_eq_2025",
+    "kind": "closing",
+    "summary": "Nscale issues Series B preferred shares; Nvidia buys 63,177,840 of them for $400.0 million.",
+    "evidence": [
+      "ev_80032",
+      "ev_80030"
+    ]
+  },
+  {
+    "id": "evt_nscale_guarantee_2025",
+    "date": "2025-10-14",
+    "relationship": "rel_nscale_gu_2025",
+    "kind": "signing",
+    "summary": "Nvidia signs the Guarantee of Lease Agreement for Nscale's Ward County, Texas facility and receives Series B warrants.",
+    "evidence": [
+      "ev_40046",
+      "ev_40006"
+    ]
+  },
+  {
+    "id": "evt_crusoe_series_e",
+    "date": "2025-10-24",
+    "relationship": "rel_crusoe_eq_2025",
+    "kind": "closing",
+    "summary": "Crusoe announces the initial closing of its Series E with NVIDIA participating.",
+    "evidence": [
+      "ev_110018"
+    ]
+  },
+  {
+    "id": "evt_nokia_announced",
+    "date": "2025-10-28",
+    "relationship": "rel_nokia_eq_2025",
+    "kind": "announcement",
+    "summary": "Nokia's board resolved to issue 166,389,351 shares to Nvidia at $6.01 per share.",
+    "evidence": [
+      "ev_60036",
+      "ev_30038"
+    ]
+  },
+  {
+    "id": "evt_nokia_closed",
+    "date": "2025-11-13",
+    "relationship": "rel_nokia_eq_2025",
+    "kind": "closing",
+    "summary": "Nokia completed the directed share issue to Nvidia.",
+    "evidence": [
+      "ev_60041"
+    ]
+  },
+  {
+    "id": "evt_anthropic_announced",
+    "date": "2025-11-18",
+    "relationship": "rel_anthropic_eqc_2025",
+    "kind": "announcement",
+    "summary": "Nvidia and Microsoft commit to invest up to $10 billion and up to $5 billion in Anthropic.",
+    "evidence": [
+      "ev_30050",
+      "ev_120062"
+    ]
+  },
+  {
+    "id": "evt_ms_anthropic",
+    "date": "2025-11-18",
+    "relationship": "rel_microsoft_cx_2025",
+    "kind": "announcement",
+    "summary": "Microsoft and Nvidia commit to invest in Anthropic, which commits to buy Azure compute.",
+    "evidence": [
+      "ev_30050"
+    ]
+  },
+  {
+    "id": "evt_openai_loi_10q",
+    "date": "2025-11-19",
+    "relationship": "rel_openai_eqc_2025",
+    "kind": "filing",
+    "summary": "Nvidia's Q3 FY26 10-Q describes a letter of intent with an opportunity to invest in OpenAI.",
+    "evidence": [
+      "ev_10156"
+    ]
+  },
+  {
+    "id": "evt_anthropic_10q",
+    "date": "2025-11-19",
+    "relationship": "rel_anthropic_eqc_2025",
+    "kind": "filing",
+    "summary": "Nvidia's 10-Q states it agreed, subject to closing conditions, to invest up to $10 billion in Anthropic.",
+    "evidence": [
+      "ev_10157"
+    ]
+  },
+  {
+    "id": "evt_nvidia_10q_guarantee_2025",
+    "date": "2025-11-19",
+    "relationship": "rel_nscale_gu_2025",
+    "kind": "filing",
+    "summary": "Nvidia's 10-Q reports its first facility lease guarantee, $860 million maximum, with a $470 million partner escrow, without naming the partner.",
+    "evidence": [
+      "ev_10159",
+      "ev_10160"
+    ]
+  },
+  {
+    "id": "evt_baiif_launch",
+    "date": "2025-11-19",
+    "relationship": "rel_brookfield_baiif_lp_2025",
+    "kind": "announcement",
+    "summary": "Brookfield launches its AI infrastructure program and fund with commitments including Nvidia.",
+    "evidence": [
+      "ev_100034"
+    ]
+  },
+  {
+    "id": "evt_synopsys_closed",
+    "date": "2025-12-01",
+    "relationship": "rel_synopsys_eq_2025",
+    "kind": "closing",
+    "summary": "Nvidia bought 4,821,717 Synopsys shares at $414.79 for $2 billion.",
+    "evidence": [
+      "ev_60042",
+      "ev_60045"
+    ]
+  },
+  {
+    "id": "evt_intel_closed",
+    "date": "2025-12-26",
+    "relationship": "rel_intel_eq_2025",
+    "kind": "closing",
+    "summary": "Intel completed the sale of 214,776,632 shares to Nvidia for $5.0 billion.",
+    "evidence": [
+      "ev_60005",
+      "ev_60006"
+    ]
+  },
+  {
+    "id": "evt_coreweave_ddtl3_amend_2025",
+    "date": "2025-12-31",
+    "relationship": "rel_coreweave_bk_2025",
+    "kind": "amendment",
+    "summary": "CoreWeave amends DDTL 3.0 for delivery delays, cutting minimum liquidity to $100 million and postponing the coverage test.",
+    "evidence": [
+      "ev_20201",
+      "ev_20202",
+      "ev_20203",
+      "ev_20204"
+    ]
+  },
+  {
+    "id": "evt_apld_exit_2025",
+    "date": "2025-12-31",
+    "relationship": "rel_applied_digital_eq_2024",
+    "kind": "holding_change",
+    "summary": "Applied Digital is absent from Nvidia's 13F for 31 December 2025; the last report showed 7,716,050 shares at 30 September 2025.",
+    "evidence": [
+      "ev_50013"
+    ]
+  },
+  {
+    "id": "evt_xai_series_e",
+    "date": "2026-01-06",
+    "relationship": "rel_spacex_eq_2026",
+    "kind": "closing",
+    "summary": "xAI closes its $20 billion Series E with Nvidia as a strategic investor.",
+    "evidence": [
+      "ev_120096",
+      "ev_120097"
+    ]
+  },
+  {
+    "id": "evt_coreweave_purchase_2026",
+    "date": "2026-01-23",
+    "relationship": "rel_coreweave_eq_2025",
+    "kind": "closing",
+    "summary": "Nvidia buys 22,935,780 CoreWeave shares at $87.20 for $2 billion in cash.",
+    "evidence": [
+      "ev_20008",
+      "ev_20009",
+      "ev_20010",
+      "ev_30053"
+    ]
+  },
+  {
+    "id": "evt_coreweave_13ga_2026",
+    "date": "2026-01-26",
+    "relationship": "rel_coreweave_eq_2025",
+    "kind": "holding_change",
+    "summary": "Nvidia's 13G/A and Form 3 report 47,213,353 CoreWeave shares, 11.5% of Class A, held directly.",
+    "evidence": [
+      "ev_20019",
+      "ev_20020",
+      "ev_70017"
+    ]
+  },
+  {
+    "id": "evt_coreweave_framework_2026",
+    "date": "2026-01-26",
+    "relationship": "rel_coreweave_gu_2026",
+    "kind": "announcement",
+    "summary": "Nvidia and CoreWeave announce a collaboration framework to build more than 5 gigawatts by 2030, with intent to use Nvidia's financial strength for land, power and shell.",
+    "evidence": [
+      "ev_20011",
+      "ev_20013",
+      "ev_30055",
+      "ev_30056"
+    ]
+  },
+  {
+    "id": "evt_xai_merger",
+    "date": "2026-02-02",
+    "relationship": "rel_spacex_eq_2026",
+    "kind": "restructuring",
+    "summary": "SpaceX acquires xAI; xAI preferred stock converts into SpaceX Class A common stock.",
+    "evidence": [
+      "ev_120072",
+      "ev_120073"
+    ]
+  },
+  {
+    "id": "evt_anthropic_series_g",
+    "date": "2026-02-12",
+    "relationship": "rel_anthropic_eqc_2025",
+    "kind": "drawdown",
+    "summary": "Anthropic's Series G includes a portion of Nvidia's previously announced investment; amount not disclosed.",
+    "evidence": [
+      "ev_120066"
+    ]
+  },
+  {
+    "id": "evt_recursion_13f_exit",
+    "date": "2026-02-17",
+    "relationship": "rel_recursion_eq_2023",
+    "kind": "holding_change",
+    "summary": "Recursion no longer appears on Nvidia's 13F-HR for the quarter ended 2025-12-31, an exit.",
+    "evidence": [
+      "ev_90016"
+    ]
+  },
+  {
+    "id": "evt_weride_13f_exit",
+    "date": "2026-02-17",
+    "relationship": "rel_weride_eq_2017",
+    "kind": "holding_change",
+    "summary": "WeRide no longer appears on Nvidia's 13F-HR for the quarter ended 2025-12-31, an exit.",
+    "evidence": [
+      "ev_90016"
+    ]
+  },
+  {
+    "id": "evt_openai_finalizing_10k",
+    "date": "2026-02-25",
+    "relationship": "rel_openai_eqc_2025",
+    "kind": "filing",
+    "summary": "Nvidia's FY26 10-K says it is finalizing an investment and partnership agreement with OpenAI.",
+    "evidence": [
+      "ev_10125"
+    ]
+  },
+  {
+    "id": "evt_openai_loi_finalizing_2026",
+    "date": "2026-02-25",
+    "relationship": "rel_openai_eqc_2025",
+    "kind": "filing",
+    "summary": "Nvidia's annual report says it is finalizing an investment and partnership agreement with OpenAI; its prior quarterly report had described a letter of intent.",
+    "evidence": [
+      "ev_10125",
+      "ev_10156"
+    ]
+  },
+  {
+    "id": "evt_wayve_series_d_2026",
+    "date": "2026-02-25",
+    "relationship": "rel_wayve_eq_2024",
+    "kind": "closing",
+    "summary": "Wayve closes a $1.2 billion Series D with Nvidia participating.",
+    "evidence": [
+      "ev_90040"
+    ]
+  },
+  {
+    "id": "evt_wayve_series_d_close_2026",
+    "date": "2026-02-25",
+    "relationship": "rel_wayve_eqc_2025",
+    "kind": "restructuring",
+    "summary": "Wayve closes its Series D with Nvidia participating; the amount Nvidia invested is not stated.",
+    "evidence": [
+      "ev_140022"
+    ]
+  },
+  {
+    "id": "evt_openai_round_announced",
+    "date": "2026-02-27",
+    "relationship": "rel_openai_eq_2026",
+    "kind": "signing",
+    "summary": "OpenAI announces new investment including $30 billion from Nvidia under a Series C purchase agreement dated the same day.",
+    "evidence": [
+      "ev_120098",
+      "ev_120032"
+    ]
+  },
+  {
+    "id": "evt_lumentum_closed",
+    "date": "2026-03-02",
+    "relationship": "rel_lumentum_eq_2026",
+    "kind": "closing",
+    "summary": "Lumentum sold Nvidia 2,876,415 Series A convertible preferred shares for $2.0 billion.",
+    "evidence": [
+      "ev_60064",
+      "ev_60066"
+    ]
+  },
+  {
+    "id": "evt_coherent_closed",
+    "date": "2026-03-02",
+    "relationship": "rel_coherent_eq_2026",
+    "kind": "closing",
+    "summary": "Coherent sold Nvidia 7,788,161 common shares at $256.80 for $2 billion.",
+    "evidence": [
+      "ev_60075",
+      "ev_60077"
+    ]
+  },
+  {
+    "id": "evt_tml_partnership_2026",
+    "date": "2026-03-10",
+    "relationship": "rel_thinking_machines_eq_2026",
+    "kind": "announcement",
+    "summary": "Nvidia and Thinking Machines Lab announce a gigawatt scale partnership and a significant Nvidia investment.",
+    "evidence": [
+      "ev_30057",
+      "ev_90045"
+    ]
+  },
+  {
+    "id": "evt_nebius_warrant_2026",
+    "date": "2026-03-11",
+    "relationship": "rel_nebius_eq_2026",
+    "kind": "closing",
+    "summary": "Nvidia and Nebius sign the securities purchase agreement and Nvidia pays $2.0 billion for a pre-funded warrant.",
+    "evidence": [
+      "ev_40057",
+      "ev_30052",
+      "ev_40060"
+    ]
+  },
+  {
+    "id": "evt_nscale_series_c_2026",
+    "date": "2026-03-27",
+    "relationship": "rel_nscale_eq_2025",
+    "kind": "closing",
+    "summary": "At Series C Completion Nvidia's $300 million SAFE converts into Series C-3 shares and Nvidia buys Series C-4 shares for $477.4 million.",
+    "evidence": [
+      "ev_80023",
+      "ev_80031"
+    ]
+  },
+  {
+    "id": "evt_openai_round_closed",
+    "date": "2026-03-31",
+    "relationship": "rel_openai_eq_2026",
+    "kind": "closing",
+    "summary": "OpenAI closes the round with $122 billion of committed capital, anchored by Amazon, Nvidia and SoftBank.",
+    "evidence": [
+      "ev_120015",
+      "ev_120017"
+    ]
+  },
+  {
+    "id": "evt_coreweave_ddtl4_2026",
+    "date": "2026-03-31",
+    "relationship": "rel_coreweave_bk_2025",
+    "kind": "signing",
+    "summary": "CoreWeave signs the $8.5 billion non-recourse DDTL 4.0 with MUFG as agent; no Nvidia agreement is pledged.",
+    "evidence": [
+      "ev_20075",
+      "ev_20077"
+    ]
+  },
+  {
+    "id": "evt_marvell_closed",
+    "date": "2026-03-31",
+    "relationship": "rel_marvell_eq_2026",
+    "kind": "closing",
+    "summary": "Marvell sold Nvidia 2,000,000 Series A convertible preferred shares for $2.0 billion.",
+    "evidence": [
+      "ev_60051",
+      "ev_60052"
+    ]
+  },
+  {
+    "id": "evt_firmus_505",
+    "date": "2026-04-07",
+    "relationship": "rel_firmus_eq_2026a",
+    "kind": "announcement",
+    "summary": "Firmus announces a Coatue led round with NVIDIA participation subject to closing conditions.",
+    "evidence": [
+      "ev_110030"
+    ]
+  },
+  {
+    "id": "evt_corning_warrants",
+    "date": "2026-05-06",
+    "relationship": "rel_corning_eq_2026",
+    "kind": "closing",
+    "summary": "Corning sold Nvidia warrants for up to 18 million shares for $500 million.",
+    "evidence": [
+      "ev_60088",
+      "ev_60085"
+    ]
+  },
+  {
+    "id": "evt_iren_rights_2026",
+    "date": "2026-05-07",
+    "relationship": "rel_iren_eq_2026",
+    "kind": "announcement",
+    "summary": "Nvidia and IREN announce a partnership; IREN grants Nvidia rights to buy up to 30 million shares at $70.",
+    "evidence": [
+      "ev_30043",
+      "ev_40111"
+    ]
+  },
+  {
+    "id": "evt_generate_biomedicines_13f_first",
+    "date": "2026-05-15",
+    "relationship": "rel_generate_biomedicines_eq_2026",
+    "kind": "holding_change",
+    "summary": "Generate Biomedicines first appears on Nvidia's 13F-HR, for the quarter ended 2026-03-31.",
+    "evidence": [
+      "ev_50028"
+    ]
+  },
+  {
+    "id": "evt_coreweave_ddtl5_2026",
+    "date": "2026-05-18",
+    "relationship": "rel_coreweave_bk_2025",
+    "kind": "signing",
+    "summary": "CoreWeave signs the $3.1 billion DDTL 5.0 with Morgan Stanley as agent, backed by two non-investment grade customers.",
+    "evidence": [
+      "ev_20081",
+      "ev_20178"
+    ]
+  },
+  {
+    "id": "evt_iambic_series_b4_2026",
+    "date": "2026-05-31",
+    "relationship": "rel_iambic_eq_2023",
+    "kind": "closing",
+    "summary": "Nvidia buys 291,658 Series B-4 preferred shares of Iambic for $5.0 million in May 2026.",
+    "evidence": [
+      "ev_170002",
+      "ev_170003"
+    ]
+  },
+  {
+    "id": "evt_sharonai_signing_2026",
+    "date": "2026-06-08",
+    "relationship": "rel_sharonai_bk_2026",
+    "kind": "signing",
+    "summary": "SharonAI and Nvidia sign the Master Cloud Services Agreement and Order Form 1.",
+    "evidence": [
+      "ev_40143"
+    ]
+  },
+  {
+    "id": "evt_helix_launch",
+    "date": "2026-06-11",
+    "relationship": "rel_helix_lp_2026",
+    "kind": "announcement",
+    "summary": "KKR launches Helix with Nvidia, KIA and Vistra as founding investors.",
+    "evidence": [
+      "ev_100030"
+    ]
+  },
+  {
+    "id": "evt_sharonai_announce_2026",
+    "date": "2026-06-12",
+    "relationship": "rel_sharonai_bk_2026",
+    "kind": "announcement",
+    "summary": "SharonAI announces the six-year Nvidia collaboration with a contract value of up to $4.88 billion.",
+    "evidence": [
+      "ev_40144",
+      "ev_80015"
+    ]
+  },
+  {
+    "id": "evt_firmus_batam",
+    "date": "2026-06-28",
+    "relationship": "rel_firmus_bk_2026",
+    "kind": "announcement",
+    "summary": "Firmus announces a partnership with NVIDIA through 2034 using a revenue sharing and credit support model for its Batam campus.",
+    "evidence": [
+      "ev_110037"
+    ]
+  },
+  {
+    "id": "evt_nvidia_model_blog",
+    "date": "2026-07-01",
+    "relationship": "rel_firmus_bk_2026",
+    "kind": "announcement",
+    "summary": "Nvidia's blog names Firmus among the first partners in its revenue sharing and credit support model.",
+    "evidence": [
+      "ev_110044"
+    ]
+  },
+  {
+    "id": "evt_together_series_c",
+    "date": "2026-07-01",
+    "relationship": "rel_together_ai_eq_2026",
+    "kind": "announcement",
+    "summary": "Together AI announces its Series C with NVIDIA among investors.",
+    "evidence": [
+      "ev_110057"
+    ]
+  },
+  {
+    "id": "evt_nebius_13g_2026",
+    "date": "2026-07-20",
+    "relationship": "rel_nebius_eq_2026",
+    "kind": "filing",
+    "summary": "Nvidia files a Schedule 13G reporting 22,256,412 Nebius shares, 9.3% of Class A, including the warrant shares.",
+    "evidence": [
+      "ev_40051",
+      "ev_40052"
+    ]
+  },
+  {
+    "id": "evt_naver_announce_2026",
+    "date": "2026-07-24",
+    "relationship": "rel_naver_eq_2026",
+    "kind": "announcement",
+    "summary": "Nvidia says it plans to invest $1 billion in NAVER, conditional on project financing.",
+    "evidence": [
+      "ev_30072"
+    ]
+  },
+  {
+    "id": "evt_ssi_partnership_2026",
+    "date": "2026-07-27",
+    "relationship": "rel_ssi_eq_2026",
+    "kind": "announcement",
+    "summary": "Nvidia and SSI announce a long term partnership and Nvidia states it has invested in SSI.",
+    "evidence": [
+      "ev_30059"
+    ]
+  },
+  {
+    "id": "evt_amkor_july",
+    "date": "2026-07-28",
+    "relationship": "rel_amkor_pp_2026",
+    "kind": "filing",
+    "summary": "Amkor reported a July 2026 advance payment agreement for about $1.5 billion in 2027.",
+    "evidence": [
+      "ev_60111"
+    ]
+  },
+  {
+    "id": "evt_corning_deposit",
+    "date": "2026-07-29",
+    "relationship": "rel_corning_pp_2026",
+    "kind": "filing",
+    "summary": "Corning reported a $1.0 billion customer deposit under a supply agreement to 2029, linked to a customer warrant.",
+    "evidence": [
+      "ev_60094"
+    ]
+  },
+  {
+    "id": "evt_firmus_2b",
+    "date": "2026-08-07",
+    "relationship": "rel_firmus_eq_2026b",
+    "kind": "announcement",
+    "summary": "Firmus announces full commitments for a strategic equity round with NVIDIA following on.",
+    "evidence": [
+      "ev_110033"
+    ]
+  },
+  {
+    "id": "evt_coreweave_ddtl55_2026",
+    "date": "2026-08-10",
+    "relationship": "rel_coreweave_bk_2025",
+    "kind": "signing",
+    "summary": "CoreWeave signs the $2.6 billion DDTL 5.5 with JPMorgan as agent, backed by five redacted customer contracts.",
+    "evidence": [
+      "ev_20083",
+      "ev_20163"
+    ]
+  },
+  {
+    "id": "evt_platforms_mou",
+    "date": "2026-08-10",
+    "relationship": "rel_ai_financing_platforms_rv_2026",
+    "kind": "announcement",
+    "summary": "Nvidia announces MOUs with six capital providers for AI compute financing platforms.",
+    "evidence": [
+      "ev_30014"
+    ]
+  },
+  {
+    "id": "evt_lambda_tlb",
+    "date": "2026-08-12",
+    "relationship": "rel_lambda_eq_2025",
+    "kind": "announcement",
+    "summary": "Lambda prices a term loan B secured by GPUs dedicated to an investment-grade offtaker.",
+    "evidence": [
+      "ev_110002"
+    ]
+  },
+  {
+    "id": "evt_spacex_13f_q2",
+    "date": "2026-08-14",
+    "relationship": "rel_spacex_eq_2026",
+    "kind": "holding_change",
+    "summary": "Nvidia's 13F shows a new position of 122,764,805 SpaceX Class A shares at 2026-06-30.",
+    "evidence": [
+      "ev_50030"
+    ]
+  },
+  {
+    "id": "evt_openai_gu_signed",
+    "date": "2026-08-17",
+    "relationship": "rel_openai_gu_2026",
+    "kind": "signing",
+    "summary": "Nvidia signs residual value guaranties with SB Energy for OpenAI's PORTS-Pike leases, capped at $105 billion.",
+    "evidence": [
+      "ev_30001",
+      "ev_120024"
+    ]
+  },
+  {
+    "id": "evt_sbe_rvg_signing",
+    "date": "2026-08-17",
+    "relationship": "rel_sb_energy_eq_2026",
+    "kind": "signing",
+    "summary": "Nvidia signs the SB Energy prepaid forward and share purchase agreement and funds $1.5 billion, the same day as the PORTS-Pike guaranties.",
+    "evidence": [
+      "ev_40087"
+    ]
+  },
+  {
+    "id": "evt_iren_10k_2026",
+    "date": "2026-08-27",
+    "relationship": "rel_iren_lb_2026",
+    "kind": "filing",
+    "summary": "IREN's 10-K discloses the five-year Nvidia cloud services contract of about $3.4 billion.",
+    "evidence": [
+      "ev_40108",
+      "ev_40109"
+    ]
+  },
+  {
+    "id": "evt_nscale_cln_2026",
+    "date": "2026-09-15",
+    "relationship": "rel_nscale_fc_2026",
+    "kind": "signing",
+    "summary": "Nvidia subscribes for $1.0 billion of Nscale convertible loan notes and agrees a further $1.0 billion NVIDIA Sale.",
+    "evidence": [
+      "ev_40011",
+      "ev_40012"
+    ]
+  },
+  {
+    "id": "evt_crusoe_series_f",
+    "date": "2026-09-17",
+    "relationship": "rel_crusoe_eq_2026",
+    "kind": "closing",
+    "summary": "Crusoe announces the initial closing of its Series F with NVIDIA among investors.",
+    "evidence": [
+      "ev_110020"
+    ]
+  },
+  {
+    "id": "evt_coreweave_converts_2033",
+    "date": "2026-09-22",
+    "relationship": "rel_coreweave_eq_2025",
+    "kind": "closing",
+    "summary": "CoreWeave issues $4.2 billion of 2.875% convertible notes due 2033, senior to Nvidia's common stock.",
+    "evidence": [
+      "ev_70001",
+      "ev_70002",
+      "ev_70006"
+    ]
+  },
+  {
+    "id": "evt_intel_reduced",
+    "date": "2026-09-30",
+    "relationship": "rel_intel_eq_2025",
+    "kind": "holding_change",
+    "summary": "Nvidia's 13F showed 161,082,488 Intel shares, down from 214,776,632 a quarter earlier.",
+    "evidence": [
+      "ev_50021",
+      "ev_160006"
+    ]
+  },
+  {
+    "id": "evt_nokia_reduced",
+    "date": "2026-09-30",
+    "relationship": "rel_nokia_eq_2025",
+    "kind": "holding_change",
+    "summary": "Nvidia's 13F showed 72,859,751 Nokia ADS, down from 166,389,351.",
+    "evidence": [
+      "ev_50025",
+      "ev_160008"
+    ]
+  },
+  {
+    "id": "evt_synopsys_reduced",
+    "date": "2026-09-30",
+    "relationship": "rel_synopsys_eq_2025",
+    "kind": "holding_change",
+    "summary": "Nvidia's 13F showed 4,354,077 Synopsys shares, down from 4,821,717.",
+    "evidence": [
+      "ev_50023",
+      "ev_160010"
+    ]
+  },
+  {
+    "id": "evt_lambda_fixed_ddtl",
+    "date": "2026-10-01",
+    "relationship": "rel_lambda_eq_2025",
+    "kind": "closing",
+    "summary": "Lambda closes a fixed rate delayed draw term loan backed by two investment-grade offtakers.",
+    "evidence": [
+      "ev_110006"
+    ]
+  },
+  {
+    "id": "evt_firmus_ipo_withdrawn",
+    "date": "2026-10-09",
+    "relationship": "rel_firmus_eq_2026b",
+    "kind": "restructuring",
+    "summary": "Nikkei Asia reports Firmus withdrew its Australian IPO application.",
+    "evidence": [
+      "ev_110048"
+    ]
+  },
+  {
+    "id": "evt_iambic_ipo_2026",
+    "date": "2026-10-15",
+    "relationship": "rel_iambic_eq_2023",
+    "kind": "filing",
+    "summary": "Iambic files its final IPO prospectus at $16.00 per share; Nvidia's preferred converts to common stock.",
+    "evidence": [
+      "ev_170006"
+    ]
+  },
+  {
+    "id": "evt_kyec_announced",
+    "date": "2026-10-21",
+    "relationship": "rel_kyec_pp_2026",
+    "kind": "announcement",
+    "summary": "Nvidia announced a $1.1 billion capacity reservation advance to KYEC.",
+    "evidence": [
+      "ev_30062"
+    ]
+  },
+  {
+    "id": "evt_ibiden_announced",
+    "date": "2026-10-21",
+    "relationship": "rel_ibiden_pp_2026",
+    "kind": "announcement",
+    "summary": "Nvidia described a multibillion-dollar capacity reservation advance to IBIDEN.",
+    "evidence": [
+      "ev_30063"
+    ]
+  },
+  {
+    "id": "evt_unimicron_announced",
+    "date": "2026-10-21",
+    "relationship": "rel_unimicron_pp_2026",
+    "kind": "announcement",
+    "summary": "Nvidia described a capacity reservation agreement with Unimicron.",
+    "evidence": [
+      "ev_30064"
+    ]
+  },
+  {
+    "id": "evt_meta_announce",
+    "date": "2026-10-26",
+    "relationship": "rel_meta_eq_2026",
+    "kind": "announcement",
+    "summary": "Nvidia says it will invest $3 billion in Meta's equity offering.",
+    "evidence": [
+      "ev_30076"
+    ]
+  },
+  {
+    "id": "evt_naver_precondition_2026",
+    "date": "2026-10-27",
+    "relationship": "rel_naver_eq_2026",
+    "kind": "amendment",
+    "summary": "NAVER signs a $9 billion agreement with Brookfield and says the precondition for Nvidia's investment is met.",
+    "evidence": [
+      "ev_90068",
+      "ev_90070"
+    ]
+  },
+  {
+    "id": "evt_amkor_october",
+    "date": "2026-10-27",
+    "relationship": "rel_amkor_pp_2026",
+    "kind": "filing",
+    "summary": "Amkor reported an October 2026 advance payment agreement for about $1.3 billion in 2027.",
+    "evidence": [
+      "ev_60105"
+    ]
+  },
+  {
+    "id": "evt_meta_prospectus",
+    "date": "2026-10-28",
+    "relationship": "rel_meta_eq_2026",
+    "kind": "filing",
+    "summary": "Meta's final prospectus supplement calls the cornerstone indications of interest not binding.",
+    "evidence": [
+      "ev_100041"
+    ]
+  },
+  {
+    "id": "evt_cohere_series_e_2026",
+    "date": "2026-10-29",
+    "relationship": "rel_cohere_eq_2025",
+    "kind": "closing",
+    "summary": "Cohere announces the initial close of its Series E with Nvidia participating.",
+    "evidence": [
+      "ev_90035"
+    ]
+  },
+  {
+    "id": "evt_nscale_s1a_2026",
+    "date": "2026-11-12",
+    "relationship": "rel_nscale_lb_2025",
+    "kind": "filing",
+    "summary": "Nscale's S-1/A discloses the July 2025 NVIDIA MSA for reserved GPU capacity, aggregate $1.2 billion.",
+    "evidence": [
+      "ev_40001"
+    ]
+  },
+  {
+    "id": "evt_spacex_13f_q3",
+    "date": "2026-11-16",
+    "relationship": "rel_spacex_eq_2026",
+    "kind": "holding_change",
+    "summary": "Nvidia's 13F shows 130,472,925 SpaceX Class A shares worth $19.68 billion at 2026-09-30.",
+    "evidence": [
+      "ev_50031"
+    ]
+  },
+  {
+    "id": "evt_coreweave_13f_q3_2026",
+    "date": "2026-11-16",
+    "relationship": "rel_coreweave_eq_2025",
+    "kind": "holding_change",
+    "summary": "Nvidia's latest 13F reports 47,213,353 CoreWeave shares worth $4,113,227,313 at 30 September 2026.",
+    "evidence": [
+      "ev_50019"
+    ]
+  },
+  {
+    "id": "evt_sharonai_10q_2026",
+    "date": "2026-11-16",
+    "relationship": "rel_sharonai_bk_2026",
+    "kind": "filing",
+    "summary": "SharonAI's 10-Q says the Nvidia arrangement has minimum revenue provisions but no fixed aggregate contractual value.",
+    "evidence": [
+      "ev_40145",
+      "ev_40146"
+    ]
+  },
+  {
+    "id": "evt_openai_gu_q3",
+    "date": "2026-11-17",
+    "relationship": "rel_openai_gu_2026",
+    "kind": "filing",
+    "summary": "Nvidia reports maximum exposure of $105.0 billion to the SB Energy guarantees and no payments to date.",
+    "evidence": [
+      "ev_30024",
+      "ev_30023"
+    ]
+  },
+  {
+    "id": "evt_amkor_nvidia_release",
+    "date": "2026-11-17",
+    "relationship": "rel_amkor_pp_2026",
+    "kind": "announcement",
+    "summary": "Nvidia said its Amkor agreements total nearly $3 billion and include prepayments.",
+    "evidence": [
+      "ev_30065"
+    ]
+  },
+  {
+    "id": "evt_spil_announced",
+    "date": "2026-11-17",
+    "relationship": "rel_spil_pp_2026",
+    "kind": "announcement",
+    "summary": "Nvidia described multibillion-dollar funding for SPIL capacity.",
+    "evidence": [
+      "ev_30067"
+    ]
+  },
+  {
+    "id": "evt_unattributed_non_marketable_equity_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_non_marketable_equity_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_130010"
+    ]
+  },
+  {
+    "id": "evt_unattributed_marketable_equity_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_marketable_equity_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_130011"
+    ]
+  },
+  {
+    "id": "evt_unattributed_guarantees_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_guarantees_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_50044"
+    ]
+  },
+  {
+    "id": "evt_unattributed_neocloud_agreements_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_neocloud_agreements_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_50080"
+    ]
+  },
+  {
+    "id": "evt_unattributed_cloud_service_agreements_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_cloud_service_agreements_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_130013"
+    ]
+  },
+  {
+    "id": "evt_unattributed_equity_investment_commitments_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_equity_investment_commitments_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_120011"
+    ]
+  },
+  {
+    "id": "evt_unattributed_supply_and_capacity_commitments_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_supply_and_capacity_commitments_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_130023"
+    ]
+  },
+  {
+    "id": "evt_unattributed_data_center_leases_2026_10_25",
+    "date": "2026-11-17",
+    "relationship": "rel_unattributed_data_center_leases_2026_10_25",
+    "kind": "filing",
+    "summary": "Nvidia's Form 8-K of 2026-11-17 disclosed the aggregate behind this remainder for the quarter ended 2026-10-25.",
+    "evidence": [
+      "ev_190004"
+    ]
+  },
+  {
+    "id": "evt_sbe_s1a3",
+    "date": "2026-11-19",
+    "relationship": "rel_openai_gu_2026",
+    "kind": "filing",
+    "summary": "SB Energy's S-1/A describes the guaranty trigger, remedy cap and OpenAI's non-investment grade status.",
+    "evidence": [
+      "ev_40090",
+      "ev_120034"
+    ]
+  },
+  {
+    "id": "evt_anthropic_424b4",
+    "date": "2026-11-19",
+    "relationship": "rel_anthropic_eq_2026",
+    "kind": "filing",
+    "summary": "Anthropic's final prospectus: Nvidia to buy 120,481,927 Class N shares for about $10.0 billion at the IPO price.",
+    "evidence": [
+      "ev_120038"
+    ]
+  },
+  {
+    "id": "evt_lambda_anthropic_terminable",
+    "date": "2026-11-19",
+    "relationship": "rel_lambda_eq_2025",
+    "kind": "filing",
+    "summary": "Anthropic's prospectus says its August 2026 Lambda agreement is terminable because Lambda did not secure the facility lease.",
+    "evidence": [
+      "ev_110013"
+    ]
+  },
+  {
+    "id": "evt_anthropic_pp_closed",
+    "date": "2026-11-20",
+    "relationship": "rel_anthropic_eq_2026",
+    "kind": "closing",
+    "summary": "Anthropic closes the IPO and the $26.0 billion concurrent private placement including Nvidia.",
+    "evidence": [
+      "ev_120069",
+      "ev_120070"
+    ]
+  }
+]

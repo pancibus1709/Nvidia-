@@ -1,0 +1,20 @@
+{
+  "_note": "Pages the watchers read (spec/11 U1). Every URL must be on a domain in config/sources_allowlist.json; pipeline.cache refuses anything else. Add an entry when a counterparty's page or feed is confirmed. A counterparty with no entry is listed as a manual check, never guessed.",
+  "release_feeds": [
+    {"entity": "ent_nvidia", "url": "https://nvidianews.nvidia.com/releases.xml", "keep": "all"}
+  ],
+  "_release_feeds_note": "RSS or Atom feeds on the company's own domain. keep: all keeps every item; keep: nvidia keeps only items that mention Nvidia.",
+  "earnings_pages": [],
+  "_earnings_pages_note": "Investor relations event pages, as {entity, url}. Nvidia's own events page sits behind a browser check, so its dates come from its results filings (Form 8-K item 2.02) and the next date is entered in nvidia_next_earnings below when Nvidia announces it.",
+  "nvidia_next_earnings": null,
+  "rating_pages": [],
+  "_rating_pages_note": "Public agency press release pages, as {agency, url}. Moody's, S&P Global Ratings and Fitch publish most rating actions behind a login, so the default is a manual check.",
+  "companies_house": [],
+  "_companies_house_note": "UK companies whose register of charges is watched, as {entity, company_number}. Read from find-and-update.company-information.service.gov.uk.",
+  "ucc_portals": [
+    {"state": "Delaware", "url": "https://icis.corp.delaware.gov/", "needs_login": true},
+    {"state": "California", "url": "https://bizfileonline.sos.ca.gov/", "needs_login": true}
+  ],
+  "yahoo_chart_url": "https://query2.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=5d",
+  "market_value_instruments": ["common"]
+}

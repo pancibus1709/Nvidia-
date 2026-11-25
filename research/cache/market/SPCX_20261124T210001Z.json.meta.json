@@ -1,0 +1,6 @@
+{
+  "url": "https://query2.finance.yahoo.com/v8/finance/chart/SPCX?interval=1d&range=5d",
+  "retrieved": "2026-11-25T02:13:17Z",
+  "status": 200,
+  "content_hash": "4056fae9c0f533549dba3f1073428ae7acacc6f4f4b6cd2c68b09d833eeddfae"
+}

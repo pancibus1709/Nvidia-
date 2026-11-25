@@ -41,7 +41,7 @@ def path_for(url: str, tier: str) -> Path:
     return base / host / f"{digest}_{tail}{ext}"
 
 
-def fetch(url: str, refresh: bool = False) -> Path:
+def fetch(url: str, refresh: bool = False, user_agent: str | None = None) -> Path:
     info = classify_domain(url)
     if info["tier"] is None:
         raise SourceNotAllowed(f"{info['domain']} is not an allowed source ({info.get('reason')}). See spec/04_SOURCE_POLICY.md.")
@@ -51,7 +51,7 @@ def fetch(url: str, refresh: bool = False) -> Path:
     meta = Path(str(path) + ".meta.json")
     if path.exists() and meta.exists() and not refresh:
         return path
-    r = requests.get(url, headers={"User-Agent": GENERIC_UA, "Accept-Language": "en-US,en;q=0.9"}, timeout=60)
+    r = requests.get(url, headers={"User-Agent": user_agent or GENERIC_UA, "Accept-Language": "en-US,en;q=0.9"}, timeout=60)
     if r.status_code != 200:
         raise RuntimeError(f"HTTP {r.status_code} for {url}")
     path.parent.mkdir(parents=True, exist_ok=True)

@@ -174,6 +174,10 @@ def amount_parts(a: dict) -> list[tuple[float, list[str]]]:
     """(value, evidence ids) pairs that must each be grounded. Components if present, else the amount itself."""
     if a.get("components"):
         return [(c["value"], c["evidence"]) for c in a["components"]]
+    if a.get("price") is not None and a.get("shares"):
+        # a market value written by the market_values watcher: shares held times a quoted price. The quote grounds the price;
+        # check_grounding confirms that value equals price times shares.
+        return [(a["price"], a.get("evidence") or [])]
     v = a.get("original_value") if a.get("original_currency", "USD") != "USD" and a.get("original_value") is not None else a.get("value")
     return [(v, a.get("evidence") or [])]
 
@@ -412,6 +416,11 @@ def check_grounding(reg):
             total = sum(c["value"] for c in a["components"])
             if a.get("value") is not None and abs(total - a["value"]) > 5e-4 * max(abs(a["value"]), 1):
                 out.append(f"grounding: {path}: components sum to {total}, value is {a['value']}")
+        if not a.get("components") and a.get("price") is not None and a.get("shares"):
+            if field != "market_value":
+                out.append(f"grounding: {path}: price and shares may only be set on a market value")
+            elif a.get("value") is None or abs(a["price"] * a["shares"] - a["value"]) > 5e-4 * max(abs(a["value"]), 1):
+                out.append(f"grounding: {path}: value {a.get('value')} is not price {a['price']} times {a['shares']:,.0f} shares")
         for value, ids in parts:
             for i in ids:
                 ev = reg.ev.get(i)

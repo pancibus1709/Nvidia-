@@ -3315,6 +3315,159 @@
         "ev_30066"
       ],
       "notes": "SPIL is a private subsidiary of ASE Technology Holding; ASE's 20-F (filed 2026-04-01) was searched and no Nvidia funding found."
+    },
+    {
+      "id": "rel_amd_eq_2026",
+      "from": "ent_nvidia",
+      "to": "ent_amd",
+      "type_primary": "EQ",
+      "types_secondary": [],
+      "title": "Nvidia shareholding in AMD received for its World Labs stake",
+      "insight_template": "Nvidia now owns shares in its rival {counterparty}, received when {counterparty} bought World Labs, so a small position moves with a competitor.",
+      "definition": "AMD bought World Labs, a startup in which Nvidia and its venture arm NVentures held shares, for about $8.2 billion paid in AMD stock; the deal closed on 13 November 2026. AMD's resale prospectus of 23 November 2026 lists Nvidia as a selling stockholder of 437,338 AMD shares, 381,167 issuable to NVIDIA Corporation and 56,171 to NVentures. What Nvidia paid for its World Labs shares is not disclosed.",
+      "status": "completed",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "committed_total": {
+          "value": 0,
+          "as_of": "2026-11-13",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-25",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "not_applicable": true
+        },
+        "funded": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "contingent_max": {
+          "value": 0,
+          "as_of": "2026-11-13",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-25",
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "not_applicable": true
+        }
+      },
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "filed": "2026-11-23",
+        "effective": "2026-11-13",
+        "maturity": null
+      },
+      "seniority": "common_equity",
+      "reconciliation": {
+        "result": "one_sided",
+        "nvidia_side": "No disclosure found as of 2026-11-25. Nvidia's 13F for 2026-09-30 predates the closing and its Form 10-Q for the quarter ended 2026-10-25 has not been filed.",
+        "counterparty_side": "AMD's Form S-3ASR of 2026-11-23 names NVIDIA Corporation and NVentures LLC as selling stockholders of 437,338 World Labs Closing Shares; AMD's Form 8-K/A of 2026-11-16 states the closing on 2026-11-13.",
+        "nvidia_evidence": [],
+        "counterparty_evidence": [
+          "ev_260002",
+          "ev_260003",
+          "ev_260004",
+          "ev_260005",
+          "ev_260006"
+        ],
+        "differences": []
+      },
+      "credit": {
+        "wwr": "general",
+        "wwr_reason": "AMD's share price moves with AI accelerator demand, the same driver as Nvidia's own results; the exposure is the market value of a small listed stake.",
+        "collateral": "None.",
+        "tenor": "Open ended listed equity",
+        "notes": "",
+        "tenor_bucket": "Equity or no stated maturity"
+      },
+      "consequences": {
+        "first_order": [
+          {
+            "trigger": "AMD shares fall",
+            "mechanism": "Listed stake loses value",
+            "affected": [
+              "ent_nvidia"
+            ],
+            "direction": "negative",
+            "text": "A fall in AMD's share price would cut the value of the AMD shares Nvidia received for its World Labs stake.",
+            "evidence": [
+              "ev_260002"
+            ]
+          }
+        ],
+        "second_order": [
+          {
+            "trigger": "Nvidia sells the AMD shares registered for resale",
+            "mechanism": "Sale under AMD's resale prospectus becomes visible in Nvidia's 13F",
+            "affected": [
+              "ent_amd"
+            ],
+            "direction": "mixed",
+            "text": "Because AMD registered Nvidia's AMD shares for resale, a sale would show in Nvidia's 13F and could be read as a signal about AMD by other holders (analysis).",
+            "lens": "signaling",
+            "evidence": [
+              "ev_260002"
+            ]
+          }
+        ]
+      },
+      "projects": [],
+      "depth2_links": [],
+      "aggregate_of": null,
+      "significance": {},
+      "version": 1,
+      "evidence": [
+        "ev_260002",
+        "ev_260003",
+        "ev_260004",
+        "ev_260005",
+        "ev_260006"
+      ],
+      "notes": "Found in the 25 November 2026 freshness check (Gate Q step 1). Nvidia's original World Labs investment (date, round, amount) is not in allowed sources on file, so headline and funded stay unknown. The S-3ASR of 2026-11-23 is the newest document; the 8-K/A of 2026-11-16 supersedes the 8-K of 2026-09-28 on the share count. Market value not recorded: no 13F yet covers the position.",
+      "holding": {
+        "shares": 437338,
+        "as_of": "2026-11-23",
+        "ticker": "AMD",
+        "evidence": [
+          "ev_260002",
+          "ev_260003",
+          "ev_260004"
+        ],
+        "instrument": "common"
+      }
     }
   ],
   "projects": [],
@@ -3558,6 +3711,17 @@
       "summary": "Nvidia described multibillion-dollar funding for SPIL capacity.",
       "evidence": [
         "ev_30067"
+      ]
+    },
+    {
+      "id": "evt_amd_world_labs_closing_2026",
+      "date": "2026-11-13",
+      "relationship": "rel_amd_eq_2026",
+      "kind": "closing",
+      "summary": "AMD closed its purchase of World Labs and issued AMD shares to World Labs holders, including Nvidia and NVentures.",
+      "evidence": [
+        "ev_260005",
+        "ev_260002"
       ]
     }
   ]

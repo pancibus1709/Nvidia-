@@ -1,0 +1,1362 @@
+[
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_openai_eqc_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "OpenAI letter of intent: up to $100 billion as each gigawatt is deployed",
+    "evidence": [
+      "ev_10125",
+      "ev_10156",
+      "ev_120020"
+    ],
+    "title": "OpenAI letter of intent: up to $100 billion as each gigawatt is deployed",
+    "counterparty": "OpenAI"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_openai_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "OpenAI 2026 funding round: Nvidia named for $30 billion",
+    "evidence": [
+      "ev_120098",
+      "ev_120099",
+      "ev_120015"
+    ],
+    "title": "OpenAI 2026 funding round: Nvidia named for $30 billion",
+    "counterparty": "OpenAI"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_openai_gu_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Guaranties of OpenAI's PORTS-Pike leases from SB Energy, capped at $105 billion",
+    "evidence": [
+      "ev_30001",
+      "ev_30002",
+      "ev_30003"
+    ],
+    "title": "Guaranties of OpenAI's PORTS-Pike leases from SB Energy, capped at $105 billion",
+    "counterparty": "OpenAI"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_anthropic_eqc_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Anthropic: agreement to invest up to $10 billion (November 2025), partly funded in Series G",
+    "evidence": [
+      "ev_10157",
+      "ev_30050",
+      "ev_30041"
+    ],
+    "title": "Anthropic: agreement to invest up to $10 billion (November 2025), partly funded in Series G",
+    "counterparty": "Anthropic"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_anthropic_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Anthropic IPO concurrent private placement: 120.5 million Class N shares for about $10.0 billion",
+    "evidence": [
+      "ev_120038",
+      "ev_120039",
+      "ev_120040"
+    ],
+    "title": "Anthropic IPO concurrent private placement: 120.5 million Class N shares for about $10.0 billion",
+    "counterparty": "Anthropic"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_spacex_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "SpaceX Class A shares held by Nvidia (13F); origin in xAI holdings not fully disclosed",
+    "evidence": [
+      "ev_50030",
+      "ev_50031",
+      "ev_120096"
+    ],
+    "title": "SpaceX Class A shares held by Nvidia (13F); origin in xAI holdings not fully disclosed",
+    "counterparty": "SpaceX"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_mistral_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia equity in Mistral AI (Series C participation)",
+    "evidence": [
+      "ev_90026",
+      "ev_90027",
+      "ev_90028"
+    ],
+    "title": "Nvidia equity in Mistral AI (Series C participation)",
+    "counterparty": "Mistral"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_ssi_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia equity investment in Safe Superintelligence",
+    "evidence": [
+      "ev_30059",
+      "ev_30060",
+      "ev_220006"
+    ],
+    "title": "Nvidia equity investment in Safe Superintelligence",
+    "counterparty": "SSI"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_thinking_machines_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia equity in Thinking Machines Lab, tied to a gigawatt Vera Rubin deployment",
+    "evidence": [
+      "ev_30057",
+      "ev_30058",
+      "ev_90045"
+    ],
+    "title": "Nvidia equity in Thinking Machines Lab, tied to a gigawatt Vera Rubin deployment",
+    "counterparty": "Thinking Machines"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_reflection_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia equity in Reflection AI",
+    "evidence": [
+      "ev_90029",
+      "ev_90030"
+    ],
+    "title": "Nvidia equity in Reflection AI",
+    "counterparty": "Reflection"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_cohere_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia equity in Cohere (repeat participation, 2025 and Series E 2026)",
+    "evidence": [
+      "ev_90031",
+      "ev_90032",
+      "ev_90033"
+    ],
+    "title": "Nvidia equity in Cohere (repeat participation, 2025 and Series E 2026)",
+    "counterparty": "Cohere"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_sakana_eq_2024",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia equity in Sakana AI (Series A participation)",
+    "evidence": [
+      "ev_90044"
+    ],
+    "title": "Nvidia equity in Sakana AI (Series A participation)",
+    "counterparty": "Sakana AI"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_point2_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia investment in Point2 Technology",
+    "evidence": [
+      "ev_30069",
+      "ev_220001"
+    ],
+    "title": "Nvidia investment in Point2 Technology",
+    "counterparty": "Point2"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_motif_eqc_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Planned Nvidia investment in Motif Technologies",
+    "evidence": [
+      "ev_30070",
+      "ev_200001"
+    ],
+    "title": "Planned Nvidia investment in Motif Technologies",
+    "counterparty": "Motif Technologies"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_rlwrld_eqc_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Planned Nvidia investment in RLWRLD",
+    "evidence": [
+      "ev_30070",
+      "ev_200002",
+      "ev_90061"
+    ],
+    "title": "Planned Nvidia investment in RLWRLD",
+    "counterparty": "RLWRLD"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_upstage_eqc_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Planned Nvidia investment in Upstage",
+    "evidence": [
+      "ev_30070",
+      "ev_200003"
+    ],
+    "title": "Planned Nvidia investment in Upstage",
+    "counterparty": "Upstage"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_naver_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia $1 billion equity investment in NAVER (private placement)",
+    "evidence": [
+      "ev_30072",
+      "ev_30073",
+      "ev_30075"
+    ],
+    "title": "Nvidia $1 billion equity investment in NAVER (private placement)",
+    "counterparty": "NAVER"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_uk_ai_startup_program_eqc_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia GBP 2 billion UK AI startup commitment",
+    "evidence": [
+      "ev_140020",
+      "ev_30084",
+      "ev_50090"
+    ],
+    "title": "Nvidia GBP 2 billion UK AI startup commitment",
+    "counterparty": "UK startup program"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_figure_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia equity in Figure AI (Series C)",
+    "evidence": [
+      "ev_90042",
+      "ev_90043",
+      "ev_90065"
+    ],
+    "title": "Nvidia equity in Figure AI (Series C)",
+    "counterparty": "Figure"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_wayve_eq_2024",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia equity in Wayve (Series C 2024 and Series D 2026)",
+    "evidence": [
+      "ev_90037",
+      "ev_90038",
+      "ev_90039"
+    ],
+    "title": "Nvidia equity in Wayve (Series C 2024 and Series D 2026)",
+    "counterparty": "Wayve"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_wayve_eqc_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia letter of intent to evaluate a $500 million investment in Wayve",
+    "evidence": [
+      "ev_140022",
+      "ev_90036",
+      "ev_90040"
+    ],
+    "title": "Nvidia letter of intent to evaluate a $500 million investment in Wayve",
+    "counterparty": "Wayve"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_skild_ai_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "NVentures equity in Skild AI (Series C)",
+    "evidence": [
+      "ev_90061",
+      "ev_90062",
+      "ev_90039"
+    ],
+    "title": "NVentures equity in Skild AI (Series C)",
+    "counterparty": "Skild AI"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_black_forest_labs_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia equity in Black Forest Labs",
+    "evidence": [
+      "ev_90063",
+      "ev_90064"
+    ],
+    "title": "Nvidia equity in Black Forest Labs",
+    "counterparty": "Black Forest Labs"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_scale_ai_eq_2024",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia equity in Scale AI (Series F participation)",
+    "evidence": [
+      "ev_90047"
+    ],
+    "title": "Nvidia equity in Scale AI (Series F participation)",
+    "counterparty": "Scale AI"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_anysphere_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia equity in Anysphere (Cursor), converted on SpaceX acquisition",
+    "evidence": [
+      "ev_90048",
+      "ev_90049",
+      "ev_50031"
+    ],
+    "title": "Nvidia equity in Anysphere (Cursor), converted on SpaceX acquisition",
+    "counterparty": "Cursor"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_databricks_eq_2023",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia equity in Databricks (Series I)",
+    "evidence": [
+      "ev_90050",
+      "ev_90051"
+    ],
+    "title": "Nvidia equity in Databricks (Series I)",
+    "counterparty": "Databricks"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_commonwealth_fusion_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "NVentures equity in Commonwealth Fusion Systems (Series B2)",
+    "evidence": [
+      "ev_90052",
+      "ev_90053"
+    ],
+    "title": "NVentures equity in Commonwealth Fusion Systems (Series B2)",
+    "counterparty": "CFS"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_psiquantum_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "NVentures equity in PsiQuantum (Series E)",
+    "evidence": [
+      "ev_90054",
+      "ev_90060",
+      "ev_200008"
+    ],
+    "title": "NVentures equity in PsiQuantum (Series E)",
+    "counterparty": "PsiQuantum"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_quantinuum_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "NVentures equity in Quantinuum (pre-IPO round)",
+    "evidence": [
+      "ev_90055",
+      "ev_90056",
+      "ev_50031"
+    ],
+    "title": "NVentures equity in Quantinuum (pre-IPO round)",
+    "counterparty": "Quantinuum"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_terrapower_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "NVentures equity in TerraPower",
+    "evidence": [
+      "ev_90057",
+      "ev_90058",
+      "ev_220007"
+    ],
+    "title": "NVentures equity in TerraPower",
+    "counterparty": "TerraPower"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_recursion_eq_2023",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia shareholding in Recursion (13F)",
+    "evidence": [
+      "ev_50003",
+      "ev_50004",
+      "ev_90016"
+    ],
+    "title": "Nvidia shareholding in Recursion (13F)",
+    "counterparty": "Recursion"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_soundhound_eq_2023",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia shareholding in SoundHound (13F)",
+    "evidence": [
+      "ev_50005",
+      "ev_50006",
+      "ev_90015"
+    ],
+    "title": "Nvidia shareholding in SoundHound (13F)",
+    "counterparty": "SoundHound"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_tusimple_eq_2023",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia shareholding in TuSimple (13F)",
+    "evidence": [
+      "ev_150020",
+      "ev_150021",
+      "ev_50007"
+    ],
+    "title": "Nvidia shareholding in TuSimple (13F)",
+    "counterparty": "TuSimple"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_nano_x_eq_2023",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia shareholding in Nano-X (13F)",
+    "evidence": [
+      "ev_50008",
+      "ev_50009",
+      "ev_90015"
+    ],
+    "title": "Nvidia shareholding in Nano-X (13F)",
+    "counterparty": "Nano-X"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_serve_robotics_eq_2022",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia shareholding in Serve Robotics (13F)",
+    "evidence": [
+      "ev_50010",
+      "ev_50011",
+      "ev_50110"
+    ],
+    "title": "Nvidia shareholding in Serve Robotics (13F)",
+    "counterparty": "Serve Robotics"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_weride_eq_2017",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia shareholding in WeRide (13F)",
+    "evidence": [
+      "ev_50016",
+      "ev_50017",
+      "ev_90016"
+    ],
+    "title": "Nvidia shareholding in WeRide (13F)",
+    "counterparty": "WeRide"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_generate_biomedicines_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia shareholding in Generate Biomedicines (13F)",
+    "evidence": [
+      "ev_50028",
+      "ev_50029"
+    ],
+    "title": "Nvidia shareholding in Generate Biomedicines (13F)",
+    "counterparty": "Generate Biomedicines"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_coreweave_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia common stake in CoreWeave",
+    "evidence": [
+      "ev_10186",
+      "ev_10187",
+      "ev_20008"
+    ],
+    "title": "Nvidia common stake in CoreWeave",
+    "counterparty": "CoreWeave"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_coreweave_bk_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia order for CoreWeave's residual unsold capacity",
+    "evidence": [
+      "ev_10039",
+      "ev_10151",
+      "ev_170016"
+    ],
+    "title": "Nvidia order for CoreWeave's residual unsold capacity",
+    "counterparty": "CoreWeave"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_coreweave_lb_2023",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia rents compute from CoreWeave under a master services agreement",
+    "evidence": [
+      "ev_10151",
+      "ev_20003",
+      "ev_20006"
+    ],
+    "title": "Nvidia rents compute from CoreWeave under a master services agreement",
+    "counterparty": "CoreWeave"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_coreweave_gu_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia and CoreWeave collaboration framework for land, power and shell",
+    "evidence": [
+      "ev_10123",
+      "ev_150004",
+      "ev_20011"
+    ],
+    "title": "Nvidia and CoreWeave collaboration framework for land, power and shell",
+    "counterparty": "CoreWeave"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_nscale_gu_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia guarantee of Nscale's Ward County, Texas facility lease",
+    "evidence": [
+      "ev_10115",
+      "ev_10123",
+      "ev_10159"
+    ],
+    "title": "Nvidia guarantee of Nscale's Ward County, Texas facility lease",
+    "counterparty": "Nscale"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_nscale_lb_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia rents reserved GPU cluster capacity from Nscale (NVIDIA MSA)",
+    "evidence": [
+      "ev_40001",
+      "ev_40002",
+      "ev_40016"
+    ],
+    "title": "Nvidia rents reserved GPU cluster capacity from Nscale (NVIDIA MSA)",
+    "counterparty": "Nscale"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_nscale_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia preferred shares in Nscale (Series B, SAFE converted to Series C-3, Series C-4)",
+    "evidence": [
+      "ev_80030",
+      "ev_80031",
+      "ev_80032"
+    ],
+    "title": "Nvidia preferred shares in Nscale (Series B, SAFE converted to Series C-3, Series C-4)",
+    "counterparty": "Nscale"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_nscale_fc_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia convertible loan notes in Nscale (2028 Convertible Loan Notes and the NVIDIA Sale)",
+    "evidence": [
+      "ev_40011",
+      "ev_40012",
+      "ev_40013"
+    ],
+    "title": "Nvidia convertible loan notes in Nscale (2028 Convertible Loan Notes and the NVIDIA Sale)",
+    "counterparty": "Nscale"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_nebius_eq_2024",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia common shares in Nebius (held since the fourth quarter of 2024)",
+    "evidence": [
+      "ev_50014",
+      "ev_50015",
+      "ev_40051"
+    ],
+    "title": "Nvidia common shares in Nebius (held since the fourth quarter of 2024)",
+    "counterparty": "Nebius"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_nebius_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia pre-funded warrant over 21.1 million Nebius shares",
+    "evidence": [
+      "ev_30052",
+      "ev_30061",
+      "ev_40051"
+    ],
+    "title": "Nvidia pre-funded warrant over 21.1 million Nebius shares",
+    "counterparty": "Nebius"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_iren_lb_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia five-year cloud services contract with IREN",
+    "evidence": [
+      "ev_40108",
+      "ev_40109",
+      "ev_40110"
+    ],
+    "title": "Nvidia five-year cloud services contract with IREN",
+    "counterparty": "IREN"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_iren_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia right to buy up to 30 million IREN shares at $70 (Investment Rights)",
+    "evidence": [
+      "ev_30043",
+      "ev_30044",
+      "ev_30045"
+    ],
+    "title": "Nvidia right to buy up to 30 million IREN shares at $70 (Investment Rights)",
+    "counterparty": "IREN"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_sharonai_bk_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia Master Cloud Services Agreement with SharonAI: reserved capacity with minimum revenue and revenue share",
+    "evidence": [
+      "ev_40143",
+      "ev_40144",
+      "ev_40145"
+    ],
+    "title": "Nvidia Master Cloud Services Agreement with SharonAI: reserved capacity with minimum revenue and revenue share",
+    "counterparty": "SharonAI"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_applied_digital_eq_2024",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia shares in Applied Digital from the 2024 private placement (exited)",
+    "evidence": [
+      "ev_40136",
+      "ev_40137",
+      "ev_40138"
+    ],
+    "title": "Nvidia shares in Applied Digital from the 2024 private placement (exited)",
+    "counterparty": "Applied Digital"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_lambda_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia participation in the Lambda Series D",
+    "evidence": [
+      "ev_110001",
+      "ev_110059",
+      "ev_110060"
+    ],
+    "title": "Nvidia participation in the Lambda Series D",
+    "counterparty": "Lambda"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_crusoe_eq_2024",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia participation in the Crusoe Series D",
+    "evidence": [
+      "ev_110016",
+      "ev_110015",
+      "ev_110024"
+    ],
+    "title": "Nvidia participation in the Crusoe Series D",
+    "counterparty": "Crusoe"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_crusoe_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia participation in the Crusoe Series E",
+    "evidence": [
+      "ev_110018",
+      "ev_110017",
+      "ev_110024"
+    ],
+    "title": "Nvidia participation in the Crusoe Series E",
+    "counterparty": "Crusoe"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_crusoe_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia participation in the Crusoe Series F",
+    "evidence": [
+      "ev_110020",
+      "ev_110019",
+      "ev_110024"
+    ],
+    "title": "Nvidia participation in the Crusoe Series F",
+    "counterparty": "Crusoe"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_firmus_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia participation in the Firmus A$330 million placement",
+    "evidence": [
+      "ev_110062",
+      "ev_110028",
+      "ev_110051"
+    ],
+    "title": "Nvidia participation in the Firmus A$330 million placement",
+    "counterparty": "Firmus"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_firmus_eq_2026a",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia participation in the Firmus $505 million round",
+    "evidence": [
+      "ev_110029",
+      "ev_110030",
+      "ev_110031"
+    ],
+    "title": "Nvidia participation in the Firmus $505 million round",
+    "counterparty": "Firmus"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_firmus_eq_2026b",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia follow-on in the Firmus $2 billion round",
+    "evidence": [
+      "ev_110032",
+      "ev_110033",
+      "ev_110034"
+    ],
+    "title": "Nvidia follow-on in the Firmus $2 billion round",
+    "counterparty": "Firmus"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_firmus_bk_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia revenue sharing and credit support for the Firmus Batam campus",
+    "evidence": [
+      "ev_110037",
+      "ev_110038",
+      "ev_110039"
+    ],
+    "title": "Nvidia revenue sharing and credit support for the Firmus Batam campus",
+    "counterparty": "Firmus"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_together_ai_eq_2023",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia participation in the Together AI Series A",
+    "evidence": [
+      "ev_110053",
+      "ev_110064",
+      "ev_40120"
+    ],
+    "title": "Nvidia participation in the Together AI Series A",
+    "counterparty": "Together AI"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_together_ai_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia participation in the Together AI Series B",
+    "evidence": [
+      "ev_110055",
+      "ev_110054",
+      "ev_40120"
+    ],
+    "title": "Nvidia participation in the Together AI Series B",
+    "counterparty": "Together AI"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_together_ai_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia participation in the Together AI Series C",
+    "evidence": [
+      "ev_110057",
+      "ev_110056",
+      "ev_110058"
+    ],
+    "title": "Nvidia participation in the Together AI Series C",
+    "counterparty": "Together AI"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_intel_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia common stake in Intel",
+    "evidence": [
+      "ev_10111",
+      "ev_10155",
+      "ev_30033"
+    ],
+    "title": "Nvidia common stake in Intel",
+    "counterparty": "Intel"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_nokia_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia stake in Nokia",
+    "evidence": [
+      "ev_30036",
+      "ev_30037",
+      "ev_30038"
+    ],
+    "title": "Nvidia stake in Nokia",
+    "counterparty": "Nokia"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_synopsys_eq_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia common stake in Synopsys",
+    "evidence": [
+      "ev_30039",
+      "ev_30040",
+      "ev_50022"
+    ],
+    "title": "Nvidia common stake in Synopsys",
+    "counterparty": "Synopsys"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_marvell_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia convertible preferred stake in Marvell",
+    "evidence": [
+      "ev_30078",
+      "ev_60051",
+      "ev_60052"
+    ],
+    "title": "Nvidia convertible preferred stake in Marvell",
+    "counterparty": "Marvell"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_lumentum_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia convertible preferred stake in Lumentum",
+    "evidence": [
+      "ev_30046",
+      "ev_30047",
+      "ev_50140"
+    ],
+    "title": "Nvidia convertible preferred stake in Lumentum",
+    "counterparty": "Lumentum"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_coherent_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia common stake in Coherent",
+    "evidence": [
+      "ev_30048",
+      "ev_30049",
+      "ev_50026"
+    ],
+    "title": "Nvidia common stake in Coherent",
+    "counterparty": "Coherent"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_arm_eq_2023",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia's former stake in Arm",
+    "evidence": [
+      "ev_50001",
+      "ev_50002"
+    ],
+    "title": "Nvidia's former stake in Arm",
+    "counterparty": "Arm"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_corning_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia warrants in Corning",
+    "evidence": [
+      "ev_50140",
+      "ev_60085",
+      "ev_60086"
+    ],
+    "title": "Nvidia warrants in Corning",
+    "counterparty": "Corning"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_corning_pp_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Customer deposit with Corning linked to the Nvidia warrants",
+    "evidence": [
+      "ev_60088",
+      "ev_60094",
+      "ev_60095"
+    ],
+    "title": "Customer deposit with Corning linked to the Nvidia warrants",
+    "counterparty": "Corning"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_amkor_pp_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia multiyear agreements with Amkor, including prepayments",
+    "evidence": [
+      "ev_30065",
+      "ev_30066",
+      "ev_60103"
+    ],
+    "title": "Nvidia multiyear agreements with Amkor, including prepayments",
+    "counterparty": "Amkor"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_kyec_pp_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia capacity reservation advance to KYEC",
+    "evidence": [
+      "ev_30062"
+    ],
+    "title": "Nvidia capacity reservation advance to KYEC",
+    "counterparty": "KYEC"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_ibiden_pp_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia capacity reservation advance to IBIDEN",
+    "evidence": [
+      "ev_30063",
+      "ev_30066",
+      "ev_30067"
+    ],
+    "title": "Nvidia capacity reservation advance to IBIDEN",
+    "counterparty": "IBIDEN"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_unimicron_pp_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia capacity reservation agreement with Unimicron",
+    "evidence": [
+      "ev_30064",
+      "ev_30063"
+    ],
+    "title": "Nvidia capacity reservation agreement with Unimicron",
+    "counterparty": "Unimicron"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_spil_pp_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia funding for SPIL packaging capacity",
+    "evidence": [
+      "ev_30067",
+      "ev_30066"
+    ],
+    "title": "Nvidia funding for SPIL packaging capacity",
+    "counterparty": "SPIL"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_sb_energy_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia equity in SB Energy (prepaid forward and IPO private placement)",
+    "evidence": [
+      "ev_40086",
+      "ev_40087",
+      "ev_40088"
+    ],
+    "title": "Nvidia equity in SB Energy (prepaid forward and IPO private placement)",
+    "counterparty": "SB Energy"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_ai_financing_platforms_rv_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Residual value support for AI compute financing platforms (MOUs with six capital providers)",
+    "evidence": [
+      "ev_30013",
+      "ev_30014",
+      "ev_30015"
+    ],
+    "title": "Residual value support for AI compute financing platforms (MOUs with six capital providers)",
+    "counterparty": "six financing platforms"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_helix_lp_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia founding investor in Helix Digital Infrastructure (KKR)",
+    "evidence": [
+      "ev_30017",
+      "ev_100030",
+      "ev_100031"
+    ],
+    "title": "Nvidia founding investor in Helix Digital Infrastructure (KKR)",
+    "counterparty": "Helix"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_brookfield_baiif_lp_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia strategic limited partner in the Brookfield AI Infrastructure Fund",
+    "evidence": [
+      "ev_30074",
+      "ev_100034",
+      "ev_100035"
+    ],
+    "title": "Nvidia strategic limited partner in the Brookfield AI Infrastructure Fund",
+    "counterparty": "Brookfield AI Infrastructure Fund"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_meta_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia indication to buy $3 billion of Meta Class A stock in Meta's October 2026 offering",
+    "evidence": [
+      "ev_30076",
+      "ev_30077",
+      "ev_100039"
+    ],
+    "title": "Nvidia indication to buy $3 billion of Meta Class A stock in Meta's October 2026 offering",
+    "counterparty": "Meta"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_microsoft_cx_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Microsoft: co-investor with Nvidia in Anthropic and Anthropic's compute seller",
+    "evidence": [
+      "ev_30050",
+      "ev_30041"
+    ],
+    "title": "Microsoft: co-investor with Nvidia in Anthropic and Anthropic's compute seller",
+    "counterparty": "Microsoft"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_google_cx_2025",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Google: backstop of Fluidstack leases at TeraWulf (comparator)",
+    "evidence": [
+      "ev_100047"
+    ],
+    "title": "Google: backstop of Fluidstack leases at TeraWulf (comparator)",
+    "counterparty": "Google"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_iambic_eq_2023",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Nvidia preferred stock in Iambic Therapeutics (Series B 2023 and Series B-4 2026)",
+    "evidence": [
+      "ev_170001",
+      "ev_170002",
+      "ev_170003"
+    ],
+    "title": "Nvidia preferred stock in Iambic Therapeutics (Series B 2023 and Series B-4 2026)",
+    "counterparty": "Iambic"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_unattributed_non_marketable_equity_2026_10_25",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Unattributed non-marketable equity securities (private stakes), carrying value at 2026-10-25",
+    "evidence": [
+      "ev_120098",
+      "ev_130010",
+      "ev_130015"
+    ],
+    "title": "Unattributed non-marketable equity securities (private stakes), carrying value at 2026-10-25",
+    "counterparty": "Unattributed"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_unattributed_marketable_equity_2026_10_25",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Unattributed publicly held equity securities at 2026-10-25: not computable against 13F values at 2026-09-30",
+    "evidence": [
+      "ev_130011",
+      "ev_130012",
+      "ev_130014"
+    ],
+    "title": "Unattributed publicly held equity securities at 2026-10-25: not computable against 13F values at 2026-09-30",
+    "counterparty": "Unattributed"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_unattributed_guarantees_2026_10_25",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Unattributed guarantees: maximum gross exposure not tied to a named counterparty at 2026-10-25",
+    "evidence": [
+      "ev_30024",
+      "ev_30025",
+      "ev_30026"
+    ],
+    "title": "Unattributed guarantees: maximum gross exposure not tied to a named counterparty at 2026-10-25",
+    "counterparty": "Unattributed"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_unattributed_neocloud_agreements_2026_10_25",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Unattributed neocloud (AI cloud) agreements: capacity Nvidia agreed to buy back at 2026-10-25",
+    "evidence": [
+      "ev_40144",
+      "ev_40146",
+      "ev_50079"
+    ],
+    "title": "Unattributed neocloud (AI cloud) agreements: capacity Nvidia agreed to buy back at 2026-10-25",
+    "counterparty": "Unattributed"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_unattributed_cloud_service_agreements_2026_10_25",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Unattributed multi-year cloud service agreements at 2026-10-25",
+    "evidence": [
+      "ev_10030",
+      "ev_130013",
+      "ev_20001"
+    ],
+    "title": "Unattributed multi-year cloud service agreements at 2026-10-25",
+    "counterparty": "Unattributed"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_unattributed_equity_investment_commitments_2026_10_25",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Unattributed equity investment commitments (unfunded) at 2026-10-25",
+    "evidence": [
+      "ev_10032",
+      "ev_120010",
+      "ev_120011"
+    ],
+    "title": "Unattributed equity investment commitments (unfunded) at 2026-10-25",
+    "counterparty": "Unattributed"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_unattributed_supply_and_capacity_commitments_2026_10_25",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Unattributed supply and capacity commitments at 2026-10-25 (no prepayment aggregate disclosed)",
+    "evidence": [
+      "ev_10029",
+      "ev_10147",
+      "ev_10148"
+    ],
+    "title": "Unattributed supply and capacity commitments at 2026-10-25 (no prepayment aggregate disclosed)",
+    "counterparty": "Unattributed"
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_unattributed_data_center_leases_2026_10_25",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": "Unattributed data center leases not commenced at 2026-10-25",
+    "evidence": [
+      "ev_190004",
+      "ev_190005",
+      "ev_190006"
+    ],
+    "title": "Unattributed data center leases not commenced at 2026-10-25",
+    "counterparty": "Unattributed"
+  }
+]
