@@ -1,0 +1,3722 @@
+[
+  {
+    "id": "ent_nvidia",
+    "name": "NVIDIA Corporation",
+    "short_name": "Nvidia",
+    "cluster": "nvidia",
+    "depth": 0,
+    "public": true,
+    "ticker": "NVDA",
+    "country": "US",
+    "description": "Designer of accelerated computing systems. The center of the map."
+  },
+  {
+    "id": "ent_nvidia_unattributed",
+    "name": "Unattributed carrying value",
+    "short_name": "Unattributed",
+    "cluster": "other",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": null,
+    "description": "Synthetic entity for the part of a disclosed Nvidia aggregate that no named relationship explains. Excluded from every total."
+  },
+  {
+    "id": "ent_openai",
+    "name": "OpenAI Group PBC",
+    "short_name": "OpenAI",
+    "cluster": "ai_lab",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Developer of ChatGPT and the GPT models; a Delaware public benefit corporation controlled by the OpenAI Foundation.",
+    "credit": {
+      "cash_and_undrawn": {
+        "value": 4700000000,
+        "text": "$4.7 billion",
+        "as_of": "2026-03-31",
+        "evidence": [
+          "ev_120018"
+        ],
+        "lower_bound": true,
+        "note": "Undrawn revolving credit facility only (undrawn at close, ev_120019). Cash balance not disclosed by OpenAI."
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "collateral_note": "No GPU-backed debt of OpenAI itself found in allowed sources. Compute is mostly contracted from clouds and lessors (Microsoft, AWS, CoreWeave, Oracle, SB Energy).",
+      "notes": "Funding: the February 2026 round closed on 2026-03-31 with $122 billion of committed capital at an $852 billion post-money valuation (ev_120015, ev_120016). Revenue run rate stated by OpenAI as $2B per month in March 2026 (ev_120100; written with a B suffix that the grounding tool does not parse, so not used as an amount). Revolver about $4.7 billion, undrawn (ev_120018, ev_120019). Cash burn and losses: not disclosed in allowed sources found. OpenAI says it funds the PORTS-Pike rent from revenue, cash flow and capital raised (ev_120026)."
+    },
+    "compute_commitments": [
+      {
+        "counterparty": "ent_microsoft",
+        "description": "Incremental Azure services contracted under the October 2025 restructured Microsoft agreement (Microsoft 10-Q; same figure in OpenAI release ev_120102).",
+        "kind": "contract",
+        "amount": {
+          "text": "$250 billion",
+          "as_of": "2025-10-28",
+          "evidence": [
+            "ev_120111"
+          ]
+        }
+      },
+      {
+        "counterparty": "ent_amazon",
+        "description": "AWS compute agreement announced 2025-11-03, with continued growth over seven years.",
+        "kind": "contract",
+        "amount": {
+          "text": "$38 billion",
+          "as_of": "2025-11-03",
+          "evidence": [
+            "ev_120028"
+          ]
+        }
+      },
+      {
+        "counterparty": "ent_coreweave",
+        "description": "CoreWeave master services agreement of March 2025, up to about this amount through October 2030 (CoreWeave 10-K).",
+        "kind": "contract",
+        "amount": {
+          "text": "$11.9 billion",
+          "as_of": "2026-03-02",
+          "evidence": [
+            "ev_20199"
+          ]
+        }
+      },
+      {
+        "counterparty": "ent_coreweave",
+        "description": "CoreWeave order form of September 2025, up to about this amount through 31 May 2031 (CoreWeave 10-Q for Q3 2026).",
+        "kind": "contract",
+        "amount": {
+          "text": "$6.5 billion",
+          "as_of": "2026-11-12",
+          "evidence": [
+            "ev_20102"
+          ]
+        }
+      },
+      {
+        "counterparty": "ent_sb_energy",
+        "description": "PORTS-Pike, Ohio: about 8 GW-IT under 17 leases of 20 years each, commencing in stages 2028 to 2032, rent payable only as completed capacity is delivered (ev_120022, ev_120023, ev_40098, ev_40099). SB Energy reports about $430 billion of data center backlog, a substantial majority from PORTS-Pike (ev_120109, ev_120036); the OpenAI rent total is not separately disclosed.",
+        "kind": "lease",
+        "amount": {
+          "text": "Not disclosed",
+          "as_of": null,
+          "evidence": []
+        }
+      },
+      {
+        "counterparty": "ent_amd",
+        "description": "6 GW of AMD Instinct GPUs from the second half of 2026; no dollar amount disclosed (ev_120029).",
+        "kind": "contract",
+        "amount": {
+          "text": "Not disclosed",
+          "as_of": null,
+          "evidence": []
+        }
+      },
+      {
+        "counterparty": "ent_broadcom",
+        "description": "10 GW of OpenAI-designed accelerators with Broadcom through 2029; no dollar amount disclosed (ev_120030).",
+        "kind": "contract",
+        "amount": {
+          "text": "Not disclosed",
+          "as_of": null,
+          "evidence": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "ent_anthropic",
+    "name": "Anthropic, PBC",
+    "short_name": "Anthropic",
+    "cluster": "ai_lab",
+    "depth": 1,
+    "public": true,
+    "ticker": "ANT",
+    "country": "US",
+    "description": "Developer of the Claude models; listed on Nasdaq on 2026-11-19.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 6200000000,
+        "text": "$6.2 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_120059"
+        ],
+        "lower_bound": false,
+        "note": "Amazon convertible notes principal, expected to be settled in shares. Convertible notes are carried at a fair value far above principal; the $15.0 billion secured revolver was undrawn (ev_120060, ev_120061)."
+      },
+      "maturities_24m": {
+        "value": 559000000.0,
+        "text": "$559 million",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190011",
+          "ev_190012"
+        ],
+        "lower_bound": true,
+        "note": "Finance lease payments due in Q4 2026 and calendar 2027 (15 months). No notes mature within 24 months: the Amazon notes mature in 2034 and 2035 (ev_190016) and are expected to be settled in shares. Instrument: final prospectus (424B4) of 2026-11-19, which supersedes S-1/A No. 3 of 2026-11-17."
+      },
+      "cash_and_undrawn": {
+        "value": 146700000000,
+        "text": "$146.7 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_120054",
+          "ev_120055",
+          "ev_120056"
+        ],
+        "lower_bound": false,
+        "note": "Before the IPO and concurrent private placement of November 2026 (about $119.5 billion gross, company release)."
+      },
+      "committed_spend_12m": {
+        "value": 51796000000.0,
+        "text": "$51.8 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190013",
+          "ev_190014",
+          "ev_190015"
+        ],
+        "lower_bound": false,
+        "note": "Contractual obligations due in Q4 2026 and calendar 2027 (15 months, so this overstates a 12 month figure), plus about $17.4 billion of minimum payments under contracts of one year or less that the table excludes. Excludes compute arrangements without a fixed dollar commitment."
+      },
+      "liquidity_months": {
+        "value": 34.0,
+        "label": "analysis",
+        "inputs": [
+          {
+            "field": "credit.cash_and_undrawn",
+            "value": 146700000000,
+            "as_of": "2026-09-30",
+            "evidence": [
+              "ev_120054",
+              "ev_120055",
+              "ev_120056"
+            ]
+          },
+          {
+            "field": "credit.committed_spend_12m",
+            "value": 51796000000.0,
+            "as_of": "2026-09-30",
+            "evidence": [
+              "ev_190013",
+              "ev_190014",
+              "ev_190015"
+            ]
+          }
+        ]
+      },
+      "top_customer_share": {
+        "value": 0.1,
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190017"
+        ],
+        "note": "Upper bound: no single customer exceeded 10% of revenue in the nine months to 2026-09-30. Top five customers were about 25% (ev_190018).",
+        "last_verified": "2026-11-23"
+      },
+      "collateral_note": "Compute is contracted, not owned, in the main: CSP hosting agreements and five-year Broadcom equipment finance leases (ev_120051). The revolver is senior secured (ev_120060).",
+      "notes": "Instrument: Anthropic final prospectus (424B4) filed 2026-11-19, figures at 2026-09-30, before the IPO and concurrent private placements (Nvidia about $10.0 billion). Supersedes the S-1/A amendments of 2 to 17 November 2026. Amazon convertible notes of $6.2 billion principal mature in 2034 and 2035 (ev_190016). Top five customers about 25% of revenue (ev_190018). Revenue nine months to 2026-09-30: $33,242 million (ev_120058). Purchase commitments $313.8 billion (ev_120052)."
+    },
+    "compute_commitments": [
+      {
+        "counterparty": "ent_google",
+        "description": "Google CSP hosting agreement, minimum spend April 2026 to July 2033 regardless of usage, with a true-up.",
+        "kind": "contract",
+        "amount": {
+          "text": "$121.3 billion",
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120045"
+          ]
+        }
+      },
+      {
+        "counterparty": "ent_amazon",
+        "description": "Amazon agreement, minimum spend May 2026 to April 2036 regardless of usage.",
+        "kind": "contract",
+        "amount": {
+          "text": "$110 billion",
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120046"
+          ]
+        }
+      },
+      {
+        "counterparty": "ent_microsoft",
+        "description": "Microsoft agreement of November 2025 as amended to November 2026: at least $47.2 billion and up to $49.2 billion, November 2026 to June 2033 (minimum shown). Grew from the $30 billion Azure commitment announced in November 2025 (ev_120065).",
+        "kind": "contract",
+        "amount": {
+          "text": "$47.2 billion",
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120044"
+          ]
+        }
+      },
+      {
+        "counterparty": "ent_spacex",
+        "description": "SpaceXAI arrangements for NVIDIA GPU compute, up to this amount into 2029, about $3.1 billion a month at full delivery; cancellable on 90 days notice after initial periods ending January and March 2027 (ev_120048).",
+        "kind": "contract",
+        "amount": {
+          "text": "$120.5 billion",
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120047"
+          ]
+        }
+      },
+      {
+        "counterparty": "ent_nscale",
+        "description": "Nscale GPU services agreements for NVIDIA GPU compute into 2033; fees accrue only on delivery; Nscale must obtain financing (ev_40030).",
+        "kind": "contract",
+        "amount": {
+          "text": "$44.6 billion",
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120049",
+            "ev_40029"
+          ]
+        }
+      },
+      {
+        "counterparty": "ent_lambda",
+        "description": "Lambda agreements for NVIDIA GPU compute into 2034; the August 2026 agreement (about $34.9 billion of the total) is currently terminable because Lambda did not secure the facility lease.",
+        "kind": "contract",
+        "amount": {
+          "text": "$41.3 billion",
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120050"
+          ]
+        }
+      },
+      {
+        "counterparty": "ent_broadcom",
+        "description": "Five-year Broadcom master equipment leases (finance leases), rent excluding interest.",
+        "kind": "lease",
+        "amount": {
+          "text": "$161.2 billion",
+          "as_of": "2026-11-19",
+          "evidence": [
+            "ev_120051"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "ent_spacex",
+    "name": "Space Exploration Technologies Corp.",
+    "short_name": "SpaceX",
+    "cluster": "ai_lab",
+    "depth": 1,
+    "public": true,
+    "ticker": "SPCX",
+    "country": "US",
+    "description": "Launch, satellite and AI company; owns xAI (Grok, Colossus data centers, now SpaceX Super Intelligence) since 2026-02-02; listed on Nasdaq in June 2026.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 38006000000,
+        "text": "$38 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_120088"
+        ],
+        "lower_bound": false,
+        "note": "Principal. Includes $25.0 billion senior unsecured notes (ev_120084) and $12.9 billion of Valor GPU failed sale-leaseback debt (ev_120085, ev_120086)."
+      },
+      "maturities_24m": {
+        "value": 2920000000,
+        "text": "$2.92 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_120092",
+          "ev_120093"
+        ],
+        "lower_bound": true,
+        "note": "Covers October 2026 to December 2027 only; the 2028 maturities that fall inside 24 months are excluded."
+      },
+      "cash_and_undrawn": {
+        "value": 94855000000,
+        "text": "$94.9 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_120081",
+          "ev_120082",
+          "ev_120083"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "committed_spend_12m": {
+        "value": 27878000000,
+        "text": "$27.9 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_120090",
+          "ev_120091"
+        ],
+        "lower_bound": false,
+        "note": "Non-cancelable commitments for October 2026 to December 2027 (15 months), so this overstates a 12 month figure. Excludes the Apollo GPU lease, which commences in 2027."
+      },
+      "liquidity_months": {
+        "value": 40.8,
+        "label": "analysis",
+        "inputs": [
+          {
+            "field": "credit.cash_and_undrawn",
+            "value": 94855000000,
+            "as_of": "2026-09-30",
+            "evidence": [
+              "ev_120081",
+              "ev_120082",
+              "ev_120083"
+            ]
+          },
+          {
+            "field": "credit.committed_spend_12m",
+            "value": 27878000000,
+            "as_of": "2026-09-30",
+            "evidence": [
+              "ev_120090",
+              "ev_120091"
+            ]
+          }
+        ]
+      },
+      "top_customer_share": {
+        "value": 0.345,
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190019"
+        ],
+        "note": "Customer B, SI segment, 34.5% of revenue in the quarter to 2026-09-30 (24.2% over nine months). Customer A was 16.6% of the quarter (ev_190020). Customers are not named; that Customer B is Anthropic, which leases about 325,000 Nvidia GPUs from SpaceX's AI segment, is analysis.",
+        "last_verified": "2026-11-23"
+      },
+      "collateral_note": "GPU hardware financed through Valor equipment leases recorded as failed sale-leasebacks (ev_120087) and, from 2027, an Apollo-managed lessor finance lease of about $40 billion principal with terms of five to five and a quarter years (ev_120094).",
+      "notes": "SpaceX's 10-Q for the quarter ended 2026-09-30 does not name NVIDIA. Its AI segment leases about 325,000 NVIDIA GPUs to Anthropic at $1.25 billion per month through May 2029 (424B4, ev_120079). Customer concentration added from Note 3 of the same 10-Q (ev_190019, ev_190020): the two disclosed customers were 51.1% of quarterly revenue (analysis). Instruments: 10-Q of 2026-10-22, which supersedes the 424B4 of 2026-06-12 for balance sheet figures."
+    },
+    "compute_commitments": [
+      {
+        "counterparty": "ent_valor",
+        "description": "Three equipment leases of computing equipment from Valor, guaranteed by SpaceX; aggregate cash payments over the lease lives (424B4). Recorded as failed sale-leaseback debt.",
+        "kind": "lease",
+        "amount": {
+          "text": "$20.2 billion",
+          "as_of": "2026-06-12",
+          "evidence": [
+            "ev_120075",
+            "ev_120076",
+            "ev_120077"
+          ]
+        }
+      },
+      {
+        "counterparty": "ent_apollo",
+        "description": "Binding commitment letter of 2026-10-24 for a master finance lease of GPU pods from an Apollo-managed lessor; aggregate principal payments; subject to closing conditions; schedules commence in the first half of 2027.",
+        "kind": "lease",
+        "amount": {
+          "text": "$40 billion",
+          "as_of": "2026-10-26",
+          "evidence": [
+            "ev_120094"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "ent_sb_energy",
+    "name": "SB Energy, Inc.",
+    "short_name": "SB Energy",
+    "cluster": "vehicle",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "SoftBank controlled developer of data center campuses and power plants; landlord of the PORTS-Pike campus in Ohio leased to an OpenAI affiliate. IPO pending.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 4623463000.0,
+        "text": "$4.62 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190026"
+        ],
+        "lower_bound": false,
+        "note": "Total principal of debt at 2026-09-30 (S-1/A No. 3, Note 10). Most is project-level and secured; the SE Cosmos 8.875% senior secured notes due 2031 are $999.0 million. The S-1/A says the Hickory Facilities will be repaid from an initial draw under a new corporate Credit Facility at the IPO."
+      },
+      "maturities_24m": {
+        "value": 2805895000.0,
+        "text": "$2.81 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190021",
+          "ev_190022",
+          "ev_190023",
+          "ev_190024",
+          "ev_190025"
+        ],
+        "lower_bound": false,
+        "note": "Facilities with stated maturities on or before 2028-09-30. Construction and bridge loans are usually repaid at term conversion or from tax equity funding (analysis), so this is a gross figure. Amortization of the term loans is excluded, so it is not an upper bound."
+      },
+      "cash_and_undrawn": {
+        "value": 2896700000.0,
+        "text": "$2.9 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190027",
+          "ev_190028"
+        ],
+        "lower_bound": false,
+        "note": "Unrestricted cash plus undrawn committed borrowing capacity, mostly construction and bridge loans tied to specific projects. Excludes restricted cash of $1,155.6 million, the $1.5 billion Nvidia prepaid forward already received in August 2026 is inside cash only to the extent unspent, and the IPO proceeds are not yet received."
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": 0.28,
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190029"
+        ],
+        "note": "Largest customer 28% of revenue (excluding swap settlements), nine months to 2026-09-30; a power offtaker, not the data center tenant.",
+        "last_verified": "2026-11-23"
+      },
+      "top3_customer_share": {
+        "value": 0.56,
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190029",
+          "ev_190031",
+          "ev_190030"
+        ],
+        "note": "Analysis: 28% + 17% + 11%.",
+        "last_verified": "2026-11-23"
+      },
+      "collateral_note": "Project-level debt secured on solar, storage and data center project companies and membership interests; no GPU collateral. PORTS-Pike financeability depends in significant part on the Nvidia residual value guaranty (ev_120037).",
+      "notes": "Instrument: S-1/A Amendment No. 3 filed 2026-11-19 (no 424B4 yet), figures at 2026-09-30; supersedes the S-1 of 2026-09-01 and amendments of 4 and 21 September 2026. Purchase commitments $6.79 billion for the remainder of 2026 through 2028 (ev_190032). Dependence on OpenAI: ev_190033. Pre-IPO; the planned corporate Credit Facility and IPO proceeds would change both columns."
+    }
+  },
+  {
+    "id": "ent_softbank",
+    "name": "SoftBank Group Corp.",
+    "short_name": "SoftBank",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": "9984",
+    "country": "JP",
+    "description": "Controlling shareholder of SB Energy before and after its IPO; affiliates are tenants at the Cosmos campus."
+  },
+  {
+    "id": "ent_microsoft",
+    "name": "Microsoft Corporation",
+    "short_name": "Microsoft",
+    "cluster": "hyperscaler",
+    "depth": 1,
+    "public": true,
+    "ticker": "MSFT",
+    "country": "US",
+    "description": "Hyperscaler; offtaker of Nscale, Nebius and IREN capacity, and co-investor with Nvidia in Anthropic.",
+    "credit": {
+      "public_ratings": [
+        {
+          "agency": "Not named (Microsoft 10-Q)",
+          "rating": "AAA",
+          "date": "2026-09-30",
+          "evidence": [
+            "ev_190108"
+          ]
+        }
+      ],
+      "debt_outstanding": {
+        "value": 35481000000.0,
+        "text": "$35.5 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190104"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "maturities_24m": {
+        "value": 6388000000.0,
+        "text": "$6.39 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190105",
+          "ev_190106"
+        ],
+        "lower_bound": false,
+        "note": "Nothing is due in fiscal 2028 (ev_190107). Includes all of fiscal 2029, so an upper bound for 24 months."
+      },
+      "cash_and_undrawn": {
+        "value": 64509000000.0,
+        "text": "$64.5 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190103"
+        ],
+        "lower_bound": true,
+        "note": "Cash, cash equivalents and short-term investments; no undrawn facility recorded."
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": 0.1,
+        "as_of": "2026-06-30",
+        "evidence": [
+          "ev_190109"
+        ],
+        "note": "Upper bound: no individual customer above 10% of revenue in fiscal 2026.",
+        "last_verified": "2026-11-23"
+      },
+      "collateral_note": "Not applicable: unsecured issuer; no GPU-backed debt disclosed.",
+      "notes": "Instruments: 10-Q for the quarter ended 2026-09-30 (filed 2026-10-28); 10-K for fiscal 2026 (filed 2026-07-29) for customers. Nvidia's relationship with Microsoft is a context record without amounts (rel_microsoft_cx_2025)."
+    }
+  },
+  {
+    "id": "ent_amazon",
+    "name": "Amazon.com, Inc.",
+    "short_name": "Amazon",
+    "cluster": "hyperscaler",
+    "depth": 2,
+    "public": true,
+    "ticker": "AMZN",
+    "country": "US",
+    "description": "Co-investor in OpenAI's 2026 round and compute supplier to OpenAI and Anthropic."
+  },
+  {
+    "id": "ent_google",
+    "name": "Google LLC",
+    "short_name": "Google",
+    "cluster": "hyperscaler",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Alphabet subsidiary; Anthropic shareholder, noteholder and TPU compute supplier; co-buyer with Nvidia in Anthropic's IPO private placement."
+  },
+  {
+    "id": "ent_coreweave",
+    "name": "CoreWeave, Inc.",
+    "short_name": "CoreWeave",
+    "cluster": "neocloud",
+    "depth": 1,
+    "public": true,
+    "ticker": "CRWV",
+    "country": "US",
+    "description": "GPU cloud provider whose fleet is entirely NVIDIA GPUs; Nvidia is at once its shareholder, supplier and customer.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 47505000000,
+        "text": "$47.5 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_20071"
+        ],
+        "lower_bound": false,
+        "note": "Total future principal at 2026-09-30 per the Q3 2026 10-Q (filed 2026-11-12). Supersedes the FY2025 10-K debt note. Recourse debt net $41,600m (ev_20062) and non-recourse net $5,273m (ev_20066)."
+      },
+      "maturities_24m": {
+        "value": 13407000000,
+        "text": "$13.4 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_20068",
+          "ev_20069"
+        ],
+        "lower_bound": true,
+        "note": "Lower bound: principal due 2026-10-01 to 2027-12-31 only. The 2028 principal of $5,479m (ev_20070) is not split by month; analysis pro-rating three quarters of it gives about $17.5bn within 24 months."
+      },
+      "cash_and_undrawn": {
+        "value": 9837000000,
+        "text": "$9.84 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_20109"
+        ],
+        "lower_bound": false,
+        "note": "Total liquidity as CoreWeave defines it: cash and equivalents $4,122m (ev_20104) plus availability under existing facilities $5,653m (ev_20108) and other items. Restricted cash of $1,405m current and $877m non-current (ev_20105, ev_20106) is not counted."
+      },
+      "committed_spend_12m": {
+        "value": null,
+        "text": "Not disclosed",
+        "as_of": null,
+        "evidence": [],
+        "lower_bound": null,
+        "note": null
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": 0.33,
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_20100"
+        ],
+        "last_verified": "2026-11-23",
+        "note": "Customer A, nine months 2026. Q3 2026 alone: top two customers 30% and 24% (ev_20101, ev_20099). FY2025 Microsoft 67% (ev_20125); FY2024 Microsoft 62% (ev_20035)."
+      },
+      "top3_customer_share": {
+        "value": null,
+        "as_of": null,
+        "evidence": [],
+        "last_verified": null,
+        "note": "Not disclosed. Top two customers were about 54% of Q3 2026 revenue (30% and 24%, ev_20101); FY2024 top two 77% (ev_20036)."
+      },
+      "collateral_note": "All GPUs in the fleet are NVIDIA GPUs (ev_20127) and customers contractually specify them (ev_20128). Computing equipment is depreciated over six years, changed from five in 2023 (ev_20130). Delayed draw term loans sit in special purpose vehicles that hold the financed infrastructure and the customer contracts (ev_20087); they are sized on the depreciable cost of GPU servers (ev_20144). SPV debt was secured by $22.2 billion of non-current assets at 2026-09-30 (ev_20086). DDTL 3.0 tracks collateral GPU by GPU using serial-number documents from NVIDIA or Dell (ev_20210). Latest generation deployed: Vera Rubin NVL72 (ev_20183).",
+      "market_signals": [
+        {
+          "signal": "Value per CoreWeave share implied by Nvidia's 13F",
+          "label": "analysis",
+          "value": "$163.06 at 2025-06-30 (ev_70014), $71.61 at 2025-12-31 (ev_70015), $87.12 at 2026-09-30 (ev_50019)",
+          "note": "Reported value divided by shares; a 56% fall from June to December 2025.",
+          "evidence": [
+            "ev_70014",
+            "ev_70015",
+            "ev_50019"
+          ]
+        },
+        {
+          "signal": "Unsecured bond coupons",
+          "label": "fact",
+          "value": "9.00% to 9.75% on 2030 to 2032 senior notes",
+          "date": "2026-09-30",
+          "evidence": [
+            "ev_20142",
+            "ev_20052",
+            "ev_20053",
+            "ev_20054"
+          ]
+        },
+        {
+          "signal": "Secured facility pricing",
+          "label": "fact",
+          "value": "DDTL 4.0 at SOFR plus 2.25% (March 2026) versus DDTL 5.5 at SOFR plus 5.50% (August 2026)",
+          "date": "2026-08-10",
+          "evidence": [
+            "ev_20076",
+            "ev_20150"
+          ]
+        },
+        {
+          "signal": "Convertible notes",
+          "label": "fact",
+          "value": "2033 notes at 2.875% converting at about $97.85 per share; 2032 notes convert at about $119.60",
+          "date": "2026-09-22",
+          "evidence": [
+            "ev_70001",
+            "ev_20092",
+            "ev_20091"
+          ]
+        },
+        {
+          "signal": "Securities class action",
+          "label": "fact",
+          "value": "Masaitis v. CoreWeave, filed 2026-01-12",
+          "date": "2026-01-12",
+          "evidence": [
+            "ev_20198"
+          ]
+        }
+      ],
+      "notes": "Facility ratings only, no corporate rating found: DDTL 4.0 A3 (Moody's) and A (low) (DBRS) (ev_20169); DDTL 5.0 Ba2 and BB+ (Fitch) (ev_20177); DDTL 5.5 Ba2 and BB+ (ev_20155). Material weaknesses continued at 2025-12-31 (ev_20132) and disclosure controls were not effective at 2026-09-30 (ev_20148). Covenant relief: the DDTL 3.0 First Amendment of 2025-12-31 aligned the facility with delivery delays (ev_20201), cut minimum liquidity to $100m (ev_20202) from a schedule of up to $175m (ev_20211), postponed the first debt service coverage test (ev_20203) and allowed unlimited equity cures (ev_20204). Cross-default in DDTL 5.5 above $35m (ev_20160) and cross-acceleration in the 2033 convertible indenture above the greater of $200m and 5% of LTM EBITDA (ev_70004). $1.9bn of deferred revenue reclassified to liabilities as contracts became cancellable (ev_20118, ev_20098). RPO $132.3bn at 2026-09-30, 36% within 24 months (ev_20095, ev_20096). Accumulated deficit $4.7bn (ev_20110)."
+    }
+  },
+  {
+    "id": "ent_amd",
+    "name": "Advanced Micro Devices, Inc.",
+    "short_name": "AMD",
+    "cluster": "semis_supply",
+    "depth": 2,
+    "public": true,
+    "ticker": "AMD",
+    "country": "US",
+    "description": "Cornerstone investor alongside Nvidia in Meta's October 2026 common stock offering."
+  },
+  {
+    "id": "ent_broadcom",
+    "name": "Broadcom Inc.",
+    "short_name": "Broadcom",
+    "cluster": "semis_supply",
+    "depth": 2,
+    "public": true,
+    "ticker": "AVGO",
+    "country": "US",
+    "description": "Cornerstone investor alongside Nvidia in Meta's October 2026 common stock offering."
+  },
+  {
+    "id": "ent_nscale",
+    "name": "Nscale plc",
+    "short_name": "Nscale",
+    "cluster": "neocloud",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "GB",
+    "description": "UK-headquartered GPU cloud with sites in Norway, Iceland, the UK and the US; IPO pending (S-1/A filed 2026-11-12). Nvidia is its shareholder, lender, lease guarantor, customer and GPU maker.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 5516300000,
+        "text": "$5.52 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_40022"
+        ],
+        "lower_bound": false,
+        "note": "Preliminary estimate of total debt including current portion at 2026-09-30 in the S-1/A of 2026-11-12 (the newest document; no 424B4 yet). Supersedes $137.4m at 2026-06-30 (ev_40023). Drawn amounts per facility are not disclosed."
+      },
+      "maturities_24m": {
+        "value": 3360000000,
+        "text": "$3.36 billion",
+        "as_of": "2026-11-12",
+        "evidence": [
+          "ev_40013"
+        ],
+        "lower_bound": true,
+        "note": "2028 Convertible Loan Notes programme, $3.36bn including the $1.0bn NVIDIA Sale, mature 2028-06-15 unless converted (ev_80020); they convert automatically at the IPO. Includes Nvidia's own $2.0bn (ev_80019). Lower bound: scheduled amortisation of the GPU and project facilities is not disclosed; Dell Financial Services equipment leases carry about $2.54bn of initial-term rent with three to four month initial terms from August and September 2026 (ev_40040), which are leases, not counted here."
+      },
+      "cash_and_undrawn": {
+        "value": 3575900000,
+        "text": "$3.58 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_40021"
+        ],
+        "lower_bound": true,
+        "note": "Preliminary cash and cash equivalents at 2026-09-30. Undrawn commitments are not disclosed: committed facilities include the $1.85bn Ward County and $1.2bn North Carolina GPU facilities (ev_40035, ev_40034), the $1.4bn GPU Financing Facility (ev_40041) and the $900m revolver (ev_40047). The $470.0m escrow held for Nvidia is restricted cash and is excluded (ev_40004)."
+      },
+      "committed_spend_12m": {
+        "value": null,
+        "text": "Not disclosed",
+        "as_of": null,
+        "evidence": [],
+        "lower_bound": null,
+        "note": null
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": 0.52,
+        "as_of": "2026-06-30",
+        "evidence": [
+          "ev_40025"
+        ],
+        "last_verified": "2026-11-23",
+        "note": "Largest customer, unnamed, six months to 2026-06-30. FY2025: 73% (ev_40026). Whether Nvidia is that customer is not disclosed."
+      },
+      "top3_customer_share": {
+        "value": null,
+        "as_of": null,
+        "evidence": [],
+        "last_verified": "2026-11-23",
+        "note": "Not disclosed."
+      },
+      "collateral_note": "Technology equipment, mainly GPUs and related infrastructure, depreciated over five to six years (ev_80022). Ward County and North Carolina GPU facilities are borrower SPV term loans (ev_40035, ev_40034); the GPU Financing Facility is secured by substantially all borrower assets (ev_40041); the Macquarie facilities are secured on GPU equipment (ev_40037, ev_40042). Fleet is Nvidia GPUs bought through OEMs (ev_40015, ev_40016).",
+      "market_signals": [
+        {
+          "signal": "Facility rating",
+          "label": "fact",
+          "value": "Ward County GPU Facility received investment-grade ratings with a stable outlook; agency not named",
+          "date": "2026-11-12",
+          "evidence": [
+            "ev_40050"
+          ]
+        },
+        {
+          "signal": "Secured facility pricing",
+          "label": "fact",
+          "value": "Project GPU facilities at SOFR plus 2.375% versus the corporate GPU Financing Facility at SOFR plus 5.00% and the Macquarie Iceland facility at SOFR plus 5.50%",
+          "date": "2026-11-12",
+          "evidence": [
+            "ev_40035",
+            "ev_40041",
+            "ev_40037"
+          ]
+        }
+      ],
+      "notes": "The company must obtain additional financing to meet forecast 2027 obligations (ev_40049). Material weaknesses in internal control (ev_40048). No binding financing yet for the Anthropic Monarch contract (ev_40030), which needs about $10bn to $10.5bn of data center capex for Building 1 and $21bn to $22bn of GPUs (ev_40031, ev_40032). Customer prepayments of $2.3bn were received in the first half of 2026 (ev_40033). RPO $56.4bn at 2026-06-30 (ev_40024). Microsoft statements of work up to about $43.8bn through December 2033, one $3.22bn statement terminated (ev_40027, ev_40028)."
+    }
+  },
+  {
+    "id": "ent_lambda",
+    "name": "Lambda, Inc.",
+    "short_name": "Lambda",
+    "cluster": "neocloud",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Private US GPU cloud provider that rents Nvidia based compute to AI labs, hyperscalers and enterprises.",
+    "credit": {
+      "public_ratings": [
+        {
+          "agency": "Moody's",
+          "rating": "Baa2 (term loan B facility rating, not an issuer rating)",
+          "date": "2026-08-12",
+          "evidence": [
+            "ev_110005"
+          ]
+        },
+        {
+          "agency": "Moody's / Morningstar DBRS",
+          "rating": "Baa1 / A (low) (fixed rate delayed draw facility rating, not an issuer rating)",
+          "date": "2026-10-01",
+          "evidence": [
+            "ev_110006"
+          ]
+        }
+      ],
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "collateral_note": "Both 2026 asset level facilities are secured by the GPU servers and related infrastructure they fund and by the contracted cash flows. GPU generation and depreciation life not disclosed.",
+      "notes": "Facilities (company releases): $1 billion syndicated senior secured credit facility closed 2026-05-07, upsized from $275 million (Aug 2025), J.P. Morgan lead arranger (ev_110009); $926 million senior secured term loan B priced 2026-08-12, SOFR + 3.00%, matures 2030-12-31, Morgan Stanley lead left, funds GPUs dedicated to one unnamed investment-grade offtaker (ev_110002, ev_110003, ev_110004); $1.008 billion fixed rate delayed draw term loan closed 2026-10-01, 6.78%, matures 2033-05-30, J.P. Morgan sole coordinator, backed by two unnamed investment-grade offtakers (ev_110006, ev_110007, ev_110008). Drawn balances not disclosed. Customers: Microsoft multibillion multi-year agreement (ev_110010); Anthropic agreed to spend about $41.3 billion under the Lambda Agreements (ev_110011), of which about $34.9 billion (August 2026 agreement) is terminable by either party because Lambda did not secure the facility lease by the required date (ev_110012, ev_110013). Equity: Series D $480M (Feb 2025, NVIDIA a participant, ev_110059, ev_110001) and Series E over $1.5B (Nov 2025, ev_110060); both figures are written with M or B suffixes that the grounding tool does not parse, so they are not grounded as values."
+    }
+  },
+  {
+    "id": "ent_valor",
+    "name": "Valor Equity Partners",
+    "short_name": "Valor",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Private equity firm whose founder sits on SpaceX's board; lessor of GPU hardware to xAI subsidiaries."
+  },
+  {
+    "id": "ent_apollo",
+    "name": "Apollo Global Management, Inc.",
+    "short_name": "Apollo",
+    "cluster": "lender",
+    "depth": 2,
+    "public": true,
+    "ticker": "APO",
+    "country": "US",
+    "description": "Capital provider party to an Nvidia financing platform memorandum of understanding."
+  },
+  {
+    "id": "ent_tesla",
+    "name": "Tesla, Inc.",
+    "short_name": "Tesla",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": "TSLA",
+    "country": "US",
+    "description": "Co-investor with Nvidia in xAI's Series E."
+  },
+  {
+    "id": "ent_asml",
+    "name": "ASML Holding N.V.",
+    "short_name": "ASML",
+    "cluster": "semis_supply",
+    "depth": 2,
+    "public": true,
+    "ticker": "ASML",
+    "country": "NL",
+    "description": "Dutch lithography equipment maker; led the Mistral AI Series C."
+  },
+  {
+    "id": "ent_brookfield",
+    "name": "Brookfield Asset Management Ltd.",
+    "short_name": "Brookfield",
+    "cluster": "lender",
+    "depth": 2,
+    "public": true,
+    "ticker": "BAM",
+    "country": "CA",
+    "description": "Sponsor of the Brookfield AI Infrastructure Fund and party to an Nvidia financing platform memorandum of understanding.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      }
+    }
+  },
+  {
+    "id": "ent_mistral",
+    "name": "Mistral AI SAS",
+    "short_name": "Mistral",
+    "cluster": "ai_lab",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "FR",
+    "description": "French developer of open weight language models that also runs its own compute business, Mistral Compute.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_ssi",
+    "name": "Safe Superintelligence Inc.",
+    "short_name": "SSI",
+    "cluster": "ai_lab",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "AI research lab founded in 2024 by Ilya Sutskever and Daniel Levy, with offices in Palo Alto and Tel Aviv.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    },
+    "compute_commitments": [
+      {
+        "counterparty": "ent_nvidia",
+        "description": "Access to Nvidia Vera Rubin systems to increase SSI's compute by an order of magnitude (ev_30060); amount and provider not stated.",
+        "kind": "contract",
+        "amount": {
+          "text": "Not disclosed",
+          "as_of": null,
+          "evidence": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "ent_thinking_machines",
+    "name": "Thinking Machines Lab Inc.",
+    "short_name": "Thinking Machines",
+    "cluster": "ai_lab",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "AI lab led by Mira Murati that builds customizable models and the Tinker training platform.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    },
+    "compute_commitments": [
+      {
+        "counterparty": "ent_nvidia",
+        "description": "Multiyear partnership to deploy at least one gigawatt of Nvidia Vera Rubin systems, targeted for early 2027 (ev_30058, ev_90046). No dollar amount stated.",
+        "kind": "contract",
+        "amount": {
+          "text": "Not disclosed",
+          "as_of": null,
+          "evidence": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "ent_reflection",
+    "name": "Reflection AI, Inc.",
+    "short_name": "Reflection",
+    "cluster": "ai_lab",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "New York based developer of open weight frontier models (Beam).",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_cohere",
+    "name": "Cohere Inc.",
+    "short_name": "Cohere",
+    "cluster": "ai_lab",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "CA",
+    "description": "Canadian developer of enterprise language models; agreed in April 2026 to combine with Aleph Alpha.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_sakana",
+    "name": "Sakana AI K.K.",
+    "short_name": "Sakana AI",
+    "cluster": "ai_lab",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "JP",
+    "description": "Tokyo based AI research company building nature inspired foundation models.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_point2",
+    "name": "Point2 Technology",
+    "short_name": "Point2",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "KR",
+    "description": "AI interconnect startup building radio frequency based links between chips and racks.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_motif",
+    "name": "Motif Technologies",
+    "short_name": "Motif Technologies",
+    "cluster": "ai_lab",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "KR",
+    "description": "Korean startup building foundation models.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_rlwrld",
+    "name": "RLWRLD",
+    "short_name": "RLWRLD",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "KR",
+    "description": "Korean physical AI and robotics startup.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_upstage",
+    "name": "Upstage",
+    "short_name": "Upstage",
+    "cluster": "ai_lab",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "KR",
+    "description": "Korean developer of language models and document AI.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_naver",
+    "name": "NAVER Corporation",
+    "short_name": "NAVER",
+    "cluster": "hyperscaler",
+    "depth": 1,
+    "public": true,
+    "ticker": "035420.KS",
+    "country": "KR",
+    "description": "Korean internet company whose subsidiary NAVER Cloud operates AI data centers including GAK Sejong.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    },
+    "compute_commitments": [
+      {
+        "counterparty": "ent_brookfield",
+        "description": "NAVER Cloud to pay usage fees to a Brookfield vehicle (Asset Co.) that will invest up to $9 billion in GPUs and data centers; NAVER guarantees the fees for up to eight years (ev_90070, ev_90071). The fee amount is not stated.",
+        "kind": "contract",
+        "amount": {
+          "text": "Not disclosed",
+          "as_of": null,
+          "evidence": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "ent_uk_ai_startup_program",
+    "name": "Nvidia UK AI startup ecosystem commitment",
+    "short_name": "UK startup program",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "GB",
+    "description": "Nvidia's announced GBP 2 billion commitment to UK AI startups, with five UK venture firms joining.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_figure",
+    "name": "Figure AI Inc.",
+    "short_name": "Figure",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Humanoid robot developer building the Helix AI system and BotQ manufacturing.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    },
+    "compute_commitments": [
+      {
+        "counterparty": "ent_nscale",
+        "description": "Partnership to deploy Nvidia Vera Rubin for up to 100,000 GPUs in Barstow, Texas from the second half of 2027; initial commitment of $3.5 billion of compute with intent to scale to over $6 billion (ev_90065).",
+        "kind": "contract",
+        "amount": {
+          "text": "$3.5 billion",
+          "as_of": "2026-09-03",
+          "evidence": [
+            "ev_90065"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "ent_wayve",
+    "name": "Wayve Technologies Ltd",
+    "short_name": "Wayve",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "GB",
+    "description": "London based developer of end to end AI driving software for automakers and robotaxis.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_skild_ai",
+    "name": "Skild AI, Inc.",
+    "short_name": "Skild AI",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Pittsburgh based developer of general purpose robot foundation models.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_black_forest_labs",
+    "name": "Black Forest Labs GmbH",
+    "short_name": "Black Forest Labs",
+    "cluster": "ai_lab",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "DE",
+    "description": "German developer of FLUX image generation models.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_scale_ai",
+    "name": "Scale AI, Inc.",
+    "short_name": "Scale AI",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Data labeling and AI evaluation company.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_anysphere",
+    "name": "Anysphere, Inc. (Cursor)",
+    "short_name": "Cursor",
+    "cluster": "ai_lab",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Maker of the Cursor AI coding editor; acquired by SpaceX in August 2026.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_databricks",
+    "name": "Databricks, Inc.",
+    "short_name": "Databricks",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Data and AI platform company.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_commonwealth_fusion",
+    "name": "Commonwealth Fusion Systems LLC",
+    "short_name": "CFS",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Fusion energy developer building SPARC and the ARC power plant.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_psiquantum",
+    "name": "PsiQuantum Corp.",
+    "short_name": "PsiQuantum",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Photonic quantum computing developer building sites in Brisbane and Chicago.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_quantinuum",
+    "name": "Quantinuum Inc.",
+    "short_name": "Quantinuum",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Quantum computing company majority owned by Honeywell; listed on Nasdaq in June 2026.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_terrapower",
+    "name": "TerraPower, LLC",
+    "short_name": "TerraPower",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Nuclear reactor developer building the Natrium plant in Wyoming.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_recursion",
+    "name": "Recursion Pharmaceuticals, Inc.",
+    "short_name": "Recursion",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": true,
+    "ticker": "RXRX",
+    "country": "US",
+    "description": "Drug discovery company that trains biology and chemistry models on Nvidia DGX Cloud.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_soundhound",
+    "name": "SoundHound AI, Inc.",
+    "short_name": "SoundHound",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": true,
+    "ticker": "SOUN",
+    "country": "US",
+    "description": "Voice AI software company.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_tusimple",
+    "name": "TuSimple Holdings, Inc.",
+    "short_name": "TuSimple",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": true,
+    "ticker": null,
+    "country": "US",
+    "description": "Former autonomous trucking company, since renamed.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_nano_x",
+    "name": "Nano-X Imaging Ltd.",
+    "short_name": "Nano-X",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": true,
+    "ticker": "NNOX",
+    "country": "IL",
+    "description": "Medical imaging company.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_serve_robotics",
+    "name": "Serve Robotics Inc.",
+    "short_name": "Serve Robotics",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": true,
+    "ticker": "SERV",
+    "country": "US",
+    "description": "Sidewalk delivery robot company that uses Nvidia components.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_weride",
+    "name": "WeRide Inc.",
+    "short_name": "WeRide",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": true,
+    "ticker": "WRD",
+    "country": "CN",
+    "description": "Chinese autonomous driving company listed on Nasdaq in October 2024.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_generate_biomedicines",
+    "name": "Generate Biomedicines, Inc.",
+    "short_name": "Generate Biomedicines",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": true,
+    "ticker": "GENB",
+    "country": "US",
+    "description": "Biotech company using generative AI to design protein therapeutics; listed in February 2026.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "notes": "Private or thinly disclosed company; no ratings, debt or liquidity figures found in allowed sources."
+    }
+  },
+  {
+    "id": "ent_mufg",
+    "name": "MUFG Bank, Ltd.",
+    "short_name": "MUFG",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "JP",
+    "description": "Administrative agent on DDTL 3.0 and DDTL 4.0 and joint lead arranger on DDTL 5.5 for CoreWeave."
+  },
+  {
+    "id": "ent_morgan_stanley",
+    "name": "Morgan Stanley",
+    "short_name": "Morgan Stanley",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": "MS",
+    "country": "US",
+    "description": "Administrative agent on CoreWeave's DDTL 5.0, coordinating lead arranger on DDTL 4.0 and DDTL 5.5 bookrunner.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      }
+    }
+  },
+  {
+    "id": "ent_jpmorgan",
+    "name": "JPMorgan Chase & Co.",
+    "short_name": "J.P. Morgan",
+    "cluster": "lender",
+    "depth": 2,
+    "public": true,
+    "ticker": "JPM",
+    "country": "US",
+    "description": "Lead arranger on the Lambda credit facility and coordinator of the Lambda fixed rate delayed draw term loan."
+  },
+  {
+    "id": "ent_us_bank",
+    "name": "U.S. Bank Trust Company, National Association",
+    "short_name": "U.S. Bank",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Collateral agent on CoreWeave's DDTL 3.0, agent on DDTL 1.0, trustee of the 2033 convertible notes and DDTL 5.5 bookrunner."
+  },
+  {
+    "id": "ent_blackstone",
+    "name": "Blackstone Inc.",
+    "short_name": "Blackstone",
+    "cluster": "lender",
+    "depth": 2,
+    "public": true,
+    "ticker": "BX",
+    "country": "US",
+    "description": "Alternative asset manager; leads the Firmus debt facility and invested in the Firmus equity round of August 2026."
+  },
+  {
+    "id": "ent_magnetar",
+    "name": "Magnetar Capital",
+    "short_name": "Magnetar",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Co-led CoreWeave's DDTL 2.0, holds a $195 million loan to CoreWeave and is a related party."
+  },
+  {
+    "id": "ent_citigroup",
+    "name": "Citigroup Global Markets Inc.",
+    "short_name": "Citigroup",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Lender to neoclouds; Citi provides Nebius's $3.5 billion 364-day senior secured facility."
+  },
+  {
+    "id": "ent_deutsche_bank",
+    "name": "Deutsche Bank AG",
+    "short_name": "Deutsche Bank",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "DE",
+    "description": "Joint bookrunner on CoreWeave's DDTL 5.5."
+  },
+  {
+    "id": "ent_goldman_sachs",
+    "name": "Goldman Sachs Bank USA",
+    "short_name": "Goldman Sachs",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": "GS",
+    "country": "US",
+    "description": "Lender to neoclouds; on Nscale's Ward County and North Carolina GPU facilities, and an affiliate lends under its GPU Financing Facility."
+  },
+  {
+    "id": "ent_meta",
+    "name": "Meta Platforms, Inc.",
+    "short_name": "Meta",
+    "cluster": "hyperscaler",
+    "depth": 1,
+    "public": true,
+    "ticker": "META",
+    "country": "US",
+    "description": "Social media and AI company; offtaker of Nebius capacity, including a purchase of capacity Nebius cannot sell to others.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 83669000000.0,
+        "text": "$83.7 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190035",
+          "ev_190036"
+        ],
+        "lower_bound": false,
+        "note": "Senior unsecured notes, carrying value; principal $84.0 billion."
+      },
+      "maturities_24m": {
+        "value": 4250000000.0,
+        "text": "$4.25 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190037",
+          "ev_190038"
+        ],
+        "lower_bound": false,
+        "note": "Nothing is due in the remainder of 2026 (ev_190043). Covers October 2026 to December 2028, so it is an upper bound for 24 months."
+      },
+      "cash_and_undrawn": {
+        "value": 82449000000.0,
+        "text": "$82.4 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190010",
+          "ev_190034"
+        ],
+        "lower_bound": true,
+        "note": "No committed revolving facility is disclosed in the 10-Q."
+      },
+      "committed_spend_12m": {
+        "value": 167260000000.0,
+        "text": "$167.3 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190039",
+          "ev_190040"
+        ],
+        "lower_bound": false,
+        "note": "Covers 15 months, so it overstates a 12 month figure; pro rata 12 months is about $137 billion (analysis). Total non-cancelable commitments $454.52 billion (ev_190041), plus $355.73 billion of leases not yet commenced (ev_190042) and up to $14.72 billion of contingent cloud capacity purchases."
+      },
+      "liquidity_months": {
+        "value": 5.9,
+        "label": "analysis",
+        "inputs": [
+          {
+            "field": "credit.cash_and_undrawn",
+            "value": 82449000000.0,
+            "as_of": "2026-09-30",
+            "evidence": [
+              "ev_190010",
+              "ev_190034"
+            ]
+          },
+          {
+            "field": "credit.committed_spend_12m",
+            "value": 167260000000.0,
+            "as_of": "2026-09-30",
+            "evidence": [
+              "ev_190039",
+              "ev_190040"
+            ]
+          }
+        ]
+      },
+      "collateral_note": "Not applicable: unsecured issuer; owns and leases data center capacity, no GPU-backed debt disclosed.",
+      "notes": "Instrument: 10-Q filed 2026-10-22 for the quarter ended 2026-09-30; supersedes the 10-K for 2025. Debt principal schedule: nothing in the rest of 2026, $2.75 billion in 2027, $1.5 billion in 2028 (ev_190043). Commitments of $454.52 billion are mostly third-party cloud capacity and servers (ev_190041). Nvidia's link to Meta is a non-binding indication (rel_meta_eq_2026)."
+    }
+  },
+  {
+    "id": "ent_core_scientific",
+    "name": "Core Scientific, Inc.",
+    "short_name": "Core Scientific",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": null,
+    "country": "US",
+    "description": "Data center operator that hosted about 500 MW for CoreWeave; its holders rejected a merger, terminated 2025-10-30."
+  },
+  {
+    "id": "ent_galaxy_digital",
+    "name": "Galaxy Digital Inc.",
+    "short_name": "Galaxy Digital",
+    "cluster": "lender",
+    "depth": 2,
+    "public": true,
+    "ticker": "GLXY",
+    "country": "US",
+    "description": "Owner of a data center campus leased to CoreWeave and issuer of notes secured on it."
+  },
+  {
+    "id": "ent_nebius",
+    "name": "Nebius Group N.V.",
+    "short_name": "Nebius",
+    "cluster": "neocloud",
+    "depth": 1,
+    "public": true,
+    "ticker": "NBIS",
+    "country": "NL",
+    "description": "Amsterdam-based AI cloud listed on Nasdaq that relies on Nvidia for its GPUs; Nvidia holds common shares and a pre-funded warrant.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 16478000000,
+        "text": "$16.5 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_40062"
+        ],
+        "lower_bound": false,
+        "note": "Total principal at 2026-09-30 (carrying $14,162.8m): eight convertible note series and the Term Loan Facility, per Note 12 of the Q3 2026 financial statements furnished on 6-K on 2026-11-12. Supersedes the 2025 20-F debt note. Excludes the $3.5bn Citi Facility signed 2026-10-22 (ev_40072)."
+      },
+      "maturities_24m": {
+        "value": 159500000,
+        "text": "$159.5 million",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_80018"
+        ],
+        "lower_bound": true,
+        "note": "Debt, current at 2026-09-30. Lower bound: no convertible series matures before June 2029 (ev_40066), but Term Loan amortisation in months 13 to 24 is not disclosed, and the $3.5bn Citi Facility signed after the period has a 364-day maturity (ev_40072, ev_40073); its drawn amount is not disclosed."
+      },
+      "cash_and_undrawn": {
+        "value": 7425600000,
+        "text": "$7.43 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_40074"
+        ],
+        "lower_bound": true,
+        "note": "Cash and cash equivalents only. Undrawn Term Loan commitment ($773.3m committed, $751.8m outstanding: ev_40063, ev_40064) and the Citi Facility are not added."
+      },
+      "committed_spend_12m": {
+        "value": null,
+        "text": "Not disclosed",
+        "as_of": null,
+        "evidence": [],
+        "lower_bound": null,
+        "note": null
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": 0.33,
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_40077"
+        ],
+        "last_verified": "2026-11-23",
+        "note": "Customer E, three months to 2026-09-30; nine months 21% (ev_40077). Receivables: Customer D 75% (ev_40078)."
+      },
+      "top3_customer_share": {
+        "value": 0.7,
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_40076",
+          "ev_40077"
+        ],
+        "last_verified": "2026-11-23",
+        "note": "Analysis: Customers E 33%, D 22% and C 15% of Q3 2026 revenue; nine months C 20%, D 21%, E 21% (62%)."
+      },
+      "collateral_note": "GPUs depreciated over four years; servers and network equipment extended from four to five years from 2026 (ev_80024). Convertible notes are unsecured; the Term Loan Facility is secured by substantially all borrower assets with a 1.15x debt service coverage covenant (ev_40063, ev_40065); the Citi Facility is senior secured (ev_40072). Fleet is Nvidia GPUs (ev_40061).",
+      "market_signals": [
+        {
+          "signal": "Value per Nebius share implied by Nvidia's 13F",
+          "label": "analysis",
+          "value": "$27.70 at 2024-12-31 (ev_50014), $235.88 at 2026-09-30 (ev_50015)",
+          "note": "Reported value divided by 1,190,476 shares.",
+          "evidence": [
+            "ev_50014",
+            "ev_50015"
+          ]
+        },
+        {
+          "signal": "Convertible coupons",
+          "label": "fact",
+          "value": "0.50% (February 2030) to 4.50% (February 2034)",
+          "date": "2026-09-30",
+          "evidence": [
+            "ev_40067",
+            "ev_40068"
+          ]
+        }
+      ],
+      "notes": "RPO $38.7bn at 2026-09-30, about 40% within 24 months (ev_40075). Meta agreement of 2026-03-13 up to about $27bn, including up to $15bn for Meta to buy capacity Nebius cannot sell to others (ev_40079, ev_40081): Meta, not Nvidia, is the backstop there. Microsoft agreement up to about $17.4bn (ev_40084). Nebius states it relies on Nvidia for its GPU chips (ev_40061)."
+    }
+  },
+  {
+    "id": "ent_iren",
+    "name": "IREN Limited",
+    "short_name": "IREN",
+    "cluster": "neocloud",
+    "depth": 1,
+    "public": true,
+    "ticker": "IREN",
+    "country": "AU",
+    "description": "Australian-incorporated, Nasdaq-listed AI cloud and former bitcoin miner with US and Canadian sites; Nvidia is its customer, GPU supplier and holder of rights to buy its shares.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 10041000000,
+        "text": "$10 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_80001"
+        ],
+        "lower_bound": false,
+        "note": "Total principal at 2026-09-30 per Note 19 of the 10-Q filed 2026-11-05 (recourse $8,061m, non-recourse $1,980m: ev_80039). Supersedes ev_40132, which carried no machine-checked value, and the FY2026 10-K debt note ($7,706m at 2026-06-30)."
+      },
+      "maturities_24m": {
+        "value": 1782000000,
+        "text": "$1.78 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_80003",
+          "ev_80004"
+        ],
+        "lower_bound": true,
+        "note": "Lower bound: covers 2026-10-01 to 2028-06-30 only; FY2029 principal of $821m is not split by quarter. Current debt $950m (ev_80002). Replaces ev_40134."
+      },
+      "cash_and_undrawn": {
+        "value": 6679000000,
+        "text": "$6.68 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_40122",
+          "ev_40130",
+          "ev_40130",
+          "ev_40127"
+        ],
+        "lower_bound": false,
+        "note": "GPU Financing 1.0 undrawn amounts can only fund the Microsoft contract GPUs (analysis from the facility description, ev_40131)."
+      },
+      "committed_spend_12m": {
+        "value": null,
+        "text": "Not disclosed",
+        "as_of": null,
+        "evidence": [],
+        "lower_bound": null,
+        "note": null
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": 0.28,
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_40125"
+        ],
+        "last_verified": "2026-11-23",
+        "note": "Customer A, three months to 2026-09-30, unnamed."
+      },
+      "top3_customer_share": {
+        "value": 0.7,
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_40125"
+        ],
+        "last_verified": "2026-11-23",
+        "note": "Analysis: Customers A 28%, B 24%, C 18%. Microsoft and Nvidia contracts are a substantial majority of contracted revenue (ev_40119)."
+      },
+      "collateral_note": "GPU Financing 1.0 is non-recourse, secured on the Microsoft contract GPUs at Childress, with CSC Delaware Trust as collateral agent (ev_40131); GPU Financing 2.0 is parent-guaranteed with equipment pledged (ev_40126); GPU Financing 3.0 is equipment finance (ev_40128). GB300 NVL72 deployed at Horizon 1, Childress (ev_80038). GPU depreciation life not found in the 10-K or 10-Q read.",
+      "market_signals": [
+        {
+          "signal": "GPU financing cost",
+          "label": "fact",
+          "value": "GPU Financing 2.0 at 9.0% fixed (Aug 2026) and GPU Financing 3.0 at 9.51% versus the Microsoft-backed DDTL at SOFR plus 2.25%",
+          "date": "2026-11-05",
+          "evidence": [
+            "ev_40126",
+            "ev_40128",
+            "ev_40131"
+          ]
+        }
+      ],
+      "notes": "December 2033 convertible notes $3,000m (ev_80005). RPO $6,347m at 2026-09-30 (ev_40124). Microsoft contract about $9.7bn (ev_40118); July 2026 contracts with Prometheus, Perplexity and Together AI about $2.8bn (ev_40120). IREN buys GPUs directly from Nvidia (ev_40116) and through Dell (ev_40121)."
+    }
+  },
+  {
+    "id": "ent_sharonai",
+    "name": "SharonAI Holdings Inc.",
+    "short_name": "SharonAI",
+    "cluster": "neocloud",
+    "depth": 1,
+    "public": true,
+    "ticker": "SHAZ",
+    "country": "US",
+    "description": "Nasdaq-listed GPU cloud operating in Australia and New Zealand; Nvidia is its customer and revenue-share partner under a six-year cloud services agreement.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 1008936636,
+        "text": "$1.01 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_80006"
+        ],
+        "lower_bound": false,
+        "note": "Carrying amount of convertible notes at 2026-09-30 (some at fair value). Principal of the 2026 series: $350m 6.00% due 2031-05-01 (ev_80012) and $700m 4.75% due 2032-06-15 (ev_80013). After the quarter SharonAI completed a $356m secured SPV facility, 42-month bullet (ev_40152). On 2026-11-24, after holder consents, a First Supplemental Indenture removed the covenant restricting repayment of indebtedness from the 4.75% notes and aligned them with the 6.00% notes (ev_260001); principal and maturity unchanged."
+      },
+      "maturities_24m": {
+        "value": 20059,
+        "text": "$20.1 thousand",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_80007"
+        ],
+        "lower_bound": false,
+        "note": "Only the residual December 2025 convertible notes are current. The 2026 series mature in 2031 and 2032."
+      },
+      "cash_and_undrawn": {
+        "value": 1340000000,
+        "text": "$1.34 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_40150"
+        ],
+        "lower_bound": false,
+        "note": "Unrestricted cash about $1.34bn. No undrawn facility at 2026-09-30; the $356m SPV facility closed after the quarter."
+      },
+      "committed_spend_12m": {
+        "value": null,
+        "text": "Not disclosed",
+        "as_of": null,
+        "evidence": [],
+        "lower_bound": null,
+        "note": null
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": null,
+        "as_of": null,
+        "evidence": [],
+        "last_verified": "2026-11-23",
+        "note": "Not disclosed in the 10-Q read; the filing refers to a significant customer (Nvidia, per the notice obligations) without a revenue share."
+      },
+      "top3_customer_share": {
+        "value": null,
+        "as_of": null,
+        "evidence": [],
+        "last_verified": "2026-11-23",
+        "note": "Not disclosed."
+      },
+      "collateral_note": "Nvidia B200, B300 and GB300 GPUs. Depreciation life not found in the 10-Q. The $356 million SPV facility is secured by all obligor assets and supports a different customer contract (ev_40152).",
+      "market_signals": [
+        {
+          "signal": "Secured financing cost",
+          "label": "fact",
+          "value": "SPV facility at 7.25% rising to 9.95% (Facility A) and 9.95% fixed (Facility B)",
+          "date": "2026-10-01",
+          "evidence": [
+            "ev_40152"
+          ]
+        }
+      ],
+      "notes": "Material weakness at 2026-09-30 (ev_40153). Nine-month net loss driven by a $470.7m fair value loss on convertible notes. New Zealand five-year contract about $1.32bn (ev_40151)."
+    }
+  },
+  {
+    "id": "ent_applied_digital",
+    "name": "Applied Digital Corporation",
+    "short_name": "Applied Digital",
+    "cluster": "neocloud",
+    "depth": 1,
+    "public": true,
+    "ticker": "APLD",
+    "country": "US",
+    "description": "US data center developer for AI and high-performance computing; Nvidia held its shares from a 2024 private placement until late 2025.",
+    "credit": {
+      "debt_outstanding": {
+        "value": null,
+        "text": "Not disclosed",
+        "as_of": null,
+        "evidence": [],
+        "lower_bound": null,
+        "note": null
+      },
+      "maturities_24m": {
+        "value": null,
+        "text": "Not disclosed",
+        "as_of": null,
+        "evidence": [],
+        "lower_bound": null,
+        "note": null
+      },
+      "cash_and_undrawn": {
+        "value": null,
+        "text": "Not disclosed",
+        "as_of": null,
+        "evidence": [],
+        "lower_bound": null,
+        "note": null
+      },
+      "committed_spend_12m": {
+        "value": null,
+        "text": "Not disclosed",
+        "as_of": null,
+        "evidence": [],
+        "lower_bound": null,
+        "note": null
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": null,
+        "as_of": null,
+        "evidence": [],
+        "last_verified": "2026-11-23",
+        "note": "Not researched."
+      },
+      "top3_customer_share": {
+        "value": null,
+        "as_of": null,
+        "evidence": [],
+        "last_verified": "2026-11-23",
+        "note": "Not researched."
+      },
+      "collateral_note": "Not researched.",
+      "notes": "Historical relationship only."
+    }
+  },
+  {
+    "id": "ent_macquarie",
+    "name": "Macquarie Bank Limited",
+    "short_name": "Macquarie",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "AU",
+    "description": "Lender on Nscale's Iceland and Glomfjord GPU facilities."
+  },
+  {
+    "id": "ent_dell_financial_services",
+    "name": "Dell Financial Services L.L.C.",
+    "short_name": "Dell Financial Services",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Equipment lessor to Nscale, with about $2.54 billion of initial-term rent."
+  },
+  {
+    "id": "ent_sandton_capital",
+    "name": "Sandton Capital Partners",
+    "short_name": "Sandton",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Nscale shareholder and former lender; party with Nvidia to the March 2026 follow-on subscription agreement."
+  },
+  {
+    "id": "ent_nextdc",
+    "name": "NEXTDC Limited",
+    "short_name": "NEXTDC",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": null,
+    "country": "AU",
+    "description": "Australian data center operator; provides SharonAI 72 MW of capacity."
+  },
+  {
+    "id": "ent_related_companies",
+    "name": "The Related Companies, L.P.",
+    "short_name": "Related Companies",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Real estate company; co-investor with Nvidia in Applied Digital's 2024 private placement."
+  },
+  {
+    "id": "ent_ionic_digital",
+    "name": "Ionic Digital Inc.",
+    "short_name": "Ionic Digital",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": "IOND",
+    "country": "US",
+    "description": "Landlord of Nscale's Ward County, Texas site, whose rent Nvidia guarantees."
+  },
+  {
+    "id": "ent_crusoe",
+    "name": "Crusoe Energy Systems LLC (trading as Crusoe)",
+    "short_name": "Crusoe",
+    "cluster": "neocloud",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Private US AI infrastructure company that develops power, builds data center campuses and runs the Crusoe Cloud GPU service.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "collateral_note": "Upper90 facility proceeds are used exclusively for NVIDIA GPUs and supporting cloud infrastructure (ev_110026). Abilene buildings each designed for up to 50,000 NVIDIA GB200 NVL72s (ev_110027). Depreciation life not disclosed.",
+      "notes": "Debt (company releases): $750 million credit facility from Brookfield infrastructure debt, 2025-06-11 (ev_110024); about $225 million credit facility led by Upper90, page dated 2025-03-27 (ev_110025). Equity: Series D $600 million (2024-12-12, ev_110015), Series E $1.375 billion initial close (2025-10-24, ev_110017), Series F $3.9 billion anticipated, initial close at $30.9 billion post-money (2026-09-17, ev_110019, ev_110021); NVIDIA named in all three. Contracted value over $140 billion and over 6 GW gross contracted capacity per the Series F release (ev_110022, ev_110023). Customers named in releases include Together AI, Cursor, Fireworks; no customer share disclosed."
+    }
+  },
+  {
+    "id": "ent_firmus",
+    "name": "Firmus Grid Limited (trading as Firmus Technologies)",
+    "short_name": "Firmus",
+    "cluster": "neocloud",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "AU",
+    "description": "Private Australian AI factory developer and GPU cloud operating in Australia and Singapore with sites under development in Indonesia and Malaysia.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "collateral_note": "Southgate and Batam are built on the NVIDIA DSX reference design with GB300 and Vera Rubin systems; depreciation life not disclosed.",
+      "market_signals": [
+        {
+          "date": "2026-10-09",
+          "signal": "One news report, unconfirmed, says Firmus withdrew its application to list on the Australian Securities Exchange (Nikkei Asia, single tier 2 source).",
+          "evidence": [
+            "ev_110048"
+          ]
+        },
+        {
+          "date": "2026-09-08",
+          "signal": "Firmus says contracted capacity across all customers is more than 900 MW.",
+          "evidence": [
+            "ev_110047"
+          ]
+        }
+      ],
+      "notes": "Debt: US$10 billion debt financing facility led by Blackstone funds, supported by Coatue, 2026-02-09 (ev_110035; also reported by Nikkei Asia, ev_110050); drawn balance not disclosed. Equity: A$330m placement with NVIDIA participation (2025-09-16, ev_110062); USD505m led by Coatue with NVIDIA participation subject to closing conditions (2026-04-07, ev_110029, ev_110030); USD2 billion fully committed with NVIDIA follow-on (2026-08-07, ev_110032, ev_110033); more than USD3 billion new equity in the year to August 2026 (ev_110034). Contracted capacity more than 900 MW (2026-09-08, ev_110047). Customers named: OpenAI (Malaysia anchor, ev_110046); Meta and Thinking Machines Lab agreements are listed in the newsroom but were not read."
+    }
+  },
+  {
+    "id": "ent_together_ai",
+    "name": "Together Computer, Inc. (Together AI)",
+    "short_name": "Together AI",
+    "cluster": "neocloud",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Private US AI cloud for open source model inference and training that runs on Nvidia GPUs, partly on capacity rented from other clouds.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "collateral_note": "Not disclosed.",
+      "notes": "Series C $800 million (2026-07-01, ev_110056) with NVIDIA among investors (ev_110057); commitments for over 500 MW of compute capacity to be capitalized independently by its new investors (ev_110058). Series B $305 million (2025-02-20, ev_110054, ev_110055). Series A $102.5M (2023-11-29, ev_110064 unparsed suffix, ev_110053). Customer of IREN (ev_40120, aggregate with others) and named by Crusoe as a Crusoe Cloud customer (Series E release)."
+    },
+    "compute_commitments": [
+      {
+        "counterparty": "ent_iren",
+        "description": "Together AI is one of the AI developers in IREN's July 2026 multi-year cloud contracts; the $2.8 billion is the aggregate for Prometheus, Perplexity and Together AI, not Together AI alone.",
+        "kind": "contract",
+        "amount": {
+          "text": "Not disclosed",
+          "as_of": null,
+          "evidence": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "ent_coatue",
+    "name": "Coatue Management",
+    "short_name": "Coatue",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Investment firm; co-investor with Nvidia in Firmus and supporter of the Firmus debt facility.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      }
+    }
+  },
+  {
+    "id": "ent_upper90",
+    "name": "Upper90 Capital Management, LP",
+    "short_name": "Upper90",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Asset backed private credit firm; lead lender on a Crusoe GPU credit facility.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      }
+    }
+  },
+  {
+    "id": "ent_blue_owl",
+    "name": "Blue Owl Capital Inc.",
+    "short_name": "Blue Owl",
+    "cluster": "lender",
+    "depth": 2,
+    "public": true,
+    "ticker": "OWL",
+    "country": "US",
+    "description": "Alternative asset manager; joint sponsor with Crusoe and Primary Digital Infrastructure of the Abilene data center joint venture.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      }
+    }
+  },
+  {
+    "id": "ent_intel",
+    "name": "Intel Corporation",
+    "short_name": "Intel",
+    "cluster": "semis_supply",
+    "depth": 1,
+    "public": true,
+    "ticker": "INTC",
+    "country": "US",
+    "description": "US maker of x86 processors with a contract foundry business; agreed in September 2025 to build custom data center CPUs and RTX SOCs with Nvidia.",
+    "credit": {
+      "public_ratings": [
+        {
+          "agency": "Not named (\"a major credit rating agency\", Intel 10-K)",
+          "rating": "BBB",
+          "date": "2025-08",
+          "evidence": [
+            "ev_60026"
+          ]
+        }
+      ],
+      "debt_outstanding": {
+        "value": 50134000000,
+        "text": "$50.1 billion",
+        "as_of": "2026-09-26",
+        "evidence": [
+          "ev_60017"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "maturities_24m": {
+        "value": 7643000000,
+        "text": "$7.64 billion",
+        "as_of": "2026-09-26",
+        "evidence": [
+          "ev_60018",
+          "ev_210003"
+        ],
+        "lower_bound": false,
+        "note": "Analysis: the 10-Q short-term debt plus the 10-K second-year amount. The two windows overlap for part of 2027, so this may count some 2027 maturities twice and is a conservative figure."
+      },
+      "cash_and_undrawn": {
+        "value": 69005000000,
+        "text": "$69 billion",
+        "as_of": "2026-10-01",
+        "evidence": [
+          "ev_60016",
+          "ev_60019"
+        ],
+        "lower_bound": false,
+        "note": "Cash and short-term investments at 2026-09-26 plus revolving credit capacity at 2026-10-01 (analysis: sum of two quoted figures)."
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": 0.19,
+        "as_of": "2025-12-27",
+        "evidence": [
+          "ev_190112"
+        ],
+        "note": "Customer A 19% of 2025 net revenue (10-K); the 10-Q for the quarter ended 2026-09-26 gives no customer split.",
+        "last_verified": "2026-11-23"
+      },
+      "top3_customer_share": {
+        "value": 0.43,
+        "as_of": "2025-12-27",
+        "evidence": [
+          "ev_190110"
+        ],
+        "note": "Three largest customers 43% of 2025 net revenue.",
+        "last_verified": "2026-11-23"
+      },
+      "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+      "notes": "Rating agency not named in the 10-K (ev_60026). Debt $50.1B and cash plus short-term investments $54.0B at 2026-09-26. August 2026 common stock offering raised $23.0B gross (ev_60015). Revolving facilities of $15.0B undrawn from 2026-10-01 (ev_60019, ev_60020). Customer concentration from the 10-K for 2025 (ev_190112, ev_190110)."
+    }
+  },
+  {
+    "id": "ent_nokia",
+    "name": "Nokia Corporation",
+    "short_name": "Nokia",
+    "cluster": "semis_supply",
+    "depth": 1,
+    "public": true,
+    "ticker": "NOK",
+    "country": "FI",
+    "description": "Finnish network equipment maker; issued new shares to Nvidia in November 2025 alongside an AI-RAN and data center networking partnership.",
+    "credit": {
+      "public_ratings": [
+        {
+          "agency": "Fitch",
+          "rating": "BBB- (stable)",
+          "date": "2025-12-31",
+          "evidence": [
+            "ev_190056"
+          ]
+        },
+        {
+          "agency": "Moody's",
+          "rating": "Ba1 (positive)",
+          "date": "2025-12-31",
+          "evidence": [
+            "ev_190056"
+          ]
+        },
+        {
+          "agency": "S&P Global",
+          "rating": "BBB- (stable)",
+          "date": "2025-12-31",
+          "evidence": [
+            "ev_190056"
+          ]
+        }
+      ],
+      "debt_outstanding": {
+        "value": null,
+        "text": "€3.41 billion",
+        "as_of": "2025-12-31",
+        "evidence": [
+          "ev_190048"
+        ],
+        "lower_bound": false,
+        "note": "Borrowings in EUR at 2025-12-31 (20-F XBRL), shown in EUR because no sourced exchange rate is recorded. At 2026-09-30 the Q3 report shows long-term interest-bearing liabilities of EUR 1,865 million and short-term of EUR 574 million (ev_190047, ev_190046), which the evidence tool cannot ground as numbers because the report writes thousands with spaces."
+      },
+      "maturities_24m": {
+        "value": null,
+        "text": "€1.08 billion",
+        "as_of": "2025-12-31",
+        "evidence": [
+          "ev_190049"
+        ],
+        "lower_bound": true,
+        "note": "Current borrowings in EUR at 2025-12-31 (12 months). The only bond listed as maturing in 2027 is USD 500 million of notes due June 2027 (ev_190055); Other borrowings of EUR 466 million have no stated maturity. Kept in EUR with the dollar notes listed here because no sourced exchange rate is recorded. At 2026-09-30 short-term interest-bearing liabilities were EUR 574 million (ev_190046)."
+      },
+      "cash_and_undrawn": {
+        "value": null,
+        "text": "€6.42 billion",
+        "as_of": "2025-12-31",
+        "evidence": [
+          "ev_190050",
+          "ev_190051"
+        ],
+        "lower_bound": true,
+        "note": "EUR at 2025-12-31. Excludes the undrawn EUR 1,500 million revolving facility maturing June 2030 (ev_190057; the separate EUR 500 million facility was cancelled in March 2026, ev_190053), so a lower bound. At 2026-09-30 total cash was EUR 5,023 million (ev_190045)."
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": 0.1,
+        "as_of": "2025-12-31",
+        "evidence": [
+          "ev_190054"
+        ],
+        "note": "Upper bound: no single customer above 10% of net sales in 2025, 2024 or 2023.",
+        "last_verified": "2026-11-23"
+      },
+      "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+      "notes": "Instruments: 20-F for 2025 filed 2026-03-05 (ratings, facilities, customers, XBRL balances) and the Q3 2026 interim report furnished on Form 6-K on 2026-10-22 (balances at 2026-09-30, cited as text). Net cash and interest-bearing financial investments EUR 2,584 million at 2026-09-30 (Q3 report). Undrawn revolving facilities EUR 2,000 million at 2025-12-31 (ev_190052). Ratings are as stated in the 20-F at 2025-12-31; later rating actions were not checked."
+    }
+  },
+  {
+    "id": "ent_synopsys",
+    "name": "Synopsys, Inc.",
+    "short_name": "Synopsys",
+    "cluster": "semis_supply",
+    "depth": 1,
+    "public": true,
+    "ticker": "SNPS",
+    "country": "US",
+    "description": "US electronic design automation and simulation software company; sold common stock to Nvidia in December 2025 alongside a multi-year engineering partnership.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 10037360000.0,
+        "text": "$10 billion",
+        "as_of": "2026-07-31",
+        "evidence": [
+          "ev_190059"
+        ],
+        "lower_bound": false,
+        "note": "Total long-term debt including current portion, mainly senior notes issued for the Ansys acquisition; the term loans were repaid by 2026-07-31."
+      },
+      "maturities_24m": {
+        "value": 2060753000.0,
+        "text": "$2.06 billion",
+        "as_of": "2026-07-31",
+        "evidence": [
+          "ev_190060",
+          "ev_190061",
+          "ev_190062"
+        ],
+        "lower_bound": false,
+        "note": "Through fiscal 2028 (to October 2028, 27 months), so an upper bound for 24 months."
+      },
+      "cash_and_undrawn": {
+        "value": 4457669000.0,
+        "text": "$4.46 billion",
+        "as_of": "2026-07-31",
+        "evidence": [
+          "ev_190058",
+          "ev_190063"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": null,
+        "as_of": "2025-10-31",
+        "evidence": [
+          "ev_190064"
+        ],
+        "note": "Analysis, not counted as a sourced column: the 10-K for fiscal 2025 discloses one customer above 10% only for fiscal 2024 (12.6%) and 2023 (13.5%), which suggests none above 10% in fiscal 2025, but the filing does not state it (ev_190064).",
+        "last_verified": "2026-11-23"
+      },
+      "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+      "notes": "Instruments: 10-Q for the quarter ended 2026-07-31 (filed 2026-08-26); the 10-K for fiscal 2026 (year ending October 2026) was not filed by 2026-11-23. Customer figure from the 10-K for fiscal 2025 filed 2025-12-22."
+    }
+  },
+  {
+    "id": "ent_marvell",
+    "name": "Marvell Technology, Inc.",
+    "short_name": "Marvell",
+    "cluster": "semis_supply",
+    "depth": 1,
+    "public": true,
+    "ticker": "MRVL",
+    "country": "US",
+    "description": "US maker of data infrastructure chips and custom AI silicon; sold convertible preferred stock to Nvidia in March 2026 with an NVLink Fusion partnership.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 4962900000.0,
+        "text": "$4.96 billion",
+        "as_of": "2026-08-01",
+        "evidence": [
+          "ev_190066"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "maturities_24m": {
+        "value": 1249900000.0,
+        "text": "$1.25 billion",
+        "as_of": "2026-08-01",
+        "evidence": [
+          "ev_190067"
+        ],
+        "lower_bound": false,
+        "note": "Principal due in fiscal 2029 (February 2028 to January 2029); nothing is due in the rest of fiscal 2027 or in fiscal 2028 (ev_190068). Fiscal 2029 runs past the 24 month window, so an upper bound."
+      },
+      "cash_and_undrawn": {
+        "value": 5432800000.0,
+        "text": "$5.43 billion",
+        "as_of": "2026-08-01",
+        "evidence": [
+          "ev_190065",
+          "ev_190069"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": 0.37,
+        "as_of": "2026-01-31",
+        "evidence": [
+          "ev_190071"
+        ],
+        "note": "Distributor A, 37% of fiscal 2026 revenue; the largest direct customer was 14%. A distributor resells to many end customers.",
+        "last_verified": "2026-11-23"
+      },
+      "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+      "notes": "Instruments: 10-Q for the quarter ended 2026-08-01 (filed 2026-08-28) for balances; 10-K for fiscal 2026 (filed 2026-03-11) for customers. The 10-Q for the quarter ending October 2026 was not filed by 2026-11-23."
+    }
+  },
+  {
+    "id": "ent_lumentum",
+    "name": "Lumentum Holdings Inc.",
+    "short_name": "Lumentum",
+    "cluster": "semis_supply",
+    "depth": 1,
+    "public": true,
+    "ticker": "LITE",
+    "country": "US",
+    "description": "US maker of lasers and optical components for data centers; sold convertible preferred stock to Nvidia in March 2026 with a multi-year optics agreement.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 1399600000.0,
+        "text": "$1.4 billion",
+        "as_of": "2026-09-26",
+        "evidence": [
+          "ev_190077"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "maturities_24m": {
+        "value": 1360300000.0,
+        "text": "$1.36 billion",
+        "as_of": "2026-09-26",
+        "evidence": [
+          "ev_190076"
+        ],
+        "lower_bound": true,
+        "note": "Current portion of debt, which includes convertible notes classified as current; principal must be settled in cash. No 24 month schedule is cached, so this is a 12 month figure and a lower bound. Total debt is $1.40 billion (ev_190077), so debt due within 24 months cannot exceed that."
+      },
+      "cash_and_undrawn": {
+        "value": 2379600000.0,
+        "text": "$2.38 billion",
+        "as_of": "2026-09-26",
+        "evidence": [
+          "ev_190074",
+          "ev_190075",
+          "ev_190078"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": 0.37,
+        "as_of": "2026-09-26",
+        "evidence": [
+          "ev_190080"
+        ],
+        "note": "Largest end customer 37% of revenue in the quarter to 2026-09-26; a second was 11%. Customers not named.",
+        "last_verified": "2026-11-23"
+      },
+      "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+      "notes": "Instrument: 10-Q filed 2026-11-03, which supersedes the 10-K for fiscal 2026 (filed 2026-08-17)."
+    }
+  },
+  {
+    "id": "ent_coherent",
+    "name": "Coherent Corp.",
+    "short_name": "Coherent",
+    "cluster": "semis_supply",
+    "depth": 1,
+    "public": true,
+    "ticker": "COHR",
+    "country": "US",
+    "description": "US maker of optical networking components and lasers; sold common stock to Nvidia in March 2026 with access to co-packaged optics product families.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 4000598000.0,
+        "text": "$4 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190083"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "maturities_24m": {
+        "value": 54262000.0,
+        "text": "$54.3 million",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190084",
+          "ev_190085"
+        ],
+        "lower_bound": false,
+        "note": "Mixes the 10-Q current portion with the 10-K second-year amount (analysis). The $700 million revolver ($669 million available, ev_190087) matures 2027-07-01; term facilities mature 2029."
+      },
+      "cash_and_undrawn": {
+        "value": 2421929000.0,
+        "text": "$2.42 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190081",
+          "ev_190082",
+          "ev_190087"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "committed_spend_12m": {
+        "value": 3400000000.0,
+        "text": "$3.4 billion",
+        "as_of": "2026-06-30",
+        "evidence": [
+          "ev_190086"
+        ],
+        "lower_bound": false,
+        "note": "Purchase obligations due within 12 months of 2026-06-30 (10-K); a quarter older than the cash figure."
+      },
+      "liquidity_months": {
+        "value": 8.5,
+        "label": "analysis",
+        "inputs": [
+          {
+            "field": "credit.cash_and_undrawn",
+            "value": 2421929000.0,
+            "as_of": "2026-09-30",
+            "evidence": [
+              "ev_190081",
+              "ev_190082",
+              "ev_190087"
+            ]
+          },
+          {
+            "field": "credit.committed_spend_12m",
+            "value": 3400000000.0,
+            "as_of": "2026-06-30",
+            "evidence": [
+              "ev_190086"
+            ]
+          }
+        ]
+      },
+      "top_customer_share": {
+        "value": 0.2,
+        "as_of": "2026-06-30",
+        "evidence": [
+          "ev_190088"
+        ],
+        "note": "Largest customer 20% of fiscal 2026 revenue; a second customer 12% (ev_190089). Customers not named.",
+        "last_verified": "2026-11-23"
+      },
+      "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+      "notes": "Instruments: 10-Q for the quarter ended 2026-09-30 (filed 2026-11-04) for balances; 10-K for fiscal 2026 (filed 2026-08-14) for purchase obligations, debt schedule and customers. Purchase obligations due within 12 months rose from $945 million at 2025-06-30 to $3.4 billion at 2026-06-30 (10-K XBRL)."
+    }
+  },
+  {
+    "id": "ent_arm",
+    "name": "Arm Holdings plc",
+    "short_name": "Arm",
+    "cluster": "semis_supply",
+    "depth": 1,
+    "public": true,
+    "ticker": "ARM",
+    "country": "GB",
+    "description": "UK designer of processor architectures licensed to chipmakers; Nvidia held its American depositary shares from 2023 until an exit by the end of 2025.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier."
+    }
+  },
+  {
+    "id": "ent_corning",
+    "name": "Corning Incorporated",
+    "short_name": "Corning",
+    "cluster": "semis_supply",
+    "depth": 1,
+    "public": true,
+    "ticker": "GLW",
+    "country": "US",
+    "description": "US maker of optical fiber, connectivity and specialty glass; sold Nvidia warrants in May 2026 under a long-term partnership to expand US optical capacity.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 8200000000.0,
+        "text": "$8.2 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190091",
+          "ev_190092"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "maturities_24m": {
+        "value": 1334000000,
+        "text": "$1.33 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190091",
+          "ev_210004"
+        ],
+        "lower_bound": false,
+        "note": "Analysis: the 10-Q current portion plus the 10-K amount due in 2027. The windows overlap for part of 2027, so this is a conservative figure."
+      },
+      "cash_and_undrawn": {
+        "value": 4037000000.0,
+        "text": "$4.04 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190090",
+          "ev_190093"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "committed_spend_12m": {
+        "value": 283000000.0,
+        "text": "$283 million",
+        "as_of": "2025-12-31",
+        "evidence": [
+          "ev_190095"
+        ],
+        "lower_bound": false,
+        "note": "Purchase obligations due within one year at 2025-12-31 (raw materials and energy take-or-pay). Excludes capital spending on the new plants Corning committed to build, so it understates committed outflows."
+      },
+      "liquidity_months": {
+        "value": 171.2,
+        "label": "analysis",
+        "inputs": [
+          {
+            "field": "credit.cash_and_undrawn",
+            "value": 4037000000.0,
+            "as_of": "2026-09-30",
+            "evidence": [
+              "ev_190090",
+              "ev_190093"
+            ]
+          },
+          {
+            "field": "credit.committed_spend_12m",
+            "value": 283000000.0,
+            "as_of": "2025-12-31",
+            "evidence": [
+              "ev_190095"
+            ]
+          }
+        ]
+      },
+      "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+      "notes": "Instruments: 10-Q for the quarter ended 2026-09-30 (filed 2026-10-29) for balances; 10-K for 2025 (filed 2026-02-12) for purchase obligations and segment concentration."
+    }
+  },
+  {
+    "id": "ent_amkor",
+    "name": "Amkor Technology, Inc.",
+    "short_name": "Amkor",
+    "cluster": "semis_supply",
+    "depth": 1,
+    "public": true,
+    "ticker": "AMKR",
+    "country": "US",
+    "description": "US provider of semiconductor packaging and test services with plants in Korea and a new Arizona site; signed customer advance payment agreements in July and October 2026.",
+    "credit": {
+      "debt_outstanding": {
+        "value": 2495821000.0,
+        "text": "$2.5 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190100"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "maturities_24m": {
+        "value": 295213000.0,
+        "text": "$295.2 million",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190099",
+          "ev_190101"
+        ],
+        "lower_bound": false,
+        "note": "Mixes the 10-Q current portion with the 10-K second-year amount (analysis); about 24 months."
+      },
+      "cash_and_undrawn": {
+        "value": 3376196000.0,
+        "text": "$3.38 billion",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_190097",
+          "ev_190098",
+          "ev_190102"
+        ],
+        "lower_bound": false,
+        "note": null
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "top_customer_share": {
+        "value": 0.298,
+        "as_of": "2025-12-31",
+        "evidence": [
+          "ev_190111"
+        ],
+        "note": "Apple, direct sales 29.8% of 2025 net sales; Qualcomm 11.1%.",
+        "last_verified": "2026-11-23"
+      },
+      "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier.",
+      "notes": "Instruments: 10-Q for the quarter ended 2026-09-30 (filed 2026-10-27); 10-K for 2025 (filed 2026-02-20) for customers and the debt schedule. Amkor issued $1.15 billion of 2031 notes in May 2026 (10-Q)."
+    }
+  },
+  {
+    "id": "ent_kyec",
+    "name": "King Yuan Electronics Co., Ltd.",
+    "short_name": "KYEC",
+    "cluster": "semis_supply",
+    "depth": 1,
+    "public": true,
+    "ticker": "2449.TW",
+    "country": "TW",
+    "description": "Taiwanese semiconductor test services company building US test capacity with a Nvidia capacity reservation advance.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier."
+    }
+  },
+  {
+    "id": "ent_ibiden",
+    "name": "IBIDEN Co., Ltd.",
+    "short_name": "IBIDEN",
+    "cluster": "semis_supply",
+    "depth": 1,
+    "public": true,
+    "ticker": "4062.T",
+    "country": "JP",
+    "description": "Japanese maker of IC package substrates; Nvidia funds capacity at its Ono Plant through a capacity reservation advance.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier."
+    }
+  },
+  {
+    "id": "ent_unimicron",
+    "name": "Unimicron Technology Corporation",
+    "short_name": "Unimicron",
+    "cluster": "semis_supply",
+    "depth": 1,
+    "public": true,
+    "ticker": "3037.TW",
+    "country": "TW",
+    "description": "Taiwanese maker of substrates and printed circuit boards; signed a capacity reservation agreement with Nvidia for substrate capacity in Taiwan.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier."
+    }
+  },
+  {
+    "id": "ent_spil",
+    "name": "Siliconware Precision Industries Co., Ltd.",
+    "short_name": "SPIL",
+    "cluster": "semis_supply",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "TW",
+    "description": "Taiwanese packaging and test company owned by ASE Technology Holding; expanding capacity dedicated to Nvidia with Nvidia funding.",
+    "credit": {
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "collateral_note": "Not applicable: no GPU collateral; a chip, optics, EDA or packaging supplier."
+    }
+  },
+  {
+    "id": "ent_us_doc",
+    "name": "U.S. Department of Commerce",
+    "short_name": "US Commerce Department",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "US government department that received Intel common stock, escrowed shares and a warrant under an August 2025 agreement."
+  },
+  {
+    "id": "ent_aep_ohio",
+    "name": "Ohio Power Company (AEP Ohio)",
+    "short_name": "AEP Ohio",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": null,
+    "country": "US",
+    "description": "Utility building the grid upgrades for PORTS-Pike; its capital costs are passed to SB Energy and then to the tenant."
+  },
+  {
+    "id": "ent_citibank",
+    "name": "Citibank, N.A.",
+    "short_name": "Citibank",
+    "cluster": "lender",
+    "depth": 2,
+    "public": true,
+    "ticker": null,
+    "country": "US",
+    "description": "Administrative agent of the corporate revolving credit and letter of credit facility SB Energy expects to sign at its IPO."
+  },
+  {
+    "id": "ent_ai_financing_platforms",
+    "name": "AI compute infrastructure financing platforms (Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR)",
+    "short_name": "six financing platforms",
+    "cluster": "vehicle",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Planned independent financing platforms under memorandums of understanding signed with six capital providers in August 2026."
+  },
+  {
+    "id": "ent_blackrock",
+    "name": "BlackRock, Inc.",
+    "short_name": "BlackRock",
+    "cluster": "lender",
+    "depth": 2,
+    "public": true,
+    "ticker": "BLK",
+    "country": "US",
+    "description": "Capital provider party to an Nvidia financing platform memorandum of understanding."
+  },
+  {
+    "id": "ent_kkr",
+    "name": "KKR & Co. Inc.",
+    "short_name": "KKR",
+    "cluster": "lender",
+    "depth": 2,
+    "public": true,
+    "ticker": "KKR",
+    "country": "US",
+    "description": "Sponsor of Helix Digital Infrastructure and party to an Nvidia financing platform memorandum of understanding."
+  },
+  {
+    "id": "ent_helix",
+    "name": "Helix Digital Infrastructure (KKR Helix C L.P.)",
+    "short_name": "Helix",
+    "cluster": "vehicle",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "KKR managed open ended fund and company that invests in hyperscale data centers, power and connectivity; Nvidia is a founding investor."
+  },
+  {
+    "id": "ent_vistra",
+    "name": "Vistra Corp.",
+    "short_name": "Vistra",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": "VST",
+    "country": "US",
+    "description": "Power generator; founding investor in Helix with up to $1 billion committed and its preferred power provider."
+  },
+  {
+    "id": "ent_kia",
+    "name": "Kuwait Investment Authority",
+    "short_name": "KIA",
+    "cluster": "sovereign_project",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "KW",
+    "description": "Sovereign wealth fund; founding investor in Helix and an investor in the Brookfield AI Infrastructure Fund."
+  },
+  {
+    "id": "ent_brookfield_baiif",
+    "name": "Brookfield Artificial Intelligence Infrastructure Fund (BAIIF)",
+    "short_name": "Brookfield AI Infrastructure Fund",
+    "cluster": "vehicle",
+    "depth": 1,
+    "public": false,
+    "ticker": null,
+    "country": "CA",
+    "description": "Brookfield fund anchoring a global AI infrastructure program; Nvidia is a strategic limited partner."
+  },
+  {
+    "id": "ent_iambic",
+    "name": "Iambic Therapeutics, Inc.",
+    "short_name": "Iambic",
+    "cluster": "portfolio",
+    "depth": 1,
+    "public": true,
+    "ticker": "IAM",
+    "country": "US",
+    "description": "AI drug discovery company, listed on Nasdaq in October 2026, with a technology collaboration with Nvidia.",
+    "credit": {
+      "cash_and_undrawn": {
+        "value": 252000000,
+        "text": "$252 million",
+        "as_of": "2026-09-30",
+        "evidence": [
+          "ev_170008"
+        ],
+        "lower_bound": false,
+        "note": "Cash and cash equivalents before IPO net proceeds of about $156.0 million (ev_170009)."
+      },
+      "liquidity_months": {
+        "value": null,
+        "inputs": [],
+        "label": "analysis"
+      },
+      "collateral_note": "No GPU collateral; clinical stage drug developer.",
+      "notes": "Iambic says existing cash funds operations into or through the fourth quarter of 2028 (ev_170011). Subordinated convertible notes of $66.5 million issued Aug to Sep 2026 converted at the IPO."
+    }
+  },
+  {
+    "id": "ent_oracle",
+    "name": "Oracle Corporation",
+    "short_name": "Oracle",
+    "cluster": "hyperscaler",
+    "depth": 2,
+    "public": true,
+    "ticker": "ORCL",
+    "country": "US",
+    "description": "Cloud provider building data center capacity for OpenAI under Stargate; tenant of developer-owned data center campuses."
+  },
+  {
+    "id": "ent_fluidstack",
+    "name": "Fluidstack Ltd",
+    "short_name": "Fluidstack",
+    "cluster": "neocloud",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "GB",
+    "description": "AI cloud provider that leases data center capacity from former bitcoin miners, with Google backstopping its rent."
+  },
+  {
+    "id": "ent_terawulf",
+    "name": "TeraWulf Inc.",
+    "short_name": "TeraWulf",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": "WULF",
+    "country": "US",
+    "description": "Data center developer and landlord to Fluidstack and Anthropic at Lake Mariner, New York, and Justified, Kentucky."
+  },
+  {
+    "id": "ent_abernathy_jv",
+    "name": "FS CS I LLC (Abernathy joint venture)",
+    "short_name": "Abernathy JV",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Joint venture building a 168 MW data center in Abernathy, Texas, leased to Fluidstack and financed with secured notes."
+  },
+  {
+    "id": "ent_cipher_digital",
+    "name": "Cipher Digital Inc. (formerly Cipher Mining Inc.)",
+    "short_name": "Cipher",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": "CIFR",
+    "country": "US",
+    "description": "Data center developer leasing Barber Lake, Texas, to Fluidstack and Black Pearl, Texas, to Amazon Web Services."
+  },
+  {
+    "id": "ent_hut_8",
+    "name": "Hut 8 Corp.",
+    "short_name": "Hut 8",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": "HUT",
+    "country": "US",
+    "description": "Data center developer leasing its River Bend, Louisiana, campus to Fluidstack under a Google-backstopped lease."
+  },
+  {
+    "id": "ent_google_backstop_counterparties",
+    "name": "Third-party data center providers backstopped by Google (unnamed)",
+    "short_name": "Google backstop counterparties",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "The data center providers whose lease and energy payments Google backstops; Alphabet discloses the total but not the names."
+  },
+  {
+    "id": "ent_crux_ai",
+    "name": "Crux AI (Google and Blackstone joint venture)",
+    "short_name": "Crux AI",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Compute-as-a-service joint venture formed by Google and Blackstone; Google holds a minority interest."
+  },
+  {
+    "id": "ent_google_tpu_counterparties",
+    "name": "Buyers and assignees of Google TPU systems (unnamed)",
+    "short_name": "TPU buyers",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Customers that bought Google TPU systems, and parties to whom they assigned them, holding repurchase rights against Google."
+  },
+  {
+    "id": "ent_meta_louisiana_venture",
+    "name": "Meta Louisiana data center venture (Richland Parish)",
+    "short_name": "Meta Louisiana venture",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Off-balance-sheet venture, 80% owned by a Blue Owl fund affiliate and 20% by Meta, building a Louisiana data center campus leased to Meta."
+  },
+  {
+    "id": "ent_meta_texas_venture",
+    "name": "Meta Texas data center venture (El Paso)",
+    "short_name": "Meta Texas venture",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Off-balance-sheet venture, 20% owned by Meta, building a data center campus in El Paso, Texas, leased to Meta; the other owner is not named."
+  },
+  {
+    "id": "ent_iren_gpu_financing_lenders",
+    "name": "IREN GPU Financing 1.0 lenders and noteholders",
+    "short_name": "IREN GPU lenders",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Bank lenders under a delayed draw term loan and private placement noteholders funding GPUs for IREN's Microsoft contract."
+  },
+  {
+    "id": "ent_oracle_lessor",
+    "name": "Unnamed lessor of an Oracle data center lease",
+    "short_name": "Oracle lessor",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Lessor of a data center leased to Oracle whose borrowing Oracle guaranteed; Oracle does not name it."
+  },
+  {
+    "id": "ent_aws",
+    "name": "Amazon Web Services, Inc.",
+    "short_name": "AWS",
+    "cluster": "hyperscaler",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Amazon's cloud subsidiary; tenant of Cipher's Black Pearl data center."
+  },
+  {
+    "id": "ent_vela_i",
+    "name": "VELA I Holdings, LLC",
+    "short_name": "VELA I",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "OpenAI affiliate that is the tenant under the PORTS-Pike leases from SB Energy subsidiaries."
+  },
+  {
+    "id": "ent_orion_dc",
+    "name": "Orion DC I, LLC",
+    "short_name": "Orion DC I",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "OpenAI affiliate that is the tenant under SB Energy's two Milam County, Texas data center leases."
+  },
+  {
+    "id": "ent_spacexai",
+    "name": "SpaceX.AI LLC (formerly X.AI LLC) and its subsidiaries",
+    "short_name": "SpaceXAI",
+    "cluster": "ai_lab",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "SpaceX's AI subsidiary group (formerly xAI); its subsidiaries lease computing equipment from Valor."
+  },
+  {
+    "id": "ent_anthropic_lease_spvs",
+    "name": "Anthropic special purpose lease subsidiaries",
+    "short_name": "Anthropic lease SPVs",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Two special purpose subsidiaries of Anthropic that are lessees under the Broadcom master equipment leases."
+  },
+  {
+    "id": "ent_broadcom_xpv_partners",
+    "name": "Financial partners and special purpose vehicle under Broadcom's AI XPV platform (not named)",
+    "short_name": "Broadcom XPV financiers",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Unnamed financial partner and special purpose vehicle that took on Broadcom's AI rack purchase and lease agreements with a customer."
+  },
+  {
+    "id": "ent_amd_commercial_partners",
+    "name": "AMD commercial partners (not named)",
+    "short_name": "AMD partners",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Unnamed commercial partners whose data center leases and borrowings AMD guarantees."
+  },
+  {
+    "id": "ent_amd_partner_counterparties",
+    "name": "Landlords and lenders of AMD commercial partners (not named)",
+    "short_name": "AMD partners' landlords and lenders",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Unnamed third-party landlords and lenders protected by AMD's guarantees of its commercial partners."
+  },
+  {
+    "id": "ent_amd_cloud_providers",
+    "name": "Cloud service providers under AMD cloud compute capacity commitments (not named)",
+    "short_name": "AMD cloud partners",
+    "cluster": "neocloud",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Unnamed cloud service providers whose unsold GPU capacity AMD has committed to buy."
+  },
+  {
+    "id": "ent_anthropic_dc_developers",
+    "name": "Data center developers under Anthropic cost reimbursement arrangements (not named)",
+    "short_name": "Anthropic developers",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Unnamed data center developers whose equipment procurement Anthropic supports through cost reimbursement arrangements."
+  },
+  {
+    "id": "ent_anthropic_dc_provider",
+    "name": "Data center provider whose power purchase contract Anthropic guarantees (not named)",
+    "short_name": "Anthropic data center provider",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Unnamed data center provider whose payment obligations under a power purchase contract Anthropic guarantees."
+  },
+  {
+    "id": "ent_anthropic_ppa_counterparty",
+    "name": "Power purchase contract counterparty (not named)",
+    "short_name": "Power seller",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Unnamed counterparty to a power purchase contract guaranteed by Anthropic."
+  },
+  {
+    "id": "ent_softbank_cosmos_tenant",
+    "name": "SoftBank affiliate tenant at the Cosmos Research Campus (not named)",
+    "short_name": "Cosmos tenant",
+    "cluster": "other",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Unnamed SoftBank affiliate that leases SB Energy's Cosmos Research Campus in Travis County, Texas."
+  },
+  {
+    "id": "ent_wulf_compute",
+    "name": "Wulf Compute LLC",
+    "short_name": "Wulf Compute",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "TeraWulf subsidiary that issued 7.75% senior secured notes due 2030 to build the Lake Mariner HPC campus."
+  },
+  {
+    "id": "ent_wulf_compute_noteholders",
+    "name": "Holders of Wulf Compute 7.75% Senior Secured Notes due 2030",
+    "short_name": "Wulf Compute noteholders",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Investors in the notes secured on TeraWulf's Lake Mariner HPC campus."
+  },
+  {
+    "id": "ent_coreweave_ccac",
+    "name": "CoreWeave Compute Acquisition Co. borrowers (DDTL special purpose vehicles)",
+    "short_name": "CoreWeave DDTL SPVs",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "CoreWeave subsidiaries that borrow under the DDTL 1.0 to 4.0 GPU facilities."
+  },
+  {
+    "id": "ent_coreweave_cw_spv",
+    "name": "CW SPV (CoreWeave subsidiary)",
+    "short_name": "CoreWeave CW SPV",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "CoreWeave special purpose subsidiary that took assignment of certain Core Scientific license agreements in 2026."
+  },
+  {
+    "id": "ent_galaxy_helios",
+    "name": "Galaxy Helios Data Centers II LLC",
+    "short_name": "Galaxy Helios II",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Galaxy subsidiary that issued notes secured on the Helios campus leased to CoreWeave."
+  },
+  {
+    "id": "ent_helios_noteholders",
+    "name": "Holders of Galaxy Helios II 9.875% Senior Secured Notes due 2031",
+    "short_name": "Helios noteholders",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Investors in notes secured on the CoreWeave leased Helios Phase II buildings."
+  },
+  {
+    "id": "ent_core_scientific_finance",
+    "name": "Core Scientific Finance (issuer of 7.75% Senior Secured Notes due 2031)",
+    "short_name": "Core Scientific Finance",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Core Scientific subsidiary that owns specified data center projects and issued secured notes."
+  },
+  {
+    "id": "ent_core_scientific_noteholders",
+    "name": "Holders of Core Scientific Finance 7.75% Senior Secured Notes due 2031",
+    "short_name": "Core Scientific noteholders",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Investors in notes secured on Core Scientific data center projects."
+  },
+  {
+    "id": "ent_apld_computeco3",
+    "name": "APLD ComputeCo 3 LLC",
+    "short_name": "APLD ComputeCo 3",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Applied Digital subsidiary that issued 7.000% senior secured notes due 2031 for the ELN-04 building."
+  },
+  {
+    "id": "ent_apld_computeco3_noteholders",
+    "name": "Holders of APLD ComputeCo 3 7.000% Senior Secured Notes due 2031",
+    "short_name": "APLD ComputeCo 3 noteholders",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Investors in notes secured on Applied Digital's ELN-04 data center project."
+  },
+  {
+    "id": "ent_nscale_ward_county",
+    "name": "Nscale Ward County, LLC",
+    "short_name": "Nscale Ward County",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Nscale subsidiary that is tenant of Ionic Digital's Ward County, Texas site and guarantor of the Ward County GPU Facility."
+  },
+  {
+    "id": "ent_nscale_ward_county_spv",
+    "name": "Nscale Ward County Borrower SPV, LLC",
+    "short_name": "Nscale Ward County SPV",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Borrower under the Ward County GPU Facility."
+  },
+  {
+    "id": "ent_nscale_nc_spv",
+    "name": "Nscale NC Borrower SPV, LLC",
+    "short_name": "Nscale NC SPV",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Borrower under the North Carolina GPU Facility."
+  },
+  {
+    "id": "ent_nscale_services_uk",
+    "name": "Nscale Services UK Limited",
+    "short_name": "Nscale Services UK",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "GB",
+    "description": "Borrower under Nscale's GPU Financing Facility."
+  },
+  {
+    "id": "ent_nscale_dfs_customers",
+    "name": "Nscale subsidiaries party to the DFS Framework Agreements",
+    "short_name": "Nscale DFS lessees",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Nscale subsidiaries that lease GPU equipment from Dell Financial Services."
+  },
+  {
+    "id": "ent_iren_hardware_3",
+    "name": "IE US Hardware 3 LLC",
+    "short_name": "IREN Hardware 3",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "IREN financing subsidiary that borrows under GPU Financing 1.0 for the Microsoft Agreement."
+  },
+  {
+    "id": "ent_iren_mackenzie",
+    "name": "IE Mackenzie Compute Ltd.",
+    "short_name": "IREN Mackenzie Compute",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "CA",
+    "description": "IREN subsidiary that borrows under GPU Financing 2.0 for GPUs at Mackenzie, British Columbia."
+  },
+  {
+    "id": "ent_iren_hardware_5_6",
+    "name": "IE US Hardware 5 LLC and IE US Hardware 6 LLC",
+    "short_name": "IREN Hardware 5 and 6",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "IREN subsidiaries that placed about $6.7 billion of GPU purchase orders with Dell in September 2026."
+  },
+  {
+    "id": "ent_csc_delaware_trust",
+    "name": "CSC Delaware Trust Company",
+    "short_name": "CSC Delaware Trust",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Administrative, intercreditor and collateral agent for IREN's GPU Financing 1.0 lenders and noteholders."
+  },
+  {
+    "id": "ent_dell",
+    "name": "Dell Marketing L.P.",
+    "short_name": "Dell",
+    "cluster": "semis_supply",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "US",
+    "description": "Dell entity that supplies GPU servers to IREN under purchase orders IREN guarantees."
+  },
+  {
+    "id": "ent_sharonai_au_borrowers",
+    "name": "SAI AU No. 1 Pty Ltd and SAI AU No. 3 Pty Ltd",
+    "short_name": "SharonAI AU borrowers",
+    "cluster": "vehicle",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "AU",
+    "description": "SharonAI subsidiaries that borrow under the US$356 million facility."
+  },
+  {
+    "id": "ent_glas",
+    "name": "Global Loan Agency Services",
+    "short_name": "GLAS",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": "AU",
+    "description": "Agent and security trustee for lenders under SharonAI's facility."
+  },
+  {
+    "id": "ent_bitdeer",
+    "name": "Bitdeer Technologies Group",
+    "short_name": "Bitdeer",
+    "cluster": "other",
+    "depth": 2,
+    "public": true,
+    "ticker": "BTDR",
+    "country": "SG",
+    "description": "Data center landlord of the Tydal, Norway campus leased to a Volta subsidiary."
+  },
+  {
+    "id": "ent_volta",
+    "name": "Volta (AI cloud provider)",
+    "short_name": "Volta",
+    "cluster": "neocloud",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": null,
+    "description": "AI cloud provider whose subsidiary leases Bitdeer's Tydal campus; an Nvidia stake is reported by one tier 2 source only."
+  },
+  {
+    "id": "ent_tydal_lc_banks",
+    "name": "Two unnamed global banks arranging letters of credit for the Tydal lease",
+    "short_name": "Tydal LC banks",
+    "cluster": "lender",
+    "depth": 2,
+    "public": false,
+    "ticker": null,
+    "country": null,
+    "description": "Affiliates of two global financial institutions expected to issue letters of credit backing Volta's Tydal lease."
+  }
+]

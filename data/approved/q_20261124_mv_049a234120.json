@@ -191,5 +191,12 @@
   "batch_confirm": false,
   "needs_human": false,
   "approval": "auto",
-  "approval_reason": "auto rule: market_value"
+  "approval_reason": "auto rule: market_value",
+  "approval_record": {
+    "mode": "auto",
+    "by": null,
+    "rule": "market_value",
+    "at": "2026-11-25T02:20:02Z",
+    "rechecked": []
+  }
 }

@@ -2002,7 +2002,7 @@
           "ev_80006"
         ],
         "lower_bound": false,
-        "note": "Carrying amount of convertible notes at 2026-09-30 (some at fair value). Principal of the 2026 series: $350m 6.00% due 2031-05-01 (ev_80012) and $700m 4.75% due 2032-06-15 (ev_80013). After the quarter SharonAI completed a $356m secured SPV facility, 42-month bullet (ev_40152)."
+        "note": "Carrying amount of convertible notes at 2026-09-30 (some at fair value). Principal of the 2026 series: $350m 6.00% due 2031-05-01 (ev_80012) and $700m 4.75% due 2032-06-15 (ev_80013). After the quarter SharonAI completed a $356m secured SPV facility, 42-month bullet (ev_40152). On 2026-11-24, after holder consents, a First Supplemental Indenture removed the covenant restricting repayment of indebtedness from the 4.75% notes and aligned them with the 6.00% notes (ev_260001); principal and maturity unchanged."
       },
       "maturities_24m": {
         "value": 20059,

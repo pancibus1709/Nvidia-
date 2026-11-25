@@ -1,13 +1,13 @@
 {
-  "id": "q_20261124_mv_bd71269f23",
-  "created": "2026-11-25T02:16:34Z",
+  "id": "q_20261124_mv_fedb924c9b",
+  "created": "2026-11-25T02:16:33Z",
   "state": "ready",
   "change_type": "market_value",
-  "summary": "Nokia: market value of 72,859,751 shares at 7.33 (Yahoo Finance, 2026-11-24T21:00:02Z).",
+  "summary": "Intel: market value of 161,082,488 shares at 54.80 (Yahoo Finance, 2026-11-24T21:00:01Z).",
   "source": {
-    "key": "https://query2.finance.yahoo.com/v8/finance/chart/NOK?interval=1d&range=5d",
-    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NOK?interval=1d&range=5d",
-    "title": "NOK at 7.33 on 2026-11-24",
+    "key": "https://query2.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&range=5d",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&range=5d",
+    "title": "INTC at 54.80 on 2026-11-24",
     "date": "2026-11-24",
     "form": null,
     "accession": null,
@@ -16,10 +16,10 @@
   "match": {
     "kind": "existing",
     "entities": [
-      "ent_nokia"
+      "ent_intel"
     ],
     "relationships": [
-      "rel_nokia_eq_2025"
+      "rel_intel_eq_2025"
     ],
     "complex_links": []
   },
@@ -27,91 +27,91 @@
     {
       "currency": "USD",
       "date": "2026-11-24",
-      "entity": "ent_nokia",
+      "entity": "ent_intel",
       "found_at": "2026-11-25T02:16:30Z",
-      "hash": "c53b12bd5268b6143c2e6e9a5bce2f91a685a6440d4b30d2c5fe7fcb1b9b8954",
-      "key": "rel_nokia_eq_2025|2026-11-24T21:00:02Z|72859751",
+      "hash": "72a5eca86d976139634bf0c192205b9b93193d13eaf1add9eb138d65a5e26f06",
+      "key": "rel_intel_eq_2025|2026-11-24T21:00:01Z|161082488",
       "kind": "market_value",
-      "price": 7.33,
+      "price": 54.8,
       "price_source": "Yahoo Finance",
-      "price_timestamp": "2026-11-24T21:00:02Z",
-      "relationship": "rel_nokia_eq_2025",
-      "shares": 72859751,
+      "price_timestamp": "2026-11-24T21:00:01Z",
+      "relationship": "rel_intel_eq_2025",
+      "shares": 161082488,
       "shares_as_of": "2026-09-30",
-      "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/NOK?interval=1d&range=5d",
-      "ticker": "NOK",
-      "title": "NOK at 7.33 on 2026-11-24",
-      "value": 534061974.83,
+      "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&range=5d",
+      "ticker": "INTC",
+      "title": "INTC at 54.80 on 2026-11-24",
+      "value": 8827320342.4,
       "watcher": "market_values"
     }
   ],
   "diff": [
     {
-      "new": 534061974.83,
-      "old": 738797875,
-      "path": "relationships/rel_nokia_eq_2025/amounts/market_value/value"
+      "new": 8827320342.4,
+      "old": 19366947532,
+      "path": "relationships/rel_intel_eq_2025/amounts/market_value/value"
     },
     {
       "new": "2026-11-24",
       "old": "2026-09-30",
-      "path": "relationships/rel_nokia_eq_2025/amounts/market_value/as_of"
+      "path": "relationships/rel_intel_eq_2025/amounts/market_value/as_of"
     },
     {
       "new": "Yahoo Finance",
       "old": "Nvidia Form 13F-HR",
-      "path": "relationships/rel_nokia_eq_2025/amounts/market_value/price_source"
+      "path": "relationships/rel_intel_eq_2025/amounts/market_value/price_source"
     },
     {
-      "new": "2026-11-24T21:00:02Z",
+      "new": "2026-11-24T21:00:01Z",
       "old": "2026-09-30",
-      "path": "relationships/rel_nokia_eq_2025/amounts/market_value/price_timestamp"
+      "path": "relationships/rel_intel_eq_2025/amounts/market_value/price_timestamp"
     },
     {
-      "new": 7.33,
+      "new": 54.8,
       "old": null,
-      "path": "relationships/rel_nokia_eq_2025/amounts/market_value/price"
+      "path": "relationships/rel_intel_eq_2025/amounts/market_value/price"
     },
     {
-      "new": 72859751.0,
+      "new": 161082488.0,
       "old": null,
-      "path": "relationships/rel_nokia_eq_2025/amounts/market_value/shares"
+      "path": "relationships/rel_intel_eq_2025/amounts/market_value/shares"
     },
     {
       "new": [
         "new:1"
       ],
       "old": [
-        "ev_50025"
+        "ev_50021"
       ],
-      "path": "relationships/rel_nokia_eq_2025/amounts/market_value/evidence"
+      "path": "relationships/rel_intel_eq_2025/amounts/market_value/evidence"
     }
   ],
   "evidence": [
     {
       "accession": null,
-      "cache_path": "research/cache/market/NOK_20261124T210002Z.json",
+      "cache_path": "research/cache/market/INTC_20261124T210001Z.json",
       "cites_publisher": [],
-      "content_hash": "c717739a81c924446cc2b74cf78660e72f4b65ff68b7fcd241400ad2c37c1367",
-      "grounded_value": 7.33,
+      "content_hash": "9c03853ff0ea9da3388a63563c614471a3ca740b6d688789c03107dbfcc6618c",
+      "grounded_value": 54.8,
       "id": "new:1",
       "kind": "market_data",
-      "locator": "298",
+      "locator": "303",
       "parent_company": "Yahoo Finance",
       "paywalled": false,
       "published": "2026-11-24",
       "publisher": "Yahoo Finance",
-      "quote": "\"regularMarketPrice\":7.33",
+      "quote": "\"regularMarketPrice\":54.8",
       "retrieved": "2026-11-25T02:16:29Z",
       "section": "regularMarketPrice",
-      "source_link": "https://finance.yahoo.com/quote/NOK",
+      "source_link": "https://finance.yahoo.com/quote/INTC",
       "sourcing": "named",
       "supports": [
-        "rel_nokia_eq_2025.amounts.market_value"
+        "rel_intel_eq_2025.amounts.market_value"
       ],
       "tier": "market",
-      "title": "NOK quote, Nokia Oyj",
+      "title": "INTC quote, Intel Corporation",
       "unit_scale_locator": null,
-      "url": "https://query2.finance.yahoo.com/v8/finance/chart/NOK?interval=1d&range=5d"
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&range=5d"
     }
   ],
   "checks": [
@@ -191,5 +191,12 @@
   "batch_confirm": false,
   "needs_human": false,
   "approval": "auto",
-  "approval_reason": "auto rule: market_value"
+  "approval_reason": "auto rule: market_value",
+  "approval_record": {
+    "mode": "auto",
+    "by": null,
+    "rule": "market_value",
+    "at": "2026-11-25T02:20:02Z",
+    "rechecked": []
+  }
 }

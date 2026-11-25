@@ -1358,5 +1358,390 @@
     ],
     "approved_by": "Thomas (Gate R approval, 2026-11-25)",
     "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_amd_eq_2026",
+    "change_type": "added",
+    "field": null,
+    "old": null,
+    "new": {
+      "status": "completed",
+      "claim_basis": "filed",
+      "holding.shares": 437338,
+      "holding.as_of": "2026-11-23",
+      "dates.effective": "2026-11-13",
+      "amounts": "headline and funded not disclosed; committed_total and contingent_max not applicable"
+    },
+    "evidence": [
+      "ev_260002",
+      "ev_260003",
+      "ev_260004",
+      "ev_260005",
+      "ev_260006"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_sharonai_bk_2026",
+    "change_type": "evidence_added",
+    "field": "entities.ent_sharonai.credit.debt_outstanding.note",
+    "old": "Carrying amount of convertible notes at 2026-09-30 (some at fair value). Principal of the 2026 series: $350m 6.00% due 2031-05-01 (ev_80012) and $700m 4.75% due 2032-06-15 (ev_80013). After the quarter SharonAI completed a $356m secured SPV facility, 42-month bullet (ev_40152).",
+    "new": "Carrying amount of convertible notes at 2026-09-30 (some at fair value). Principal of the 2026 series: $350m 6.00% due 2031-05-01 (ev_80012) and $700m 4.75% due 2032-06-15 (ev_80013). After the quarter SharonAI completed a $356m secured SPV facility, 42-month bullet (ev_40152). On 2026-11-24, after holder consents, a First Supplemental Indenture removed the covenant restricting repayment of indebtedness from the 4.75% notes and aligned them with the 6.00% notes (ev_260001); principal and maturity unchanged.",
+    "evidence": [
+      "ev_260001"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_sharonai_bk_2026",
+    "change_type": "reverified",
+    "field": "entities.ent_sharonai.credit.debt_outstanding.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_80006"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_nscale_fc_2026",
+    "change_type": "reverified",
+    "field": "amounts.headline.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_80019"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_nscale_fc_2026",
+    "change_type": "reverified",
+    "field": "amounts.committed_total.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_80019"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_nscale_fc_2026",
+    "change_type": "reverified",
+    "field": "amounts.funded.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_40011"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_nscale_fc_2026",
+    "change_type": "reverified",
+    "field": "amounts.contingent_max.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_iren_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.headline.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_30045",
+      "ev_40113"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_iren_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.committed_total.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_iren_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.contingent_max.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_sharonai_bk_2026",
+    "change_type": "reverified",
+    "field": "amounts.headline.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_40144"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_naver_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.headline.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_30072",
+      "ev_90072"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_naver_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.committed_total.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_180001",
+      "ev_30072",
+      "ev_90072"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_naver_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.contingent_max.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_sb_energy_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.headline.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_40086"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_sb_energy_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.committed_total.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_40087"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_sb_energy_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.funded.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_40087"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_sb_energy_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.contingent_max.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_40088"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_meta_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.headline.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_30076"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_meta_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.committed_total.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_meta_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.funded.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_meta_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.contingent_max.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_anthropic_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.headline.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_120038"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_anthropic_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.committed_total.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_120038"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_anthropic_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.funded.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_120038"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_anthropic_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.contingent_max.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_spacex_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.committed_total.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_spacex_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.contingent_max.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "rel_spacex_eq_2026",
+    "change_type": "reverified",
+    "field": "amounts.market_value.last_verified",
+    "old": "2026-11-23",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_50031"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
+  },
+  {
+    "timestamp": "2026-11-25T00:00:00Z",
+    "relationship": "cx_sharonai_glas_parent_guarantee_2026",
+    "change_type": "reverified",
+    "field": "amounts.headline.last_verified",
+    "old": "2026-11-24",
+    "new": "2026-11-25",
+    "evidence": [
+      "ev_40152"
+    ],
+    "approved_by": "Thomas (Gate R approval, 2026-11-25)",
+    "auto_rule": null
   }
 ]

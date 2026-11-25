@@ -1,13 +1,13 @@
 {
-  "id": "q_20261124_mv_5b22083f53",
-  "created": "2026-11-25T02:16:35Z",
+  "id": "q_20261124_mv_83ea97f0c5",
+  "created": "2026-11-25T02:16:34Z",
   "state": "ready",
   "change_type": "market_value",
-  "summary": "Coherent: market value of 7,788,161 shares at 196.24 (Yahoo Finance, 2026-11-24T21:00:02Z).",
+  "summary": "Synopsys: market value of 4,354,077 shares at 414.82 (Yahoo Finance, 2026-11-24T21:00:01Z).",
   "source": {
-    "key": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?interval=1d&range=5d",
-    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?interval=1d&range=5d",
-    "title": "COHR at 196.24 on 2026-11-24",
+    "key": "https://query2.finance.yahoo.com/v8/finance/chart/SNPS?interval=1d&range=5d",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SNPS?interval=1d&range=5d",
+    "title": "SNPS at 414.82 on 2026-11-24",
     "date": "2026-11-24",
     "form": null,
     "accession": null,
@@ -16,10 +16,10 @@
   "match": {
     "kind": "existing",
     "entities": [
-      "ent_coherent"
+      "ent_synopsys"
     ],
     "relationships": [
-      "rel_coherent_eq_2026"
+      "rel_synopsys_eq_2025"
     ],
     "complex_links": []
   },
@@ -27,91 +27,91 @@
     {
       "currency": "USD",
       "date": "2026-11-24",
-      "entity": "ent_coherent",
+      "entity": "ent_synopsys",
       "found_at": "2026-11-25T02:16:30Z",
-      "hash": "32d9e9d95289601b9209139709808109262011f98628e31ea81488fb503aac1a",
-      "key": "rel_coherent_eq_2026|2026-11-24T21:00:02Z|7788161",
+      "hash": "5a7803534c66dbbcc30e3cd1f48f7ab095049ab010c56d2e0b18f474785017f9",
+      "key": "rel_synopsys_eq_2025|2026-11-24T21:00:01Z|4354077",
       "kind": "market_value",
-      "price": 196.24,
+      "price": 414.82,
       "price_source": "Yahoo Finance",
-      "price_timestamp": "2026-11-24T21:00:02Z",
-      "relationship": "rel_coherent_eq_2026",
-      "shares": 7788161,
+      "price_timestamp": "2026-11-24T21:00:01Z",
+      "relationship": "rel_synopsys_eq_2025",
+      "shares": 4354077,
       "shares_as_of": "2026-09-30",
-      "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?interval=1d&range=5d",
-      "ticker": "COHR",
-      "title": "COHR at 196.24 on 2026-11-24",
-      "value": 1528348714.64,
+      "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/SNPS?interval=1d&range=5d",
+      "ticker": "SNPS",
+      "title": "SNPS at 414.82 on 2026-11-24",
+      "value": 1806158221.14,
       "watcher": "market_values"
     }
   ],
   "diff": [
     {
-      "new": 1528348714.64,
-      "old": 2241510617,
-      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/value"
+      "new": 1806158221.14,
+      "old": 1893762250,
+      "path": "relationships/rel_synopsys_eq_2025/amounts/market_value/value"
     },
     {
       "new": "2026-11-24",
       "old": "2026-09-30",
-      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/as_of"
+      "path": "relationships/rel_synopsys_eq_2025/amounts/market_value/as_of"
     },
     {
       "new": "Yahoo Finance",
       "old": "Nvidia Form 13F-HR",
-      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/price_source"
+      "path": "relationships/rel_synopsys_eq_2025/amounts/market_value/price_source"
     },
     {
-      "new": "2026-11-24T21:00:02Z",
+      "new": "2026-11-24T21:00:01Z",
       "old": "2026-09-30",
-      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/price_timestamp"
+      "path": "relationships/rel_synopsys_eq_2025/amounts/market_value/price_timestamp"
     },
     {
-      "new": 196.24,
+      "new": 414.82,
       "old": null,
-      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/price"
+      "path": "relationships/rel_synopsys_eq_2025/amounts/market_value/price"
     },
     {
-      "new": 7788161.0,
+      "new": 4354077.0,
       "old": null,
-      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/shares"
+      "path": "relationships/rel_synopsys_eq_2025/amounts/market_value/shares"
     },
     {
       "new": [
         "new:1"
       ],
       "old": [
-        "ev_50027"
+        "ev_50023"
       ],
-      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/evidence"
+      "path": "relationships/rel_synopsys_eq_2025/amounts/market_value/evidence"
     }
   ],
   "evidence": [
     {
       "accession": null,
-      "cache_path": "research/cache/market/COHR_20261124T210002Z.json",
+      "cache_path": "research/cache/market/SNPS_20261124T210001Z.json",
       "cites_publisher": [],
-      "content_hash": "170fd42e33c479327be5e0eda14661379ad39060634eb743c27d45c206648ec7",
-      "grounded_value": 196.24,
+      "content_hash": "eeab44b530ed23c7d7d099b0b0b4e4f74539dbb15003ef2bce53fc1c08e7d3bd",
+      "grounded_value": 414.82,
       "id": "new:1",
       "kind": "market_data",
-      "locator": "299",
+      "locator": "303",
       "parent_company": "Yahoo Finance",
       "paywalled": false,
       "published": "2026-11-24",
       "publisher": "Yahoo Finance",
-      "quote": "\"regularMarketPrice\":196.24",
+      "quote": "\"regularMarketPrice\":414.82",
       "retrieved": "2026-11-25T02:16:30Z",
       "section": "regularMarketPrice",
-      "source_link": "https://finance.yahoo.com/quote/COHR",
+      "source_link": "https://finance.yahoo.com/quote/SNPS",
       "sourcing": "named",
       "supports": [
-        "rel_coherent_eq_2026.amounts.market_value"
+        "rel_synopsys_eq_2025.amounts.market_value"
       ],
       "tier": "market",
-      "title": "COHR quote, Coherent Corp.",
+      "title": "SNPS quote, Synopsys, Inc.",
       "unit_scale_locator": null,
-      "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?interval=1d&range=5d"
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/SNPS?interval=1d&range=5d"
     }
   ],
   "checks": [
@@ -191,5 +191,12 @@
   "batch_confirm": false,
   "needs_human": false,
   "approval": "auto",
-  "approval_reason": "auto rule: market_value"
+  "approval_reason": "auto rule: market_value",
+  "approval_record": {
+    "mode": "auto",
+    "by": null,
+    "rule": "market_value",
+    "at": "2026-11-25T02:20:02Z",
+    "rechecked": []
+  }
 }

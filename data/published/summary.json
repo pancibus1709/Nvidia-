@@ -11,8 +11,8 @@
     "contingent_not_in_force": 105000000000.0,
     "headline": 307092739346.78,
     "gross": 175256654380.28436,
-    "count": 80,
-    "lower_bound_count": 50,
+    "count": 81,
+    "lower_bound_count": 51,
     "counts": {
       "funded": 14,
       "funded_cash": 16,
@@ -38,10 +38,10 @@
   },
   "sentences": [
     {
-      "text": "This register finds 80 financial relationships in which Nvidia has put money, credit or demand behind companies in the AI buildout, and every number on this page links to its source.",
+      "text": "This register finds 81 financial relationships in which Nvidia has put money, credit or demand behind companies in the AI buildout, and every number on this page links to its source.",
       "figures": [
         {
-          "value": 80,
+          "value": 81,
           "eligible_only": true
         }
       ]
@@ -174,6 +174,7 @@
     "rel_ibiden_pp_2026",
     "rel_unimicron_pp_2026",
     "rel_spil_pp_2026",
+    "rel_amd_eq_2026",
     "rel_sb_energy_eq_2026",
     "rel_ai_financing_platforms_rv_2026",
     "rel_helix_lp_2026",
@@ -353,11 +354,11 @@
   ],
   "source_mix": {
     "evidence_by_tier": {
-      "1": 1289,
+      "1": 1295,
       "2": 6
     },
-    "one_sided_relationships": 53,
-    "relationships": 80,
+    "one_sided_relationships": 54,
+    "relationships": 81,
     "note": "Pages from the named news publications could not be read when this register was compiled, so almost every figure rests on filings and company releases. Reported figures that could not be read are listed as needing a quote and are not shown."
   },
   "top_concentrations": [
@@ -451,7 +452,7 @@
       "funded_known": 1
     },
     "EQ": {
-      "count": 55,
+      "count": 56,
       "funded": 29196314380.28435,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 31000000000.0,
@@ -459,7 +460,7 @@
       "contingent_not_in_force": 0.0,
       "gross": 61696314380.28435,
       "headline": 65852399346.78,
-      "lower_bound": 38,
+      "lower_bound": 39,
       "funded_known": 15
     },
     "LB": {
@@ -561,7 +562,7 @@
       "funded_known": 5
     },
     "semis_supply": {
-      "count": 13,
+      "count": 14,
       "funded": 12493915033.504353,
       "committed_unfunded": 0.0,
       "committed_split_unknown": 1100000000.0,
@@ -569,7 +570,7 @@
       "contingent_not_in_force": 0.0,
       "gross": 13593915033.504353,
       "headline": 18600000000.0,
-      "lower_bound": 5,
+      "lower_bound": 6,
       "funded_known": 7
     },
     "neocloud": {

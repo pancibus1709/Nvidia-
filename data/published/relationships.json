@@ -1581,7 +1581,7 @@
       "headline": {
         "as_of": "2026-11-19",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -1593,7 +1593,7 @@
       "committed_total": {
         "as_of": "2026-11-19",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -1605,7 +1605,7 @@
       "funded": {
         "as_of": "2026-11-20",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -1618,7 +1618,7 @@
       "contingent_max": {
         "as_of": "2026-11-20",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": false,
         "not_applicable": true,
         "lower_bound": false,
@@ -1634,7 +1634,7 @@
       "tenor": "Perpetual equity; restricted securities resaleable under registration or Rule 144",
       "notes": "Market value not recorded: no Nvidia filing or allowed market data snapshot for ANT in this pass. Class N is Anthropic's non-voting class (424B4 capital structure, analysis)."
     },
-    "notes": "Distinct from rel_anthropic_eqc_2025; see that record's notes.",
+    "notes": "Distinct from rel_anthropic_eqc_2025; see that record's notes. Freshness check 2026-11-25: Forms 3 and 4 filed after the IPO are by Anthropic insiders; Nvidia has filed no Form 3, 13D or 13G on Anthropic.",
     "exposure": {
       "funded": 10000000000.0,
       "funded_cash": 10000000000.0,
@@ -2028,7 +2028,7 @@
       "committed_total": {
         "as_of": "2026-09-30",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": false,
         "not_applicable": true,
         "lower_bound": false,
@@ -2048,7 +2048,7 @@
       "contingent_max": {
         "as_of": "2026-09-30",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": false,
         "not_applicable": true,
         "lower_bound": false,
@@ -2059,7 +2059,7 @@
       "market_value": {
         "as_of": "2026-09-30",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "price_source": "Nvidia Form 13F-HR",
         "price_timestamp": "2026-09-30",
@@ -2078,7 +2078,7 @@
       "tenor": "Perpetual equity",
       "notes": "Cost basis unknown. Analysis only: at the Tesla Series E conversion (USD 2,000 million into 3.8 million pre-split shares, ev_120080), Nvidia's 122.8 million post-split shares would imply a much larger xAI investment than any figure quotable here; the path from Series E to the 13F count is not fully established. A single anonymous tier 2 report puts Nvidia's xAI investment at $10 billion (needs quote). Market value from the 13F is tier 1 as of 2026-09-30 only."
     },
-    "notes": "Seed A3 (Nvidia up to $2 billion in an SPV that buys GPUs leased to xAI) is not confirmed: SpaceX discloses the Valor equipment leases but no allowed source quotable here places Nvidia money in the lessor. Recorded as context in depth2_links only.",
+    "notes": "Seed A3 (Nvidia up to $2 billion in an SPV that buys GPUs leased to xAI) is not confirmed: SpaceX discloses the Valor equipment leases but no allowed source quotable here places Nvidia money in the lessor. Recorded as context in depth2_links only. Freshness check 2026-11-25: 13G/A filings on SpaceX in November are by Antonio Gracias and Founders Fund; no new Nvidia ownership filing.",
     "exposure": {
       "funded": null,
       "funded_cash": null,
@@ -4258,7 +4258,7 @@
     "type_primary": "EQ",
     "types_secondary": [],
     "title": "Nvidia $1 billion equity investment in NAVER (private placement)",
-    "definition": "On 24 July 2026 Nvidia said it plans to invest $1 billion in NAVER, subject to customary closing conditions and NAVER finalizing at least $9 billion of committed financing for the GAK Sejong AI factory; NAVER says it signed a strategic investment agreement worth $1 billion with Nvidia that day. On 27 October 2026 NAVER said a $9 billion agreement with Brookfield met that precondition and that it plans promptly to issue new shares to Nvidia. Closing had not been announced as of 23 November 2026.",
+    "definition": "On 24 July 2026 Nvidia said it plans to invest $1 billion in NAVER, subject to customary closing conditions and NAVER finalizing at least $9 billion of committed financing for the GAK Sejong AI factory; NAVER says it signed a strategic investment agreement worth $1 billion with Nvidia that day. On 27 October 2026 NAVER said a $9 billion agreement with Brookfield met that precondition and that it plans promptly to issue new shares to Nvidia. Closing had not been announced as of 25 November 2026.",
     "status": "definitive",
     "claim_basis": "company_announced",
     "dates": {
@@ -4418,7 +4418,7 @@
       "headline": {
         "as_of": "2026-07-24",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -4431,7 +4431,7 @@
       "committed_total": {
         "as_of": "2026-10-27",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -4455,7 +4455,7 @@
       "contingent_max": {
         "as_of": "2026-10-27",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": false,
         "not_applicable": true,
         "lower_bound": false,
@@ -4471,7 +4471,7 @@
       "tenor": "Open ended equity; closing pending",
       "notes": "Unpaid at 2026-10-27, when NAVER said it would promptly complete the share issue (ev_90068); no closing disclosed as of 2026-11-23."
     },
-    "notes": "Status kept definitive after the R9 review: NAVER states it 'signed a strategic investment agreement worth $1 billion with NVIDIA' on 24 July 2026 (ev_180001), and on 27 October 2026 that the precondition was met and it plans to promptly complete a paid-in capital increase through a third-party allotment to NVIDIA (ev_90068). No board resolution or closing has been found as of 2026-11-23, so funded stays unknown until closing. Previously listed by R3 as loi_or_framework (c_r3_015).",
+    "notes": "Status kept definitive after the R9 review: NAVER states it 'signed a strategic investment agreement worth $1 billion with NVIDIA' on 24 July 2026 (ev_180001), and on 27 October 2026 that the precondition was met and it plans to promptly complete a paid-in capital increase through a third-party allotment to NVIDIA (ev_90068). No board resolution or closing has been found as of 2026-11-23, so funded stays unknown until closing. Previously listed by R3 as loi_or_framework (c_r3_015). Freshness check 2026-11-25: NAVER's releases to 2026-11-13 (third quarter results) announce no share issue to Nvidia; closing still not announced.",
     "exposure": {
       "funded": null,
       "funded_cash": null,
@@ -11480,7 +11480,7 @@
       "headline": {
         "as_of": "2026-11-12",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -11493,7 +11493,7 @@
       "committed_total": {
         "as_of": "2026-11-12",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -11507,7 +11507,7 @@
       "funded": {
         "as_of": "2026-09-15",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -11519,7 +11519,7 @@
       },
       "contingent_max": {
         "as_of": "2026-11-12",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": false,
         "not_applicable": true,
         "evidence": [],
@@ -11534,7 +11534,7 @@
       "tenor": "2026-09-15 to 2028-06-15 unless converted at the IPO.",
       "notes": "The programme is described as $3.36bn in the MD&A (ev_40013) and as a minimum of $3.1bn in the subsequent events note (ev_80019). If the NVIDIA Sale closes on or after the registration statement becomes effective it is settled in non-voting shares, not notes (ev_40012)."
     },
-    "notes": "Classification: FC with EQ secondary. The notes are unsecured debt until the IPO and become non-voting equity on conversion; recorded separately from the preferred shares because ranking and tenor differ.",
+    "notes": "Classification: FC with EQ secondary. The notes are unsecured debt until the IPO and become non-voting equity on conversion; recorded separately from the preferred shares because ranking and tenor differ. Freshness check 2026-11-25: no Nscale filing or release confirms that the second $1.0 billion (the NVIDIA Sale, due on or around 16 November 2026) closed; the newest documents are the S-1/A of 2026-11-12 and Nscale's release of 2026-11-18, which does not mention it. Funded stays at the first $1.0 billion.",
     "exposure": {
       "funded": 1000000000.0,
       "funded_cash": 1000000000.0,
@@ -12648,7 +12648,7 @@
       "headline": {
         "as_of": "2026-05-07",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -12661,7 +12661,7 @@
       },
       "committed_total": {
         "as_of": "2026-05-07",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": false,
         "not_applicable": true,
         "evidence": [],
@@ -12677,7 +12677,7 @@
       },
       "contingent_max": {
         "as_of": "2026-05-07",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": false,
         "not_applicable": true,
         "evidence": [],
@@ -12692,7 +12692,7 @@
       "tenor": "2026-05-07 to 2031-05-07.",
       "notes": "Classification: EQ with seniority warrants rather than EQ-C. EQ-C would treat the $2.1bn as a contingent amount Nvidia could be required to pay; here only Nvidia can trigger payment, so committed and contingent are not applicable and only the headline is recorded."
     },
-    "notes": "Not a seed in spec/03; found in R3 and the IREN 10-K.",
+    "notes": "Not a seed in spec/03; found in R3 and the IREN 10-K. Freshness check 2026-11-25: the 13G filings on IREN of 10 to 19 November are by Goldman Sachs, G1 Execution, Jane Street and Citadel Securities; none by Nvidia, so no exercise of the rights is shown.",
     "exposure": {
       "funded": null,
       "funded_cash": null,
@@ -12930,7 +12930,8 @@
       "ev_80029",
       "ev_80033",
       "ev_80034",
-      "ev_30090"
+      "ev_30090",
+      "ev_260001"
     ],
     "holding": null,
     "inclusion_reason": null,
@@ -12945,7 +12946,7 @@
       "headline": {
         "as_of": "2026-06-12",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -12986,7 +12987,7 @@
       "notes": "Internal difference on the SharonAI side: the 8-K states a contract value of up to $4.88bn (ev_40144) while the 10-Q says no fixed aggregate value is specified (ev_40146). The customer price per GPU hour declines over the six-year term. SharonAI committed to about $4bn of hardware and infrastructure in connection with the agreement (ev_40155), though the order form does not by itself fix a hardware amount (ev_80014). Nvidia earns product revenue on the GPUs and a share of cloud revenue (ev_80016). Either party may terminate on material breach or on insolvency or material adverse change events (8-K).",
       "tenor_bucket": "5 to 10 years"
     },
-    "notes": "Classification: BK with LB secondary. The 10-Q calls Nvidia a customer, but Nvidia uses the capacity only when third parties do not and pays minimum revenue, which is a capacity backstop. stress_inputs are empty: the contracted floor, merchant share and rate are not disclosed.",
+    "notes": "Classification: BK with LB secondary. The 10-Q calls Nvidia a customer, but Nvidia uses the capacity only when third parties do not and pays minimum revenue, which is a capacity backstop. stress_inputs are empty: the contracted floor, merchant share and rate are not disclosed. Freshness check 2026-11-25: SharonAI's 8-K of 2026-11-24 amends its 4.75% convertible notes indenture (ev_260001); it does not change the Nvidia agreement.",
     "exposure": {
       "funded": null,
       "funded_cash": null,
@@ -19758,6 +19759,220 @@
     }
   },
   {
+    "id": "rel_amd_eq_2026",
+    "to": "ent_amd",
+    "type_primary": "EQ",
+    "types_secondary": [],
+    "title": "Nvidia shareholding in AMD received for its World Labs stake",
+    "definition": "AMD bought World Labs, a startup in which Nvidia and its venture arm NVentures held shares, for about $8.2 billion paid in AMD stock; the deal closed on 13 November 2026. AMD's resale prospectus of 23 November 2026 lists Nvidia as a selling stockholder of 437,338 AMD shares, 381,167 issuable to NVIDIA Corporation and 56,171 to NVentures. What Nvidia paid for its World Labs shares is not disclosed.",
+    "status": "completed",
+    "claim_basis": "filed",
+    "dates": {
+      "announced": null,
+      "signed": null,
+      "filed": "2026-11-23",
+      "effective": "2026-11-13",
+      "maturity": null
+    },
+    "seniority": "common_equity",
+    "reconciliation": {
+      "result": "one_sided",
+      "nvidia_side": "No disclosure found as of 2026-11-25. Nvidia's 13F for 2026-09-30 predates the closing and its Form 10-Q for the quarter ended 2026-10-25 has not been filed.",
+      "counterparty_side": "AMD's Form S-3ASR of 2026-11-23 names NVIDIA Corporation and NVentures LLC as selling stockholders of 437,338 World Labs Closing Shares; AMD's Form 8-K/A of 2026-11-16 states the closing on 2026-11-13.",
+      "nvidia_evidence": [],
+      "counterparty_evidence": [
+        "ev_260002",
+        "ev_260003",
+        "ev_260004",
+        "ev_260005",
+        "ev_260006"
+      ],
+      "differences": []
+    },
+    "consequences": {
+      "first_order": [
+        {
+          "trigger": "AMD shares fall",
+          "mechanism": "Listed stake loses value",
+          "affected": [
+            "ent_nvidia"
+          ],
+          "direction": "negative",
+          "text": "A fall in AMD's share price would cut the value of the AMD shares Nvidia received for its World Labs stake.",
+          "evidence": [
+            "ev_260002"
+          ]
+        }
+      ],
+      "second_order": [
+        {
+          "trigger": "Nvidia sells the AMD shares registered for resale",
+          "mechanism": "Sale under AMD's resale prospectus becomes visible in Nvidia's 13F",
+          "affected": [
+            "ent_amd"
+          ],
+          "direction": "mixed",
+          "text": "Because AMD registered Nvidia's AMD shares for resale, a sale would show in Nvidia's 13F and could be read as a signal about AMD by other holders (analysis).",
+          "lens": "signaling",
+          "evidence": [
+            "ev_260002"
+          ]
+        }
+      ]
+    },
+    "projects": [],
+    "depth2_links": [],
+    "aggregate_of": null,
+    "version": 1,
+    "evidence": [
+      "ev_260002",
+      "ev_260003",
+      "ev_260004",
+      "ev_260005",
+      "ev_260006"
+    ],
+    "holding": {
+      "shares": 437338,
+      "as_of": "2026-11-23",
+      "ticker": "AMD",
+      "evidence": [
+        "ev_260002",
+        "ev_260003",
+        "ev_260004"
+      ],
+      "instrument": "common"
+    },
+    "inclusion_reason": null,
+    "insight": "Nvidia now owns shares in its rival AMD, received when AMD bought World Labs, so a small position moves with a competitor.",
+    "labels": {
+      "type": "Equity",
+      "status": "Completed",
+      "basis": "Filed",
+      "cluster": "Semis and supply"
+    },
+    "amounts": {
+      "headline": {
+        "original_currency": "USD",
+        "display_eligible": false,
+        "lower_bound": false,
+        "evidence": [],
+        "text": "Not disclosed",
+        "value": null,
+        "status": "not_disclosed"
+      },
+      "committed_total": {
+        "as_of": "2026-11-13",
+        "original_currency": "USD",
+        "last_verified": "2026-11-25",
+        "display_eligible": false,
+        "not_applicable": true,
+        "lower_bound": false,
+        "evidence": [],
+        "text": "Not applicable",
+        "value": 0
+      },
+      "funded": {
+        "original_currency": "USD",
+        "display_eligible": false,
+        "lower_bound": false,
+        "evidence": [],
+        "text": "Not disclosed",
+        "value": null,
+        "status": "not_disclosed"
+      },
+      "contingent_max": {
+        "as_of": "2026-11-13",
+        "original_currency": "USD",
+        "last_verified": "2026-11-25",
+        "display_eligible": false,
+        "not_applicable": true,
+        "lower_bound": false,
+        "evidence": [],
+        "text": "Not applicable",
+        "value": 0
+      }
+    },
+    "credit": {
+      "wwr": "general",
+      "wwr_reason": "AMD's share price moves with AI accelerator demand, the same driver as Nvidia's own results; the exposure is the market value of a small listed stake.",
+      "collateral": "None.",
+      "tenor": "Open ended listed equity",
+      "tenor_bucket": "Equity or no stated maturity"
+    },
+    "notes": "Found in the 25 November 2026 freshness check (Gate Q step 1). Nvidia's original World Labs investment (date, round, amount) is not in allowed sources on file, so headline and funded stay unknown. The S-3ASR of 2026-11-23 is the newest document; the 8-K/A of 2026-11-16 supersedes the 8-K of 2026-09-28 on the share count. Market value not recorded: no 13F yet covers the position.",
+    "exposure": {
+      "funded": null,
+      "funded_cash": null,
+      "committed_unfunded": null,
+      "committed_split_unknown": null,
+      "contingent_max": 0.0,
+      "contingent_in_force": 0.0,
+      "contingent_not_in_force": 0.0,
+      "gross": 0.0,
+      "missing": [
+        "funded",
+        "committed_unfunded"
+      ],
+      "lower_bound": true
+    },
+    "derived": {
+      "ead_base": null,
+      "ead_max": null,
+      "loss_max": null,
+      "loss_max_note": "Upper bound. Assumes every contingent amount is drawn and no value is received or recovered.",
+      "loss_base": null,
+      "loss_base_note": "Not estimated. A base case loss needs a sourced value for what Nvidia receives or recovers.",
+      "circularity_ratio": {
+        "value": null,
+        "window": null,
+        "inputs": []
+      },
+      "round_trip": {
+        "nvidia_paid": null,
+        "counterparty_nvidia_spend": null,
+        "window": null,
+        "inputs": []
+      },
+      "share_of_counterparty_capital": {
+        "value": null,
+        "inputs": []
+      },
+      "share_of_nvda_equity": {
+        "value": null,
+        "inputs": []
+      },
+      "share_of_nvda_fcf": {
+        "value": null,
+        "inputs": []
+      },
+      "annual_obligation": {
+        "value": null,
+        "basis": null
+      },
+      "backstop_coverage": {
+        "value": null,
+        "inputs": []
+      }
+    },
+    "significance": {
+      "score": 45.0,
+      "components": {
+        "gross_percentile": null,
+        "contingent_share": null,
+        "circularity_percentile": null,
+        "counterparty_weakness": null,
+        "lender_reliance": 0.0
+      },
+      "missing": [
+        "gross_percentile",
+        "contingent_share",
+        "circularity_percentile",
+        "counterparty_weakness"
+      ],
+      "label": "analysis"
+    }
+  },
+  {
     "id": "rel_sb_energy_eq_2026",
     "to": "ent_sb_energy",
     "type_primary": "EQ",
@@ -19988,7 +20203,7 @@
       "headline": {
         "as_of": "2026-11-19",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -20000,7 +20215,7 @@
       "committed_total": {
         "as_of": "2026-11-19",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -20013,7 +20228,7 @@
       "funded": {
         "as_of": "2026-08-17",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -20025,7 +20240,7 @@
       "contingent_max": {
         "as_of": "2026-11-19",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "trigger": "SB Energy completes an IPO generating at least $1.5 billion of primary gross proceeds (ev_100052); the share purchase agreement terminates automatically on 15 May 2027 if the private placement has not closed (ev_100023)",
         "lower_bound": false,
@@ -20045,7 +20260,7 @@
       "notes": "SB Energy records the prepaid forward as a liability at $1,666,667 thousand fair value at 30 Sept 2026 (ev_100053).",
       "tenor_bucket": "Under 2 years"
     },
-    "notes": "Instrument dates: prepaid forward contract and share purchase agreement both dated 17 August 2026 (S-1/A No. 3 exhibits 10.26 and 10.27). S-1/A No. 3 of 19 November 2026 supersedes the S-1 of 1 September 2026 and amendments of 4 and 21 September 2026. No 424B4 yet. Nvidia's percentage ownership after the IPO is left blank in the S-1/A. The guaranty itself is recorded from the OpenAI side as rel_openai_gu_2026; it is not duplicated here. Amounts (R9 review): committed_total is the $1.5 billion prepaid forward already funded (ev_40087); the second $1.5 billion is contingent on the IPO closing by 15 May 2027 (ev_40088, ev_100052, ev_100023) and sits in contingent_max; the headline stays at the $3.0 billion total (ev_40086).",
+    "notes": "Instrument dates: prepaid forward contract and share purchase agreement both dated 17 August 2026 (S-1/A No. 3 exhibits 10.26 and 10.27). S-1/A No. 3 of 19 November 2026 supersedes the S-1 of 1 September 2026 and amendments of 4 and 21 September 2026. No 424B4 yet. Nvidia's percentage ownership after the IPO is left blank in the S-1/A. The guaranty itself is recorded from the OpenAI side as rel_openai_gu_2026; it is not duplicated here. Amounts (R9 review): committed_total is the $1.5 billion prepaid forward already funded (ev_40087); the second $1.5 billion is contingent on the IPO closing by 15 May 2027 (ev_40088, ev_100052, ev_100023) and sits in contingent_max; the headline stays at the $3.0 billion total (ev_40086). Freshness check 2026-11-25: no 424B4 and no pricing release; the S-1/A of 2026-11-19 is still SB Energy's newest filing, so the second $1.5 billion stays contingent.",
     "exposure": {
       "funded": 1500000000.0,
       "funded_cash": 1500000000.0,
@@ -21109,7 +21324,7 @@
       "headline": {
         "as_of": "2026-10-26",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": true,
         "lower_bound": false,
         "evidence": [
@@ -21121,7 +21336,7 @@
       "committed_total": {
         "as_of": "2026-10-28",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": false,
         "not_applicable": true,
         "lower_bound": false,
@@ -21132,7 +21347,7 @@
       "funded": {
         "as_of": "2026-10-28",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": false,
         "not_applicable": true,
         "lower_bound": false,
@@ -21143,7 +21358,7 @@
       "contingent_max": {
         "as_of": "2026-10-28",
         "original_currency": "USD",
-        "last_verified": "2026-11-23",
+        "last_verified": "2026-11-25",
         "display_eligible": false,
         "not_applicable": true,
         "lower_bound": false,
@@ -21159,7 +21374,7 @@
       "tenor": "None.",
       "notes": "Status set to loi_or_framework because the only counterparty document calls the interest non-binding; upgrade to completed if Nvidia's Q3 FY2027 10-Q or a 13F shows the shares. Meta itself is the issuer, not a data center vehicle. Meta's own residual value guarantees to its data center ventures reach $41.493 billion (ev_100046), a comparator for Nvidia's guaranties."
     },
-    "notes": "Instruments: prospectus supplement (424B5) of 28 October 2026 for 40,000,000 Class A shares via forward sale agreements with Morgan Stanley and Goldman Sachs, initial forward price $622.91875 (ev_100044), settlement by 19 November 2027 (ev_100045); proceeds for general corporate purposes (ev_100043). It supersedes the 26 October preliminary supplement. Meta committed to buy: Meta 'intends to expand the deployment' of Nvidia infrastructure, no volume (ev_30077). Gate R: Meta's offering has priced and its prospectus still calls the interest not binding. No filing yet shows whether Nvidia bought shares. Status stays a framework until one does. Critic round 1: typed EQ-C with seniority none until a filing shows shares held, like the other letters of intent.",
+    "notes": "Instruments: prospectus supplement (424B5) of 28 October 2026 for 40,000,000 Class A shares via forward sale agreements with Morgan Stanley and Goldman Sachs, initial forward price $622.91875 (ev_100044), settlement by 19 November 2027 (ev_100045); proceeds for general corporate purposes (ev_100043). It supersedes the 26 October preliminary supplement. Meta committed to buy: Meta 'intends to expand the deployment' of Nvidia infrastructure, no volume (ev_30077). Gate R: Meta's offering has priced and its prospectus still calls the interest not binding. No filing yet shows whether Nvidia bought shares. Status stays a framework until one does. Critic round 1: typed EQ-C with seniority none until a filing shows shares held, like the other letters of intent. Freshness check 2026-11-25: Meta's 8-Ks of 2026-11-05, 2026-11-12 and 2026-11-23 cover note offerings and Class C litigation; none and no Nvidia filing shows Nvidia buying Meta shares. Status unchanged.",
     "exposure": {
       "funded": 0.0,
       "funded_cash": 0.0,

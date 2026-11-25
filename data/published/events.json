@@ -1233,6 +1233,17 @@
     ]
   },
   {
+    "id": "evt_amd_world_labs_closing_2026",
+    "date": "2026-11-13",
+    "relationship": "rel_amd_eq_2026",
+    "kind": "closing",
+    "summary": "AMD closed its purchase of World Labs and issued AMD shares to World Labs holders, including Nvidia and NVentures.",
+    "evidence": [
+      "ev_260005",
+      "ev_260002"
+    ]
+  },
+  {
     "id": "evt_spacex_13f_q3",
     "date": "2026-11-16",
     "relationship": "rel_spacex_eq_2026",

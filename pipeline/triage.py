@@ -213,6 +213,11 @@ def evaluate(item: dict, paths: Paths, today: date | None = None, data: dict | N
     new_ev = resolve_ids(item.get("evidence") or [], mapping)
     known = {e["id"] for e in data["evidence"]}
     new_ev = [e for e in new_ev if e.get("id") not in known]
+    for ch in diff_r:
+        # a whole new amount is dated by the person who approves it (apply_approved sets last_verified); check it as it will be applied
+        if amount_field_of(ch["path"]) and ch.get("old") is None and isinstance(ch.get("new"), dict) and "last_verified" in ch["new"] \
+                and ch["new"]["last_verified"] is None and ch["new"].get("value") is not None:
+            ch["new"]["last_verified"] = (today or datetime.now(timezone.utc).date()).isoformat()
     try:
         patched = apply_diff(data, diff_r)
     except DiffError as err:

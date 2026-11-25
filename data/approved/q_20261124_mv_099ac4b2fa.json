@@ -1,13 +1,13 @@
 {
-  "id": "q_20261124_mv_92e6e16e64",
+  "id": "q_20261124_mv_099ac4b2fa",
   "created": "2026-11-25T02:16:32Z",
   "state": "ready",
   "change_type": "market_value",
-  "summary": "CoreWeave: market value of 47,213,353 shares at 42.60 (Yahoo Finance, 2026-11-24T21:00:01Z).",
+  "summary": "Generate Biomedicines: market value of 833,325 shares at 10.91 (Yahoo Finance, 2026-11-24T21:00:01Z).",
   "source": {
-    "key": "https://query2.finance.yahoo.com/v8/finance/chart/CRWV?interval=1d&range=5d",
-    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRWV?interval=1d&range=5d",
-    "title": "CRWV at 42.60 on 2026-11-24",
+    "key": "https://query2.finance.yahoo.com/v8/finance/chart/GENB?interval=1d&range=5d",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GENB?interval=1d&range=5d",
+    "title": "GENB at 10.91 on 2026-11-24",
     "date": "2026-11-24",
     "form": null,
     "accession": null,
@@ -16,10 +16,10 @@
   "match": {
     "kind": "existing",
     "entities": [
-      "ent_coreweave"
+      "ent_generate_biomedicines"
     ],
     "relationships": [
-      "rel_coreweave_eq_2025"
+      "rel_generate_biomedicines_eq_2026"
     ],
     "complex_links": []
   },
@@ -27,72 +27,72 @@
     {
       "currency": "USD",
       "date": "2026-11-24",
-      "entity": "ent_coreweave",
+      "entity": "ent_generate_biomedicines",
       "found_at": "2026-11-25T02:16:30Z",
-      "hash": "f1b6fcd8e1c06c2711a8d647d48791d44f53e1986a407268ef6411ee05de03fc",
-      "key": "rel_coreweave_eq_2025|2026-11-24T21:00:01Z|47213353",
+      "hash": "40bc46b61674c8b2f811a621b4118af76e9b0a30c6085e37c099a2840fa15b32",
+      "key": "rel_generate_biomedicines_eq_2026|2026-11-24T21:00:01Z|833325",
       "kind": "market_value",
-      "price": 42.605,
+      "price": 10.91,
       "price_source": "Yahoo Finance",
       "price_timestamp": "2026-11-24T21:00:01Z",
-      "relationship": "rel_coreweave_eq_2025",
-      "shares": 47213353,
+      "relationship": "rel_generate_biomedicines_eq_2026",
+      "shares": 833325,
       "shares_as_of": "2026-09-30",
-      "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/CRWV?interval=1d&range=5d",
-      "ticker": "CRWV",
-      "title": "CRWV at 42.60 on 2026-11-24",
-      "value": 2011524904.56,
+      "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/GENB?interval=1d&range=5d",
+      "ticker": "GENB",
+      "title": "GENB at 10.91 on 2026-11-24",
+      "value": 9091575.75,
       "watcher": "market_values"
     }
   ],
   "diff": [
     {
-      "new": 2011524904.56,
-      "old": 4113227313,
-      "path": "relationships/rel_coreweave_eq_2025/amounts/market_value/value"
+      "new": 9091575.75,
+      "old": 12516542,
+      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/value"
     },
     {
       "new": "2026-11-24",
       "old": "2026-09-30",
-      "path": "relationships/rel_coreweave_eq_2025/amounts/market_value/as_of"
+      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/as_of"
     },
     {
       "new": "Yahoo Finance",
       "old": "Nvidia Form 13F-HR",
-      "path": "relationships/rel_coreweave_eq_2025/amounts/market_value/price_source"
+      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/price_source"
     },
     {
       "new": "2026-11-24T21:00:01Z",
       "old": "2026-09-30",
-      "path": "relationships/rel_coreweave_eq_2025/amounts/market_value/price_timestamp"
+      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/price_timestamp"
     },
     {
-      "new": 42.605,
+      "new": 10.91,
       "old": null,
-      "path": "relationships/rel_coreweave_eq_2025/amounts/market_value/price"
+      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/price"
     },
     {
-      "new": 47213353.0,
+      "new": 833325.0,
       "old": null,
-      "path": "relationships/rel_coreweave_eq_2025/amounts/market_value/shares"
+      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/shares"
     },
     {
       "new": [
         "new:1"
       ],
       "old": [
-        "ev_50019"
+        "ev_50029"
       ],
-      "path": "relationships/rel_coreweave_eq_2025/amounts/market_value/evidence"
+      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/evidence"
     }
   ],
   "evidence": [
     {
       "accession": null,
-      "cache_path": "research/cache/market/CRWV_20261124T210001Z.json",
+      "cache_path": "research/cache/market/GENB_20261124T210001Z.json",
       "cites_publisher": [],
-      "content_hash": "2d0ec857838ada95c6bf5eaf128ecd7bb4bd8d145e84db99c707ac9ab839ceee",
-      "grounded_value": 42.605,
+      "content_hash": "f1c03b7e569e9d68518a8defacf00c4edca8e64a9468d00e1772546bded77c4a",
+      "grounded_value": 10.91,
       "id": "new:1",
       "kind": "market_data",
       "locator": "304",
@@ -100,18 +100,18 @@
       "paywalled": false,
       "published": "2026-11-24",
       "publisher": "Yahoo Finance",
-      "quote": "\"regularMarketPrice\":42.605",
+      "quote": "\"regularMarketPrice\":10.91",
       "retrieved": "2026-11-25T02:16:28Z",
       "section": "regularMarketPrice",
-      "source_link": "https://finance.yahoo.com/quote/CRWV",
+      "source_link": "https://finance.yahoo.com/quote/GENB",
       "sourcing": "named",
       "supports": [
-        "rel_coreweave_eq_2025.amounts.market_value"
+        "rel_generate_biomedicines_eq_2026.amounts.market_value"
       ],
       "tier": "market",
-      "title": "CRWV quote, CoreWeave, Inc.",
+      "title": "GENB quote, Generate Biomedicines, Inc.",
       "unit_scale_locator": null,
-      "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRWV?interval=1d&range=5d"
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/GENB?interval=1d&range=5d"
     }
   ],
   "checks": [
@@ -191,5 +191,12 @@
   "batch_confirm": false,
   "needs_human": false,
   "approval": "auto",
-  "approval_reason": "auto rule: market_value"
+  "approval_reason": "auto rule: market_value",
+  "approval_record": {
+    "mode": "auto",
+    "by": null,
+    "rule": "market_value",
+    "at": "2026-11-25T02:20:02Z",
+    "rechecked": []
+  }
 }

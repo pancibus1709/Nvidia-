@@ -1,13 +1,13 @@
 {
-  "id": "q_20261124_mv_099ac4b2fa",
-  "created": "2026-11-25T02:16:32Z",
+  "id": "q_20261124_mv_5b22083f53",
+  "created": "2026-11-25T02:16:35Z",
   "state": "ready",
   "change_type": "market_value",
-  "summary": "Generate Biomedicines: market value of 833,325 shares at 10.91 (Yahoo Finance, 2026-11-24T21:00:01Z).",
+  "summary": "Coherent: market value of 7,788,161 shares at 196.24 (Yahoo Finance, 2026-11-24T21:00:02Z).",
   "source": {
-    "key": "https://query2.finance.yahoo.com/v8/finance/chart/GENB?interval=1d&range=5d",
-    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GENB?interval=1d&range=5d",
-    "title": "GENB at 10.91 on 2026-11-24",
+    "key": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?interval=1d&range=5d",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?interval=1d&range=5d",
+    "title": "COHR at 196.24 on 2026-11-24",
     "date": "2026-11-24",
     "form": null,
     "accession": null,
@@ -16,10 +16,10 @@
   "match": {
     "kind": "existing",
     "entities": [
-      "ent_generate_biomedicines"
+      "ent_coherent"
     ],
     "relationships": [
-      "rel_generate_biomedicines_eq_2026"
+      "rel_coherent_eq_2026"
     ],
     "complex_links": []
   },
@@ -27,91 +27,91 @@
     {
       "currency": "USD",
       "date": "2026-11-24",
-      "entity": "ent_generate_biomedicines",
+      "entity": "ent_coherent",
       "found_at": "2026-11-25T02:16:30Z",
-      "hash": "40bc46b61674c8b2f811a621b4118af76e9b0a30c6085e37c099a2840fa15b32",
-      "key": "rel_generate_biomedicines_eq_2026|2026-11-24T21:00:01Z|833325",
+      "hash": "32d9e9d95289601b9209139709808109262011f98628e31ea81488fb503aac1a",
+      "key": "rel_coherent_eq_2026|2026-11-24T21:00:02Z|7788161",
       "kind": "market_value",
-      "price": 10.91,
+      "price": 196.24,
       "price_source": "Yahoo Finance",
-      "price_timestamp": "2026-11-24T21:00:01Z",
-      "relationship": "rel_generate_biomedicines_eq_2026",
-      "shares": 833325,
+      "price_timestamp": "2026-11-24T21:00:02Z",
+      "relationship": "rel_coherent_eq_2026",
+      "shares": 7788161,
       "shares_as_of": "2026-09-30",
-      "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/GENB?interval=1d&range=5d",
-      "ticker": "GENB",
-      "title": "GENB at 10.91 on 2026-11-24",
-      "value": 9091575.75,
+      "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?interval=1d&range=5d",
+      "ticker": "COHR",
+      "title": "COHR at 196.24 on 2026-11-24",
+      "value": 1528348714.64,
       "watcher": "market_values"
     }
   ],
   "diff": [
     {
-      "new": 9091575.75,
-      "old": 12516542,
-      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/value"
+      "new": 1528348714.64,
+      "old": 2241510617,
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/value"
     },
     {
       "new": "2026-11-24",
       "old": "2026-09-30",
-      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/as_of"
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/as_of"
     },
     {
       "new": "Yahoo Finance",
       "old": "Nvidia Form 13F-HR",
-      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/price_source"
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/price_source"
     },
     {
-      "new": "2026-11-24T21:00:01Z",
+      "new": "2026-11-24T21:00:02Z",
       "old": "2026-09-30",
-      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/price_timestamp"
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/price_timestamp"
     },
     {
-      "new": 10.91,
+      "new": 196.24,
       "old": null,
-      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/price"
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/price"
     },
     {
-      "new": 833325.0,
+      "new": 7788161.0,
       "old": null,
-      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/shares"
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/shares"
     },
     {
       "new": [
         "new:1"
       ],
       "old": [
-        "ev_50029"
+        "ev_50027"
       ],
-      "path": "relationships/rel_generate_biomedicines_eq_2026/amounts/market_value/evidence"
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/evidence"
     }
   ],
   "evidence": [
     {
       "accession": null,
-      "cache_path": "research/cache/market/GENB_20261124T210001Z.json",
+      "cache_path": "research/cache/market/COHR_20261124T210002Z.json",
       "cites_publisher": [],
-      "content_hash": "f1c03b7e569e9d68518a8defacf00c4edca8e64a9468d00e1772546bded77c4a",
-      "grounded_value": 10.91,
+      "content_hash": "170fd42e33c479327be5e0eda14661379ad39060634eb743c27d45c206648ec7",
+      "grounded_value": 196.24,
       "id": "new:1",
       "kind": "market_data",
-      "locator": "304",
+      "locator": "299",
       "parent_company": "Yahoo Finance",
       "paywalled": false,
       "published": "2026-11-24",
       "publisher": "Yahoo Finance",
-      "quote": "\"regularMarketPrice\":10.91",
-      "retrieved": "2026-11-25T02:16:28Z",
+      "quote": "\"regularMarketPrice\":196.24",
+      "retrieved": "2026-11-25T02:16:30Z",
       "section": "regularMarketPrice",
-      "source_link": "https://finance.yahoo.com/quote/GENB",
+      "source_link": "https://finance.yahoo.com/quote/COHR",
       "sourcing": "named",
       "supports": [
-        "rel_generate_biomedicines_eq_2026.amounts.market_value"
+        "rel_coherent_eq_2026.amounts.market_value"
       ],
       "tier": "market",
-      "title": "GENB quote, Generate Biomedicines, Inc.",
+      "title": "COHR quote, Coherent Corp.",
       "unit_scale_locator": null,
-      "url": "https://query2.finance.yahoo.com/v8/finance/chart/GENB?interval=1d&range=5d"
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?interval=1d&range=5d"
     }
   ],
   "checks": [
@@ -191,5 +191,12 @@
   "batch_confirm": false,
   "needs_human": false,
   "approval": "auto",
-  "approval_reason": "auto rule: market_value"
+  "approval_reason": "auto rule: market_value",
+  "approval_record": {
+    "mode": "auto",
+    "by": null,
+    "rule": "market_value",
+    "at": "2026-11-25T02:20:02Z",
+    "rechecked": []
+  }
 }
