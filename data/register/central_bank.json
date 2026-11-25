@@ -8,7 +8,7 @@
       "verdict_reason": "Investees pair Nvidia money with Nvidia compute; co-investors paid the same terms.",
       "evidence_for": [
         {
-          "text": "Nvidia bought $10.0 billion of Anthropic stock; Anthropic rents Nvidia GPUs.",
+          "text": "Nvidia bought $10.0 billion of Anthropic stock, which rents Nvidia GPUs.",
           "relationships": [
             "rel_anthropic_eq_2026"
           ],
@@ -20,7 +20,7 @@
           ]
         },
         {
-          "text": "Nscale took Nvidia equity and notes while relying on uncommitted financing.",
+          "text": "Nscale took Nvidia equity and notes, relying on uncommitted financing.",
           "relationships": [
             "rel_nscale_eq_2025",
             "rel_nscale_fc_2026"
