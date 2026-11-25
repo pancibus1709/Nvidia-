@@ -169,6 +169,12 @@ def seed_changelog(reg: Register) -> list[dict]:
     """First publish: one 'added' entry per relationship, plus any refresh changes logged before launch."""
     log = load_json(CHANGELOG, [])
     if log:
+        seen = {(e["timestamp"], e["relationship"], e.get("field"), e["change_type"]) for e in log}
+        added = [e for f in sorted((ROOT / "research" / "refresh").glob("changes_*.json")) for e in load_json(f, [])
+                 if (e["timestamp"], e["relationship"], e.get("field"), e["change_type"]) not in seen]
+        if added:
+            log += added
+            save_json(CHANGELOG, log)
         return log
     ts = "2026-11-25T00:00:00Z"
     for r in reg.relationships:

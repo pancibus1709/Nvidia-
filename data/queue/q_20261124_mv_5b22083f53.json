@@ -1,0 +1,195 @@
+{
+  "id": "q_20261124_mv_5b22083f53",
+  "created": "2026-11-25T02:16:35Z",
+  "state": "ready",
+  "change_type": "market_value",
+  "summary": "Coherent: market value of 7,788,161 shares at 196.24 (Yahoo Finance, 2026-11-24T21:00:02Z).",
+  "source": {
+    "key": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?interval=1d&range=5d",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?interval=1d&range=5d",
+    "title": "COHR at 196.24 on 2026-11-24",
+    "date": "2026-11-24",
+    "form": null,
+    "accession": null,
+    "watcher": "market_values"
+  },
+  "match": {
+    "kind": "existing",
+    "entities": [
+      "ent_coherent"
+    ],
+    "relationships": [
+      "rel_coherent_eq_2026"
+    ],
+    "complex_links": []
+  },
+  "hits": [
+    {
+      "currency": "USD",
+      "date": "2026-11-24",
+      "entity": "ent_coherent",
+      "found_at": "2026-11-25T02:16:30Z",
+      "hash": "32d9e9d95289601b9209139709808109262011f98628e31ea81488fb503aac1a",
+      "key": "rel_coherent_eq_2026|2026-11-24T21:00:02Z|7788161",
+      "kind": "market_value",
+      "price": 196.24,
+      "price_source": "Yahoo Finance",
+      "price_timestamp": "2026-11-24T21:00:02Z",
+      "relationship": "rel_coherent_eq_2026",
+      "shares": 7788161,
+      "shares_as_of": "2026-09-30",
+      "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?interval=1d&range=5d",
+      "ticker": "COHR",
+      "title": "COHR at 196.24 on 2026-11-24",
+      "value": 1528348714.64,
+      "watcher": "market_values"
+    }
+  ],
+  "diff": [
+    {
+      "new": 1528348714.64,
+      "old": 2241510617,
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/value"
+    },
+    {
+      "new": "2026-11-24",
+      "old": "2026-09-30",
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/as_of"
+    },
+    {
+      "new": "Yahoo Finance",
+      "old": "Nvidia Form 13F-HR",
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/price_source"
+    },
+    {
+      "new": "2026-11-24T21:00:02Z",
+      "old": "2026-09-30",
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/price_timestamp"
+    },
+    {
+      "new": 196.24,
+      "old": null,
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/price"
+    },
+    {
+      "new": 7788161.0,
+      "old": null,
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/shares"
+    },
+    {
+      "new": [
+        "new:1"
+      ],
+      "old": [
+        "ev_50027"
+      ],
+      "path": "relationships/rel_coherent_eq_2026/amounts/market_value/evidence"
+    }
+  ],
+  "evidence": [
+    {
+      "accession": null,
+      "cache_path": "research/cache/market/COHR_20261124T210002Z.json",
+      "cites_publisher": [],
+      "content_hash": "170fd42e33c479327be5e0eda14661379ad39060634eb743c27d45c206648ec7",
+      "grounded_value": 196.24,
+      "id": "new:1",
+      "kind": "market_data",
+      "locator": "299",
+      "parent_company": "Yahoo Finance",
+      "paywalled": false,
+      "published": "2026-11-24",
+      "publisher": "Yahoo Finance",
+      "quote": "\"regularMarketPrice\":196.24",
+      "retrieved": "2026-11-25T02:16:30Z",
+      "section": "regularMarketPrice",
+      "source_link": "https://finance.yahoo.com/quote/COHR",
+      "sourcing": "named",
+      "supports": [
+        "rel_coherent_eq_2026.amounts.market_value"
+      ],
+      "tier": "market",
+      "title": "COHR quote, Coherent Corp.",
+      "unit_scale_locator": null,
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?interval=1d&range=5d"
+    }
+  ],
+  "checks": [
+    {
+      "check": "applies",
+      "result": "pass",
+      "detail": "7 change(s) apply to the register as it stands"
+    },
+    {
+      "check": "schema",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "evidence",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "grounding",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "display",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "independence",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "allowlist",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "dates",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "amount order",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "insight",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "copy",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "quotes",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "reconciliation",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "consequences",
+      "result": "pass",
+      "detail": ""
+    }
+  ],
+  "critic_notes": null,
+  "counterparty_silence": null,
+  "batch_confirm": false,
+  "needs_human": false,
+  "approval": "auto",
+  "approval_reason": "auto rule: market_value"
+}

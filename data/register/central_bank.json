@@ -8,7 +8,7 @@
       "verdict_reason": "Investees pair Nvidia money with Nvidia compute; co-investors paid the same terms.",
       "evidence_for": [
         {
-          "text": "Nvidia bought $10.0 billion of Anthropic stock; Anthropic rents Nvidia GPUs from three clouds.",
+          "text": "Nvidia bought $10.0 billion of Anthropic stock; Anthropic rents Nvidia GPUs.",
           "relationships": [
             "rel_anthropic_eq_2026"
           ],
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "text": "Nvidia says some customers outgrow their credit, and it acted in response.",
+          "text": "Nvidia says it acted as customers outgrew their credit.",
           "relationships": [],
           "evidence": [
             "ev_200006",
@@ -93,7 +93,7 @@
       ],
       "evidence_against": [
         {
-          "text": "No CoreWeave credit agreement read names the order.",
+          "text": "No CoreWeave credit agreement names the order.",
           "relationships": [
             "rel_coreweave_bk_2025"
           ],
@@ -110,6 +110,16 @@
           ],
           "evidence": [
             "ev_100020"
+          ]
+        },
+        {
+          "text": "Google, Broadcom and AMD backstop capacity for their own chips too.",
+          "relationships": [],
+          "evidence": [
+            "ev_240032",
+            "ev_240033",
+            "ev_250046",
+            "ev_250021"
           ]
         }
       ]

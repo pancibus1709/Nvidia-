@@ -311,6 +311,8 @@ def needs_human(item: dict, auto_cfg: dict) -> tuple[bool, str]:
             ok = (field == "market_value") or (parts[0] == "evidence" and len(parts) == 2 and ch.get("old") is None)
             if not ok:
                 return True, f"a market value update may only touch market_value: {ch['path']}"
+            if field == "market_value" and parts[-1] == "market_value" and ch.get("old") is None:
+                return True, "a first market value needs a person to check and date it"
             if parts[-1] == "last_verified":
                 return True, "an automatic change never sets last_verified"
         elif ct == "link_repair":

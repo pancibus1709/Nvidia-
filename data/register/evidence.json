@@ -3294,33 +3294,6 @@
     "grounded_value": 4700000000.0
   },
   {
-    "id": "ev_20112",
-    "tier": "1",
-    "kind": "sec_filing",
-    "publisher": "CoreWeave, Inc.",
-    "title": "CoreWeave Form 10-Q for the quarter ended September 30, 2026",
-    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
-    "source_link": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm#:~:text=Net%20cash%20provided%20by%20operating%20activities%20%24%205%2C638",
-    "accession": "0001769628-26-000465",
-    "section": "MD&A - Liquidity and Capital Resources",
-    "published": "2026-11-12",
-    "retrieved": "2026-11-23T02:21:00Z",
-    "quote": "Net cash provided by operating activities $ 5,638 $ 1,499",
-    "locator": "22010",
-    "unit_scale_locator": 21157,
-    "parent_company": "CoreWeave, Inc.",
-    "cites_publisher": [],
-    "cache_path": "research/cache/sec/1769628/000176962826000465/crwv-20260930.htm",
-    "content_hash": "26b275024f1c07a5142ecffdf9e38239acd7d46e7039de6942ce3171280d5a65",
-    "sourcing": "filing",
-    "paywalled": false,
-    "pasted_by_reviewer": false,
-    "supports": [
-      "Operating cash flow 9M 2026 5,638m"
-    ],
-    "grounded_value": 5638000000.0
-  },
-  {
     "id": "ev_20113",
     "tier": "1",
     "kind": "sec_filing",

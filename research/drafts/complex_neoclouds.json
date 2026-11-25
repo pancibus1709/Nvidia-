@@ -1,2485 +1,2485 @@
 {
- "entities": [
-  {
-   "id": "ent_terawulf",
-   "name": "TeraWulf Inc.",
-   "short_name": "TeraWulf",
-   "cluster": "other",
-   "depth": 2,
-   "public": true,
-   "ticker": "WULF",
-   "cik": "0001083301",
-   "country": "US",
-   "description": "Data center landlord at Lake Mariner, New York, whose Fluidstack leases Google backstops.",
-   "domains": [
-    "terawulf.com"
-   ]
-  },
-  {
-   "id": "ent_cipher_digital",
-   "name": "Cipher Digital Inc.",
-   "short_name": "Cipher",
-   "cluster": "other",
-   "depth": 2,
-   "public": true,
-   "ticker": "CIFR",
-   "cik": "0001819989",
-   "country": "US",
-   "description": "Data center landlord, formerly Cipher Mining, whose Barber Lake lease to Fluidstack Google backstops.",
-   "domains": [
-    "cipherdigital.com"
-   ]
-  },
-  {
-   "id": "ent_hut_8",
-   "name": "Hut 8 Corp.",
-   "short_name": "Hut 8",
-   "cluster": "other",
-   "depth": 2,
-   "public": true,
-   "ticker": "HUT",
-   "cik": "0001964789",
-   "country": "US",
-   "description": "Data center landlord whose River Bend, Louisiana lease to Fluidstack Google backstops.",
-   "domains": [
-    "hut8.com"
-   ]
-  },
-  {
-   "id": "ent_fluidstack",
-   "name": "Fluidstack Ltd.",
-   "short_name": "Fluidstack",
-   "cluster": "neocloud",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "GB",
-   "description": "AI cloud provider that leases data centers from TeraWulf, Cipher and Hut 8 with Google backstops.",
-   "domains": [
-    "fluidstack.io"
-   ]
-  },
-  {
-   "id": "ent_abernathy_jv",
-   "name": "FS CS I LLC (Abernathy Joint Venture)",
-   "short_name": "Abernathy JV",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Joint venture that owns the Abernathy, Texas campus leased to Fluidstack; TeraWulf sold its 50.1% stake in July 2026.",
-   "domains": []
-  },
-  {
-   "id": "ent_wulf_compute",
-   "name": "Wulf Compute LLC",
-   "short_name": "Wulf Compute",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "TeraWulf subsidiary that issued 7.75% senior secured notes due 2030 to build the Lake Mariner HPC campus.",
-   "domains": []
-  },
-  {
-   "id": "ent_wulf_compute_noteholders",
-   "name": "Holders of Wulf Compute 7.75% Senior Secured Notes due 2030",
-   "short_name": "Wulf Compute noteholders",
-   "cluster": "lender",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Investors in the notes secured on TeraWulf's Lake Mariner HPC campus.",
-   "domains": []
-  },
-  {
-   "id": "ent_coreweave_ccac",
-   "name": "CoreWeave Compute Acquisition Co. borrowers (DDTL special purpose vehicles)",
-   "short_name": "CoreWeave DDTL SPVs",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "CoreWeave subsidiaries that borrow under the DDTL 1.0 to 4.0 GPU facilities.",
-   "domains": []
-  },
-  {
-   "id": "ent_coreweave_cw_spv",
-   "name": "CW SPV (CoreWeave subsidiary)",
-   "short_name": "CoreWeave CW SPV",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "CoreWeave special purpose subsidiary that took assignment of certain Core Scientific license agreements in 2026.",
-   "domains": []
-  },
-  {
-   "id": "ent_galaxy_helios",
-   "name": "Galaxy Helios Data Centers II LLC",
-   "short_name": "Galaxy Helios II",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Galaxy subsidiary that issued notes secured on the Helios campus leased to CoreWeave.",
-   "domains": []
-  },
-  {
-   "id": "ent_helios_noteholders",
-   "name": "Holders of Galaxy Helios II 9.875% Senior Secured Notes due 2031",
-   "short_name": "Helios noteholders",
-   "cluster": "lender",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Investors in notes secured on the CoreWeave leased Helios Phase II buildings.",
-   "domains": []
-  },
-  {
-   "id": "ent_core_scientific_finance",
-   "name": "Core Scientific Finance (issuer of 7.75% Senior Secured Notes due 2031)",
-   "short_name": "Core Scientific Finance",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Core Scientific subsidiary that owns specified data center projects and issued secured notes.",
-   "domains": []
-  },
-  {
-   "id": "ent_core_scientific_noteholders",
-   "name": "Holders of Core Scientific Finance 7.75% Senior Secured Notes due 2031",
-   "short_name": "Core Scientific noteholders",
-   "cluster": "lender",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Investors in notes secured on Core Scientific data center projects.",
-   "domains": []
-  },
-  {
-   "id": "ent_apld_computeco3",
-   "name": "APLD ComputeCo 3 LLC",
-   "short_name": "APLD ComputeCo 3",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Applied Digital subsidiary that issued 7.000% senior secured notes due 2031 for the ELN-04 building.",
-   "domains": []
-  },
-  {
-   "id": "ent_apld_computeco3_noteholders",
-   "name": "Holders of APLD ComputeCo 3 7.000% Senior Secured Notes due 2031",
-   "short_name": "APLD ComputeCo 3 noteholders",
-   "cluster": "lender",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Investors in notes secured on Applied Digital's ELN-04 data center project.",
-   "domains": []
-  },
-  {
-   "id": "ent_nscale_ward_county",
-   "name": "Nscale Ward County, LLC",
-   "short_name": "Nscale Ward County",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Nscale subsidiary that is tenant of Ionic Digital's Ward County, Texas site and guarantor of the Ward County GPU Facility.",
-   "domains": []
-  },
-  {
-   "id": "ent_nscale_ward_county_spv",
-   "name": "Nscale Ward County Borrower SPV, LLC",
-   "short_name": "Nscale Ward County SPV",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Borrower under the Ward County GPU Facility.",
-   "domains": []
-  },
-  {
-   "id": "ent_nscale_nc_spv",
-   "name": "Nscale NC Borrower SPV, LLC",
-   "short_name": "Nscale NC SPV",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Borrower under the North Carolina GPU Facility.",
-   "domains": []
-  },
-  {
-   "id": "ent_nscale_services_uk",
-   "name": "Nscale Services UK Limited",
-   "short_name": "Nscale Services UK",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "GB",
-   "description": "Borrower under Nscale's GPU Financing Facility.",
-   "domains": []
-  },
-  {
-   "id": "ent_nscale_dfs_customers",
-   "name": "Nscale subsidiaries party to the DFS Framework Agreements",
-   "short_name": "Nscale DFS lessees",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Nscale subsidiaries that lease GPU equipment from Dell Financial Services.",
-   "domains": []
-  },
-  {
-   "id": "ent_iren_hardware_3",
-   "name": "IE US Hardware 3 LLC",
-   "short_name": "IREN Hardware 3",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "IREN financing subsidiary that borrows under GPU Financing 1.0 for the Microsoft Agreement.",
-   "domains": []
-  },
-  {
-   "id": "ent_iren_mackenzie",
-   "name": "IE Mackenzie Compute Ltd.",
-   "short_name": "IREN Mackenzie Compute",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "CA",
-   "description": "IREN subsidiary that borrows under GPU Financing 2.0 for GPUs at Mackenzie, British Columbia.",
-   "domains": []
-  },
-  {
-   "id": "ent_iren_hardware_5_6",
-   "name": "IE US Hardware 5 LLC and IE US Hardware 6 LLC",
-   "short_name": "IREN Hardware 5 and 6",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "IREN subsidiaries that placed about $6.7 billion of GPU purchase orders with Dell in September 2026.",
-   "domains": []
-  },
-  {
-   "id": "ent_csc_delaware_trust",
-   "name": "CSC Delaware Trust Company",
-   "short_name": "CSC Delaware Trust",
-   "cluster": "lender",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Administrative, intercreditor and collateral agent for IREN's GPU Financing 1.0 lenders and noteholders.",
-   "domains": []
-  },
-  {
-   "id": "ent_dell",
-   "name": "Dell Marketing L.P.",
-   "short_name": "Dell",
-   "cluster": "semis_supply",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "US",
-   "description": "Dell entity that supplies GPU servers to IREN under purchase orders IREN guarantees.",
-   "domains": []
-  },
-  {
-   "id": "ent_sharonai_au_borrowers",
-   "name": "SAI AU No. 1 Pty Ltd and SAI AU No. 3 Pty Ltd",
-   "short_name": "SharonAI AU borrowers",
-   "cluster": "vehicle",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "AU",
-   "description": "SharonAI subsidiaries that borrow under the US$356 million facility.",
-   "domains": []
-  },
-  {
-   "id": "ent_glas",
-   "name": "Global Loan Agency Services",
-   "short_name": "GLAS",
-   "cluster": "lender",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": "AU",
-   "description": "Agent and security trustee for lenders under SharonAI's facility.",
-   "domains": []
-  },
-  {
-   "id": "ent_bitdeer",
-   "name": "Bitdeer Technologies Group",
-   "short_name": "Bitdeer",
-   "cluster": "other",
-   "depth": 2,
-   "public": true,
-   "ticker": "BTDR",
-   "cik": "0001899123",
-   "country": "SG",
-   "description": "Data center landlord of the Tydal, Norway campus leased to a Volta subsidiary.",
-   "domains": []
-  },
-  {
-   "id": "ent_volta",
-   "name": "Volta (AI cloud provider)",
-   "short_name": "Volta",
-   "cluster": "neocloud",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": null,
-   "description": "AI cloud provider whose subsidiary leases Bitdeer's Tydal campus; an Nvidia stake is reported by one tier 2 source only.",
-   "domains": []
-  },
-  {
-   "id": "ent_tydal_lc_banks",
-   "name": "Two unnamed global banks arranging letters of credit for the Tydal lease",
-   "short_name": "Tydal LC banks",
-   "cluster": "lender",
-   "depth": 2,
-   "public": false,
-   "ticker": null,
-   "cik": null,
-   "country": null,
-   "description": "Affiliates of two global financial institutions expected to issue letters of credit backing Volta's Tydal lease.",
-   "domains": []
-  }
- ],
- "relationships": [],
- "projects": [],
- "events": [],
- "complex_links": [
-  {
-   "id": "cx_google_fluidstack_backstop_2025",
-   "kind": "backstop",
-   "provider": "ent_google",
-   "beneficiary": "ent_terawulf",
-   "obligor": "ent_fluidstack",
-   "instrument": "Google Recognition Agreements (Google Backstop) for the Fluidstack HPC Leases at Lake Mariner",
-   "description": "Google agreed to backstop certain obligations of Fluidstack under its data center leases with TeraWulf at the Lake Mariner campus in New York. The backstop was $1.8 billion for the first leases and rose by $1.4 billion with the CB-5 lease, to about $3.2 billion. Google received TeraWulf warrants and pledged them to the construction lenders until the backstop takes effect.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
+  "entities": [
+    {
+      "id": "ent_terawulf",
+      "name": "TeraWulf Inc.",
+      "short_name": "TeraWulf",
+      "cluster": "other",
+      "depth": 2,
+      "public": true,
+      "ticker": "WULF",
+      "cik": "0001083301",
+      "country": "US",
+      "description": "Data center landlord at Lake Mariner, New York, whose Fluidstack leases Google backstops.",
+      "domains": [
+        "terawulf.com"
+      ]
     },
-    "maximum": {
-     "value": 3200000000,
-     "as_of": "2025-08-18",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230010"
-     ],
-     "qualifier": "about",
-     "components": [
-      {
-       "value": 1800000000,
-       "evidence": [
+    {
+      "id": "ent_cipher_digital",
+      "name": "Cipher Digital Inc.",
+      "short_name": "Cipher",
+      "cluster": "other",
+      "depth": 2,
+      "public": true,
+      "ticker": "CIFR",
+      "cik": "0001819989",
+      "country": "US",
+      "description": "Data center landlord, formerly Cipher Mining, whose Barber Lake lease to Fluidstack Google backstops.",
+      "domains": [
+        "cipherdigital.com"
+      ]
+    },
+    {
+      "id": "ent_hut_8",
+      "name": "Hut 8 Corp.",
+      "short_name": "Hut 8",
+      "cluster": "other",
+      "depth": 2,
+      "public": true,
+      "ticker": "HUT",
+      "cik": "0001964789",
+      "country": "US",
+      "description": "Data center landlord whose River Bend, Louisiana lease to Fluidstack Google backstops.",
+      "domains": [
+        "hut8.com"
+      ]
+    },
+    {
+      "id": "ent_fluidstack",
+      "name": "Fluidstack Ltd.",
+      "short_name": "Fluidstack",
+      "cluster": "neocloud",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "GB",
+      "description": "AI cloud provider that leases data centers from TeraWulf, Cipher and Hut 8 with Google backstops.",
+      "domains": [
+        "fluidstack.io"
+      ]
+    },
+    {
+      "id": "ent_abernathy_jv",
+      "name": "FS CS I LLC (Abernathy Joint Venture)",
+      "short_name": "Abernathy JV",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Joint venture that owns the Abernathy, Texas campus leased to Fluidstack; TeraWulf sold its 50.1% stake in July 2026.",
+      "domains": []
+    },
+    {
+      "id": "ent_wulf_compute",
+      "name": "Wulf Compute LLC",
+      "short_name": "Wulf Compute",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "TeraWulf subsidiary that issued 7.75% senior secured notes due 2030 to build the Lake Mariner HPC campus.",
+      "domains": []
+    },
+    {
+      "id": "ent_wulf_compute_noteholders",
+      "name": "Holders of Wulf Compute 7.75% Senior Secured Notes due 2030",
+      "short_name": "Wulf Compute noteholders",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Investors in the notes secured on TeraWulf's Lake Mariner HPC campus.",
+      "domains": []
+    },
+    {
+      "id": "ent_coreweave_ccac",
+      "name": "CoreWeave Compute Acquisition Co. borrowers (DDTL special purpose vehicles)",
+      "short_name": "CoreWeave DDTL SPVs",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "CoreWeave subsidiaries that borrow under the DDTL 1.0 to 4.0 GPU facilities.",
+      "domains": []
+    },
+    {
+      "id": "ent_coreweave_cw_spv",
+      "name": "CW SPV (CoreWeave subsidiary)",
+      "short_name": "CoreWeave CW SPV",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "CoreWeave special purpose subsidiary that took assignment of certain Core Scientific license agreements in 2026.",
+      "domains": []
+    },
+    {
+      "id": "ent_galaxy_helios",
+      "name": "Galaxy Helios Data Centers II LLC",
+      "short_name": "Galaxy Helios II",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Galaxy subsidiary that issued notes secured on the Helios campus leased to CoreWeave.",
+      "domains": []
+    },
+    {
+      "id": "ent_helios_noteholders",
+      "name": "Holders of Galaxy Helios II 9.875% Senior Secured Notes due 2031",
+      "short_name": "Helios noteholders",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Investors in notes secured on the CoreWeave leased Helios Phase II buildings.",
+      "domains": []
+    },
+    {
+      "id": "ent_core_scientific_finance",
+      "name": "Core Scientific Finance (issuer of 7.75% Senior Secured Notes due 2031)",
+      "short_name": "Core Scientific Finance",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Core Scientific subsidiary that owns specified data center projects and issued secured notes.",
+      "domains": []
+    },
+    {
+      "id": "ent_core_scientific_noteholders",
+      "name": "Holders of Core Scientific Finance 7.75% Senior Secured Notes due 2031",
+      "short_name": "Core Scientific noteholders",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Investors in notes secured on Core Scientific data center projects.",
+      "domains": []
+    },
+    {
+      "id": "ent_apld_computeco3",
+      "name": "APLD ComputeCo 3 LLC",
+      "short_name": "APLD ComputeCo 3",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Applied Digital subsidiary that issued 7.000% senior secured notes due 2031 for the ELN-04 building.",
+      "domains": []
+    },
+    {
+      "id": "ent_apld_computeco3_noteholders",
+      "name": "Holders of APLD ComputeCo 3 7.000% Senior Secured Notes due 2031",
+      "short_name": "APLD ComputeCo 3 noteholders",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Investors in notes secured on Applied Digital's ELN-04 data center project.",
+      "domains": []
+    },
+    {
+      "id": "ent_nscale_ward_county",
+      "name": "Nscale Ward County, LLC",
+      "short_name": "Nscale Ward County",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Nscale subsidiary that is tenant of Ionic Digital's Ward County, Texas site and guarantor of the Ward County GPU Facility.",
+      "domains": []
+    },
+    {
+      "id": "ent_nscale_ward_county_spv",
+      "name": "Nscale Ward County Borrower SPV, LLC",
+      "short_name": "Nscale Ward County SPV",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Borrower under the Ward County GPU Facility.",
+      "domains": []
+    },
+    {
+      "id": "ent_nscale_nc_spv",
+      "name": "Nscale NC Borrower SPV, LLC",
+      "short_name": "Nscale NC SPV",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Borrower under the North Carolina GPU Facility.",
+      "domains": []
+    },
+    {
+      "id": "ent_nscale_services_uk",
+      "name": "Nscale Services UK Limited",
+      "short_name": "Nscale Services UK",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "GB",
+      "description": "Borrower under Nscale's GPU Financing Facility.",
+      "domains": []
+    },
+    {
+      "id": "ent_nscale_dfs_customers",
+      "name": "Nscale subsidiaries party to the DFS Framework Agreements",
+      "short_name": "Nscale DFS lessees",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Nscale subsidiaries that lease GPU equipment from Dell Financial Services.",
+      "domains": []
+    },
+    {
+      "id": "ent_iren_hardware_3",
+      "name": "IE US Hardware 3 LLC",
+      "short_name": "IREN Hardware 3",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "IREN financing subsidiary that borrows under GPU Financing 1.0 for the Microsoft Agreement.",
+      "domains": []
+    },
+    {
+      "id": "ent_iren_mackenzie",
+      "name": "IE Mackenzie Compute Ltd.",
+      "short_name": "IREN Mackenzie Compute",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "CA",
+      "description": "IREN subsidiary that borrows under GPU Financing 2.0 for GPUs at Mackenzie, British Columbia.",
+      "domains": []
+    },
+    {
+      "id": "ent_iren_hardware_5_6",
+      "name": "IE US Hardware 5 LLC and IE US Hardware 6 LLC",
+      "short_name": "IREN Hardware 5 and 6",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "IREN subsidiaries that placed about $6.7 billion of GPU purchase orders with Dell in September 2026.",
+      "domains": []
+    },
+    {
+      "id": "ent_csc_delaware_trust",
+      "name": "CSC Delaware Trust Company",
+      "short_name": "CSC Delaware Trust",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Administrative, intercreditor and collateral agent for IREN's GPU Financing 1.0 lenders and noteholders.",
+      "domains": []
+    },
+    {
+      "id": "ent_dell",
+      "name": "Dell Marketing L.P.",
+      "short_name": "Dell",
+      "cluster": "semis_supply",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "US",
+      "description": "Dell entity that supplies GPU servers to IREN under purchase orders IREN guarantees.",
+      "domains": []
+    },
+    {
+      "id": "ent_sharonai_au_borrowers",
+      "name": "SAI AU No. 1 Pty Ltd and SAI AU No. 3 Pty Ltd",
+      "short_name": "SharonAI AU borrowers",
+      "cluster": "vehicle",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "AU",
+      "description": "SharonAI subsidiaries that borrow under the US$356 million facility.",
+      "domains": []
+    },
+    {
+      "id": "ent_glas",
+      "name": "Global Loan Agency Services",
+      "short_name": "GLAS",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": "AU",
+      "description": "Agent and security trustee for lenders under SharonAI's facility.",
+      "domains": []
+    },
+    {
+      "id": "ent_bitdeer",
+      "name": "Bitdeer Technologies Group",
+      "short_name": "Bitdeer",
+      "cluster": "other",
+      "depth": 2,
+      "public": true,
+      "ticker": "BTDR",
+      "cik": "0001899123",
+      "country": "SG",
+      "description": "Data center landlord of the Tydal, Norway campus leased to a Volta subsidiary.",
+      "domains": []
+    },
+    {
+      "id": "ent_volta",
+      "name": "Volta (AI cloud provider)",
+      "short_name": "Volta",
+      "cluster": "neocloud",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": null,
+      "description": "AI cloud provider whose subsidiary leases Bitdeer's Tydal campus; an Nvidia stake is reported by one tier 2 source only.",
+      "domains": []
+    },
+    {
+      "id": "ent_tydal_lc_banks",
+      "name": "Two unnamed global banks arranging letters of credit for the Tydal lease",
+      "short_name": "Tydal LC banks",
+      "cluster": "lender",
+      "depth": 2,
+      "public": false,
+      "ticker": null,
+      "cik": null,
+      "country": null,
+      "description": "Affiliates of two global financial institutions expected to issue letters of credit backing Volta's Tydal lease.",
+      "domains": []
+    }
+  ],
+  "relationships": [],
+  "projects": [],
+  "events": [],
+  "complex_links": [
+    {
+      "id": "cx_google_fluidstack_backstop_2025",
+      "kind": "backstop",
+      "provider": "ent_google",
+      "beneficiary": "ent_terawulf",
+      "obligor": "ent_fluidstack",
+      "instrument": "Google Recognition Agreements (Google Backstop) for the Fluidstack HPC Leases at Lake Mariner",
+      "description": "Google agreed to backstop certain obligations of Fluidstack under its data center leases with TeraWulf at the Lake Mariner campus in New York. The backstop was $1.8 billion for the first leases and rose by $1.4 billion with the CB-5 lease, to about $3.2 billion. Google received TeraWulf warrants and pledged them to the construction lenders until the backstop takes effect.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 3200000000,
+          "as_of": "2025-08-18",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230010"
+          ],
+          "qualifier": "about",
+          "components": [
+            {
+              "value": 1800000000,
+              "evidence": [
+                "ev_230012"
+              ],
+              "note": "Initial leases, August 2025"
+            },
+            {
+              "value": 1400000000,
+              "evidence": [
+                "ev_230011"
+              ],
+              "note": "CB-5 lease, August 2025"
+            }
+          ],
+          "in_force": true,
+          "effective_note": "Each recognition agreement takes effect at the commencement date of its lease; one lease had commenced by 30 September 2026 and the rest are expected in the fourth quarter of 2026 and early 2027."
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Fluidstack payment default or insolvency under a Lake Mariner lease; Google then either pays the lease termination fee or pays rent due and assumes the lease.",
+      "dates": {
+        "announced": "2025-08-14",
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "TeraWulf 10-Q filed 2026-11-06 is the newest document; it supersedes the August 2025 8-K figures only on lease terms (MW amended from 162 to 168 MW for two leases). The 10-Q does not restate the dollar size; the $3.2 billion total is from the 8-K of 2025-08-18. Fluidstack has no Nvidia relationship in the register.",
+      "evidence": [
+        "ev_100047",
+        "ev_230001",
+        "ev_230002",
+        "ev_230009",
+        "ev_230010",
+        "ev_230011",
         "ev_230012"
-       ],
-       "note": "Initial leases, August 2025"
+      ]
+    },
+    {
+      "id": "cx_google_fluidstack_noteholders_credit_support_2025",
+      "kind": "credit_support",
+      "provider": "ent_google",
+      "beneficiary": "ent_wulf_compute_noteholders",
+      "obligor": "ent_fluidstack",
+      "instrument": "Google affiliate undertaking to the collateral agent and Google warrant pledge agreement (Wulf Compute 2030 Secured Notes)",
+      "description": "In connection with Wulf Compute's $3.2 billion of 7.75% senior secured notes due 2030, an affiliate of Google agreed directly with the noteholders' collateral agent that it will pay, or cause Google to pay, the lease Termination Fee on the schedule in the recognition agreements. Google also pledged its TeraWulf warrants to the collateral agent until each lease commences or the notes are repaid. The notes are also secured by a Fluidstack lockbox account.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 3200000000,
+          "as_of": "2025-10-22",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230003"
+          ],
+          "note": "Principal of the notes the undertaking supports, not a cap on Google's payment."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
       },
-      {
-       "value": 1400000000,
-       "evidence": [
-        "ev_230011"
-       ],
-       "note": "CB-5 lease, August 2025"
-      }
-     ],
-     "in_force": true,
-     "effective_note": "Each recognition agreement takes effect at the commencement date of its lease; one lease had commenced by 30 September 2026 and the rest are expected in the fourth quarter of 2026 and early 2027."
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Fluidstack payment default or insolvency under a Lake Mariner lease; Google then either pays the lease termination fee or pays rent due and assumes the lease.",
-   "dates": {
-    "announced": "2025-08-14",
-    "signed": null,
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": false,
-   "nvidia_links": [],
-   "notes": "TeraWulf 10-Q filed 2026-11-06 is the newest document; it supersedes the August 2025 8-K figures only on lease terms (MW amended from 162 to 168 MW for two leases). The 10-Q does not restate the dollar size; the $3.2 billion total is from the 8-K of 2025-08-18. Fluidstack has no Nvidia relationship in the register.",
-   "evidence": [
-    "ev_100047",
-    "ev_230001",
-    "ev_230002",
-    "ev_230009",
-    "ev_230010",
-    "ev_230011",
-    "ev_230012"
-   ]
-  },
-  {
-   "id": "cx_google_fluidstack_noteholders_credit_support_2025",
-   "kind": "credit_support",
-   "provider": "ent_google",
-   "beneficiary": "ent_wulf_compute_noteholders",
-   "obligor": "ent_fluidstack",
-   "instrument": "Google affiliate undertaking to the collateral agent and Google warrant pledge agreement (Wulf Compute 2030 Secured Notes)",
-   "description": "In connection with Wulf Compute's $3.2 billion of 7.75% senior secured notes due 2030, an affiliate of Google agreed directly with the noteholders' collateral agent that it will pay, or cause Google to pay, the lease Termination Fee on the schedule in the recognition agreements. Google also pledged its TeraWulf warrants to the collateral agent until each lease commences or the notes are repaid. The notes are also secured by a Fluidstack lockbox account.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 3200000000,
-     "as_of": "2025-10-22",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230003"
-     ],
-     "note": "Principal of the notes the undertaking supports, not a cap on Google's payment."
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Fluidstack payment default or insolvency under a Lake Mariner lease, as for the Google Backstop.",
-   "dates": {
-    "announced": null,
-    "signed": "2025-10-22",
-    "effective": null,
-    "maturity": "2030-10-15"
-   },
-   "same_capacity_as_nvidia": false,
-   "nvidia_links": [],
-   "notes": "This turns the landlord-level backstop into a promise made to the lenders themselves. Maturity is the notes' maturity date.",
-   "evidence": [
-    "ev_230001",
-    "ev_230003",
-    "ev_230004",
-    "ev_230005"
-   ],
-   "same_obligation_as": "cx_google_fluidstack_backstop_2025"
-  },
-  {
-   "id": "cx_terawulf_wulf_compute_completion_guarantee_2025",
-   "kind": "parent_guarantee",
-   "provider": "ent_terawulf",
-   "beneficiary": "ent_wulf_compute_noteholders",
-   "obligor": "ent_wulf_compute",
-   "instrument": "Completion guarantees for the Lake Mariner HPC buildout",
-   "description": "TeraWulf gave customary completion guarantees under which it will fund Wulf Compute as needed to finish the Lake Mariner HPC buildings on time. The guarantee protects the holders of the $3.2 billion of notes during construction, before Google's backstop takes effect at each lease commencement.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 3200000000,
-     "as_of": "2025-10-22",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230003"
-     ],
-     "note": "Principal of the notes during whose construction period the guarantee applies."
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Construction cost overruns or delays at Lake Mariner that Wulf Compute cannot fund itself.",
-   "dates": {
-    "announced": null,
-    "signed": "2025-10-22",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": false,
-   "nvidia_links": [],
-   "notes": "No cap stated.",
-   "evidence": [
-    "ev_230003",
-    "ev_230006"
-   ]
-  },
-  {
-   "id": "cx_google_fluidstack_backstop_abernathy_2025",
-   "kind": "backstop",
-   "provider": "ent_google",
-   "beneficiary": "ent_abernathy_jv",
-   "obligor": "ent_fluidstack",
-   "instrument": "Datacenter Recognition Agreement (Datacenter Google Backstop) for the Abernathy Datacenter Lease",
-   "description": "Google agreed to backstop certain obligations of Fluidstack under its lease of the 168 MW Abernathy, Texas campus owned by a joint venture. The backstop totals $1.3 billion and amortizes over ten years from rent commencement. The joint venture sold $1.3 billion of 7.25% senior secured notes due 2030 to fund construction. TeraWulf sold its 50.1% stake in the joint venture to the Fluidstack member and others in July 2026.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 1300000000,
-     "as_of": "2025-12-29",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230007"
-     ],
-     "note": "Principal of the joint venture notes that the lease and backstop support."
-    },
-    "maximum": {
-     "value": 1300000000,
-     "as_of": "2025-10-28",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230013"
-     ],
-     "in_force": false,
-     "effective_note": "Takes effect at the commencement date of the Abernathy lease; amortizes over ten years from rent commencement."
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Fluidstack payment default or insolvency under the Abernathy lease; Google pays the termination fee or pays rent due and assumes the lease at a discounted rent.",
-   "dates": {
-    "announced": "2025-10-28",
-    "signed": "2025-09-26",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": false,
-   "nvidia_links": [],
-   "notes": "TeraWulf no longer holds equity in the joint venture after July 2026 (10-Q filed 2026-11-06), so the landlord is now controlled by Fluidstack and other purchasers. Whether the backstop was amended on the sale is not stated.",
-   "evidence": [
-    "ev_230007",
-    "ev_230008",
-    "ev_230013",
-    "ev_230014"
-   ]
-  },
-  {
-   "id": "cx_google_fluidstack_backstop_barber_lake_2025",
-   "kind": "backstop",
-   "provider": "ent_google",
-   "beneficiary": "ent_cipher_digital",
-   "obligor": "ent_fluidstack",
-   "instrument": "Recognition Agreement (Google BackStop) for the Fluidstack Lease at Barber Lake",
-   "description": "Google agreed to support certain payment obligations of Fluidstack under its lease of Cipher's Barber Lake, Texas facility. The backstop started at $1.4 billion in September 2025 and rose to $1.73 billion in November 2025 with an added 39 MW. Cipher funded the site with $1.733 billion of 7.125% senior secured notes due 2030 issued by Cipher Compute. Google received Cipher warrants, which it pledged to the construction lenders until the backstop takes effect.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "maximum": {
-     "value": 1730000000,
-     "as_of": "2025-11-20",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230020"
-     ],
-     "in_force": false,
-     "effective_note": "Takes effect at the Fluidstack Lease commencement date; data halls are due between the fourth quarter of 2026 and the first quarter of 2027."
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Fluidstack payment default or insolvency under the Barber Lake lease.",
-   "dates": {
-    "announced": "2025-09-25",
-    "signed": "2025-09-24",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": false,
-   "nvidia_links": [],
-   "notes": "Cipher 10-Q filed 2026-11-02 is the newest document. In September 2026 Cipher removed Fluidstack's extension options and signed a ten-year follow-on lease with an unnamed leading AI lab, so Google's backstop covers only the Fluidstack term.",
-   "evidence": [
-    "ev_230015",
-    "ev_230016",
-    "ev_230017",
-    "ev_230018",
-    "ev_230019",
-    "ev_230020",
-    "ev_230021"
-   ]
-  },
-  {
-   "id": "cx_google_fluidstack_backstop_river_bend_2025",
-   "kind": "backstop",
-   "provider": "ent_google",
-   "beneficiary": "ent_hut_8",
-   "obligor": "ent_fluidstack",
-   "instrument": "Financial backstop by Google LLC of the River Bend lease",
-   "description": "Google provides a financial backstop of rent and certain other obligations of Fluidstack under its 15-year lease of Hut 8's 245 MW River Bend data center in Louisiana. The lease is valued at $7.0 billion over the base term. Hut 8's subsidiary raised $3.25 billion of senior secured notes on the lease, which are not guaranteed by Hut 8, Fluidstack or Google.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 7000000000,
-     "as_of": "2025-12-17",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230027"
-     ],
-     "note": "Lease value over the base term that the backstop covers; no separate cap is stated."
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Fluidstack failure to pay rent and pass-through obligations under the River Bend lease.",
-   "dates": {
-    "announced": "2025-12-17",
-    "signed": null,
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": false,
-   "nvidia_links": [],
-   "notes": "Hut 8 10-Q filed 2026-11-04 is newest. A further Google backstop of an Operations Services Agreement was expected; it is not confirmed signed. The end user of the capacity is not named in the filings read.",
-   "evidence": [
-    "ev_230022",
-    "ev_230023",
-    "ev_230024",
-    "ev_230025",
-    "ev_230027",
-    "ev_230028",
-    "ev_230029"
-   ]
-  },
-  {
-   "id": "cx_meta_nebius_backstop_2026",
-   "kind": "backstop",
-   "provider": "ent_meta",
-   "beneficiary": "ent_nebius",
-   "obligor": "ent_nebius",
-   "instrument": "Further Order under the Infrastructure Services Agreement of 13 March 2026 (purchase of unsold capacity)",
-   "description": "Under its 2026 agreement with Nebius, Meta is obligated to buy any capacity on certain GPU clusters that Nebius does not sell to other customers, for five years from deployment. The order has a potential value of up to $15 billion. It is the same structure as Nvidia's order to buy CoreWeave's unsold capacity, with Meta as the buyer of last resort.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "maximum": {
-     "value": 15000000000,
-     "as_of": "2026-04-30",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_40081"
-     ],
-     "qualifier": "up to"
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Nebius fails to sell capacity on the specified GPU clusters to third party customers.",
-   "dates": {
-    "announced": null,
-    "signed": "2026-03-13",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_nebius_eq_2026",
-    "rel_nebius_eq_2024"
-   ],
-   "notes": "Company level link only: Nvidia holds Nebius equity and a pre-funded warrant, not a capacity backstop. No filing ties Meta's order to a Nebius debt facility.",
-   "evidence": [
-    "ev_230071",
-    "ev_230072",
-    "ev_40080",
-    "ev_40081"
-   ]
-  },
-  {
-   "id": "cx_openai_coreweave_compute_contract_2025",
-   "kind": "compute_contract",
-   "provider": "ent_openai",
-   "beneficiary": "ent_mufg",
-   "obligor": "ent_coreweave_ccac",
-   "instrument": "OpenAI Master Services Agreement of 7 March 2025 and Reserved Compute Instance Order Form #1 (Phoenix 1), pledged under DDTL 3.0",
-   "description": "CoreWeave's DDTL 3.0 facility of up to $2.6 billion is sized on, and secured by, OpenAI's March 2025 contract and its first order form. OpenAI committed to pay CoreWeave up to about $11.9 billion through October 2030 under that agreement. The lenders, with MUFG as agent, therefore rely on OpenAI's payments.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 11900000000,
-     "as_of": "2026-03-02",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_20199"
-     ],
-     "qualifier": "up to",
-     "note": "OpenAI's commitment under the March 2025 agreement."
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": 2323000000,
-     "as_of": "2026-09-30",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_20048"
-     ],
-     "note": "DDTL 3.0 outstanding, the debt the contract supports."
-    }
-   },
-   "trigger": "OpenAI stops paying under the order form; DSCR and contract realization covenants then bite.",
-   "dates": {
-    "announced": null,
-    "signed": "2025-03-07",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_coreweave_bk_2025",
-    "rel_coreweave_eq_2025"
-   ],
-   "notes": "Nvidia's $6.3 billion order to buy CoreWeave's unsold capacity is not tied to any facility in the filings, so the link is company level.",
-   "evidence": [
-    "ev_20048",
-    "ev_20136",
-    "ev_20199",
-    "ev_20205",
-    "ev_20207",
-    "ev_20208"
-   ]
-  },
-  {
-   "id": "cx_coreweave_ccac_parent_guarantee_2025",
-   "kind": "parent_guarantee",
-   "provider": "ent_coreweave",
-   "beneficiary": "ent_blackstone",
-   "obligor": "ent_coreweave_ccac",
-   "instrument": "CoreWeave, Inc. unconditional guarantee of the DDTL Facilities (DDTL 1.0, 2.0, 2.1 and 3.0)",
-   "description": "CoreWeave, Inc. unconditionally guarantees all obligations of its special purpose borrowers under the DDTL 1.0, 2.0, 2.1 and 3.0 GPU facilities. The first two were led by Blackstone and Magnetar; DDTL 3.0 has MUFG as agent. So these lenders hold both the GPU collateral and a claim on the parent.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 15500000000,
-     "as_of": "2025-12-31",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [],
-     "components": [
-      {
-       "value": 2300000000,
-       "evidence": [
-        "ev_20133"
-       ],
-       "note": "DDTL 1.0"
+      "trigger": "Fluidstack payment default or insolvency under a Lake Mariner lease, as for the Google Backstop.",
+      "dates": {
+        "announced": null,
+        "signed": "2025-10-22",
+        "effective": null,
+        "maturity": "2030-10-15"
       },
-      {
-       "value": 7600000000,
-       "evidence": [
-        "ev_20134"
-       ],
-       "note": "DDTL 2.0"
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "This turns the landlord-level backstop into a promise made to the lenders themselves. Maturity is the notes' maturity date.",
+      "evidence": [
+        "ev_230001",
+        "ev_230003",
+        "ev_230004",
+        "ev_230005"
+      ],
+      "same_obligation_as": "cx_google_fluidstack_backstop_2025"
+    },
+    {
+      "id": "cx_terawulf_wulf_compute_completion_guarantee_2025",
+      "kind": "parent_guarantee",
+      "provider": "ent_terawulf",
+      "beneficiary": "ent_wulf_compute_noteholders",
+      "obligor": "ent_wulf_compute",
+      "instrument": "Completion guarantees for the Lake Mariner HPC buildout",
+      "description": "TeraWulf gave customary completion guarantees under which it will fund Wulf Compute as needed to finish the Lake Mariner HPC buildings on time. The guarantee protects the holders of the $3.2 billion of notes during construction, before Google's backstop takes effect at each lease commencement.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 3200000000,
+          "as_of": "2025-10-22",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230003"
+          ],
+          "note": "Principal of the notes during whose construction period the guarantee applies."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
       },
-      {
-       "value": 3000000000,
-       "evidence": [
-        "ev_20135"
-       ],
-       "note": "DDTL 2.1"
+      "trigger": "Construction cost overruns or delays at Lake Mariner that Wulf Compute cannot fund itself.",
+      "dates": {
+        "announced": null,
+        "signed": "2025-10-22",
+        "effective": null,
+        "maturity": null
       },
-      {
-       "value": 2600000000,
-       "evidence": [
-        "ev_20136"
-       ],
-       "note": "DDTL 3.0"
-      }
-     ],
-     "note": "Sum of facility commitments (analysis of four stated figures)."
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "No cap stated.",
+      "evidence": [
+        "ev_230003",
+        "ev_230006"
+      ]
     },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": 8752000000,
-     "as_of": "2026-09-30",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [],
-     "components": [
-      {
-       "value": 1139000000,
-       "evidence": [
-        "ev_20045"
-       ],
-       "note": "DDTL 1.0"
+    {
+      "id": "cx_google_fluidstack_backstop_abernathy_2025",
+      "kind": "backstop",
+      "provider": "ent_google",
+      "beneficiary": "ent_abernathy_jv",
+      "obligor": "ent_fluidstack",
+      "instrument": "Datacenter Recognition Agreement (Datacenter Google Backstop) for the Abernathy Datacenter Lease",
+      "description": "Google agreed to backstop certain obligations of Fluidstack under its lease of the 168 MW Abernathy, Texas campus owned by a joint venture. The backstop totals $1.3 billion and amortizes over ten years from rent commencement. The joint venture sold $1.3 billion of 7.25% senior secured notes due 2030 to fund construction. TeraWulf sold its 50.1% stake in the joint venture to the Fluidstack member and others in July 2026.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 1300000000,
+          "as_of": "2025-12-29",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230007"
+          ],
+          "note": "Principal of the joint venture notes that the lease and backstop support."
+        },
+        "maximum": {
+          "value": 1300000000,
+          "as_of": "2025-10-28",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230013"
+          ],
+          "in_force": false,
+          "effective_note": "Takes effect at the commencement date of the Abernathy lease; amortizes over ten years from rent commencement."
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
       },
-      {
-       "value": 2796000000,
-       "evidence": [
-        "ev_20046"
-       ],
-       "note": "DDTL 2.0"
+      "trigger": "Fluidstack payment default or insolvency under the Abernathy lease; Google pays the termination fee or pays rent due and assumes the lease at a discounted rent.",
+      "dates": {
+        "announced": "2025-10-28",
+        "signed": "2025-09-26",
+        "effective": null,
+        "maturity": null
       },
-      {
-       "value": 2494000000,
-       "evidence": [
-        "ev_20047"
-       ],
-       "note": "DDTL 2.1"
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "TeraWulf no longer holds equity in the joint venture after July 2026 (10-Q filed 2026-11-06), so the landlord is now controlled by Fluidstack and other purchasers. Whether the backstop was amended on the sale is not stated.",
+      "evidence": [
+        "ev_230007",
+        "ev_230008",
+        "ev_230013",
+        "ev_230014"
+      ]
+    },
+    {
+      "id": "cx_google_fluidstack_backstop_barber_lake_2025",
+      "kind": "backstop",
+      "provider": "ent_google",
+      "beneficiary": "ent_cipher_digital",
+      "obligor": "ent_fluidstack",
+      "instrument": "Recognition Agreement (Google BackStop) for the Fluidstack Lease at Barber Lake",
+      "description": "Google agreed to support certain payment obligations of Fluidstack under its lease of Cipher's Barber Lake, Texas facility. The backstop started at $1.4 billion in September 2025 and rose to $1.73 billion in November 2025 with an added 39 MW. Cipher funded the site with $1.733 billion of 7.125% senior secured notes due 2030 issued by Cipher Compute. Google received Cipher warrants, which it pledged to the construction lenders until the backstop takes effect.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 1730000000,
+          "as_of": "2025-11-20",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230020"
+          ],
+          "in_force": false,
+          "effective_note": "Takes effect at the Fluidstack Lease commencement date; data halls are due between the fourth quarter of 2026 and the first quarter of 2027."
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
       },
-      {
-       "value": 2323000000,
-       "evidence": [
-        "ev_20048"
-       ],
-       "note": "DDTL 3.0"
-      }
-     ],
-     "note": "Sum of outstanding balances at 30 September 2026."
+      "trigger": "Fluidstack payment default or insolvency under the Barber Lake lease.",
+      "dates": {
+        "announced": "2025-09-25",
+        "signed": "2025-09-24",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "Cipher 10-Q filed 2026-11-02 is the newest document. In September 2026 Cipher removed Fluidstack's extension options and signed a ten-year follow-on lease with an unnamed leading AI lab, so Google's backstop covers only the Fluidstack term.",
+      "evidence": [
+        "ev_230015",
+        "ev_230016",
+        "ev_230017",
+        "ev_230018",
+        "ev_230019",
+        "ev_230020",
+        "ev_230021"
+      ]
+    },
+    {
+      "id": "cx_google_fluidstack_backstop_river_bend_2025",
+      "kind": "backstop",
+      "provider": "ent_google",
+      "beneficiary": "ent_hut_8",
+      "obligor": "ent_fluidstack",
+      "instrument": "Financial backstop by Google LLC of the River Bend lease",
+      "description": "Google provides a financial backstop of rent and certain other obligations of Fluidstack under its 15-year lease of Hut 8's 245 MW River Bend data center in Louisiana. The lease is valued at $7.0 billion over the base term. Hut 8's subsidiary raised $3.25 billion of senior secured notes on the lease, which are not guaranteed by Hut 8, Fluidstack or Google.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 7000000000,
+          "as_of": "2025-12-17",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230027"
+          ],
+          "note": "Lease value over the base term that the backstop covers; no separate cap is stated."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Fluidstack failure to pay rent and pass-through obligations under the River Bend lease.",
+      "dates": {
+        "announced": "2025-12-17",
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "Hut 8 10-Q filed 2026-11-04 is newest. A further Google backstop of an Operations Services Agreement was expected; it is not confirmed signed. The end user of the capacity is not named in the filings read.",
+      "evidence": [
+        "ev_230022",
+        "ev_230023",
+        "ev_230024",
+        "ev_230025",
+        "ev_230027",
+        "ev_230028",
+        "ev_230029"
+      ]
+    },
+    {
+      "id": "cx_meta_nebius_backstop_2026",
+      "kind": "backstop",
+      "provider": "ent_meta",
+      "beneficiary": "ent_nebius",
+      "obligor": "ent_nebius",
+      "instrument": "Further Order under the Infrastructure Services Agreement of 13 March 2026 (purchase of unsold capacity)",
+      "description": "Under its 2026 agreement with Nebius, Meta is obligated to buy any capacity on certain GPU clusters that Nebius does not sell to other customers, for five years from deployment. The order has a potential value of up to $15 billion. It is the same structure as Nvidia's order to buy CoreWeave's unsold capacity, with Meta as the buyer of last resort.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": 15000000000,
+          "as_of": "2026-04-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_40081"
+          ],
+          "qualifier": "up to"
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Nebius fails to sell capacity on the specified GPU clusters to third party customers.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-03-13",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_nebius_eq_2026",
+        "rel_nebius_eq_2024"
+      ],
+      "notes": "Company level link only: Nvidia holds Nebius equity and a pre-funded warrant, not a capacity backstop. No filing ties Meta's order to a Nebius debt facility.",
+      "evidence": [
+        "ev_230071",
+        "ev_230072",
+        "ev_40080",
+        "ev_40081"
+      ]
+    },
+    {
+      "id": "cx_openai_coreweave_compute_contract_2025",
+      "kind": "compute_contract",
+      "provider": "ent_openai",
+      "beneficiary": "ent_mufg",
+      "obligor": "ent_coreweave_ccac",
+      "instrument": "OpenAI Master Services Agreement of 7 March 2025 and Reserved Compute Instance Order Form #1 (Phoenix 1), pledged under DDTL 3.0",
+      "description": "CoreWeave's DDTL 3.0 facility of up to $2.6 billion is sized on, and secured by, OpenAI's March 2025 contract and its first order form. OpenAI committed to pay CoreWeave up to about $11.9 billion through October 2030 under that agreement. The lenders, with MUFG as agent, therefore rely on OpenAI's payments.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 11900000000,
+          "as_of": "2026-03-02",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20199"
+          ],
+          "qualifier": "up to",
+          "note": "OpenAI's commitment under the March 2025 agreement."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": 2323000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20048"
+          ],
+          "note": "DDTL 3.0 outstanding, the debt the contract supports."
+        }
+      },
+      "trigger": "OpenAI stops paying under the order form; DSCR and contract realization covenants then bite.",
+      "dates": {
+        "announced": null,
+        "signed": "2025-03-07",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_coreweave_bk_2025",
+        "rel_coreweave_eq_2025"
+      ],
+      "notes": "Nvidia's $6.3 billion order to buy CoreWeave's unsold capacity is not tied to any facility in the filings, so the link is company level.",
+      "evidence": [
+        "ev_20048",
+        "ev_20136",
+        "ev_20199",
+        "ev_20205",
+        "ev_20207",
+        "ev_20208"
+      ]
+    },
+    {
+      "id": "cx_coreweave_ccac_parent_guarantee_2025",
+      "kind": "parent_guarantee",
+      "provider": "ent_coreweave",
+      "beneficiary": "ent_blackstone",
+      "obligor": "ent_coreweave_ccac",
+      "instrument": "CoreWeave, Inc. unconditional guarantee of the DDTL Facilities (DDTL 1.0, 2.0, 2.1 and 3.0)",
+      "description": "CoreWeave, Inc. unconditionally guarantees all obligations of its special purpose borrowers under the DDTL 1.0, 2.0, 2.1 and 3.0 GPU facilities. The first two were led by Blackstone and Magnetar; DDTL 3.0 has MUFG as agent. So these lenders hold both the GPU collateral and a claim on the parent.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 15500000000,
+          "as_of": "2025-12-31",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [],
+          "components": [
+            {
+              "value": 2300000000,
+              "evidence": [
+                "ev_20133"
+              ],
+              "note": "DDTL 1.0"
+            },
+            {
+              "value": 7600000000,
+              "evidence": [
+                "ev_20134"
+              ],
+              "note": "DDTL 2.0"
+            },
+            {
+              "value": 3000000000,
+              "evidence": [
+                "ev_20135"
+              ],
+              "note": "DDTL 2.1"
+            },
+            {
+              "value": 2600000000,
+              "evidence": [
+                "ev_20136"
+              ],
+              "note": "DDTL 3.0"
+            }
+          ],
+          "note": "Sum of facility commitments (analysis of four stated figures)."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": 8752000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [],
+          "components": [
+            {
+              "value": 1139000000,
+              "evidence": [
+                "ev_20045"
+              ],
+              "note": "DDTL 1.0"
+            },
+            {
+              "value": 2796000000,
+              "evidence": [
+                "ev_20046"
+              ],
+              "note": "DDTL 2.0"
+            },
+            {
+              "value": 2494000000,
+              "evidence": [
+                "ev_20047"
+              ],
+              "note": "DDTL 2.1"
+            },
+            {
+              "value": 2323000000,
+              "evidence": [
+                "ev_20048"
+              ],
+              "note": "DDTL 3.0"
+            }
+          ],
+          "note": "Sum of outstanding balances at 30 September 2026."
+        }
+      },
+      "trigger": "Borrower default under a DDTL facility.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_coreweave_bk_2025",
+        "rel_coreweave_eq_2025"
+      ],
+      "notes": "Beneficiary shown as Blackstone, lead lender on DDTL 1.0 and 2.0; Magnetar co-led and MUFG is agent on DDTL 3.0. Source is the FY2025 10-K (2026-03-02); balances from the Q3 2026 10-Q (2026-11-12). DDTL 4.0 is excluded: its parent guarantee is limited to bad acts (separate link). Whether DDTL 5.0 and 5.5 carry a parent guarantee is not stated in the documents read.",
+      "evidence": [
+        "ev_20045",
+        "ev_20046",
+        "ev_20047",
+        "ev_20048",
+        "ev_20133",
+        "ev_20134",
+        "ev_20135",
+        "ev_20136",
+        "ev_20138",
+        "ev_20147",
+        "ev_20205"
+      ]
+    },
+    {
+      "id": "cx_coreweave_ccac_limited_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_coreweave",
+      "beneficiary": "ent_mufg",
+      "obligor": "ent_coreweave_ccac",
+      "instrument": "Limited recourse parent guarantee for specified bad acts (DDTL 4.0)",
+      "description": "CoreWeave's $8.5 billion DDTL 4.0 facility is non-recourse to the parent except for a guarantee limited to specified bad acts. It finances capacity for one contract with an unnamed leading AI enterprise, and lenders rely on that contract and $5.2 billion of pledged assets.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 8500000000,
+          "as_of": "2026-11-12",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20075"
+          ]
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": 4583000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_20064"
+          ]
+        }
+      },
+      "trigger": "Fraud or other specified bad acts by the borrower group; not ordinary payment default.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": "2032-03-31"
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_coreweave_bk_2025",
+        "rel_coreweave_eq_2025"
+      ],
+      "notes": "The facility is rated A3 by Moody's and A (low) by DBRS, which suggests an investment grade customer; the customer is not named.",
+      "evidence": [
+        "ev_20064",
+        "ev_20075",
+        "ev_20080",
+        "ev_20165",
+        "ev_20167",
+        "ev_20169",
+        "ev_20172"
+      ]
+    },
+    {
+      "id": "cx_coreweave_cw_spv_lease_guarantee_2026",
+      "kind": "lease_guarantee",
+      "provider": "ent_coreweave",
+      "beneficiary": "ent_core_scientific",
+      "obligor": "ent_coreweave_cw_spv",
+      "instrument": "CoreWeave remains primary obligor under license agreements assigned to CW SPV",
+      "description": "During 2026 CoreWeave assigned certain of its Core Scientific license agreements to a special purpose subsidiary, CW SPV. CoreWeave remains a primary obligor under those agreements, so Core Scientific keeps a claim on the parent. CoreWeave leases about 590 MW across five Core Scientific sites; $1.8 billion of payments on CoreWeave leases not yet commenced are noncancellable.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 1800000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230038"
+          ],
+          "note": "Future payments on CoreWeave leases not yet commenced only; commenced leases are not split by tenant."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "CW SPV fails to pay under an assigned license agreement.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_coreweave_bk_2025",
+        "rel_coreweave_eq_2025",
+        "rel_coreweave_gu_2026"
+      ],
+      "notes": "Core Scientific notes its practical recourse depends on CoreWeave's financial condition. Nvidia's January 2026 framework intent to support CoreWeave's land, power and shell is headline only.",
+      "evidence": [
+        "ev_230036",
+        "ev_230037",
+        "ev_230038",
+        "ev_230041"
+      ]
+    },
+    {
+      "id": "cx_coreweave_helios_compute_contract_2026",
+      "kind": "compute_contract",
+      "provider": "ent_coreweave",
+      "beneficiary": "ent_helios_noteholders",
+      "obligor": "ent_galaxy_helios",
+      "instrument": "CoreWeave Lease Agreement for Helios Phase II, collateral for the 9.875% Senior Secured Notes due 2031",
+      "description": "Galaxy Helios II issued $3.5 billion of 9.875% senior secured notes due 2031 to build two buildings at Helios leased to CoreWeave. The investor presentation shows $10.4 billion of minimum contracted lease payments over a 15-year term and cites Nvidia's stake in CoreWeave and its obligation to buy up to $6.3 billion of CoreWeave's unsold capacity. Only the issuer, its subsidiary guarantor and the project provide credit support for the notes.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 10400000000,
+          "as_of": "2026-07-22",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230034"
+          ],
+          "note": "Minimum contracted lease payments, Phase II."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": 3500000000,
+          "as_of": "2026-07-28",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230030"
+          ],
+          "note": "Notes issued against the lease."
+        }
+      },
+      "trigger": "CoreWeave fails to pay rent under the Helios lease.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_coreweave_bk_2025",
+        "rel_coreweave_eq_2025",
+        "rel_coreweave_gu_2026"
+      ],
+      "notes": "Lease entered into in April 2025 (10-Q). This is the only lender document found that cites Nvidia's CoreWeave backstop as a reason to buy.",
+      "evidence": [
+        "ev_170016",
+        "ev_170017",
+        "ev_170018",
+        "ev_230030",
+        "ev_230032",
+        "ev_230033",
+        "ev_230034",
+        "ev_230035"
+      ]
+    },
+    {
+      "id": "cx_galaxy_helios_completion_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_galaxy_digital",
+      "beneficiary": "ent_deutsche_bank",
+      "obligor": "ent_galaxy_helios",
+      "instrument": "GDH LP completion guarantees (Helios Credit Agreement and two data center buildings)",
+      "description": "Galaxy's operating parent GDH LP has given completion guarantees in connection with the Helios Credit Agreement with Deutsche Bank and for the construction of two Helios buildings. They protect lenders until the CoreWeave leases start paying rent.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Galaxy cannot complete construction within its cost estimates.",
+      "dates": {
+        "announced": null,
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_coreweave_bk_2025",
+        "rel_coreweave_eq_2025",
+        "rel_coreweave_gu_2026"
+      ],
+      "notes": "No cap stated. Same capacity flag is company level through the CoreWeave tenant.",
+      "evidence": [
+        "ev_230030",
+        "ev_230031",
+        "ev_230080"
+      ]
+    },
+    {
+      "id": "cx_core_scientific_completion_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_core_scientific",
+      "beneficiary": "ent_core_scientific_noteholders",
+      "obligor": "ent_core_scientific_finance",
+      "instrument": "Uncapped completion guarantee for the 7.75% Senior Secured Notes due 2031",
+      "description": "Core Scientific gave an uncapped completion guarantee to the holders of $3.3 billion of notes issued by Core Scientific Finance, covering specified data center development projects. Repayment starts after rent commencement under the related data center leases.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 3300000000,
+          "as_of": "2026-05-06",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230040"
+          ],
+          "note": "Principal of the notes."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Specified projects are not completed.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-05-06",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "Tenants of the specified projects are not named in the 10-Q; Core Scientific's tenants are CoreWeave and, from 2027, AMD and an unnamed neocloud.",
+      "evidence": [
+        "ev_230039",
+        "ev_230040"
+      ]
+    },
+    {
+      "id": "cx_applied_digital_coreweave_warrant_2025",
+      "kind": "share_option_or_warrant",
+      "provider": "ent_applied_digital",
+      "beneficiary": "ent_coreweave",
+      "obligor": "ent_applied_digital",
+      "instrument": "CoreWeave Warrants issued in connection with data center leases",
+      "description": "Applied Digital issued CoreWeave warrants over 13,062,521 shares in May 2025 and 8,393,611 shares in August 2025, at $7.19 and $10.75, in connection with CoreWeave's data center leases. The landlord gave its tenant equity to win the leases.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Exercisable at CoreWeave's option for ten years.",
+      "dates": {
+        "announced": null,
+        "signed": "2025-05-28",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_coreweave_bk_2025",
+        "rel_coreweave_eq_2025",
+        "rel_coreweave_gu_2026"
+      ],
+      "notes": "Share counts are not dollar amounts, so no amount is entered.",
+      "evidence": [
+        "ev_230073",
+        "ev_230074"
+      ]
+    },
+    {
+      "id": "cx_applied_digital_completion_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_applied_digital",
+      "beneficiary": "ent_apld_computeco3_noteholders",
+      "obligor": "ent_apld_computeco3",
+      "instrument": "Customary completion guarantee for the 7.000% Senior Secured Notes due 2031 (ELN-04)",
+      "description": "Applied Digital guarantees completion of the ELN-04 data center project financed by $1.59 billion of notes issued by APLD ComputeCo 3. Apart from that, the parent does not guarantee the notes.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 1590000000,
+          "as_of": "2026-06-16",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230076"
+          ],
+          "note": "Principal of the notes."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "ELN-04 not completed.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-06-16",
+        "effective": null,
+        "maturity": "2031-06-15"
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "The ELN-04 tenant is not named in the 10-Q read.",
+      "evidence": [
+        "ev_230075",
+        "ev_230076"
+      ]
+    },
+    {
+      "id": "cx_nscale_ionic_lease_guarantee_2025",
+      "kind": "lease_guarantee",
+      "provider": "ent_nscale",
+      "beneficiary": "ent_ionic_digital",
+      "obligor": "ent_nscale_ward_county",
+      "instrument": "Nscale parent company guarantee of rent from the sixth Lease Year (Ward County lease)",
+      "description": "Nscale's parent guarantees rent under the Ward County, Texas lease with Ionic Digital from the start of the sixth lease year. Nvidia guarantees rent for the first five years, up to $860.3 million. If Nscale becomes insolvent its anchor customer may step into the lease within 30 days.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 1900000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230050"
+          ],
+          "qualifier": "about",
+          "note": "Total contracted lease revenue over the initial term, both guarantee periods together."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": [],
+          "in_force": false,
+          "effective_note": "Starts at the sixth Lease Year; fixed rent began 1 August 2026."
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Nscale fails to pay rent from the sixth lease year onward.",
+      "dates": {
+        "announced": null,
+        "signed": "2025-10-14",
+        "effective": null,
+        "maturity": "2037-01-31"
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_nscale_gu_2025"
+      ],
+      "notes": "Ionic 10-Q filed 2026-11-12 supersedes the S-1/A of 2026-07-13 (contracted revenue about $1.9 billion against $1.95 billion). Ionic had no borrowings at 30 September 2026, so no landlord debt rests on the lease yet.",
+      "evidence": [
+        "ev_170012",
+        "ev_170021",
+        "ev_230048",
+        "ev_230049",
+        "ev_230050",
+        "ev_230051",
+        "ev_230055",
+        "ev_230056",
+        "ev_230057"
+      ]
+    },
+    {
+      "id": "cx_nscale_dfs_parent_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_nscale",
+      "beneficiary": "ent_dell_financial_services",
+      "obligor": "ent_nscale_dfs_customers",
+      "instrument": "Corporate Guaranty by Nscale Global Holdings Ltd in favor of DFS, 18 April 2026",
+      "description": "Nscale Global Holdings guarantees all obligations of its subsidiaries under the Dell Financial Services framework agreements for GPU and data center equipment. Initial-term rent under the schedules is about $2.54 billion, with initial terms of three or four months, so the vendor relies on the parent at refinancing.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 2540000000,
+          "as_of": "2026-11-12",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_40040"
+          ],
+          "qualifier": "about",
+          "note": "Aggregate initial-term rent under the DFS schedules."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Nscale subsidiaries fail to pay DFS.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-04-18",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_nscale_gu_2025",
+        "rel_nscale_lb_2025",
+        "rel_nscale_eq_2025",
+        "rel_nscale_fc_2026"
+      ],
+      "notes": "Company level link.",
+      "evidence": [
+        "ev_230052",
+        "ev_40040"
+      ]
+    },
+    {
+      "id": "cx_nscale_ward_county_gpu_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_nscale",
+      "beneficiary": "ent_jpmorgan",
+      "obligor": "ent_nscale_ward_county_spv",
+      "instrument": "Limited guarantees from Nscale Limited and guarantee by Nscale Ward County, LLC (Ward County GPU Facility)",
+      "description": "The $1.85 billion Ward County GPU Facility, arranged by JPMorgan and Goldman Sachs, is guaranteed by Nscale Ward County, LLC and supported by limited guarantees from Nscale Limited. It funds GPUs at the Ward County site whose lease Nvidia guarantees, and repays from one customer contract.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 1850000000,
+          "as_of": "2026-08-27",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_40035"
+          ]
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Borrower default; the loans mature when the customer makes its final scheduled payment or on 27 February 2033.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-08-27",
+        "effective": null,
+        "maturity": "2033-02-27"
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_nscale_gu_2025",
+        "rel_nscale_lb_2025"
+      ],
+      "notes": "Same site as Nvidia's lease guarantee. The customer under the contract is not named; Microsoft holds an option for more power at the site (Ionic S-1/A), but that does not prove it is the customer.",
+      "evidence": [
+        "ev_230042",
+        "ev_230043",
+        "ev_230044",
+        "ev_230054",
+        "ev_40035",
+        "ev_40036"
+      ]
+    },
+    {
+      "id": "cx_nscale_nc_gpu_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_nscale",
+      "beneficiary": "ent_goldman_sachs",
+      "obligor": "ent_nscale_nc_spv",
+      "instrument": "Limited guarantees from Nscale Limited and guarantee by Nscale Services US Inc. (North Carolina GPU Facility)",
+      "description": "The $1.2 billion North Carolina GPU Facility from Goldman Sachs and JPMorgan is guaranteed by Nscale Services US Inc. and supported by limited guarantees from Nscale Limited. It funds GPUs for one customer contract and matures by 27 December 2031.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 1200000000,
+          "as_of": "2026-08-27",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_40034"
+          ]
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Borrower default under the facility.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-08-27",
+        "effective": null,
+        "maturity": "2031-12-27"
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_nscale_gu_2025",
+        "rel_nscale_lb_2025",
+        "rel_nscale_eq_2025",
+        "rel_nscale_fc_2026"
+      ],
+      "notes": "Company level link.",
+      "evidence": [
+        "ev_230045",
+        "ev_230046",
+        "ev_230053",
+        "ev_40034"
+      ]
+    },
+    {
+      "id": "cx_nscale_gpu_financing_parent_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_nscale",
+      "beneficiary": "ent_goldman_sachs",
+      "obligor": "ent_nscale_services_uk",
+      "instrument": "Parent guarantee supporting the GPU Financing Facility (Goldman Sachs and ABN AMRO affiliates)",
+      "description": "Nscale's $1.4 billion GPU Financing Facility, lent by affiliates of Goldman Sachs and ABN AMRO at SOFR plus 5.00%, is guaranteed by subsidiaries and further supported by a parent guarantee.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 1400000000,
+          "as_of": "2026-02-11",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_40041"
+          ]
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Borrower default under the facility.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-02-11",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_nscale_gu_2025",
+        "rel_nscale_lb_2025",
+        "rel_nscale_eq_2025",
+        "rel_nscale_fc_2026"
+      ],
+      "notes": "Company level link.",
+      "evidence": [
+        "ev_230047",
+        "ev_40041"
+      ]
+    },
+    {
+      "id": "cx_iren_hardware_3_residual_value_guarantee_2026",
+      "kind": "residual_value_guarantee",
+      "provider": "ent_iren",
+      "beneficiary": "ent_csc_delaware_trust",
+      "obligor": "ent_iren_hardware_3",
+      "instrument": "Limited Parent Guarantee (Remarketing Right) by IREN Limited, 29 May 2026",
+      "description": "IREN Limited guarantees GPU Financing 1.0 lenders the shortfall if Microsoft terminates a tranche before accepting it and the GPUs cannot be remarketed or sold to repay the debt. It also guarantees repayment of any upfront amount IREN's subsidiary owes Microsoft for a terminated tranche.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 3645000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230058"
+          ],
+          "note": "Financing commitments covered."
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "An RVG Trigger: the tranche's equipment is sold under the remarketing right, or remarketing fails, after Microsoft terminates the tranche.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-05-29",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_iren_lb_2026",
+        "rel_iren_eq_2026"
+      ],
+      "notes": "Released for each tranche once Microsoft accepts it; Horizon 1 was accepted in August 2026.",
+      "evidence": [
+        "ev_230058",
+        "ev_230065",
+        "ev_230066",
+        "ev_230067",
+        "ev_230068"
+      ]
+    },
+    {
+      "id": "cx_iren_hardware_3_performance_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_iren",
+      "beneficiary": "ent_csc_delaware_trust",
+      "obligor": "ent_iren_hardware_3",
+      "instrument": "Limited Parent Guarantee (Managed Services Agreement) by IREN Limited, 29 May 2026",
+      "description": "IREN Limited guarantees to the GPU Financing 1.0 collateral agent that its manager subsidiary will perform the managed services the Microsoft contract needs. Lenders thus have parent support for operations, not only for remarketing.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "The manager fails to perform the services under the Managed Services Agreement.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-05-29",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_iren_lb_2026",
+        "rel_iren_eq_2026"
+      ],
+      "notes": "Capped at outstanding guaranteed obligations and legal limits; no figure.",
+      "evidence": [
+        "ev_230069"
+      ]
+    },
+    {
+      "id": "cx_iren_mackenzie_parent_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_iren",
+      "beneficiary": "ent_blue_owl",
+      "obligor": "ent_iren_mackenzie",
+      "instrument": "Guaranty by IREN Limited, 25 August 2026 (GPU Financing 2.0)",
+      "description": "IREN Limited guarantees the payment obligations of IE Mackenzie Compute under up to $2.4 billion of 9.0% loans and notes for GPUs in British Columbia, with Blue Owl Capital Corporation as agent. Lenders also hold the equipment.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 2400000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_40126"
+          ],
+          "qualifier": "up to"
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": 947000000,
+          "as_of": "2026-09-30",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_40127"
+          ]
+        }
+      },
+      "trigger": "Mackenzie Compute fails to pay.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-08-25",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_iren_lb_2026",
+        "rel_iren_eq_2026"
+      ],
+      "notes": "The customer for the Mackenzie GPUs is not named. Company level link.",
+      "evidence": [
+        "ev_230060",
+        "ev_230061",
+        "ev_230062",
+        "ev_40126",
+        "ev_40127"
+      ]
+    },
+    {
+      "id": "cx_iren_dell_parent_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_iren",
+      "beneficiary": "ent_dell",
+      "obligor": "ent_iren_hardware_5_6",
+      "instrument": "IREN guarantee of the Purchasers' obligations under Dell Purchase Orders of 28 September 2026",
+      "description": "IREN agreed to unconditionally guarantee two subsidiaries' obligations to Dell under purchase orders for GPUs worth about $6.7 billion, delivered from the second half of 2027. The supplier is protected by the parent before any customer financing is in place.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 6700000000,
+          "as_of": "2026-09-28",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_230063"
+          ],
+          "qualifier": "about"
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "The purchasing subsidiaries fail to pay Dell within 30 days of shipment.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-09-28",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_iren_lb_2026",
+        "rel_iren_eq_2026"
+      ],
+      "notes": "The customer contract these GPUs serve is not named.",
+      "evidence": [
+        "ev_230063",
+        "ev_230064"
+      ]
+    },
+    {
+      "id": "cx_sharonai_glas_parent_guarantee_2026",
+      "kind": "parent_guarantee",
+      "provider": "ent_sharonai",
+      "beneficiary": "ent_glas",
+      "obligor": "ent_sharonai_au_borrowers",
+      "instrument": "Guarantee Deed Poll by SharonAI Holdings Inc. (US$356 million Facility Agreement, 28 September 2026)",
+      "description": "SharonAI guarantees its Australian subsidiaries' payments under a US$356 million facility that funds equipment for one customer contract with a global technology customer. The guarantee is released once Facility A is repaid, after which the debt is non-recourse to SharonAI.",
+      "status": "definitive",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 356000000,
+          "as_of": "2026-10-01",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-25",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_40152"
+          ],
+          "qualifier": "up to"
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Borrower default before the automatic release.",
+      "dates": {
+        "announced": null,
+        "signed": "2026-09-28",
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": true,
+      "nvidia_links": [
+        "rel_sharonai_bk_2026"
+      ],
+      "notes": "Company level link only: the facility funds the Global Technology Customer contract, not the Nvidia agreement, which has no binding financing yet.",
+      "evidence": [
+        "ev_230077",
+        "ev_230078",
+        "ev_230079",
+        "ev_40152"
+      ]
+    },
+    {
+      "id": "cx_tydal_banks_volta_credit_support_2026",
+      "kind": "credit_support",
+      "provider": "ent_tydal_lc_banks",
+      "beneficiary": "ent_bitdeer",
+      "obligor": "ent_volta",
+      "instrument": "Letters of credit backing Volta's Tydal, Norway lease (anticipated)",
+      "description": "Bitdeer's lease of its 121 MW Tydal campus to a Volta subsidiary is expected to be backed by letters of credit of about $1.3 billion from affiliates of two unnamed global banks. The site will run NVIDIA GPUs for an unnamed AI lab.",
+      "status": "loi_or_framework",
+      "claim_basis": "filed",
+      "amounts": {
+        "headline": {
+          "value": 1300000000,
+          "as_of": "2026-08-05",
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": "2026-11-24",
+          "display_eligible": true,
+          "lower_bound": false,
+          "evidence": [
+            "ev_170024"
+          ],
+          "qualifier": "about"
+        },
+        "maximum": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        },
+        "drawn_or_paid": {
+          "value": null,
+          "as_of": null,
+          "fiscal_period": null,
+          "original_currency": "USD",
+          "original_value": null,
+          "fx_rate": null,
+          "fx_date": null,
+          "last_verified": null,
+          "display_eligible": false,
+          "lower_bound": false,
+          "evidence": []
+        }
+      },
+      "trigger": "Volta subsidiary defaults on the lease.",
+      "dates": {
+        "announced": "2026-08-05",
+        "signed": null,
+        "effective": null,
+        "maturity": null
+      },
+      "same_capacity_as_nvidia": false,
+      "nvidia_links": [],
+      "notes": "Anticipated, subject to conditions. Nvidia's reported stake in Volta is a single tier 2 source and not in the register.",
+      "evidence": [
+        "ev_170023",
+        "ev_170024"
+      ]
     }
-   },
-   "trigger": "Borrower default under a DDTL facility.",
-   "dates": {
-    "announced": null,
-    "signed": null,
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_coreweave_bk_2025",
-    "rel_coreweave_eq_2025"
-   ],
-   "notes": "Beneficiary shown as Blackstone, lead lender on DDTL 1.0 and 2.0; Magnetar co-led and MUFG is agent on DDTL 3.0. Source is the FY2025 10-K (2026-03-02); balances from the Q3 2026 10-Q (2026-11-12). DDTL 4.0 is excluded: its parent guarantee is limited to bad acts (separate link). Whether DDTL 5.0 and 5.5 carry a parent guarantee is not stated in the documents read.",
-   "evidence": [
-    "ev_20045",
-    "ev_20046",
-    "ev_20047",
-    "ev_20048",
-    "ev_20133",
-    "ev_20134",
-    "ev_20135",
-    "ev_20136",
-    "ev_20138",
-    "ev_20147",
-    "ev_20205"
-   ]
-  },
-  {
-   "id": "cx_coreweave_ccac_limited_guarantee_2026",
-   "kind": "parent_guarantee",
-   "provider": "ent_coreweave",
-   "beneficiary": "ent_mufg",
-   "obligor": "ent_coreweave_ccac",
-   "instrument": "Limited recourse parent guarantee for specified bad acts (DDTL 4.0)",
-   "description": "CoreWeave's $8.5 billion DDTL 4.0 facility is non-recourse to the parent except for a guarantee limited to specified bad acts. It finances capacity for one contract with an unnamed leading AI enterprise, and lenders rely on that contract and $5.2 billion of pledged assets.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 8500000000,
-     "as_of": "2026-11-12",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_20075"
-     ]
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": 4583000000,
-     "as_of": "2026-09-30",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_20064"
-     ]
-    }
-   },
-   "trigger": "Fraud or other specified bad acts by the borrower group; not ordinary payment default.",
-   "dates": {
-    "announced": null,
-    "signed": null,
-    "effective": null,
-    "maturity": "2032-03-31"
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_coreweave_bk_2025",
-    "rel_coreweave_eq_2025"
-   ],
-   "notes": "The facility is rated A3 by Moody's and A (low) by DBRS, which suggests an investment grade customer; the customer is not named.",
-   "evidence": [
-    "ev_20064",
-    "ev_20075",
-    "ev_20080",
-    "ev_20165",
-    "ev_20167",
-    "ev_20169",
-    "ev_20172"
-   ]
-  },
-  {
-   "id": "cx_coreweave_cw_spv_lease_guarantee_2026",
-   "kind": "lease_guarantee",
-   "provider": "ent_coreweave",
-   "beneficiary": "ent_core_scientific",
-   "obligor": "ent_coreweave_cw_spv",
-   "instrument": "CoreWeave remains primary obligor under license agreements assigned to CW SPV",
-   "description": "During 2026 CoreWeave assigned certain of its Core Scientific license agreements to a special purpose subsidiary, CW SPV. CoreWeave remains a primary obligor under those agreements, so Core Scientific keeps a claim on the parent. CoreWeave leases about 590 MW across five Core Scientific sites; $1.8 billion of payments on CoreWeave leases not yet commenced are noncancellable.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 1800000000,
-     "as_of": "2026-09-30",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230038"
-     ],
-     "note": "Future payments on CoreWeave leases not yet commenced only; commenced leases are not split by tenant."
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "CW SPV fails to pay under an assigned license agreement.",
-   "dates": {
-    "announced": null,
-    "signed": null,
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_coreweave_bk_2025",
-    "rel_coreweave_eq_2025",
-    "rel_coreweave_gu_2026"
-   ],
-   "notes": "Core Scientific notes its practical recourse depends on CoreWeave's financial condition. Nvidia's January 2026 framework intent to support CoreWeave's land, power and shell is headline only.",
-   "evidence": [
-    "ev_230036",
-    "ev_230037",
-    "ev_230038",
-    "ev_230041"
-   ]
-  },
-  {
-   "id": "cx_coreweave_helios_compute_contract_2026",
-   "kind": "compute_contract",
-   "provider": "ent_coreweave",
-   "beneficiary": "ent_helios_noteholders",
-   "obligor": "ent_galaxy_helios",
-   "instrument": "CoreWeave Lease Agreement for Helios Phase II, collateral for the 9.875% Senior Secured Notes due 2031",
-   "description": "Galaxy Helios II issued $3.5 billion of 9.875% senior secured notes due 2031 to build two buildings at Helios leased to CoreWeave. The investor presentation shows $10.4 billion of minimum contracted lease payments over a 15-year term and cites Nvidia's stake in CoreWeave and its obligation to buy up to $6.3 billion of CoreWeave's unsold capacity. Only the issuer, its subsidiary guarantor and the project provide credit support for the notes.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 10400000000,
-     "as_of": "2026-07-22",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230034"
-     ],
-     "note": "Minimum contracted lease payments, Phase II."
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": 3500000000,
-     "as_of": "2026-07-28",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230030"
-     ],
-     "note": "Notes issued against the lease."
-    }
-   },
-   "trigger": "CoreWeave fails to pay rent under the Helios lease.",
-   "dates": {
-    "announced": null,
-    "signed": null,
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_coreweave_bk_2025",
-    "rel_coreweave_eq_2025",
-    "rel_coreweave_gu_2026"
-   ],
-   "notes": "Lease entered into in April 2025 (10-Q). This is the only lender document found that cites Nvidia's CoreWeave backstop as a reason to buy.",
-   "evidence": [
-    "ev_170016",
-    "ev_170017",
-    "ev_170018",
-    "ev_230030",
-    "ev_230032",
-    "ev_230033",
-    "ev_230034",
-    "ev_230035"
-   ]
-  },
-  {
-   "id": "cx_galaxy_helios_completion_guarantee_2026",
-   "kind": "parent_guarantee",
-   "provider": "ent_galaxy_digital",
-   "beneficiary": "ent_deutsche_bank",
-   "obligor": "ent_galaxy_helios",
-   "instrument": "GDH LP completion guarantees (Helios Credit Agreement and two data center buildings)",
-   "description": "Galaxy's operating parent GDH LP has given completion guarantees in connection with the Helios Credit Agreement with Deutsche Bank and for the construction of two Helios buildings. They protect lenders until the CoreWeave leases start paying rent.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Galaxy cannot complete construction within its cost estimates.",
-   "dates": {
-    "announced": null,
-    "signed": null,
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_coreweave_bk_2025",
-    "rel_coreweave_eq_2025",
-    "rel_coreweave_gu_2026"
-   ],
-   "notes": "No cap stated. Same capacity flag is company level through the CoreWeave tenant.",
-   "evidence": [
-    "ev_230030",
-    "ev_230031",
-    "ev_230080"
-   ]
-  },
-  {
-   "id": "cx_core_scientific_completion_guarantee_2026",
-   "kind": "parent_guarantee",
-   "provider": "ent_core_scientific",
-   "beneficiary": "ent_core_scientific_noteholders",
-   "obligor": "ent_core_scientific_finance",
-   "instrument": "Uncapped completion guarantee for the 7.75% Senior Secured Notes due 2031",
-   "description": "Core Scientific gave an uncapped completion guarantee to the holders of $3.3 billion of notes issued by Core Scientific Finance, covering specified data center development projects. Repayment starts after rent commencement under the related data center leases.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 3300000000,
-     "as_of": "2026-05-06",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230040"
-     ],
-     "note": "Principal of the notes."
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Specified projects are not completed.",
-   "dates": {
-    "announced": null,
-    "signed": "2026-05-06",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": false,
-   "nvidia_links": [],
-   "notes": "Tenants of the specified projects are not named in the 10-Q; Core Scientific's tenants are CoreWeave and, from 2027, AMD and an unnamed neocloud.",
-   "evidence": [
-    "ev_230039",
-    "ev_230040"
-   ]
-  },
-  {
-   "id": "cx_applied_digital_coreweave_warrant_2025",
-   "kind": "share_option_or_warrant",
-   "provider": "ent_applied_digital",
-   "beneficiary": "ent_coreweave",
-   "obligor": "ent_applied_digital",
-   "instrument": "CoreWeave Warrants issued in connection with data center leases",
-   "description": "Applied Digital issued CoreWeave warrants over 13,062,521 shares in May 2025 and 8,393,611 shares in August 2025, at $7.19 and $10.75, in connection with CoreWeave's data center leases. The landlord gave its tenant equity to win the leases.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Exercisable at CoreWeave's option for ten years.",
-   "dates": {
-    "announced": null,
-    "signed": "2025-05-28",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_coreweave_bk_2025",
-    "rel_coreweave_eq_2025",
-    "rel_coreweave_gu_2026"
-   ],
-   "notes": "Share counts are not dollar amounts, so no amount is entered.",
-   "evidence": [
-    "ev_230073",
-    "ev_230074"
-   ]
-  },
-  {
-   "id": "cx_applied_digital_completion_guarantee_2026",
-   "kind": "parent_guarantee",
-   "provider": "ent_applied_digital",
-   "beneficiary": "ent_apld_computeco3_noteholders",
-   "obligor": "ent_apld_computeco3",
-   "instrument": "Customary completion guarantee for the 7.000% Senior Secured Notes due 2031 (ELN-04)",
-   "description": "Applied Digital guarantees completion of the ELN-04 data center project financed by $1.59 billion of notes issued by APLD ComputeCo 3. Apart from that, the parent does not guarantee the notes.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 1590000000,
-     "as_of": "2026-06-16",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230076"
-     ],
-     "note": "Principal of the notes."
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "ELN-04 not completed.",
-   "dates": {
-    "announced": null,
-    "signed": "2026-06-16",
-    "effective": null,
-    "maturity": "2031-06-15"
-   },
-   "same_capacity_as_nvidia": false,
-   "nvidia_links": [],
-   "notes": "The ELN-04 tenant is not named in the 10-Q read.",
-   "evidence": [
-    "ev_230075",
-    "ev_230076"
-   ]
-  },
-  {
-   "id": "cx_nscale_ionic_lease_guarantee_2025",
-   "kind": "lease_guarantee",
-   "provider": "ent_nscale",
-   "beneficiary": "ent_ionic_digital",
-   "obligor": "ent_nscale_ward_county",
-   "instrument": "Nscale parent company guarantee of rent from the sixth Lease Year (Ward County lease)",
-   "description": "Nscale's parent guarantees rent under the Ward County, Texas lease with Ionic Digital from the start of the sixth lease year. Nvidia guarantees rent for the first five years, up to $860.3 million. If Nscale becomes insolvent its anchor customer may step into the lease within 30 days.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 1900000000,
-     "as_of": "2026-09-30",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230050"
-     ],
-     "qualifier": "about",
-     "note": "Total contracted lease revenue over the initial term, both guarantee periods together."
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": [],
-     "in_force": false,
-     "effective_note": "Starts at the sixth Lease Year; fixed rent began 1 August 2026."
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Nscale fails to pay rent from the sixth lease year onward.",
-   "dates": {
-    "announced": null,
-    "signed": "2025-10-14",
-    "effective": null,
-    "maturity": "2037-01-31"
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_nscale_gu_2025"
-   ],
-   "notes": "Ionic 10-Q filed 2026-11-12 supersedes the S-1/A of 2026-07-13 (contracted revenue about $1.9 billion against $1.95 billion). Ionic had no borrowings at 30 September 2026, so no landlord debt rests on the lease yet.",
-   "evidence": [
-    "ev_170012",
-    "ev_170021",
-    "ev_230048",
-    "ev_230049",
-    "ev_230050",
-    "ev_230051",
-    "ev_230055",
-    "ev_230056",
-    "ev_230057"
-   ]
-  },
-  {
-   "id": "cx_nscale_dfs_parent_guarantee_2026",
-   "kind": "parent_guarantee",
-   "provider": "ent_nscale",
-   "beneficiary": "ent_dell_financial_services",
-   "obligor": "ent_nscale_dfs_customers",
-   "instrument": "Corporate Guaranty by Nscale Global Holdings Ltd in favor of DFS, 18 April 2026",
-   "description": "Nscale Global Holdings guarantees all obligations of its subsidiaries under the Dell Financial Services framework agreements for GPU and data center equipment. Initial-term rent under the schedules is about $2.54 billion, with initial terms of three or four months, so the vendor relies on the parent at refinancing.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 2540000000,
-     "as_of": "2026-11-12",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_40040"
-     ],
-     "qualifier": "about",
-     "note": "Aggregate initial-term rent under the DFS schedules."
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Nscale subsidiaries fail to pay DFS.",
-   "dates": {
-    "announced": null,
-    "signed": "2026-04-18",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_nscale_gu_2025",
-    "rel_nscale_lb_2025",
-    "rel_nscale_eq_2025",
-    "rel_nscale_fc_2026"
-   ],
-   "notes": "Company level link.",
-   "evidence": [
-    "ev_230052",
-    "ev_40040"
-   ]
-  },
-  {
-   "id": "cx_nscale_ward_county_gpu_guarantee_2026",
-   "kind": "parent_guarantee",
-   "provider": "ent_nscale",
-   "beneficiary": "ent_jpmorgan",
-   "obligor": "ent_nscale_ward_county_spv",
-   "instrument": "Limited guarantees from Nscale Limited and guarantee by Nscale Ward County, LLC (Ward County GPU Facility)",
-   "description": "The $1.85 billion Ward County GPU Facility, arranged by JPMorgan and Goldman Sachs, is guaranteed by Nscale Ward County, LLC and supported by limited guarantees from Nscale Limited. It funds GPUs at the Ward County site whose lease Nvidia guarantees, and repays from one customer contract.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 1850000000,
-     "as_of": "2026-08-27",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_40035"
-     ]
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Borrower default; the loans mature when the customer makes its final scheduled payment or on 27 February 2033.",
-   "dates": {
-    "announced": null,
-    "signed": "2026-08-27",
-    "effective": null,
-    "maturity": "2033-02-27"
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_nscale_gu_2025",
-    "rel_nscale_lb_2025"
-   ],
-   "notes": "Same site as Nvidia's lease guarantee. The customer under the contract is not named; Microsoft holds an option for more power at the site (Ionic S-1/A), but that does not prove it is the customer.",
-   "evidence": [
-    "ev_230042",
-    "ev_230043",
-    "ev_230044",
-    "ev_230054",
-    "ev_40035",
-    "ev_40036"
-   ]
-  },
-  {
-   "id": "cx_nscale_nc_gpu_guarantee_2026",
-   "kind": "parent_guarantee",
-   "provider": "ent_nscale",
-   "beneficiary": "ent_goldman_sachs",
-   "obligor": "ent_nscale_nc_spv",
-   "instrument": "Limited guarantees from Nscale Limited and guarantee by Nscale Services US Inc. (North Carolina GPU Facility)",
-   "description": "The $1.2 billion North Carolina GPU Facility from Goldman Sachs and JPMorgan is guaranteed by Nscale Services US Inc. and supported by limited guarantees from Nscale Limited. It funds GPUs for one customer contract and matures by 27 December 2031.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 1200000000,
-     "as_of": "2026-08-27",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_40034"
-     ]
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Borrower default under the facility.",
-   "dates": {
-    "announced": null,
-    "signed": "2026-08-27",
-    "effective": null,
-    "maturity": "2031-12-27"
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_nscale_gu_2025",
-    "rel_nscale_lb_2025",
-    "rel_nscale_eq_2025",
-    "rel_nscale_fc_2026"
-   ],
-   "notes": "Company level link.",
-   "evidence": [
-    "ev_230045",
-    "ev_230046",
-    "ev_230053",
-    "ev_40034"
-   ]
-  },
-  {
-   "id": "cx_nscale_gpu_financing_parent_guarantee_2026",
-   "kind": "parent_guarantee",
-   "provider": "ent_nscale",
-   "beneficiary": "ent_goldman_sachs",
-   "obligor": "ent_nscale_services_uk",
-   "instrument": "Parent guarantee supporting the GPU Financing Facility (Goldman Sachs and ABN AMRO affiliates)",
-   "description": "Nscale's $1.4 billion GPU Financing Facility, lent by affiliates of Goldman Sachs and ABN AMRO at SOFR plus 5.00%, is guaranteed by subsidiaries and further supported by a parent guarantee.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 1400000000,
-     "as_of": "2026-02-11",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_40041"
-     ]
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Borrower default under the facility.",
-   "dates": {
-    "announced": null,
-    "signed": "2026-02-11",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_nscale_gu_2025",
-    "rel_nscale_lb_2025",
-    "rel_nscale_eq_2025",
-    "rel_nscale_fc_2026"
-   ],
-   "notes": "Company level link.",
-   "evidence": [
-    "ev_230047",
-    "ev_40041"
-   ]
-  },
-  {
-   "id": "cx_iren_hardware_3_residual_value_guarantee_2026",
-   "kind": "residual_value_guarantee",
-   "provider": "ent_iren",
-   "beneficiary": "ent_csc_delaware_trust",
-   "obligor": "ent_iren_hardware_3",
-   "instrument": "Limited Parent Guarantee (Remarketing Right) by IREN Limited, 29 May 2026",
-   "description": "IREN Limited guarantees GPU Financing 1.0 lenders the shortfall if Microsoft terminates a tranche before accepting it and the GPUs cannot be remarketed or sold to repay the debt. It also guarantees repayment of any upfront amount IREN's subsidiary owes Microsoft for a terminated tranche.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 3645000000,
-     "as_of": "2026-09-30",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230058"
-     ],
-     "note": "Financing commitments covered."
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "An RVG Trigger: the tranche's equipment is sold under the remarketing right, or remarketing fails, after Microsoft terminates the tranche.",
-   "dates": {
-    "announced": null,
-    "signed": "2026-05-29",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_iren_lb_2026",
-    "rel_iren_eq_2026"
-   ],
-   "notes": "Released for each tranche once Microsoft accepts it; Horizon 1 was accepted in August 2026.",
-   "evidence": [
-    "ev_230058",
-    "ev_230065",
-    "ev_230066",
-    "ev_230067",
-    "ev_230068"
-   ]
-  },
-  {
-   "id": "cx_iren_hardware_3_performance_guarantee_2026",
-   "kind": "parent_guarantee",
-   "provider": "ent_iren",
-   "beneficiary": "ent_csc_delaware_trust",
-   "obligor": "ent_iren_hardware_3",
-   "instrument": "Limited Parent Guarantee (Managed Services Agreement) by IREN Limited, 29 May 2026",
-   "description": "IREN Limited guarantees to the GPU Financing 1.0 collateral agent that its manager subsidiary will perform the managed services the Microsoft contract needs. Lenders thus have parent support for operations, not only for remarketing.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "The manager fails to perform the services under the Managed Services Agreement.",
-   "dates": {
-    "announced": null,
-    "signed": "2026-05-29",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_iren_lb_2026",
-    "rel_iren_eq_2026"
-   ],
-   "notes": "Capped at outstanding guaranteed obligations and legal limits; no figure.",
-   "evidence": [
-    "ev_230069"
-   ]
-  },
-  {
-   "id": "cx_iren_mackenzie_parent_guarantee_2026",
-   "kind": "parent_guarantee",
-   "provider": "ent_iren",
-   "beneficiary": "ent_blue_owl",
-   "obligor": "ent_iren_mackenzie",
-   "instrument": "Guaranty by IREN Limited, 25 August 2026 (GPU Financing 2.0)",
-   "description": "IREN Limited guarantees the payment obligations of IE Mackenzie Compute under up to $2.4 billion of 9.0% loans and notes for GPUs in British Columbia, with Blue Owl Capital Corporation as agent. Lenders also hold the equipment.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 2400000000,
-     "as_of": "2026-09-30",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_40126"
-     ],
-     "qualifier": "up to"
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": 947000000,
-     "as_of": "2026-09-30",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_40127"
-     ]
-    }
-   },
-   "trigger": "Mackenzie Compute fails to pay.",
-   "dates": {
-    "announced": null,
-    "signed": "2026-08-25",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_iren_lb_2026",
-    "rel_iren_eq_2026"
-   ],
-   "notes": "The customer for the Mackenzie GPUs is not named. Company level link.",
-   "evidence": [
-    "ev_230060",
-    "ev_230061",
-    "ev_230062",
-    "ev_40126",
-    "ev_40127"
-   ]
-  },
-  {
-   "id": "cx_iren_dell_parent_guarantee_2026",
-   "kind": "parent_guarantee",
-   "provider": "ent_iren",
-   "beneficiary": "ent_dell",
-   "obligor": "ent_iren_hardware_5_6",
-   "instrument": "IREN guarantee of the Purchasers' obligations under Dell Purchase Orders of 28 September 2026",
-   "description": "IREN agreed to unconditionally guarantee two subsidiaries' obligations to Dell under purchase orders for GPUs worth about $6.7 billion, delivered from the second half of 2027. The supplier is protected by the parent before any customer financing is in place.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 6700000000,
-     "as_of": "2026-09-28",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_230063"
-     ],
-     "qualifier": "about"
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "The purchasing subsidiaries fail to pay Dell within 30 days of shipment.",
-   "dates": {
-    "announced": null,
-    "signed": "2026-09-28",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_iren_lb_2026",
-    "rel_iren_eq_2026"
-   ],
-   "notes": "The customer contract these GPUs serve is not named.",
-   "evidence": [
-    "ev_230063",
-    "ev_230064"
-   ]
-  },
-  {
-   "id": "cx_sharonai_glas_parent_guarantee_2026",
-   "kind": "parent_guarantee",
-   "provider": "ent_sharonai",
-   "beneficiary": "ent_glas",
-   "obligor": "ent_sharonai_au_borrowers",
-   "instrument": "Guarantee Deed Poll by SharonAI Holdings Inc. (US$356 million Facility Agreement, 28 September 2026)",
-   "description": "SharonAI guarantees its Australian subsidiaries' payments under a US$356 million facility that funds equipment for one customer contract with a global technology customer. The guarantee is released once Facility A is repaid, after which the debt is non-recourse to SharonAI.",
-   "status": "definitive",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 356000000,
-     "as_of": "2026-10-01",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-25",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_40152"
-     ],
-     "qualifier": "up to"
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Borrower default before the automatic release.",
-   "dates": {
-    "announced": null,
-    "signed": "2026-09-28",
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": true,
-   "nvidia_links": [
-    "rel_sharonai_bk_2026"
-   ],
-   "notes": "Company level link only: the facility funds the Global Technology Customer contract, not the Nvidia agreement, which has no binding financing yet.",
-   "evidence": [
-    "ev_230077",
-    "ev_230078",
-    "ev_230079",
-    "ev_40152"
-   ]
-  },
-  {
-   "id": "cx_tydal_banks_volta_credit_support_2026",
-   "kind": "credit_support",
-   "provider": "ent_tydal_lc_banks",
-   "beneficiary": "ent_bitdeer",
-   "obligor": "ent_volta",
-   "instrument": "Letters of credit backing Volta's Tydal, Norway lease (anticipated)",
-   "description": "Bitdeer's lease of its 121 MW Tydal campus to a Volta subsidiary is expected to be backed by letters of credit of about $1.3 billion from affiliates of two unnamed global banks. The site will run NVIDIA GPUs for an unnamed AI lab.",
-   "status": "loi_or_framework",
-   "claim_basis": "filed",
-   "amounts": {
-    "headline": {
-     "value": 1300000000,
-     "as_of": "2026-08-05",
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": "2026-11-24",
-     "display_eligible": true,
-     "lower_bound": false,
-     "evidence": [
-      "ev_170024"
-     ],
-     "qualifier": "about"
-    },
-    "maximum": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    },
-    "drawn_or_paid": {
-     "value": null,
-     "as_of": null,
-     "fiscal_period": null,
-     "original_currency": "USD",
-     "original_value": null,
-     "fx_rate": null,
-     "fx_date": null,
-     "last_verified": null,
-     "display_eligible": false,
-     "lower_bound": false,
-     "evidence": []
-    }
-   },
-   "trigger": "Volta subsidiary defaults on the lease.",
-   "dates": {
-    "announced": "2026-08-05",
-    "signed": null,
-    "effective": null,
-    "maturity": null
-   },
-   "same_capacity_as_nvidia": false,
-   "nvidia_links": [],
-   "notes": "Anticipated, subject to conditions. Nvidia's reported stake in Volta is a single tier 2 source and not in the register.",
-   "evidence": [
-    "ev_170023",
-    "ev_170024"
-   ]
-  }
- ]
+  ]
 }

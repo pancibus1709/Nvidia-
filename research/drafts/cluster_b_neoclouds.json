@@ -2988,7 +2988,8 @@
         "ev_80029",
         "ev_80033",
         "ev_80034",
-        "ev_30090"
+        "ev_30090",
+        "ev_260001"
       ],
       "notes": "Classification: BK with LB secondary. The 10-Q calls Nvidia a customer, but Nvidia uses the capacity only when third parties do not and pays minimum revenue, which is a capacity backstop. stress_inputs are empty: the contracted floor, merchant share and rate are not disclosed. Freshness check 2026-11-25: SharonAI's 8-K of 2026-11-24 amends its 4.75% convertible notes indenture (ev_260001); it does not change the Nvidia agreement."
     },
